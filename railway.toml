@@ -1,5 +1,5 @@
 [build]
-buildCommand = "pnpm install && pnpm run build:prod"
+buildCommand = "DATABASE_URL=postgresql://placeholder pnpm install && pnpm run build:prod"
 
 [deploy]
 startCommand = "cd packages/server && npx prisma migrate deploy && npx tsx prisma/seed.ts && node dist/index.js"
