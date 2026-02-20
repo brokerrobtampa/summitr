@@ -1,0 +1,2529 @@
+[
+  {
+    "peakName": "Mount Massive",
+    "routes": [
+      {
+        "name": "East Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Colorado's second highest peak follows a well-maintained trail from the Mount Massive trailhead through dense forest before emerging above treeline onto broad, gentle slopes. The upper mountain is a long ridge walk with stunning views of the Sawatch Range. Navigation can be tricky in fog due to the expansive summit plateau.",
+        "summary": "Standard hiking route up Colorado's second highest peak via gentle eastern slopes.",
+        "distance": 22.5,
+        "elevationGain": 1433,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"route finding in fog\"]",
+        "safetyNotes": "The summit ridge is long and exposed. Start early to avoid afternoon thunderstorms. The broad plateau makes navigation difficult in whiteout conditions.",
+        "tips": [
+          {"content": "Start before sunrise to avoid afternoon lightning on the exposed summit ridge.", "category": "timing"},
+          {"content": "Carry extra water as there are no reliable sources above treeline.", "category": "logistics"},
+          {"content": "Use GPS or a map to stay on route across the featureless upper plateau.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the long approach and descent"},
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "Afternoon storms are common above treeline"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Useful for navigation on the broad summit plateau"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Long but rewarding", "body": "A beautiful hike with incredible views from the summit. The trail is well-maintained through the forest but gets faint above treeline. Budget extra time for the long ridge walk.", "conditions": "Clear skies, dry trail, mid-July"},
+          {"rating": 5, "title": "Stunning Sawatch views", "body": "One of the best summit panoramas in Colorado. The route is straightforward but don't underestimate the distance. I could see Elbert, La Plata, and dozens of other peaks from the top.", "conditions": "Partly cloudy, some wind, early August"}
+        ]
+      },
+      {
+        "name": "Southwest Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate route that approaches Mount Massive from the southwest via Halfmoon Creek. This route sees fewer hikers than the standard East Slopes and offers a different perspective of the mountain. The trail climbs through aspen groves before reaching alpine tundra and the long summit ridge.",
+        "summary": "Less-traveled alternate route approaching from the southwest via Halfmoon Creek.",
+        "distance": 20.9,
+        "elevationGain": 1372,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"route finding\"]",
+        "safetyNotes": "Trail can be faint in the upper basin. Afternoon storms build quickly on this side of the mountain. Carry navigation tools.",
+        "tips": [
+          {"content": "This route is less crowded than the East Slopes and offers more solitude.", "category": "general"},
+          {"content": "The trail becomes faint above treeline; look for cairns to stay on route.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Map and compass", "category": "navigation", "isEssential": true, "notes": "Trail is faint in the upper basin"},
+          {"itemName": "Sun protection", "category": "clothing", "isEssential": true, "notes": "Extended exposure above treeline"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great alternative to the crowded east side", "body": "Had the mountain nearly to myself on a Saturday. The approach through the aspens is beautiful in fall. Route finding above treeline requires attention.", "conditions": "Clear skies, late September, aspens turning"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Harvard",
+    "routes": [
+      {
+        "name": "South Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Colorado's third highest peak begins at the North Cottonwood trailhead and follows the Horn Fork Basin trail. After crossing timberline, the route ascends moderate grassy slopes to the summit. This is the most popular and straightforward way up Mount Harvard.",
+        "summary": "Standard route ascending grassy slopes from Horn Fork Basin to Colorado's third highest summit.",
+        "distance": 22.5,
+        "elevationGain": 1433,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"stream crossings\"]",
+        "safetyNotes": "North Cottonwood Creek crossing can be dangerous during spring runoff. The upper slopes are exposed to lightning. Start early.",
+        "tips": [
+          {"content": "An early start is essential as the upper slopes are completely exposed to afternoon storms.", "category": "timing"},
+          {"content": "The creek crossing early in the hike can be challenging during snowmelt season.", "category": "safety"},
+          {"content": "Consider combining with Mount Columbia for a challenging double summit day.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for stream crossings and the long descent"},
+          {"itemName": "Waterproof boots", "category": "clothing", "isEssential": true, "notes": "Several stream crossings on the approach"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Extended sun exposure above treeline"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A classic Colorado 14er", "body": "Straightforward route with stunning views. The Horn Fork Basin is beautiful and the summit views stretch forever. Long day but very manageable for fit hikers.", "conditions": "Bluebird skies, dry trail, mid-July"},
+          {"rating": 4, "title": "Long approach but worth it", "body": "The approach through the forest feels long but the alpine scenery above treeline is spectacular. Summit views of the Collegiate Peaks are incredible.", "conditions": "Morning clouds clearing, late July"}
+        ]
+      },
+      {
+        "name": "North Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "A less-traveled approach to Mount Harvard from the north, starting near the Pine Creek trailhead. This route climbs through a scenic basin on the north side of the peak and is often combined with Mount Columbia. The terrain is moderate but the route is longer and more remote.",
+        "summary": "Longer northern approach often combined with a Mount Columbia summit attempt.",
+        "distance": 24.1,
+        "elevationGain": 1524,
+        "estimatedTime": 9.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"remote terrain\"]",
+        "safetyNotes": "This is a long and remote route. Ensure you have adequate supplies and navigation skills. Cell service is unreliable.",
+        "tips": [
+          {"content": "Best done as part of a Harvard-Columbia combo to maximize the long approach.", "category": "logistics"},
+          {"content": "Bring extra food and water for the longer route distance.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Remote terrain with faint trails"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Long day with limited water sources above treeline"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Remote and beautiful", "body": "Fewer people than the south side. The basin approach is stunning and the Harvard-Columbia combo makes for an epic day. Be prepared for a very long outing.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Blanca Peak",
+    "routes": [
+      {
+        "name": "Northwest Face",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard hiking route on Blanca Peak ascends the northwest face from the Lake Como road approach. After navigating the notoriously rough 4WD road (or hiking it), the route follows a well-cairned path up moderate talus and scree slopes to the summit. This is the most popular route on Blanca.",
+        "summary": "Standard route up the northwest face with a notorious 4WD road approach.",
+        "distance": 27.4,
+        "elevationGain": 1737,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"rockfall\",\"rough 4WD road\",\"altitude sickness\"]",
+        "safetyNotes": "The Lake Como road is one of the roughest in Colorado and has damaged many vehicles. Most hikers walk the road, adding significant distance. Upper mountain has loose rock.",
+        "tips": [
+          {"content": "Unless you have a highly capable 4WD vehicle, plan to hike the road which adds about 6 miles round trip.", "category": "logistics"},
+          {"content": "Consider camping at Lake Como to break the long day into two shorter days.", "category": "logistics"},
+          {"content": "Stay on the cairned route to avoid the worst of the loose scree.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for loose rock on upper mountain"},
+          {"itemName": "Gaiters", "category": "clothing", "isEssential": false, "notes": "Helpful for scree and talus sections"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Useful for the long road walk and descent"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Beautiful peak, brutal approach", "body": "The summit views are among the best in Colorado but the approach is punishing. Walking the 4WD road adds hours. Consider backpacking to Lake Como.", "conditions": "Hot and sunny, loose scree, mid-July"},
+          {"rating": 4, "title": "Epic summit with a Sangre de Cristo panorama", "body": "Camped at Lake Como which made the summit day very manageable. The NW face route is straightforward but tedious on scree. Views of the Great Sand Dunes from the summit are incredible.", "conditions": "Clear morning, afternoon clouds, early August"}
+        ]
+      },
+      {
+        "name": "Lake Como Approach",
+        "difficulty": "Class 2+",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "This variation of the Blanca Peak route focuses on the direct approach from Lake Como, climbing the Blanca-Little Bear saddle before ascending the upper northwest face. It offers a slightly different perspective than the standard NW face route and can be combined with Little Bear Peak for experienced climbers.",
+        "summary": "Direct approach from Lake Como with options to combine with Little Bear Peak.",
+        "distance": 14.5,
+        "elevationGain": 1524,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"lightning\",\"exposure\",\"altitude sickness\"]",
+        "safetyNotes": "Distances assume you have driven or camped at Lake Como. Some sections near the saddle involve mild exposure. Rockfall danger increases with other parties above.",
+        "tips": [
+          {"content": "Camp at Lake Como the night before for an early alpine start.", "category": "timing"},
+          {"content": "If combining with Little Bear, assess conditions carefully as the connecting ridge is Class 4.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall protection on the upper mountain"},
+          {"itemName": "Camping gear", "category": "camping", "isEssential": false, "notes": "For overnight at Lake Como"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Camping at Lake Como is the way to go", "body": "Made this into a two-day trip by camping at the lake. The approach from camp is reasonable and the upper mountain is exciting scrambling. Stunning views of Little Bear.", "conditions": "Cool morning, clear skies, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "La Plata Peak",
+    "routes": [
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on La Plata Peak ascends the northwest ridge from the La Plata Gulch trailhead on Highway 82. The trail climbs steeply through forest before reaching the alpine ridge which leads directly to the summit. This is a well-traveled and straightforward route.",
+        "summary": "Standard route climbing the northwest ridge from Highway 82.",
+        "distance": 14.5,
+        "elevationGain": 1372,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"steep terrain\"]",
+        "safetyNotes": "The upper ridge is exposed to weather. The trail is steep in places, especially the initial climb through the forest. Start early to avoid storms.",
+        "tips": [
+          {"content": "The trailhead parking area fills up quickly on weekends; arrive early.", "category": "logistics"},
+          {"content": "The trail is steep from the start, so pace yourself for the long day.", "category": "general"},
+          {"content": "Carry extra layers as the ridge can be windy even on calm days.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Very helpful on the steep descent"},
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridge is often windy"},
+          {"itemName": "Topographic map", "category": "navigation", "isEssential": false, "notes": "Trail is well-defined but map is good backup"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Steep but scenic", "body": "A solid Class 2 hike with great views of the Sawatch Range. The trail is relentlessly steep in the lower section but the ridge walk above treeline is beautiful.", "conditions": "Clear skies, breezy, mid-July"},
+          {"rating": 4, "title": "Fifth highest but underrated", "body": "La Plata doesn't get the attention of its neighbors but the summit views are excellent. The northwest ridge is a straightforward and enjoyable route.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "Southwest Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternative approach to La Plata Peak from the south, this route climbs the southwest ridge and offers a less crowded experience. The trail is less well-defined than the standard route but the terrain is moderate. Good route-finding skills are helpful above treeline.",
+        "summary": "Less-crowded alternate route up the southwest ridge with moderate terrain.",
+        "distance": 16.1,
+        "elevationGain": 1402,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"route finding\",\"altitude sickness\"]",
+        "safetyNotes": "Trail is less defined above treeline. Carry navigation tools and pay attention to weather.",
+        "tips": [
+          {"content": "This route sees far fewer hikers, making it a better choice for solitude seekers.", "category": "general"},
+          {"content": "Mark your route with GPS on the ascent to make the descent easier.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Trail is faint in the upper section"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on loose terrain"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Peaceful alternative", "body": "Had the entire route to myself on a Saturday. The trail disappears above treeline but the ridge is easy to follow with a GPS. Beautiful views into the valley.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Uncompahgre Peak",
+    "routes": [
+      {
+        "name": "South Ridge",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The easiest route on Uncompahgre Peak and one of the simplest 14er climbs in Colorado. The trail starts at Nellie Creek trailhead and follows a well-maintained path to the broad south ridge, which leads gently to the summit. This is an excellent first 14er for beginners.",
+        "summary": "One of the easiest 14er routes in Colorado, following a gentle trail up the south ridge.",
+        "distance": 12.1,
+        "elevationGain": 975,
+        "estimatedTime": 5.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Though this is an easy route, altitude sickness can still be a concern. The upper ridge is exposed to lightning. Start early.",
+        "tips": [
+          {"content": "This is an excellent first 14er for beginners due to the moderate distance and elevation gain.", "category": "general"},
+          {"content": "The Nellie Creek road requires high clearance but not necessarily 4WD in dry conditions.", "category": "logistics"},
+          {"content": "Bring binoculars to enjoy the panoramic views of the San Juan Mountains.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful but not necessary on this gentle trail"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common in the San Juans"},
+          {"itemName": "Sun hat", "category": "clothing", "isEssential": true, "notes": "Minimal shade above treeline"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Perfect first 14er", "body": "Did this as my first 14er and it was perfect. The trail is clear, the grade is moderate, and the views from the summit are incredible. Highly recommend for beginners.", "conditions": "Perfect bluebird day, late July"},
+          {"rating": 4, "title": "Easy but still beautiful", "body": "Don't let the easy rating fool you into thinking it's boring. The San Juan views from the summit are some of the best in the state. Just a lovely day hike.", "conditions": "Clear morning, clouds building by noon, early August"}
+        ]
+      },
+      {
+        "name": "West Face",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternative approach to Uncompahgre Peak from the west that offers more solitude and slightly more challenging terrain than the standard South Ridge. The route climbs through a scenic basin before reaching the upper west face, where moderate scree leads to the summit.",
+        "summary": "Less-traveled western approach with moderate scree climbing and more solitude.",
+        "distance": 16.1,
+        "elevationGain": 1158,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"loose rock\",\"route finding\"]",
+        "safetyNotes": "The west face has loose scree that requires careful footing. This route is less traveled and trail markings may be sparse.",
+        "tips": [
+          {"content": "This route offers more solitude than the popular South Ridge approach.", "category": "general"},
+          {"content": "Gaiters are recommended for the scree sections on the upper face.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Gaiters", "category": "clothing", "isEssential": false, "notes": "Keeps scree out of boots on the upper face"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Trail markings sparse on this route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Nice alternative for solitude", "body": "Chose this route to avoid the crowds on the south ridge and was not disappointed. The scree on the upper face is tedious but the basin approach is beautiful.", "conditions": "Clear, light wind, mid-August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Crestone Peak",
+    "routes": [
+      {
+        "name": "South Face/Red Couloir",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Crestone Peak ascends the south face via the Red Couloir, a prominent gully filled with loose red rock. The approach from the South Colony Lakes trailhead is long and the upper couloir involves sustained Class 3 scrambling with considerable exposure. This is one of the more challenging standard 14er routes in Colorado.",
+        "summary": "Challenging Class 3 route up the prominent Red Couloir on the south face.",
+        "distance": 19.3,
+        "elevationGain": 1524,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"loose rock\",\"altitude sickness\"]",
+        "safetyNotes": "The Red Couloir has serious rockfall danger, especially with parties above. Wear a helmet at all times in the couloir. The rock is notoriously loose. Start very early to minimize rockfall from other parties.",
+        "tips": [
+          {"content": "Camp at South Colony Lakes to allow an early alpine start for this demanding route.", "category": "timing"},
+          {"content": "Climb early when the couloir rock is more frozen and stable, reducing rockfall risk.", "category": "safety"},
+          {"content": "Consider combining with Crestone Needle if you are an experienced scrambler.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely essential for rockfall protection in the couloir"},
+          {"itemName": "Sturdy boots", "category": "clothing", "isEssential": true, "notes": "Ankle support critical on loose terrain"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful for route finding on the approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Demanding but incredible", "body": "This route earns its reputation. The Red Couloir is steep, loose, and exposed. But the summit views are among the best in Colorado. Helmet is mandatory.", "conditions": "Clear and cold, frost on rock early morning, late July"},
+          {"rating": 3, "title": "Serious route on a serious mountain", "body": "Do not underestimate Crestone Peak. The couloir rock is extremely loose and rockfall is a constant concern. Rewarding summit but you earn every foot of elevation.", "conditions": "Calm morning, clouds by noon, early August"}
+        ]
+      },
+      {
+        "name": "Northwest Couloir",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "An alternate route on Crestone Peak that approaches from the northwest. This couloir offers a different challenge than the Red Couloir with slightly more solid rock in some sections. The approach is longer but the route sees fewer climbers, reducing rockfall danger from other parties.",
+        "summary": "Alternate Class 3 couloir approach from the northwest with fewer crowds.",
+        "distance": 21.0,
+        "elevationGain": 1585,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "Route finding can be challenging. The couloir has sections of loose rock requiring a helmet. Longer approach means a longer day.",
+        "tips": [
+          {"content": "This route has less rockfall danger from other parties due to lower traffic.", "category": "safety"},
+          {"content": "Study the route description carefully before attempting as markers can be sparse.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for loose rock sections"},
+          {"itemName": "Topographic map", "category": "navigation", "isEssential": true, "notes": "Route finding is complex on this approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Less crowded alternative", "body": "Chose the NW couloir to avoid the crowded Red Couloir and was glad I did. Still serious scrambling but felt safer with fewer parties above sending rocks down.", "conditions": "Clear, cool, early morning start from camp, mid-August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Lincoln",
+    "routes": [
+      {
+        "name": "West Ridge",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Lincoln follows the well-maintained trail from Kite Lake up gentle alpine tundra to the broad summit. This is one of the easiest 14er routes in Colorado and is frequently combined with nearby peaks Democrat, Cameron, and Bross in the popular Decalibron loop.",
+        "summary": "Easy trail from Kite Lake making this one of the simplest 14er routes in Colorado.",
+        "distance": 9.7,
+        "elevationGain": 762,
+        "estimatedTime": 4.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "Despite the easy terrain, altitude can still cause problems. The ridge is exposed to wind and lightning. Start early if combining with other peaks.",
+        "tips": [
+          {"content": "Combine with Democrat, Cameron, and Bross for the popular Decalibron loop.", "category": "general"},
+          {"content": "Kite Lake trailhead fills up very quickly on weekends; arrive by 5 AM.", "category": "logistics"},
+          {"content": "Start with Democrat and traverse to Cameron, Lincoln, then Bross for the most efficient loop.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridges can be very windy"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Entirely above treeline with no shade"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the talus sections"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Great peak for the Decalibron", "body": "Did Lincoln as part of the Decalibron loop and it was a fantastic day. The summit offers great views and the traverse is enjoyable. Easy terrain throughout.", "conditions": "Clear skies, light wind, mid-July"},
+          {"rating": 4, "title": "Easy and scenic", "body": "A straightforward hike to a beautiful summit. Combined with Democrat and Cameron for three 14ers in one day. Parking at Kite Lake was full by 6 AM on a Saturday.", "conditions": "Partly cloudy, moderate wind, late July"}
+        ]
+      },
+      {
+        "name": "Democrat-Lincoln Traverse",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This traverse connects Mount Democrat to Mount Lincoln via Mount Cameron, following gentle ridgeline trails above 14000 feet. The route is part of the famous Decalibron loop and stays entirely above treeline on well-worn trails. Outstanding views of the Mosquito and Tenmile Ranges throughout.",
+        "summary": "Scenic ridgeline traverse connecting Democrat to Lincoln via Cameron above 14000 feet.",
+        "distance": 12.9,
+        "elevationGain": 1036,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\",\"exposure\"]",
+        "safetyNotes": "The entire traverse is above treeline with no shelter from storms. Extended time at extreme altitude. Turn back if weather deteriorates.",
+        "tips": [
+          {"content": "Start with Democrat first, then traverse to Cameron and Lincoln for the best flow.", "category": "logistics"},
+          {"content": "Bring plenty of water and snacks for the extended time above 14000 feet.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "No shelter above treeline on the traverse"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "No water sources on the ridgeline"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Three 14ers in one shot", "body": "What a deal! Three 14ers in a single moderate hike. The ridge walking is spectacular and the terrain is easy. Just watch the weather on the exposed ridgeline.", "conditions": "Clear morning, clouds building by 11 AM, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Grays Peak",
+    "routes": [
+      {
+        "name": "North Slopes",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Grays Peak is one of the most popular 14er hikes in Colorado, following a well-maintained trail from the Stevens Gulch trailhead. The trail gradually ascends switchbacks to the broad summit. Grays is typically combined with neighboring Torreys Peak for a two-summit day.",
+        "summary": "One of the most popular 14er routes in Colorado with a well-maintained trail.",
+        "distance": 12.1,
+        "elevationGain": 975,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"crowding\"]",
+        "safetyNotes": "Very popular trail that can be crowded on weekends. Start early to avoid parking issues and afternoon storms.",
+        "tips": [
+          {"content": "Combine with Torreys Peak by traversing the connecting ridge for two 14ers in one day.", "category": "general"},
+          {"content": "The trailhead lot fills extremely fast on summer weekends; arrive before sunrise.", "category": "logistics"},
+          {"content": "This is an excellent first 14er due to the well-maintained trail and moderate difficulty.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon thunderstorms are very common"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the switchbacks and descent"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline for most of the hike"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Classic Colorado 14er combo", "body": "Did Grays and Torreys together for a perfect day. The trail is excellent and the views are stunning. Parking was full by 6:30 AM on a Saturday so get there early.", "conditions": "Clear skies, calm, early July"},
+          {"rating": 4, "title": "Great first 14er", "body": "Perfect introduction to 14er hiking. The trail is well-marked and the grade is moderate. Definitely plan to do Torreys as well while you're up there.", "conditions": "Partly cloudy, light wind, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Antero",
+    "routes": [
+      {
+        "name": "West Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Antero follows a rough 4WD road and trail from the Baldwin Creek area up the western slopes. Mount Antero is famous for its gem-quality aquamarine crystals, and many hikers combine the climb with mineral collecting. The route is straightforward but the approach road requires high clearance.",
+        "summary": "Standard route following 4WD roads and trails up the gem-rich western slopes.",
+        "distance": 14.5,
+        "elevationGain": 1219,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"rough road\"]",
+        "safetyNotes": "The access road is very rough and damages vehicles regularly. High clearance 4WD recommended. Upper slopes are exposed to lightning.",
+        "tips": [
+          {"content": "Mount Antero is famous for aquamarine crystals; bring a rock hammer if you want to collect.", "category": "general"},
+          {"content": "The 4WD road shortens the hike considerably if your vehicle can handle it.", "category": "logistics"},
+          {"content": "The road can be driven part way even without 4WD to shorten the approach.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Rock hammer", "category": "climbing", "isEssential": false, "notes": "For mineral collecting on the slopes"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed summit area with frequent afternoon storms"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on loose talus slopes"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Gem hunting on a 14er", "body": "Where else can you bag a 14er and hunt for aquamarine crystals? The route is straightforward but the 4WD road is rough. Found some nice specimens on the upper slopes.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 4, "title": "Unique among 14ers", "body": "The mineral deposits make this peak unlike any other 14er. The hike itself is moderate and the views of the Sawatch Range are excellent. Drive as far as you can to shorten the walk.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "Baldwin Gulch",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate approach to Mount Antero via Baldwin Gulch from the southeast. This route is longer but avoids the rough 4WD road of the standard west slopes route. The trail follows Baldwin Creek before climbing to the upper slopes and joining the standard route near the summit.",
+        "summary": "Longer alternate approach via Baldwin Gulch avoiding the rough 4WD road.",
+        "distance": 17.7,
+        "elevationGain": 1341,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"stream crossings\"]",
+        "safetyNotes": "Longer route but with better road access. Stream crossings can be difficult during spring runoff.",
+        "tips": [
+          {"content": "This route has better road access for passenger vehicles compared to the standard west slopes.", "category": "logistics"},
+          {"content": "The creek crossings are easier later in summer after snowmelt subsides.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Waterproof boots", "category": "clothing", "isEssential": true, "notes": "Stream crossings on the approach"},
+          {"itemName": "Map and compass", "category": "navigation", "isEssential": false, "notes": "Trail can be faint in the upper gulch"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Better access than the standard route", "body": "Chose this route because my car couldn't handle the west slopes road. Longer but the approach through Baldwin Gulch is pleasant and the trail is in good shape.", "conditions": "Clear, warm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Torreys Peak",
+    "routes": [
+      {
+        "name": "Kelso Ridge",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "Kelso Ridge is a classic Colorado scramble that ascends the dramatic southwest ridge of Torreys Peak. The route features sustained Class 3 scrambling on generally solid rock with significant exposure. It is one of the most popular scrambling routes on any Colorado 14er and offers a much more exciting alternative to the standard hiking trail.",
+        "summary": "Classic and popular Class 3 scramble up the dramatic southwest ridge.",
+        "distance": 13.7,
+        "elevationGain": 1067,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Sustained exposure on the ridge. The rock is generally solid but some loose sections exist. Retreat is difficult once committed to the ridge. Do not attempt in wet or stormy conditions.",
+        "tips": [
+          {"content": "This is an excellent introduction to alpine ridge scrambling in Colorado.", "category": "general"},
+          {"content": "Start very early as the ridge is fully exposed to lightning with no easy retreat.", "category": "timing"},
+          {"content": "Descend via the standard south slopes trail rather than down-climbing the ridge.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall protection on the ridge"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the sustained hand-over-hand scrambling"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Ridge is extremely exposed to weather"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Best scramble in the Front Range", "body": "Kelso Ridge is an absolute classic. The scrambling is fun, the exposure is exciting, and the rock is mostly solid. One of my favorite routes in Colorado.", "conditions": "Clear and calm, early morning start, mid-July"},
+          {"rating": 4, "title": "Thrilling ridge scramble", "body": "Great step up from hiking for those wanting to try scrambling. The exposure is real but manageable. Descended the standard trail which was a nice contrast to the ridge.", "conditions": "Clear, light breeze, late July"}
+        ]
+      },
+      {
+        "name": "South Slopes",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard hiking route on Torreys Peak from the Stevens Gulch trailhead. Most hikers combine this with Grays Peak by traversing the connecting saddle. The trail is well-maintained and follows gentle switchbacks to the summit. This is one of the most popular 14er hikes near Denver.",
+        "summary": "Standard hiking trail typically combined with Grays Peak for a two-summit day.",
+        "distance": 13.0,
+        "elevationGain": 1036,
+        "estimatedTime": 5.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Very popular trail. Start early for parking and to avoid storms. The Grays-Torreys saddle can be windy.",
+        "tips": [
+          {"content": "Most efficient to summit Grays first, then traverse to Torreys and descend directly.", "category": "logistics"},
+          {"content": "The saddle between Grays and Torreys can be very windy; bring a wind layer.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Wind layer", "category": "clothing", "isEssential": true, "notes": "Saddle between Grays and Torreys is notoriously windy"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the descent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Perfect combo with Grays", "body": "Did Grays and Torreys together for an amazing day. The traverse between them is easy and scenic. Torreys summit has great views up and down the Continental Divide.", "conditions": "Bluebird day, calm winds, early July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Castle Peak",
+    "routes": [
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Castle Peak ascends the northeast ridge from the Montezuma Mine area near Ashcroft. The trail crosses Conundrum Creek before climbing steeply through willows and talus to the ridgeline. The final push involves moderate scrambling on loose rock to reach the pointed summit.",
+        "summary": "Standard route ascending the northeast ridge with moderate scrambling near the summit.",
+        "distance": 16.1,
+        "elevationGain": 1280,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"lightning\",\"altitude sickness\",\"stream crossing\"]",
+        "safetyNotes": "Conundrum Creek crossing can be tricky during high water. The upper ridge has loose rock. Summit block requires careful scrambling.",
+        "tips": [
+          {"content": "The trail through the willows below the ridge can be wet and overgrown early in summer.", "category": "logistics"},
+          {"content": "Castle and Conundrum Peaks can be combined by traversing the connecting ridge.", "category": "general"},
+          {"content": "The final summit push looks intimidating but goes at moderate Class 2.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Gaiters", "category": "clothing", "isEssential": false, "notes": "Helpful for wet willows and talus"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for loose rock on the upper ridge"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Useful for creek crossing and descent"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Beautiful but remote", "body": "Castle Peak is worth the drive to the trailhead. The route is straightforward but the upper mountain has loose rock that demands attention. Summit views of the Elk Mountains are spectacular.", "conditions": "Clear, cool, early August"},
+          {"rating": 4, "title": "Classic Elk Mountains peak", "body": "Combined Castle and Conundrum for a great day. The northeast ridge is moderate and the scenery is outstanding. Bring gaiters for the willows.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "Castle-Conundrum Traverse",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "This route combines Castle Peak with neighboring Conundrum Peak via a connecting ridgeline traverse. After summiting Castle via the northeast ridge, climbers traverse south to tag Conundrum Peak before descending. The traverse adds minimal difficulty but provides a second summit.",
+        "summary": "Ridge traverse connecting Castle Peak with Conundrum Peak for a two-summit day.",
+        "distance": 17.7,
+        "elevationGain": 1402,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"lightning\",\"exposure\",\"altitude sickness\"]",
+        "safetyNotes": "The traverse ridge has some exposure and loose rock. Budget extra time for the additional peak.",
+        "tips": [
+          {"content": "Summit Castle first, then traverse to Conundrum for the most efficient route.", "category": "logistics"},
+          {"content": "The connecting ridge is straightforward but has some loose rock sections.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the traverse ridge"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful for route finding on the traverse"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Two peaks for the price of one", "body": "The Castle-Conundrum combo is a great way to bag two peaks in a day. The traverse is fun and adds only a little time. Both summits have excellent views.", "conditions": "Clear and calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Quandary Peak",
+    "routes": [
+      {
+        "name": "East Ridge",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Quandary Peak is one of the most popular 14er hikes in Colorado due to its accessibility from Breckenridge and moderate difficulty. The well-maintained trail ascends the broad east ridge above treeline with sweeping views of the Tenmile Range. An excellent choice for a first 14er.",
+        "summary": "Very popular and accessible standard route ideal for a first 14er attempt.",
+        "distance": 11.3,
+        "elevationGain": 1005,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"crowding\"]",
+        "safetyNotes": "Extremely popular; expect crowds on summer weekends. The upper ridge is exposed to weather. Start early for parking and weather.",
+        "tips": [
+          {"content": "This is one of the most accessible 14ers from Denver and makes an excellent first 14er.", "category": "general"},
+          {"content": "Arrive very early on weekends as the parking lot overflows by 6 AM in summer.", "category": "logistics"},
+          {"content": "The trail is entirely above treeline so bring sun protection and rain gear.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Entirely above treeline"},
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the descent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Perfect first 14er", "body": "Did this as my first 14er and loved it. Well-maintained trail, stunning views, and a great sense of accomplishment. Just be prepared for crowds.", "conditions": "Clear skies, light wind, mid-July"},
+          {"rating": 4, "title": "Crowded but classic", "body": "The trail felt like a highway on a Saturday but the views from the summit are worth it. Great warm-up peak for harder objectives.", "conditions": "Sunny, moderate wind, late June"}
+        ]
+      },
+      {
+        "name": "Cristo Couloir",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A dramatic alternative to the standard east ridge, the Cristo Couloir ascends a steep gully on the northwest face of Quandary Peak. In winter and spring, this is a popular ski and snow climb. In summer, it involves loose scree and Class 3 scrambling. The route is much steeper and more challenging than the standard route.",
+        "summary": "Steep northwest couloir offering a challenging alternative to the standard hiking trail.",
+        "distance": 9.7,
+        "elevationGain": 1005,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose scree\",\"exposure\",\"snow\"]",
+        "safetyNotes": "The couloir holds snow into early summer. In summer, loose scree makes footing treacherous. Rockfall danger is significant with parties above. Helmet required.",
+        "tips": [
+          {"content": "This route is best done as a snow climb in spring or early summer when the scree is consolidated.", "category": "timing"},
+          {"content": "In summer conditions, the loose scree makes this much harder than the Class 3 rating suggests.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall in the couloir"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": false, "notes": "Needed if snow is present in the couloir"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Fun snow climb in spring", "body": "Did this as a spring snow climb and it was outstanding. Firm snow made the ascent straightforward with ice axe and crampons. Summer scree conditions sound much worse.", "conditions": "Firm spring snow, clear skies, late May"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Evans",
+    "routes": [
+      {
+        "name": "Mount Evans Road Walk",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The simplest way to summit Mount Evans on foot follows the paved Mount Evans Scenic Byway from Summit Lake to the summit parking area. While many visitors drive to the top, hiking from Summit Lake provides a rewarding walk with minimal elevation gain. The road is the highest paved road in North America.",
+        "summary": "Easy walk along the highest paved road in North America from Summit Lake.",
+        "distance": 8.0,
+        "elevationGain": 549,
+        "estimatedTime": 3,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"vehicle traffic\"]",
+        "safetyNotes": "Watch for vehicle traffic on the road. Altitude sickness is common due to the high starting elevation. Road is seasonal and typically open Memorial Day to Labor Day.",
+        "tips": [
+          {"content": "The road is typically open Memorial Day through Labor Day; check conditions before going.", "category": "timing"},
+          {"content": "Watch for mountain goats near the summit; they are very habituated to humans.", "category": "general"},
+          {"content": "Walk on the road shoulder and face oncoming traffic for safety.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Warm layers", "category": "clothing", "isEssential": true, "notes": "Summit can be very cold and windy even in summer"},
+          {"itemName": "Reflective vest", "category": "clothing", "isEssential": false, "notes": "For visibility walking along the road"},
+          {"itemName": "Sunglasses", "category": "clothing", "isEssential": true, "notes": "Intense UV at 14000+ feet"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Easiest 14er but feels odd", "body": "Walking along a road with cars driving past is a strange 14er experience. But the views are fantastic and the mountain goats are entertaining. A good option for those wanting an easy summit.", "conditions": "Sunny, windy, mid-July"},
+          {"rating": 4, "title": "Great for beginners or off days", "body": "Sometimes you just want an easy summit day. The road walk from Summit Lake is pleasant and the summit area has incredible views. Bring warm layers; it was 40F on top in July.", "conditions": "Partly cloudy, cold wind, late July"}
+        ]
+      },
+      {
+        "name": "Chicago Lakes Trail",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "A much more rewarding and challenging approach to Mount Evans via the Chicago Lakes trail from the Echo Lake area. The trail passes through beautiful forests and past alpine lakes before climbing steep slopes to the summit ridge. This route gives a genuine mountain climbing experience compared to the road walk.",
+        "summary": "Rewarding trail through forests and alpine lakes for a genuine mountain experience.",
+        "distance": 16.1,
+        "elevationGain": 1280,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"steep terrain\",\"route finding\"]",
+        "safetyNotes": "Upper slopes are steep and can hold snow into July. The trail above Chicago Lakes becomes less defined. Watch for weather on the exposed upper mountain.",
+        "tips": [
+          {"content": "This route provides a true mountain experience compared to the road walk from Summit Lake.", "category": "general"},
+          {"content": "The Chicago Lakes themselves make a worthy destination even without summiting.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the steep upper slopes"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Trail becomes faint above the lakes"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The real way to climb Evans", "body": "Forget the road walk. Chicago Lakes is the way to experience Mount Evans. Beautiful lakes, genuine mountain terrain, and a real sense of accomplishment. Much more rewarding than driving up.", "conditions": "Clear skies, some lingering snow patches, early July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Wilson",
+    "routes": [
+      {
+        "name": "Navajo Lake Approach",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The standard route on Mount Wilson approaches from Navajo Lake and ascends the north slopes. This is one of the more difficult standard 14er routes in Colorado, featuring Class 4 rock climbing on the upper mountain. The approach through Navajo Basin is spectacular but the summit push requires solid scrambling skills and comfort with exposure.",
+        "summary": "Technical Class 4 route through stunning Navajo Basin to a challenging summit.",
+        "distance": 19.3,
+        "elevationGain": 1585,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"loose rock\",\"altitude sickness\"]",
+        "safetyNotes": "Class 4 moves near the summit require solid climbing skills. Loose rock is a constant concern. A helmet is mandatory. Consider a rope for less experienced members of your party.",
+        "tips": [
+          {"content": "Camp at Navajo Lake or in the basin to allow an early start for the long, technical day.", "category": "timing"},
+          {"content": "The Class 4 sections are short but exposed; a rope may provide peace of mind.", "category": "safety"},
+          {"content": "Mount Wilson, Wilson Peak, and El Diente form a trio that strong parties can combine.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for loose rock on the upper mountain"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Optional for belaying the Class 4 sections"},
+          {"itemName": "Camping gear", "category": "camping", "isEssential": false, "notes": "Recommended for overnight at Navajo Lake"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Serious mountain with serious views", "body": "Mount Wilson is not to be taken lightly. The Class 4 sections near the summit require real climbing skills. But the Navajo Basin is gorgeous and the summit views are world-class.", "conditions": "Clear and cold, light wind, late July"},
+          {"rating": 5, "title": "One of Colorado's finest", "body": "Camped at Navajo Lake and summited early morning. The technical climbing is exciting and the mountain has a true alpine feel. One of my favorite 14ers.", "conditions": "Predawn start, clear skies, calm, early August"}
+        ]
+      },
+      {
+        "name": "Rock of Ages Route",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "An alternate approach to Mount Wilson via the Rock of Ages saddle from Silver Pick Basin. This route approaches from the south and offers different scenery than the Navajo Lake route. The upper mountain still involves Class 4 climbing. Often used as part of a traverse with El Diente Peak.",
+        "summary": "Southern approach via Rock of Ages saddle with Class 4 summit climbing.",
+        "distance": 17.7,
+        "elevationGain": 1524,
+        "estimatedTime": 9.5,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"loose rock\"]",
+        "safetyNotes": "Similar technical difficulties to the Navajo Lake approach. The Rock of Ages traverse has exposure. Helmet mandatory.",
+        "tips": [
+          {"content": "This approach works well if combining Mount Wilson with El Diente Peak.", "category": "logistics"},
+          {"content": "The Silver Pick Basin road requires high clearance 4WD.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall protection"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "Good grip important for the Class 4 rock"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great approach for the Wilson group", "body": "Used this route to combine Mount Wilson and El Diente. The Rock of Ages area is beautiful and the route is logical. Technical sections are manageable for experienced scramblers.", "conditions": "Clear, calm, early morning, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Cameron",
+    "routes": [
+      {
+        "name": "Lincoln/Cameron/Democrat/Bross Traverse",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Mount Cameron is almost always climbed as part of the famous Decalibron loop which traverses four 14ers from Kite Lake. Cameron sits between Lincoln and Bross on a gentle ridgeline and is the easiest of the four to summit. The loop is one of the most efficient multi-summit days in Colorado.",
+        "summary": "Usually climbed as part of the Decalibron loop connecting four 14ers from Kite Lake.",
+        "distance": 13.7,
+        "elevationGain": 1097,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "The entire loop is above treeline with no shelter. Extended time at high altitude across four summits. Watch weather carefully and be prepared to bail if storms approach.",
+        "tips": [
+          {"content": "Cameron is just a bump on the ridge between Lincoln and Bross; tag it on the way through.", "category": "general"},
+          {"content": "The full Decalibron loop covers Democrat, Cameron, Lincoln, and Bross.", "category": "general"},
+          {"content": "Start with Democrat going counter-clockwise for the most efficient loop.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Wind protection", "category": "clothing", "isEssential": true, "notes": "Exposed ridges throughout the traverse"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Long day above 13000 feet with no water sources"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Entirely above treeline for many hours"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Four 14ers in a day", "body": "Cameron is just a brief stop on the Decalibron loop but it counts as a 14er. The entire traverse is a fantastic day out. Easy terrain throughout.", "conditions": "Clear, moderate wind, mid-July"},
+          {"rating": 3, "title": "More of a ridge bump than a peak", "body": "Cameron barely feels like a separate summit but the Decalibron loop it is part of is excellent. Four peaks in one moderate day of hiking.", "conditions": "Partly cloudy, windy, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Shavano",
+    "routes": [
+      {
+        "name": "East Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Shavano ascends the east slopes from the Blank Gulch trailhead. The trail is well-maintained and climbs steadily through forest before emerging above treeline for the final push to the summit. This is the most straightforward route and is commonly combined with neighboring Tabeguache Peak.",
+        "summary": "Standard east slopes route commonly combined with Tabeguache Peak.",
+        "distance": 16.1,
+        "elevationGain": 1433,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"loose rock near summit\"]",
+        "safetyNotes": "The upper slopes have some loose rock. Start early to avoid afternoon storms on the exposed summit area. Consider combining with Tabeguache.",
+        "tips": [
+          {"content": "Combine with Tabeguache Peak for a rewarding two-summit day via the connecting ridge.", "category": "general"},
+          {"content": "The trail through the forest is well-shaded but carries no water above the first mile.", "category": "logistics"},
+          {"content": "If combining with Tabeguache, summit Shavano first then traverse north.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the steep descent"},
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "Afternoon storms frequent in the Sawatch"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "No reliable water above the first mile"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Solid Sawatch hike", "body": "A straightforward route that delivers great views. Combined with Tabeguache for a very satisfying day. The trail is well-maintained and easy to follow.", "conditions": "Clear, cool morning, mid-July"},
+          {"rating": 4, "title": "Great Shavano-Tabeguache combo", "body": "Did both peaks in a day starting with Shavano. The connecting ridge is easy and adds Tabeguache without much extra effort. Start early for the long day.", "conditions": "Partly cloudy, light wind, late July"}
+        ]
+      },
+      {
+        "name": "Angel of Shavano",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This route follows the Angel of Shavano drainage, a prominent snow formation visible from the valley below. The trail climbs the eastern slopes via the Angel couloir, which provides a slightly different experience from the standard east slopes. The route is named for the angel-shaped snowfield that persists into early summer.",
+        "summary": "Scenic alternate route following the Angel of Shavano snowfield drainage.",
+        "distance": 17.7,
+        "elevationGain": 1494,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"loose rock\",\"snow in couloir\"]",
+        "safetyNotes": "The Angel couloir can hold snow into July. Bring an ice axe if snow is present. Otherwise similar hazards to the standard route.",
+        "tips": [
+          {"content": "The Angel snowfield is most visible and photogenic from the valley in May and June.", "category": "timing"},
+          {"content": "If snow is still present in the couloir, an ice axe and crampons may be needed.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": false, "notes": "Needed if snow persists in the Angel couloir"},
+          {"itemName": "Microspikes", "category": "climbing", "isEssential": false, "notes": "For lingering snow patches"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Unique route with history", "body": "The Angel of Shavano is a cool piece of Colorado mountain lore. The route follows the drainage where the angel snowfield forms. A bit longer than the standard route but interesting.", "conditions": "Clear, patchy snow in couloir, late June"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Belford",
+    "routes": [
+      {
+        "name": "West Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Belford ascends the west slopes from the Missouri Gulch trailhead. The trail is well-maintained and moderately steep, passing through forest before reaching the alpine zone. This is one of the more straightforward Sawatch Range 14ers and is frequently combined with Mount Oxford.",
+        "summary": "Well-maintained trail up the west slopes, frequently combined with Mount Oxford.",
+        "distance": 14.5,
+        "elevationGain": 1372,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Straightforward route with standard 14er hazards. Start early to avoid afternoon storms. The Belford-Oxford saddle can be windy.",
+        "tips": [
+          {"content": "Combine with Mount Oxford by traversing the easy connecting ridge for two 14ers.", "category": "general"},
+          {"content": "Missouri Mountain can also be added for a challenging three-peak day.", "category": "general"},
+          {"content": "The trail is steep but well-graded with good switchbacks.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the steep descent"},
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "Exposed summit with afternoon storm potential"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline for most of the route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Efficient two-peak day", "body": "Did Belford and Oxford together for a great day. The trail up Belford is steep but straightforward. The traverse to Oxford is easy and scenic.", "conditions": "Clear morning, clouds by noon, mid-July"},
+          {"rating": 4, "title": "Well-maintained trail", "body": "One of the better-maintained 14er trails. The grade is steady and the route is obvious. Combined with Oxford and even added Missouri for an epic day.", "conditions": "Bluebird, calm, early August"}
+        ]
+      },
+      {
+        "name": "Belford-Oxford Combo",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This popular route combines Mount Belford and Mount Oxford in a single outing by ascending Belford via the west slopes and then traversing the gentle ridge south to Oxford before descending back to the Missouri Gulch trailhead. The traverse adds minimal difficulty and provides a very efficient two-peak day.",
+        "summary": "Popular two-peak combo traversing the ridge between Belford and Oxford.",
+        "distance": 17.7,
+        "elevationGain": 1585,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind on ridge\"]",
+        "safetyNotes": "Extended time above treeline on the connecting ridge. Watch weather carefully as the ridge offers no shelter.",
+        "tips": [
+          {"content": "Summit Belford first, then traverse to Oxford and descend the Belford trail for the most efficient loop.", "category": "logistics"},
+          {"content": "The connecting ridge between Belford and Oxford is gentle and scenic.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "The connecting ridge can be windy"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "Long day with no water above treeline"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Best two-peak combo in the Sawatch", "body": "Belford and Oxford are a natural pair. The traverse is easy and the views of the Collegiate Peaks are outstanding. Highly recommend doing both in a day.", "conditions": "Clear, light wind, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Crestone Needle",
+    "routes": [
+      {
+        "name": "South Face/Ellingwood Arete",
+        "difficulty": "5.4",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Ellingwood Arete is one of the most famous technical climbing routes on any Colorado 14er. This classic route ascends the dramatic south face of Crestone Needle via a prominent arete with sustained 5th class climbing and incredible exposure. The rock is generally solid Conglomerate and the climbing is exhilarating. A rope and protection are recommended.",
+        "summary": "Famous technical climbing route on the dramatic south face arete with sustained 5th class.",
+        "distance": 17.7,
+        "elevationGain": 1524,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"route finding\",\"altitude sickness\"]",
+        "safetyNotes": "This is a technical rock climbing route requiring rope, protection, and experience leading at the grade. The route has significant exposure and retreat is difficult once committed. Acclimatize before attempting.",
+        "tips": [
+          {"content": "Camp at South Colony Lakes and acclimate for a day before attempting this technical route.", "category": "timing"},
+          {"content": "Bring a single rack of cams and a set of nuts for protection on the 5th class sections.", "category": "safety"},
+          {"content": "Start at first light as the route is long and you need to be off the summit before afternoon storms.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "60m rope", "category": "climbing", "isEssential": true, "notes": "Essential for the technical climbing sections"},
+          {"itemName": "Rack of cams and nuts", "category": "climbing", "isEssential": true, "notes": "Single rack needed for protection"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for rockfall and leader fall protection"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Best alpine rock route in Colorado", "body": "The Ellingwood Arete is everything it's cracked up to be. Sustained, exposed, and absolutely thrilling climbing on a 14er. The summit register was a proud moment.", "conditions": "Clear and calm, cold start, late July"},
+          {"rating": 5, "title": "A must-do for alpine climbers", "body": "If you climb at 5.4 and enjoy exposure, this route is a bucket-list item. The position on the arete is incredible. We brought a single rack and it was sufficient.", "conditions": "Predawn start, clear, light wind, early August"}
+        ]
+      },
+      {
+        "name": "Crestone Needle-Peak Traverse",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "This challenging traverse connects Crestone Needle to Crestone Peak along the knife-edge ridge between them. The route involves sustained Class 4 scrambling with significant exposure and some loose rock. This is one of the most difficult standard traverses in the Colorado 14ers and requires excellent scrambling skills.",
+        "summary": "Challenging Class 4 traverse connecting Crestone Needle and Crestone Peak.",
+        "distance": 20.9,
+        "elevationGain": 1737,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"lightning\",\"loose rock\",\"route finding\"]",
+        "safetyNotes": "This traverse has serious exposure and loose rock. Many parties use a rope for the most exposed sections. Retreat from the middle of the traverse is very difficult. Only for experienced alpine scramblers.",
+        "tips": [
+          {"content": "Camp at South Colony Lakes for multiple days to allow acclimatization and weather flexibility.", "category": "timing"},
+          {"content": "A 30m rope is recommended for the most exposed sections of the traverse.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Strongly recommended for exposed traverse sections"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for the loose rock on the traverse"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Ultimate Colorado scramble", "body": "The Needle-Peak traverse is the most serious scramble I've done in Colorado. The exposure is breathtaking and the route finding keeps you engaged. Not for the faint of heart.", "conditions": "Clear, calm, cold start from camp, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Princeton",
+    "routes": [
+      {
+        "name": "East Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Princeton ascends the east slopes from the Mount Princeton Hot Springs area. The trail climbs steeply through forest and across open slopes to the broad summit ridge. This is the most popular route and can be combined with a post-hike soak in the hot springs.",
+        "summary": "Standard route with a bonus post-hike soak in nearby hot springs.",
+        "distance": 12.9,
+        "elevationGain": 1402,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"loose rock near summit\"]",
+        "safetyNotes": "The upper east slopes are steep and have loose rock sections. The trail is relentlessly steep. Start early for storms.",
+        "tips": [
+          {"content": "Reward yourself with a soak at Mount Princeton Hot Springs after the hike.", "category": "general"},
+          {"content": "The trail is steep from the start; pace yourself for the sustained climb.", "category": "general"},
+          {"content": "The upper slopes have loose footing; trekking poles help on the descent.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": true, "notes": "Very helpful on the steep, loose descent"},
+          {"itemName": "Swimsuit", "category": "clothing", "isEssential": false, "notes": "For the hot springs after your hike"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Hot springs after a 14er - perfect", "body": "The hike is steep but the reward of soaking in hot springs afterward is unbeatable. Great views of the Arkansas Valley from the summit.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 4, "title": "Steep but rewarding", "body": "Mount Princeton is steeper than most Sawatch peaks. The trail gains elevation quickly. But the summit views and post-hike hot springs make it worthwhile.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "Tigger Peak Traverse",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "An alternate approach to Mount Princeton that traverses Tigger Peak on the way to the summit. This route adds Class 3 scrambling and a more adventurous element to the standard East Slopes hike. The traverse provides excellent views of the Chalk Cliffs.",
+        "summary": "More adventurous approach traversing Tigger Peak with Class 3 scrambling.",
+        "distance": 15.3,
+        "elevationGain": 1585,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"loose rock\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "The Tigger Peak traverse has some exposure and loose rock. Route finding skills are needed. Not recommended in wet conditions.",
+        "tips": [
+          {"content": "The traverse provides great views of the dramatic Chalk Cliffs on Princeton's east face.", "category": "general"},
+          {"content": "Study the route beforehand as trail markings are sparse on the traverse.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for loose rock on the traverse"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Route finding is essential on this traverse"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Fun scrambling alternative", "body": "If the standard east slopes seem too straightforward, the Tigger traverse adds excitement. Class 3 scrambling with great views. Route finding keeps you on your toes.", "conditions": "Clear, light wind, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Yale",
+    "routes": [
+      {
+        "name": "Southwest Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Yale follows the southwest slopes from the Denny Creek trailhead. The trail is well-maintained and climbs through forest before traversing open alpine slopes to the summit. This is one of the more moderate Collegiate Peaks and offers excellent views of the surrounding Sawatch Range.",
+        "summary": "Well-maintained standard trail through forest and alpine terrain to the summit.",
+        "distance": 14.5,
+        "elevationGain": 1372,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "Standard 14er hazards. The upper slopes are exposed to wind and lightning. Start early.",
+        "tips": [
+          {"content": "The Denny Creek trailhead has limited parking; arrive early on weekends.", "category": "logistics"},
+          {"content": "The forest section provides welcome shade on hot days.", "category": "general"},
+          {"content": "Enjoy views of the other Collegiate Peaks from Yale's summit.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the descent"},
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Summit area can be windy"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Extended time above treeline"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Moderate Collegiate Peak", "body": "Yale is a straightforward and enjoyable 14er. The trail is in great shape and the summit offers panoramic views. A good choice for building 14er experience.", "conditions": "Clear, moderate wind, mid-July"},
+          {"rating": 4, "title": "Nice Sawatch hike", "body": "Well-maintained trail with a steady grade. The alpine section above treeline is beautiful. Summit views of the Collegiate Peaks are excellent.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "East Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate approach to Mount Yale via the east ridge, offering a different perspective and less crowded conditions than the standard southwest slopes. The route climbs through Avalanche Gulch before gaining the east ridge which leads to the summit. Slightly longer but more scenic.",
+        "summary": "Less crowded alternate route via the east ridge with scenic Avalanche Gulch approach.",
+        "distance": 16.1,
+        "elevationGain": 1433,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"route finding\"]",
+        "safetyNotes": "Trail is less defined than the standard route above treeline. Carry navigation tools.",
+        "tips": [
+          {"content": "This route offers more solitude than the popular southwest slopes.", "category": "general"},
+          {"content": "Route finding above treeline requires attention; follow cairns where available.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful above treeline where trail is faint"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed ridge with no shelter"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Quieter than the standard route", "body": "Chose the east ridge for solitude and was not disappointed. The Avalanche Gulch approach is pretty and the ridge walk is enjoyable. A bit more route finding required.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Bross",
+    "routes": [
+      {
+        "name": "West Slopes (Decalibron Loop)",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Mount Bross is almost exclusively climbed as the final peak in the Decalibron loop from Kite Lake. The west slopes route descends gentle tundra from the Cameron-Bross saddle to the Bross summit, then continues down to Kite Lake to complete the loop. The terrain is easy and the route is obvious.",
+        "summary": "Final peak in the Decalibron loop with easy terrain descending back to Kite Lake.",
+        "distance": 13.7,
+        "elevationGain": 1097,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "Note that Bross has private land access issues. Check current access status before climbing. The entire Decalibron is above treeline.",
+        "tips": [
+          {"content": "Check current access status as Bross has had periodic private land closures.", "category": "logistics"},
+          {"content": "Bross is typically the last peak in the Decalibron loop going counter-clockwise.", "category": "logistics"},
+          {"content": "The descent from Bross back to Kite Lake is gentle and makes a nice finish to the loop.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Exposed ridgeline throughout"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "No water sources on the loop"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Entirely above treeline"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Nice finish to the Decalibron", "body": "Bross is an easy final summit on the loop. The descent back to Kite Lake is gentle and pleasant. Check land access before going.", "conditions": "Clear, windy, mid-July"},
+          {"rating": 3, "title": "Easy peak with access concerns", "body": "The peak itself is unremarkable but as part of the Decalibron it works perfectly. Make sure land access is open before planning your trip.", "conditions": "Partly cloudy, moderate wind, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Kit Carson Mountain",
+    "routes": [
+      {
+        "name": "Challenger Point Traverse",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The most popular route on Kit Carson Mountain first summits Challenger Point and then traverses the connecting ridge to Kit Carson. The traverse involves Class 3 scrambling with some exposure. The approach from the Willow Creek trailhead is long but the double summit day is very rewarding.",
+        "summary": "Popular route traversing from Challenger Point with Class 3 ridge scrambling.",
+        "distance": 24.1,
+        "elevationGain": 1737,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"altitude sickness\",\"loose rock\"]",
+        "safetyNotes": "The traverse between Challenger and Kit Carson has sustained exposure and loose rock. Helmet recommended. The long approach means a very long day unless you backpack in.",
+        "tips": [
+          {"content": "Consider backpacking to the upper basin and camping to split this into two shorter days.", "category": "logistics"},
+          {"content": "Summit Challenger first, then traverse to Kit Carson for the most logical flow.", "category": "logistics"},
+          {"content": "The Class 3 sections on the traverse require careful hand and foot placement.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the traverse ridge"},
+          {"itemName": "Camping gear", "category": "camping", "isEssential": false, "notes": "For overnight in the upper basin"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful for route finding on the traverse"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Two amazing peaks in one day", "body": "Backpacked to the upper basin and did both peaks the next morning. The traverse between them is exciting Class 3 with great exposure. Sangre de Cristo views are incredible.", "conditions": "Clear, cool, early start from camp, late July"},
+          {"rating": 4, "title": "Long but rewarding combo", "body": "The Challenger-Kit Carson combo is a fantastic objective. The traverse keeps you engaged and both summits offer stunning views. Backpacking in is strongly recommended.", "conditions": "Clear morning, clouds by noon, early August"}
+        ]
+      },
+      {
+        "name": "Kit Carson Avenue",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "Kit Carson Avenue is a ledge system on the south face of Kit Carson Mountain that provides a more direct but more technical route to the summit. The route follows a series of ledges with Class 4 moves and significant exposure. This is a serious route that requires climbing experience and comfort with exposure.",
+        "summary": "Technical Class 4 ledge system on the south face with significant exposure.",
+        "distance": 21.0,
+        "elevationGain": 1585,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"lightning\",\"loose rock\",\"route finding\"]",
+        "safetyNotes": "This is a serious Class 4 route with significant exposure. Route finding is critical as wrong turns lead to dead ends on cliff faces. Not recommended for those uncomfortable with exposure.",
+        "tips": [
+          {"content": "Study the route carefully before attempting; wrong turns on the ledge system can be dangerous.", "category": "safety"},
+          {"content": "The Avenue is best done in dry conditions when the rock offers good friction.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for rockfall protection"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Optional for belaying the most exposed sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Exciting route for experienced scramblers", "body": "Kit Carson Avenue is a unique route on a ledge system with real exposure. Route finding is the crux. One wrong turn and you're in serious terrain. Very rewarding when done correctly.", "conditions": "Dry, clear, calm morning, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "El Diente Peak",
+    "routes": [
+      {
+        "name": "North Face",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on El Diente Peak ascends the north face from Navajo Basin. This is a demanding route with sustained Class 3 scrambling on loose rock. El Diente is one of the more remote and challenging 14ers in Colorado, requiring solid scrambling skills and good fitness.",
+        "summary": "Demanding Class 3 route up the north face from remote Navajo Basin.",
+        "distance": 19.3,
+        "elevationGain": 1585,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose rock\",\"exposure\",\"lightning\",\"remote location\"]",
+        "safetyNotes": "The rock on El Diente is notoriously loose. Helmet is mandatory. The peak is remote and evacuation would be slow. Climb with a partner.",
+        "tips": [
+          {"content": "Camp at Navajo Lake to allow an early start for this demanding objective.", "category": "timing"},
+          {"content": "The rock quality is poor; test every handhold before committing your weight.", "category": "safety"},
+          {"content": "Consider combining with Mount Wilson via the challenging connecting traverse.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for the extremely loose rock"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Protects hands during sustained scrambling"},
+          {"itemName": "First aid kit", "category": "camping", "isEssential": true, "notes": "Remote location with slow evacuation"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Loose but rewarding", "body": "El Diente has some of the worst rock quality of any 14er. But the remote setting in Navajo Basin is beautiful and the summit views are outstanding. Be extremely careful with the rock.", "conditions": "Clear, cool, early morning start from camp, late July"},
+          {"rating": 3, "title": "Serious mountain in a serious range", "body": "The Wilson Group is no joke. El Diente's loose rock demands constant attention. Rewarding summit for those who earn it.", "conditions": "Clear, calm, predawn start, early August"}
+        ]
+      },
+      {
+        "name": "Traverse from Mount Wilson",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The famous traverse between Mount Wilson and El Diente Peak is one of the most difficult standard routes connecting two 14ers. The traverse involves sustained Class 4 scrambling on notoriously loose rock with extreme exposure. This is a serious undertaking reserved for experienced alpine climbers.",
+        "summary": "Famous and difficult Class 4 traverse connecting Mount Wilson to El Diente Peak.",
+        "distance": 22.5,
+        "elevationGain": 1890,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"loose rock\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "This is one of the most serious standard routes on any Colorado 14er. The rock is extremely loose and the exposure is severe. A rope is recommended. Only for experienced alpine climbers.",
+        "tips": [
+          {"content": "A 30m rope and a light rack are strongly recommended for the most exposed sections.", "category": "safety"},
+          {"content": "Most parties traverse from Wilson to El Diente as the route finding is more intuitive in that direction.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "30m rope", "category": "climbing", "isEssential": true, "notes": "Strongly recommended for the exposed traverse"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely mandatory for the loose rock"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Most intense scramble in Colorado", "body": "The Wilson-El Diente traverse is no joke. Sustained Class 4 on terrible rock with massive exposure. We roped up for several sections. Incredibly rewarding but not for the inexperienced.", "conditions": "Clear, calm, predawn alpine start from Navajo Lake camp, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Tabeguache Peak",
+    "routes": [
+      {
+        "name": "Southwest Ridge (Shavano Combo)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Tabeguache Peak is almost always climbed in combination with Mount Shavano via the connecting ridge. After summiting Shavano, climbers traverse the gentle ridge north to Tabeguache and then descend via the southwest ridge. The terrain is moderate and the route adds a rewarding second summit to the Shavano outing.",
+        "summary": "Usually combined with Shavano via a gentle ridge traverse for a two-peak day.",
+        "distance": 19.3,
+        "elevationGain": 1585,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind on ridge\"]",
+        "safetyNotes": "Extended time above treeline on the connecting ridge. Watch weather carefully. The descent trail from Tabeguache can be faint.",
+        "tips": [
+          {"content": "Summit Shavano first, then traverse to Tabeguache for the most efficient combo.", "category": "logistics"},
+          {"content": "The connecting ridge between Shavano and Tabeguache is gentle and scenic.", "category": "general"},
+          {"content": "The descent from Tabeguache back to the Shavano trail can be faint; use GPS if needed.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful for the descent trail which can be faint"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "Long day with no water above treeline"},
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridge can be windy"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Natural combo with Shavano", "body": "Tabeguache is a great bonus peak when doing Shavano. The traverse is easy and adds maybe 90 minutes. Both summits have excellent views.", "conditions": "Clear, moderate wind, mid-July"},
+          {"rating": 4, "title": "Two for one", "body": "The Shavano-Tabeguache combo is one of the best two-peak days in the Sawatch. Easy terrain throughout and the ridge walk between them is enjoyable.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Oxford",
+    "routes": [
+      {
+        "name": "West Slopes (Belford Combo)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Mount Oxford is most commonly climbed in combination with Mount Belford via the connecting ridge. After summiting Belford, climbers descend to the saddle and climb the gentle ridge to Oxford's summit. The terrain is moderate and the route is straightforward.",
+        "summary": "Most commonly climbed via gentle ridge traverse from Mount Belford.",
+        "distance": 17.7,
+        "elevationGain": 1585,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "The connecting ridge is exposed to weather and wind. Extended time above treeline. Watch for storms.",
+        "tips": [
+          {"content": "Climb Belford first, traverse to Oxford, then return to descend via the Belford trail.", "category": "logistics"},
+          {"content": "The Belford-Oxford saddle is a good place to reassess weather before continuing.", "category": "safety"},
+          {"content": "Strong parties can add Missouri Mountain for a three-peak day.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridge between Belford and Oxford is often windy"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the descent"},
+          {"itemName": "Extra food", "category": "camping", "isEssential": true, "notes": "Long day if combining with Belford"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great add-on to Belford", "body": "Oxford makes a perfect companion to Belford. The traverse is easy and scenic and adds a second summit with minimal extra effort.", "conditions": "Clear, light wind, mid-July"}
+        ]
+      },
+      {
+        "name": "South Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate route that ascends Oxford directly via the south ridge without going over Belford first. This route is less commonly used but offers a more direct approach to Oxford. The trail follows Pine Creek before climbing the south ridge to the summit.",
+        "summary": "Direct approach to Oxford via the south ridge, bypassing Belford.",
+        "distance": 16.1,
+        "elevationGain": 1433,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"route finding\"]",
+        "safetyNotes": "Less traveled route with fainter trail. Carry navigation tools.",
+        "tips": [
+          {"content": "This route is a good option if you only want to climb Oxford without Belford.", "category": "general"},
+          {"content": "The trail is less defined than the Belford approach; bring a GPS.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Trail is faint on the upper ridge"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed ridge with no shelter"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Quiet but less scenic than the Belford approach", "body": "Used this route to climb Oxford independently. It works but honestly the Belford combo is more enjoyable and gives you two peaks. Trail is faint above treeline.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Sneffels",
+    "routes": [
+      {
+        "name": "South Slopes",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Mount Sneffels ascends the south slopes from Yankee Boy Basin via the prominent V-Notch couloir. The approach through Yankee Boy Basin is stunningly beautiful with wildflowers in July. The upper route involves Class 3 scrambling through the couloir and up the final summit block.",
+        "summary": "Classic route through scenic Yankee Boy Basin with Class 3 couloir scrambling.",
+        "distance": 9.7,
+        "elevationGain": 1067,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"loose rock in couloir\"]",
+        "safetyNotes": "The V-Notch couloir has rockfall danger, especially with parties above. Helmet is essential. The couloir holds snow into early summer requiring an ice axe.",
+        "tips": [
+          {"content": "Visit in mid-July for the incredible wildflower display in Yankee Boy Basin.", "category": "timing"},
+          {"content": "The Yankee Boy Basin road requires high clearance 4WD for the upper section.", "category": "logistics"},
+          {"content": "Start early to minimize rockfall risk in the couloir from other parties.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall in the couloir"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": false, "notes": "Needed if snow persists in the couloir"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the Class 3 scrambling"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Most scenic 14er approach in Colorado", "body": "Yankee Boy Basin in wildflower season is jaw-dropping. The climb through the V-Notch is exciting and the summit views of the San Juans are incredible. A must-do 14er.", "conditions": "Clear, cool, wildflowers blooming, mid-July"},
+          {"rating": 5, "title": "Classic San Juan peak", "body": "Sneffels is everything a 14er should be. Beautiful approach, exciting scrambling, and a stunning summit. The couloir requires a helmet and an early start.", "conditions": "Clear morning, light wind, late July"}
+        ]
+      },
+      {
+        "name": "Snake Couloir",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Snake Couloir is a dramatic alternative to the standard south slopes route, ascending a narrow couloir on the north side of Mount Sneffels. This is a more technical and committing route with Class 4 climbing and significant exposure. Popular as a spring snow climb when the couloir is filled.",
+        "summary": "Technical Class 4 couloir on the north face, popular as a spring snow climb.",
+        "distance": 11.3,
+        "elevationGain": 1158,
+        "estimatedTime": 8,
+        "season": "spring",
+        "hazards": "[\"avalanche\",\"rockfall\",\"exposure\",\"steep snow\",\"route finding\"]",
+        "safetyNotes": "In spring, avalanche assessment is critical. In summer, the couloir is loose rock and scree. Best done as a snow climb in stable spring conditions. Only for experienced mountaineers.",
+        "tips": [
+          {"content": "Best done as a spring snow climb when the couloir is consolidated and filled.", "category": "timing"},
+          {"content": "Avalanche assessment skills and equipment are essential for the spring ascent.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": true, "notes": "Essential for the steep snow climb"},
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "Required for firm spring snow"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Incredible spring snow climb", "body": "The Snake Couloir in spring is one of the best snow climbs in Colorado. Firm neve, dramatic exposure, and a thrilling summit finish. Avalanche skills are a must.", "conditions": "Firm spring snow, clear, cold, late April"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Democrat",
+    "routes": [
+      {
+        "name": "East Ridge (Decalibron)",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Democrat ascends the east ridge from Kite Lake as part of the Decalibron loop. Democrat is typically the first summit in the counter-clockwise loop. The trail is well-defined and the grade is moderate, making this an excellent beginner 14er.",
+        "summary": "First peak in the popular Decalibron loop with a well-defined trail from Kite Lake.",
+        "distance": 8.0,
+        "elevationGain": 701,
+        "estimatedTime": 4,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind\"]",
+        "safetyNotes": "Entirely above treeline with no shelter. Start early if doing the full Decalibron to allow time for all four peaks.",
+        "tips": [
+          {"content": "Start with Democrat when doing the Decalibron loop counter-clockwise.", "category": "logistics"},
+          {"content": "Kite Lake parking fills fast; arrive before 5:30 AM on summer weekends.", "category": "logistics"},
+          {"content": "The east ridge has a well-worn trail that is easy to follow.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridge is exposed and often windy"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline the entire route"},
+          {"itemName": "Extra layers", "category": "clothing", "isEssential": true, "notes": "Kite Lake is cold in early morning"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Great start to the Decalibron", "body": "Democrat is a perfect warm-up for the Decalibron loop. Easy trail, quick summit, and then you're off to Cameron and Lincoln. Four 14ers in one day is hard to beat.", "conditions": "Clear, cold start, mid-July"},
+          {"rating": 4, "title": "Easy and accessible", "body": "One of the easiest 14ers in Colorado. The trail from Kite Lake is short and well-defined. Great for beginners or as a quick summit.", "conditions": "Partly cloudy, moderate wind, late July"}
+        ]
+      },
+      {
+        "name": "Kite Lake Approach",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "A direct approach to Mount Democrat from Kite Lake without doing the full Decalibron loop. This variation ascends the northwest face more directly and involves some Class 2 talus scrambling. Shorter and more direct than the standard east ridge for those only wanting Democrat.",
+        "summary": "Direct approach from Kite Lake for those only wanting to summit Democrat.",
+        "distance": 6.4,
+        "elevationGain": 670,
+        "estimatedTime": 3.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"loose talus\",\"altitude sickness\"]",
+        "safetyNotes": "The direct face route has some loose talus. Stay on the trail to minimize erosion.",
+        "tips": [
+          {"content": "This is a good option if you only want Democrat and not the full Decalibron.", "category": "general"},
+          {"content": "The talus on the direct route is loose; watch your footing.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Sturdy boots", "category": "clothing", "isEssential": true, "notes": "Ankle support for the talus sections"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for stability on loose rock"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Quick summit", "body": "Used the direct route for a quick summit on a day with questionable weather. Short and efficient. The talus is a bit tedious but it gets you to the top fast.", "conditions": "Overcast, cool, early morning, mid-August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Snowmass Mountain",
+    "routes": [
+      {
+        "name": "S Ridge/Snowmass Creek",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Snowmass Mountain approaches from Snowmass Creek via a very long trail before ascending the south ridge. This is one of the most remote 14ers in Colorado and the approach is among the longest. The upper ridge involves Class 3 scrambling on sometimes loose rock. Most parties backpack to Snowmass Lake.",
+        "summary": "Long approach via Snowmass Creek with Class 3 scrambling on the south ridge.",
+        "distance": 35.4,
+        "elevationGain": 1737,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose rock\",\"lightning\",\"remote location\",\"altitude sickness\"]",
+        "safetyNotes": "Extremely long approach; plan for a multi-day trip. The south ridge has loose rock and some exposure. Remote location means slow evacuation. Permits may be required for camping.",
+        "tips": [
+          {"content": "This is typically a multi-day backpacking trip with camp at Snowmass Lake.", "category": "logistics"},
+          {"content": "Check permit requirements for camping in the Maroon Bells-Snowmass Wilderness.", "category": "logistics"},
+          {"content": "Snowmass Lake is one of the most beautiful alpine lakes in Colorado.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Backpacking gear", "category": "camping", "isEssential": true, "notes": "Multi-day trip is essentially required"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the south ridge"},
+          {"itemName": "Bear canister", "category": "camping", "isEssential": true, "notes": "Required in Maroon Bells-Snowmass Wilderness"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Remote wilderness gem", "body": "Snowmass Mountain is the ultimate Colorado 14er experience. The long approach rewards you with stunning Snowmass Lake and a challenging summit. A true wilderness adventure.", "conditions": "Clear, cool, backpacked in over two days, early August"},
+          {"rating": 4, "title": "Earn every step", "body": "The approach is brutally long but the setting is unmatched. Snowmass Lake alone is worth the hike. The summit scramble is engaging and the views are world-class.", "conditions": "Clear morning, afternoon clouds, late July"}
+        ]
+      },
+      {
+        "name": "West Face",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The west face of Snowmass Mountain offers a more technical and direct route to the summit from the Geneva Lake area. This route involves Class 4 climbing on steep terrain and is less traveled than the standard south ridge. The approach from Lead King Basin provides a different perspective of the mountain.",
+        "summary": "Technical west face route from Geneva Lake with Class 4 climbing.",
+        "distance": 25.7,
+        "elevationGain": 1676,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"loose rock\",\"remote location\"]",
+        "safetyNotes": "Technical route requiring climbing experience. Remote location. A rope may be needed for the most difficult sections.",
+        "tips": [
+          {"content": "This approach from Geneva Lake sees very few climbers.", "category": "general"},
+          {"content": "Bring a rope and basic protection for the Class 4 sections.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Recommended for the Class 4 sections"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for loose rock"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Adventurous alternative", "body": "The west face sees almost nobody. The climbing is engaging and the Geneva Lake basin is beautiful. Bring a rope for peace of mind on the upper face.", "conditions": "Clear, calm, early start from Geneva Lake camp, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Eolus",
+    "routes": [
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Mount Eolus ascends the northeast ridge from the Chicago Basin approach. Access to Chicago Basin typically involves riding the Durango & Silverton Narrow Gauge Railroad to the Needleton trailhead, followed by a long hike to camp. The upper ridge involves fun Class 3 scrambling on relatively solid rock.",
+        "summary": "Classic route via train-accessed Chicago Basin with fun Class 3 ridge scrambling.",
+        "distance": 27.4,
+        "elevationGain": 1676,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"altitude sickness\",\"remote location\"]",
+        "safetyNotes": "Remote location accessed by train. Plan for multi-day trip. The upper ridge has some exposure. Lightning is a serious concern in the Needles area.",
+        "tips": [
+          {"content": "Book your Durango & Silverton train tickets well in advance; they sell out quickly.", "category": "logistics"},
+          {"content": "Plan for at least 3 days: day 1 hike in, day 2 summit, day 3 hike out.", "category": "logistics"},
+          {"content": "Consider combining with Windom and Sunlight peaks from the same base camp.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Backpacking gear", "category": "camping", "isEssential": true, "notes": "Multi-day trip required"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "For the Class 3 scrambling on the ridge"},
+          {"itemName": "Bear canister", "category": "camping", "isEssential": true, "notes": "Required in the Weminuche Wilderness"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Train ride plus 14ers equals magic", "body": "The train ride to the trailhead is an experience in itself. Chicago Basin is spectacular and the climb up Eolus is exciting. Combined with Windom and Sunlight for an incredible trip.", "conditions": "Clear mornings, afternoon storms, early August"},
+          {"rating": 5, "title": "Best 14er adventure in Colorado", "body": "The Needles trio from Chicago Basin is the ultimate Colorado mountaineering objective. Eolus is the most straightforward of the three. The setting is unparalleled.", "conditions": "Mixed weather, clear summit morning, late July"}
+        ]
+      },
+      {
+        "name": "Catwalk Approach",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "This variation approaches Mount Eolus via the Catwalk, a narrow ledge system that connects to the upper northeast ridge. The Catwalk adds a dramatic element to the climb with some exposure. The approach is the same via Chicago Basin but the upper route takes a slightly different line.",
+        "summary": "Variation using the dramatic Catwalk ledge system to reach the upper ridge.",
+        "distance": 27.4,
+        "elevationGain": 1676,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"narrow ledges\"]",
+        "safetyNotes": "The Catwalk has significant exposure on a narrow ledge. Not for those uncomfortable with heights. The rest of the route is similar to the standard NE ridge.",
+        "tips": [
+          {"content": "The Catwalk is a narrow ledge with serious exposure; only attempt if comfortable with heights.", "category": "safety"},
+          {"content": "The Catwalk connects naturally to the upper NE ridge route.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for the upper mountain scrambling"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the sustained scrambling"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The Catwalk adds excitement", "body": "The Catwalk is a fun addition to the standard route. The exposure is real but the ledge is wide enough to feel secure. The scrambling above is engaging.", "conditions": "Clear and cool, early morning from Chicago Basin camp, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Windom Peak",
+    "routes": [
+      {
+        "name": "West Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Windom Peak ascends the west ridge from Chicago Basin. Like the other Needles peaks, access is via the Durango & Silverton train. The route is the least technical of the three Chicago Basin 14ers and involves moderate Class 2 scrambling to the summit.",
+        "summary": "Least technical of the Chicago Basin 14ers with moderate Class 2 scrambling.",
+        "distance": 25.7,
+        "elevationGain": 1585,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"loose rock\",\"remote location\"]",
+        "safetyNotes": "Remote location requiring multi-day trip. Standard 14er hazards plus the remoteness factor. Lightning is especially dangerous in the Needles.",
+        "tips": [
+          {"content": "Windom is often combined with Eolus and Sunlight from a Chicago Basin base camp.", "category": "general"},
+          {"content": "The west ridge is the easiest of the three Chicago Basin 14er routes.", "category": "general"},
+          {"content": "Start early as afternoon lightning storms are extremely common in the Needles.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Backpacking gear", "category": "camping", "isEssential": true, "notes": "Multi-day trip required"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for loose rock sections"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms are almost guaranteed"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Incredible setting", "body": "Windom has the easiest route of the three Chicago Basin peaks but the setting is just as spectacular. The train approach and alpine meadows make this a world-class experience.", "conditions": "Clear morning, afternoon clouds, early August"},
+          {"rating": 4, "title": "Most accessible Needles 14er", "body": "If you can only do one Chicago Basin peak, Windom is the most accessible. But honestly, do all three if you've made the effort to get in there.", "conditions": "Partly cloudy, occasional light rain, late July"}
+        ]
+      },
+      {
+        "name": "Sunlight-Windom Traverse",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "This route connects Sunlight Peak to Windom Peak via the dramatic ridge traverse between them. The traverse involves Class 4 scrambling with significant exposure and some loose rock. This is a serious undertaking best done as part of a multi-peak day in Chicago Basin.",
+        "summary": "Dramatic Class 4 ridge traverse connecting Sunlight Peak to Windom Peak.",
+        "distance": 27.4,
+        "elevationGain": 1890,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"loose rock\",\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "The traverse has serious exposure and loose rock. A rope may be prudent for the most exposed sections. Very long day combining two technical summits.",
+        "tips": [
+          {"content": "Most parties traverse from Sunlight to Windom as the route finding is cleaner.", "category": "logistics"},
+          {"content": "Budget a full day for this traverse and start well before dawn.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for the loose rock traverse"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Recommended for the most exposed sections"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Epic traverse in incredible terrain", "body": "The Sunlight-Windom traverse is one of the best ridge traverses in Colorado. Sustained Class 4 with great exposure and beautiful rock. A serious but rewarding day.", "conditions": "Clear, cool, predawn start from Chicago Basin, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Challenger Point",
+    "routes": [
+      {
+        "name": "North Slopes from Willow Creek",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Challenger Point ascends the north slopes from the Willow Creek trailhead. The trail passes through forest and open meadows before climbing moderate slopes to the summit. Challenger is most frequently combined with Kit Carson Mountain via the connecting ridge traverse.",
+        "summary": "Standard hiking route from Willow Creek, often combined with Kit Carson Mountain.",
+        "distance": 20.9,
+        "elevationGain": 1524,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"long approach\"]",
+        "safetyNotes": "Long approach makes this a full day. Consider backpacking to the upper basin. The summit area is exposed to lightning.",
+        "tips": [
+          {"content": "Consider camping in the upper basin to break the long day and allow a Kit Carson combo.", "category": "logistics"},
+          {"content": "Challenger is named in honor of the Space Shuttle Challenger crew.", "category": "general"},
+          {"content": "The trail through Willow Creek meadows is beautiful in wildflower season.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long approach and descent"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed summit area"},
+          {"itemName": "Camping gear", "category": "camping", "isEssential": false, "notes": "For overnight in upper basin"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Beautiful approach to a meaningful summit", "body": "The hike through Willow Creek is gorgeous, especially in wildflower season. The summit has a memorial plaque for the Challenger astronauts. Combined with Kit Carson for an incredible day.", "conditions": "Clear, cool, mid-July"},
+          {"rating": 4, "title": "Long but rewarding", "body": "The approach is long but scenic. Camped in the upper basin which made the summit day reasonable. Natural combo with Kit Carson.", "conditions": "Clear morning, afternoon clouds, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Columbia",
+    "routes": [
+      {
+        "name": "West Slopes from Harvard Combo",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Mount Columbia is most commonly climbed in combination with Mount Harvard from the Harvard route. After summiting Harvard, climbers traverse the connecting ridge south to Columbia. The terrain is moderate Class 2 throughout but the total distance for the combo is significant. Columbia can also be approached independently from the west.",
+        "summary": "Most commonly climbed as part of a Harvard-Columbia combo via the connecting ridge.",
+        "distance": 27.4,
+        "elevationGain": 1890,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"long day\",\"route finding\"]",
+        "safetyNotes": "The Harvard-Columbia combo is a very long day. Extended time above treeline. The connecting ridge can be tricky to navigate. Be prepared to bail on Columbia if weather deteriorates.",
+        "tips": [
+          {"content": "Most parties summit Harvard first, then traverse to Columbia before descending.", "category": "logistics"},
+          {"content": "The connecting ridge has some route-finding challenges; bring a GPS.", "category": "navigation"},
+          {"content": "Budget extra food and water for this very long day.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Route finding on the connecting ridge"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Very long day above treeline"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long distance and descent"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Epic combo day", "body": "The Harvard-Columbia combo is a big day but incredibly rewarding. Two of the highest peaks in Colorado in a single push. The ridge between them is scenic but long.", "conditions": "Clear, calm, predawn start, late July"},
+          {"rating": 3, "title": "Long but worth it for two peaks", "body": "This is a brutally long day. Started at 3 AM and finished at 5 PM. But getting Harvard and Columbia in one shot is efficient. Bring lots of food and water.", "conditions": "Clear morning, clouds by noon, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Missouri Mountain",
+    "routes": [
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Missouri Mountain ascends the northwest ridge from Missouri Gulch via the same trailhead used for Belford and Oxford. Missouri is a steeper and more demanding climb than its neighbors and is sometimes added to the Belford-Oxford combo for an ambitious three-peak day.",
+        "summary": "Steep standard route from Missouri Gulch, sometimes combined with Belford and Oxford.",
+        "distance": 17.7,
+        "elevationGain": 1524,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"steep terrain\",\"loose rock\"]",
+        "safetyNotes": "Missouri is steeper and more demanding than Belford or Oxford. The upper northwest ridge has some loose rock. Do not underestimate this peak.",
+        "tips": [
+          {"content": "Missouri is the most challenging of the Belford-Oxford-Missouri trio.", "category": "general"},
+          {"content": "If combining with Belford and Oxford, save Missouri for last as it requires the most energy.", "category": "logistics"},
+          {"content": "The upper ridge is steep and loose; trekking poles help significantly on the descent.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": true, "notes": "Very helpful on the steep, loose descent"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for the loose upper ridge"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "Demanding climb especially if combined with other peaks"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The tough one in the trio", "body": "Missouri is noticeably harder than Belford or Oxford. The northwest ridge is steep and the footing is loose. But the summit views are excellent. Saved it for the third peak and was exhausted but happy.", "conditions": "Clear, warm, late July"},
+          {"rating": 4, "title": "Don't underestimate Missouri", "body": "Added Missouri to a Belford-Oxford day and it nearly broke me. The peak is beautiful but demands respect. The upper ridge is steep and loose.", "conditions": "Clear morning, clouds building, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Humboldt Peak",
+    "routes": [
+      {
+        "name": "West Ridge from Colony Lakes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Humboldt Peak ascends the west ridge from the South Colony Lakes trailhead. The trail climbs through forest and past the lakes before ascending moderate slopes to the ridge and summit. Humboldt is the easiest of the Crestone group peaks and offers spectacular views of the Crestones.",
+        "summary": "Easiest of the Crestone group peaks with stunning views of Crestone Peak and Needle.",
+        "distance": 19.3,
+        "elevationGain": 1372,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"rough access road\"]",
+        "safetyNotes": "The South Colony Lakes road is very rough and requires high clearance 4WD. Most hikers walk the road, adding distance. Start early for afternoon storms.",
+        "tips": [
+          {"content": "The views of Crestone Peak and Crestone Needle from Humboldt's summit are some of the best in Colorado.", "category": "general"},
+          {"content": "The South Colony road is rough; plan to walk it unless you have a very capable vehicle.", "category": "logistics"},
+          {"content": "Camping at South Colony Lakes makes this a more relaxed day.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the long approach and descent"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common"},
+          {"itemName": "Camera", "category": "navigation", "isEssential": false, "notes": "Summit views of the Crestones are world-class"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Best views in the Sangre de Cristos", "body": "Humboldt itself is a straightforward hike but the views of Crestone Peak and Needle from the summit are absolutely stunning. Worth the effort just for the scenery.", "conditions": "Clear, calm, mid-July"},
+          {"rating": 4, "title": "Easiest Crestone group peak", "body": "If the Crestones are too technical for you, Humboldt gives you incredible views of them from a Class 2 route. The access road is brutal though.", "conditions": "Clear morning, afternoon clouds, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Bierstadt",
+    "routes": [
+      {
+        "name": "West Slopes",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Bierstadt from Guanella Pass is one of the most popular and accessible 14er hikes in Colorado. The trail descends briefly through willows before climbing moderate slopes to the broad summit. The short distance and moderate elevation gain make this an excellent first 14er.",
+        "summary": "One of the most popular and accessible 14er hikes, ideal for beginners.",
+        "distance": 11.3,
+        "elevationGain": 823,
+        "estimatedTime": 4.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"crowding\"]",
+        "safetyNotes": "Very popular trail; expect crowds on summer weekends. The willows at the start can be wet and muddy. Start early for parking.",
+        "tips": [
+          {"content": "This is one of the best first 14ers due to moderate distance and the paved Guanella Pass road.", "category": "general"},
+          {"content": "The willow bog at the start of the trail can soak your feet; gaiters help.", "category": "logistics"},
+          {"content": "Guanella Pass parking fills very fast on weekends; consider a weekday ascent.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Gaiters", "category": "clothing", "isEssential": false, "notes": "Helpful for the willow bog crossing"},
+          {"itemName": "Rain jacket", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Mostly above treeline"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Perfect beginner 14er", "body": "Did this as my first 14er and it was ideal. Short enough to not be overwhelming but still feels like an accomplishment. The willow section was muddy but manageable.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 4, "title": "Crowded but classic", "body": "Bierstadt is deservedly popular. Easy access, moderate trail, and great views. Just be prepared for crowds and get there early for parking.", "conditions": "Sunny, light wind, late July"}
+        ]
+      },
+      {
+        "name": "Sawtooth Ridge",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Sawtooth Ridge connects Mount Bierstadt to Mount Evans via a dramatic knife-edge ridge. This is one of the most famous scrambles in Colorado, featuring sustained Class 3 scrambling with significant exposure on a narrow ridge. The route is typically done from Bierstadt to Evans or as a return route after summiting Bierstadt.",
+        "summary": "Famous knife-edge Class 3 ridge connecting Bierstadt to Mount Evans.",
+        "distance": 16.1,
+        "elevationGain": 1280,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"lightning\",\"loose rock\",\"route finding\"]",
+        "safetyNotes": "The Sawtooth has significant exposure on a narrow ridge with some loose rock. Retreat from the middle of the ridge is difficult. Do not attempt if storms are anywhere near. Helmet required.",
+        "tips": [
+          {"content": "Most parties go from Bierstadt toward Evans, which many consider the easier direction.", "category": "logistics"},
+          {"content": "The exposure on the Sawtooth is serious; only attempt if comfortable with Class 3 exposure.", "category": "safety"},
+          {"content": "Start very early as the ridge is fully exposed to lightning with no escape.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall on the ridge"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for sustained hand-over-hand scrambling"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Route finding can be tricky on the ridge"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Colorado's best scramble", "body": "The Sawtooth is an incredible experience. The exposure is breathtaking, the rock is generally solid, and the position on the ridge is thrilling. A must-do for scramblers.", "conditions": "Clear, calm, predawn start, mid-July"},
+          {"rating": 4, "title": "Serious but exhilarating", "body": "Do not underestimate the Sawtooth. The exposure is real and retreat is difficult once committed. But for experienced scramblers, this is pure joy.", "conditions": "Clear morning, early start, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Sunlight Peak",
+    "routes": [
+      {
+        "name": "South Face/Red Couloir",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The standard route on Sunlight Peak ascends the south face via a couloir system from Chicago Basin. Sunlight is the most technical of the three Chicago Basin 14ers, with Class 4 climbing required on the final summit block. The summit itself is a small pointed rock requiring a committing final move.",
+        "summary": "Most technical Chicago Basin 14er with Class 4 summit block climbing.",
+        "distance": 25.7,
+        "elevationGain": 1585,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"Class 4 summit block\",\"remote location\"]",
+        "safetyNotes": "The summit block requires a committing Class 4 move with extreme exposure. The summit is one of the smallest and most exposed in Colorado. Not for those with fear of heights.",
+        "tips": [
+          {"content": "The final move to the summit block is the crux; study photos beforehand to understand the sequence.", "category": "safety"},
+          {"content": "Combine with Windom and Eolus from a Chicago Basin base camp for the full Needles experience.", "category": "general"},
+          {"content": "Book your train tickets for the Durango & Silverton Narrow Gauge well in advance.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for the upper mountain scrambling"},
+          {"itemName": "Backpacking gear", "category": "camping", "isEssential": true, "notes": "Multi-day trip via Chicago Basin"},
+          {"itemName": "Climbing shoes", "category": "climbing", "isEssential": false, "notes": "Optional for the Class 4 summit block"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Most exciting 14er summit in Colorado", "body": "The final move onto Sunlight's summit block is unforgettable. Your heart pounds as you commit to the exposed Class 4 move. The smallest summit of any 14er. Incredible.", "conditions": "Clear, calm, early morning from camp, late July"},
+          {"rating": 4, "title": "Thrilling summit with a committing move", "body": "Sunlight's summit block is the most dramatic finish of any Colorado 14er. The Class 4 move is short but exposed. Beautiful peak in an incredible setting.", "conditions": "Clear, cool, early August"}
+        ]
+      },
+      {
+        "name": "Sunlight Spire",
+        "difficulty": "5.4",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "Sunlight Spire is a prominent rock tower adjacent to Sunlight Peak's summit. The route ascends the spire via 5th class climbing with a short but thrilling pitch. This is typically done as an add-on after summiting Sunlight Peak. The spire offers a unique perspective of the Needles range.",
+        "summary": "Technical rock tower adjacent to Sunlight Peak requiring 5th class climbing.",
+        "distance": 25.7,
+        "elevationGain": 1615,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"technical climbing\",\"lightning\"]",
+        "safetyNotes": "The spire requires 5th class climbing with a rope and protection. Only for experienced rock climbers comfortable at altitude.",
+        "tips": [
+          {"content": "Bring a short rope and a few pieces of protection to safely climb the spire.", "category": "safety"},
+          {"content": "The spire is typically done after summiting Sunlight Peak.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "30m rope", "category": "climbing", "isEssential": true, "notes": "Required for the technical pitch on the spire"},
+          {"itemName": "Basic rack", "category": "climbing", "isEssential": true, "notes": "A few cams and nuts for protection"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Unique summit experience", "body": "After doing Sunlight Peak, we couldn't resist the spire. A short pitch of fun 5.4 climbing with an incredible summit. One of the most unique objectives in Colorado.", "conditions": "Clear, calm, after Sunlight summit, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Handies Peak",
+    "routes": [
+      {
+        "name": "West Slopes from American Basin",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The most popular route on Handies Peak starts at American Basin and follows a well-maintained trail to the summit via the west slopes. American Basin is famous for its incredible wildflower displays in July. The route is short and relatively easy, making it one of the most accessible San Juan 14ers.",
+        "summary": "Short, easy route from wildflower-rich American Basin to a stunning San Juan summit.",
+        "distance": 9.7,
+        "elevationGain": 884,
+        "estimatedTime": 4.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Easy route with standard 14er hazards. The access road to American Basin requires high clearance. Start early for afternoon storms.",
+        "tips": [
+          {"content": "Visit in mid-July for the spectacular wildflower display in American Basin.", "category": "timing"},
+          {"content": "The access road requires high clearance; most passenger cars cannot make it.", "category": "logistics"},
+          {"content": "This is one of the easier San Juan 14ers and great for a quick summit day.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "San Juan afternoon storms can be intense"},
+          {"itemName": "Camera", "category": "navigation", "isEssential": false, "notes": "Wildflowers and summit views are outstanding"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline for the entire route"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Wildflower paradise", "body": "American Basin in July is one of the most beautiful places in Colorado. The wildflowers are incredible and the hike to Handies is short and easy. A perfect San Juan day.", "conditions": "Clear, wildflowers blooming, mid-July"},
+          {"rating": 5, "title": "Easy San Juan gem", "body": "Handies from American Basin is a wonderful short hike. The views from the summit span the entire San Juan range. One of my favorite easy 14ers.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      },
+      {
+        "name": "Grizzly Gulch",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate approach to Handies Peak from the Grizzly Gulch trailhead near Lake City. This route is longer than the American Basin approach but starts from a more accessible trailhead. The trail follows Grizzly Gulch before climbing to the upper slopes and summit.",
+        "summary": "Longer alternate approach from a more accessible trailhead near Lake City.",
+        "distance": 12.9,
+        "elevationGain": 1036,
+        "estimatedTime": 5.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "Longer than the American Basin approach but with fewer road access challenges. Standard 14er hazards apply.",
+        "tips": [
+          {"content": "This trailhead is more accessible than American Basin for lower-clearance vehicles.", "category": "logistics"},
+          {"content": "The Grizzly Gulch approach can be combined with a trip to the Cinnamon Pass area.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the longer distance"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common in the San Juans"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Good alternative approach", "body": "Used Grizzly Gulch because my car couldn't make the American Basin road. Longer but still a pleasant hike with good views. The gulch is scenic in its own right.", "conditions": "Clear, warm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Culebra Peak",
+    "routes": [
+      {
+        "name": "Northwest Ridge (Private Land Access)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Culebra Peak is unique among Colorado 14ers as the only one on private land requiring a paid access fee. The standard route follows the northwest ridge from the Cielo Vista Ranch. The terrain is moderate Class 2 hiking across open tundra and gentle slopes. Access is limited and must be arranged in advance with the ranch.",
+        "summary": "Only privately-owned Colorado 14er requiring paid access and advance reservation.",
+        "distance": 14.5,
+        "elevationGain": 1158,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"limited access\"]",
+        "safetyNotes": "Access must be arranged in advance with Cielo Vista Ranch and a fee is required. Limited number of climbers allowed per day. The ranch provides route information upon payment.",
+        "tips": [
+          {"content": "You must contact Cielo Vista Ranch in advance to arrange access and pay the fee.", "category": "logistics"},
+          {"content": "Limited spots are available each day; book well in advance for summer weekends.", "category": "logistics"},
+          {"content": "The route is straightforward once you have ranch directions; enjoy the solitude.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed terrain above treeline"},
+          {"itemName": "Cash for access fee", "category": "camping", "isEssential": true, "notes": "Required fee to access the private ranch"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the moderate terrain"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Unique 14er experience", "body": "Culebra is unlike any other 14er. The private access means very few people and a wilderness feel. The route is easy but the logistics of arranging access add complexity.", "conditions": "Clear, calm, mid-August"},
+          {"rating": 3, "title": "Pay to play but worth it for completionists", "body": "If you're going for all 58 14ers, Culebra is a must. The hiking is easy but the access fee and limited availability make it a challenge to schedule. Nice views of the Sangre de Cristos.", "conditions": "Partly cloudy, moderate wind, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "North Maroon Peak",
+    "routes": [
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The standard route on North Maroon Peak ascends the northeast ridge from the Maroon Lake area. This is one of the most dangerous standard 14er routes in Colorado due to the notoriously rotten Maroon Formation rock. The route involves sustained Class 4 climbing on extremely loose rock that requires constant vigilance.",
+        "summary": "Dangerous standard route on notoriously loose Maroon Formation rock.",
+        "distance": 14.5,
+        "elevationGain": 1585,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"extremely loose rock\",\"rockfall\",\"exposure\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "North Maroon Peak has some of the worst rock quality of any Colorado 14er. The Maroon Bells are sometimes called the Deadly Bells for good reason. Rockfall is a constant and serious danger. Helmet is absolutely mandatory. Climb only in small parties.",
+        "tips": [
+          {"content": "The Maroon Bells are nicknamed the Deadly Bells; take this route extremely seriously.", "category": "safety"},
+          {"content": "Climb in a very small party to minimize rockfall danger from other climbers.", "category": "safety"},
+          {"content": "Study the route thoroughly before attempting; wrong turns lead to dangerous terrain.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely mandatory for the terrible rock quality"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Route finding is critical on loose terrain"},
+          {"itemName": "First aid kit", "category": "camping", "isEssential": true, "notes": "Rock injuries are common on this route"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Dangerous but attainable with care", "body": "North Maroon deserves its reputation. The rock is atrocious. Every handhold must be tested. I've done harder routes that felt much safer. Rewarding summit for those who take it seriously.", "conditions": "Clear, calm, predawn start, late July"},
+          {"rating": 4, "title": "Serious mountain for serious climbers", "body": "North Maroon is not a peak to take lightly. The rock quality demands absolute concentration. But the summit views of the Elk Range are among the best anywhere.", "conditions": "Clear, cold morning start, early August"}
+        ]
+      },
+      {
+        "name": "Maroon Peak-North Maroon Traverse",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The infamous traverse between Maroon Peak and North Maroon Peak is one of the most dangerous standard routes in Colorado. The traverse follows the connecting ridge on extremely loose Maroon Formation rock with severe exposure. Multiple fatalities have occurred on this route. Only for very experienced alpine climbers.",
+        "summary": "Infamous and dangerous ridge traverse on extremely loose rock between the Maroon Bells.",
+        "distance": 17.7,
+        "elevationGain": 1890,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"extremely loose rock\",\"extreme exposure\",\"rockfall\",\"lightning\",\"multiple fatalities\"]",
+        "safetyNotes": "This is one of the most dangerous standard routes on any Colorado 14er. Multiple fatalities have occurred. The rock is among the worst in Colorado. A rope is recommended but offers limited protection on the loose terrain. Only for very experienced alpine climbers.",
+        "tips": [
+          {"content": "This traverse has claimed multiple lives; do not attempt without extensive Class 4 experience.", "category": "safety"},
+          {"content": "A rope provides limited protection on this loose rock; experience and judgment are your best tools.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely mandatory; the rock is extremely loose"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Offers limited protection but recommended for the most exposed sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The most serious route I have ever done", "body": "The Maroon traverse is in a class by itself for danger. The rock is beyond terrible. Every move is calculated. I would not repeat it but I'm glad I did it once. Only for the very experienced.", "conditions": "Perfect weather, dry rock, predawn start, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Lindsey",
+    "routes": [
+      {
+        "name": "North Couloir",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Mount Lindsey ascends the north couloir from the Lily Lake approach. The trail passes beautiful Lily Lake before climbing to the base of the couloir, which involves Class 3 scrambling on generally decent rock. The couloir provides a direct and exciting route to the summit.",
+        "summary": "Standard route through a north-facing couloir with Class 3 scrambling.",
+        "distance": 14.5,
+        "elevationGain": 1372,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"lightning\",\"loose rock in couloir\"]",
+        "safetyNotes": "The couloir has rockfall danger, especially with parties above. Helmet is essential. Snow can linger in the couloir into early July.",
+        "tips": [
+          {"content": "The couloir holds snow into early summer; check conditions before going.", "category": "timing"},
+          {"content": "Start early to be first in the couloir and minimize rockfall from other parties.", "category": "safety"},
+          {"content": "Lily Lake at the base makes a beautiful rest stop on the approach.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for rockfall protection in the couloir"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": false, "notes": "Needed if snow persists in the couloir"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the Class 3 scrambling"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Underrated Sangre de Cristo gem", "body": "Lindsey doesn't get the attention it deserves. The north couloir is fun Class 3 with solid rock. The summit views of the Sangre de Cristos and Blanca Peak are outstanding.", "conditions": "Clear, cool, early morning, mid-July"},
+          {"rating": 4, "title": "Fun scramble with great views", "body": "The north couloir is an enjoyable scramble. Rock quality is better than many Colorado 14er routes. Lily Lake on the approach is a nice bonus.", "conditions": "Clear, calm, late July"}
+        ]
+      },
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "An alternate route on Mount Lindsey that avoids the couloir by ascending the northwest ridge. This route is less technical than the north couloir but involves more route finding on moderate Class 2 terrain. A good option for those wanting to avoid the scrambling.",
+        "summary": "Less technical alternate route via the northwest ridge avoiding the couloir.",
+        "distance": 16.1,
+        "elevationGain": 1433,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"route finding\"]",
+        "safetyNotes": "Less technical than the couloir route but requires more route finding. Trail is faint above treeline.",
+        "tips": [
+          {"content": "This route avoids the Class 3 scrambling of the north couloir for those who prefer hiking.", "category": "general"},
+          {"content": "Route finding above treeline requires GPS or careful map reading.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Trail is faint on the upper ridge"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed ridge with no shelter"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Hiking alternative to the couloir", "body": "Chose the NW ridge to avoid the scrambling and it was a fine hike. Not as exciting as the couloir but a good option for hikers. Route finding above treeline takes attention.", "conditions": "Clear, moderate wind, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Little Bear Peak",
+    "routes": [
+      {
+        "name": "Southwest Ridge",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The southwest ridge is the standard route on Little Bear Peak, one of Colorado's most difficult and dangerous 14ers. The route ascends from Lake Como via a long approach and involves sustained Class 4 climbing with considerable exposure. The rock quality varies from decent to poor and route finding is challenging.",
+        "summary": "Standard route on one of Colorado's most difficult 14ers with sustained Class 4 climbing.",
+        "distance": 17.7,
+        "elevationGain": 1585,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"loose rock\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "Little Bear is one of the most difficult standard 14er routes in Colorado. The Class 4 climbing is sustained and the rock quality is variable. Helmet is mandatory. A rope is recommended. Only for experienced alpine climbers.",
+        "tips": [
+          {"content": "Camp at Lake Como for an early start on this demanding and long route.", "category": "timing"},
+          {"content": "Study the route carefully beforehand; route finding is the key to a safe ascent.", "category": "safety"},
+          {"content": "A 30m rope and light rack are recommended for the most exposed sections.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely mandatory for loose rock"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Strongly recommended for the Class 4 sections"},
+          {"itemName": "Camping gear", "category": "camping", "isEssential": false, "notes": "For overnight at Lake Como"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A true test piece", "body": "Little Bear is everything they say it is. The Class 4 climbing is sustained, the rock is variable, and route finding is critical. One of the proudest summits on my 14er list.", "conditions": "Clear, cold, predawn start from Lake Como, late July"},
+          {"rating": 3, "title": "Difficult and dangerous", "body": "Little Bear is objectively dangerous. The rock is loose in places and the route finding is complex. But for experienced climbers, it is a worthy challenge. Do not attempt without solid alpine skills.", "conditions": "Clear morning, light wind, early August"}
+        ]
+      },
+      {
+        "name": "Hourglass Couloir",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Hourglass Couloir is a prominent feature on the west face of Little Bear Peak that provides an alternate route to the summit. This steep couloir narrows at its midpoint, creating the hourglass shape. The route involves Class 4 climbing on loose rock and is extremely dangerous due to constant rockfall funneled through the narrow couloir.",
+        "summary": "Extremely dangerous couloir route with severe rockfall hazard in the narrow hourglass.",
+        "distance": 16.1,
+        "elevationGain": 1524,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"extreme rockfall\",\"extreme exposure\",\"loose rock\",\"lightning\",\"funneled debris\"]",
+        "safetyNotes": "The Hourglass funnels all rockfall through a narrow constriction, making it extremely dangerous. Multiple injuries and fatalities have occurred here. Only attempt in early morning when the rock is most stable. Helmet is absolutely mandatory.",
+        "tips": [
+          {"content": "The Hourglass is best climbed before dawn when rock is frozen in place, reducing rockfall.", "category": "timing"},
+          {"content": "Do not climb this route if any other parties are above you in the couloir.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely critical for the severe rockfall danger"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": false, "notes": "Couloir can hold snow and ice early season"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Terrifying but direct", "body": "The Hourglass is objectively one of the most dangerous routes on any Colorado 14er. Rockfall is constant once the sun hits. We climbed in the dark and were off before sunrise. Not recommended.", "conditions": "Predawn, cold, frozen rock, early July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Sherman",
+    "routes": [
+      {
+        "name": "West Approach from Fourmile Creek",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount Sherman follows old mining roads and trails from the Fourmile Creek area. The route passes historic mining ruins before climbing moderate slopes to the summit. Sherman is one of the easiest 14ers in Colorado and is an excellent choice for beginners.",
+        "summary": "Easy route past historic mining ruins, excellent for beginners.",
+        "distance": 8.8,
+        "elevationGain": 701,
+        "estimatedTime": 4,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"old mining hazards\"]",
+        "safetyNotes": "Stay away from old mine shafts and abandoned mining structures. The area has many hidden hazards from historic mining activity. Standard lightning precautions apply.",
+        "tips": [
+          {"content": "This is one of the easiest 14ers in Colorado and excellent for beginners.", "category": "general"},
+          {"content": "The historic mining ruins along the route add interesting historical context.", "category": "general"},
+          {"content": "Stay away from old mine shafts and unstable structures along the route.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed summit with afternoon storm potential"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful but not necessary on moderate terrain"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline with minimal shade"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Perfect easy 14er", "body": "Sherman is ideal for those new to 14ers. Short, moderate, and with interesting mining history along the way. The summit views are surprisingly good.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 4, "title": "Easy with historic charm", "body": "The mining ruins add character to what would otherwise be a simple hike. One of the easiest 14ers but still a rewarding summit.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Redcloud Peak",
+    "routes": [
+      {
+        "name": "Silver Creek Trail (Sunshine Combo)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Redcloud Peak follows the Silver Creek Trail from the trailhead on Cinnamon Pass road. This route is almost always combined with neighboring Sunshine Peak for a rewarding two-summit day. The trail is well-maintained and the terrain is moderate, making this one of the easier San Juan combos.",
+        "summary": "Well-maintained trail almost always combined with Sunshine Peak for two summits.",
+        "distance": 17.7,
+        "elevationGain": 1341,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"stream crossings\"]",
+        "safetyNotes": "The Silver Creek crossing can be tricky during high water. The ridge between Redcloud and Sunshine is exposed to weather. Start early for the long day.",
+        "tips": [
+          {"content": "Combine with Sunshine Peak for one of the best two-peak days in the San Juans.", "category": "general"},
+          {"content": "Summit Redcloud first then traverse to Sunshine for the most efficient route.", "category": "logistics"},
+          {"content": "The Cinnamon Pass road to the trailhead requires high clearance.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for stream crossings and the long day"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "San Juan storms can be intense"},
+          {"itemName": "Waterproof boots", "category": "clothing", "isEssential": true, "notes": "Stream crossings on the approach"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Classic San Juan two-peak day", "body": "Redcloud and Sunshine make a perfect pair. The trail is well-maintained and the traverse between them is scenic. Two beautiful summits in one moderate day.", "conditions": "Clear morning, afternoon clouds, mid-July"},
+          {"rating": 4, "title": "Great combo hike", "body": "The Redcloud-Sunshine combo is one of the most efficient ways to bag two 14ers. Both peaks have excellent views. The stream crossing was a bit challenging in early July.", "conditions": "Clear, some mud, early July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Pyramid Peak",
+    "routes": [
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The standard route on Pyramid Peak ascends the northeast ridge from the Maroon Lake area. Pyramid is one of the most visually striking and technically challenging 14ers in Colorado. The route involves sustained Class 4 climbing on the Maroon Formation rock, which is notoriously loose. The steep approach and technical climbing make this a serious undertaking.",
+        "summary": "Technically demanding route on a visually striking peak with sustained Class 4 climbing.",
+        "distance": 13.7,
+        "elevationGain": 1402,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"loose rock\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "Pyramid has the same terrible Maroon Formation rock as the nearby Maroon Bells. The Class 4 climbing is sustained and serious. Helmet is mandatory. Small party size recommended to minimize rockfall danger.",
+        "tips": [
+          {"content": "The Maroon Formation rock on Pyramid is notoriously loose; test every hold.", "category": "safety"},
+          {"content": "Start very early to minimize rockfall as the sun warms the rock.", "category": "timing"},
+          {"content": "The green band of solid rock about two-thirds up the route provides a brief respite.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Absolutely mandatory for the loose Maroon Formation rock"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Protects hands during sustained scrambling"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Route finding is important on the upper mountain"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Most beautiful 14er from below", "body": "Pyramid is perhaps the most photogenic 14er in Colorado. The climb is serious with terrible rock, but the summit is incredibly rewarding. A proud achievement for any climber.", "conditions": "Clear, cold, predawn start, late July"},
+          {"rating": 4, "title": "Respect the rock", "body": "Pyramid demands respect. The Maroon Formation is truly awful rock. But the climb is thrilling and the summit views of the Maroon Bells and Elk Range are world-class.", "conditions": "Clear, calm, early morning, early August"}
+        ]
+      },
+      {
+        "name": "Amphitheater Headwall",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "An alternate approach to Pyramid Peak via the amphitheater headwall on the west side. This route is less traveled than the northeast ridge and involves steep Class 4 climbing in the headwall. The rock quality is similar to the rest of Pyramid. This route is for experienced alpine climbers seeking a different challenge.",
+        "summary": "Less-traveled alternate route via the western headwall with steep Class 4 climbing.",
+        "distance": 14.5,
+        "elevationGain": 1433,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"loose rock\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "Same loose rock hazards as the NE ridge. The headwall is steep and committing. Route finding is critical. Only for experienced alpine climbers.",
+        "tips": [
+          {"content": "This route sees very few climbers; don't expect to find others for help.", "category": "safety"},
+          {"content": "Route finding through the headwall is complex; study the route thoroughly beforehand.", "category": "navigation"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for the loose Maroon Formation rock"},
+          {"itemName": "30m rope", "category": "climbing", "isEssential": false, "notes": "Recommended for the steepest headwall sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Seldom-climbed and serious", "body": "The amphitheater headwall is even more remote and committing than the standard NE ridge. Rock is equally terrible. For those seeking adventure beyond the normal route.", "conditions": "Clear, calm, early start, mid-August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Wilson Peak",
+    "routes": [
+      {
+        "name": "West Ridge from Rock of Ages",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The standard route on Wilson Peak (not to be confused with Mount Wilson) ascends the west ridge from the Rock of Ages area. The route involves Class 4 climbing near the summit with some exposure. Wilson Peak is famous for being the mountain depicted on the Coors beer label.",
+        "summary": "Standard route on the peak featured on the Coors label with Class 4 summit climbing.",
+        "distance": 14.5,
+        "elevationGain": 1280,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"loose rock\"]",
+        "safetyNotes": "The Class 4 sections near the summit require solid scrambling skills. Helmet recommended. The west ridge has some exposure.",
+        "tips": [
+          {"content": "Wilson Peak is the mountain on the Coors beer label; bring a can for a summit photo.", "category": "general"},
+          {"content": "The Silver Pick road to the trailhead requires high clearance 4WD.", "category": "logistics"},
+          {"content": "The Class 4 sections are short but require careful climbing.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Recommended for loose rock near the summit"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the Class 4 scrambling"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "San Juan storms can develop rapidly"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The Coors peak", "body": "Wilson Peak is a fun climb with exciting Class 4 near the summit. The views of the Wilson Group and Lizard Head are incredible. Brought a Coors for the obligatory summit photo.", "conditions": "Clear, cool morning, late July"},
+          {"rating": 4, "title": "Classic San Juan scramble", "body": "Wilson Peak delivers a great mountain experience. The Class 4 sections are fun and the summit views are outstanding. The approach road is rough.", "conditions": "Clear, light wind, early August"}
+        ]
+      },
+      {
+        "name": "Silver Pick Approach",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "An alternate approach to Wilson Peak from the Silver Pick Basin that avoids the most technical Class 4 sections by taking a slightly different line on the upper mountain. This route is still demanding with Class 3 scrambling but is less exposed than the standard west ridge.",
+        "summary": "Less technical alternate from Silver Pick Basin with Class 3 scrambling.",
+        "distance": 16.1,
+        "elevationGain": 1341,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"lightning\",\"loose rock\",\"route finding\"]",
+        "safetyNotes": "Less technical than the west ridge but still involves Class 3 scrambling. Route finding above treeline requires attention.",
+        "tips": [
+          {"content": "This approach avoids the hardest Class 4 sections of the standard west ridge route.", "category": "general"},
+          {"content": "Silver Pick Basin is accessed via the same road system as the Wilson Group.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the upper mountain"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Helpful for route finding above treeline"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Good alternative to the west ridge", "body": "This approach avoids the most exposed Class 4 on the west ridge. Still good scrambling but felt more comfortable. Silver Pick Basin is a beautiful area.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Wetterhorn Peak",
+    "routes": [
+      {
+        "name": "East Ridge",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Wetterhorn Peak ascends the east ridge from the Matterhorn Creek trailhead. The route is a pleasant hike to the base of the summit pyramid, where Class 3 scrambling leads to the dramatic pointed summit. The final scramble is exciting and exposed but short.",
+        "summary": "Hiking approach with a dramatic Class 3 scramble up the pointed summit pyramid.",
+        "distance": 12.9,
+        "elevationGain": 1067,
+        "estimatedTime": 6.5,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"loose rock on summit pyramid\"]",
+        "safetyNotes": "The summit pyramid has some exposure and loose rock. The Class 3 scrambling is concentrated in a short section. Helmet recommended for the final push.",
+        "tips": [
+          {"content": "The approach is a moderate hike; the excitement comes in the final summit scramble.", "category": "general"},
+          {"content": "The Matterhorn Creek road to the trailhead requires high clearance.", "category": "logistics"},
+          {"content": "The summit is a dramatic pointed top with great views of the San Juans.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Recommended for loose rock on the summit pyramid"},
+          {"itemName": "Climbing gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for the Class 3 scrambling"},
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Exposed summit with afternoon storm potential"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Dramatic summit finish", "body": "Wetterhorn is a fun peak. The approach is an easy hike but the summit scramble is exciting and dramatic. The pointed top feels like a real mountaineering summit.", "conditions": "Clear, cool, mid-July"},
+          {"rating": 4, "title": "Fun Class 3 peak", "body": "The summit pyramid is a blast. Short but exciting Class 3 with some exposure. The approach hike is pleasant and the views from the top are excellent.", "conditions": "Partly cloudy, light wind, late July"}
+        ]
+      },
+      {
+        "name": "Southeast Ridge",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "An alternate route ascending Wetterhorn via the southeast ridge. This route offers a different approach angle and slightly different scrambling than the standard east ridge. The upper mountain still involves the same dramatic summit pyramid. Less traveled than the standard route.",
+        "summary": "Less-traveled alternate approach via the southeast ridge to the summit pyramid.",
+        "distance": 14.5,
+        "elevationGain": 1158,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"lightning\",\"route finding\"]",
+        "safetyNotes": "Similar hazards to the east ridge route. Less traveled so trail markings may be sparse.",
+        "tips": [
+          {"content": "This route sees fewer climbers for a more solitary experience.", "category": "general"},
+          {"content": "The final summit pyramid is the same dramatic scramble regardless of approach.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "For the summit pyramid scramble"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": false, "notes": "Trail less defined than the standard route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Quieter approach to a great summit", "body": "The SE ridge sees fewer people. The approach is slightly longer but the summit scramble is the same exciting finish. Good option for those seeking more solitude.", "conditions": "Clear, calm, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "San Luis Peak",
+    "routes": [
+      {
+        "name": "Stewart Creek Approach",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "San Luis Peak is the most remote 14er in Colorado and the easiest by terrain. The standard route follows the Stewart Creek trail through gentle terrain to the broad, rounded summit. The route is entirely on trail and the grade is very moderate. The challenge is the remoteness and the long drive to the trailhead.",
+        "summary": "Most remote and easiest Colorado 14er with gentle terrain throughout.",
+        "distance": 20.9,
+        "elevationGain": 1067,
+        "estimatedTime": 7.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"remote location\"]",
+        "safetyNotes": "The remoteness is the main concern. Cell service is nonexistent. The terrain is easy but the long drive and remote trailhead mean help is far away if needed.",
+        "tips": [
+          {"content": "San Luis is the most remote 14er in Colorado; plan for a long drive to the trailhead.", "category": "logistics"},
+          {"content": "Despite being easy terrain, bring proper gear as you are very far from help.", "category": "safety"},
+          {"content": "The gentle terrain and moderate grade make this a pleasant long hike.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long distance"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Remote location with long approach"},
+          {"itemName": "First aid kit", "category": "camping", "isEssential": true, "notes": "Help is very far away in this remote area"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Peaceful and remote", "body": "San Luis is the antithesis of crowded Front Range 14ers. Long drive, long hike, but pure solitude. The easiest terrain of any 14er but the remoteness adds its own challenge.", "conditions": "Clear, calm, mid-July"},
+          {"rating": 3, "title": "Easy but very remote", "body": "The hike itself is unremarkable terrain-wise but the remote setting is beautiful. Plan for a very long day with the drive included. Barely saw another person.", "conditions": "Partly cloudy, light wind, early August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Sunshine Peak",
+    "routes": [
+      {
+        "name": "Redcloud-Sunshine Combo",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "Sunshine Peak is almost always climbed in combination with Redcloud Peak from the Silver Creek trailhead. After summiting Redcloud, climbers traverse the connecting ridge south to Sunshine Peak before descending. The route is moderate Class 2 throughout and provides a very efficient two-peak day in the San Juans.",
+        "summary": "Almost always climbed as a combo with Redcloud via a scenic ridge traverse.",
+        "distance": 19.3,
+        "elevationGain": 1494,
+        "estimatedTime": 8.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"wind on ridge\"]",
+        "safetyNotes": "The connecting ridge is exposed to weather. Extended time above treeline. Watch for storms on the long traverse.",
+        "tips": [
+          {"content": "Summit Redcloud first, then traverse to Sunshine for the most efficient outing.", "category": "logistics"},
+          {"content": "The ridge between Redcloud and Sunshine is scenic but exposed to weather.", "category": "safety"},
+          {"content": "Bring extra food for the extended day at altitude.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Wind jacket", "category": "clothing", "isEssential": true, "notes": "Ridge between peaks is often windy"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long day"},
+          {"itemName": "Extra water", "category": "camping", "isEssential": true, "notes": "Long day above treeline with no water"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great companion to Redcloud", "body": "Sunshine and Redcloud are a natural pair. The traverse is easy and scenic. Sunshine has a rockier summit area than Redcloud but the views are equally good.", "conditions": "Clear morning, afternoon clouds, mid-July"},
+          {"rating": 4, "title": "Efficient two-peak day", "body": "The Redcloud-Sunshine combo is one of the most efficient in Colorado. Both peaks are rewarding and the connecting ridge is enjoyable.", "conditions": "Partly cloudy, moderate wind, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount of the Holy Cross",
+    "routes": [
+      {
+        "name": "North Ridge from Half Moon Pass",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Mount of the Holy Cross ascends the north ridge from Half Moon Pass. The approach involves a steep descent into the Cross Creek drainage before climbing to the pass and then up the ridge. The famous cross-shaped snowfield is best seen from Notch Mountain across the valley. The route is physically demanding due to the significant elevation loss and regain.",
+        "summary": "Demanding standard route with significant elevation loss on approach to the famous cross peak.",
+        "distance": 19.3,
+        "elevationGain": 1676,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\",\"stream crossings\",\"significant descent and re-climb\"]",
+        "safetyNotes": "The approach involves descending to Cross Creek and regaining that elevation on the return. This adds significant physical demand. The stream crossing can be tricky during high water. Budget extra time for the return climb.",
+        "tips": [
+          {"content": "Be prepared for the demoralizing descent on the approach knowing you must climb it again on return.", "category": "general"},
+          {"content": "The famous cross-shaped snowfield is best seen from Notch Mountain, not from the climbing route.", "category": "general"},
+          {"content": "Some parties camp at the base to split the demanding approach into two days.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": true, "notes": "Essential for the steep approach descent and return climb"},
+          {"itemName": "Waterproof boots", "category": "clothing", "isEssential": true, "notes": "Stream crossings on the approach"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Very demanding day with significant elevation changes"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Tougher than expected", "body": "The approach with its descent and regain makes Holy Cross harder than the Class 2 rating suggests. The mountain itself is beautiful and historic. Plan for a very long day.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 5, "title": "Historic peak with character", "body": "Mount of the Holy Cross has a special place in Colorado mountaineering history. The route is demanding but rewarding. The return climb from Cross Creek is a gut check.", "conditions": "Clear morning, afternoon clouds, late July"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Huron Peak",
+    "routes": [
+      {
+        "name": "West Slopes from South Winfield",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The standard route on Huron Peak ascends the west slopes from the ghost town of South Winfield. The trail climbs through forest and past mining ruins before ascending open alpine slopes to the summit. Huron is one of the more straightforward Sawatch Range 14ers with a moderate approach and good trail.",
+        "summary": "Standard route from the historic ghost town of South Winfield with moderate terrain.",
+        "distance": 11.3,
+        "elevationGain": 1097,
+        "estimatedTime": 5.5,
+        "season": "summer",
+        "hazards": "[\"lightning\",\"altitude sickness\"]",
+        "safetyNotes": "The road to South Winfield requires high clearance. Standard 14er hazards apply. The upper slopes are exposed to weather.",
+        "tips": [
+          {"content": "The ghost town of South Winfield at the trailhead has interesting historic mining structures.", "category": "general"},
+          {"content": "The road to the trailhead requires high clearance; plan accordingly.", "category": "logistics"},
+          {"content": "Huron has one of the shorter approaches in the Sawatch Range.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "clothing", "isEssential": true, "notes": "Afternoon storms common in the Sawatch"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the descent"},
+          {"itemName": "Sunscreen", "category": "clothing", "isEssential": true, "notes": "Above treeline for the upper half"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Charming peak with history", "body": "Huron is a straightforward and enjoyable 14er. The ghost town at the trailhead adds character. Good trail with moderate terrain and great summit views.", "conditions": "Clear, warm, mid-July"},
+          {"rating": 4, "title": "Solid Sawatch hike", "body": "One of the shorter and more moderate Sawatch peaks. The trail is in good shape and the views from the summit are excellent. The mining ruins on the approach are interesting.", "conditions": "Partly cloudy, calm, late July"}
+        ]
+      }
+    ]
+  }
+]

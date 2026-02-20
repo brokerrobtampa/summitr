@@ -1,0 +1,2478 @@
+[
+  {
+    "peakName": "Mount Kenya",
+    "routes": [
+      {
+        "name": "Normal Route (Sirimon-Chogoria Traverse to Point Lenana)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The most popular trekking route on Mount Kenya combining the Sirimon ascent with the scenic Chogoria descent. Reaches Point Lenana at 4985m, the highest trekking summit. Passes through equatorial moorland, giant groundsel forests, and the stunning Gorges Valley on the descent. Typically done over 4-5 days with acclimatization stops.",
+        "summary": "Classic traverse trek to Point Lenana, the highest non-technical summit on Mount Kenya.",
+        "distance": 48,
+        "elevationGain": 2385,
+        "estimatedTime": 96,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness above 4000m\",\"Hypothermia from sudden weather changes\",\"Slippery scree on summit approach\"]",
+        "safetyNotes": "Acclimatize properly with at least one rest day at Shipton's Camp. Acute mountain sickness is common above 4200m. Carry rain gear and warm layers at all times.",
+        "basecamp": "Shipton's Camp",
+        "tips": [
+          {
+            "content": "Start the summit push at 3am to reach Point Lenana for sunrise views of Batian and Nelion",
+            "category": "timing"
+          },
+          {
+            "content": "The Chogoria descent through Gorges Valley is far more scenic than descending Sirimon so plan the traverse",
+            "category": "logistics"
+          },
+          {
+            "content": "Hire a local guide and porters at the Sirimon gate as they know the weather patterns intimately",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Four-season sleeping bag rated to -10C",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Temperatures at Shipton's Camp drop well below freezing at night"
+          },
+          {
+            "itemName": "Trekking poles",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Very helpful on the steep scree sections approaching Point Lenana"
+          },
+          {
+            "itemName": "Waterproof hiking boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The Chogoria trail has boggy sections and stream crossings"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Stunning equatorial mountain experience",
+            "body": "Did the Sirimon-Chogoria traverse over 5 days. The sunrise from Point Lenana looking at the twin peaks of Batian and Nelion was unforgettable. The Gorges Valley descent is absolutely spectacular. Altitude was challenging but manageable with proper acclimatization.",
+            "conditions": "Clear mornings with afternoon clouds, temperatures around -5C at summit"
+          }
+        ]
+      },
+      {
+        "name": "Batian via North Face Standard",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard technical route to Mount Kenya's true summit at 5199m. Involves sustained rock climbing up to UIAA grade V on volcanic rock with ice sections near the summit. The route ascends the north face from Shipton's Camp via a series of gullies and rock bands. Requires full alpine climbing skills including glacier travel and mixed terrain.",
+        "summary": "Technical alpine route to Mount Kenya's true summit via the north face.",
+        "distance": 12,
+        "elevationGain": 1200,
+        "estimatedTime": 16,
+        "season": "summer",
+        "hazards": "[\"Rockfall in couloirs\",\"Verglas on rock slabs\",\"Sudden whiteout conditions\",\"Loose volcanic rock\"]",
+        "safetyNotes": "Only attempt with solid multi-pitch alpine climbing experience. Rock quality varies and protection can be sparse. Retreat options are limited once committed to upper pitches.",
+        "basecamp": "Shipton's Camp",
+        "tips": [
+          {
+            "content": "Acclimatize on Point Lenana first before attempting the technical summit",
+            "category": "safety"
+          },
+          {
+            "content": "January and February offer the driest rock conditions on the north face",
+            "category": "timing"
+          },
+          {
+            "content": "Bivouac gear is essential as retreat in bad weather can force an unplanned night out",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full rack of trad climbing gear with cams and nuts",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection placements on volcanic rock require a varied selection"
+          },
+          {
+            "itemName": "Lightweight crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Needed for ice sections near the summit and the Diamond Glacier crossing"
+          },
+          {
+            "itemName": "50m half ropes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Double rope technique recommended for the wandering route line"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Demanding equatorial alpine climb",
+            "body": "Climbed over two days with a bivy at the base of the upper headwall. The rock is decent but not bomber and route-finding required constant attention. Standing on Batian with Nelion across the Gate of the Mists was a powerful moment. Not to be underestimated at this altitude.",
+            "conditions": "Dry rock on lower pitches with thin ice near summit, clear skies"
+          }
+        ]
+      },
+      {
+        "name": "Nelion via Normal Route",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The classic route to Nelion, Mount Kenya's second summit at 5188m. Climbs the southeast face via a series of crack systems and chimneys graded up to UIAA IV. Often used as preparation for a Batian attempt. The route passes through Mackinder's Gendarme and finishes on Nelion's narrow summit. Many parties continue across the Gate of the Mists to tag Batian.",
+        "summary": "Technical rock climbing route to Mount Kenya's second highest summit via the southeast face.",
+        "distance": 10,
+        "elevationGain": 1100,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"Exposed climbing above 4800m\",\"Afternoon storms and lightning\",\"Loose rock on chimneys\"]",
+        "safetyNotes": "Start early to avoid afternoon storms. The traverse to Batian from Nelion adds significant commitment. Fixed anchors exist but should not be trusted without inspection.",
+        "basecamp": "Austrian Hut",
+        "tips": [
+          {
+            "content": "Austrian Hut at 4790m provides a higher starting point than Shipton's Camp for this route",
+            "category": "logistics"
+          },
+          {
+            "content": "The crux chimney pitch is often wet and requires confident jamming technique",
+            "category": "general"
+          },
+          {
+            "content": "Carry a headlamp as the descent often extends past dark",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Rock climbing shoes or stiff approach shoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The rock pitches are technical enough to warrant climbing footwear"
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rockfall is a real hazard especially with other parties above"
+          },
+          {
+            "itemName": "Alpine harness with belay device",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the multi-pitch climbing and rappel descent"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "World-class alpine rock at altitude",
+            "body": "An incredible climb that deserves more international attention. Twelve pitches of solid volcanic rock with amazing exposure and views of the Lewis Glacier below. We continued to Batian and descended the normal route. The whole traverse was one of the best days I have had in the mountains.",
+            "conditions": "Dry rock throughout, scattered clouds in the afternoon"
+          }
+        ]
+      },
+      {
+        "name": "Diamond Couloir",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "A legendary ice climb ascending the prominent couloir on the south face of Mount Kenya between Batian and Nelion. Sustained water ice up to WI5 at nearly 5000m altitude. The route has become increasingly difficult and ephemeral due to glacial recession. When in condition it offers one of the finest ice climbs in Africa with pitches of steep blue ice framed by rock walls.",
+        "summary": "Iconic and increasingly rare ice climb on Mount Kenya's south face between the twin summits.",
+        "distance": 8,
+        "elevationGain": 900,
+        "estimatedTime": 14,
+        "season": "winter",
+        "hazards": "[\"Falling ice from upper couloir\",\"Thin ice conditions due to glacial recession\",\"Rockfall from warming rock walls\",\"Extreme altitude for sustained ice climbing\"]",
+        "safetyNotes": "This route forms less frequently than in past decades due to climate change. Verify current conditions with local guides before attempting. Do not enter the couloir after sunrise when rockfall and icefall increase dramatically.",
+        "basecamp": "Austrian Hut",
+        "tips": [
+          {
+            "content": "Check recent condition reports as this route may not form in some years due to warming temperatures",
+            "category": "safety"
+          },
+          {
+            "content": "July and August historically offer the best ice conditions in the couloir",
+            "category": "timing"
+          },
+          {
+            "content": "Start climbing by 2am to maximize time on frozen ice before solar warming",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two tools rated for steep ice with leashless grips for sustained vertical sections"
+          },
+          {
+            "itemName": "Ice screws minimum 10",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Long screws for the softer equatorial ice conditions"
+          },
+          {
+            "itemName": "Rigid crampon-compatible mountaineering boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Must accept technical crampons with front points for WI5 ice"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Once in a lifetime ice climb",
+            "body": "Caught the Diamond Couloir in rare excellent condition. Six pitches of sustained steep ice at nearly 5000m with the African sun rising behind us. This route is becoming a relic of climate change and I feel fortunate to have climbed it. The altitude makes every swing count.",
+            "conditions": "Solid blue ice throughout, cold overnight temps of -12C preserved conditions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Stanley",
+    "routes": [
+      {
+        "name": "Normal Route (Kilembe Trail to Margherita Peak)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route to the highest point in the Rwenzori Mountains via the Kilembe Trail from Uganda. A multi-day expedition through extraordinary equatorial montane forest, giant heather, and bog before reaching the Stanley Glacier and scrambling to Margherita Peak at 5109m. Glacier travel requires roped team skills and the summit block involves exposed scrambling.",
+        "summary": "Multi-day expedition through the Rwenzori Mountains to the highest peak in the range via the Kilembe Trail.",
+        "distance": 56,
+        "elevationGain": 4109,
+        "estimatedTime": 168,
+        "season": "summer",
+        "hazards": "[\"Crevasses on Stanley Glacier\",\"Extremely muddy and boggy trails\",\"Persistent rain and fog\",\"Altitude sickness\"]",
+        "safetyNotes": "The Rwenzoris are one of the wettest mountain ranges on Earth. Expect rain daily. River crossings can become dangerous after heavy rain. A local guide is mandatory.",
+        "basecamp": "Elena Hut",
+        "tips": [
+          {
+            "content": "Waterproof everything multiple times as the Rwenzoris receive rain almost every day",
+            "category": "logistics"
+          },
+          {
+            "content": "June to August and December to February are the drier seasons though rain is still likely",
+            "category": "timing"
+          },
+          {
+            "content": "Gaiters are essential for the notoriously boggy sections through the giant heather zone",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full waterproof shell jacket and trousers",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Must be highly waterproof as rain is near constant in the Rwenzoris"
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the Stanley Glacier crossing to reach Margherita Peak"
+          },
+          {
+            "itemName": "Knee-high gaiters",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The boggy trail sections can have thigh-deep mud"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Mountains of the Moon adventure",
+            "body": "Seven days of extraordinary wilderness through vegetation found nowhere else on earth. Giant lobelias and groundsels create an alien landscape. The mud is legendary and relentless. Reaching Margherita Peak through the clouds was a surreal experience. The glacier has retreated significantly from older descriptions.",
+            "conditions": "Rain on five of seven days, partial clearing on summit day with temperatures around -5C"
+          }
+        ]
+      },
+      {
+        "name": "Central Circuit",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A circuit trek through the central Rwenzori Mountains visiting multiple valleys and glacier viewpoints without necessarily summiting Margherita Peak. The route connects the main huts and passes through all ecological zones from tropical forest to alpine. Can be combined with a Margherita summit attempt or done as a standalone trek visiting Scott Elliot Pass and other high cols.",
+        "summary": "Multi-day circuit trek through the heart of the Rwenzori Mountains visiting high passes and unique alpine ecosystems.",
+        "distance": 52,
+        "elevationGain": 3600,
+        "estimatedTime": 144,
+        "season": "summer",
+        "hazards": "[\"Persistent rain and hypothermia risk\",\"Boggy and slippery trail conditions\",\"River crossings swollen by rain\",\"Altitude on high passes above 4500m\"]",
+        "safetyNotes": "A guide is mandatory for all treks in the Rwenzori Mountains. Carry water purification as streams may be contaminated. Allow extra days in the itinerary for weather delays.",
+        "basecamp": "John Matte Hut",
+        "tips": [
+          {
+            "content": "Book hut accommodation well in advance through Rwenzori Mountaineering Services",
+            "category": "logistics"
+          },
+          {
+            "content": "Bring more dry socks than you think you will need as feet are constantly wet",
+            "category": "general"
+          },
+          {
+            "content": "The circuit is best done over 7-9 days to allow for acclimatization and weather days",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Waterproof dry bags for pack contents",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Standard pack covers are insufficient for the sustained Rwenzori rainfall"
+          },
+          {
+            "itemName": "Trekking poles with mud baskets",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for stability on the extremely muddy and uneven terrain"
+          },
+          {
+            "itemName": "Quick-dry hiking trousers",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Cotton is unusable here as nothing dries in the persistent humidity"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Unforgettable and incredibly muddy",
+            "body": "Nothing prepares you for the mud and the otherworldly vegetation of the Rwenzoris. Giant lobelias towering overhead while wading through knee-deep bogs is a uniquely humbling experience. The mountain huts are basic but welcome. Saw very few other trekkers making this feel like true exploration.",
+            "conditions": "Daily afternoon rain, morning fog clearing by midday on two of six days"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Kazbek",
+    "routes": [
+      {
+        "name": "Normal Route from Stepantsminda (South Side)",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Kazbek ascending from the Georgian village of Stepantsminda (formerly Kazbegi) via the Gergeti Trinity Church and the south glacier. A well-trodden route that follows moraine ridges to the Betlemi Hut at 3650m before crossing the glacier plateau to the summit. Crevasse danger is present on the upper glacier and navigation in whiteout conditions is a serious concern.",
+        "summary": "The standard south side route on Kazbek from the Georgian town of Stepantsminda via Betlemi Hut.",
+        "distance": 24,
+        "elevationGain": 3354,
+        "estimatedTime": 36,
+        "season": "summer",
+        "hazards": "[\"Crevasses on Gergeti Glacier\",\"Whiteout conditions on featureless glacier plateau\",\"Altitude sickness\",\"Sudden storms\"]",
+        "safetyNotes": "Rope travel is essential on the glacier. GPS waypoints are critical for the featureless upper plateau in poor visibility. The weather can change within minutes requiring rapid decision-making.",
+        "basecamp": "Betlemi Hut",
+        "tips": [
+          {
+            "content": "Start the summit push around midnight from Betlemi Hut to reach the top by mid-morning before afternoon clouds build",
+            "category": "timing"
+          },
+          {
+            "content": "July and August offer the most stable weather though the glacier is more crevassed late season",
+            "category": "timing"
+          },
+          {
+            "content": "Pre-load GPS waypoints for the glacier plateau as whiteouts are extremely common",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The upper glacier requires full glacier travel equipment"
+          },
+          {
+            "itemName": "Crevasse rescue kit with pulleys and prussiks",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Several hidden crevasses exist on the approach to the summit plateau"
+          },
+          {
+            "itemName": "GPS device with pre-loaded waypoints",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Navigation on the featureless glacier plateau in cloud is extremely difficult without GPS"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Magnificent Caucasus peak",
+            "body": "Climbed from Stepantsminda over three days with a night at Betlemi Hut. The views of the Caucasus range from the summit were breathtaking. The glacier crossing is straightforward in good visibility but we were briefly caught in cloud and the GPS was invaluable. A fantastic introduction to glaciated peaks.",
+            "conditions": "Clear skies on summit day with light winds, glacier was well frozen at 2am start"
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "A serious ice and mixed climbing route on the north face of Kazbek accessed from the Russian side. The route ascends steep ice couloirs and mixed terrain with sustained angles of 50-60 degrees and sections up to 70 degrees. Requires advanced alpinism skills and is significantly more committing than the normal route. Access from the Russian side adds logistical complexity including border zone permits.",
+        "summary": "Steep ice and mixed climbing route on the Russian north face of Kazbek requiring advanced alpine skills.",
+        "distance": 16,
+        "elevationGain": 2800,
+        "estimatedTime": 24,
+        "season": "summer",
+        "hazards": "[\"Sustained steep ice climbing\",\"Serac fall danger\",\"Avalanche risk in couloirs\",\"Remote location with difficult rescue access\"]",
+        "safetyNotes": "This is a serious alpine undertaking with limited retreat options. Russian border zone permits are required and can take weeks to process. Carry bivouac equipment as forced bivouacs are possible.",
+        "basecamp": "North Side Base Camp",
+        "tips": [
+          {
+            "content": "Arrange Russian border zone permits well in advance through a local agency in Vladikavkaz",
+            "category": "logistics"
+          },
+          {
+            "content": "Climb in the pre-dawn hours when the ice face is most consolidated",
+            "category": "safety"
+          },
+          {
+            "content": "This face is best attempted in July when ice conditions are most stable",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two tools with aggressive picks for sustained steep ice up to 70 degrees"
+          },
+          {
+            "itemName": "Ice screws minimum 8",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the sustained ice pitches above 50 degrees"
+          },
+          {
+            "itemName": "Lightweight bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "A bivy sack and emergency supplies in case retreat is cut off"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Committing and rewarding north face",
+            "body": "A proper alpine north face that demands respect. Six hundred meters of sustained ice climbing at altitude with no easy escape. We climbed through the night and topped out at dawn. The logistics of reaching the Russian base were the crux of the trip planning. A route for experienced alpinists only.",
+            "conditions": "Hard blue ice on face, cold temps of -15C overnight kept conditions solid"
+          }
+        ]
+      },
+      {
+        "name": "Gergeti Glacier Route",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "An alternative approach from the Georgian side that takes a more direct line up the Gergeti Glacier compared to the standard south route. The route diverges from the normal route above the meteorological station and ascends more directly via the glacier's central flow. Slightly more crevassed than the standard route but more direct. Offers fine views of the Gergeti Trinity Church below.",
+        "summary": "Direct glacier route variation on the Georgian south side of Kazbek via the central Gergeti Glacier.",
+        "distance": 22,
+        "elevationGain": 3354,
+        "estimatedTime": 32,
+        "season": "summer",
+        "hazards": "[\"Heavily crevassed glacier sections\",\"Whiteout navigation hazards\",\"Altitude sickness\",\"Rockfall on lower moraine\"]",
+        "safetyNotes": "This variation has more crevasse exposure than the standard route. Roped travel with crevasse rescue skills is mandatory. Not recommended in poor visibility due to complex crevasse fields.",
+        "basecamp": "Betlemi Hut",
+        "tips": [
+          {
+            "content": "This route is best early in summer when snow bridges over crevasses are strongest",
+            "category": "timing"
+          },
+          {
+            "content": "Travel roped in teams of three for adequate crevasse rescue capability",
+            "category": "safety"
+          },
+          {
+            "content": "The route can be combined with the standard route for ascent and descent creating a loop",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "50m glacier rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For roped glacier travel through crevassed sections"
+          },
+          {
+            "itemName": "Snow pickets",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Useful for building anchors on the snow-covered glacier"
+          },
+          {
+            "itemName": "Altimeter watch or GPS",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Critical for navigation on the featureless upper glacier"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "More direct and more adventurous",
+            "body": "Chose this variation for a less crowded experience than the standard south route. The crevasse navigation added a real mountaineering dimension to the climb. Route-finding through the icefall section was engaging. Descended the standard route for a satisfying loop.",
+            "conditions": "Good visibility, firm snow on glacier, moderate crevasse bridging in late July"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Ararat",
+    "routes": [
+      {
+        "name": "South Route from Dogubayazit (Normal Route)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The standard route on Turkey's highest peak ascending from the south side via Dogubayazit. A non-technical high-altitude trek that crosses grassy slopes, volcanic scree, and a small summit glacier. Camp is typically established at around 4200m before a summit push. A Turkish government climbing permit and licensed guide are mandatory for all ascents.",
+        "summary": "The standard trekking route to the summit of Turkey's highest peak from the south via Dogubayazit.",
+        "distance": 30,
+        "elevationGain": 3437,
+        "estimatedTime": 48,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness above 4000m\",\"Volcanic scree and loose footing\",\"Sudden severe storms\",\"Crevasses on summit glacier\"]",
+        "safetyNotes": "A government climbing permit and licensed guide are legally required. Altitude gains are rapid on this route so acclimatization is important. Lightning storms can develop quickly on the exposed upper mountain.",
+        "basecamp": "High Camp (4200m)",
+        "tips": [
+          {
+            "content": "July through September offers the best weather window with the driest conditions",
+            "category": "timing"
+          },
+          {
+            "content": "Book permits and guides through an authorized Turkish climbing agency well in advance",
+            "category": "logistics"
+          },
+          {
+            "content": "Spend an extra acclimatization day at base camp or high camp to reduce altitude sickness risk",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Sturdy hiking boots with ankle support",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The volcanic scree is abrasive and requires solid footwear with good ankle protection"
+          },
+          {
+            "itemName": "Crampons for summit glacier",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The small summit ice cap requires basic crampon use even in summer"
+          },
+          {
+            "itemName": "Sun protection with high SPF",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Intense UV exposure at altitude on the treeless volcanic slopes"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Biblical mountain with huge views",
+            "body": "A straightforward but demanding high altitude trek. The scree fields are tedious but the summit views across eastern Turkey into Iran and Armenia are extraordinary. Seeing the vast summit ice cap and the Ahora Gorge from above is spectacular. The mandatory guide system is well organized.",
+            "conditions": "Clear skies on summit day, winds of 30 km/h on the upper ridge, firm snow on summit glacier"
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A more challenging route ascending the north side of Ararat through more glaciated terrain with steeper ice and mixed sections. Less frequently climbed than the south route and requires greater mountaineering skills. The route passes near the massive Ahora Gorge and ascends through more sustained snow and ice fields to reach the summit plateau.",
+        "summary": "More technical north face route on Ararat with sustained glacier travel and mixed terrain.",
+        "distance": 26,
+        "elevationGain": 3300,
+        "estimatedTime": 52,
+        "season": "summer",
+        "hazards": "[\"Crevasses on north glacier\",\"Rockfall near Ahora Gorge\",\"Avalanche danger in couloirs\",\"Remote northern approach\"]",
+        "safetyNotes": "Less traveled than the south route with fewer rescue options. Full glacier travel equipment and skills are required. The Ahora Gorge is extremely unstable and should not be approached closely.",
+        "basecamp": "North Side Camp (3800m)",
+        "tips": [
+          {
+            "content": "This route requires a special permit and military escort in addition to the standard climbing permit",
+            "category": "logistics"
+          },
+          {
+            "content": "August provides the most stable snow conditions on the north glaciers",
+            "category": "timing"
+          },
+          {
+            "content": "Carry full bivouac gear as weather delays are more consequential on this remote side",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe and crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "More sustained glacier travel than the south route requires reliable glacier equipment"
+          },
+          {
+            "itemName": "Glacier rope and crevasse rescue gear",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The north glacier has significant crevasse fields requiring roped travel"
+          },
+          {
+            "itemName": "Four-season tent",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The north side is more exposed to weather and camps are less sheltered"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Remote and serious mountaineering on Ararat",
+            "body": "A completely different experience from the busy south route. The north side feels wild and committing with the massive Ahora Gorge adding dramatic scenery. Glacier navigation was engaging and the sense of isolation was profound. Extra logistics for permits on this side but well worth the effort.",
+            "conditions": "Mixed visibility, firm glacier conditions, occasional rockfall heard from the gorge"
+          }
+        ]
+      },
+      {
+        "name": "Ahora Gorge Approach",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "An adventurous and rarely climbed route approaching from the northeast via the massive Ahora Gorge. The gorge is a 2000m deep volcanic chasm that creates a dramatic approach before gaining the upper glaciers. Involves navigating unstable moraine, crossing glacial outflows, and ascending steep mixed terrain to gain the summit plateau. One of the most committing routes on the mountain.",
+        "summary": "Rarely attempted route through the dramatic Ahora Gorge on the northeast side of Ararat.",
+        "distance": 28,
+        "elevationGain": 3400,
+        "estimatedTime": 60,
+        "season": "summer",
+        "hazards": "[\"Massive rockfall danger in the gorge\",\"Unstable moraine and volcanic debris\",\"Glacial outburst floods\",\"Very remote with no rescue infrastructure\"]",
+        "safetyNotes": "The Ahora Gorge is extremely dangerous with constant rockfall and unstable volcanic debris. Only for very experienced mountaineers comfortable with objective hazards. Special military permits are strictly required.",
+        "basecamp": "Gorge Entrance Camp (2800m)",
+        "tips": [
+          {
+            "content": "Move through the gorge sections in early morning when rockfall is at a minimum from frozen conditions",
+            "category": "safety"
+          },
+          {
+            "content": "This route is only feasible with extensive advance planning and local agency support",
+            "category": "logistics"
+          },
+          {
+            "content": "A satellite communication device is essential as there is no cell coverage on the northeast side",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet rated for mountaineering",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Constant rockfall hazard makes head protection absolutely critical"
+          },
+          {
+            "itemName": "Satellite communicator",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "No cell phone coverage exists on the remote northeast approach"
+          },
+          {
+            "itemName": "Full alpine climbing rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain above the gorge requires rock and ice protection"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "title": "Extremely committing and objectively dangerous",
+            "body": "Attempted with a strong team and local support. The gorge is awe-inspiring but terrifying with constant sounds of rockfall echoing off the walls. We moved fast through the danger zones and gained the upper glacier safely. Not a route I would repeat but the experience was unique. Only for those comfortable accepting serious objective hazard.",
+            "conditions": "Frozen conditions in gorge at dawn, loose rock and debris throughout, clear skies above"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Damavand",
+    "routes": [
+      {
+        "name": "South Route from Polour (Normal Route)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The most popular route on the highest volcano in Asia, starting from the south side near Polour. A well-marked trail ascending through rocky volcanic terrain to the sulfurous summit crater at 5671m. The route passes Camp 3 (Bargah-e Sevom) shelter at 4200m which serves as the high camp for summit attempts. Non-technical but extremely demanding due to altitude and the relentless scree slopes.",
+        "summary": "Standard trekking route on the highest volcano in Asia via the well-established south face trail.",
+        "distance": 18,
+        "elevationGain": 2671,
+        "estimatedTime": 24,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Toxic sulfur fumes near summit crater\",\"Loose volcanic scree\",\"Sudden severe weather\"]",
+        "safetyNotes": "The sulfur fumes near the summit can be debilitating and dangerous. Avoid lingering in the crater area. Altitude gains are rapid so proper acclimatization is essential. Carry a buff or mask for the sulfurous upper sections.",
+        "basecamp": "Bargah-e Sevom (Camp 3)",
+        "tips": [
+          {
+            "content": "Start the summit push at 4am to avoid afternoon storms and to have time for a slow descent",
+            "category": "timing"
+          },
+          {
+            "content": "June through September is the climbing season with July and August being most popular",
+            "category": "timing"
+          },
+          {
+            "content": "A face mask or buff soaked in water helps with the intense sulfur fumes near the crater",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Sturdy hiking boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Volcanic scree is abrasive and requires durable well-fitting boots"
+          },
+          {
+            "itemName": "Trekking poles",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Extremely helpful on the endless scree slopes during ascent and descent"
+          },
+          {
+            "itemName": "Warm layers for summit",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Temperatures can drop below -15C at the summit even in summer"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Massive and exhausting volcano",
+            "body": "The south route is straightforward but the altitude and scree make it a serious physical challenge. The shelter at Camp 3 is basic but functional. Summit sunrise over the Iranian plateau was magnificent. The sulfur fumes at the top were intense and unpleasant. A great high altitude trekking objective.",
+            "conditions": "Clear skies, cold summit temperatures of -12C, moderate sulfur emissions"
+          }
+        ]
+      },
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A less traveled route approaching Damavand from the northeast via the village of Nandal. The route follows a defined ridge line with more sustained snow fields than the south route and offers a wilder more remote experience. The northeast ridge provides excellent views of the Caspian Sea in clear conditions. Less infrastructure means greater self-sufficiency is required.",
+        "summary": "Quieter ridge route on Damavand from the northeast offering a more remote mountain experience.",
+        "distance": 22,
+        "elevationGain": 2900,
+        "estimatedTime": 28,
+        "season": "summer",
+        "hazards": "[\"More sustained snow and ice than south route\",\"Limited shelter options\",\"Crevasses on upper snowfields\",\"Poor visibility in cloud\"]",
+        "safetyNotes": "Fewer climbers and less infrastructure than the south route means self-rescue capability is important. Snow conditions on the upper ridge may require crampons and ice axe even in summer.",
+        "basecamp": "Northeast Shelter (4000m)",
+        "tips": [
+          {
+            "content": "This route sees far fewer climbers and offers a more solitary mountain experience",
+            "category": "general"
+          },
+          {
+            "content": "On clear days the Caspian Sea is visible from the upper ridge which is a remarkable sight",
+            "category": "general"
+          },
+          {
+            "content": "Carry all supplies as the northeast shelter may not have provisions",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The northeast ridge retains more snow and ice than the popular south route"
+          },
+          {
+            "itemName": "GPS navigation device",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "The trail is less defined than the south route and cloud cover is common"
+          },
+          {
+            "itemName": "Camping stove and fuel",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Self-sufficiency required as shelter provisions cannot be relied upon"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Damavand without the crowds",
+            "body": "Chose the northeast ridge specifically to avoid the busy south route and it was the right decision. Saw only two other teams in three days. The ridge walking is engaging and the snow conditions added a mountaineering dimension absent from the scree slog of the south. Seeing the Caspian Sea from 5000m was surreal.",
+            "conditions": "Light snow coverage on ridge, clear mornings with afternoon cloud, winds 20 km/h at summit"
+          }
+        ]
+      },
+      {
+        "name": "West Route from Goosfand Sara",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The western approach to Damavand starting from the Goosfand Sara basecamp at approximately 3000m. This route traverses the western flanks of the volcano through more varied terrain than the south route including rocky sections, snowfields, and a broad glacial area. The western face holds more snow later in the season and offers dramatic views of the Alborz mountain chain.",
+        "summary": "Western approach to Damavand via Goosfand Sara with varied terrain and sustained snow travel.",
+        "distance": 20,
+        "elevationGain": 2671,
+        "estimatedTime": 26,
+        "season": "summer",
+        "hazards": "[\"Snowfields with hidden rocks\",\"Navigation difficulty in fog\",\"Altitude sickness\",\"Rockfall on volcanic slopes\"]",
+        "safetyNotes": "The western face retains snow longer than the south creating both navigational challenges and potential for hidden crevasses. Route marking is less established than the south route.",
+        "basecamp": "Goosfand Sara Camp",
+        "tips": [
+          {
+            "content": "The west route is often combined with the south route for a traverse of the mountain",
+            "category": "logistics"
+          },
+          {
+            "content": "Mid-July through August provides the best balance of snow conditions and stable weather",
+            "category": "timing"
+          },
+          {
+            "content": "Mark your ascent route with wands if snow coverage is extensive for safe descent navigation",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The west face holds significant snow cover well into the summer season"
+          },
+          {
+            "itemName": "Snow wands or flagging",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Useful for marking the route on featureless snowfields for the descent"
+          },
+          {
+            "itemName": "Insulated water bottles",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Water freezes quickly at altitude on the exposed western face"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Varied and scenic western approach",
+            "body": "The west route offers a much more varied mountaineering experience than the south scree slog. Snow travel was extensive and the views westward along the Alborz range were spectacular. Navigation required more attention but the route felt far more adventurous. We descended the south route for a full traverse of the peak.",
+            "conditions": "Extensive snow cover on west face, clear summit with clouds building by noon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Hua",
+    "routes": [
+      {
+        "name": "Soldiers Road (Plank Walk)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "scramble",
+        "description": "The famous and terrifying Plank Walk on Mount Hua's south peak, one of the most dangerous hiking trails in the world. Narrow wooden planks bolted to a sheer cliff face with only a chain handhold and a safety harness tether. The route traverses a vertical granite cliff at over 2000m with exposure of several hundred meters beneath your feet. A once-in-a-lifetime experience for those without severe vertigo.",
+        "summary": "The world-famous Plank Walk clinging to the sheer cliff face of Mount Hua's south peak.",
+        "distance": 2,
+        "elevationGain": 200,
+        "estimatedTime": 2,
+        "season": "year-round",
+        "hazards": "[\"Extreme exposure on narrow planks\",\"Crowding on peak season weekdays\",\"Wet and slippery planks in rain\",\"Vertigo-inducing heights\"]",
+        "safetyNotes": "A safety harness attached to a cable is provided and mandatory. Do not attempt in wet weather as the planks become dangerously slippery. Avoid peak holiday periods when dangerous crowding occurs on the narrow sections.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Arrive early in the morning or late afternoon to avoid the worst crowds on the planks",
+            "category": "timing"
+          },
+          {
+            "content": "The harness system is provided at the start of the walk and is included in the ticket price",
+            "category": "logistics"
+          },
+          {
+            "content": "Skip this in rain as the wooden planks become treacherously slippery when wet",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Grippy athletic shoes or approach shoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Smooth-soled shoes are dangerous on the narrow wooden planks"
+          },
+          {
+            "itemName": "Light daypack only",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Large packs can catch on the cliff face and throw you off balance on narrow sections"
+          },
+          {
+            "itemName": "Gloves for chain grips",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "The metal chains can be cold and rough on bare hands"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Most exhilarating walk of my life",
+            "body": "Nothing prepares you for the exposure on the Plank Walk. Standing on wooden boards bolted to a sheer cliff with nothing below you is absolutely terrifying and absolutely thrilling. The safety harness gives confidence but the psychological challenge is immense. I went at 7am and had minimal crowds.",
+            "conditions": "Dry and clear, light breeze, dry planks with good grip"
+          }
+        ]
+      },
+      {
+        "name": "West Peak via Grand Stairway",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The classic hiking route ascending to West Peak via the ancient Grand Stairway carved into the granite mountainside. Thousands of stone steps wind through pine forests and past temples, shrines, and cliff-side pavilions. The West Peak at 2038m offers spectacular sunset views. The route can be shortened by taking the cable car to the North Peak and then hiking across the ridgeline.",
+        "summary": "Ancient stone stairway route ascending through temples and forests to Mount Hua's scenic West Peak.",
+        "distance": 10,
+        "elevationGain": 1600,
+        "estimatedTime": 7,
+        "season": "year-round",
+        "hazards": "[\"Steep and slippery stone steps in wet conditions\",\"Extreme crowding during Chinese holidays\",\"Heat exhaustion in summer\",\"Icy steps in winter\"]",
+        "safetyNotes": "The stone steps are polished smooth by millions of visitors and become very slippery in rain or ice. Metal chains provide handholds on the steepest sections. Carry sufficient water as there are limited refill points.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Take the cable car up and hike down to save energy and enjoy the scenery at a relaxed pace",
+            "category": "logistics"
+          },
+          {
+            "content": "Avoid Chinese national holiday weeks when the mountain sees dangerous overcrowding",
+            "category": "timing"
+          },
+          {
+            "content": "The sunset from West Peak is considered the finest view on the mountain",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Shoes with excellent grip on smooth stone",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The polished stone steps are slippery even in dry conditions"
+          },
+          {
+            "itemName": "2 liters of water minimum",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The climb is strenuous and water sales points are limited and expensive"
+          },
+          {
+            "itemName": "Rain jacket",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Mountain weather changes quickly and wet stone steps require extra caution"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Extraordinary cultural and physical experience",
+            "body": "The Grand Stairway is an engineering marvel carved over centuries. Every turn reveals a new temple or shrine perched impossibly on the cliff face. The climb is relentless with thousands of steps but the cultural richness makes the effort worthwhile. West Peak sunset was magical with clouds filling the valleys below.",
+            "conditions": "Clear autumn day, comfortable temperatures around 15C, dry steps"
+          }
+        ]
+      },
+      {
+        "name": "South Peak Trail",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The route to the highest point of Mount Hua at 2155m via the South Peak trail. Accessed from the cable car to the North Peak and then traversing the dramatic ridgeline south. The trail passes all five peaks and connects to the Plank Walk. The South Peak offers the highest vantage point with panoramic views across the Shaanxi province and the Wei River valley below.",
+        "summary": "Trail to the highest summit of Mount Hua via the dramatic ridgeline connecting all five peaks.",
+        "distance": 8,
+        "elevationGain": 800,
+        "estimatedTime": 5,
+        "season": "year-round",
+        "hazards": "[\"Exposed ridgeline walking\",\"Steep stone steps\",\"Crowding at peak times\",\"Icy conditions in winter months\"]",
+        "safetyNotes": "Chain handholds are available on exposed sections. In winter, microspikes or light crampons may be needed on icy steps. Start early to complete the full five-peak traverse in daylight.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Plan a full day to visit all five peaks with South Peak as the high point and culmination",
+            "category": "logistics"
+          },
+          {
+            "content": "Spring and autumn offer the best balance of comfortable temperatures and clear visibility",
+            "category": "timing"
+          },
+          {
+            "content": "The ridgeline between peaks is dramatic and narrow in places adding excitement to the traverse",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Comfortable hiking shoes with grip",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Thousands of stone steps require footwear with good cushioning and traction"
+          },
+          {
+            "itemName": "Snacks and water",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Food and drinks at summit vendors are expensive so bring your own"
+          },
+          {
+            "itemName": "Camera with wide-angle lens",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "The panoramic views from South Peak are extraordinary and deserve proper documentation"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "China's most spectacular mountain walk",
+            "body": "The five-peak traverse is an incredible day out. South Peak as the high point gives a wonderful sense of achievement and the views are vast. The ridgeline walking between peaks is thrilling with genuine exposure in places. Arrived early and had relative solitude before the midday crowds arrived.",
+            "conditions": "Clear autumn day with excellent visibility, dry conditions, light winds on the exposed ridge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Aspiring",
+    "routes": [
+      {
+        "name": "Northwest Ridge (Normal Route)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on New Zealand's Matterhorn ascending the prominent northwest ridge from the Colin Todd Hut. Involves glacier travel, a steep snow and ice ridge, and exposed scrambling on the final rock pyramid. The ridge is narrow and corniced in places requiring confident movement on mixed terrain. Typically climbed as a two-day trip with a hut stay.",
+        "summary": "Classic alpine ridge route on New Zealand's most iconic mountain via the northwest ridge.",
+        "distance": 14,
+        "elevationGain": 1833,
+        "estimatedTime": 18,
+        "season": "summer",
+        "hazards": "[\"Cornices on narrow ridge\",\"Crevasses on Bonar Glacier\",\"Rockfall on summit pyramid\",\"Rapidly changing weather\"]",
+        "safetyNotes": "New Zealand mountain weather is notoriously changeable. Be prepared to retreat if conditions deteriorate. The summit pyramid requires confident scrambling on loose rock with significant exposure.",
+        "basecamp": "Colin Todd Hut",
+        "tips": [
+          {
+            "content": "A helicopter flight to Colin Todd Hut saves a day of approach walking and is common practice",
+            "category": "logistics"
+          },
+          {
+            "content": "Start the ridge at 3am to have firm snow and the best chance of a clear summit",
+            "category": "timing"
+          },
+          {
+            "content": "January and February offer the longest weather windows and most stable snow conditions",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and two ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The ridge has steep ice sections that benefit from two tools for security"
+          },
+          {
+            "itemName": "Rock climbing gear including small cams",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the summit rock pyramid where the climbing reaches grade 12 NZAC"
+          },
+          {
+            "itemName": "Lightweight bivouac shelter",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Weather can trap climbers requiring an emergency bivy on the ridge"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A perfect alpine ridge climb",
+            "body": "The northwest ridge of Aspiring is everything alpine climbing should be: aesthetic, varied, and committing without being extreme. The dawn start from Colin Todd Hut under stars was magical. The ridge narrowed beautifully and the summit pyramid scramble was exposed and thrilling. The views to the Southern Alps were immense.",
+            "conditions": "Firm neve on ridge, clear skies with high cloud building by midday, light winds"
+          }
+        ]
+      },
+      {
+        "name": "Southwest Ridge",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A longer and more sustained route than the northwest ridge, approaching from the Matukituki Valley via the Bonar Glacier and ascending the southwest ridge. Features longer sections of mixed climbing and more complex route-finding. The ridge is more sustained technically than the normal route and offers a more committing mountaineering experience with fewer parties.",
+        "summary": "Sustained and committing mixed ridge route on the southwest side of Mount Aspiring.",
+        "distance": 16,
+        "elevationGain": 2000,
+        "estimatedTime": 22,
+        "season": "summer",
+        "hazards": "[\"Sustained mixed climbing at altitude\",\"Complex crevasse fields\",\"Limited retreat options on ridge\",\"Weather exposure on long ridge\"]",
+        "safetyNotes": "This is a committing ridge with limited escape options once above the lower glacier. Only for parties with solid mixed climbing experience. Be prepared for a possible bivouac if the weather slows progress.",
+        "basecamp": "French Ridge Hut",
+        "tips": [
+          {
+            "content": "This route is better suited to experienced alpinists seeking a step up from the normal route",
+            "category": "general"
+          },
+          {
+            "content": "Allow a generous weather window as the longer route leaves less margin for delays",
+            "category": "timing"
+          },
+          {
+            "content": "Descend via the northwest ridge for a complete traverse of the peak",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full alpine rack with ice screws and rock protection",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained mixed terrain requires both ice and rock protection throughout"
+          },
+          {
+            "itemName": "Bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The longer route may require an unplanned night out if weather or conditions slow progress"
+          },
+          {
+            "itemName": "Two ice tools with leashes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep mixed sections demand two tools for security and efficiency"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A proper mountaineering route",
+            "body": "The southwest ridge feels significantly more serious than the normal northwest ridge. The mixed climbing is sustained and engaging with genuine route-finding challenges. We had the entire ridge to ourselves while the normal route had several parties. Descended via the northwest ridge for a magnificent traverse.",
+            "conditions": "Variable cloud with clearing periods, firm mixed conditions, wind chill on exposed sections"
+          }
+        ]
+      },
+      {
+        "name": "Ramp Route",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "A dramatic ice route ascending the south face via a prominent ramp feature. The route climbs sustained ice of 50-55 degrees for several hundred meters before joining the upper southwest ridge to the summit. One of the more aesthetic ice routes in the Southern Alps. Requires solid ice climbing skills and good conditions to be in reasonable shape.",
+        "summary": "Aesthetic sustained ice climb on the south face of Mount Aspiring via a prominent ramp feature.",
+        "distance": 12,
+        "elevationGain": 1800,
+        "estimatedTime": 16,
+        "season": "winter",
+        "hazards": "[\"Sustained steep ice\",\"Spindrift avalanches from above\",\"Thin ice sections\",\"Difficult retreat from upper ramp\"]",
+        "safetyNotes": "Ice conditions are critical for this route. The ramp can be dangerously thin in warm seasons. Avalanche conditions must be carefully assessed before entering the face. This route is best in cold stable winter conditions.",
+        "basecamp": "French Ridge Hut",
+        "tips": [
+          {
+            "content": "The ramp is best in winter or early spring when ice is thick and well bonded",
+            "category": "timing"
+          },
+          {
+            "content": "An early start is essential to be off the face before solar warming triggers spindrift",
+            "category": "safety"
+          },
+          {
+            "content": "Rack heavily with ice screws as protection is solely ice-based on the ramp",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep sustained ice at 50-55 degrees demands aggressive technical tools"
+          },
+          {
+            "itemName": "Ice screws minimum 10",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "All protection on the ramp is ice screw based with long runouts between stances"
+          },
+          {
+            "itemName": "Avalanche transceiver probe and shovel",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Avalanche terrain must be assessed and rescue equipment carried"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Classic Southern Alps ice",
+            "body": "The Ramp is one of the finest ice routes in the Southern Alps. Four hundred meters of sustained fifty-degree ice with the mountain towering above. We caught it in perfect condition with thick blue ice throughout. The final junction with the southwest ridge and summit push capped a brilliant day.",
+            "conditions": "Thick blue ice on ramp, cold overnight freeze, clear skies, no spindrift"
+          }
+        ]
+      },
+      {
+        "name": "Colin Todd Route",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A serious mixed climbing route on the north face named after the pioneering New Zealand climber. Ascends steep mixed terrain with ice gullies, rock steps, and exposed ridgework. One of the harder established routes on Aspiring requiring confident mixed climbing ability at altitude. The route is rarely in condition and demands patience waiting for the right weather and ice window.",
+        "summary": "Serious mixed climbing route on the north face of Mount Aspiring named for a pioneering NZ climber.",
+        "distance": 10,
+        "elevationGain": 1600,
+        "estimatedTime": 18,
+        "season": "winter",
+        "hazards": "[\"Steep mixed climbing\",\"Avalanche danger on north face\",\"Poor rock quality in sections\",\"Limited protection on mixed ground\"]",
+        "safetyNotes": "Only attempt in stable cold conditions when the face is well frozen. The route is serious and committing with limited retreat options. Assess avalanche conditions meticulously before approaching the face.",
+        "basecamp": "Colin Todd Hut",
+        "tips": [
+          {
+            "content": "This route requires patience waiting for the rare combination of stable weather and good ice",
+            "category": "timing"
+          },
+          {
+            "content": "Solid experience on Scottish or Canadian mixed routes is excellent preparation",
+            "category": "general"
+          },
+          {
+            "content": "Carry bivouac gear as the route may take longer than expected on the mixed sections",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools with mixed climbing picks",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain demands tools capable of hooking rock and placing in thin ice"
+          },
+          {
+            "itemName": "Full mixed climbing rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Ice screws, pitons, cams, and nuts for the varied protection requirements"
+          },
+          {
+            "itemName": "Insulated bivouac jacket",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Forced bivouacs are a real possibility on this long and committing route"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A test piece for NZ alpinists",
+            "body": "Waited three seasons for the right conditions on the Colin Todd route. The mixed climbing is sustained and technically demanding with some runout sections that demand commitment. Route-finding through the rock bands was the crux challenge. Reaching the summit via this route felt like a genuine achievement in Southern Alps alpinism.",
+            "conditions": "Well frozen mixed terrain, thin ice in upper gullies, cold temps of -10C, light winds"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kosciuszko",
+    "routes": [
+      {
+        "name": "Summit Walk from Thredbo",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The easiest and most popular route to Australia's highest point starting with the Kosciuszko Express Chairlift from Thredbo Village to the top of the ski area at 1930m. From there a well-maintained elevated steel mesh walkway protects fragile alpine vegetation while leading across the Main Range to the summit. Suitable for families and casual walkers with minimal elevation gain.",
+        "summary": "The easiest route to Australia's highest peak using the Thredbo chairlift and elevated walkway.",
+        "distance": 13,
+        "elevationGain": 298,
+        "estimatedTime": 4,
+        "season": "year-round",
+        "hazards": "[\"Exposure to weather on treeless alpine plateau\",\"Hypothermia risk in sudden weather changes\",\"Snow and ice on path in winter\"]",
+        "safetyNotes": "Despite being an easy walk in good conditions the alpine plateau is fully exposed and weather can change rapidly. Carry warm layers and rain protection even in summer. In winter the route may require snowshoes.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Summer from December to March offers the warmest and most accessible conditions",
+            "category": "timing"
+          },
+          {
+            "content": "The chairlift eliminates 600m of elevation gain and is well worth the ticket price",
+            "category": "logistics"
+          },
+          {
+            "content": "Wildflower season in January and February makes the alpine meadows spectacular",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Layered clothing including windproof jacket",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The alpine plateau is exposed and conditions can turn cold and windy rapidly"
+          },
+          {
+            "itemName": "Sun protection",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "UV levels in the Australian alpine zone are extreme even on cloudy days"
+          },
+          {
+            "itemName": "Comfortable walking shoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The raised walkway is smooth but the return walk is 13km so comfort matters"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A continental high point anyone can reach",
+            "body": "A gentle walk to the rooftop of Australia. The raised walkway protects the delicate alpine environment beautifully. Views across the Main Range are surprisingly impressive for such a gentle mountain. We were lucky with weather and could see across to the Victorian Alps. A must-do for peak baggers.",
+            "conditions": "Clear sunny day with temperatures around 18C, light breeze on the plateau"
+          }
+        ]
+      },
+      {
+        "name": "Main Range Track Loop",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "An extended loop hike that visits the summit of Kosciuszko while also traversing the Main Range past glacial lakes, alpine meadows, and the headwaters of the Snowy River. The route passes Blue Lake, Club Lake, and Lake Albina offering a much richer experience than the direct summit walk. One of the finest day hikes in the Australian Alps showcasing the unique alpine ecosystem.",
+        "summary": "Extended loop hike through Australia's alpine zone visiting glacial lakes and the summit of Kosciuszko.",
+        "distance": 22,
+        "elevationGain": 580,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"Extended exposure on alpine plateau\",\"Creek crossings that may be swollen after rain\",\"Navigation difficulty in fog\",\"Distance and remoteness from assistance\"]",
+        "safetyNotes": "This is a significantly longer walk than the direct summit route. Carry sufficient water and food for a full day. Navigation skills and a map are recommended as the track becomes less defined in the southern sections.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Start early to complete the full loop in daylight and enjoy the glacial lakes at their best",
+            "category": "timing"
+          },
+          {
+            "content": "The loop past Blue Lake is the scenic highlight and worth the extra distance over the direct route",
+            "category": "general"
+          },
+          {
+            "content": "February offers the best wildflower displays along the Main Range",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Topographic map and compass",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Parts of the loop are less well marked than the main summit walk"
+          },
+          {
+            "itemName": "3 liters of water",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Limited reliable water sources on the exposed alpine plateau"
+          },
+          {
+            "itemName": "Sturdy hiking shoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The longer loop includes rougher sections of track than the elevated walkway"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The way Kosciuszko should be experienced",
+            "body": "The Main Range loop transforms a simple summit walk into a proper mountain day. Blue Lake is stunningly beautiful with its deep blue glacial waters. The alpine meadows were carpeted in wildflowers. Seeing the headwaters of the Snowy River was special. Far more rewarding than the direct out-and-back summit walk.",
+            "conditions": "Perfect summer day at 20C, clear visibility, wildflowers in full bloom"
+          }
+        ]
+      },
+      {
+        "name": "Charlotte Pass Approach",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "An alternative approach to Kosciuszko summit starting from Charlotte Pass village at 1760m. This route follows the old Summit Road through the Snowy River valley and up to the summit without requiring the Thredbo chairlift. A longer walk than the Thredbo approach but accessible year-round without a lift ticket. In winter this becomes a popular cross-country skiing and snowshoeing route.",
+        "summary": "Alternative approach to Kosciuszko from Charlotte Pass following the old Summit Road.",
+        "distance": 18,
+        "elevationGain": 468,
+        "estimatedTime": 6,
+        "season": "year-round",
+        "hazards": "[\"Full weather exposure on open terrain\",\"Snow burial of track in winter\",\"Distance from assistance\",\"Creek crossings in spring snowmelt\"]",
+        "safetyNotes": "In winter this route requires snowshoes or cross-country skis and full winter navigation skills. The old road can be completely obscured by snow making GPS navigation essential. Summer conditions are straightforward.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "This route avoids the chairlift cost and offers a more immersive approach through the Snowy River valley",
+            "category": "logistics"
+          },
+          {
+            "content": "In winter this is a superb snowshoe or cross-country ski route through a beautiful snow-covered landscape",
+            "category": "general"
+          },
+          {
+            "content": "The Charlotte Pass end has parking and basic facilities making it a convenient starting point",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Snowshoes or cross-country skis in winter",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for winter travel when the route is covered in deep snow"
+          },
+          {
+            "itemName": "Layered clothing for variable conditions",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Temperature swings of 15 degrees are possible in a single day"
+          },
+          {
+            "itemName": "Thermos with hot drink",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "A warm drink at the summit is welcome on cool and windy days"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Beautiful winter approach on snowshoes",
+            "body": "Did this route in July on snowshoes and it was a completely different experience from the summer walk. The Snowy River valley was covered in pristine white snow and we had the entire mountain to ourselves. Navigation required attention where the road disappeared under drifts. A magical winter day in the Australian Alps.",
+            "conditions": "Deep snow coverage, clear winter day at -3C, light winds, excellent snowshoe conditions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Olympus",
+    "routes": [
+      {
+        "name": "Gkiosos Apostolidis Route to Mytikas",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "scramble",
+        "description": "The standard route to Mytikas, the highest summit of Mount Olympus and all of Greece. Starts from the town of Litochoro and ascends through dense forest to the Spilios Agapitos refuge at 2100m before continuing up steep scree and the exposed Kakoskala couloir to the summit at 2917m. The final section involves Class 3 scrambling on exposed limestone with excellent holds but significant drop-offs.",
+        "summary": "The classic route to the summit of mythological Mount Olympus via the Kakoskala scramble to Mytikas.",
+        "distance": 22,
+        "elevationGain": 2617,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"Exposed scrambling on Kakoskala\",\"Rockfall in couloirs\",\"Sudden thunderstorms with lightning\",\"Loose scree on approach\"]",
+        "safetyNotes": "The Kakoskala scramble to Mytikas is exposed and loose in places. Helmets are recommended. Lightning storms develop quickly in summer afternoons so plan to summit early. The refuge provides a critical overnight stop for acclimatization.",
+        "basecamp": "Spilios Agapitos Refuge",
+        "tips": [
+          {
+            "content": "Stay at Spilios Agapitos Refuge overnight and start the summit push at dawn to avoid afternoon storms",
+            "category": "timing"
+          },
+          {
+            "content": "June through October is the best season with July and August being warmest and most stable",
+            "category": "timing"
+          },
+          {
+            "content": "The refuge serves excellent Greek food and is a wonderful mountain hut experience",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Loose rock in the Kakoskala couloir makes a helmet strongly recommended"
+          },
+          {
+            "itemName": "Sturdy hiking boots with ankle support",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The scree slopes and scrambling sections require solid footwear"
+          },
+          {
+            "itemName": "Headlamp",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for the pre-dawn start from the refuge to summit before storms build"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Home of the gods lives up to the name",
+            "body": "Climbing the home of the Greek gods is an unforgettable experience. The forest approach is beautiful and the Spilios Agapitos Refuge is charming. The Kakoskala scramble is exciting with real exposure and excellent rock. Standing on Mytikas at dawn with the Aegean Sea far below was a mythic moment. Highly recommended.",
+            "conditions": "Clear dawn summit, developing cumulus by 10am, dry rock on the scramble, 12C at summit"
+          }
+        ]
+      },
+      {
+        "name": "Zonaria Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "scramble",
+        "description": "A more challenging route reaching Mytikas via the exposed Zonaria ledge system that traverses the steep west face of the summit massif. More technically demanding than the standard Kakoskala approach with sections of UIAA II-III climbing on exposed limestone. The traverse offers stunning views into the Megali Kazania cirque, a dramatic amphitheater of cliffs. Often combined with a descent via the standard route.",
+        "summary": "Exposed traverse route to Mytikas via the Zonaria ledges on the west face of the summit massif.",
+        "distance": 24,
+        "elevationGain": 2617,
+        "estimatedTime": 16,
+        "season": "summer",
+        "hazards": "[\"Exposed traversing on narrow ledges\",\"UIAA III climbing sections\",\"Rockfall from above\",\"Severe weather exposure on west face\"]",
+        "safetyNotes": "The Zonaria traverse is significantly more exposed and technical than the standard Kakoskala route. It should only be attempted by experienced scramblers comfortable with exposure and UIAA III terrain. Retreat from the traverse is difficult once committed.",
+        "basecamp": "Spilios Agapitos Refuge",
+        "tips": [
+          {
+            "content": "A rope and basic protection can be useful for less confident members of the party on the exposed traverse",
+            "category": "safety"
+          },
+          {
+            "content": "The views into the Megali Kazania cirque from the Zonaria ledges are the finest on the mountain",
+            "category": "general"
+          },
+          {
+            "content": "Descend via the standard Kakoskala route for a satisfying loop over the summit",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "30m rope for exposed sections",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Useful for security on the most exposed traverse sections if the party is mixed ability"
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rockfall hazard from the cliffs above the traverse is a real concern"
+          },
+          {
+            "itemName": "Approach shoes with sticky rubber",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The limestone scrambling benefits from grippy footwear over hiking boots"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest scramble in Greece",
+            "body": "The Zonaria traverse is a magnificent mountaineering experience. The exposure is real and the climbing engaging without being desperately hard. Looking down into the Megali Kazania cirque from the narrow ledges is breathtaking. We traversed to Mytikas and descended the standard route. A world-class mountain day.",
+            "conditions": "Dry limestone with excellent friction, clear morning, light winds on the west face"
+          }
+        ]
+      },
+      {
+        "name": "Louki Couloir",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steep and direct couloir route ascending to the summit area of Mount Olympus. The Louki Couloir holds snow and ice well into spring and early summer providing a mixed climbing experience unusual for a Greek mountain. The couloir reaches angles of 45-55 degrees and exits near the summit ridge. A winter and spring route that transforms Olympus into a genuine alpine objective.",
+        "summary": "Steep couloir route on Mount Olympus offering alpine ice climbing in the unlikely setting of Greece.",
+        "distance": 18,
+        "elevationGain": 2400,
+        "estimatedTime": 14,
+        "season": "spring",
+        "hazards": "[\"Avalanche danger in the couloir\",\"Rockfall as snow melts\",\"Steep ice up to 55 degrees\",\"Cornice collapse at couloir exit\"]",
+        "safetyNotes": "This is a serious alpine route when in winter or spring condition. Avalanche assessment skills are essential. The couloir funnels all debris from above making timing critical. Best attempted in stable cold conditions with consolidated snow.",
+        "basecamp": "Spilios Agapitos Refuge",
+        "tips": [
+          {
+            "content": "March through May offers the best snow and ice conditions in the couloir",
+            "category": "timing"
+          },
+          {
+            "content": "Start the couloir before sunrise when the snow is frozen and avalanche risk is lowest",
+            "category": "safety"
+          },
+          {
+            "content": "Carry avalanche rescue equipment as the confined couloir channels debris",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The couloir reaches 55 degrees and requires confident ice climbing ability"
+          },
+          {
+            "itemName": "Avalanche transceiver probe and shovel",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mandatory safety equipment for any couloir climbing on Olympus in winter conditions"
+          },
+          {
+            "itemName": "Ice screws for protection",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Running protection in the steeper sections of the couloir"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Alpine climbing on the mountain of the gods",
+            "body": "Who would expect genuine alpine ice climbing in Greece? The Louki Couloir in April provided 400 meters of sustained steep snow and ice climbing. The setting is surreal with the Mediterranean visible from the couloir. We had perfect cold conditions and the snow was firm throughout. An unexpected gem for alpine climbers.",
+            "conditions": "Consolidated spring snow, frozen overnight, 45-55 degree angles, clear cold morning"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Teide",
+    "routes": [
+      {
+        "name": "Telesforo Bravo Trail (Normal Route from Cable Car)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The standard route to the summit of Spain's highest peak, starting from the upper cable car station at 3555m. The Telesforo Bravo trail is a short but steep path through volcanic terrain to the summit crater at 3718m. Sulfurous fumaroles mark the still-active volcanic summit. A free permit is required for the final trail section and must be booked well in advance as daily numbers are strictly limited.",
+        "summary": "Short but steep trail from the cable car to the summit crater of Spain's highest peak on Tenerife.",
+        "distance": 1.4,
+        "elevationGain": 163,
+        "estimatedTime": 1.5,
+        "season": "year-round",
+        "hazards": "[\"Altitude effects at 3718m\",\"Sulfur fumes at summit\",\"Extreme sun exposure\",\"High winds on exposed summit\"]",
+        "safetyNotes": "A free permit from the National Park office must be booked online in advance and allows access only during a specific two-hour window. The summit is fully exposed to sun and wind. Visitors coming directly from sea level may feel altitude effects.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "Book the summit permit online as far in advance as possible as slots fill up weeks ahead",
+            "category": "logistics"
+          },
+          {
+            "content": "The early morning permit slots offer the best visibility and coolest temperatures",
+            "category": "timing"
+          },
+          {
+            "content": "The cable car opens at 9am and queues can be extreme in peak season so arrive early",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Sun protection including hat and high SPF sunscreen",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The volcanic summit has zero shade and extreme UV at altitude"
+          },
+          {
+            "itemName": "Warm windproof layer",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Summit temperatures can be 20 degrees colder than the coast below"
+          },
+          {
+            "itemName": "Comfortable hiking shoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The volcanic gravel path is steep and loose in sections"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Volcanic summit above the clouds",
+            "body": "Standing above a sea of clouds at the top of Teide with sulfur venting from the crater is a surreal experience. The trail from the cable car is short but steep. Visibility was extraordinary with several other Canary Islands visible. The permit system works well but book very early. An easy must-do for anyone visiting Tenerife.",
+            "conditions": "Clear above cloud layer, light winds, temperature of 8C at summit, no sulfur issues"
+          }
+        ]
+      },
+      {
+        "name": "Montana Blanca Route",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The full ascent of Teide from the Montana Blanca trailhead at 2348m, climbing the entire volcanic cone without the cable car. A strenuous day hike or overnight trip using the Altavista Refuge at 3260m. The route crosses white pumice fields, lava flows, and the upper volcanic cone. Doing the full ascent provides a much deeper appreciation of the volcano's scale than the cable car shortcut.",
+        "summary": "Full ascent of Teide from the Montana Blanca trailhead climbing the complete volcanic cone.",
+        "distance": 18,
+        "elevationGain": 1370,
+        "estimatedTime": 9,
+        "season": "year-round",
+        "hazards": "[\"Altitude gain from 2348m to 3718m\",\"Extreme heat in summer\",\"No water sources on route\",\"Volcanic terrain with sharp lava rock\"]",
+        "safetyNotes": "Carry at least 3 liters of water as there are no sources on the route. Summer temperatures on the lower volcanic slopes can exceed 35C. The Altavista Refuge provides overnight accommodation for a more relaxed two-day ascent.",
+        "basecamp": "Altavista Refuge",
+        "tips": [
+          {
+            "content": "Start before dawn in summer to avoid the worst heat on the lower volcanic slopes",
+            "category": "timing"
+          },
+          {
+            "content": "Staying at the Altavista Refuge allows a sunrise summit which is spectacular",
+            "category": "timing"
+          },
+          {
+            "content": "Carry more water than you think as the dry volcanic air causes rapid dehydration",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "3 liters of water minimum",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "No water available on the entire route in hot dry volcanic conditions"
+          },
+          {
+            "itemName": "Gaiters or high shoes",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Volcanic gravel and pumice gets into low-cut shoes easily"
+          },
+          {
+            "itemName": "Headlamp",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for pre-dawn starts and for staying at the Altavista Refuge"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The proper way to climb Teide",
+            "body": "Stayed at the Altavista Refuge and summited for sunrise. Walking up the full volcanic cone gives a profound appreciation of its scale. The Montana Blanca pumice fields are otherworldly. Watching the sunrise from the summit with Teide's shadow stretching across the Atlantic was one of the great mountain moments.",
+            "conditions": "Cool overnight temps at refuge, clear sunrise, light winds at summit, excellent visibility"
+          }
+        ]
+      },
+      {
+        "name": "Guajara Route",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "An alternative approach to the Teide area ascending Guajara at 2718m, the highest point on the caldera rim and the third highest peak in Tenerife. The route starts from Parador and ascends the caldera wall with dramatic views down into the volcanic crater and across to Teide. While not reaching Teide's summit itself this hike offers arguably the best views of the volcano and can be combined with a Teide ascent.",
+        "summary": "Scenic hike to the caldera rim summit of Guajara with dramatic views of the Teide volcanic cone.",
+        "distance": 14,
+        "elevationGain": 600,
+        "estimatedTime": 6,
+        "season": "year-round",
+        "hazards": "[\"Exposed caldera rim with steep drop-offs\",\"Intense sun at altitude\",\"Rocky trail surface\",\"Wind exposure on rim\"]",
+        "safetyNotes": "The caldera rim has significant exposure on the outer edge. Stay on the marked trail. This hike does not require a summit permit as it does not enter the Teide summit restriction zone.",
+        "basecamp": null,
+        "tips": [
+          {
+            "content": "No summit permit is needed for Guajara making it an excellent alternative when Teide permits are unavailable",
+            "category": "logistics"
+          },
+          {
+            "content": "The panoramic views of Teide from Guajara summit are the finest on the island",
+            "category": "general"
+          },
+          {
+            "content": "Combine with the Montana Blanca route for a comprehensive two-day Teide National Park experience",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Hiking shoes with good ankle support",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rocky volcanic trail surface with loose sections requires solid footwear"
+          },
+          {
+            "itemName": "Wind protection layer",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The caldera rim is exposed to strong and gusty winds"
+          },
+          {
+            "itemName": "Binoculars",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Excellent for studying the Teide cone and spotting other Canary Islands on clear days"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Best viewpoint for Teide",
+            "body": "Guajara offers hands down the best perspective on the entire Teide volcanic complex. Sitting on the caldera rim looking across at the massive cone rising from the crater floor is magnificent. The hike itself is pleasant through interesting volcanic terrain. A perfect option when Teide summit permits are sold out.",
+            "conditions": "Clear skies, moderate winds on rim, warm sunshine at 18C, views to La Palma and Gran Canaria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Erebus",
+    "routes": [
+      {
+        "name": "Normal Route from Scott Base/McMurdo",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the world's southernmost active volcano ascending from the McMurdo Station area on Ross Island, Antarctica. The route climbs through crevassed glacial terrain to reach the summit crater with its persistent lava lake. Extreme cold, hurricane-force winds, and complete remoteness define this extraordinary mountaineering objective. Access is restricted to those with Antarctic research program affiliation or rare permitted expeditions.",
+        "summary": "The standard route on Earth's southernmost active volcano from McMurdo Station in Antarctica.",
+        "distance": 36,
+        "elevationGain": 3394,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"Extreme cold below -30C\",\"Hurricane-force winds\",\"Crevasses on glacial approaches\",\"Active volcanic summit with toxic gases\",\"Complete isolation from rescue\"]",
+        "safetyNotes": "Access requires Antarctic program authorization or extremely rare commercial expedition permits. Conditions are among the harshest on any mountain in the world. Volcanic gases at the summit can be lethal in confined areas. Full polar expedition equipment and experience are mandatory.",
+        "basecamp": "Fang Camp (2800m)",
+        "tips": [
+          {
+            "content": "December and January offer the warmest conditions and continuous daylight for summit attempts",
+            "category": "timing"
+          },
+          {
+            "content": "Access is typically only possible through affiliation with the US or New Zealand Antarctic programs",
+            "category": "logistics"
+          },
+          {
+            "content": "The lava lake in the summit crater is one of only a handful of persistent lava lakes on Earth",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Extreme cold weather clothing system rated to -50C",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Antarctic conditions demand the highest grade of polar clothing and insulation"
+          },
+          {
+            "itemName": "Mountaineering skis or snowshoes",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The long glacial approaches are most efficient on skis in Antarctic snow conditions"
+          },
+          {
+            "itemName": "Gas mask or industrial respirator",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Volcanic gases at the summit crater can reach dangerous concentrations"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most extraordinary mountain on Earth",
+            "body": "Climbing Erebus as part of a research expedition was a once-in-a-lifetime experience. The Antarctic environment is staggeringly beautiful and hostile in equal measure. Looking into the active lava lake from the crater rim while surrounded by ice towers was surreal beyond description. The cold was the most intense I have ever experienced on any mountain.",
+            "conditions": "Clear Antarctic summer day at -25C, winds 40 km/h on upper slopes, good visibility of lava lake"
+          }
+        ]
+      },
+      {
+        "name": "Erebus Ice Tower Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "A unique route variant that specifically traverses through the famous Erebus ice towers (fumarolic ice chimneys) on the upper slopes of the volcano. These hollow ice towers are formed by volcanic steam freezing in the Antarctic air and can reach heights of 10 meters. The traverse weaves through the ice tower field providing an otherworldly experience found nowhere else on Earth before joining the normal route to the summit.",
+        "summary": "Unique traverse through the volcanic ice towers on the upper slopes of Mount Erebus in Antarctica.",
+        "distance": 38,
+        "elevationGain": 3394,
+        "estimatedTime": 80,
+        "season": "summer",
+        "hazards": "[\"Collapsing ice towers\",\"Hidden volcanic vents beneath snow\",\"Extreme cold and wind\",\"Disorientation in whiteout among towers\",\"Toxic volcanic gases from fumaroles\"]",
+        "safetyNotes": "The ice towers are beautiful but potentially dangerous as they can collapse without warning. Volcanic vents beneath the snow surface can create hidden cavities. Maintain safe distances from individual towers and test the snow surface carefully when navigating between them.",
+        "basecamp": "Fang Camp (2800m)",
+        "tips": [
+          {
+            "content": "The ice towers change from year to year so no two visits to the tower field are identical",
+            "category": "general"
+          },
+          {
+            "content": "Photograph the towers from the windward side where they develop the most dramatic formations",
+            "category": "general"
+          },
+          {
+            "content": "Probe the snow surface carefully between towers as volcanic heat creates hidden voids",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Avalanche probe for testing snow surface",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for detecting hidden volcanic vents and cavities beneath the snow surface"
+          },
+          {
+            "itemName": "Extreme cold weather photography gear",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "The ice towers are one of the rarest sights in mountaineering and demand proper documentation"
+          },
+          {
+            "itemName": "Full polar expedition clothing",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Conditions are among the coldest encountered on any mountain climb in the world"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Nothing else like it on the planet",
+            "body": "The Erebus ice towers are the most alien landscape I have encountered in thirty years of mountaineering. Hollow chimneys of ice ten meters tall venting volcanic steam into the Antarctic air while surrounded by glaciers is a scene from another world. The traverse through the tower field added a full day but was absolutely worth every frozen minute.",
+            "conditions": "Clear with moderate wind, -28C, ice towers well formed, good visibility between formations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Pumori",
+    "routes": [
+      {
+        "name": "Southeast Face (Normal Route)",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Pumori ascending the southeast face from Everest Base Camp area. A serious high-altitude climb involving steep snow and ice faces, exposed ridgework, and sections of mixed terrain above 6500m. Camp is established on the face itself requiring secure platforms. The route offers extraordinary views directly into the Western Cwm and across to the Everest massif. Often used as an acclimatization peak for Everest expeditions.",
+        "summary": "The standard route on Pumori via the southeast face with direct views of the Everest massif.",
+        "distance": 14,
+        "elevationGain": 1861,
+        "estimatedTime": 72,
+        "season": "spring",
+        "hazards": "[\"Avalanche danger on steep face\",\"Extreme altitude above 7000m\",\"Exposed ridge with cornices\",\"High winds\",\"Serac fall risk\"]",
+        "safetyNotes": "Pumori is a serious 7000m peak that demands respect despite being overshadowed by its 8000m neighbors. Avalanche conditions must be carefully assessed on the steep face. The summit ridge is narrow and corniced requiring careful navigation.",
+        "basecamp": "Pumori Base Camp (5300m)",
+        "tips": [
+          {
+            "content": "April and May during the pre-monsoon season offers the best weather window aligned with Everest season",
+            "category": "timing"
+          },
+          {
+            "content": "The views from the summit directly into the Western Cwm are among the finest in the Himalaya",
+            "category": "general"
+          },
+          {
+            "content": "Use this climb as serious acclimatization if planning an 8000m peak afterward",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Down suit rated to -30C",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Summit day above 7000m in the Khumbu demands full expedition insulation"
+          },
+          {
+            "itemName": "Fixed rope ascension equipment",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Jumars and safety tethers for the fixed rope sections on the steep face"
+          },
+          {
+            "itemName": "High altitude tent for face camp",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Camp on the face must withstand high winds and heavy snow loading"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Spectacular viewpoint peak in the Khumbu",
+            "body": "Pumori punches well above its height in terms of difficulty and reward. The southeast face is steep and committing with genuine avalanche risk. Reaching the summit and looking directly down into the Western Cwm with Everest, Lhotse, and Nuptse arrayed before you is one of the great mountain panoramas. A serious and satisfying climb.",
+            "conditions": "Stable spring weather, firm snow on face, light winds on summit day, clear visibility"
+          }
+        ]
+      },
+      {
+        "name": "Southwest Ridge",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A difficult and rarely climbed route on Pumori following the long southwest ridge. More technically demanding and sustained than the standard southeast face with mixed climbing sections, knife-edge corniced ridge traverses, and demanding route-finding. The ridge is long and exposed to weather from both sides creating a very committing mountaineering objective at high altitude.",
+        "summary": "Difficult and rarely attempted ridge route on Pumori with sustained mixed climbing at extreme altitude.",
+        "distance": 16,
+        "elevationGain": 2000,
+        "estimatedTime": 96,
+        "season": "spring",
+        "hazards": "[\"Corniced knife-edge ridge\",\"Sustained mixed climbing at altitude\",\"Very limited retreat options\",\"Extreme wind exposure on long ridge\"]",
+        "safetyNotes": "This is an elite mountaineering route attempted by few parties. Retreat from the upper ridge is extremely difficult. Only attempt with a strong team experienced at technical climbing above 6500m.",
+        "basecamp": "Southwest Ridge Base (5200m)",
+        "tips": [
+          {
+            "content": "This route is for very experienced Himalayan climbers seeking a challenging alternative to the standard route",
+            "category": "general"
+          },
+          {
+            "content": "Establish camps carefully as the narrow ridge offers few viable tent platforms",
+            "category": "safety"
+          },
+          {
+            "content": "A strong weather window of several consecutive clear days is essential for this long route",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed climbing rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained technical terrain requires rock, ice, and snow protection throughout"
+          },
+          {
+            "itemName": "Lightweight bivouac equipment",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The long ridge may require emergency bivouacs if progress is slower than planned"
+          },
+          {
+            "itemName": "Snow stakes and deadman anchors",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Snow anchors are critical for the corniced ridge sections where ice screws cannot be placed"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Rarely attempted for good reason",
+            "body": "The southwest ridge is a serious undertaking that tested every skill we had. Three days on the ridge with two bivouacs in demanding conditions. The mixed climbing above 6800m was physically and mentally exhausting. Success felt deeply earned. This route will never be popular and that is part of its appeal.",
+            "conditions": "Cold and windy with periods of clearing, mixed ice and rock, cornices well formed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Nuptse",
+    "routes": [
+      {
+        "name": "Northwest Face (Normal Route)",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Nuptse, which despite being a neighbor of Everest is one of the more difficult 7000m peaks in the Himalaya. The northwest face involves sustained steep ice and mixed terrain with objective hazards from seracs and avalanches. The face is complex with multiple icefall barriers and steep rock bands. Nuptse has far fewer ascents than its famous neighbors due to its technical difficulty and serious objective dangers.",
+        "summary": "Technically demanding route on the northwest face of Nuptse, one of the hardest 7000m peaks in the Himalaya.",
+        "distance": 12,
+        "elevationGain": 2561,
+        "estimatedTime": 96,
+        "season": "spring",
+        "hazards": "[\"Major serac collapse danger\",\"Sustained steep ice\",\"Avalanche risk on face\",\"Extreme altitude above 7500m\",\"Rock bands with poor protection\"]",
+        "safetyNotes": "Nuptse is a formidably difficult mountain that should not be underestimated based on proximity to well-trodden Everest routes. The northwest face has serious objective hazards that cannot be eliminated. Only for very experienced Himalayan climbers.",
+        "basecamp": "Nuptse Base Camp (5200m)",
+        "tips": [
+          {
+            "content": "Study the face thoroughly from Everest Base Camp to understand serac patterns and safe passage lines",
+            "category": "safety"
+          },
+          {
+            "content": "Pre-monsoon season in April and May aligns with Everest weather patterns for the best windows",
+            "category": "timing"
+          },
+          {
+            "content": "A lightweight alpine style approach minimizes time exposed to objective hazards on the face",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained steep ice climbing demands aggressive technical tools with secure grips"
+          },
+          {
+            "itemName": "Down suit rated to -40C",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Extended time on the face above 7000m in exposed conditions requires expedition-grade insulation"
+          },
+          {
+            "itemName": "Portaledge or hammock",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "The steep face may not offer natural tent platforms requiring suspended bivouac solutions"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Enormously challenging neighbor of Everest",
+            "body": "Nuptse humbles every climber who attempts it. The northwest face is relentless with no easy sections and constant objective hazard. We climbed lightweight in three days and the sustained effort at altitude was immense. Seeing the Everest crowds from our position on the face put our solitary struggle into sharp perspective. A mountain for serious climbers only.",
+            "conditions": "Mixed conditions on face, serac activity heard throughout, clear summit day, -22C at high camp"
+          }
+        ]
+      },
+      {
+        "name": "North Pillar",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "An extremely difficult route ascending the prominent north pillar of Nuptse. The pillar rises directly and steeply above the Western Cwm offering sustained technical mixed climbing on rock and ice at extreme altitude. One of the great unfinished problems of Himalayan mountaineering for decades before its eventual completion. The route demands exceptional technical climbing skill at altitudes above 7000m where every physical movement is depleted by thin air.",
+        "summary": "Extremely difficult technical mixed climbing route on the north pillar of Nuptse above the Western Cwm.",
+        "distance": 10,
+        "elevationGain": 2200,
+        "estimatedTime": 120,
+        "season": "spring",
+        "hazards": "[\"Extreme technical difficulty at altitude\",\"Rockfall on steep pillar\",\"Very limited retreat once committed\",\"Avalanche risk\",\"Frostbite on sustained exposed climbing\"]",
+        "safetyNotes": "This is one of the most technically difficult routes in the Himalaya. Only for world-class alpinists with extensive high-altitude technical experience. Retreat from the upper pillar is extremely difficult or impossible in deteriorating conditions.",
+        "basecamp": "Western Cwm Camp (6100m)",
+        "tips": [
+          {
+            "content": "This route is at the absolute cutting edge of Himalayan alpinism and requires world-class fitness and skill",
+            "category": "general"
+          },
+          {
+            "content": "Acclimatize thoroughly on other peaks before committing to this serious objective",
+            "category": "safety"
+          },
+          {
+            "content": "A fast alpine-style push minimizes exposure time on the objectively hazardous pillar",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed climbing rack with pitons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The rock and ice terrain requires comprehensive mixed protection including thin pitons"
+          },
+          {
+            "itemName": "Ultralight bivouac system",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Multiple bivouacs on the pillar are inevitable and weight must be minimized"
+          },
+          {
+            "itemName": "Technical ice screws and tool accessories",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Both short stubby screws for thin ice and full-length screws for the thicker sections"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The pinnacle of Himalayan difficulty",
+            "body": "The north pillar of Nuptse represents the cutting edge of what is possible at altitude. Five days on the pillar with three open bivouacs pushed us to our absolute limits. Technical climbing that would be demanding at sea level becomes monumental at 7500m. Reaching the summit felt like the culmination of a lifetime of alpine training.",
+            "conditions": "Cold stable conditions, mixed rock and ice on pillar, two clear days followed by deterioration"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Annapurna III",
+    "routes": [
+      {
+        "name": "North Face",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The route on the massive north face of Annapurna III, one of the great walls of the Himalaya. The face rises over 3000 meters above the Annapurna Sanctuary and presents sustained mixed climbing through ice fields, rock bands, and serac barriers. The scale of the face creates enormous objective hazard from avalanches and serac collapse. Extremely rarely attempted and one of the most prized objectives in Himalayan alpinism.",
+        "summary": "Massive north face route on Annapurna III, one of the great walls of Himalayan mountaineering.",
+        "distance": 14,
+        "elevationGain": 3155,
+        "estimatedTime": 144,
+        "season": "spring",
+        "hazards": "[\"Massive avalanche danger\",\"Serac collapse on 3000m face\",\"Extreme altitude\",\"Sustained technical difficulty\",\"No retreat from upper face\"]",
+        "safetyNotes": "The north face of Annapurna III is one of the most dangerous and demanding objectives in the Himalaya. The scale of objective hazard cannot be mitigated by skill alone. Only for elite Himalayan alpinists with full acceptance of extreme risk.",
+        "basecamp": "Annapurna III Base Camp (4300m)",
+        "tips": [
+          {
+            "content": "Study the face extensively from the Annapurna Sanctuary to understand avalanche patterns before committing",
+            "category": "safety"
+          },
+          {
+            "content": "Pre-monsoon in April and May offers the most stable weather and coldest temperatures for face conditions",
+            "category": "timing"
+          },
+          {
+            "content": "Alpine style is the only realistic approach given the sustained objective hazards requiring speed",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools and full mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The 3000m face demands comprehensive protection for rock, ice, and mixed terrain"
+          },
+          {
+            "itemName": "Lightweight bivouac gear for multiple nights",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Multiple nights on the face are unavoidable and weight must be ruthlessly minimized"
+          },
+          {
+            "itemName": "Avalanche airbag pack",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "May provide marginal additional protection in avalanche-prone sections of the lower face"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "One of the last great Himalayan problems",
+            "body": "The north face of Annapurna III is overwhelming in scale and seriousness. Our attempt reached 6800m before deteriorating conditions forced retreat. Even our high point was a significant achievement on this fearsome wall. The face dominates the Annapurna Sanctuary and commands respect from everyone who sees it. We will return.",
+            "conditions": "Consolidated snow on lower face, active seracs mid-face, clear weather for two days then storm"
+          }
+        ]
+      },
+      {
+        "name": "South Face",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The less extreme but still very serious approach from the south side of Annapurna III. The south face offers a more defined line with ridge features that provide some protection from the worst objective hazards. Still a major Himalayan objective at 7555m with sustained technical climbing, but the route-finding is more logical and the avalanche exposure somewhat less than the north face.",
+        "summary": "Serious south face route on Annapurna III offering a more defined but still demanding climb to the summit.",
+        "distance": 16,
+        "elevationGain": 3000,
+        "estimatedTime": 120,
+        "season": "spring",
+        "hazards": "[\"Avalanche danger\",\"Steep mixed terrain\",\"Extreme altitude\",\"Complex route-finding\",\"Serac barriers\"]",
+        "safetyNotes": "While slightly less objectively hazardous than the north face this remains a serious and committing Himalayan route. Full expedition planning and strong team dynamics are essential. Weather windows at 7500m are brief and unpredictable.",
+        "basecamp": "South Face Base Camp (4500m)",
+        "tips": [
+          {
+            "content": "The south face is generally considered slightly less objectively dangerous than the legendary north face",
+            "category": "general"
+          },
+          {
+            "content": "Establish intermediate camps on ridge features where protection from avalanches is better",
+            "category": "safety"
+          },
+          {
+            "content": "A team of four strong climbers is optimal for the route-finding and load-carrying demands",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Expedition down suit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Multi-day climbing above 7000m requires full expedition-grade insulation"
+          },
+          {
+            "itemName": "Snow anchors and pickets",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for establishing secure camps and belays on the snow-covered face"
+          },
+          {
+            "itemName": "Satellite phone",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Communication capability is essential on this remote and serious route for weather updates and emergency contact"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Serious Himalayan mountaineering",
+            "body": "The south face of Annapurna III is a major objective that demands everything from a climbing team. Route-finding through the serac barriers required careful observation and patience. Camps on the ridge features provided relative safety. The summit was reached after six days of climbing. Annapurna III deserves far more recognition as a formidable Himalayan peak.",
+            "conditions": "Mixed weather with a critical two-day window for the summit push, cold and windy above 7000m"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Masherbrum",
+    "routes": [
+      {
+        "name": "South-Southwest Face",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The route of the first ascent on Masherbrum, one of the most beautiful and difficult peaks in the Karakoram. The south-southwest face involves sustained mixed climbing through rock bands, ice fields, and steep snow gullies to the summit at 7821m. The face is enormous and complex with multiple route variations through the lower barriers. Masherbrum has a very low success rate reflecting its true difficulty.",
+        "summary": "First ascent route on the formidable Masherbrum via the massive south-southwest face.",
+        "distance": 18,
+        "elevationGain": 3321,
+        "estimatedTime": 168,
+        "season": "summer",
+        "hazards": "[\"Massive avalanche risk\",\"Serac collapse\",\"Extreme altitude and cold\",\"Sustained technical mixed terrain\",\"Unpredictable Karakoram weather\"]",
+        "safetyNotes": "Masherbrum has one of the lowest success-to-attempt ratios of any major Karakoram peak. The face is long and committing with serious objective hazards throughout. Multiple camps must be established and stocked requiring extensive expedition logistics.",
+        "basecamp": "Masherbrum Base Camp (4500m)",
+        "tips": [
+          {
+            "content": "July and August provide the warmest and most stable conditions in the Karakoram for this peak",
+            "category": "timing"
+          },
+          {
+            "content": "Study historical expedition reports carefully as route-finding on the complex face is the key challenge",
+            "category": "general"
+          },
+          {
+            "content": "Plan for a full expedition of 6-8 weeks including approach trek and acclimatization",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full expedition climbing kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Comprehensive rock, ice, and mixed protection for the varied terrain of the face"
+          },
+          {
+            "itemName": "8000m-rated double boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Extended time above 7000m in Karakoram cold demands the warmest available boots"
+          },
+          {
+            "itemName": "High altitude tent for exposed camps",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Camps on the face are exposed to wind and spindrift requiring bombproof shelter"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The most beautiful peak in the Karakoram",
+            "body": "Masherbrum is widely considered the most beautiful mountain in the Karakoram and its difficulty matches its aesthetics. Our expedition spent seven weeks establishing camps and pushing the route. The south-southwest face is complex and demanding at every altitude. Reached the summit on our third attempt. The view from the top across the Karakoram was staggering.",
+            "conditions": "Variable weather with rare clear windows, deep snow on face, cold temperatures below -25C at high camp"
+          }
+        ]
+      },
+      {
+        "name": "West Face",
+        "difficulty": "ED",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A very rarely attempted route on the imposing west face of Masherbrum. The west face presents a massive wall of ice and rock rising directly above the Hushe Valley. More direct than the south-southwest route but even more objectively dangerous with enormous serac barriers and avalanche-prone ice fields. One of the great unclimbed or barely climbed faces in the Karakoram.",
+        "summary": "Extremely difficult and rarely attempted west face route on Masherbrum above the Hushe Valley.",
+        "distance": 16,
+        "elevationGain": 3100,
+        "estimatedTime": 168,
+        "season": "summer",
+        "hazards": "[\"Massive serac barriers\",\"Extreme avalanche danger\",\"Rockfall from warming face\",\"Technical difficulty at extreme altitude\",\"Very remote with no rescue capability\"]",
+        "safetyNotes": "The west face is one of the most dangerous and difficult routes in the Karakoram. Objective hazards are extreme and continuous. This route is only for elite Himalayan climbers with extensive expedition experience and full acceptance of very high risk.",
+        "basecamp": "West Face Base Camp (4200m)",
+        "tips": [
+          {
+            "content": "Extensive reconnaissance from the Hushe Valley is essential before committing to this face",
+            "category": "safety"
+          },
+          {
+            "content": "A fast alpine-style approach is the only way to minimize exposure to the extreme objective hazards",
+            "category": "general"
+          },
+          {
+            "content": "Establish a comprehensive communication plan as rescue from this face is effectively impossible",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ultralight alpine rack for speed",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Speed is survival on this face requiring optimized and stripped-down gear selection"
+          },
+          {
+            "itemName": "Satellite communicator with SOS",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Emergency communication from this remote face is critical for weather updates and emergency coordination"
+          },
+          {
+            "itemName": "Lightweight bivouac system",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Multiple nights on the face with minimal weight require the lightest possible bivouac equipment"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "title": "One of the great Karakoram challenges",
+            "body": "Our attempt on the west face reached approximately 6500m before a major serac collapse across our intended line forced retreat. The scale of the face is humbling and the hazards are omnipresent. The few hundred meters we climbed above base camp were among the most demanding of my career. This face will continue to reject most who attempt it.",
+            "conditions": "Active serac movement throughout, mixed stability, cold mornings with afternoon warming causing rockfall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Tyree",
+    "routes": [
+      {
+        "name": "Southeast Ridge",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The only completed route on Antarctica second highest peak. First climbed by Barry Corbet and John Evans in 1967. The approach involves a long ski journey from Vinson Base Camp across the Sentinel Range. Technical mixed climbing on exposed ridges with extreme Antarctic conditions.",
+        "summary": "The only established route on Antarcticas second highest peak, first climbed in 1967.",
+        "distance": 20,
+        "elevationGain": 2100,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"Extreme cold (-40C+)\",\"Katabatic winds\",\"Complete isolation\",\"Whiteout conditions\",\"Crevasses on approach\"]",
+        "safetyNotes": "One of the most remote and rarely climbed peaks on Earth. Full expedition logistics with Antarctic support required. Only a handful of successful ascents in history.",
+        "basecamp": "Vinson Base Camp / Camp on Tyree Glacier",
+        "commitment": "VI",
+        "technicalGrade": "AI3 M4",
+        "tips": [
+          {
+            "content": "Requires full Antarctic expedition support, typically arranged through Antarctic Logistics and Expeditions (ALE)",
+            "category": "logistics"
+          },
+          {
+            "content": "Weather windows are extremely limited, teams may wait weeks for a summit attempt",
+            "category": "timing"
+          },
+          {
+            "content": "Most teams combine with a Vinson Massif expedition to justify the enormous logistical cost",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Extreme cold weather system (-60F rated)",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Antarctic conditions demand the highest rated insulation available"
+          },
+          {
+            "itemName": "Technical ice and mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full alpine rack with ice screws and rock protection"
+          },
+          {
+            "itemName": "Expedition ski touring setup",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Required for glacier approach across the Sentinel Range"
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The ultimate mountaineering objective",
+            "body": "Mount Tyree represents one of the last great prizes in mountaineering. The isolation, the technical difficulty, and the Antarctic environment combine to create an experience unlike any other peak on Earth. Not a peak to take lightly.",
+            "conditions": "Antarctic summer, winds 30-60 knots"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1130 @@
+[
+  {
+    "peakName": "Mount Foraker",
+    "routes": [
+      {
+        "name": "Southeast Ridge (Infinite Spur)",
+        "difficulty": "Alaska 6",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Infinite Spur is one of the greatest alpine routes in North America, climbing the massive southeast ridge of Mount Foraker over 2700 meters of sustained technical terrain. The route demands exceptional fitness and alpine skill with long stretches of moderate ice, mixed climbing, and corniced ridgeline. First climbed by Michael Kennedy and George Lowe in 1977, this line remains a benchmark for Alaskan alpinism. Expect multi-day effort with minimal bivouac options on the upper ridge.",
+        "summary": "Iconic 2700m sustained alpine route widely regarded as one of North America's finest big mountain climbs.",
+        "distance": 35,
+        "elevationGain": 2700,
+        "estimatedTime": 72,
+        "season": "spring",
+        "hazards": "[\"avalanche\",\"crevasses\",\"extreme cold\",\"cornices\",\"storms\"]",
+        "safetyNotes": "This route requires elite fitness and extensive big-range experience. Weather windows are critical and the commitment level is extreme with no easy retreat from the upper ridge. Carry a minimum of 5 days of food and fuel.",
+        "basecamp": "Southeast Fork of Kahiltna Glacier",
+        "commitment": "VI",
+        "technicalGrade": "AI4 M4",
+        "tips": [
+          {"content": "Travel as light as possible while still carrying enough fuel and food for weather delays of 2-3 days beyond planned schedule.", "category": "logistics"},
+          {"content": "The crux mixed pitches in the middle third of the route are often the hardest to protect; bring a selection of thin pitons and small cams.", "category": "safety"},
+          {"content": "Start the route during a confirmed multi-day high pressure window as retreat from the upper third is extremely difficult.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Double rack of cams to #3", "category": "climbing", "isEssential": true, "notes": "Essential for mixed and rock sections on the middle spur"},
+          {"itemName": "Lightweight bivy sack", "category": "camping", "isEssential": true, "notes": "Critical for emergency and planned bivouacs on the ridge"},
+          {"itemName": "Ice screws (10+)", "category": "climbing", "isEssential": true, "notes": "Sustained ice sections demand a full rack of screws"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The greatest alpine route I have ever climbed", "body": "We spent four days on the Infinite Spur and every pitch was engaging. The scale is almost incomprehensible from below. The mixed terrain in the middle section was the crux for us, with thin ice over granite slabs. Descended the southeast ridge normal route completely exhausted but deeply satisfied.", "conditions": "Late April, firm neve on lower spur, thin ice on middle pitches, deep snow on upper ridge"}
+        ]
+      },
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Northeast Ridge of Mount Foraker offers a long but less technically demanding alternative to the Infinite Spur, following the broad ridgeline from the northeast fork of the Kahiltna Glacier. The route involves sustained glacier travel, moderate snow and ice climbing, and considerable route-finding through crevassed terrain. Cornices and wind-loaded slopes are persistent hazards on the upper ridge. This is a serious undertaking due to length and remoteness rather than pure technical difficulty.",
+        "summary": "Long and committing ridge route offering a moderately technical path up Foraker's northeast aspect.",
+        "distance": 38,
+        "elevationGain": 2800,
+        "estimatedTime": 60,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"avalanche\",\"whiteout\",\"extreme cold\"]",
+        "safetyNotes": "Crevasse danger is significant on the approach and lower ridge. Rope travel is mandatory throughout. Allow extra days for poor visibility which makes navigation on the broad upper ridge treacherous.",
+        "basecamp": "Northeast Fork of Kahiltna Glacier",
+        "commitment": "V",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Wand the entire route meticulously as whiteout conditions on the upper ridge can make navigation nearly impossible.", "category": "safety"},
+          {"content": "Cache supplies at a camp around 3600m to lighten loads for the upper mountain push.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Snow pickets (4-6)", "category": "climbing", "isEssential": true, "notes": "Primary protection on the snow ridge sections"},
+          {"itemName": "GPS device with preloaded waypoints", "category": "navigation", "isEssential": true, "notes": "Essential for navigation on the featureless upper ridge in whiteout"},
+          {"itemName": "Expedition-rated sleeping bag (-40F)", "category": "camping", "isEssential": true, "notes": "Temperatures drop severely at high camps"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Serious expedition in a remote setting", "body": "The Northeast Ridge is not technically extreme but the sheer length and isolation make it a real expedition. We spent 10 days round trip with two weather delays. Navigation on the upper ridge was the biggest challenge. The views of Denali across the valley are spectacular.", "conditions": "Mid-May, good consolidation on lower glacier, soft snow above 4500m, moderate winds"}
+        ]
+      },
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Northwest Ridge of Mount Foraker is a seldom-attempted route that approaches from the remote northwest side of the mountain via the Lacuna Glacier. The route follows a broad snow and ice ridge with moderate technical sections interspersed with long stretches of glacier travel. Access is complicated and typically requires a bush plane landing on the Lacuna Glacier. The remote setting and infrequent ascents mean that route conditions can be unpredictable.",
+        "summary": "Remote and rarely climbed ridge route on Foraker's northwest aspect requiring bush plane access.",
+        "distance": 36,
+        "elevationGain": 2750,
+        "estimatedTime": 65,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"avalanche\",\"remoteness\",\"cornices\",\"storms\"]",
+        "safetyNotes": "Evacuation from this route is extremely difficult due to its remote approach. Carry a satellite communication device and register your trip with the Talkeetna Ranger Station. Self-rescue capability is essential.",
+        "basecamp": "Lacuna Glacier",
+        "commitment": "V",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Coordinate bush plane logistics well in advance as Lacuna Glacier landings are uncommon and weather-dependent.", "category": "logistics"},
+          {"content": "Carry extra food for at least three additional days beyond your planned itinerary due to the remote location and potential weather delays.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Satellite messenger (InReach or similar)", "category": "navigation", "isEssential": true, "notes": "Only reliable communication from this remote approach"},
+          {"itemName": "Snowshoes", "category": "climbing", "isEssential": false, "notes": "Helpful for deep snow on the lower glacier approach"},
+          {"itemName": "Crevasse rescue kit", "category": "climbing", "isEssential": true, "notes": "Heavily crevassed glacier travel on approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "True wilderness mountaineering", "body": "We saw no other parties during our entire two-week trip. The approach across the Lacuna Glacier was beautiful but intimidating with huge crevasses. The ridge itself was straightforward in good conditions. The isolation is both the appeal and the challenge of this route.", "conditions": "Early May, cold and stable weather, firm snow on ridge, significant crevasse hazards on approach glacier"}
+        ]
+      },
+      {
+        "name": "Southeast Ridge (Normal)",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Southeast Ridge normal route is the most commonly attempted line on Mount Foraker, following the broad southeastern ridge from the Kahiltna Glacier. While technically the easiest route on the mountain, it still involves significant glacier travel, crevasse navigation, and sustained snow climbing at altitude. The route typically takes 7-10 days round trip from base camp. Despite being the standard route, Foraker sees far fewer ascents than neighboring Denali, preserving a genuine wilderness experience.",
+        "summary": "The standard route on Mount Foraker offering the most straightforward path to the summit via the southeast ridge.",
+        "distance": 32,
+        "elevationGain": 2650,
+        "estimatedTime": 55,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"avalanche\",\"altitude sickness\",\"storms\",\"extreme cold\"]",
+        "safetyNotes": "Acclimatize thoroughly before pushing above 4000m. The route shares the initial approach with Denali's West Buttress but diverges south. Register with the Talkeetna Ranger Station and carry a satellite phone.",
+        "basecamp": "Kahiltna Glacier Base Camp",
+        "commitment": "IV",
+        "technicalGrade": "AI2",
+        "tips": [
+          {"content": "Establish camps at approximately 3000m, 3700m, and 4400m to allow proper acclimatization before the summit push.", "category": "logistics"},
+          {"content": "The best summit window is typically in the early morning hours when snow is firmest and avalanche risk is lowest.", "category": "timing"},
+          {"content": "Bring a sled for hauling supplies on the lower glacier sections to reduce the number of carries needed.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Mountaineering sled", "category": "camping", "isEssential": false, "notes": "Makes hauling loads on the lower glacier much more efficient"},
+          {"itemName": "Probe and shovel", "category": "climbing", "isEssential": true, "notes": "Essential for crevasse assessment and camp construction"},
+          {"itemName": "Altimeter watch", "category": "navigation", "isEssential": false, "notes": "Useful for tracking elevation and weather trends"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The lonely neighbor of Denali", "body": "Foraker via the standard route is a fantastic expedition objective. We had the entire mountain to ourselves while hundreds of climbers were visible on Denali across the glacier. The route is not technically hard but the altitude and cold are relentless. Highly recommend for experienced mountaineers looking beyond Denali.", "conditions": "Late May, stable weather, well-consolidated snow, moderate crevasse activity on lower glacier"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Hunter",
+    "routes": [
+      {
+        "name": "West Ridge (Normal Route)",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The West Ridge is the standard route on Mount Hunter, following the long western ridge from the upper Kahiltna Glacier. The route involves sustained snow and ice climbing with several steeper steps and exposed ridge traverses. While it is the easiest route on the mountain, Mount Hunter's reputation for severe weather and committing terrain makes this a serious objective. The ridge is long and requires careful camp placement to manage the multi-day ascent.",
+        "summary": "The standard and least technical route on Mount Hunter following the long western ridge from the Kahiltna Glacier.",
+        "distance": 26,
+        "elevationGain": 2100,
+        "estimatedTime": 48,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"avalanche\",\"extreme cold\",\"high winds\"]",
+        "safetyNotes": "Mount Hunter is notorious for rapidly deteriorating weather. Always have a retreat plan and carry extra supplies. The corniced ridge sections require careful routefinding to stay on safe terrain.",
+        "basecamp": "Upper Kahiltna Glacier",
+        "commitment": "IV",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Approach via the Kahiltna Glacier and establish an advanced camp below the ridge before committing to the climb.", "category": "logistics"},
+          {"content": "The corniced sections mid-ridge are best navigated in the early morning when temperatures are coldest and the snow is most stable.", "category": "timing"},
+          {"content": "Hunter gets significantly less traffic than Denali so do not expect a broken trail or fixed lines.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Pickets and flukes", "category": "climbing", "isEssential": true, "notes": "Primary protection on the snow ridge"},
+          {"itemName": "Four-season tent rated for high winds", "category": "camping", "isEssential": true, "notes": "Hunter's exposed camps receive brutal winds"},
+          {"itemName": "Ice tools (technical pair)", "category": "climbing", "isEssential": true, "notes": "Needed for the steeper ice steps on the ridge"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Don't underestimate this route", "body": "The West Ridge looks straightforward on paper but Hunter's weather is something else entirely. We were pinned down for three days at our second camp by a storm that came out of nowhere. When we finally got our window, the climbing was excellent sustained alpine terrain. The summit plateau is surreal.", "conditions": "Mid-May, variable weather with one 3-day storm, firm neve on ridge, heavy cornicing"}
+        ]
+      },
+      {
+        "name": "Moonflower Buttress",
+        "difficulty": "Alaska 6",
+        "gradeSystem": "alaska",
+        "activityType": "ice",
+        "description": "The Moonflower Buttress on Mount Hunter's north face is one of the most coveted and difficult ice routes in the Alaska Range. The route ascends approximately 1500 meters of steep ice, mixed terrain, and thin smears through the center of the imposing north buttress. First climbed by Mugs Stump in 1981 and subsequently freed at high technical grades, the Moonflower demands mastery of steep ice and mixed climbing in a remote big mountain setting. The route is known for its sustained difficulty with little opportunity for rest or easy retreat.",
+        "summary": "World-class 1500m ice and mixed route on Hunter's north face, considered one of the finest alpine climbs on Earth.",
+        "distance": 18,
+        "elevationGain": 1500,
+        "estimatedTime": 36,
+        "season": "spring",
+        "hazards": "[\"icefall\",\"avalanche\",\"extreme cold\",\"rockfall\",\"storms\"]",
+        "safetyNotes": "This route should only be attempted by teams with extensive Alaska Range and steep ice experience. The lower buttress is exposed to serac hazard and should be passed quickly. Retreat from the upper route is extremely difficult.",
+        "basecamp": "Upper Kahiltna Glacier",
+        "commitment": "VI",
+        "technicalGrade": "WI6 M7",
+        "tips": [
+          {"content": "Climb the initial ice apron and lower buttress as quickly as possible to minimize exposure to overhead serac hazard.", "category": "safety"},
+          {"content": "Cold temperatures in early to mid-April typically produce the best ice conditions on the route.", "category": "timing"},
+          {"content": "Simul-climbing moderate sections significantly speeds up the ascent and reduces time exposed to objective hazards.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools (pair)", "category": "climbing", "isEssential": true, "notes": "Aggressive tools essential for WI6 and steep mixed terrain"},
+          {"itemName": "Ice screws (16+)", "category": "climbing", "isEssential": true, "notes": "High screw count needed for the sustained steep ice pitches"},
+          {"itemName": "Lightweight portaledge or bivy hammock", "category": "camping", "isEssential": false, "notes": "Can improve rest quality at hanging bivouac sites on the buttress"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Life-changing climbing on perfect ice", "body": "The Moonflower lived up to every bit of its legendary reputation. We climbed it in a 30-hour push during a cold snap in mid-April. The ice was thick and well-formed, the mixed pitches were pumpy but protectable, and the position on the face is absolutely incredible. The descent over the summit and down the West Ridge added another full day. This is the climb of a lifetime.", "conditions": "Mid-April, excellent ice formation, cold temps around -25C, calm winds on the face"}
+        ]
+      },
+      {
+        "name": "South Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The South Ridge of Mount Hunter provides a long and aesthetic line ascending from the south side of the mountain. The route follows a defined ridge crest with sections of moderate ice, mixed terrain, and exposed knife-edge ridgeline. While less famous than the Moonflower Buttress, the South Ridge is a substantial alpine undertaking with serious commitment and remote character. Access from the south side adds logistical complexity compared to routes originating from the Kahiltna Glacier.",
+        "summary": "Long and aesthetic alpine ridge route on Hunter's southern aspect with sustained moderate technical climbing.",
+        "distance": 28,
+        "elevationGain": 2200,
+        "estimatedTime": 50,
+        "season": "spring",
+        "hazards": "[\"cornices\",\"avalanche\",\"crevasses\",\"storms\",\"remoteness\"]",
+        "safetyNotes": "The knife-edge sections of the ridge require careful assessment of cornice stability. Travel roped with running belays through these sections. The southern approach is less traveled and evacuation is more complicated than from the Kahiltna side.",
+        "basecamp": "South Fork of Kahiltna Glacier",
+        "commitment": "V",
+        "technicalGrade": "AI3+ M3",
+        "tips": [
+          {"content": "Study the ridge profile carefully from the approach to identify cornice hazard zones and plan which side to travel on.", "category": "safety"},
+          {"content": "The ridge is long enough that establishing one or two camps on the ridge itself is typical for most parties.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "60m twin ropes", "category": "climbing", "isEssential": true, "notes": "Twins allow simul-climbing and full-length rappels for retreat"},
+          {"itemName": "Snow saw", "category": "camping", "isEssential": false, "notes": "Useful for cutting tent platforms on the narrow ridge"},
+          {"itemName": "Cordelette and runners", "category": "climbing", "isEssential": true, "notes": "For building anchors on the mixed ridge sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Underrated ridge with incredible exposure", "body": "The South Ridge is a hidden gem on Hunter. We had the entire route to ourselves and the climbing was varied and engaging. The knife-edge sections are breathtaking with huge drops on both sides. Not as technically difficult as the Moonflower but the commitment level is very high.", "conditions": "Early May, stable conditions, firm ridge snow, some thin ice on mixed steps"}
+        ]
+      },
+      {
+        "name": "North Buttress",
+        "difficulty": "Alaska 5",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The North Buttress of Mount Hunter climbs the left side of the spectacular north face, following a prominent buttress feature through steep ice and mixed terrain. The route is less sustained than the Moonflower Buttress but still offers serious and committing climbing on one of the most impressive faces in the Alaska Range. The lower sections involve steep ice couloirs leading to the buttress proper, which is then followed via a mix of snow, ice, and rock to the summit plateau. First ascents of variations on this face have produced some of the most celebrated climbs in North American alpinism.",
+        "summary": "Serious alpine buttress route on Hunter's north face with steep ice and mixed climbing below the Moonflower.",
+        "distance": 20,
+        "elevationGain": 1500,
+        "estimatedTime": 40,
+        "season": "spring",
+        "hazards": "[\"icefall\",\"avalanche\",\"rockfall\",\"extreme cold\",\"serac collapse\"]",
+        "safetyNotes": "The base of the north face is exposed to serac hazard. Time your approach to minimize exposure. The upper buttress has limited retreat options once committed. Ensure solid ice climbing skills to at least WI5 standard.",
+        "basecamp": "Upper Kahiltna Glacier",
+        "commitment": "V",
+        "technicalGrade": "WI5 M5",
+        "tips": [
+          {"content": "Start the approach to the face well before dawn to cross the serac-threatened lower slopes while temperatures are coldest.", "category": "timing"},
+          {"content": "The crux ice pitches in the couloir section benefit from a second tool with aggressive pick geometry.", "category": "general"},
+          {"content": "Descend via the West Ridge rather than reversing the route as downclimbing the steep sections is far more hazardous.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "V-thread tool", "category": "climbing", "isEssential": true, "notes": "Essential for building rappel anchors on the ice sections if retreat is necessary"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall and icefall are constant hazards on the north face"},
+          {"itemName": "Insulated water bottles", "category": "camping", "isEssential": true, "notes": "Hydration is critical and water freezes quickly on the cold north face"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Alaska Range climbing at its finest", "body": "We climbed the North Buttress in a two-day push and it delivered everything we hoped for. Steep ice in the lower couloirs, technical mixed climbing on the buttress crest, and an unforgettable traverse to the summit. The north face of Hunter is one of the most impressive walls I have ever stood beneath.", "conditions": "Late April, cold and clear, excellent ice conditions, minimal rockfall due to cold temps"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Saint Elias",
+    "routes": [
+      {
+        "name": "Normal Route (Abruzzi Ridge)",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Abruzzi Ridge is the standard route on Mount Saint Elias, first climbed by the Duke of the Abruzzi's expedition in 1897. The route follows the southwest ridge from Icy Bay through complex glacier terrain and sustained snow and ice climbing. Mount Saint Elias rises nearly 5500 meters from sea level in just 16 kilometers, creating one of the largest reliefs on Earth and generating notoriously severe weather. The route is more of a major expedition than a technical climb, with logistics and weather being the primary challenges.",
+        "summary": "Historic standard route on the second-highest peak in both the US and Canada, rising from sea level through massive relief.",
+        "distance": 45,
+        "elevationGain": 3500,
+        "estimatedTime": 120,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"avalanche\",\"extreme weather\",\"altitude sickness\",\"icefall\",\"whiteout\"]",
+        "safetyNotes": "Mount Saint Elias receives some of the worst weather in North America due to its proximity to the Gulf of Alaska. Expeditions should plan for extended weather delays and carry supplies accordingly. The remote coastal approach adds significant evacuation challenges.",
+        "basecamp": "Icy Bay or Haydon Col",
+        "commitment": "V",
+        "technicalGrade": "AI2+",
+        "tips": [
+          {"content": "Plan for a minimum 3-week expedition to account for the frequent and prolonged storms that batter this peak.", "category": "timing"},
+          {"content": "Bush plane access to Icy Bay or the upper glaciers requires flexible scheduling as coastal weather cancels flights frequently.", "category": "logistics"},
+          {"content": "Snowshoes or skis are essential for the deep coastal snowpack encountered on the approach and lower route.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Expedition ski or snowshoe setup", "category": "climbing", "isEssential": true, "notes": "Deep coastal snow makes foot travel extremely difficult without flotation"},
+          {"itemName": "Expedition-weight tent", "category": "camping", "isEssential": true, "notes": "Must withstand extreme winds and heavy snowfall common on this peak"},
+          {"itemName": "Satellite phone", "category": "navigation", "isEssential": true, "notes": "Essential for weather forecasts and emergency communication in this remote location"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most remote big peak in North America", "body": "Our expedition to Saint Elias via the Abruzzi Ridge took 22 days including 8 days of storm. The scale of this mountain is hard to convey. Rising from the ocean to over 5400m in such a short distance creates an atmosphere unlike anything else in North America. The climbing itself is not extreme but the logistics, weather, and remoteness make it a true expedition.", "conditions": "June, heavy coastal snowfall for first week, clear window mid-expedition, deep snow throughout"}
+        ]
+      },
+      {
+        "name": "South Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The South Ridge of Mount Saint Elias is a long and committing route that approaches from the south via the Tyndall and associated glaciers. The ridge offers sustained moderate climbing with sections of steeper ice and mixed terrain as it gains the upper mountain. This route sees very few attempts due to its remote access, long approach, and the mountain's fierce weather. The southern aspect does benefit from slightly more stable weather patterns than the fully coastal-exposed west side.",
+        "summary": "Rarely attempted long ridge route on the south side of Saint Elias with complex glacier approach.",
+        "distance": 50,
+        "elevationGain": 3400,
+        "estimatedTime": 130,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"avalanche\",\"extreme weather\",\"remoteness\",\"icefall\"]",
+        "safetyNotes": "This route is exceptionally remote with no realistic evacuation options from the upper mountain. Teams must be fully self-sufficient. The glacier approach involves navigating massive icefall zones that require careful route-finding.",
+        "basecamp": "Tyndall Glacier",
+        "commitment": "V",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Airdrop supplies at a cache point on the Tyndall Glacier to reduce the number of carries on the long approach.", "category": "logistics"},
+          {"content": "The icefall zones on the approach are best navigated in the early morning when temperatures hold the seracs together.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Crevasse rescue pulley system", "category": "climbing", "isEssential": true, "notes": "The glacier approach has extensive crevasse fields requiring self-rescue capability"},
+          {"itemName": "Solar panel charger", "category": "navigation", "isEssential": false, "notes": "Long expedition duration means battery resupply for communication devices is important"},
+          {"itemName": "Expedition sled", "category": "camping", "isEssential": true, "notes": "Hauling weeks of supplies across the glacier approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "True expedition mountaineering in complete wilderness", "body": "We were the only team on the entire south side of Saint Elias for our 25-day expedition. The glacier approach alone took four days of complex route-finding through icefall. The ridge climbing was moderate but the scale and isolation are overwhelming. Not many mountains in the world offer this level of wilderness experience at this altitude.", "conditions": "Late May, mixed weather, deep snow on approach, firm conditions on upper ridge"}
+        ]
+      },
+      {
+        "name": "North Ridge",
+        "difficulty": "Alaska 5",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The North Ridge of Mount Saint Elias is a formidable and rarely attempted line ascending from the Canadian side through the vast icefields of Kluane National Park. The route follows the long northern ridgeline with sections of steep ice, mixed terrain, and heavily corniced ridge. Access typically requires a lengthy glacier approach from the north, often supported by bush plane landing on the upper Hubbard or Seward glaciers. This is one of the most committing routes on any peak in North America due to the combination of technical difficulty, extreme remoteness, and severe weather.",
+        "summary": "Formidable and rarely climbed ridge on the Canadian north side of Saint Elias through vast icefields.",
+        "distance": 55,
+        "elevationGain": 3600,
+        "estimatedTime": 144,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"extreme weather\",\"avalanche\",\"remoteness\",\"altitude sickness\"]",
+        "safetyNotes": "This route requires permits from both US and Canadian park authorities. The approach through Kluane National Park is vast and requires navigation through complex glacier systems. Self-rescue is the only option on most of this route.",
+        "basecamp": "Upper Seward Glacier",
+        "commitment": "VI",
+        "technicalGrade": "AI4 M4",
+        "tips": [
+          {"content": "Obtain permits from both Parks Canada (Kluane) and the US National Park Service well in advance as both have limited expedition permits.", "category": "logistics"},
+          {"content": "Study satellite imagery of the glacier approach extensively before the trip as the icefall sections change year to year.", "category": "safety"},
+          {"content": "Budget a full month for this expedition to account for the long approach and inevitable weather delays.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Expedition-rated double boots", "category": "climbing", "isEssential": true, "notes": "Extended time at high altitude in extreme cold demands the warmest available footwear"},
+          {"itemName": "Snow stakes and deadman anchors", "category": "climbing", "isEssential": true, "notes": "Protection on the broad snow and ice ridge sections"},
+          {"itemName": "Fuel bottles (extra capacity)", "category": "camping", "isEssential": true, "notes": "Melting snow for water at high camps consumes large amounts of fuel over a month-long expedition"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The ultimate North American expedition", "body": "The North Ridge of Saint Elias is about as committing as it gets on this continent. Our team of four spent 28 days on the mountain including the approach. The icefield crossing from the north is staggeringly beautiful and the ridge itself is sustained and serious. We summited on our only weather window after waiting five days at high camp. An experience I will never forget.", "conditions": "May to June, deep snow on approach, mixed conditions on ridge, one clear summit day in 28"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Bona",
+    "routes": [
+      {
+        "name": "Normal Route (East Ridge from Russell Glacier)",
+        "difficulty": "Alaska 2",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The East Ridge from the Russell Glacier is the standard and essentially only practical route on Mount Bona, the sixth highest peak in North America. The route follows the broad east ridge from a bush plane landing on the Russell Glacier at approximately 2700m. The climbing is non-technical, consisting primarily of moderate glacier travel and snow slopes, but the altitude, remoteness, and severe cold make this a serious expedition objective. Mount Bona is one of the coldest mountains in the world due to its high latitude and position in the Saint Elias Range.",
+        "summary": "The standard non-technical glacier route on Mount Bona, notable for extreme cold and remote Saint Elias Range setting.",
+        "distance": 30,
+        "elevationGain": 2350,
+        "estimatedTime": 50,
+        "season": "spring",
+        "hazards": "[\"extreme cold\",\"crevasses\",\"altitude sickness\",\"whiteout\",\"storms\"]",
+        "safetyNotes": "Temperatures on Mount Bona can drop below -40C even in spring. Frostbite risk is extreme. All equipment must be expedition-rated for extreme cold. The bush plane landing on Russell Glacier is weather-dependent and can be delayed for days.",
+        "basecamp": "Russell Glacier (2700m)",
+        "commitment": "III",
+        "technicalGrade": "AI1+",
+        "tips": [
+          {"content": "Focus gear selection on extreme cold protection as this is one of the coldest mountains in North America at any time of year.", "category": "general"},
+          {"content": "The bush plane from Gulkana or Chitina requires flexible scheduling and pilots experienced with glacier landings in the Saint Elias Range.", "category": "logistics"},
+          {"content": "Consider combining Mount Bona with nearby Mount Churchill as the two peaks share a saddle and can be climbed in a single expedition.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Vapor barrier liner system", "category": "camping", "isEssential": false, "notes": "Helps manage moisture in extreme cold and extends sleeping bag effectiveness"},
+          {"itemName": "Face mask and goggles", "category": "climbing", "isEssential": true, "notes": "Full face protection essential against extreme cold and wind"},
+          {"itemName": "Expedition double boots with overboots", "category": "climbing", "isEssential": true, "notes": "Standard mountaineering boots are insufficient for the extreme cold encountered here"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Cold, remote, and surprisingly challenging", "body": "Mount Bona is not technically difficult but it is a real expedition. The cold was the biggest challenge, with temperatures well below -30C at our high camp. The Russell Glacier approach is straightforward but the crevasses are large and numerous. Visibility was poor for most of our trip making navigation tedious. A good stepping stone to bigger Saint Elias objectives.", "conditions": "Late May, extremely cold, poor visibility most days, firm but crevassed glacier"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Blackburn",
+    "routes": [
+      {
+        "name": "Normal Route (North Ridge)",
+        "difficulty": "Alaska 2",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The North Ridge is the standard route on Mount Blackburn, the highest peak in the Wrangell Mountains. The route approaches from the Nabesna Glacier on the north side, ascending moderate snow and ice slopes to gain the broad north ridge which is followed to the summit. While not technically demanding, the route involves significant crevasse hazards, potential for extreme weather, and the isolation of the Wrangell Mountains. Bush plane access to the Nabesna Glacier is the typical approach, though some parties drive to the Nabesna Road and approach on foot, adding several days.",
+        "summary": "Standard glacier route on the highest Wrangell peak via the broad north ridge from Nabesna Glacier.",
+        "distance": 34,
+        "elevationGain": 2800,
+        "estimatedTime": 55,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"avalanche\",\"extreme cold\",\"whiteout\",\"remoteness\"]",
+        "safetyNotes": "The Wrangell Mountains receive less attention than the Alaska Range and rescue resources are limited. Carry full self-rescue gear and a satellite communication device. The lower glacier has significant icefall that must be carefully navigated.",
+        "basecamp": "Nabesna Glacier",
+        "commitment": "IV",
+        "technicalGrade": "AI2",
+        "tips": [
+          {"content": "The Nabesna Road approach saves the cost of a bush plane but adds 3-4 days of glacier travel each way.", "category": "logistics"},
+          {"content": "Be prepared for significant icefall navigation on the lower Nabesna Glacier, which requires careful route-finding that changes annually.", "category": "safety"},
+          {"content": "Spring conditions from mid-April to late May offer the most reliable weather and snow conditions.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Wands (at least 50)", "category": "navigation", "isEssential": true, "notes": "The broad glacier and ridge terrain is featureless in whiteout conditions"},
+          {"itemName": "Crevasse rescue equipment", "category": "climbing", "isEssential": true, "notes": "The Nabesna Glacier is heavily crevassed particularly in the icefall zone"},
+          {"itemName": "Bear canister", "category": "camping", "isEssential": true, "notes": "Bears are active in the Wrangell Mountains even at glacier elevations"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Wild and remote Wrangell giant", "body": "Mount Blackburn is a fantastic expedition peak. We flew into the Nabesna Glacier and spent 10 days on the mountain. The north ridge is straightforward but the icefall on the lower glacier kept us on our toes. We had three days of clear weather for our summit push and the views from the top across the Wrangell volcanic landscape are stunning. A great alternative to the crowded Alaska Range peaks.", "conditions": "Mid-May, cold and clear summit window, significant crevasse activity, firm snow on upper ridge"}
+        ]
+      },
+      {
+        "name": "Southeast Ridge",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Southeast Ridge of Mount Blackburn is a less frequently climbed alternative to the standard north ridge, approaching from the Kennicott Glacier side near the historic mining town of McCarthy. The route follows the long southeast ridge with moderate ice and mixed sections and several prominent steps that require more technical climbing than the normal route. The approach from the Kennicott side is scenic, passing near the abandoned Kennecott copper mines. This route offers a more challenging and scenic alternative with a richer historical setting.",
+        "summary": "Scenic and moderately technical ridge route approaching from the historic Kennicott Glacier side.",
+        "distance": 38,
+        "elevationGain": 3000,
+        "estimatedTime": 65,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"avalanche\",\"rockfall\",\"remoteness\"]",
+        "safetyNotes": "The ridge steps involve steeper climbing than the normal route and require competent alpine skills. The Kennicott Glacier approach has significant crevasse fields. Register your trip with the Wrangell-St. Elias National Park visitor center in McCarthy.",
+        "basecamp": "Kennicott Glacier",
+        "commitment": "IV",
+        "technicalGrade": "AI3 M2",
+        "tips": [
+          {"content": "McCarthy is accessible by road and offers services that can simplify expedition logistics compared to bush plane approaches.", "category": "logistics"},
+          {"content": "The prominent rock steps on the ridge are best tackled on the left side where mixed terrain provides better climbing and protection.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Light rock rack (small cams and nuts)", "category": "climbing", "isEssential": true, "notes": "Needed for protection on the rock steps along the ridge"},
+          {"itemName": "Crampons with front points", "category": "climbing", "isEssential": true, "notes": "Steeper ice sections on the ridge steps demand aggressive crampon technique"},
+          {"itemName": "Map and compass", "category": "navigation", "isEssential": true, "notes": "GPS may be unreliable and the ridge has complex terrain requiring good navigation"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A wonderful ridge with rich history below", "body": "Starting from McCarthy and passing the old Kennecott mines adds an amazing historical dimension to this climb. The southeast ridge is more engaging than the normal route with several challenging steps that required real climbing. The position on the ridge with views down to the Kennicott Glacier is spectacular. Highly recommend for teams wanting more than just a slog.", "conditions": "Late May, good weather, mixed conditions on ridge steps, stable snow on upper mountain"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Sanford",
+    "routes": [
+      {
+        "name": "Normal Route (North Route from Sheep Glacier)",
+        "difficulty": "Alaska 2",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The North Route from the Sheep Glacier is the standard route on Mount Sanford, the third highest volcano in the Wrangell range. The route begins with a bush plane landing on the Sheep Glacier on the north side of the mountain and follows moderate snow slopes and glacier terrain to the broad summit plateau. Mount Sanford is a massive shield volcano and the climbing is non-technical but the altitude, distance, and extreme cold are significant challenges. The summit plateau is vast and featureless, making navigation in poor visibility extremely difficult.",
+        "summary": "Standard non-technical glacier route on the massive Wrangell shield volcano via the Sheep Glacier.",
+        "distance": 28,
+        "elevationGain": 2400,
+        "estimatedTime": 45,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"whiteout\",\"extreme cold\",\"altitude sickness\",\"storms\"]",
+        "safetyNotes": "The summit plateau is exceptionally dangerous in whiteout conditions due to its vast featureless expanse with hidden crevasses. Do not attempt the summit without confident navigation equipment and skills. The volcanic terrain has unstable snow bridges over steam vents near the summit.",
+        "basecamp": "Sheep Glacier",
+        "commitment": "III",
+        "technicalGrade": "AI1",
+        "tips": [
+          {"content": "Wand the route extensively on the upper plateau as losing your track in whiteout conditions is extremely dangerous with crevasses hidden beneath the featureless snow.", "category": "safety"},
+          {"content": "Some parties approach from the Nabesna Road on foot to avoid bush plane costs but this adds several days of travel.", "category": "logistics"},
+          {"content": "Be aware of volcanic steam vents near the summit that can create weak snow bridges and hidden holes.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "GPS with extra batteries", "category": "navigation", "isEssential": true, "notes": "Absolutely critical for navigation on the featureless summit plateau"},
+          {"itemName": "Wands (60+ minimum)", "category": "navigation", "isEssential": true, "notes": "The broad plateau requires extensive wanding for safe descent in poor visibility"},
+          {"itemName": "Insulated overboots", "category": "climbing", "isEssential": false, "notes": "Adds crucial warmth for the extreme cold encountered on the upper mountain"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "A battle against the elements on a massive volcano", "body": "Mount Sanford is not technically difficult but the weather and cold make it a genuine challenge. We spent two days in whiteout on the summit plateau relying entirely on GPS and wands to navigate. The volcanic steam vents near the summit are eerie and add an unusual hazard. A good expedition for building experience before tackling more technical Alaskan objectives.", "conditions": "Late May, mixed weather, heavy whiteout on summit days, extremely cold above 4000m"}
+        ]
+      },
+      {
+        "name": "West Face",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The West Face of Mount Sanford is a seldom-climbed route that ascends the steep western aspect of the volcano. Unlike the gentle slopes of the normal route, the west face presents moderate ice and mixed terrain on the volcanic rock and ice. The route is shorter and more direct than the standard route but involves steeper climbing and more objective hazards including rockfall from the volcanic cliffs. Access is typically from the west side of the mountain requiring a different bush plane landing zone.",
+        "summary": "Steeper and more direct route up Sanford's western volcanic face with moderate ice and mixed climbing.",
+        "distance": 22,
+        "elevationGain": 2200,
+        "estimatedTime": 40,
+        "season": "spring",
+        "hazards": "[\"rockfall\",\"icefall\",\"avalanche\",\"volcanic terrain\",\"extreme cold\"]",
+        "safetyNotes": "The volcanic rock on the west face is loose and unstable. Helmets are mandatory and parties should climb in close formation to avoid knocking debris onto each other. The volcanic terrain creates unusual hazards including sulfur gas near vents.",
+        "basecamp": "West side glacier camp",
+        "commitment": "IV",
+        "technicalGrade": "AI3 M2",
+        "tips": [
+          {"content": "Climb early in the day when freeze-thaw cycles keep the loose volcanic rock more firmly in place.", "category": "timing"},
+          {"content": "The loose volcanic rock makes traditional protection unreliable so ice screws in the intervening ice sections provide the most trustworthy anchors.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Mountaineering helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory due to rockfall from loose volcanic terrain"},
+          {"itemName": "Ice screws (8-10)", "category": "climbing", "isEssential": true, "notes": "Primary reliable protection on the face as rock is too loose for cams"},
+          {"itemName": "Gaiters and debris guards", "category": "climbing", "isEssential": true, "notes": "Volcanic grit and debris require extra protection for boots and lower legs"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "An unusual climb on volcanic terrain", "body": "The west face of Sanford is a unique climb. The combination of ice climbing and rotten volcanic rock is not something you encounter on most peaks. The route is more interesting than the standard slog up the north side but the loose rock is genuinely unnerving. We wore helmets the entire time and still had some close calls with falling debris. Interesting for those seeking something different.", "conditions": "Mid-May, cold mornings stabilized the rock, moderate ice on the face, clear weather"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Fairweather",
+    "routes": [
+      {
+        "name": "Normal Route (Carpe Route/South Ridge)",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The Carpe Route via the South Ridge is the standard route on Mount Fairweather, the highest peak in British Columbia and one of the most weather-beaten mountains in the world. First climbed by Allen Carpe and Terris Moore in 1931, the route ascends from the Grand Plateau on the south side via sustained snow and ice slopes. Mount Fairweather sits directly on the coast and receives extreme precipitation and storms from the Gulf of Alaska. The mountain has one of the lowest success rates of any major peak due to its atrocious weather, with many expeditions never getting a summit window.",
+        "summary": "Historic standard route on the notoriously weather-battered coastal peak via the south ridge from Grand Plateau.",
+        "distance": 30,
+        "elevationGain": 2800,
+        "estimatedTime": 60,
+        "season": "spring",
+        "hazards": "[\"extreme weather\",\"avalanche\",\"crevasses\",\"whiteout\",\"icefall\",\"coastal storms\"]",
+        "safetyNotes": "Mount Fairweather receives some of the worst weather of any mountain in North America. Expeditions should plan for extended storm cycles and carry at least 7-10 extra days of food and fuel beyond the planned itinerary. The coastal snow is extremely heavy and deep, creating severe avalanche conditions.",
+        "basecamp": "Grand Plateau",
+        "commitment": "IV",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Be prepared to wait extended periods for a weather window. Many successful parties have waited 10+ days at camp for a break in the storms.", "category": "timing"},
+          {"content": "Access to the Grand Plateau typically requires a bush plane from Yakutat, Alaska, which itself is weather-dependent.", "category": "logistics"},
+          {"content": "The coastal snowpack is extremely deep and heavy. Avalanche assessment skills are critical as the snow behaves differently from inland ranges.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Skis with climbing skins", "category": "climbing", "isEssential": true, "notes": "The deep coastal snow makes ski travel almost mandatory for efficient movement"},
+          {"itemName": "Bombproof tent system", "category": "camping", "isEssential": true, "notes": "Must withstand days of sustained high winds and heavy snowfall"},
+          {"itemName": "Extra fuel canisters (7+ days surplus)", "category": "camping", "isEssential": true, "notes": "Extended storm delays are the norm rather than the exception"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Patience rewarded on the stormiest peak in North America", "body": "We waited 12 days at our camp on the Grand Plateau before getting a 36-hour window to summit. The climbing itself is moderate but moving through chest-deep coastal snow in deteriorating visibility was exhausting. When the clouds parted on summit day the view of the ocean far below and the icefields stretching to the horizon was one of the most dramatic mountain scenes I have ever witnessed. Fairweather earns its ironic name.", "conditions": "June, 12 days of storm followed by 36-hour clear window, very deep snow throughout"}
+        ]
+      },
+      {
+        "name": "West Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The West Ridge of Mount Fairweather is a rarely attempted line that approaches from the western glaciers closer to the coast. The ridge involves more technical climbing than the standard south ridge route with sections of steeper ice and exposed corniced ridgeline. The western approach is even more exposed to coastal weather systems than the south side, making weather delays practically guaranteed. Very few parties have successfully climbed this route due to the extreme logistical challenges and relentless weather.",
+        "summary": "Rarely climbed technical ridge route on Fairweather's west side with maximum exposure to coastal storms.",
+        "distance": 32,
+        "elevationGain": 3000,
+        "estimatedTime": 70,
+        "season": "spring",
+        "hazards": "[\"extreme weather\",\"cornices\",\"avalanche\",\"crevasses\",\"icefall\",\"remoteness\"]",
+        "safetyNotes": "This route is for expert expeditions only. The western exposure means direct hits from Pacific storms with minimal shelter. Cornices on the upper ridge are enormous due to prevailing westerly winds. Retreat from the upper ridge in storm conditions is extremely dangerous.",
+        "basecamp": "Western glacier camp",
+        "commitment": "V",
+        "technicalGrade": "AI4",
+        "tips": [
+          {"content": "Study long-range Pacific weather models extensively and time your attempt for the most stable synoptic pattern available.", "category": "timing"},
+          {"content": "Build substantial snow walls around all camps as wind exposure on the west side is brutal and sustained.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Snow saw", "category": "camping", "isEssential": true, "notes": "Essential for cutting blocks to build protective snow walls around camps"},
+          {"itemName": "Expedition ski setup with steel edges", "category": "climbing", "isEssential": true, "notes": "Steel-edged skis handle the icy coastal conditions and wind crust better"},
+          {"itemName": "Storm goggles (multiple pairs)", "category": "climbing", "isEssential": true, "notes": "Coastal storms with wind-driven ice particles destroy goggles quickly"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "An epic battle with the elements", "body": "The West Ridge of Fairweather is mountaineering in its purest and most humbling form. We attempted over three weeks and only reached the summit by the skin of our teeth during a brief clearing. The cornices on the west ridge are the largest I have ever seen, built by weeks of unrelenting westerly wind. This route is about mental resilience as much as climbing skill.", "conditions": "Late May, continuous storms with one brief window, enormous cornices, very deep snow"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Logan",
+    "routes": [
+      {
+        "name": "King Trench Route (Normal)",
+        "difficulty": "Alaska 3",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The King Trench Route is the standard route on Mount Logan, the highest peak in Canada and second highest in North America. The route follows the King Trench, a broad glaciated valley on the west side of the mountain, to gain the vast summit plateau. The climbing is technically straightforward but the route is extremely long, the altitude is significant, and the weather on Logan is notoriously harsh. The summit plateau is the largest of any mountain on Earth, and parties must navigate across several kilometers of featureless terrain above 5000m to reach the true summit. Most expeditions take 2-3 weeks.",
+        "summary": "Standard route on Canada's highest peak following the King Trench to the vast summit plateau.",
+        "distance": 55,
+        "elevationGain": 3500,
+        "estimatedTime": 168,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"extreme cold\",\"altitude sickness\",\"whiteout\",\"storms\",\"avalanche\"]",
+        "safetyNotes": "Mount Logan's summit plateau is one of the most dangerous places in North America for whiteout navigation due to its enormous size and hidden crevasses. The altitude exceeds 5900m which is significant enough for serious altitude illness. Register with Parks Canada and carry a satellite communication device.",
+        "basecamp": "King Trench Base Camp (Quintino Sella Glacier)",
+        "commitment": "IV",
+        "technicalGrade": "AI2",
+        "tips": [
+          {"content": "Acclimatize thoroughly by making carries between camps rather than pushing straight through. Plan for at least 14 days one way.", "category": "logistics"},
+          {"content": "The summit plateau is vast and disorienting. Use GPS waypoints every 100 meters and wand the entire traverse to ensure a safe return.", "category": "safety"},
+          {"content": "Bush plane access from Kluane Lake is the standard approach. Book with operators experienced in glacier landings well in advance.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Mountaineering sled", "category": "camping", "isEssential": true, "notes": "Essential for hauling the large amount of supplies needed for the 2-3 week expedition"},
+          {"itemName": "Expedition sleeping bag (-40C rated)", "category": "camping", "isEssential": true, "notes": "High camp temperatures regularly drop below -30C"},
+          {"itemName": "Ski or snowshoe setup", "category": "climbing", "isEssential": true, "notes": "Deep snow in the trench and on the plateau makes flotation essential"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The biggest mountain experience in North America", "body": "Mount Logan via the King Trench is not technically hard but it is absolutely massive. We spent 18 days on the mountain and covered enormous distances. The summit plateau is like being on another planet, a vast white expanse at nearly 6000m with no features visible in any direction. The cold at high camp was ferocious. This is expedition mountaineering at its most elemental: you versus distance, cold, and altitude.", "conditions": "May to June, mixed weather, extreme cold at high camps, deep snow in the trench, whiteout on plateau"}
+        ]
+      },
+      {
+        "name": "East Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The East Ridge of Mount Logan is a long and committing route that follows the massive eastern ridge from the Logan Glacier. The route is significantly more technical than the King Trench with sustained sections of moderate ice and mixed climbing interspersed with broad glacier travel. The east ridge is one of the longest ridgelines on any mountain in North America and demands excellent fitness and patience. The route sees far fewer ascents than the King Trench and retains a genuine wilderness character.",
+        "summary": "Long and committing ridge traverse on Logan's eastern aspect with sustained moderate alpine terrain.",
+        "distance": 60,
+        "elevationGain": 3700,
+        "estimatedTime": 192,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"extreme cold\",\"altitude sickness\",\"storms\",\"remoteness\"]",
+        "safetyNotes": "The East Ridge is extremely long and retreat from the upper sections requires traversing back along many kilometers of exposed ridge. Carry extra supplies and plan conservatively. The remote approach adds evacuation complexity compared to the King Trench.",
+        "basecamp": "Logan Glacier",
+        "commitment": "V",
+        "technicalGrade": "AI3",
+        "tips": [
+          {"content": "Cache supplies at multiple points along the ridge to reduce pack weight on the technical sections.", "category": "logistics"},
+          {"content": "Budget a minimum of three weeks for this route and carry supplies for four to account for weather delays on the ridge.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Ultra-lightweight camp kit", "category": "camping", "isEssential": true, "notes": "Weight savings are critical on the extended ridge traverse"},
+          {"itemName": "Snow pickets and ice screws", "category": "climbing", "isEssential": true, "notes": "Mixed protection needed for the varied terrain along the ridge"},
+          {"itemName": "Expedition down suit", "category": "camping", "isEssential": false, "notes": "A down suit saves weight over separate jacket and pants at the high camps above 5000m"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "An unforgettable traverse of Logan's eastern spine", "body": "The East Ridge is a true expedition within an expedition. We spent 22 days on the route and every day brought new challenges. The ridge is incredibly long and the exposure at the higher elevations is remarkable. Unlike the King Trench this route feels wild and uncommitted throughout. Reaching the summit after weeks on the ridge was one of the most satisfying moments of my climbing career.", "conditions": "Late May to mid-June, variable weather, firm conditions on ridge, deep snow on plateau"}
+        ]
+      },
+      {
+        "name": "Hummingbird Ridge",
+        "difficulty": "Alaska 6",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "Hummingbird Ridge is one of the most legendary and difficult routes on Mount Logan, following the striking south ridge from the Seward Glacier. First climbed in 1965 by a Canadian team, the route involves extremely sustained technical terrain over an enormous vertical and horizontal distance. The ridge features steep ice, mixed rock and ice, knife-edge corniced sections, and complex route-finding through seracs and crevasses. This route has seen very few repeats and represents one of the most committing alpine objectives in North America.",
+        "summary": "Legendary and rarely repeated extreme ridge route on Logan's south side, one of North America's hardest alpine climbs.",
+        "distance": 50,
+        "elevationGain": 3800,
+        "estimatedTime": 240,
+        "season": "spring",
+        "hazards": "[\"extreme technical terrain\",\"cornices\",\"avalanche\",\"serac collapse\",\"extreme cold\",\"altitude sickness\",\"remoteness\"]",
+        "safetyNotes": "This route is for world-class alpinists only. The commitment level is extreme with essentially no retreat options from the upper ridge. Teams must be prepared for complete self-sufficiency for up to four weeks in highly technical terrain. Multiple parties have been forced into epic retreats from this route.",
+        "basecamp": "Seward Glacier",
+        "commitment": "VI",
+        "technicalGrade": "AI5 M5",
+        "tips": [
+          {"content": "Study all available beta from previous attempts and successes as route-finding decisions on the ridge are critical and hard to reverse.", "category": "general"},
+          {"content": "The lower ridge has several serac bands that require careful timing and quick passage to minimize exposure.", "category": "safety"},
+          {"content": "Be prepared to spend up to four weeks above the base of the ridge with no resupply or retreat options.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Full double rack of ice screws and pitons", "category": "climbing", "isEssential": true, "notes": "The sustained technical terrain demands comprehensive protection for weeks of climbing"},
+          {"itemName": "Lightweight portaledge system", "category": "camping", "isEssential": false, "notes": "Bivy ledges are scarce on the ridge and a portaledge can provide critical rest"},
+          {"itemName": "Repair kit for all equipment", "category": "camping", "isEssential": true, "notes": "Equipment must survive weeks of use in extreme conditions with no possibility of replacement"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most committing climb of my life", "body": "Hummingbird Ridge tested every ounce of our skill and determination over 26 days on the route. The technical climbing is sustained and relentless, the ridge seems to go on forever, and the scale of the mountain below and above you is almost incomprehensible. Every pitch requires full concentration. Standing on the summit after nearly a month on the ridge was an overwhelming experience. This route defined my understanding of commitment in the mountains.", "conditions": "May to June, variable weather, good ice conditions, enormous cornices on upper ridge"}
+        ]
+      },
+      {
+        "name": "South-Southwest Ridge",
+        "difficulty": "Alaska 4",
+        "gradeSystem": "alaska",
+        "activityType": "alpine",
+        "description": "The South-Southwest Ridge is a major route on Mount Logan that approaches from the south side and follows one of the many massive ridges radiating from the summit plateau. The route involves sustained glacier travel, moderate to steep ice climbing, and long sections of corniced ridge. It is less technically demanding than Hummingbird Ridge but still represents a major expedition due to the enormous scale of the mountain and the remoteness of the southern approach. The route provides a challenging alternative to the King Trench for experienced expedition climbers.",
+        "summary": "Major expedition ridge route on Logan's south side offering a challenging alternative to the standard King Trench.",
+        "distance": 55,
+        "elevationGain": 3600,
+        "estimatedTime": 180,
+        "season": "spring",
+        "hazards": "[\"crevasses\",\"cornices\",\"avalanche\",\"extreme cold\",\"altitude sickness\",\"remoteness\"]",
+        "safetyNotes": "The southern approach to Logan is remote and evacuation is extremely difficult. The ridge has extensive cornice development and avalanche-prone slopes on both flanks. Ensure your team has strong route-finding and snow assessment skills.",
+        "basecamp": "South side glacier camp",
+        "commitment": "V",
+        "technicalGrade": "AI3+",
+        "tips": [
+          {"content": "Access from the south side typically requires a bush plane landing on the Seward or Hubbard glaciers, which are weather-dependent and logistically complex.", "category": "logistics"},
+          {"content": "The corniced sections on the upper ridge are best traversed on the windward side, staying well back from cornice fracture lines.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "120m of rope (two 60m)", "category": "climbing", "isEssential": true, "notes": "Full-length ropes needed for the long ridge sections and potential rappel retreats"},
+          {"itemName": "Avalanche transceiver, probe, and shovel", "category": "climbing", "isEssential": true, "notes": "Avalanche-prone slopes on both sides of the ridge require full rescue equipment"},
+          {"itemName": "High-altitude stove system", "category": "camping", "isEssential": true, "notes": "A reliable stove is critical at the high camps where melting snow is the only water source"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A grand and serious route on a grand mountain", "body": "The South-Southwest Ridge gave us three weeks of excellent expedition climbing on Logan. The approach from the south is spectacular and remote, the ridge climbing is sustained and engaging, and the scale of the mountain never ceases to amaze. We were completely self-sufficient for the entire trip. This is what expedition mountaineering is about.", "conditions": "May to June, cold and mostly stable, firm snow on ridge, some soft snow on south-facing slopes"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Robson",
+    "routes": [
+      {
+        "name": "Kain Face (Normal Route)",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "The Kain Face is the standard route on Mount Robson, the highest peak in the Canadian Rockies. Named after guide Conrad Kain who made the first ascent in 1913, the route ascends a steep ice and snow face on the south side of the mountain from the Robson Glacier. The face is typically 45-55 degrees and about 800 meters in height. Mount Robson is infamous for its terrible weather and the Kain Face is exposed to constant spindrift and wind. Despite being the easiest route, the success rate is extremely low due to weather and conditions.",
+        "summary": "Classic steep ice face route on the highest Canadian Rockies peak, notorious for poor weather and low success rates.",
+        "distance": 22,
+        "elevationGain": 2100,
+        "estimatedTime": 18,
+        "season": "summer",
+        "hazards": "[\"avalanche\",\"icefall\",\"rockfall\",\"rapid weather changes\",\"crevasses\"]",
+        "safetyNotes": "Mount Robson has one of the lowest success rates of any major North American peak due to weather. Be prepared to make multiple attempts and do not force a summit bid in marginal conditions. The face is exposed to serac fall from above and avalanche danger is persistent.",
+        "basecamp": "Robson Glacier camp (Ralph Forster Hut area)",
+        "commitment": "IV",
+        "technicalGrade": "WI3+",
+        "tips": [
+          {"content": "Start the Kain Face well before dawn, ideally by 1-2 AM, to climb the face while it is frozen and before the sun loosens ice and rock above.", "category": "timing"},
+          {"content": "The approach via the Berg Lake trail is scenic but long. Allow a full day for the approach hike to base camp.", "category": "logistics"},
+          {"content": "Monitor weather obsessively and be prepared to wait days for a window. Robson makes its own weather and conditions can change within hours.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools", "category": "climbing", "isEssential": true, "notes": "The sustained 45-55 degree ice requires aggressive tools for secure placements"},
+          {"itemName": "Ice screws (12+)", "category": "climbing", "isEssential": true, "notes": "Running belays and belayed pitches on the face require ample screw supply"},
+          {"itemName": "Lightweight bivy gear", "category": "camping", "isEssential": false, "notes": "An emergency bivy kit is prudent in case weather traps you on the upper mountain"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The monarch of the Rockies earned its reputation", "body": "It took us three attempts over two seasons to summit Robson via the Kain Face. The first two times we were shut down by weather within hours of starting. On our successful attempt we left camp at midnight and climbed the face in excellent frozen conditions. The ice was firm and consistent, the views from the summit were breathtaking. This mountain will test your patience and determination more than your technical skills.", "conditions": "August, rare clear window, firm well-frozen ice, calm winds on summit day"}
+        ]
+      },
+      {
+        "name": "Emperor Ridge",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The Emperor Ridge is one of the most celebrated and difficult routes in the Canadian Rockies, traversing the long and exposed northeast ridge of Mount Robson. The route involves sustained knife-edge ridge climbing over corniced snow, ice, and mixed terrain with enormous exposure on both sides. First climbed in 1961, the Emperor Ridge demands a high level of alpine skill and commitment as the ridge is long and retreat is difficult once committed. Combined with Robson's notoriously bad weather, this is one of the most serious undertakings in the range.",
+        "summary": "Celebrated and committing knife-edge ridge traverse on Robson's northeast side, one of the hardest routes in the Rockies.",
+        "distance": 20,
+        "elevationGain": 2200,
+        "estimatedTime": 24,
+        "season": "summer",
+        "hazards": "[\"cornices\",\"avalanche\",\"extreme exposure\",\"rockfall\",\"rapid weather changes\"]",
+        "safetyNotes": "The Emperor Ridge has no easy retreat once committed to the upper sections. The cornices can be massive and unpredictable. This route should only be attempted by expert alpinists with extensive ridge climbing experience. A long weather window of at least 2 clear days is essential.",
+        "basecamp": "Berg Lake area",
+        "commitment": "V",
+        "technicalGrade": "WI4 M5",
+        "tips": [
+          {"content": "The approach to the base of the ridge from Berg Lake requires crossing the Berg Glacier which has significant crevasse hazards early in the season.", "category": "safety"},
+          {"content": "Moving fast and light is essential as the ridge is too long and exposed for comfortable bivouacs. Aim to complete the ridge in a single long push.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Light alpine rack (small cams, pitons, screws)", "category": "climbing", "isEssential": true, "notes": "Mixed terrain on the ridge requires versatile protection"},
+          {"itemName": "30m tagline", "category": "climbing", "isEssential": false, "notes": "Useful for short rappels off corniced sections and for retreat if needed"},
+          {"itemName": "Emergency bivy sack", "category": "camping", "isEssential": true, "notes": "Critical if weather forces an unplanned stop on the exposed ridge"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The finest ridge climb in the Canadian Rockies", "body": "The Emperor Ridge is everything it is made out to be. We climbed it in a 20-hour push during a rare two-day weather window. The knife-edge sections are breathtaking with thousands of feet of exposure on either side. The mixed climbing is sustained and the cornices keep you constantly vigilant. Arriving on the summit as the sun set behind the Columbia Icefield was a moment of pure alpine magic.", "conditions": "Late July, clear and cold, stable cornices, excellent mixed conditions"}
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "The North Face of Mount Robson is a massive and intimidating wall of ice, snow, and rock rising over 2000 meters above Berg Lake. The route ascends directly through the center of the face via steep ice couloirs, mixed bands, and hanging glaciers. The face is heavily threatened by serac collapse and icefall, making timing and speed critical. This is one of the most serious face climbs in the Canadian Rockies and has seen very few ascents due to the extreme objective hazards and Robson's terrible weather.",
+        "summary": "Massive and serious ice face route directly above Berg Lake, heavily threatened by seracs and icefall.",
+        "distance": 16,
+        "elevationGain": 2000,
+        "estimatedTime": 20,
+        "season": "summer",
+        "hazards": "[\"serac collapse\",\"icefall\",\"avalanche\",\"rockfall\",\"extreme weather\"]",
+        "safetyNotes": "This route has significant objective hazards that cannot be eliminated. The hanging glaciers above the face release ice unpredictably. Climb only in cold, stable conditions and move as quickly as possible through the threatened zones. This route has claimed lives.",
+        "basecamp": "Berg Lake camp",
+        "commitment": "V",
+        "technicalGrade": "WI5 M4",
+        "tips": [
+          {"content": "Cold overnight temperatures are essential to minimize serac activity. Do not start the route if temperatures are above freezing.", "category": "timing"},
+          {"content": "Climb the face in one continuous push to minimize time spent in the line of fire from above.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools (aggressive)", "category": "climbing", "isEssential": true, "notes": "Steep sustained ice up to WI5 demands high-performance tools"},
+          {"itemName": "Lightweight titanium ice screws", "category": "climbing", "isEssential": true, "notes": "Speed is life on this face so lightweight fast-placing screws are critical"},
+          {"itemName": "Helmet with full coverage", "category": "climbing", "isEssential": true, "notes": "Icefall from seracs above is a constant threat"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Terrifying and exhilarating in equal measure", "body": "Climbing the north face of Robson is an exercise in controlled fear. We climbed it during a rare cold snap in early August when the seracs were as quiet as they ever get. The ice climbing is superb but you can never forget the hanging glaciers looming above. We completed the face in 14 hours and I did not relax until we were well clear of the fall line. A route where speed truly is safety.", "conditions": "Early August, cold snap with temps below -10C overnight, excellent ice, quiet serac activity"}
+        ]
+      },
+      {
+        "name": "Wishbone Arete",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The Wishbone Arete is a classic and aesthetic route on the south side of Mount Robson, following the prominent Y-shaped rock feature on the face left of the Kain Face. The route combines rock climbing on the arete with ice and mixed terrain as it joins the upper snowfields leading to the summit. First climbed in 1963, the Wishbone Arete offers more technical rock climbing than other routes on Robson while still requiring strong ice climbing skills for the upper mountain. The route is exposed to rockfall and weather, consistent with Robson's fearsome reputation.",
+        "summary": "Classic mixed route following the prominent Y-shaped arete on Robson's south face with good rock and ice climbing.",
+        "distance": 18,
+        "elevationGain": 2100,
+        "estimatedTime": 18,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"avalanche\",\"rapid weather changes\",\"loose rock\",\"icefall\"]",
+        "safetyNotes": "The rock on the arete can be loose, particularly on the less-traveled left fork. Helmets are mandatory and climb within rockfall-safe distances of your partner. The upper snowfields merge with the Kain Face route and share its hazards.",
+        "basecamp": "Robson Glacier camp",
+        "commitment": "IV",
+        "technicalGrade": "5.7 WI3",
+        "tips": [
+          {"content": "Take the right fork of the wishbone for more solid rock and better-established climbing.", "category": "general"},
+          {"content": "The transition from rock to ice on the upper mountain requires efficient changeover of gear at the belay.", "category": "general"},
+          {"content": "Carry approach shoes for the lower rock sections where crampons would be awkward and slow.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Rock shoes or approach shoes", "category": "climbing", "isEssential": false, "notes": "The lower rock climbing is more efficient in lighter footwear than mountaineering boots"},
+          {"itemName": "Small cam set (0.3 to #2)", "category": "climbing", "isEssential": true, "notes": "Protection for the rock pitches on the arete"},
+          {"itemName": "Ice tools and crampons", "category": "climbing", "isEssential": true, "notes": "Essential for the upper ice and snow sections above the rock arete"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A complete alpine climb with excellent variety", "body": "The Wishbone Arete gives you a bit of everything: fun rock climbing on the arete itself, a challenging transition to ice gear, and then a steep snow and ice finish shared with the Kain Face. We enjoyed the rock climbing immensely, which felt like a brief escape from the ice-dominated world of Robson. The summit views were spectacular. This is a great choice for teams with strong rock and ice skills who want more than just an ice route.", "conditions": "Late July, dry rock on arete, firm ice on upper face, good weather window"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Columbia (Canada)",
+    "routes": [
+      {
+        "name": "Normal Route (East Ridge from Columbia Icefield)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The East Ridge from the Columbia Icefield is the standard route on Mount Columbia, the highest peak in Alberta and the second highest in the Canadian Rockies. The route crosses the Columbia Icefield from the Athabasca Glacier area and ascends the broad east ridge via moderate snow slopes. The approach across the icefield is heavily crevassed and requires careful navigation. While technically straightforward, the route is serious due to rapidly changing weather, significant crevasse hazards, and the remote feeling of the vast icefield. Most parties complete the route in a long day or with one bivouac.",
+        "summary": "Standard icefield crossing and snow ridge route on Alberta's highest peak from the Columbia Icefield.",
+        "distance": 30,
+        "elevationGain": 1400,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"whiteout\",\"rapidly changing weather\",\"avalanche\"]",
+        "safetyNotes": "The Columbia Icefield crossing has numerous crevasses, many of which are hidden by snow bridges. Travel roped at all times on the icefield. Weather on the icefield can deteriorate extremely rapidly, reducing visibility to near zero. Always carry navigation equipment.",
+        "basecamp": "Columbia Icefield (Athabasca Glacier trailhead)",
+        "commitment": "III",
+        "technicalGrade": "PD+",
+        "tips": [
+          {"content": "Start very early, ideally by 2 AM, to cross the icefield while snow bridges are frozen and to maximize daylight for the return.", "category": "timing"},
+          {"content": "Skis make the icefield crossing much faster and more efficient, especially on the return when you may be fatigued.", "category": "logistics"},
+          {"content": "Park at the Athabasca Glacier parking area on the Icefields Parkway and begin the approach from there.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Ski touring setup", "category": "climbing", "isEssential": false, "notes": "Dramatically speeds up the icefield crossing and descent"},
+          {"itemName": "Crevasse rescue kit (pulleys, prusiks, slings)", "category": "climbing", "isEssential": true, "notes": "The Columbia Icefield is heavily crevassed and rescue capability is essential"},
+          {"itemName": "GPS with icefield waypoints", "category": "navigation", "isEssential": true, "notes": "Navigation across the featureless icefield in whiteout requires GPS"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A grand icefield traverse to a remote summit", "body": "Mount Columbia via the east ridge is a wonderful outing that takes you deep into the Columbia Icefield. We skied across in the early morning under a brilliant starlit sky and climbed the east ridge in perfect conditions. The return ski across the icefield as the sun set was magical. The crevasses are numerous and we probed extensively. Not technically hard but genuinely committing due to the distance and crevasse hazards.", "conditions": "Mid-July, firm morning snow, well-bridged crevasses, clear skies"}
+        ]
+      },
+      {
+        "name": "North Ridge",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The North Ridge of Mount Columbia is a more challenging alternative to the standard east ridge, approaching from the northern glaciers and following a defined ridge with moderate ice and mixed sections. The route offers more sustained technical climbing than the normal route and provides impressive views across the Columbia Icefield. The north side approach adds complexity and distance to the climb, typically requiring a bivouac. The ridge has several steeper steps that demand competent alpine climbing technique.",
+        "summary": "Technical ridge route on Columbia's north side with moderate ice and mixed climbing above the icefield.",
+        "distance": 28,
+        "elevationGain": 1500,
+        "estimatedTime": 18,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"cornices\",\"rockfall\",\"rapidly changing weather\"]",
+        "safetyNotes": "The north ridge has loose rock on some of the steeper steps. Test all holds carefully. The cornice development on the upper ridge can be significant after periods of wind. Assess cornice stability before committing to the ridge crest.",
+        "basecamp": "Columbia Icefield (north approach)",
+        "commitment": "III",
+        "technicalGrade": "AI3 5.5",
+        "tips": [
+          {"content": "The rocky steps on the ridge are best climbed on the left side where the rock is generally more solid.", "category": "general"},
+          {"content": "A single overnight bivouac at the base of the ridge allows an early start on the technical climbing when conditions are coldest.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Light alpine rack", "category": "climbing", "isEssential": true, "notes": "Small cams and nuts for the rock steps on the ridge"},
+          {"itemName": "Bivy sack and sleeping pad", "category": "camping", "isEssential": true, "notes": "Planned bivouac at the base of the ridge"},
+          {"itemName": "Ice screws (6-8)", "category": "climbing", "isEssential": true, "notes": "Protection for the ice sections between rock steps"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "More engaging than the standard route", "body": "The north ridge adds real climbing to what is otherwise a glacier walk on the normal route. The rock steps are fun and the ice sections between them are just the right difficulty to be engaging without being desperate. We bivouacked at the base of the ridge and climbed it the next morning in perfect conditions. A great choice for parties wanting more than the standard route offers.", "conditions": "Early August, dry rock, thin ice on steps, stable weather"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Waddington",
+    "routes": [
+      {
+        "name": "Southwest Face (Normal Route)",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The Southwest Face is the standard route on Mount Waddington, the highest peak entirely within British Columbia and one of the most difficult mountains in North America to reach and climb. The route ascends the southwest face via mixed rock, ice, and snow terrain to gain the summit tower. The approach to the base of the mountain is a multi-day affair requiring either helicopter access or a grueling overland trek through dense coastal forest and glaciated terrain. Mount Waddington's remote Coast Mountains location means consistently poor weather and complex logistics. The climbing itself is sustained and technical, making this a serious objective even by the normal route.",
+        "summary": "Standard mixed face route on BC's highest peak, renowned for its extreme remoteness and difficult access.",
+        "distance": 16,
+        "elevationGain": 1800,
+        "estimatedTime": 16,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"icefall\",\"avalanche\",\"extreme weather\",\"remoteness\",\"complex approach\"]",
+        "safetyNotes": "Mount Waddington is extremely remote and evacuation is difficult. The approach through the Coast Mountains involves glacier travel, river crossings, and dense bush. Helicopter access is strongly recommended but weather-dependent. The summit tower has loose rock requiring careful climbing.",
+        "basecamp": "Bravo-Tiedemann Col or Dais Glacier camp",
+        "commitment": "IV",
+        "technicalGrade": "5.6 AI3",
+        "tips": [
+          {"content": "Helicopter access from Bluff Lake or Tatla Lake dramatically reduces the approach but is expensive and weather-dependent.", "category": "logistics"},
+          {"content": "The summit tower rock is notoriously loose. Climb carefully and keep your partner out of the fall line.", "category": "safety"},
+          {"content": "The Coast Mountains create their own weather. Monitor conditions closely and be prepared for rapid deterioration.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Rock rack (cams, nuts, pitons)", "category": "climbing", "isEssential": true, "notes": "The summit tower requires rock protection including pitons for the loose cracks"},
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "The remote location makes satellite communication the only reliable link to the outside"},
+          {"itemName": "Extra food and fuel (5+ days surplus)", "category": "camping", "isEssential": true, "notes": "Weather delays are expected and resupply is impossible once at the base"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The mystery mountain lives up to its legend", "body": "Waddington is unlike any other mountain I have climbed in North America. The helicopter ride into the base was dramatic, flying through fog-shrouded Coast Mountain valleys. We waited four days for weather then climbed the southwest face in a 14-hour push. The summit tower climbing is engaging and the position is spectacular. The remoteness and difficulty of access make this summit feel truly earned.", "conditions": "Late July, rare clear window, mixed conditions on face, loose but dry rock on summit tower"}
+        ]
+      },
+      {
+        "name": "Bravo Glacier Route",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "ice",
+        "description": "The Bravo Glacier Route ascends the Bravo Glacier on the south side of Mount Waddington, following a line of ice and mixed terrain to gain the upper mountain. The route avoids the worst of the rock on the summit tower by approaching from a different angle, though rock climbing is still required near the top. The Bravo Glacier has significant icefall and crevasse hazards that require careful navigation. This route sees fewer ascents than the southwest face but offers a more ice-focused alternative for teams with strong glacier travel skills.",
+        "summary": "Ice-focused alternative route via the Bravo Glacier on Waddington's south side.",
+        "distance": 14,
+        "elevationGain": 1700,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"icefall\",\"crevasses\",\"serac collapse\",\"rockfall\",\"extreme weather\"]",
+        "safetyNotes": "The Bravo Glacier icefall is active and dangerous. Route through it carefully and quickly. The glacier changes significantly from year to year, so do not rely on outdated beta for the icefall navigation.",
+        "basecamp": "Bravo Glacier camp",
+        "commitment": "IV",
+        "technicalGrade": "WI4 5.5",
+        "tips": [
+          {"content": "Navigate the Bravo Glacier icefall during the coldest hours of the night to minimize serac and crevasse bridge collapse risk.", "category": "timing"},
+          {"content": "The route through the icefall changes yearly. Spend time scouting from a distance before committing to a line.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Ice screws (12+)", "category": "climbing", "isEssential": true, "notes": "Sustained ice climbing on the glacier route requires ample screw supply"},
+          {"itemName": "Headlamp with spare batteries", "category": "navigation", "isEssential": true, "notes": "Pre-dawn icefall navigation in darkness requires reliable lighting"},
+          {"itemName": "Lightweight crampons (aggressive front points)", "category": "climbing", "isEssential": true, "notes": "Steep ice sections demand precise crampon technique"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Excellent ice climbing in a wild setting", "body": "The Bravo Glacier route gave us some of the best ice climbing I have done in the Coast Mountains. The icefall navigation was intimidating but we found a reasonable line through it in the early morning hours. The upper ice face was steep and well-formed. Reaching the summit via this route felt like a real achievement given the complexity of the glacier travel.", "conditions": "Early August, cold temps, well-formed ice, active but navigable icefall"}
+        ]
+      },
+      {
+        "name": "Northwest Summit Tower",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The Northwest Summit Tower route tackles Mount Waddington's imposing summit tower directly from the northwest via steep and technical rock climbing. This is the most technically demanding route on the mountain, with sustained fifth-class rock climbing on the exposed granite tower. The rock quality varies from excellent to loose, requiring careful assessment on every pitch. Access to the base of the tower still requires the difficult Coast Mountains approach. This route is primarily a rock climb in a high mountain setting, combining technical climbing skill with expedition logistics.",
+        "summary": "Technical rock route directly up Waddington's summit tower from the northwest with sustained fifth-class climbing.",
+        "distance": 12,
+        "elevationGain": 1600,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose rock\",\"extreme exposure\",\"weather\",\"remoteness\"]",
+        "safetyNotes": "The summit tower rock is a mix of solid granite and very loose sections. Test every hold and protect frequently. The northwest aspect can hold ice and verglas even in summer which makes the rock climbing considerably more dangerous. Only attempt in warm and dry conditions.",
+        "basecamp": "Dais Glacier camp",
+        "commitment": "IV",
+        "technicalGrade": "5.9 A1",
+        "tips": [
+          {"content": "Warm and dry conditions are essential as even a thin coating of verglas makes the already challenging rock climbing extremely dangerous.", "category": "timing"},
+          {"content": "Carry a small selection of pitons as some of the loose cracks do not accept cams reliably.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Full rock rack with pitons", "category": "climbing", "isEssential": true, "notes": "Sustained 5th class climbing with loose cracks requiring pitons and cams"},
+          {"itemName": "Aiders and etriers", "category": "climbing", "isEssential": true, "notes": "Short aid sections on the tower require basic aid climbing gear"},
+          {"itemName": "Rock shoes", "category": "climbing", "isEssential": true, "notes": "The sustained rock climbing is best done in proper rock shoes rather than mountain boots"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The finest rock climbing on any major BC summit", "body": "The northwest tower route is Waddington at its most technical. We climbed it during a rare warm spell when the rock was dry and grippy. The climbing is sustained and serious with spectacular exposure. Some pitches have excellent granite while others require delicate movement over loose blocks. Reaching the summit via such technical climbing in this remote setting is an unforgettable experience.", "conditions": "Late July, warm and dry, no verglas, stable weather for two days"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Sir Donald",
+    "routes": [
+      {
+        "name": "Northwest Ridge (Normal Route)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The Northwest Ridge is the standard route on Mount Sir Donald, one of the most iconic peaks in the Selkirk Mountains of British Columbia. The route follows the elegant northwest ridge of this pyramidal peak via sustained scrambling and moderate rock climbing on generally excellent quartzite. The Uto-Sir Donald col is gained from the approach and the ridge is followed with increasing technicality to the summit. This is a classic Canadian mountaineering route that has been popular since the early days of climbing in the Selkirks. The rock is generally solid and the climbing is enjoyable.",
+        "summary": "Classic and popular quartzite ridge route on the iconic Selkirk pyramid, a Canadian mountaineering standard.",
+        "distance": 14,
+        "elevationGain": 1300,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposure\",\"rapidly changing weather\",\"route-finding\"]",
+        "safetyNotes": "The route is popular and rockfall from parties above is a genuine hazard. Start early to be ahead of other climbers. The descent requires careful routefinding and rappels. Weather in the Selkirks can change very quickly with afternoon thunderstorms common.",
+        "basecamp": "Wheeler Hut (Alpine Club of Canada) or Glacier National Park campground",
+        "commitment": "III",
+        "technicalGrade": "5.4",
+        "tips": [
+          {"content": "Start very early to avoid rockfall from parties above and to be off the summit before afternoon weather moves in.", "category": "timing"},
+          {"content": "The Wheeler Hut operated by the Alpine Club of Canada provides a comfortable base and shortens the approach significantly.", "category": "logistics"},
+          {"content": "The descent via rappels on the northwest ridge requires knowing the locations of the rappel anchors. Study the descent beta carefully before climbing.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Light rock rack (small to medium cams, nuts)", "category": "climbing", "isEssential": true, "notes": "Protection for the moderate rock pitches on the ridge"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall from other parties is a significant hazard on this popular route"},
+          {"itemName": "60m single rope", "category": "climbing", "isEssential": true, "notes": "Needed for belaying the crux pitches and for the rappel descent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A truly classic Canadian alpine route", "body": "The northwest ridge of Sir Donald is everything a classic alpine rock route should be. The quartzite is excellent, the climbing is sustained and fun, and the position on the exposed ridge is thrilling. We started at 4 AM from the Wheeler Hut and were on top by 10 AM. The descent requires some care with the rappels but is well-established. An absolute must-do for anyone climbing in the Selkirks.", "conditions": "Early August, dry rock, warm conditions, clear morning with afternoon clouds"}
+        ]
+      },
+      {
+        "name": "Southwest Face",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The Southwest Face of Mount Sir Donald is a more challenging alternative to the normal northwest ridge, ascending the steep southwest face via a series of rock buttresses and couloirs. The climbing is more sustained and technical than the standard route, with longer pitches of genuine fifth-class climbing on the quartzite. The face receives more sun than the north side and conditions can be warmer, but afternoon rockfall from melting ice is a concern. This route is less traveled and offers a quieter experience than the popular northwest ridge.",
+        "summary": "Technical rock face route on Sir Donald's southwest aspect with sustained fifth-class climbing on quartzite.",
+        "distance": 14,
+        "elevationGain": 1350,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose rock\",\"afternoon heating\",\"route-finding\"]",
+        "safetyNotes": "Afternoon sun on the southwest face loosens rocks and ice, creating significant rockfall danger. Complete the face climbing before midday. Some sections of the face have looser rock than the northwest ridge. Protect carefully and test holds.",
+        "basecamp": "Glacier National Park campground or Wheeler Hut",
+        "commitment": "III",
+        "technicalGrade": "5.7",
+        "tips": [
+          {"content": "Aim to complete the face climbing by midday before the afternoon sun creates rockfall hazards from melting ice above.", "category": "timing"},
+          {"content": "The route-finding on the face is less obvious than the ridge. Study topos and photos carefully before attempting.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Double rack of cams (0.3 to #3)", "category": "climbing", "isEssential": true, "notes": "The sustained face climbing requires more protection than the standard ridge route"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "Lighter footwear for the approach and lower scrambling sections"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall from heating and from the face above is a serious concern"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "More challenging and more rewarding than the ridge", "body": "The southwest face of Sir Donald provides excellent sustained climbing that is a step up from the northwest ridge. The rock is mostly good quartzite with a few sections of questionable quality. We had the face entirely to ourselves while groups were visible on the popular ridge. The climbing is engaging and the route-finding adds an element of adventure. Descend via the standard northwest ridge rappels.", "conditions": "Mid-July, warm and dry, good rock conditions, completed face by noon"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Bugaboo Spire",
+    "routes": [
+      {
+        "name": "Northeast Ridge (Kain Route)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The Northeast Ridge, known as the Kain Route after legendary guide Conrad Kain who made the first ascent in 1916, is the standard route on Bugaboo Spire and one of the most popular alpine rock climbs in British Columbia. The route follows the elegant northeast ridge of the granite spire via exposed and enjoyable moderate rock climbing. The Bugaboo granite is world-renowned for its quality and the climbing on the Kain Route is a masterclass in moderate alpine rock. The approach from the Kain Hut across the Bugaboo Glacier involves crevasse navigation and a bergschrund crossing to reach the col at the base of the ridge.",
+        "summary": "Classic and popular moderate granite ridge route on the iconic Bugaboo spire, a benchmark Canadian alpine rock climb.",
+        "distance": 8,
+        "elevationGain": 600,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"bergschrund\",\"crevasses\",\"afternoon weather\",\"exposure\"]",
+        "safetyNotes": "The bergschrund crossing below the col can be difficult or impossible late in the season. Check conditions before committing. The route is very popular and parties should be aware of rockfall from above. The descent involves rappels and down-climbing that must be executed carefully.",
+        "basecamp": "Conrad Kain Hut (Alpine Club of Canada)",
+        "commitment": "II",
+        "technicalGrade": "5.6",
+        "tips": [
+          {"content": "Start early from the Kain Hut to get ahead of crowds and to cross the bergschrund while it is well-bridged in the morning cold.", "category": "timing"},
+          {"content": "The Kain Hut is operated by the Alpine Club of Canada and reservations are essential during the busy summer season.", "category": "logistics"},
+          {"content": "The crux pitch near the summit is well-protected and the granite is impeccable. Enjoy the climbing rather than rushing.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Light rack of cams and nuts", "category": "climbing", "isEssential": true, "notes": "The superb granite takes protection beautifully with a light rack"},
+          {"itemName": "60m single rope", "category": "climbing", "isEssential": true, "notes": "Needed for belaying pitches and the rappel descent"},
+          {"itemName": "Crampons and ice axe", "category": "climbing", "isEssential": true, "notes": "Required for the glacier approach and bergschrund crossing"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "World-class granite climbing in an alpine setting", "body": "The Kain Route on Bugaboo Spire is rightfully one of the most popular alpine climbs in Canada. The granite is stunning, the climbing is pure enjoyment at a moderate grade, and the exposure on the ridge is exhilarating. We climbed it on a perfect bluebird day and the summit views of the Bugaboo Group and surrounding glaciers were breathtaking. The approach across the glacier adds an alpine flavor to what is primarily an excellent rock climb.", "conditions": "Late July, perfect weather, dry rock, well-bridged bergschrund"}
+        ]
+      },
+      {
+        "name": "East Face",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The East Face of Bugaboo Spire offers steep and sustained granite climbing on one of the most impressive walls in the Bugaboo Group. The face features several route variations, all involving multi-pitch climbing on excellent Bugaboo granite at grades significantly harder than the Kain Route. The east face catches the morning sun and provides warm climbing conditions in the early hours. The climbing is primarily crack systems and face features on clean granite, making for superb technical climbing in a spectacular alpine setting.",
+        "summary": "Steep multi-pitch granite face route on Bugaboo Spire with sustained technical climbing on world-class rock.",
+        "distance": 6,
+        "elevationGain": 500,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"rockfall\",\"afternoon weather\",\"difficult retreat\"]",
+        "safetyNotes": "The east face is steep and retreat from the upper pitches requires multiple rappels. Ensure your party is solid at the grade before committing. Afternoon thunderstorms are common in the Bugaboos and being caught on the exposed face in a storm is extremely dangerous.",
+        "basecamp": "Conrad Kain Hut",
+        "commitment": "III",
+        "technicalGrade": "5.10a",
+        "tips": [
+          {"content": "The morning sun warms the east face early, making it comfortable for climbing in the cooler alpine temperatures.", "category": "timing"},
+          {"content": "The crack systems on the face accept cams perfectly. A double rack through the hand sizes will cover most of the sustained pitches.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Double rack of cams (0.5 to #3)", "category": "climbing", "isEssential": true, "notes": "Sustained crack climbing requires a generous rack for the longer pitches"},
+          {"itemName": "Climbing shoes", "category": "climbing", "isEssential": true, "notes": "The technical face and crack climbing demands proper rock shoes"},
+          {"itemName": "60m double ropes", "category": "climbing", "isEssential": true, "notes": "Doubles allow full-length rappels for retreat and wandering routes reduce drag"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Some of the best granite climbing anywhere", "body": "The east face of Bugaboo Spire delivered pitch after pitch of incredible granite climbing. The rock is immaculate, the cracks are splitter, and the position on the face is exposed and thrilling. We climbed the standard east face line in about 8 hours and every pitch was memorable. The morning sun on the face kept us warm and the descent via the Kain Route rappels was straightforward. This is destination-quality rock climbing.", "conditions": "Early August, warm and dry, perfect granite conditions, clear morning"}
+        ]
+      },
+      {
+        "name": "West Face",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "rock",
+        "description": "The West Face of Bugaboo Spire presents a more shaded and often cooler alternative to the sun-baked east face. The climbing follows crack systems and features on the steep west-facing granite wall. The west face holds snow and ice longer into the season than the east face, and early season attempts may encounter mixed conditions on the lower pitches. The route is less traveled than either the Kain Route or the east face, offering a quieter experience on this popular spire. The rock quality is generally excellent though some sections see less traffic and may have more lichen.",
+        "summary": "Technical granite face route on Bugaboo Spire's cooler west side with sustained crack climbing.",
+        "distance": 6,
+        "elevationGain": 500,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"cold conditions\",\"verglas early season\",\"afternoon weather\"]",
+        "safetyNotes": "The west face retains snow and ice longer than the east side. Check conditions carefully early in the season. The shaded aspect means cooler temperatures throughout the day so bring extra layers. Retreat requires rappelling the face.",
+        "basecamp": "Conrad Kain Hut",
+        "commitment": "III",
+        "technicalGrade": "5.8",
+        "tips": [
+          {"content": "Later in the season (August) provides the driest and warmest conditions on the shaded west face.", "category": "timing"},
+          {"content": "Bring extra warm layers as the west face stays in shade for much of the day and the granite can be cold to the touch.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rack of cams and nuts (singles to #3)", "category": "climbing", "isEssential": true, "notes": "Good crack protection on the well-featured granite"},
+          {"itemName": "Insulated belay jacket", "category": "camping", "isEssential": true, "notes": "The shaded west face is significantly colder than the sunny east side"},
+          {"itemName": "Thin gloves for belaying", "category": "climbing", "isEssential": false, "notes": "Cold granite on the shaded face can numb fingers quickly at belays"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A quieter side of the Bugaboo Spire", "body": "We chose the west face specifically to avoid the crowds on the Kain Route and east face and were rewarded with a peaceful day of excellent climbing. The rock is clean and the cracks are well-featured. The shade kept temperatures cool which was actually pleasant on the hot August day. The climbing is moderate but sustained and the route-finding keeps you engaged. A great option for teams looking for something different on this iconic spire.", "conditions": "Mid-August, dry rock, cool temperatures in shade, no residual snow or ice"}
+        ]
+      }
+    ]
+  }
+]

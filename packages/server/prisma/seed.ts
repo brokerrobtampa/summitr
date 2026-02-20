@@ -179,6 +179,12 @@ async function main() {
     'routes-alps.json',
     'routes-usa.json',
     'routes-world-expanded.json',
+    'routes-colorado.json',
+    'routes-andes-expanded.json',
+    'routes-alps-expanded.json',
+    'routes-alaska-canada.json',
+    'routes-usa-expanded.json',
+    'routes-world-remaining.json',
   ];
 
   const rawRoutes: SeedPeakRoutes[] = [];

@@ -1,0 +1,1227 @@
+[
+  {
+    "peakName": "Ojos del Salado",
+    "routes": [
+      {
+        "name": "Normal Route (Chilean Side)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The standard route approaches from the Chilean side via Laguna Verde and the Atacama refuge. The climb involves extensive scree travel with a final rocky scramble to the summit crater rim. Despite being the highest volcano in the world, the route is non-technical but extremely remote and subject to fierce winds. Acclimatization is critical given the extreme altitude above 6800 meters.",
+        "summary": "The most popular route up the world's highest volcano, approaching from Chile's Atacama region.",
+        "distance": 28,
+        "elevationGain": 2100,
+        "estimatedTime": 48,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"high winds\",\"extreme cold\",\"remoteness\"]",
+        "safetyNotes": "Acclimatize thoroughly before attempting the summit. Carry satellite communication as there is no cell coverage. Wind speeds can exceed 100 km/h without warning.",
+        "basecamp": "Atacama Refuge (5200m)",
+        "commitment": "III",
+        "technicalGrade": "Scramble Class 3",
+        "tips": [
+          {"content": "Spend at least 3-4 days acclimatizing at Laguna Verde and the refuge before summit attempt", "category": "safety"},
+          {"content": "Arrange vehicle support to the trailhead through a licensed Atacama operator for the long approach", "category": "logistics"},
+          {"content": "Start the summit push no later than 3 AM to avoid afternoon winds", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Expedition-rated down suit", "category": "climbing", "isEssential": true, "notes": "Temperatures regularly drop below -30C near the summit"},
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "No cell service anywhere on the mountain"},
+          {"itemName": "4-season expedition tent", "category": "camping", "isEssential": true, "notes": "Must withstand sustained high winds above 5000m"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Desolate beauty at extreme altitude", "body": "The Atacama approach is otherworldly. The route itself is straightforward but do not underestimate the altitude. We spent 10 days total including acclimatization. The final summit day was brutal with wind chill around -40C.", "conditions": "Clear skies, wind 40-60 km/h, temperature -25C at summit"}
+          ]
+      },
+      {
+        "name": "Argentine Route via Cazadero",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "Approaching from the Argentine side, this route passes through the Cazadero valley and establishes camps progressively higher on the eastern flanks. The terrain is primarily volcanic scree and loose rock with no technical climbing required. This side sees fewer climbers and offers a more remote wilderness experience. Permitting is arranged through Catamarca province.",
+        "summary": "A quieter alternative approach from Argentina's Catamarca province through the Cazadero valley.",
+        "distance": 34,
+        "elevationGain": 2400,
+        "estimatedTime": 56,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"remoteness\",\"loose rock\",\"dehydration\"]",
+        "safetyNotes": "Water sources are extremely limited on the Argentine side. Carry all water or plan melt stops carefully. Vehicle access requires high-clearance 4WD.",
+        "basecamp": "Cazadero Camp (4600m)",
+        "commitment": "III",
+        "technicalGrade": "Scramble Class 2",
+        "tips": [
+          {"content": "Arrange permits through the Catamarca provincial government well in advance as processing can be slow", "category": "logistics"},
+          {"content": "Carry a minimum of 4 liters of water per person per day as natural sources are nearly nonexistent", "category": "safety"},
+          {"content": "The Argentine side offers better weather windows in January and February", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Collapsible water containers (20L+)", "category": "camping", "isEssential": true, "notes": "Must cache water at camps as no reliable sources exist"},
+          {"itemName": "GPS device with preloaded waypoints", "category": "navigation", "isEssential": true, "notes": "Route finding on featureless scree slopes is extremely difficult in poor visibility"},
+          {"itemName": "Gaiters", "category": "climbing", "isEssential": false, "notes": "Deep volcanic scree makes gaiters very useful for comfort"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Remote and logistically challenging", "body": "The Argentine side is far more remote than the Chilean approach. We had vehicle issues on the rough approach road that cost us a day. Once on the mountain the route is straightforward but finding the best line through the scree takes experience. Solitude was incredible though.", "conditions": "Mixed weather, some snow flurries above 6000m, light winds"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Chimborazo",
+    "routes": [
+      {
+        "name": "Normal Route (Whymper Route)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "Named after Edward Whymper who made the first ascent in 1880, this is the standard route up Ecuador's highest peak. The climb begins from the Whymper Refuge at 5000m and ascends the Thielman Glacier before traversing to the Veintimilla summit. Crevasse danger is present and the route requires competent glacier travel skills. Recent glacial recession has exposed more rock and altered the traditional line.",
+        "summary": "The classic route following Whymper's 1880 first ascent line up the Thielman Glacier.",
+        "distance": 8,
+        "elevationGain": 1263,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"whiteout conditions\",\"serac fall\"]",
+        "safetyNotes": "Rope up for all glacier travel. Recent glacial changes have opened new crevasses that may not appear on older maps. Start very early to avoid afternoon whiteout conditions.",
+        "basecamp": "Whymper Refuge (5000m)",
+        "commitment": "II",
+        "technicalGrade": "AI 2",
+        "tips": [
+          {"content": "Acclimatize on Cotopaxi or Cayambe before attempting Chimborazo for the best chance of success", "category": "safety"},
+          {"content": "Depart the refuge between midnight and 1 AM to summit by sunrise and descend before clouds roll in", "category": "timing"},
+          {"content": "Hire a certified ASEGUIM guide as they know current crevasse conditions and route changes", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Crampons (steel, 12-point)", "category": "climbing", "isEssential": true, "notes": "Hard ice sections above 5800m require rigid steel crampons"},
+          {"itemName": "Ice axe (50-60cm)", "category": "climbing", "isEssential": true, "notes": "Essential for self-arrest on steep glacier sections"},
+          {"itemName": "Crevasse rescue kit", "category": "climbing", "isEssential": true, "notes": "Glacier travel demands full rescue capability including pulleys and prusiks"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Ecuador's crown jewel", "body": "Started at midnight from the Whymper Refuge with our guide. The glacier was in good condition with only a few open crevasses. Summit sunrise was unforgettable with views stretching to the Pacific. The altitude hit hard on the final push. Descended in thick clouds by 9 AM.", "conditions": "Clear above 5500m until 8 AM, firm neve, some open crevasses on upper glacier"}
+        ]
+      },
+      {
+        "name": "Castillo Route",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The Castillo Route ascends the eastern flanks of Chimborazo through a more direct line involving steeper ice and mixed terrain. The route passes through a complex zone of seracs and crevasses that requires careful navigation. It sees far fewer climbers than the Normal Route and demands more technical ice climbing ability. The upper section joins the Whymper Route for the final push to the summit.",
+        "summary": "A more technical alternative on Chimborazo's eastern face with steeper ice and serac navigation.",
+        "distance": 7,
+        "elevationGain": 1263,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"serac collapse\",\"crevasses\",\"steep ice\",\"rockfall\"]",
+        "safetyNotes": "Move through the serac zone quickly and only in the early morning hours when ice is frozen. This route should only be attempted by experienced alpinists comfortable on steep ice.",
+        "basecamp": "Whymper Refuge (5000m)",
+        "commitment": "III",
+        "technicalGrade": "AI 3, WI 3",
+        "tips": [
+          {"content": "Study the serac zone from the refuge before departure to plan your line through the icefall", "category": "safety"},
+          {"content": "Leave no later than midnight as the serac zone becomes increasingly dangerous after sunrise", "category": "timing"},
+          {"content": "This route is best attempted in the driest months of June through September when ice conditions are most stable", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Two technical ice tools", "category": "climbing", "isEssential": true, "notes": "Steep ice sections up to 60 degrees require two tools for security"},
+          {"itemName": "Ice screws (4-6)", "category": "climbing", "isEssential": true, "notes": "Needed for protection and belay anchors on the steeper pitches"},
+          {"itemName": "Headlamp with spare batteries", "category": "navigation", "isEssential": true, "notes": "The entire ascent to the serac zone is done in darkness"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Outstanding ice climbing on a big mountain", "body": "The Castillo Route was a step up from the Normal Route in every way. The ice climbing through the serac zone was engaging and required constant route-finding decisions. We had the entire route to ourselves. The upper glacier merge with the Whymper Route was straightforward.", "conditions": "Hard ice throughout, cold temps -15C, no wind, seracs appeared stable"}
+        ]
+      },
+      {
+        "name": "Garcia Moreno Route",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "This route ascends from the Carrel Refuge on the southwest side of Chimborazo and follows a mixed line of rock and ice to gain the upper snowfields. The Garcia Moreno Route offers a different perspective of the mountain and encounters more varied terrain than the standard Whymper Route. Technical sections include a rock band at approximately 5600m and moderately steep ice above. Navigation can be challenging in the lower sections.",
+        "summary": "A mixed route from the Carrel Refuge offering varied rock and ice terrain on Chimborazo's southwest aspect.",
+        "distance": 9,
+        "elevationGain": 1400,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"crevasses\",\"route-finding difficulty\",\"altitude\"]",
+        "safetyNotes": "The rock band at 5600m is loose and helmets are mandatory. Carry a GPS with waypoints as the lower route is not well marked. Conditions on the southwest face deteriorate faster in the afternoon than the north side.",
+        "basecamp": "Carrel Refuge (4800m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2, Rock III",
+        "tips": [
+          {"content": "The Carrel Refuge is more basic than the Whymper Refuge so bring your own stove and cooking supplies", "category": "logistics"},
+          {"content": "Navigate the rock band on the left side where the rock quality is slightly better", "category": "general"},
+          {"content": "Combine this with a descent via the Whymper Route for a satisfying traverse of the mountain", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Climbing helmet", "category": "climbing", "isEssential": true, "notes": "Mandatory for the loose rock band section at 5600m"},
+          {"itemName": "30m half rope", "category": "climbing", "isEssential": true, "notes": "Useful for short-roping through the mixed terrain and rock band"},
+          {"itemName": "Portable stove and fuel", "category": "camping", "isEssential": true, "notes": "Carrel Refuge has limited facilities compared to the Whymper side"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Interesting but loose", "body": "The variety of terrain made this climb engaging but the rock band was uncomfortably loose. We dislodged several large rocks despite careful movement. The southwest views during the climb were spectacular. Would recommend this for a second visit to Chimborazo after doing the Normal Route.", "conditions": "Mixed conditions, some verglas on rock, firm snow above 5800m"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Illimani",
+    "routes": [
+      {
+        "name": "Normal Route (South Face)",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route ascends Illimani's south face from the village of Pinaya through Puente Roto basecamp. The climb involves moderate glacier travel with crevasse hazards and a final steep snow and ice slope to the summit ridge. Two high camps are typically established. Illimani's position overlooking La Paz makes it one of the most iconic climbs in the Andes. The final ridge traverse to the summit is exposed and spectacular.",
+        "summary": "The standard ascent of Bolivia's highest peak via the south face glacier from Puente Roto basecamp.",
+        "distance": 18,
+        "elevationGain": 2200,
+        "estimatedTime": 36,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"avalanche\",\"cornices\",\"altitude sickness\"]",
+        "safetyNotes": "Climb during the dry season (May to September) for the most stable conditions. The summit ridge has large cornices on the north side. Test snow stability carefully on the final headwall.",
+        "basecamp": "Puente Roto (4500m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2+, Snow 45 degrees",
+        "tips": [
+          {"content": "Hire arrieros (mule drivers) from Pinaya to carry loads to basecamp as the approach is long", "category": "logistics"},
+          {"content": "The best conditions are typically in June and July during the driest part of the Bolivian winter", "category": "timing"},
+          {"content": "Stay well right on the summit ridge to avoid the enormous cornices overhanging the north face", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "50m dynamic rope", "category": "climbing", "isEssential": true, "notes": "Needed for glacier travel and protection on the summit headwall"},
+          {"itemName": "Snow pickets (2-3)", "category": "climbing", "isEssential": true, "notes": "Essential for building anchors on the snow slopes where ice screws may not hold"},
+          {"itemName": "High-altitude sleeping bag (-30C)", "category": "camping", "isEssential": true, "notes": "High camp at 5800m gets extremely cold overnight"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The sentinel of La Paz delivers", "body": "Illimani is a proper mountaineering objective that rewards preparation. The south face is sustained and the summit ridge is one of the finest in South America. We could see La Paz sparkling below throughout the climb. The altitude was manageable after acclimatizing on Huayna Potosi.", "conditions": "Dry season conditions, firm neve, few open crevasses, clear skies"}
+        ]
+      },
+      {
+        "name": "West Ridge",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The West Ridge of Illimani is a long and committing route that follows the prominent ridge separating the south and north faces. The climbing involves sustained mixed terrain with sections of steep ice and exposed rock steps. Multiple bivouacs on the ridge are typically required. This route demands strong alpine skills and the ability to manage complex terrain at extreme altitude. Route-finding on the lower ridge is challenging.",
+        "summary": "A committing ridge traverse demanding sustained mixed climbing over multiple days on Illimani.",
+        "distance": 16,
+        "elevationGain": 2200,
+        "estimatedTime": 48,
+        "season": "winter",
+        "hazards": "[\"exposure\",\"rockfall\",\"cornices\",\"committing terrain\"]",
+        "safetyNotes": "This is a committing route with limited retreat options once on the upper ridge. Carry bivy gear and emergency supplies. Weather changes can trap parties on the ridge for extended periods.",
+        "basecamp": "Puente Roto (4500m)",
+        "commitment": "IV",
+        "technicalGrade": "AI 3, Rock IV, Mixed M4",
+        "tips": [
+          {"content": "Scout the lower ridge approach from basecamp to identify the best line through the initial rock bands", "category": "general"},
+          {"content": "Carry enough food and fuel for an extra unplanned bivouac as the ridge is longer than it appears", "category": "safety"},
+          {"content": "A stable weather window of at least 3 days is needed to safely complete this route", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Lightweight bivy sack", "category": "camping", "isEssential": true, "notes": "Essential for the expected bivouacs on the ridge crest"},
+          {"itemName": "Rock protection rack (small to medium cams and nuts)", "category": "climbing", "isEssential": true, "notes": "Rock steps on the ridge require traditional protection placement"},
+          {"itemName": "Insulated overboots", "category": "climbing", "isEssential": false, "notes": "Extended time on the ridge in cold conditions makes these very valuable"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A grand Andean ridge climb", "body": "Three days on the West Ridge of Illimani was one of the finest alpine experiences of my life. The climbing is varied and the exposure on the upper ridge is breathtaking. We bivied twice on the ridge and summited on the third morning. Descended the Normal Route. Not for the faint of heart.", "conditions": "Stable weather window, mixed ice and rock conditions, cold bivy temps around -20C"}
+        ]
+      },
+      {
+        "name": "French Direct",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The French Direct takes a steep line up the center of Illimani's south face, tackling the ice headwall directly rather than traversing around it as the Normal Route does. First climbed by a French team, the route features sustained steep ice climbing between 55 and 70 degrees for several hundred meters. The route is exposed to serac fall from the hanging glacier above and must be climbed fast. It is one of the finest ice routes in Bolivia.",
+        "summary": "A direct line up the south face headwall featuring sustained steep ice climbing up to 70 degrees.",
+        "distance": 14,
+        "elevationGain": 2200,
+        "estimatedTime": 30,
+        "season": "winter",
+        "hazards": "[\"serac fall\",\"steep ice\",\"avalanche\",\"falling ice\"]",
+        "safetyNotes": "Speed is essential through the serac-threatened zone. Climb only in cold overnight conditions when ice is most stable. This route should only be attempted by experienced ice climbers comfortable leading WI4 at altitude.",
+        "basecamp": "Puente Roto (4500m)",
+        "commitment": "IV",
+        "technicalGrade": "WI 4, AI 3+",
+        "tips": [
+          {"content": "Climb the headwall section in a single push starting before midnight to minimize serac exposure", "category": "safety"},
+          {"content": "Study the face from basecamp for several days to assess serac activity patterns before committing", "category": "safety"},
+          {"content": "Descend via the Normal Route rather than down-climbing the headwall", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools (pair)", "category": "climbing", "isEssential": true, "notes": "Aggressive picks needed for sustained steep ice up to 70 degrees"},
+          {"itemName": "Ice screws (8-10)", "category": "climbing", "isEssential": true, "notes": "Generous rack needed for the long headwall pitches"},
+          {"itemName": "Lightweight helmet", "category": "climbing", "isEssential": true, "notes": "Constant falling ice threat from seracs above demands head protection"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "World-class ice climbing at altitude", "body": "The French Direct is everything a steep alpine ice route should be. Six pitches of sustained WI3-WI4 ice at over 6000 meters altitude. We climbed through the night and reached the summit ridge at dawn. The exposure to the hanging seracs kept us moving fast. Descended the Normal Route exhausted but elated.", "conditions": "Cold, stable conditions, hard blue ice on the headwall, seracs appeared dormant"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Sajama",
+    "routes": [
+      {
+        "name": "Normal Route (West Face)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Sajama, Bolivia's highest peak, ascends the west face through moderate glacier terrain. The climb begins from a basecamp in Sajama village and proceeds through a high camp at approximately 5700m. The route involves straightforward glacier travel with some crevasse hazards and a final moderate snow slope to the summit crater. Sajama is relatively isolated and less visited than nearby peaks.",
+        "summary": "Bolivia's highest peak climbed via a straightforward glacier route on the western face.",
+        "distance": 16,
+        "elevationGain": 2300,
+        "estimatedTime": 28,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"high winds\",\"extreme cold\"]",
+        "safetyNotes": "Acclimatize thoroughly before attempting this peak. The summit sits above 6500m and altitude effects are severe. Winds can be extreme and unpredictable on the upper mountain.",
+        "basecamp": "Sajama Village Camp (4250m)",
+        "commitment": "II",
+        "technicalGrade": "AI 1+, Snow 35 degrees",
+        "tips": [
+          {"content": "Spend a night at high camp and return to basecamp before your summit attempt to aid acclimatization", "category": "safety"},
+          {"content": "The local community requires a modest peak fee and hiring a local liaison is strongly encouraged", "category": "logistics"},
+          {"content": "June and July offer the most stable weather with the least precipitation", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Glacier travel kit (harness, rope, prusiks)", "category": "climbing", "isEssential": true, "notes": "Crevasses are present on the upper glacier and roping up is mandatory"},
+          {"itemName": "Down jacket (-20C rated)", "category": "climbing", "isEssential": true, "notes": "Summit temperatures regularly reach -25C with wind chill"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Useful for the long approach and lower-angle glacier sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A quiet giant in the Altiplano", "body": "Sajama is a beautiful and undervisited mountain. The village is welcoming and the approach through the national park is stunning with flamingos in the lakes below. The climb itself is moderate but the altitude is serious. We had the entire mountain to ourselves in July.", "conditions": "Clear and cold, light winds, firm snow on upper glacier"}
+        ]
+      },
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Northwest Ridge offers a more technical alternative to the Normal Route, following the prominent ridge that defines the right skyline when viewed from Sajama village. The route involves mixed climbing on volcanic rock and ice with some exposed sections along the ridge crest. The lower ridge is loose and requires careful climbing. The upper ridge provides excellent views down both flanks of the mountain before joining the Normal Route near the summit crater.",
+        "summary": "A more technical ridge route with mixed climbing on Sajama's prominent northwest skyline.",
+        "distance": 15,
+        "elevationGain": 2300,
+        "estimatedTime": 32,
+        "season": "winter",
+        "hazards": "[\"loose rock\",\"exposure\",\"cornices\",\"altitude\"]",
+        "safetyNotes": "The lower ridge has extremely loose volcanic rock. Test all holds carefully. Cornices form on the lee side of the upper ridge and should be avoided.",
+        "basecamp": "Sajama Village Camp (4250m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2, Rock III+",
+        "tips": [
+          {"content": "Approach the ridge crest via the gully system on the north side to avoid the worst of the loose lower buttress", "category": "general"},
+          {"content": "Carry a light rack of cams and nuts for protection on the rock steps", "category": "general"},
+          {"content": "Plan for a bivouac at approximately 5900m where a flat section of the ridge provides shelter", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Climbing helmet", "category": "climbing", "isEssential": true, "notes": "Loose volcanic rock on the lower ridge makes a helmet critical"},
+          {"itemName": "Small rack (cams 0.3-2, nuts)", "category": "climbing", "isEssential": true, "notes": "Protection for the rock step sections on the ridge"},
+          {"itemName": "Bivy sack", "category": "camping", "isEssential": false, "notes": "Useful if the ridge takes longer than expected and a bivouac becomes necessary"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A proper mountaineering challenge", "body": "The Northwest Ridge was far more engaging than the Normal Route. The mixed climbing kept us on our toes and the ridge position gave incredible views of the Altiplano. The loose rock on the lower sections was the crux mentally. We joined the Normal Route just below the crater and had an easy finish.", "conditions": "Dry conditions on rock, rime ice on upper ridge, moderate winds"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Alpamayo",
+    "routes": [
+      {
+        "name": "Ferrari Route (Southwest Face)",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The Ferrari Route ascends the iconic southwest face of Alpamayo, widely considered one of the most beautiful mountains in the world. The route follows a direct line up the steep ice face which averages 60 degrees for over 300 meters. First climbed by an Italian team led by Casimiro Ferrari in 1975, the route has become a classic of Andean ice climbing. The face is a near-perfect pyramid of fluted ice and the climbing is sustained and spectacular.",
+        "summary": "A classic ice climb up Alpamayo's iconic fluted southwest face, one of the world's most beautiful routes.",
+        "distance": 10,
+        "elevationGain": 1100,
+        "estimatedTime": 14,
+        "season": "winter",
+        "hazards": "[\"avalanche\",\"falling ice\",\"steep ice\",\"cornice collapse\"]",
+        "safetyNotes": "The face is threatened by cornice collapse from the summit ridge. Climb in the early morning when conditions are coldest and most stable. Retreat from the face once committed is very difficult.",
+        "basecamp": "Alpamayo Basecamp (4300m)",
+        "commitment": "IV",
+        "technicalGrade": "WI 4+, AI 3",
+        "tips": [
+          {"content": "Establish a high camp at the moraine below the face to minimize approach time on summit day", "category": "logistics"},
+          {"content": "The face is best climbed in June and July when the flutings are most well-defined and stable", "category": "timing"},
+          {"content": "Descend via the north ridge rather than down-climbing the face for a safer exit", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools (pair, with leashes)", "category": "climbing", "isEssential": true, "notes": "Sustained 60-degree ice requires reliable tools with aggressive picks"},
+          {"itemName": "Ice screws (10-12)", "category": "climbing", "isEssential": true, "notes": "Long pitches on the face require generous protection"},
+          {"itemName": "V-thread tool", "category": "climbing", "isEssential": true, "notes": "Essential for building rappel anchors if retreat becomes necessary"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most beautiful ice climb in the world", "body": "Alpamayo's Ferrari Route lives up to every bit of its legendary reputation. The fluted ice face is surreal and the climbing is sustained at a perfect grade. We climbed seven pitches of incredible ice with the Cordillera Blanca spread out below us. This climb should be on every ice climber's bucket list.", "conditions": "Perfect ice conditions, deep flutings, cold temps, summit cornices minimal"}
+        ]
+      },
+      {
+        "name": "French Direct",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The French Direct takes the steepest line up the southwest face of Alpamayo, climbing directly through the center of the face where the ice is steepest and the flutings deepest. This variation to the Ferrari Route encounters ice up to 80 degrees and demands expert-level ice climbing at altitude. The route was first climbed by a French expedition and remains one of the hardest established lines on the mountain. Commitment is high as retreat from the upper face is extremely difficult.",
+        "summary": "The steepest line on Alpamayo's southwest face with ice up to 80 degrees through the deepest flutings.",
+        "distance": 10,
+        "elevationGain": 1100,
+        "estimatedTime": 16,
+        "season": "winter",
+        "hazards": "[\"extreme steep ice\",\"falling ice\",\"cornice collapse\",\"exhaustion at altitude\"]",
+        "safetyNotes": "Only attempt this route in excellent ice conditions with a strong and fast team. The upper pitches at 80 degrees demand expert-level ice technique at altitude. Carry emergency bivy gear in case of delays.",
+        "basecamp": "Alpamayo Basecamp (4300m)",
+        "commitment": "V",
+        "technicalGrade": "WI 5, AI 4",
+        "tips": [
+          {"content": "Climb the Ferrari Route first to assess conditions and familiarize yourself with the face before attempting this line", "category": "safety"},
+          {"content": "The crux pitches in the center of the face require expert-level ice technique and should not be underestimated", "category": "general"},
+          {"content": "Start the climb before midnight to have the entire face in cold shadow during the ascent", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Ultra-light technical ice tools", "category": "climbing", "isEssential": true, "notes": "Weight matters on the sustained steep pitches and aggressive geometry is essential"},
+          {"itemName": "Ice screws (12+)", "category": "climbing", "isEssential": true, "notes": "Full rack needed for the long and steep pitches"},
+          {"itemName": "Lightweight emergency bivy", "category": "camping", "isEssential": true, "notes": "Critical safety item in case of slow progress or weather change on the face"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Elite Andean ice at its finest", "body": "The French Direct pushed us to our limits. The central pitches through the deepest flutings were the steepest sustained ice I have climbed at altitude. We spent 14 hours on the face and topped out as the sun was setting. The sense of accomplishment was immense. This route demands respect.", "conditions": "Hard blue ice, steep flutings well-formed, very cold predawn temps"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Fitz Roy",
+    "routes": [
+      {
+        "name": "Franco-Argentine Route",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The Franco-Argentine Route was the line of the first ascent of Fitz Roy in 1952 by Lionel Terray and Guido Magnone. The route ascends the southeast ridge via a series of cracks, chimneys, and slabs with difficulties up to 6a. It is considered the easiest route on the mountain but remains a serious undertaking due to Patagonian weather. The approach through the Rio Blanco valley to the bivy site below the route is long. Multiple rappels are required for descent.",
+        "summary": "The original 1952 first ascent route on Fitz Roy's southeast ridge, the easiest line on the peak.",
+        "distance": 24,
+        "elevationGain": 1600,
+        "estimatedTime": 20,
+        "season": "summer",
+        "hazards": "[\"extreme weather\",\"rockfall\",\"exposure\",\"rime ice on rock\"]",
+        "safetyNotes": "Patagonian weather can change within minutes. Always carry emergency bivy gear. The route can become covered in rime ice and verglas making it significantly harder. Wait for a stable weather window of at least 2 days.",
+        "basecamp": "Paso Superior Bivy (1900m)",
+        "commitment": "V",
+        "technicalGrade": "6a, AI 2",
+        "tips": [
+          {"content": "Monitor weather forecasts obsessively from El Chalten and be prepared to move fast when a window opens", "category": "timing"},
+          {"content": "Cache gear at Paso Superior before your summit attempt to move lighter on the approach", "category": "logistics"},
+          {"content": "The chimneys on the upper route can ice up badly so bring thin ice tools just in case", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Double rack of cams (0.3-3)", "category": "climbing", "isEssential": true, "notes": "The crack systems on the route eat gear and a double rack provides security"},
+          {"itemName": "Approach shoes and rock shoes", "category": "climbing", "isEssential": true, "notes": "Approach shoes for the lower sections and rock shoes for the technical crux pitches"},
+          {"itemName": "Emergency bivy sack", "category": "camping", "isEssential": true, "notes": "Weather can trap you on the wall and a bivy sack is life-saving insurance"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Patagonian granite at its finest", "body": "We waited eight days in El Chalten for a weather window and finally got a two-day clear spell. The Franco-Argentine was everything we hoped for. Incredible granite climbing with stunning exposure. The chimneys were clean and dry. Summited in perfect conditions with views to the ice cap. The descent rappels were long but straightforward.", "conditions": "Rare clear weather, dry rock, light winds on summit, no rime"}
+        ]
+      },
+      {
+        "name": "Supercanaleta",
+        "difficulty": "ED1",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Supercanaleta is a striking couloir that splits the east face of Fitz Roy in a direct line to the summit. The route climbs approximately 1200 meters of mixed terrain including ice gullies, rock steps, and a final headwall of steep granite. First climbed in 1965, it is one of the great mixed routes of Patagonia. The couloir funnels rockfall and ice debris, making speed essential. The route is often in condition only briefly when ice fills the gully system but temperatures remain stable.",
+        "summary": "A legendary 1200m mixed couloir splitting Fitz Roy's east face directly to the summit.",
+        "distance": 22,
+        "elevationGain": 1600,
+        "estimatedTime": 24,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"avalanche\",\"falling ice\",\"extreme weather\",\"route commitment\"]",
+        "safetyNotes": "The couloir is a natural funnel for debris. Climb only in cold conditions early in the morning. Speed is critical for safety. Retreat from the upper route requires complex rappels down the face.",
+        "basecamp": "Paso Superior Bivy (1900m)",
+        "commitment": "V",
+        "technicalGrade": "WI 4, M5, 6a",
+        "tips": [
+          {"content": "Time your attempt for after a snowfall that has had two to three days to consolidate and freeze into the couloir", "category": "timing"},
+          {"content": "Move through the lower couloir as a simulclimbing team to minimize exposure to rockfall", "category": "safety"},
+          {"content": "The upper headwall transition from ice to rock is the crux and requires a versatile rack", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools and crampons", "category": "climbing", "isEssential": true, "notes": "Mixed terrain demands aggressive ice tools and steel crampons throughout"},
+          {"itemName": "Light alpine rack (single cams, nuts, ice screws)", "category": "climbing", "isEssential": true, "notes": "Weight is critical so carry a focused rack for the mixed terrain"},
+          {"itemName": "Approach skis or snowshoes", "category": "navigation", "isEssential": false, "notes": "Deep snow on the approach glacier can make progress very slow without flotation"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The line of a lifetime", "body": "The Supercanaleta is one of those routes that you stare at from town and wonder if you will ever get the chance. We got a rare two-day window of cold, clear weather and went for it. The ice was thick in the lower couloir and the mixed climbing on the headwall was world-class. Topped out into a Patagonian sunset. Absolute peak alpinism.", "conditions": "Cold and clear, ice well-formed in couloir, dry rock on headwall, minimal wind"}
+        ]
+      },
+      {
+        "name": "California Route",
+        "difficulty": "ED1",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The California Route ascends the south pillar of Fitz Roy via sustained crack climbing on immaculate Patagonian granite. Established by American climbers, the route features pitch after pitch of splitter cracks in the 6a to 6c range. The rock quality is generally excellent and the climbing is predominantly free with the possibility of aiding a few sections. The route is long with over 25 pitches and requires a fast team to complete in a single push from the base.",
+        "summary": "Sustained splitter crack climbing on Fitz Roy's south pillar with 25+ pitches of world-class granite.",
+        "distance": 22,
+        "elevationGain": 1600,
+        "estimatedTime": 22,
+        "season": "summer",
+        "hazards": "[\"extreme weather\",\"long commitment\",\"rockfall\",\"exposure\"]",
+        "safetyNotes": "This is a very long route that requires a fast team. Retreat from the upper pillar requires many rappels. Ensure a stable weather window of at least 36 hours before committing.",
+        "basecamp": "Paso Superior Bivy (1900m)",
+        "commitment": "V",
+        "technicalGrade": "6c (or 6a A2)",
+        "tips": [
+          {"content": "Free climbing the route requires solid 6c crack technique at altitude in potentially cold conditions", "category": "general"},
+          {"content": "Carry a portaledge or bivy gear if not confident in completing the route in a single push", "category": "logistics"},
+          {"content": "The lower pitches can often be wet so save your best tape job and dry chalk for the upper crux", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Triple set of cams (0.5-3) plus single large cams", "category": "climbing", "isEssential": true, "notes": "The splitter cracks consume an enormous amount of protection"},
+          {"itemName": "Two sets of nuts", "category": "climbing", "isEssential": true, "notes": "Supplement the cams in the thinner crack sections"},
+          {"itemName": "Portaledge or bivy hammock", "category": "camping", "isEssential": false, "notes": "Insurance for teams not confident in a single-push ascent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Patagonian granite crack climbing perfection", "body": "The California Route offers the best pure rock climbing on Fitz Roy. Pitch after pitch of splitter cracks in flawless granite. We freed most of the route at 6b with a few aid moves on the crux pitch. Completed the route in 18 hours car-to-car from El Chalten. The granite quality rivals Yosemite.", "conditions": "Dry rock, light winds, temps around 5C at the base warming to 10C on the wall"}
+        ]
+      },
+      {
+        "name": "Afanassieff Route",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The Afanassieff Route climbs the north pillar of Fitz Roy and was established by a strong European team. The route follows a logical line up the pillar with a mix of crack climbing, face climbing, and some mixed terrain in the upper sections. It is considered one of the more moderate major routes on Fitz Roy after the Franco-Argentine. The rock quality is generally good but some sections of the pillar feature looser granite than the south side routes. The north aspect means the route receives more sun.",
+        "summary": "A classic north pillar route on Fitz Roy with varied climbing and better sun exposure than south-side lines.",
+        "distance": 24,
+        "elevationGain": 1600,
+        "estimatedTime": 20,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"weather changes\",\"loose rock sections\",\"rime ice\"]",
+        "safetyNotes": "Some sections of the north pillar have looser rock than routes on the south side. Test holds carefully in these zones. The sunnier aspect can cause ice and snow melt that increases rockfall hazard in the afternoon.",
+        "basecamp": "Paso Superior Bivy (1900m)",
+        "commitment": "V",
+        "technicalGrade": "6a+, AI 2",
+        "tips": [
+          {"content": "The north pillar receives morning sun which helps with cold starts but increases afternoon melt and rockfall", "category": "timing"},
+          {"content": "Carry a few ice screws and a light tool for the mixed sections that can form on the upper pillar", "category": "general"},
+          {"content": "Combine with a descent down the Franco-Argentine rappels for the most efficient exit strategy", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Standard alpine rack (single cams, nuts, ice screws)", "category": "climbing", "isEssential": true, "notes": "The mixed nature of the route demands a versatile rack"},
+          {"itemName": "Light alpine ice tool", "category": "climbing", "isEssential": true, "notes": "Needed for mixed sections and any rime-covered rock on the upper pillar"},
+          {"itemName": "Sun protection (hat, sunscreen, glacier glasses)", "category": "climbing", "isEssential": true, "notes": "The north-facing aspect means prolonged sun exposure during the climb"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A fine alternative to the Franco-Argentine", "body": "The Afanassieff is less crowded than the Franco-Argentine and offers a different perspective of Fitz Roy. The climbing is varied with some excellent crack pitches and a few mixed sections that kept things interesting. The north aspect was warmer which was welcome. Some loose rock on the middle section required care.", "conditions": "Mostly dry, some rime on upper pitches, sunny, moderate wind"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Cerro Torre",
+    "routes": [
+      {
+        "name": "Ragni Route (West Face)",
+        "difficulty": "ED1",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Ragni Route on the west face of Cerro Torre is widely regarded as the first confirmed ascent route, climbed by Casimiro Ferrari and the Ragni di Lecco team in 1974. The route ascends the Col of Patience and then climbs the west face through a series of ice runnels and rock bands to reach the famous ice mushroom summit. The climbing is sustained at a high standard with constant exposure to Patagonian weather. The ice mushroom on the summit is an otherworldly feature that must be climbed to complete the ascent.",
+        "summary": "The first confirmed ascent route up Cerro Torre's west face to the legendary ice mushroom summit.",
+        "distance": 20,
+        "elevationGain": 1500,
+        "estimatedTime": 28,
+        "season": "summer",
+        "hazards": "[\"extreme weather\",\"rime ice\",\"spindrift avalanches\",\"falling ice\",\"exposure\"]",
+        "safetyNotes": "Cerro Torre receives some of the worst weather on Earth. Only attempt in the most stable weather windows. The ice mushroom summit formation can be extremely dangerous and unstable. Spindrift avalanches are constant on the west face.",
+        "basecamp": "Noruegos Camp (900m)",
+        "commitment": "VI",
+        "technicalGrade": "WI 5, M5, 6a, A2",
+        "tips": [
+          {"content": "Establish camps and cache gear during marginal weather to be ready to move when a genuine window arrives", "category": "logistics"},
+          {"content": "The Col of Patience approach is exposed to crevasses and requires careful navigation in poor visibility", "category": "safety"},
+          {"content": "January and February historically offer the best weather windows though nothing is guaranteed in Patagonia", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Full ice and mixed rack", "category": "climbing", "isEssential": true, "notes": "Ice screws, pitons, cams, nuts, and ice tools all needed for the varied terrain"},
+          {"itemName": "Storm shell clothing (Gore-Tex or equivalent)", "category": "climbing", "isEssential": true, "notes": "The west face is fully exposed to Patagonian storms and waterproof gear is critical"},
+          {"itemName": "Portaledge", "category": "camping", "isEssential": true, "notes": "Multi-day commitment on the wall requires hanging bivouacs"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most incredible climb of my life", "body": "After three trips to Patagonia we finally topped out on Cerro Torre via the Ragni Route. The west face is relentless. Every pitch demands attention and the weather added a constant layer of anxiety. Climbing through the ice mushroom to the actual summit was surreal. Nothing else in mountaineering compares to standing on top of Cerro Torre.", "conditions": "Rare clear window, ice mushroom in climbable condition, light winds by Patagonian standards"}
+        ]
+      },
+      {
+        "name": "Southeast Ridge (Compressor Route)",
+        "difficulty": "ED1",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The Compressor Route follows the southeast ridge of Cerro Torre, famously controversially bolted by Cesare Maestri in 1970 using a gas-powered compressor which he left bolted to the wall. The route was later freed and many of the bolts were removed or chopped, creating a harder but ethically cleaner line. The climbing involves steep granite crack systems, pendulums, and a notorious headwall. The route finishes up the ice towers near the summit. It is one of the most storied routes in climbing history.",
+        "summary": "The controversial and historic southeast ridge featuring steep granite climbing and the infamous bolt ladder.",
+        "distance": 18,
+        "elevationGain": 1500,
+        "estimatedTime": 24,
+        "season": "summer",
+        "hazards": "[\"extreme weather\",\"loose rock\",\"falling ice\",\"complex retreat\"]",
+        "safetyNotes": "Many of the original bolts have been removed so do not rely on fixed protection. The route is long and committing with difficult retreat from the upper ridge. The ice formations near the summit are unstable.",
+        "basecamp": "Noruegos Camp (900m)",
+        "commitment": "VI",
+        "technicalGrade": "7a (or 6a A2), WI 4",
+        "tips": [
+          {"content": "Research the current state of the bolt situation as it has changed over the years with removal campaigns", "category": "general"},
+          {"content": "The headwall is the crux section and can be freed at around 7a or aided at A2", "category": "general"},
+          {"content": "Approach via the Torre Glacier requires crossing several crevasse zones in the predawn darkness", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Double rack of cams (micro to size 3)", "category": "climbing", "isEssential": true, "notes": "Do not rely on remaining bolts; bring a full traditional rack"},
+          {"itemName": "Aiders and etriers", "category": "climbing", "isEssential": false, "notes": "Useful if planning to aid the headwall rather than free climb it"},
+          {"itemName": "Insulated belay jacket", "category": "climbing", "isEssential": true, "notes": "Long belays in Patagonian wind demand serious insulation"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Climbing history made tangible", "body": "The Compressor Route is as much a pilgrimage as it is a climb. The granite is world-class and the history oozes from every bolt hole and crack. We freed most of the route and aided through the headwall. The final ice towers were terrifying and magical. The compressor still hangs on the wall, a monument to ambition.", "conditions": "Dry rock on lower pitches, some rime on upper ridge, moderate wind"}
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "ED1",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The North Face of Cerro Torre is one of the most intimidating walls in Patagonia, rising steeply through bands of granite and ice directly to the summit mushroom. Several routes have been established on this face, with the original north face line featuring mixed climbing of the highest order. The face receives less sun and accumulates more rime ice than the southeast or west sides. Only a handful of ascents have been completed on this aspect. The climbing demands expertise in every alpine discipline.",
+        "summary": "One of Patagonia's most intimidating walls with mixed climbing of the highest order on Cerro Torre's cold north aspect.",
+        "distance": 18,
+        "elevationGain": 1500,
+        "estimatedTime": 30,
+        "season": "summer",
+        "hazards": "[\"extreme mixed terrain\",\"rime ice\",\"spindrift\",\"extreme weather\",\"falling ice\"]",
+        "safetyNotes": "This face is rarely in condition and should only be attempted by elite alpine climbers. The north aspect means heavy rime accumulation. Retreat from the upper face is extremely difficult and dangerous.",
+        "basecamp": "Noruegos Camp (900m)",
+        "commitment": "VI",
+        "technicalGrade": "WI 5+, M6, 6b, A2",
+        "tips": [
+          {"content": "Study the face extensively from the Torre Glacier camp to assess rime conditions before committing", "category": "safety"},
+          {"content": "The north face is rarely in ideal condition so flexibility and patience over multiple seasons may be required", "category": "timing"},
+          {"content": "Carry a full bivy kit as the face is too long and difficult to complete in a single push for most teams", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Comprehensive mixed climbing rack", "category": "climbing", "isEssential": true, "notes": "Pitons, cams, nuts, ice screws, and spectre-type ice pitons all required"},
+          {"itemName": "Double boots with insulated overboots", "category": "climbing", "isEssential": true, "notes": "The north aspect is brutally cold and frostbite is a constant danger"},
+          {"itemName": "Storm-rated portaledge or bivy system", "category": "camping", "isEssential": true, "notes": "Multi-day big wall tactics are required for this face"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The hardest thing I have ever done", "body": "The North Face of Cerro Torre consumed three days of our lives and pushed us beyond anything we thought possible. The rime ice on the upper wall was inches thick and required constant clearing. The mixed pitches were M6 at altitude in howling wind. We barely made the summit before a storm rolled in. This face does not forgive mistakes.", "conditions": "Heavy rime, cold temps -15C, winds 30-50 km/h, spindrift constant"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Cerro Aconcagua",
+    "routes": [
+      {
+        "name": "Normal Route (Northwest Ridge)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The Normal Route is the most popular way to climb the highest peak in the Americas. Starting from the Horcones Valley, the route passes through Plaza de Mulas basecamp and ascends via a series of camps on the northwest ridge. The terrain is primarily scree and rock with no technical climbing. However, the extreme altitude above 6900m makes this a serious mountaineering undertaking. Altitude sickness is the primary danger and proper acclimatization schedules are essential for safety.",
+        "summary": "The standard non-technical route up the Americas' highest peak via the Horcones Valley and northwest ridge.",
+        "distance": 38,
+        "elevationGain": 2850,
+        "estimatedTime": 120,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"high winds\",\"extreme cold\",\"altitude sickness\"]",
+        "safetyNotes": "Follow a conservative acclimatization schedule. The Viento Blanco (white wind) is a deadly storm phenomenon unique to Aconcagua that can bring sudden whiteout conditions. Never push past Camp 3 without excellent weather forecast.",
+        "basecamp": "Plaza de Mulas (4370m)",
+        "commitment": "II",
+        "technicalGrade": "Scramble Class 2",
+        "tips": [
+          {"content": "Budget 18-20 days for the full expedition including rest and acclimatization days", "category": "logistics"},
+          {"content": "The Canaleta section above Camp 3 is the crux with loose scree and high altitude combining for a grueling final push", "category": "general"},
+          {"content": "December through February offers the best weather but January can be the most crowded", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Expedition double boots", "category": "climbing", "isEssential": true, "notes": "Summit temps can reach -40C with wind chill making insulated boots critical"},
+          {"itemName": "Down expedition suit or jacket and pants", "category": "climbing", "isEssential": true, "notes": "Full down coverage needed for summit day and high camps"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Very helpful for the long scree slopes and conserving energy on the approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A test of endurance and altitude tolerance", "body": "Aconcagua via the Normal Route is not technically difficult but it is a genuine high-altitude expedition. The altitude above 6000m is another world and the Canaleta is soul-crushing. Proper acclimatization was the key to our success. We spent 18 days total and summited on a perfect clear morning.", "conditions": "Clear summit day, wind 20 km/h, temperature -30C at summit, firm scree"}
+        ]
+      },
+      {
+        "name": "Polish Glacier Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Polish Glacier Traverse approaches from the east side of Aconcagua through Plaza Argentina and ascends the Polish Glacier before traversing to join the Normal Route for the summit. This route offers a more interesting and scenic alternative to the Normal Route with glacier travel and moderate ice slopes. The traverse section at approximately 6400m crosses exposed terrain between the east face and the northwest ridge. This is one of the most popular alternatives to the Normal Route.",
+        "summary": "A scenic glacier route approaching from the east side before traversing to join the Normal Route at high altitude.",
+        "distance": 36,
+        "elevationGain": 2850,
+        "estimatedTime": 120,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"extreme altitude\",\"high winds\",\"ice fall\"]",
+        "safetyNotes": "Glacier travel requires rope skills and crevasse rescue knowledge. The traverse section at 6400m is exposed to wind and weather with limited retreat options. Carry crampons and ice axe for the glacier sections.",
+        "basecamp": "Plaza Argentina (4200m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2, Snow 40 degrees",
+        "tips": [
+          {"content": "The approach through the Vacas Valley to Plaza Argentina is longer but less crowded than the Horcones approach", "category": "logistics"},
+          {"content": "The traverse section is best done early morning when snow is firm and wind is typically calmer", "category": "timing"},
+          {"content": "Arrange mule support for the approach as the Vacas Valley is a multi-day trek to basecamp", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Crampons and ice axe", "category": "climbing", "isEssential": true, "notes": "Required for the Polish Glacier and the traverse section"},
+          {"itemName": "50m glacier rope", "category": "climbing", "isEssential": true, "notes": "Needed for roped glacier travel across the Polish Glacier"},
+          {"itemName": "Expedition sleeping bag (-35C)", "category": "camping", "isEssential": true, "notes": "High camps on the east side are very exposed and extremely cold"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The superior way up Aconcagua", "body": "The Polish Glacier route was far more rewarding than the Normal Route which I did years ago. The glacier travel added interest and the traverse at 6400m was exhilarating with exposure on both sides. Plaza Argentina is a quieter and more pleasant basecamp. The east face views of Aconcagua are stunning.", "conditions": "Glacier in good condition, firm neve, traverse wind-scoured but passable"}
+        ]
+      },
+      {
+        "name": "South Face (French Route)",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The South Face of Aconcagua is one of the great walls of the Andes, rising nearly 3000 meters from base to summit. The French Route was the first line established on this massive face and climbs through a complex system of ice fields, rock bands, and mixed terrain. The route is committing and multi-day with several bivouac sites on the face. Altitude, technical difficulty, and objective hazards combine to make this one of the most serious routes in the Americas. Only experienced expeditionary alpinists should consider this route.",
+        "summary": "A major 3000m alpine wall route on Aconcagua's imposing south face through ice fields and rock bands.",
+        "distance": 30,
+        "elevationGain": 2850,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"avalanche\",\"rockfall\",\"extreme altitude\",\"storms\",\"route commitment\"]",
+        "safetyNotes": "The south face is a committing multi-day alpine wall at extreme altitude. Full self-rescue capability is required. Weather windows must be long enough for the multi-day ascent and the face is exposed to avalanche and rockfall, especially in the afternoon.",
+        "basecamp": "Plaza Francia (4100m)",
+        "commitment": "V",
+        "technicalGrade": "WI 4, AI 3, Rock V, Mixed M4",
+        "tips": [
+          {"content": "Study the face from Plaza Francia for several days to understand avalanche patterns and falling debris timing", "category": "safety"},
+          {"content": "A weather window of at least 4-5 days is needed for a safe ascent of the full south face", "category": "timing"},
+          {"content": "Descend via the Normal Route rather than attempting to reverse the south face", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Full alpine mixed rack", "category": "climbing", "isEssential": true, "notes": "Ice screws, rock protection, pitons, and mixed tools all needed for the varied terrain"},
+          {"itemName": "Lightweight bivy system (tent or portaledge)", "category": "camping", "isEssential": true, "notes": "Multiple planned bivouacs on the face require reliable shelter"},
+          {"itemName": "Stove and 4+ days of fuel and food", "category": "camping", "isEssential": true, "notes": "Multi-day commitment at altitude requires significant supplies"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "South America's greatest alpine challenge", "body": "The South Face of Aconcagua is in a league of its own. Four days on the wall with two planned bivouacs and one unplanned. The ice fields were in excellent condition and the rock bands went cleanly. The scale is difficult to comprehend until you are on the face looking up at thousands of meters of wall. We topped out exhausted and descended the Normal Route over two more days.", "conditions": "Stable weather window, ice fields well-formed, rock bands mostly dry, cold temps"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Nevado Huascaran Norte",
+    "routes": [
+      {
+        "name": "Normal Route (West Face)",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Huascaran Norte ascends the west face through the Garganta col between the north and south summits. The route involves significant glacier travel with crevasse hazards, a steep section through an icefall, and a final snow slope to the summit. Huascaran Norte at 6655m is the slightly lower north summit of Peru's highest mountain massif. The approach through the village of Musho provides a scenic route into the Cordillera Blanca.",
+        "summary": "The standard route up Huascaran's north summit via the west face glacier and the Garganta col.",
+        "distance": 22,
+        "elevationGain": 3300,
+        "estimatedTime": 40,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"icefall\",\"avalanche\",\"altitude sickness\"]",
+        "safetyNotes": "The icefall below the Garganta is objectively dangerous and should be crossed quickly in the early morning. Crevasses are extensive on the upper glacier. The 1970 earthquake triggered a catastrophic avalanche from Huascaran so seismic activity is always a background concern.",
+        "basecamp": "Camp Moraine (4300m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2+, Snow 45 degrees",
+        "tips": [
+          {"content": "The dry season from May to September is the only safe window for this route", "category": "timing"},
+          {"content": "Acclimatize on smaller Cordillera Blanca peaks like Ishinca or Urus before attempting Huascaran", "category": "safety"},
+          {"content": "Cross the icefall zone before sunrise when temperatures are coldest and ice is most stable", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Steel crampons (12-point)", "category": "climbing", "isEssential": true, "notes": "Hard ice in the icefall zone and upper glacier requires steel crampons"},
+          {"itemName": "Crevasse rescue pulleys and prusiks", "category": "climbing", "isEssential": true, "notes": "Extensive crevasses demand full rescue capability on every rope team"},
+          {"itemName": "Snow shovel", "category": "camping", "isEssential": false, "notes": "Useful for leveling tent platforms at high camp and digging snow anchors"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A big Cordillera Blanca objective", "body": "Huascaran Norte via the Normal Route is a serious glacier climb. The icefall passage was nerve-wracking but went smoothly in the predawn cold. The views from the Garganta col between the two summits are incredible. We summited in clear weather with views across the entire Cordillera Blanca. The altitude was challenging even with good acclimatization.", "conditions": "Dry season, icefall stable, firm neve on upper slopes, clear skies"}
+        ]
+      },
+      {
+        "name": "Northeast Ridge",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Northeast Ridge of Huascaran Norte offers a more technical and less traveled alternative to the Normal Route. The ridge is accessed from the Llanganuco valley and involves mixed climbing along a corniced ridge with steep ice steps and exposed sections. The route is longer than the Normal Route and typically requires an additional high camp. The ridge position provides extraordinary views of the Cordillera Blanca range. This route sees very few ascents compared to the normal west face route.",
+        "summary": "A seldom-climbed technical ridge route on Huascaran Norte accessed from the Llanganuco valley.",
+        "distance": 24,
+        "elevationGain": 3500,
+        "estimatedTime": 48,
+        "season": "winter",
+        "hazards": "[\"cornices\",\"steep ice\",\"exposure\",\"crevasses\",\"altitude\"]",
+        "safetyNotes": "The ridge is heavily corniced and requires constant vigilance. Climb on the windward side of the ridge to avoid cornice collapse. This route is significantly more committing than the Normal Route with fewer bail-out options.",
+        "basecamp": "Llanganuco Camp (4200m)",
+        "commitment": "IV",
+        "technicalGrade": "AI 3, Snow 50 degrees, Mixed M3",
+        "tips": [
+          {"content": "The Llanganuco approach is more scenic but longer than the Musho approach used for the Normal Route", "category": "logistics"},
+          {"content": "Cornices are largest on the eastern side of the ridge so stay well to the west", "category": "safety"},
+          {"content": "Plan for three camps above base to allow proper acclimatization on this longer route", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Ice tools (pair, technical)", "category": "climbing", "isEssential": true, "notes": "Steep ice steps on the ridge require two tools for security"},
+          {"itemName": "60m half ropes (pair)", "category": "climbing", "isEssential": true, "notes": "Half ropes allow longer rappels for retreat and better rope management on the ridge"},
+          {"itemName": "4-season mountain tent", "category": "camping", "isEssential": true, "notes": "Multiple high camps needed on this longer route"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "An Andean ridge classic", "body": "The Northeast Ridge was exactly the kind of climbing we were looking for. Exposed ridge traversing with incredible views, technical ice steps to keep things interesting, and the satisfaction of a rarely climbed route on a major peak. We had the entire ridge to ourselves for three days. The cornices were impressive and demanded respect.", "conditions": "Stable weather, cornices well-frozen, ice steps in good condition, cold and clear"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mercedario",
+    "routes": [
+      {
+        "name": "Normal Route (Northwest Ridge)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Mercedario follows the northwest ridge from a basecamp in the Rio Colorado valley. The climb is primarily a high-altitude trek over scree and snow with a final moderate snow slope to the summit. Mercedario at 6720m is the highest peak outside of the Aconcagua massif in the Americas and sees very few ascents compared to its famous neighbor. The approach is long and remote, requiring mule support for the multi-day trek to basecamp. The mountain offers a genuine expedition experience without the crowds of Aconcagua.",
+        "summary": "A remote high-altitude trek to the summit of the Americas' second-highest peak via the northwest ridge.",
+        "distance": 30,
+        "elevationGain": 2600,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"remoteness\",\"high winds\",\"dehydration\"]",
+        "safetyNotes": "Mercedario is extremely remote with no rescue services nearby. Carry satellite communication and a comprehensive medical kit. The altitude above 6700m is severe and proper acclimatization is essential.",
+        "basecamp": "Rio Colorado Camp (4200m)",
+        "commitment": "III",
+        "technicalGrade": "Snow 30 degrees",
+        "tips": [
+          {"content": "Arrange mule support from Barreal or Calingasta for the multi-day approach to basecamp", "category": "logistics"},
+          {"content": "Carry all water or plan on melting snow as there are limited water sources on the upper mountain", "category": "safety"},
+          {"content": "January offers the best combination of warm temperatures and stable weather", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Satellite phone or communicator", "category": "navigation", "isEssential": true, "notes": "No cell service and no rescue infrastructure make satellite communication essential"},
+          {"itemName": "Expedition boots", "category": "climbing", "isEssential": true, "notes": "Extreme altitude cold requires fully insulated expedition footwear"},
+          {"itemName": "Snow shoes or ski poles", "category": "climbing", "isEssential": false, "notes": "Deep snow on the approach and lower slopes can be easier with flotation"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Aconcagua without the crowds", "body": "Mercedario offers a true expedition experience that Aconcagua lost long ago. The approach through the Rio Colorado valley is spectacular and we did not see another climbing team for the entire trip. The summit views of Aconcagua across the valley are remarkable. The altitude was brutal but the solitude was worth it.", "conditions": "Clear and cold, moderate wind on summit, firm snow on upper slopes"}
+        ]
+      },
+      {
+        "name": "Argentine Route",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Argentine Route ascends Mercedario from the south via a steeper and more direct line than the Normal Route. This approach passes through a glacier zone with moderate crevasse hazards and steeper snow and ice slopes reaching approximately 45 degrees on the upper face. The route is less frequented than the Normal Route and offers a more technically engaging climb. The southern approach provides a different perspective of this massive mountain and the glacier travel adds alpine character to what is otherwise a high-altitude trekking peak.",
+        "summary": "A more technical southern approach to Mercedario via glacier travel and steeper ice slopes.",
+        "distance": 28,
+        "elevationGain": 2600,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"steep ice\",\"extreme altitude\",\"remoteness\"]",
+        "safetyNotes": "The glacier zone requires rope work and crevasse rescue skills. The steeper ice slopes above demand crampon competence. This route is even more remote than the Normal Route with a longer approach.",
+        "basecamp": "South Valley Camp (4100m)",
+        "commitment": "III",
+        "technicalGrade": "AI 2, Snow 45 degrees",
+        "tips": [
+          {"content": "The southern approach is longer and more logistically demanding than the standard northwest approach", "category": "logistics"},
+          {"content": "Rope up for the glacier section and carry full crevasse rescue equipment", "category": "safety"},
+          {"content": "The steeper upper section is best climbed in the early morning when snow is firm and stable", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Glacier travel kit (rope, harness, prusiks, pulleys)", "category": "climbing", "isEssential": true, "notes": "Crevasse rescue capability required for the glacier section"},
+          {"itemName": "Ice axe (60cm)", "category": "climbing", "isEssential": true, "notes": "Needed for self-arrest and step-cutting on the steeper upper slopes"},
+          {"itemName": "4-season tent rated for high winds", "category": "camping", "isEssential": true, "notes": "The south side is more exposed to weather than the northwest"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A proper alpine route on a high peak", "body": "The Argentine Route adds genuine alpine character to Mercedario. The glacier travel and steeper ice were a welcome change from the scree plod of the Normal Route. We approached from the south in four days and climbed the upper face in a single push from high camp. Even more remote and solitary than the standard approach.", "conditions": "Glacier with moderate crevasse openings, firm ice on upper face, cold and clear"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Nevado de Cachi",
+    "routes": [
+      {
+        "name": "West Slopes (Normal Route)",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The Normal Route on Nevado de Cachi ascends the gentle western slopes from the town of Cachi in the Calchaqui Valley of Salta province. The route follows a long but non-technical approach through desert terrain before reaching the upper snow and scree slopes. The climb is essentially a high-altitude trek with no technical challenges. The primary difficulties are the altitude, the dry conditions, and the long distances involved. The summit views over the vast Argentine puna are spectacular.",
+        "summary": "A high-altitude trek up the gentle western slopes from the historic town of Cachi in the Calchaqui Valley.",
+        "distance": 24,
+        "elevationGain": 3000,
+        "estimatedTime": 36,
+        "season": "summer",
+        "hazards": "[\"altitude sickness\",\"dehydration\",\"extreme sun\",\"remoteness\"]",
+        "safetyNotes": "Water is extremely scarce on the mountain. Carry all water needed or arrange for mule support to cache water at camps. Sun exposure at this latitude and altitude is intense and sun protection is critical.",
+        "basecamp": "Cachi Base (3500m)",
+        "commitment": "II",
+        "technicalGrade": "Scramble Class 1",
+        "tips": [
+          {"content": "Hire local arrieros and mules from Cachi to support the long approach with water and supplies", "category": "logistics"},
+          {"content": "The best months are December through February when temperatures are warmest", "category": "timing"},
+          {"content": "Carry at least 4 liters of water per person per day as there are no reliable water sources above basecamp", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Sun hat and high-SPF sunscreen", "category": "climbing", "isEssential": true, "notes": "Extreme UV exposure at this altitude and latitude requires full sun protection"},
+          {"itemName": "Large water containers (4L+ per person per day)", "category": "camping", "isEssential": true, "notes": "No water sources on the mountain above basecamp"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "The featureless desert terrain can be disorienting in poor visibility"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "A long walk in the desert sky", "body": "Nevado de Cachi is more of a desert expedition than a climb. The western slopes are gentle but endless and the lack of water is the real challenge. The summit views over the puna were worth the effort. Not technically rewarding but a genuine test of endurance and altitude tolerance.", "conditions": "Hot and dry, clear skies, light wind, no snow below 5500m"}
+        ]
+      },
+      {
+        "name": "Southwest Ridge",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Southwest Ridge of Nevado de Cachi provides a slightly more engaging alternative to the Normal Route. The ridge involves some scrambling over rocky terrain and short sections of steeper climbing before joining the upper snow slopes. The route offers better views and a more defined line than the western slopes approach. Some route-finding is required on the lower ridge where the terrain is broken and complex. The upper ridge narrows and provides satisfying exposed scrambling.",
+        "summary": "A more engaging ridge alternative with scrambling and exposed sections above the Calchaqui Valley.",
+        "distance": 22,
+        "elevationGain": 3000,
+        "estimatedTime": 38,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"altitude\",\"dehydration\",\"exposure\"]",
+        "safetyNotes": "The lower ridge has loose rock sections where careful footwork is important. The upper ridge is more exposed than the Normal Route and should not be attempted in high wind conditions.",
+        "basecamp": "Cachi Base (3500m)",
+        "commitment": "II",
+        "technicalGrade": "Scramble Class 3",
+        "tips": [
+          {"content": "The lower ridge is best accessed via a gully system on the south side rather than a direct approach", "category": "general"},
+          {"content": "Carry a short rope for confidence on the more exposed sections of the upper ridge", "category": "safety"},
+          {"content": "This route can be combined with the Normal Route for an ascent-descent traverse", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Climbing helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the lower ridge makes head protection important"},
+          {"itemName": "30m accessory rope", "category": "climbing", "isEssential": false, "notes": "Useful for confidence on exposed scrambling sections"},
+          {"itemName": "Sturdy approach shoes", "category": "climbing", "isEssential": true, "notes": "The rocky ridge terrain is best navigated in supportive footwear"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Better than the normal slog", "body": "The Southwest Ridge adds welcome interest to what would otherwise be a desert trudge. The scrambling sections are fun and the exposure on the upper ridge gives a sense of mountain adventure. Route-finding on the lower broken terrain required some creativity. A nice alternative if you want more engagement than the standard west slopes.", "conditions": "Dry rock, some loose sections on lower ridge, clear and warm"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Tres Cruces",
+    "routes": [
+      {
+        "name": "Normal Route (Chilean Side)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Tres Cruces approaches from the Chilean side near the Maricunga salt flat in the Atacama region. The route ascends over volcanic scree and moderate snow slopes to reach the summit of this remote and rarely climbed 6749m peak. Tres Cruces is the fifth highest peak in the Americas and one of the least visited of the major Andean summits. The extreme remoteness and lack of infrastructure make this a genuine expeditionary undertaking. Two to three camps are typically established above basecamp.",
+        "summary": "A remote expedition climb on the fifth-highest peak in the Americas from Chile's Atacama region.",
+        "distance": 26,
+        "elevationGain": 2400,
+        "estimatedTime": 48,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"remoteness\",\"extreme cold\",\"high winds\"]",
+        "safetyNotes": "Tres Cruces is extremely remote with no rescue services within many hours. Complete self-sufficiency is required. The altitude above 6700m is severe and the dry Atacama air intensifies dehydration.",
+        "basecamp": "Maricunga Approach Camp (4350m)",
+        "commitment": "III",
+        "technicalGrade": "Snow 30 degrees",
+        "tips": [
+          {"content": "Arrange all vehicle support and permits through a licensed Atacama operator before departing for the mountain", "category": "logistics"},
+          {"content": "December and January offer the most stable weather window for this peak", "category": "timing"},
+          {"content": "The Maricunga salt flat area can be used for initial acclimatization before moving to basecamp", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Expedition-rated down suit", "category": "climbing", "isEssential": true, "notes": "Summit temperatures can drop below -35C with wind chill"},
+          {"itemName": "Snow stakes and pickets", "category": "climbing", "isEssential": true, "notes": "Required for anchoring tents in the loose volcanic soil and snow at high camps"},
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "Absolute necessity given the extreme remoteness with no cell coverage"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "True expedition mountaineering in the Atacama", "body": "Tres Cruces is one of the most remote climbs I have done in South America. We drove for hours on rough desert tracks to reach the approach. The mountain itself is straightforward but the altitude and isolation make it serious. We saw no other climbers during our two-week expedition. The Atacama sky at night was unforgettable.", "conditions": "Extremely dry, cold, moderate winds, clear skies throughout"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Pissis",
+    "routes": [
+      {
+        "name": "Normal Route from the East",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Pissis approaches from the east through the Argentine puna. Pissis at 6795m is the third-highest peak in the Americas and the highest non-volcanic summit in the Andes. The route follows a long approach over desert terrain before ascending moderate scree and snow slopes. The mountain is extremely remote and sees very few ascents. Multiple camps are needed and the approach requires high-clearance 4WD vehicles on rough tracks. The climbing itself is non-technical but the altitude and isolation create a genuine expeditionary challenge.",
+        "summary": "The standard eastern approach to the third-highest peak in the Americas through remote Argentine puna.",
+        "distance": 30,
+        "elevationGain": 2300,
+        "estimatedTime": 60,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"extreme remoteness\",\"dehydration\",\"extreme cold\"]",
+        "safetyNotes": "Pissis is one of the most remote major peaks in the Andes. No rescue services exist anywhere nearby. Full expedition self-sufficiency including medical supplies and satellite communication is mandatory.",
+        "basecamp": "East Approach Camp (4500m)",
+        "commitment": "III",
+        "technicalGrade": "Snow 25 degrees",
+        "tips": [
+          {"content": "Vehicle access to the approach requires a well-equipped 4WD and an experienced driver familiar with the puna tracks", "category": "logistics"},
+          {"content": "Carry all fuel, water, and supplies as there are no services of any kind near the mountain", "category": "logistics"},
+          {"content": "January is the warmest month and offers the best conditions for summit attempts", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Full expedition gear including stove, fuel, and food for 10+ days", "category": "camping", "isEssential": true, "notes": "Complete self-sufficiency required for the duration of the expedition"},
+          {"itemName": "Expedition double boots", "category": "climbing", "isEssential": true, "notes": "Extreme cold at nearly 6800m demands the warmest available footwear"},
+          {"itemName": "GPS with extra batteries", "category": "navigation", "isEssential": true, "notes": "Featureless desert terrain and volcanic scree require reliable navigation"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The ultimate high-altitude desert expedition", "body": "Pissis is for those who love remote and desolate places. The approach through the puna felt like driving on another planet. The mountain itself is not technically demanding but the combination of nearly 6800m altitude and total isolation makes it a real adventure. We spent 12 days total and never saw another person.", "conditions": "Dry, very cold, light wind, clear skies, firm scree"}
+        ]
+      },
+      {
+        "name": "South Approach",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The South Approach to Pissis offers an alternative line from the southern flanks of the mountain. This route is even less traveled than the standard eastern approach and passes through a landscape of stark volcanic beauty. The climbing terrain is similar to the Normal Route with extended scree travel and moderate snow slopes. The southern approach provides access to the main summit via a slightly different angle and can be combined with the eastern descent for a traverse. Logistics are even more complex than the eastern approach.",
+        "summary": "An alternative approach from the south through volcanic desert terrain, even more remote than the eastern route.",
+        "distance": 32,
+        "elevationGain": 2400,
+        "estimatedTime": 64,
+        "season": "summer",
+        "hazards": "[\"extreme remoteness\",\"extreme altitude\",\"navigation difficulty\",\"extreme cold\"]",
+        "safetyNotes": "The southern approach tracks are even rougher and more poorly defined than the eastern approach. Get detailed GPS waypoints from previous expeditions before attempting this route. Vehicle breakdowns in this area could be life-threatening.",
+        "basecamp": "South Valley Camp (4400m)",
+        "commitment": "III",
+        "technicalGrade": "Snow 25 degrees",
+        "tips": [
+          {"content": "Obtain detailed GPS waypoints from previous expeditions as the approach tracks are barely discernible", "category": "navigation"},
+          {"content": "Bring vehicle spare parts including tires and fuel filters as the rough tracks are hard on vehicles", "category": "logistics"},
+          {"content": "Combine with the eastern descent for a satisfying north-south traverse of the mountain", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Vehicle recovery equipment (tow strap, jack, compressor)", "category": "navigation", "isEssential": true, "notes": "The approach tracks are extremely rough and vehicle recovery capability is essential"},
+          {"itemName": "Jerry cans for extra fuel (40L+)", "category": "camping", "isEssential": true, "notes": "No fuel available for hundreds of kilometers in any direction"},
+          {"itemName": "Comprehensive first aid and medical kit", "category": "camping", "isEssential": true, "notes": "Medical evacuation would take a day or more from this location"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Extreme isolation in the high desert", "body": "The south approach to Pissis is for those who find the eastern approach too popular which is saying something. We spent more time worrying about the vehicle tracks than the climbing. The volcanic landscape is hauntingly beautiful and the solitude is absolute. Bring backup for everything as there is no help out here.", "conditions": "Extremely dry, cold at altitude, good visibility, no snow below 5800m"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Bonete",
+    "routes": [
+      {
+        "name": "Normal Route (South Approach)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Bonete (also known as Cerro Bonete Chico) ascends from a southern approach through the remote Argentine puna of La Rioja province. Bonete at 6759m is one of the highest and least climbed peaks in the Americas. The route is essentially a high-altitude trek over volcanic scree and snow with no technical difficulties. The principal challenges are the extreme altitude, the total remoteness, and the logistical complexity of reaching the mountain. Very few parties attempt this peak each year.",
+        "summary": "A remote expedition to one of the highest and least climbed peaks in the Americas via the southern puna.",
+        "distance": 28,
+        "elevationGain": 2300,
+        "estimatedTime": 56,
+        "season": "summer",
+        "hazards": "[\"extreme altitude\",\"extreme remoteness\",\"dehydration\",\"high winds\"]",
+        "safetyNotes": "Bonete is extremely remote and rarely climbed. Complete self-sufficiency is mandatory. The altitude above 6750m is severe and acclimatization is essential. No rescue services exist anywhere in the region.",
+        "basecamp": "South Approach Camp (4450m)",
+        "commitment": "III",
+        "technicalGrade": "Snow 25 degrees",
+        "tips": [
+          {"content": "Link this peak with an attempt on nearby Pissis to make the most of the long and expensive logistics", "category": "logistics"},
+          {"content": "The approach from Jague or Vinchina in La Rioja province requires local knowledge of the puna tracks", "category": "logistics"},
+          {"content": "Late December to early February provides the most hospitable conditions at this extreme altitude", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Expedition shelter rated for extreme wind", "category": "camping", "isEssential": true, "notes": "High camps are fully exposed to puna winds that can be ferocious"},
+          {"itemName": "Water purification and melting system", "category": "camping", "isEssential": true, "notes": "All water must be melted from snow above basecamp"},
+          {"itemName": "High-altitude medication (acetazolamide, dexamethasone)", "category": "camping", "isEssential": true, "notes": "Emergency altitude medication is critical given the remoteness and extreme elevation"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "One of the last great unvisited summits", "body": "Bonete is probably the least known peak above 6750m in the world. Getting there was half the adventure with days of rough driving through the puna. The climb itself is a scree trudge but the feeling of standing on such a remote and rarely visited summit was profound. We found no evidence of previous visits at the top.", "conditions": "Dry, cold, windy at summit, clear views across the puna to Pissis and beyond"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Pico de Orizaba",
+    "routes": [
+      {
+        "name": "South Face (Serpiente Glaciar)",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The South Face route via the Serpiente Glaciar offers a more technical alternative to the popular Jamapa Glacier route on Mexico's highest peak. The Serpiente (Snake) Glacier winds up the south face with steeper ice than the Jamapa and more crevasse hazards. The route provides a quieter and more engaging climbing experience. The ice is generally steeper at 35 to 45 degrees and the glacier has more seracs and broken terrain than the standard route. The approach is from the same Piedra Grande hut but diverges to the left.",
+        "summary": "A steeper glacier route on Orizaba's south face with more technical ice climbing than the standard Jamapa route.",
+        "distance": 12,
+        "elevationGain": 1450,
+        "estimatedTime": 12,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"steep ice\",\"altitude sickness\",\"rockfall from crater rim\"]",
+        "safetyNotes": "The Serpiente Glacier has more active crevasses than the Jamapa. Rope up for the entire glacier section. The steeper ice sections require competent crampon technique and self-arrest skills.",
+        "basecamp": "Piedra Grande Hut (4260m)",
+        "commitment": "II",
+        "technicalGrade": "AI 2, Snow 45 degrees",
+        "tips": [
+          {"content": "Start before midnight to have the entire glacier in cold conditions for the ascent", "category": "timing"},
+          {"content": "The Serpiente Glacier requires more glacier travel experience than the Jamapa so practice crevasse rescue before attempting", "category": "safety"},
+          {"content": "November through March offers the most stable snow and ice conditions on the south face", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Steel crampons (12-point)", "category": "climbing", "isEssential": true, "notes": "Hard ice on the steeper sections of the Serpiente Glacier requires steel crampons"},
+          {"itemName": "Ice axe (55-65cm)", "category": "climbing", "isEssential": true, "notes": "Essential for self-arrest on the steeper glacier slopes"},
+          {"itemName": "Glacier rope (40m)", "category": "climbing", "isEssential": true, "notes": "Mandatory for roped glacier travel through the crevassed zone"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Better than the Jamapa for experienced climbers", "body": "The Serpiente Glaciar was a great alternative to the crowded Jamapa. The ice was steeper and more engaging and we had the route entirely to ourselves. A few open crevasses kept us honest on the rope. Arrived at the crater rim just as the sun was rising over the Gulf of Mexico. Highly recommended for those with glacier experience.", "conditions": "Hard ice on lower glacier, softer neve higher up, clear skies, light wind"}
+        ]
+      },
+      {
+        "name": "Chichimeco Route",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Chichimeco Route approaches Pico de Orizaba from the north side, starting from the village of Tlachichuca and ascending via the Chichimeco Glacier. This route is less popular than the south face routes but offers a different perspective of the volcano. The glacier travel is moderate with some crevasse hazard and the route is slightly longer than the Jamapa approach. The north side of the mountain tends to hold more snow and the glacier conditions can be different from the south face.",
+        "summary": "A north-side approach via the Chichimeco Glacier offering a quieter alternative to the south face routes.",
+        "distance": 14,
+        "elevationGain": 1500,
+        "estimatedTime": 13,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"whiteout conditions\",\"cold\"]",
+        "safetyNotes": "The north side accumulates more snow and can have more extensive crevasse development. Visibility on the north face can deteriorate quickly in afternoon clouds. Carry GPS as the featureless glacier can be disorienting in whiteout.",
+        "basecamp": "North Side Camp (4200m)",
+        "commitment": "II",
+        "technicalGrade": "AI 1+, Snow 35 degrees",
+        "tips": [
+          {"content": "The Tlachichuca approach is more logistically complex than the south side but the mountain is quieter", "category": "logistics"},
+          {"content": "Carry GPS waypoints for the glacier as the north side is featureless and prone to whiteout", "category": "navigation"},
+          {"content": "The north side holds more snow so conditions may be better for glacier travel later in the season", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "GPS with preloaded waypoints", "category": "navigation", "isEssential": true, "notes": "Featureless north glacier is extremely difficult to navigate in poor visibility"},
+          {"itemName": "Crampons and ice axe", "category": "climbing", "isEssential": true, "notes": "Standard glacier equipment needed for the Chichimeco Glacier"},
+          {"itemName": "Insulated jacket and pants", "category": "climbing", "isEssential": true, "notes": "The north aspect is colder and less sunny than the south face routes"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "A quiet way up Mexico's highest peak", "body": "The Chichimeco Route was a pleasant surprise. We had expected crowds after reading about the Jamapa but the north side was deserted. The glacier was straightforward with only minor crevasses. The approach from Tlachichuca took longer to arrange but was worth it for the solitude. Cloud buildup on the north face was quicker than expected.", "conditions": "More snow coverage than south side, moderate crevassing, cloudy afternoon, cool temps"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Iztaccihuatl",
+    "routes": [
+      {
+        "name": "Direct Route to Chest",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Direct Route to the Chest (El Pecho) is the standard route to the highest point of Iztaccihuatl, Mexico's third-highest peak. The route begins at La Joya parking area and ascends through alpine meadows before reaching the glaciated upper slopes. The summit of El Pecho involves moderate snow and ice climbing in the final section. Iztaccihuatl's glaciers have retreated significantly in recent years altering the traditional route. The climb offers spectacular views of neighboring Popocatepetl volcano.",
+        "summary": "The standard route to Iztaccihuatl's highest point at El Pecho through alpine meadows and glaciated upper slopes.",
+        "distance": 14,
+        "elevationGain": 1230,
+        "estimatedTime": 10,
+        "season": "winter",
+        "hazards": "[\"altitude sickness\",\"loose rock\",\"ice fall\",\"rapid weather changes\"]",
+        "safetyNotes": "The glaciers on Iztaccihuatl are retreating rapidly and rock beneath is loose and unstable. Conditions can change from year to year. Check recent conditions before attempting the route.",
+        "basecamp": "La Joya Parking Area (3980m)",
+        "commitment": "II",
+        "technicalGrade": "AI 1+, Snow 35 degrees",
+        "tips": [
+          {"content": "Start before dawn from La Joya to reach the summit by mid-morning before afternoon clouds and storms develop", "category": "timing"},
+          {"content": "The route conditions change significantly year to year due to glacial retreat so seek current beta", "category": "general"},
+          {"content": "Acclimatize by spending a day or two in Mexico City or Puebla at moderate altitude before attempting", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "Required for the icy upper slopes, especially in the dry season"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": true, "notes": "Needed for security on the steeper snow and ice sections near the summit"},
+          {"itemName": "Warm layers and wind shell", "category": "climbing", "isEssential": true, "notes": "Temperatures drop rapidly above 5000m even in the subtropics"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A rewarding climb within sight of Mexico City", "body": "The Direct Route to the Chest is a fantastic day climb from the city. We started at 3 AM from La Joya and reached the summit by 9 AM. The upper section had good ice conditions and crampons were essential. The view of Popocatepetl smoking across the valley was dramatic. Descended in afternoon clouds.", "conditions": "Firm ice on upper slopes, clear morning, clouds building by 10 AM, light wind"}
+        ]
+      },
+      {
+        "name": "Ayoloco Glacier Route",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The Ayoloco Glacier Route ascends a more direct and steeper line via the Ayoloco Glacier on Iztaccihuatl's eastern flank. This glacier has been retreating dramatically but when in condition offers moderate ice climbing with crevasse hazards. The route is steeper than the standard Direct Route and requires more technical ice skills. Due to glacial retreat this route may not be climbable in all years and conditions should be carefully verified. When in condition it is one of the finest moderate ice climbs in central Mexico.",
+        "summary": "A technical glacier route on Iztaccihuatl's eastern flank when the retreating Ayoloco Glacier is in condition.",
+        "distance": 12,
+        "elevationGain": 1300,
+        "estimatedTime": 11,
+        "season": "winter",
+        "hazards": "[\"crevasses\",\"ice fall\",\"glacial retreat hazards\",\"loose rock\"]",
+        "safetyNotes": "The Ayoloco Glacier is retreating rapidly and conditions change year to year. Verify current conditions before attempting. The ice can be thin over loose rock in some years creating additional hazards.",
+        "basecamp": "La Joya Parking Area (3980m)",
+        "commitment": "II",
+        "technicalGrade": "WI 3, AI 2",
+        "tips": [
+          {"content": "Contact local mountain clubs like the Club de Exploraciones de Mexico for current glacier conditions before attempting", "category": "general"},
+          {"content": "The glacier is best climbed in December through February when snowfall has filled crevasses and renewed ice", "category": "timing"},
+          {"content": "This route may become unclimbable in coming years due to glacial retreat so climb it while you can", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools (pair)", "category": "climbing", "isEssential": true, "notes": "The steeper sections of the glacier require two tools for security"},
+          {"itemName": "Ice screws (4-6)", "category": "climbing", "isEssential": true, "notes": "Needed for protection and belay anchors on the glacier"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Falling ice and exposed rock from glacial retreat create overhead hazards"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Climb it before it disappears", "body": "The Ayoloco Glacier was in surprisingly good condition for late December. The ice was thick enough for solid screw placements and we found several moderate crevasses. It is heartbreaking to see how much the glacier has shrunk from historical photos. This is a climb racing against climate change. The ice quality was excellent.", "conditions": "Good ice conditions after recent snowfall, crevasses partially bridged, cold predawn temps"}
+        ]
+      },
+      {
+        "name": "La Arista del Sol",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "La Arista del Sol (Ridge of the Sun) follows a prominent rock and mixed ridge on the eastern side of Iztaccihuatl. The route involves scrambling over volcanic rock with some exposed sections and short technical steps. The ridge catches the morning sun early, giving it its poetic name. The climbing is varied with rock, scree, and some snow and ice sections depending on the season. This is one of the more technical rock-focused routes on the mountain and sees relatively few ascents.",
+        "summary": "A varied rock and mixed ridge route on Iztaccihuatl's eastern aspect catching the early morning sun.",
+        "distance": 13,
+        "elevationGain": 1300,
+        "estimatedTime": 12,
+        "season": "winter",
+        "hazards": "[\"loose volcanic rock\",\"exposure\",\"route-finding difficulty\",\"altitude\"]",
+        "safetyNotes": "The volcanic rock is loose in sections and helmets are mandatory. The ridge has some exposed moves where a fall would have serious consequences. Route-finding is important as the ridge has many false leads.",
+        "basecamp": "La Joya Parking Area (3980m)",
+        "commitment": "III",
+        "technicalGrade": "Rock III+, Mixed M2",
+        "tips": [
+          {"content": "Start early to enjoy the dramatic sunrise lighting that gives this ridge its name", "category": "timing"},
+          {"content": "The ridge is best navigated by staying slightly on the south side where the rock is more solid", "category": "general"},
+          {"content": "Descend via the standard Direct Route for an efficient loop rather than reversing the ridge", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Climbing helmet", "category": "climbing", "isEssential": true, "notes": "Loose volcanic rock makes head protection absolutely essential"},
+          {"itemName": "Light rack (small cams and slings)", "category": "climbing", "isEssential": false, "notes": "Useful for protection on the more exposed technical steps"},
+          {"itemName": "Approach shoes with sticky rubber", "category": "climbing", "isEssential": true, "notes": "Good friction is needed for the volcanic rock scrambling sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A hidden gem on Izta", "body": "La Arista del Sol was a wonderful surprise. The morning light hitting the ridge as we climbed was magical and the scrambling was engaging without being terrifying. Some route-finding was needed on the lower sections but the line becomes obvious higher up. The volcanic rock was better quality than expected for most of the ridge.", "conditions": "Dry rock, clear morning, some snow on upper mixed sections, light wind"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Popocatepetl",
+    "routes": [
+      {
+        "name": "Las Cruces Route (Historical)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Las Cruces Route is the historical standard route on Popocatepetl, Mexico's second-highest peak and an active stratovolcano. The route ascends from the Las Cruces shelter through volcanic scree and snow to the crater rim. This route has been closed since 1994 when Popocatepetl resumed significant volcanic activity and access has been restricted by CENAPRED (Mexico's disaster prevention center) ever since. This entry is included for historical reference only. The route was formerly one of the most popular high-altitude climbs in Mexico. The mountain remains closed to all climbing.",
+        "summary": "The historical standard route on Popocatepetl, closed since 1994 due to ongoing volcanic activity.",
+        "distance": 12,
+        "elevationGain": 1426,
+        "estimatedTime": 9,
+        "season": "winter",
+        "hazards": "[\"active volcanic eruption\",\"toxic gases\",\"lahars\",\"pyroclastic flows\",\"rockfall\"]",
+        "safetyNotes": "THIS ROUTE AND ALL ROUTES ON POPOCATEPETL ARE CURRENTLY CLOSED. The volcano has been in a state of heightened activity since 1994 with periodic explosive eruptions. Access is prohibited by Mexican authorities through CENAPRED. Do not attempt to climb this mountain. Violators face criminal penalties and extreme danger to life.",
+        "basecamp": "Las Cruces Shelter (4050m) - CLOSED",
+        "commitment": "II",
+        "technicalGrade": "Snow 35 degrees",
+        "tips": [
+          {"content": "DO NOT ATTEMPT THIS CLIMB. Popocatepetl is an active volcano and all access is prohibited by Mexican authorities", "category": "safety"},
+          {"content": "Monitor CENAPRED bulletins for the current volcanic alert level before planning any visit to the area", "category": "safety"},
+          {"content": "Iztaccihuatl across the valley offers excellent climbing and spectacular views of Popocatepetl from a safe distance", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Crampons and ice axe (historical)", "category": "climbing", "isEssential": true, "notes": "When the mountain was open, standard glacier equipment was required for the snow and ice sections"},
+          {"itemName": "Gas mask with volcanic filters (historical)", "category": "climbing", "isEssential": true, "notes": "Even before closure, sulfurous gases near the crater demanded respiratory protection"},
+          {"itemName": "Helmet (historical)", "category": "climbing", "isEssential": true, "notes": "Volcanic ejecta and rockfall near the crater were always present hazards"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A memory from before the closure", "body": "I climbed Popocatepetl via Las Cruces in 1992 before the mountain woke up. It was a magnificent snow climb with the crater steaming gently at the top. The views of Iztaccihuatl and the Valley of Mexico were breathtaking. It is deeply sad that this climb is no longer possible. Respect the closure and climb Izta instead.", "conditions": "Historical: firm snow, light sulfur smell near crater, clear skies, pre-eruption era"}
+        ]
+      }
+    ]
+  }
+]

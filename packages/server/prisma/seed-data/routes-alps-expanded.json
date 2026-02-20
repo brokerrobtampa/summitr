@@ -1,0 +1,2191 @@
+[
+  {
+    "peakName": "Jungfrau",
+    "routes": [
+      {
+        "name": "Normal Route from Jungfraujoch",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The standard route to the Jungfrau begins at the Jungfraujoch station, the highest railway station in Europe. The climb traverses the Jungfraufirn glacier before ascending the steep final snow slopes to the summit. Crevasse danger is present on the glacier section and the upper slopes can be icy, requiring careful crampon technique. This is considered one of the more accessible 4000m peaks in the Bernese Alps thanks to the railway approach.",
+        "summary": "The most popular route up the Jungfrau, starting from the high-altitude Jungfraujoch railway station.",
+        "distance": 10,
+        "elevationGain": 800,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"steep ice slopes\",\"altitude sickness\",\"sudden weather changes\"]",
+        "safetyNotes": "Rope up for glacier travel. Start early to avoid afternoon cloud and softening snow. The final slopes can be very icy in early season. Acclimatize properly despite the easy rail access to 3450m.",
+        "basecamp": "Jungfraujoch (Sphinx Observatory)",
+        "commitment": "II",
+        "technicalGrade": "snow 35-40 degrees",
+        "tips": [
+          {
+            "content": "Take the first train to Jungfraujoch to maximize your weather window and firm snow conditions on the upper slopes.",
+            "category": "timing"
+          },
+          {
+            "content": "Spend a night at the Monchsjoch Hut for better acclimatization rather than climbing directly from the railway station.",
+            "category": "safety"
+          },
+          {
+            "content": "The Rottalsattel can be a wind trap; bring an extra insulation layer even in summer.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steel crampons with anti-balling plates essential for the icy upper slopes."
+          },
+          {
+            "itemName": "Glacier rope (30-40m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Minimum 30m half rope for glacier travel and crevasse rescue."
+          },
+          {
+            "itemName": "GPS device",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Useful for navigation in whiteout conditions on the featureless glacier."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Stunning summit with easy approach",
+            "body": "The train ride to Jungfraujoch makes this feel almost too convenient, but the climb itself is real mountaineering. We had perfect conditions in mid-July with firm neve all the way. The views from the top across the Bernese Alps are outstanding. Definitely rope up on the glacier.",
+            "conditions": "Firm neve, clear skies, light wind. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Rottalgrat",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Rottalgrat is the classic ridge route on the Jungfrau, offering a more challenging and aesthetic alternative to the Normal Route. The route follows the prominent southeast ridge with mixed terrain including rock steps up to UIAA III and exposed snow aretes. Several sections require careful route-finding through broken rock bands interspersed with snow and ice. This is a serious undertaking that rewards experienced alpinists with one of the finest ridge climbs in the Bernese Oberland.",
+        "summary": "A classic mixed ridge climb on the Jungfrau offering sustained alpine terrain above the Rottal valley.",
+        "distance": 12,
+        "elevationGain": 1000,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposed ridge\",\"mixed terrain\",\"cornices\",\"rapid weather changes\"]",
+        "safetyNotes": "The ridge is highly exposed and retreat can be difficult once committed. Rock quality varies and helmets are mandatory. Check weather carefully as the ridge is extremely dangerous in storms. Cornices may overhang the north side.",
+        "basecamp": "Rottalhut",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, mixed",
+        "tips": [
+          {
+            "content": "Study the ridge profile from Jungfraujoch the evening before to identify the key rock steps and route variations.",
+            "category": "general"
+          },
+          {
+            "content": "Carry a small rock rack with a few cams and nuts for protecting the crux rock steps.",
+            "category": "safety"
+          },
+          {
+            "content": "Conditions are usually best from late June to mid-August when the rock steps are mostly clear of verglas.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams (0.3-2), a set of nuts, and a few slings for the rock sections."
+          },
+          {
+            "itemName": "Ice axe and crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical ice axe preferred for the mixed sections; crampons with front points."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mandatory due to rockfall risk and the nature of the broken rock terrain."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "One of the best ridge climbs in the Bernese Alps",
+            "body": "Absolutely phenomenal route. The sustained mixed climbing along the ridge crest is thrilling, and the exposure is world-class. We found good rock on the main steps and mostly firm snow on the connecting aretes. Descended via the Normal Route back to Jungfraujoch. A must-do for competent alpinists.",
+            "conditions": "Dry rock, firm snow aretes, calm winds. Early August."
+          }
+        ]
+      },
+      {
+        "name": "Innerer Rottalgrat",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Innerer Rottalgrat is the more direct and difficult variant of the Rottalgrat, taking a line closer to the south face. It features sustained mixed climbing with rock pitches up to UIAA IV and steep ice sections. The route demands confident climbing on variable terrain and solid route-finding skills. This is a serious alpine undertaking reserved for experienced mountaineers comfortable on exposed mixed ground at altitude.",
+        "summary": "The harder inner variant of the Rottalgrat with sustained mixed climbing and rock up to UIAA IV.",
+        "distance": 12,
+        "elevationGain": 1050,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"steep mixed terrain\",\"exposure\",\"route-finding difficulty\",\"altitude\"]",
+        "safetyNotes": "This route is significantly harder than the standard Rottalgrat and should only be attempted by experienced parties. Retreat is very difficult from the upper sections. The rock can be loose in places and the ice sections require solid technique.",
+        "basecamp": "Rottalhut",
+        "commitment": "IV",
+        "technicalGrade": "UIAA IV, AI3",
+        "tips": [
+          {
+            "content": "Consider climbing the standard Rottalgrat first to familiarize yourself with the general terrain before attempting this harder variant.",
+            "category": "general"
+          },
+          {
+            "content": "An early alpine start is critical as the route length demands a full day and afternoon rockfall increases significantly.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry ice screws for protecting the steeper ice sections in the middle portion of the route.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two technical ice tools needed for the steep mixed and ice sections."
+          },
+          {
+            "itemName": "Ice screws (4-6)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Medium-length screws for protecting ice pitches."
+          },
+          {
+            "itemName": "Alpine rack with cams and nuts",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams to size 2, nuts, and long slings for the rock pitches and mixed terrain."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Serious alpine route with incredible position",
+            "body": "This is a proper hard alpine route. The mixed pitches are sustained and require confident movement. We found thin ice on two of the crux sections which made them feel harder than expected. Navigation was tricky in a few spots. Rewarding climb for those ready for it, but not to be underestimated.",
+            "conditions": "Mixed conditions, thin ice on crux, mostly dry rock. Late July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Dom",
+    "routes": [
+      {
+        "name": "Festigrat (Normal Route)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Festigrat is the standard ascent route to the Dom, the highest peak entirely within Switzerland. The route starts from the Dom Hut and ascends the Festigletscher glacier before climbing the Festigrat ridge to the summit. The glacier section requires careful navigation around crevasses and the upper ridge offers stunning exposed climbing on snow and rock. This is a long day demanding good fitness and solid glacier travel skills.",
+        "summary": "The classic normal route up the Dom via the Festi glacier and the Festigrat ridge.",
+        "distance": 14,
+        "elevationGain": 1800,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"long approach\",\"exposed ridge\",\"serac fall risk\"]",
+        "safetyNotes": "The Dom is a serious high-altitude objective at 4545m. Proper acclimatization is essential. The glacier has significant crevasse zones that shift through the season. Start very early to be off the summit before afternoon weather. Carry emergency bivvy gear for the long route.",
+        "basecamp": "Dom Hut (Domhutte, 2940m)",
+        "commitment": "III",
+        "technicalGrade": "snow 35 degrees, UIAA II",
+        "tips": [
+          {
+            "content": "Spend two nights at the Dom Hut for proper acclimatization before attempting the summit, especially if coming from low altitude.",
+            "category": "safety"
+          },
+          {
+            "content": "The approach from Randa to the Dom Hut is steep and long; consider breaking it up if not well acclimatized.",
+            "category": "logistics"
+          },
+          {
+            "content": "July and August generally offer the most stable conditions, though the glacier is more broken late in the season.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Glacier travel kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rope, harness, crevasse rescue pulleys, prusiks, and ice screws for glacier travel."
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rigid crampons and a standard mountaineering ice axe for the glacier and upper ridge."
+          },
+          {
+            "itemName": "Emergency bivvy sack",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Recommended given the length of the route and altitude; conditions can deteriorate quickly."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Long but rewarding climb to Switzerland's highest internal peak",
+            "body": "The Festigrat is a proper alpine outing. We started at 3am from the Dom Hut and summited by 9am in perfect conditions. The glacier navigation was straightforward with a good track but some large crevasses were visible off-route. The final ridge is airy and beautiful. Come well-acclimatized or the altitude will be a real challenge.",
+            "conditions": "Clear skies, firm snow, moderate crevasse activity. Early August."
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The North Face of the Dom is one of the great north faces of the Alps, rising over 1500 meters above the Festi glacier. The route ascends steep ice and snow slopes with sustained gradients of 50-55 degrees and short sections of steeper ice. Serac hazard exists in the upper portion and the face demands fast, efficient climbing to minimize exposure time. This is a serious undertaking requiring excellent ice climbing ability, high-altitude fitness, and favorable conditions.",
+        "summary": "A major north face route with over 1500m of sustained steep ice climbing on one of the great Alpine walls.",
+        "distance": 14,
+        "elevationGain": 1800,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"serac collapse\",\"avalanche\",\"sustained steep ice\",\"stonefall\",\"extreme altitude exposure\"]",
+        "safetyNotes": "Only attempt in cold, stable conditions with a firm overnight freeze. The serac bands in the upper face present objective danger that cannot be fully mitigated. Climb fast through the danger zones. Full ice climbing competence at altitude is mandatory. Have a retreat plan for the lower face.",
+        "basecamp": "Dom Hut (Domhutte, 2940m)",
+        "commitment": "V",
+        "technicalGrade": "AI4, 55 degrees sustained",
+        "tips": [
+          {
+            "content": "Wait for a sustained cold spell with clear skies; the face must be well-frozen to manage serac and avalanche risk.",
+            "category": "timing"
+          },
+          {
+            "content": "Climb with minimal gear to move fast through the serac danger zones in the upper face.",
+            "category": "safety"
+          },
+          {
+            "content": "Study the face from the Dom Hut to identify the current serac positions and optimal line through the upper wall.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Lightweight technical tools rated for steep ice climbing at altitude."
+          },
+          {
+            "itemName": "Ice screws (10-12)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A full rack of screws in various lengths for protecting the sustained ice pitches."
+          },
+          {
+            "itemName": "Headlamp with spare batteries",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for the very early start required; carry spare batteries for the long climb."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "World-class north face climb",
+            "body": "An incredible route that demands respect. We climbed in a cold snap in late July and found excellent ice conditions throughout. The sustained steepness is relentless and the altitude makes every swing count. Moving through the serac zone at 4200m was nerve-wracking but we managed it quickly. Descended the Festigrat. A career highlight.",
+            "conditions": "Cold conditions, well-frozen face, excellent ice. Late July after cold snap."
+          }
+        ]
+      },
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Northwest Ridge of the Dom offers an elegant mixed climbing route along the prominent ridge connecting the Lenzsplitze to the Dom summit. The route traverses exposed snow aretes and rock steps with climbing up to UIAA III. The position is spectacular with views deep into the Mischabel group. This is a longer and more committing alternative to the Festigrat that suits climbers seeking a more aesthetic line.",
+        "summary": "An elegant ridge traverse over the Lenzsplitze to the Dom summit with mixed terrain and spectacular exposure.",
+        "distance": 16,
+        "elevationGain": 2000,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"cornices\",\"exposed ridge traverse\",\"mixed terrain\",\"altitude\",\"long commitment\"]",
+        "safetyNotes": "The ridge is highly exposed and escape options are limited once committed beyond the Lenzsplitze. Cornice assessment is critical along the ridge crest. The route is very long and altitude plays a significant role in fatigue management. Ensure a stable weather window of at least two days.",
+        "basecamp": "Dom Hut (Domhutte, 2940m)",
+        "commitment": "IV",
+        "technicalGrade": "UIAA III, snow/ice to 45 degrees",
+        "tips": [
+          {
+            "content": "The traverse over the Lenzsplitze adds significant time; factor this into your planning and start well before dawn.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry minimal bivvy gear as the ridge is long and an unplanned night out at altitude is a real possibility.",
+            "category": "safety"
+          },
+          {
+            "content": "Descend via the Festigrat normal route to avoid a return traverse; arrange logistics accordingly.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "50m half ropes (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Half ropes are ideal for the mixed ridge terrain and allow full-length rappels if needed."
+          },
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, slings, and a few ice screws for mixed protection."
+          },
+          {
+            "itemName": "Altimeter watch",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Helpful for tracking progress along the long ridge and monitoring weather changes."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Grand alpine ridge traverse",
+            "body": "What a route. The traverse from Lenzsplitze to the Dom summit is airy and beautiful, with genuinely engaging mixed climbing. It is a long day and the altitude is punishing, but the quality of the climbing and the position make it all worthwhile. Make sure you are well acclimatized and fit. Descended the normal route.",
+            "conditions": "Good mixed conditions, firm snow aretes, mostly dry rock steps. Mid-July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Zugspitze",
+    "routes": [
+      {
+        "name": "Hollental Route",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Hollental Route is the most popular mountaineering route to the Zugspitze, Germany's highest peak. The route passes through the dramatic Hollentalklamm gorge, ascends past the Hollentalanger Hut, crosses the Hollental glacier with its crevasses, and finishes via an exposed via ferrata section to the summit. The variety of terrain makes this one of the most interesting approaches to any major German summit. The via ferrata sections are well-protected but require confidence on exposed terrain.",
+        "summary": "Germany's most classic mountaineering route through the Hollental gorge and across the Hollental glacier to the summit.",
+        "distance": 18,
+        "elevationGain": 2200,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"crevasses on glacier\",\"rockfall in gorge\",\"exposed via ferrata sections\",\"afternoon thunderstorms\"]",
+        "safetyNotes": "The Hollental glacier requires crampons and ideally a rope for crevasse rescue. The via ferrata sections above the glacier are exposed and a via ferrata set is recommended. Start early to clear the summit before afternoon thunderstorms which are common in summer. The gorge can flash flood in heavy rain.",
+        "basecamp": "Hollentalanger Hut (1387m)",
+        "commitment": "II",
+        "technicalGrade": "via ferrata B/C, glacier travel",
+        "tips": [
+          {
+            "content": "Stay at the Hollentalanger Hut the night before and depart very early to reach the summit before clouds build.",
+            "category": "timing"
+          },
+          {
+            "content": "The Hollentalklamm gorge entrance requires a small fee; carry cash as there is no card payment.",
+            "category": "logistics"
+          },
+          {
+            "content": "Bring a via ferrata lanyard for the exposed sections above the glacier, even if you are comfortable on rock.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Via ferrata set",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Y-lanyard system with energy absorber for the protected climbing sections."
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Needed for the Hollental glacier crossing; lightweight strap-on crampons suffice in good conditions."
+          },
+          {
+            "itemName": "Trekking poles",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Useful for the long approach through the valley and gorge sections."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest route up Germany's highest peak",
+            "body": "What a fantastic outing. The gorge is spectacular, the glacier crossing adds real alpine flavor, and the via ferrata finish is exciting. We stayed at the hut and started at 5am, summiting by noon. The cable car descent is a nice bonus. Highly recommended for anyone wanting a proper mountain day in the Northern Alps.",
+            "conditions": "Good summer conditions, small glacier with some open crevasses, dry via ferrata. Early August."
+          }
+        ]
+      },
+      {
+        "name": "Reintal Route",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "hike",
+        "description": "The Reintal Route is the longest and historically most important route to the Zugspitze summit. Following the Partnach river valley, the route passes through the striking Partnachklamm gorge and gradually gains altitude through alpine meadows to the Reintalanger Hut and then the Knorrhut before the final push to the summit. While technically the easiest route, the sheer length and elevation gain make it a demanding day or comfortable two-day outing. This was the route of the first recorded ascent in 1820.",
+        "summary": "The historic and longest route to the Zugspitze following the Reintal valley, suitable as a demanding hike.",
+        "distance": 22,
+        "elevationGain": 2300,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"length and fatigue\",\"afternoon thunderstorms\",\"rockfall in upper section\",\"snow patches early season\"]",
+        "safetyNotes": "The route is long and should not be underestimated. Carry sufficient water as sources can be scarce in the upper valley in dry periods. The final section to the summit involves some scrambling on loose terrain. Afternoon thunderstorms are frequent and the exposed upper slopes are dangerous in lightning.",
+        "basecamp": "Knorrhut (2051m)",
+        "commitment": "I",
+        "technicalGrade": "hiking, scramble grade 1",
+        "tips": [
+          {
+            "content": "Break the route into two days by staying at the Knorrhut, making the summit day much more manageable.",
+            "category": "logistics"
+          },
+          {
+            "content": "Start from Garmisch-Partenkirchen Olympic Ski Stadium and walk through the Partnachklamm for the full experience.",
+            "category": "general"
+          },
+          {
+            "content": "Carry at least 2 liters of water for the upper section above the Knorrhut where no water sources exist.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Sturdy hiking boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Ankle-supporting boots with good grip needed for the rocky upper section."
+          },
+          {
+            "itemName": "Rain gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Waterproof jacket and pants essential due to frequent afternoon thunderstorms."
+          },
+          {
+            "itemName": "Topographic map",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Alpenverein map 4/2 Wetterstein covers the entire route."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A grand mountain walk with historic atmosphere",
+            "body": "The Reintal route is long but never boring. The Partnachklamm gorge at the start is dramatic, the valley is peaceful, and the final climb has genuine mountain character. We did it in two days via the Knorrhut and it was perfectly paced. Not technical but certainly demanding in terms of fitness. Took the cable car down.",
+            "conditions": "Dry summer conditions, snow-free, warm temperatures. Late July."
+          }
+        ]
+      },
+      {
+        "name": "Jubilaumsgrat Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "scramble",
+        "description": "The Jubilaumsgrat is a legendary exposed ridge traverse connecting the Zugspitze with the Alpspitze over approximately 8 kilometers of sustained scrambling and climbing terrain. The route follows the dramatic knife-edge ridge of the Wetterstein range with numerous gendarmes, notches, and exposed rock steps requiring climbing up to UIAA III. This is one of the longest and most famous ridge traverses in the Northern Alps, typically requiring a bivouac at the Jubilaumsgrathut. The position and exposure throughout are extraordinary.",
+        "summary": "An iconic 8km knife-edge ridge traverse between the Zugspitze and Alpspitze with sustained exposed scrambling.",
+        "distance": 12,
+        "elevationGain": 1400,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"rockfall\",\"lightning\",\"route-finding on ridge\",\"commitment level\"]",
+        "safetyNotes": "This is a very serious undertaking with limited escape options along most of the ridge. Lightning risk on the exposed crest is extreme and a settled weather forecast is absolutely essential. Some parties bivouac at the small Jubilaumsgrathut shelter. Several parties each year require rescue due to underestimating the difficulty and length.",
+        "basecamp": "Zugspitze summit station or Alpspitze",
+        "commitment": "IV",
+        "technicalGrade": "UIAA III, sustained scramble grade 3",
+        "tips": [
+          {
+            "content": "Ensure a minimum two-day settled weather forecast before committing; the ridge is extremely dangerous in storms.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry a 30m rope for the harder steps and for safeguarding tired partners on the more exposed sections.",
+            "category": "safety"
+          },
+          {
+            "content": "Starting from the Zugspitze is generally preferred as the harder sections are tackled while fresh and the overall direction is slightly downhill.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "30m lightweight rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for protecting the crux sections and rappelling gendarmes."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mandatory for the sustained rock terrain with potential for rockfall from parties above."
+          },
+          {
+            "itemName": "Bivvy gear",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Emergency bivvy sack and headlamp minimum; many parties use the Jubilaumsgrathut shelter."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The king of Northern Alps ridge traverses",
+            "body": "Absolutely incredible but incredibly demanding. The sustained exposure over 8km of knife-edge ridge is unlike anything else I have done in the Alps. We started from the Zugspitze at dawn and reached the Alpspitze by late afternoon, skipping the bivouac. Every section has something interesting and the views are non-stop. Only attempt this if you are confident on sustained exposed terrain.",
+            "conditions": "Perfect weather, dry rock throughout, no snow on ridge. Late August."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Dent Blanche",
+    "routes": [
+      {
+        "name": "South Ridge (Normal Route via Wandfluehorn)",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The South Ridge is the normal route on the Dent Blanche, one of the most challenging of the standard 4000m ascents in the Alps. The route ascends from the Dent Blanche Hut, traverses below the Wandfluehorn, and climbs the south ridge with rock pitches up to UIAA III and mixed terrain. The upper section involves exposed scrambling and climbing along the narrow ridge crest. The Dent Blanche is considered a step up from peaks like the Weisshorn in terms of technical difficulty.",
+        "summary": "The standard but demanding route on the Dent Blanche with exposed mixed ridge climbing up to UIAA III.",
+        "distance": 12,
+        "elevationGain": 1300,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposed ridge\",\"loose rock\",\"route-finding difficulty\",\"altitude\"]",
+        "safetyNotes": "The rock on the upper ridge can be loose and a helmet is mandatory. The route is harder than many other AD-graded 4000m peaks and should not be underestimated. Start early and move efficiently as the descent is also demanding. Weather windows should be generous as retreat from the upper ridge is complicated.",
+        "basecamp": "Dent Blanche Hut (Cabane de la Dent Blanche, 3507m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, mixed",
+        "tips": [
+          {
+            "content": "The rock quality on the south ridge is better on the crest than on the flanks; stay on the ridge line whenever possible.",
+            "category": "general"
+          },
+          {
+            "content": "Ascend to the Dent Blanche Hut via Ferpecle; the approach from the other side via the Schonbiel Hut is longer.",
+            "category": "logistics"
+          },
+          {
+            "content": "The crux pitch near the summit is often wet or icy early in the morning; be prepared for mixed conditions even in summer.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A few cams, nuts, and slings for protecting the UIAA III rock pitches."
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the approach glacier and mixed sections on the upper ridge."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mandatory due to loose rock throughout the route."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Tough normal route but a stunning peak",
+            "body": "The Dent Blanche is no pushover. The south ridge has real climbing and the exposure on the upper section is significant. We found the rock mostly good on the crest but loose on the flanks. The summit pyramid is a real treat with incredible views to the Matterhorn. A proper AD route that demands respect.",
+            "conditions": "Mostly dry rock, some ice in gullies, good weather. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Viereselgrat (4 Donkeys Ridge)",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Viereselgrat, colorfully named the Four Donkeys Ridge, is the prominent north ridge of the Dent Blanche and one of the great ridge climbs of the Pennine Alps. The route features sustained rock climbing up to UIAA IV on generally good gneiss, with mixed terrain on the upper section. The four prominent gendarmes that give the ridge its name provide the most memorable climbing, each requiring careful technique and bold climbing. This is a long and committing route that ranks among the finest ridge climbs on any Alpine 4000m peak.",
+        "summary": "A legendary north ridge climb with sustained rock and mixed terrain over four distinctive gendarmes.",
+        "distance": 14,
+        "elevationGain": 1400,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"loose rock on gendarmes\",\"mixed terrain\",\"long commitment\",\"retreat difficulty\"]",
+        "safetyNotes": "This is a very long and committing route with difficult retreat options from the upper ridge. The climbing is sustained at a high standard for an alpine route and parties should be comfortable moving together on UIAA III terrain. An early start is critical and fast parties will still take 10 or more hours.",
+        "basecamp": "Schonbiel Hut (2694m)",
+        "commitment": "V",
+        "technicalGrade": "UIAA IV, mixed",
+        "tips": [
+          {
+            "content": "Study the four gendarmes from the Schonbiel Hut to plan your strategy for each; some can be turned while others must be climbed directly.",
+            "category": "general"
+          },
+          {
+            "content": "Consider a lightweight bivy kit as the route is very long and a forced bivouac on the ridge is possible if conditions slow you down.",
+            "category": "safety"
+          },
+          {
+            "content": "Descend via the South Ridge normal route; arrange transport from Ferpecle back to Zermatt if needed.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full alpine rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams to size 3, full set of nuts, long slings, and quickdraws for the sustained rock pitches."
+          },
+          {
+            "itemName": "60m half ropes (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Twin or half ropes for the long pitches, wandering route line, and potential rappels."
+          },
+          {
+            "itemName": "Emergency bivvy sack",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Essential given the route length and commitment; bivouacs on the ridge are not uncommon."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "One of the finest ridge climbs in the Alps",
+            "body": "The Viereselgrat is everything an alpine ridge should be: sustained, exposed, varied, and beautiful. Each gendarme presents its own puzzle. The rock is surprisingly good for the most part and the position overlooking the Zmutt glacier is unforgettable. We took 11 hours car to car from the Schonbiel Hut. A climb of a lifetime.",
+            "conditions": "Dry rock, clear skies, no snow on ridge. Early August."
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The North Face of the Dent Blanche is a massive and serious ice face rising over 1000 meters above the Schonbiel glacier. The route ascends sustained steep ice and neve at gradients of 50-55 degrees with occasional steeper steps. Objective hazards from seracs and stonefall are significant, and the face is only climbable in cold, well-frozen conditions. This is a major undertaking that sits among the harder north face routes in the Pennine Alps, demanding excellent ice technique and high-altitude endurance.",
+        "summary": "A major 1000m north face route on sustained steep ice requiring cold conditions and advanced technique.",
+        "distance": 13,
+        "elevationGain": 1500,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"serac collapse\",\"stonefall\",\"sustained steep ice\",\"avalanche\",\"altitude\"]",
+        "safetyNotes": "This face must only be attempted in cold, well-frozen conditions after a sustained freeze. The serac hazard in the upper face is real and cannot be fully avoided. Climb fast and efficiently through the danger zones. Descend via the South Ridge normal route. Full competence on steep ice at altitude is a prerequisite.",
+        "basecamp": "Schonbiel Hut (2694m)",
+        "commitment": "V",
+        "technicalGrade": "AI4, 55 degrees sustained",
+        "tips": [
+          {
+            "content": "Monitor conditions for several days from the Schonbiel Hut; the face must be thoroughly frozen before an attempt.",
+            "category": "timing"
+          },
+          {
+            "content": "Climb through the serac danger zone in the dark during the coldest part of the night for maximum safety.",
+            "category": "safety"
+          },
+          {
+            "content": "Arrange for a descent via the South Ridge and transport from Ferpecle before starting the route.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Modern leashless tools with aggressive picks for sustained steep ice."
+          },
+          {
+            "itemName": "Ice screws (10+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full rack of screws for protecting the long ice pitches."
+          },
+          {
+            "itemName": "Lightweight bivy sack",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Mandatory emergency equipment given the face length and potential for forced bivouac."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Serious and magnificent north face",
+            "body": "We climbed this after a week-long cold snap and found superb ice conditions. The face is relentless in its steepness and the serac zone at two-thirds height had us moving as fast as we could. Topped out just after dawn and descended the South Ridge. This is no place for the inexperienced but it is a magnificent climb for those ready for it.",
+            "conditions": "Cold conditions after sustained freeze, excellent ice, calm winds. Late July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Aiguille du Midi",
+    "routes": [
+      {
+        "name": "Cosmiques Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Cosmiques Ridge is one of the classic routes in the Mont Blanc massif, traversing the elegant arete from the Col du Midi to the Aiguille du Midi summit station. The route offers superb mixed climbing on granite and ice with pitches up to UIAA IV and ice to 50 degrees. The position is extraordinary, perched above the Vallee Blanche with views across to Mont Blanc. Starting from the Cosmiques Refuge, this is one of the most accessible quality alpine routes in Chamonix.",
+        "summary": "A classic Chamonix mixed ridge route with excellent granite climbing and ice, finishing at the Aiguille du Midi cable car.",
+        "distance": 4,
+        "elevationGain": 450,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"exposed ridge\",\"mixed terrain\",\"falling ice\",\"crowding on popular days\"]",
+        "safetyNotes": "The route is shorter than many alpine climbs but sustained and exposed. The ice sections vary significantly through the season and in late summer can be thin and difficult. Watch for other parties above who may dislodge ice or rock. The descent via the cable car station is straightforward.",
+        "basecamp": "Cosmiques Refuge (3613m)",
+        "commitment": "II",
+        "technicalGrade": "UIAA IV, ice to 50 degrees",
+        "tips": [
+          {
+            "content": "Book the Cosmiques Refuge well in advance during peak season as it fills up quickly for this popular route.",
+            "category": "logistics"
+          },
+          {
+            "content": "Start early to get ahead of the crowds; the route can become congested on good weather days in summer.",
+            "category": "timing"
+          },
+          {
+            "content": "The crux ice pitch varies dramatically through the season; check recent conditions reports before committing.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two tools needed for the ice pitches; one can be a mountaineering axe if ice is in good condition."
+          },
+          {
+            "itemName": "Small rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A few cams and nuts for protecting the granite pitches on the ridge."
+          },
+          {
+            "itemName": "Ice screws (4-6)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For protecting the ice sections which can be the crux of the route."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Perfect introduction to Chamonix alpinism",
+            "body": "The Cosmiques Ridge has everything: granite, ice, exposure, and incredible views. We climbed in late June and found thick ice on the main pitch which made it feel like solid AD. The position above the Vallee Blanche is breathtaking. Finishing at the cable car station with a coffee is a unique alpine experience. Highly recommended.",
+            "conditions": "Good ice conditions, dry granite, light winds. Late June."
+          }
+        ]
+      },
+      {
+        "name": "Rebuffat Route (South Face)",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The Rebuffat Route on the South Face of the Aiguille du Midi is a classic granite rock climb established by the legendary Gaston Rebuffat. The route ascends the steep south-facing granite wall with sustained climbing at UIAA V and sections of V+ on excellent Chamonix granite. The route is approximately 300 meters long with varied crack and face climbing. Being south-facing, it dries out quickly and can offer warm rock climbing at high altitude. Descent is via the cable car, making logistics simple.",
+        "summary": "A classic high-altitude granite rock route on the south face established by Rebuffat with sustained UIAA V climbing.",
+        "distance": 3,
+        "elevationGain": 300,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"altitude effects on performance\",\"exposure\",\"afternoon weather\"]",
+        "safetyNotes": "Although the climbing is on mostly good granite, some blocks are loose and helmets are essential. The altitude of 3500-3800m significantly affects climbing performance. Afternoon thunderstorms can develop rapidly; plan to finish by early afternoon. The cable car descent simplifies logistics but check last car times.",
+        "basecamp": "Cosmiques Refuge (3613m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA V+, 6a sport equivalent",
+        "tips": [
+          {
+            "content": "The south face catches the morning sun early; start at first light to enjoy warm rock and avoid afternoon weather.",
+            "category": "timing"
+          },
+          {
+            "content": "Check the last cable car departure time and plan your day accordingly to avoid being stranded at the summit.",
+            "category": "logistics"
+          },
+          {
+            "content": "The route is well-equipped with in-situ gear at belays, but natural protection is needed between bolts on many pitches.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams from 0.3 to 3, nuts, and quickdraws for the sustained granite pitches."
+          },
+          {
+            "itemName": "60m single rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A 60m single rope works well for this route; 70m allows more flexibility on pitches."
+          },
+          {
+            "itemName": "Approach shoes or light rock boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rock shoes essential for the harder pitches; approach shoes can work for the easier sections."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "World-class high altitude rock climbing",
+            "body": "Superb granite climbing with fantastic position. The sustained V climbing at nearly 3800m definitely makes you work harder than at valley level. The Rebuffat Route deserves its classic status. The rock is excellent and the moves are varied and interesting. Taking the cable car down after a full day of climbing feels gloriously decadent.",
+            "conditions": "Dry granite, sunny south face, moderate temperatures at altitude. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Frendo Spur",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Frendo Spur is one of the great mixed routes of the Mont Blanc massif, ascending the prominent north-facing spur on the Aiguille du Midi. First climbed by Edouard Frendo and Gaston Rebuffat in 1940, the route features 1000 meters of mixed climbing on ice, snow, and rock with gradients up to 60 degrees and rock sections of UIAA IV. The route is aesthetically superb, following the natural line of the spur directly to the summit. Conditions vary enormously and the route is best attempted in good mixed conditions.",
+        "summary": "A legendary 1000m mixed spur route on the north face with ice, snow, and rock climbing to the Aiguille du Midi summit.",
+        "distance": 6,
+        "elevationGain": 1000,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"serac hazard\",\"stonefall\",\"sustained mixed terrain\",\"route-finding\",\"altitude\"]",
+        "safetyNotes": "The Frendo Spur is a serious alpine route with real objective dangers. The lower section passes beneath seracs and should be climbed quickly in the cold of the night. Rock quality on the mixed pitches is variable. An early start is mandatory and fast movement through the danger zones is essential for safety.",
+        "basecamp": "Plan de l'Aiguille (2317m) or bivouac at base",
+        "commitment": "IV",
+        "technicalGrade": "AI4, UIAA IV, 60 degrees",
+        "tips": [
+          {
+            "content": "Bivouac at the base of the spur the night before for the earliest possible start through the serac danger zone.",
+            "category": "timing"
+          },
+          {
+            "content": "Conditions on this route are highly variable; check with the Chamonix guides office and recent trip reports before committing.",
+            "category": "general"
+          },
+          {
+            "content": "The upper rock pitches can be heavily verglassed early in the season; later season conditions are often more user-friendly.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical leashless tools for the sustained mixed and ice climbing."
+          },
+          {
+            "itemName": "Mixed rack with ice screws",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Ice screws, small cams, nuts, and pitons for the varied terrain."
+          },
+          {
+            "itemName": "Bivouac equipment",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Lightweight bivy sack, stove, and sleeping system for the base camp bivouac."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Historic and magnificent mixed route",
+            "body": "The Frendo Spur is everything a great alpine route should be. We bivied at the base and started at 1am, climbing fast through the lower serac zone. The mixed pitches on the spur itself are varied and engaging, with excellent ice interspersed with short rock steps. Arriving at the cable car station after 1000m of climbing is surreal. A true classic of Chamonix alpinism.",
+            "conditions": "Good mixed conditions, well-frozen lower section, ice in good condition. Late August."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Blanc de Courmayeur",
+    "routes": [
+      {
+        "name": "Normal Route from Gonella Hut",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route from the Gonella Hut ascends the Italian side of Mont Blanc de Courmayeur via the Dome du Gouter glacier. The route traverses extensive glacier terrain with crevasse zones before ascending the upper snow slopes to the summit. While technically straightforward, the altitude, glacier travel, and remoteness make this a serious undertaking. The Gonella Hut approach itself is demanding, involving glacier crossings from the Italian Val Veny side.",
+        "summary": "The standard Italian-side route to Mont Blanc de Courmayeur via the Gonella Hut and upper glacier terrain.",
+        "distance": 14,
+        "elevationGain": 1700,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"serac fall on approach\",\"whiteout conditions\",\"extreme cold\"]",
+        "safetyNotes": "The altitude of nearly 4750m demands excellent acclimatization. The Gonella Hut approach crosses beneath the Dome glacier seracs and timing through this zone is critical. Whiteout conditions on the featureless upper glacier can make navigation impossible without GPS. Extreme cold and high winds are common near the summit.",
+        "basecamp": "Gonella Hut (Rifugio Gonella, 3071m)",
+        "commitment": "III",
+        "technicalGrade": "snow 30-35 degrees, glacier travel",
+        "tips": [
+          {
+            "content": "The approach to the Gonella Hut crosses beneath active seracs; time this section carefully and move quickly through the danger zone.",
+            "category": "safety"
+          },
+          {
+            "content": "Consider spending two nights at the Gonella Hut for acclimatization before the summit attempt.",
+            "category": "logistics"
+          },
+          {
+            "content": "This route sees far fewer climbers than the French side and offers a much quieter mountain experience.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full glacier kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "50m rope, crevasse rescue gear, harness, crampons, and ice axe for extensive glacier travel."
+          },
+          {
+            "itemName": "GPS with loaded waypoints",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for navigating the featureless upper glacier in whiteout conditions."
+          },
+          {
+            "itemName": "Down jacket and insulated pants",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Extreme cold at nearly 4750m requires serious insulation for summit day."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The quiet Italian approach to Mont Blanc territory",
+            "body": "A wonderful route that avoids the crowds of the French side entirely. The Gonella Hut is a real mountain refuge in a spectacular setting. The glacier travel is long and the altitude is the real crux. We had the upper mountain almost to ourselves. The serac crossing on the approach is the most nervous moment. Well worth the extra effort for the solitude.",
+            "conditions": "Stable weather, well-tracked glacier, cold at summit. Early August."
+          }
+        ]
+      },
+      {
+        "name": "Aiguilles Grises Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Aiguilles Grises Ridge is a magnificent mixed ridge route that ascends the Italian flank of Mont Blanc de Courmayeur via a series of rock towers and snow aretes. The route offers varied climbing on rock up to UIAA III with mixed sections and glaciated terrain between the towers. The ridge provides an aesthetic and committing alternative to the standard glacier route, with extraordinary views into both Italy and France. This is a long route requiring strong route-finding and efficient movement on mixed alpine terrain.",
+        "summary": "An aesthetic mixed ridge route ascending the Italian side via a series of rock towers with varied climbing.",
+        "distance": 16,
+        "elevationGain": 2000,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"loose rock on towers\",\"mixed terrain\",\"route-finding difficulty\",\"altitude\",\"long commitment\"]",
+        "safetyNotes": "The route is long and committing with limited escape options from the upper ridge. Rock quality on the Aiguilles Grises towers is variable and care must be taken with placements. The altitude combined with the route length demands excellent fitness and acclimatization. A reliable weather window is essential.",
+        "basecamp": "Gonella Hut (Rifugio Gonella, 3071m)",
+        "commitment": "IV",
+        "technicalGrade": "UIAA III, mixed, snow to 40 degrees",
+        "tips": [
+          {
+            "content": "Study the ridge profile from the Gonella Hut to identify which towers can be turned and which must be climbed directly.",
+            "category": "general"
+          },
+          {
+            "content": "Start very early as the ridge is long and you want to reach the summit plateau before afternoon weather develops.",
+            "category": "timing"
+          },
+          {
+            "content": "Descend via the Normal Route glacier descent; do not attempt to reverse the ridge.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, slings, and a few ice screws for the mixed ridge terrain."
+          },
+          {
+            "itemName": "50m half ropes (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Half ropes provide flexibility for the varied terrain and allow full-length rappels."
+          },
+          {
+            "itemName": "GPS unit",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for navigating the upper glacier plateau after leaving the ridge crest."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A hidden gem on the Italian side",
+            "body": "This route deserves to be better known. The climbing along the Aiguilles Grises towers is varied and engaging, and the position is spectacular. We had the entire ridge to ourselves while the French normal route was packed. The rock varies from excellent to questionable but the overall experience is outstanding. A long day from the Gonella Hut but absolutely worth every meter.",
+            "conditions": "Mixed conditions, mostly dry rock on towers, firm snow between. Mid-July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Lyskamm",
+    "routes": [
+      {
+        "name": "East Ridge Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The East Ridge traverse of the Lyskamm is one of the most spectacular and feared ridge traverses in the Alps, known as the Maneater for its historically high accident rate. The route follows the narrow corniced ridge from the Lysjoch over the Lyskamm Orientale to the Lyskamm Occidentale. The terrain is a classic snow and ice arete with significant cornice hazard on the north side and steep drops on both flanks. Despite being technically moderate, the extreme exposure and cornice danger make this a serious proposition.",
+        "summary": "The infamous corniced ridge traverse of the Lyskamm, known as the Maneater, with extreme exposure on both flanks.",
+        "distance": 10,
+        "elevationGain": 900,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"massive cornices\",\"extreme exposure\",\"avalanche on flanks\",\"altitude\",\"rapid weather changes\"]",
+        "safetyNotes": "The cornices on the north side of the ridge are enormous and their fracture lines are unpredictable. Stay well south of the ridge crest. The exposure on both sides is extreme and a short rope technique with running belays is recommended. Only attempt in stable, cold conditions when the cornices are well-frozen. Retreat from the middle of the traverse is very difficult.",
+        "basecamp": "Monte Rosa Hut (2795m) or Gnifetti Hut (3647m)",
+        "commitment": "IV",
+        "technicalGrade": "snow/ice 40-45 degrees, corniced ridge",
+        "tips": [
+          {
+            "content": "Assess the cornice situation carefully from the Gnifetti Hut or Monte Rosa Hut before committing to the traverse.",
+            "category": "safety"
+          },
+          {
+            "content": "Cold conditions after a freeze are essential; the cornices must be well-bonded for any margin of safety.",
+            "category": "timing"
+          },
+          {
+            "content": "The traverse is typically done east to west, descending to the Felikjoch and then to the Gnifetti Hut.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "50m dynamic rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For short-roping and running belays along the ridge; must be dynamic for fall arrest."
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sharp crampons and a well-maintained ice axe essential for the steep snow flanks."
+          },
+          {
+            "itemName": "Snow stakes",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Useful for building anchors on the snow ridge where no other protection is available."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Terrifying and beautiful in equal measure",
+            "body": "The Lyskamm traverse lives up to its reputation. The cornices are genuinely intimidating and the exposure on both sides of the ridge is breathtaking. We chose a day with perfect frozen conditions and moved steadily across in about 6 hours. The nickname Maneater is well-earned; this is not a route to take lightly. One of the most memorable days I have had in the mountains.",
+            "conditions": "Cold, frozen cornices, clear skies, light wind. Mid-July after cold spell."
+          }
+        ]
+      },
+      {
+        "name": "West Ridge",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The West Ridge of the Lyskamm Occidentale offers the most direct ascent route from the Felikjoch col. The route climbs the snow and ice ridge with moderate steepness to the west summit. While shorter and less committing than the full traverse, the ridge still features impressive exposure and cornice hazards on the north flank. This is often climbed as part of a broader itinerary including other peaks in the Monte Rosa group.",
+        "summary": "The most direct route to the Lyskamm west summit via the snow and ice ridge from the Felikjoch.",
+        "distance": 8,
+        "elevationGain": 700,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"cornices\",\"steep snow slopes\",\"altitude\",\"crevasses on approach\"]",
+        "safetyNotes": "The cornice danger on the north side persists on this ridge as well. Stay on the south side of the crest and be vigilant about cornice fracture lines. The approach over the glacier from the Gnifetti Hut involves crevassed terrain requiring rope travel.",
+        "basecamp": "Gnifetti Hut (Rifugio Gnifetti, 3647m)",
+        "commitment": "III",
+        "technicalGrade": "snow/ice 35-40 degrees",
+        "tips": [
+          {
+            "content": "Combine this ascent with the Castor traverse for a magnificent high-altitude day in the Monte Rosa group.",
+            "category": "general"
+          },
+          {
+            "content": "The Gnifetti Hut is very popular; book well in advance and expect crowded conditions.",
+            "category": "logistics"
+          },
+          {
+            "content": "Start before dawn to ensure frozen snow conditions on the upper ridge.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard mountaineering crampons and axe for the snow and ice ridge."
+          },
+          {
+            "itemName": "Rope (40-50m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier approach and short-roping on the ridge."
+          },
+          {
+            "itemName": "Sunglasses and sunscreen",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The high-altitude snow environment produces intense UV radiation; high-factor protection essential."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Fine snow ridge with big mountain atmosphere",
+            "body": "A great route that gives you a taste of the Lyskamm without the full commitment of the traverse. The west ridge is elegant and the summit views across the Monte Rosa massif are stunning. We climbed it as part of a multi-peak day from the Gnifetti Hut. Good conditions made the climbing straightforward but the altitude was noticeable.",
+            "conditions": "Firm snow, good visibility, cold morning temperatures. Early August."
+          }
+        ]
+      },
+      {
+        "name": "Grenzgipfel Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Grenzgipfel traverse crosses both summits of the Lyskamm from east to west, descending the technical mixed terrain on the frontier ridge between Switzerland and Italy. This complete traverse combines the feared corniced east ridge with the descent of the west ridge and involves sustained high-altitude mountaineering above 4400m. The traverse is longer and more committing than the east ridge alone, as it requires navigating the sometimes-tricky mixed ground between the two summits where the ridge narrows considerably.",
+        "summary": "The complete double-summit traverse of the Lyskamm crossing the frontier ridge between Switzerland and Italy.",
+        "distance": 12,
+        "elevationGain": 1100,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"massive cornices\",\"mixed terrain between summits\",\"extreme exposure\",\"altitude\",\"long commitment\"]",
+        "safetyNotes": "This is a longer undertaking than the standard east ridge traverse and the section between the two summits adds complexity. Cornices remain the primary hazard throughout. The altitude above 4400m for extended periods is physically demanding. Ensure adequate acclimatization and reserve energy for the complete traverse and descent.",
+        "basecamp": "Monte Rosa Hut (2795m)",
+        "commitment": "IV",
+        "technicalGrade": "snow/ice 45 degrees, UIAA II, corniced ridge",
+        "tips": [
+          {
+            "content": "The connection between the two summits has some mixed ground that can be tricky to navigate; stay focused even after the exposed east ridge.",
+            "category": "general"
+          },
+          {
+            "content": "Allow extra time compared to the standard east ridge traverse as the second summit adds at least 2 hours to the day.",
+            "category": "timing"
+          },
+          {
+            "content": "Descend from the west summit to the Felikjoch and then to the Gnifetti Hut for the most straightforward exit.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "50m half ropes (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Dual ropes provide security for the mixed sections and flexibility for potential rappels."
+          },
+          {
+            "itemName": "Crampons and two ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A second tool is useful for the steeper mixed sections between the summits."
+          },
+          {
+            "itemName": "Emergency bivvy and headlamp",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The traverse is long enough that delays could lead to an unplanned night out at altitude."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The definitive Lyskamm experience",
+            "body": "Doing the complete traverse over both summits is the proper way to experience the Lyskamm. The section between the summits has some engaging mixed terrain that adds variety to the sustained snow ridge. We spent 9 hours on the mountain and were exhausted but elated at the Gnifetti Hut. The full traverse is a truly Alpine experience that stays with you.",
+            "conditions": "Stable cold weather, well-frozen cornices, dry mixed sections. Late July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Breithorn",
+    "routes": [
+      {
+        "name": "Normal Route from Klein Matterhorn",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on the Breithorn from the Klein Matterhorn cable car station is widely regarded as the easiest 4000m peak in the Alps. The route crosses the Breithorn Plateau glacier, a relatively gentle snow slope, to reach the western summit. Despite the easy grade, this is genuine glacier terrain with crevasses and the altitude of over 4000m should not be taken lightly. The cable car provides access to 3883m, making the elevation gain minimal but the altitude effects significant for unacclimatized climbers.",
+        "summary": "The easiest 4000m peak in the Alps, a short glacier climb from the Klein Matterhorn cable car station.",
+        "distance": 5,
+        "elevationGain": 300,
+        "estimatedTime": 3,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"altitude sickness\",\"whiteout navigation\",\"overcrowding\"]",
+        "safetyNotes": "Despite the easy grade, this is a real alpine environment. Rope up for glacier travel as hidden crevasses exist even on the well-trodden path. The rapid ascent via cable car to 3883m causes altitude sickness in many climbers. Do not underestimate this peak because of its easy reputation. Carry full glacier rescue equipment.",
+        "basecamp": "Klein Matterhorn Cable Car Station (3883m)",
+        "commitment": "I",
+        "technicalGrade": "snow 25 degrees",
+        "tips": [
+          {
+            "content": "Take the first cable car from Zermatt to maximize your time on the mountain and have firm morning snow.",
+            "category": "timing"
+          },
+          {
+            "content": "Spend a night or two in Zermatt for acclimatization before attempting the peak; the rapid cable car ascent to 3883m causes problems for many.",
+            "category": "safety"
+          },
+          {
+            "content": "The route can be extremely crowded on good weather weekends; weekdays offer a much better experience.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the glacier travel even though the slope is moderate."
+          },
+          {
+            "itemName": "Rope and crevasse rescue kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential despite the easy grade; crevasses are present on the Breithorn Plateau."
+          },
+          {
+            "itemName": "Sunglasses and sun protection",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "The high-altitude snow plateau reflects intense UV; snow blindness risk is high."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A perfect first 4000er",
+            "body": "The Breithorn is an ideal first 4000m peak. The cable car approach makes the summit achievable for well-prepared hikers and the views from the top are genuinely outstanding. We had clear skies and could see from Mont Blanc to the Bernese Alps. Remember that this is still real mountaineering and rope up on the glacier. An unforgettable day at high altitude.",
+            "conditions": "Clear skies, firm snow, light wind. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Breithorn Traverse",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Breithorn Traverse crosses all five summits of the Breithorn massif from west to east, following the corniced and exposed ridge that defines the Swiss-Italian border. The traverse begins from the Klein Matterhorn cable car and progresses from the western summit (the easiest) through the central and twin summits to the Breithorn Orientale, with climbing up to UIAA III on the rock steps and sustained exposed ridge walking. The full traverse is a significantly more serious proposition than the normal route, with cornices, mixed terrain, and committing exposure.",
+        "summary": "A full traverse of all five Breithorn summits along the corniced border ridge with climbing up to UIAA III.",
+        "distance": 10,
+        "elevationGain": 800,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"cornices\",\"exposed ridge\",\"mixed terrain\",\"rockfall on rock steps\",\"altitude\"]",
+        "safetyNotes": "The traverse is much more serious than the normal route and requires competent alpinism. The cornices on the north side can be very large and the rock steps between summits demand careful climbing. Retreat from the middle of the traverse involves difficult downclimbing. The exposure is significant throughout.",
+        "basecamp": "Klein Matterhorn Cable Car Station (3883m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, corniced snow ridge",
+        "tips": [
+          {
+            "content": "The traverse is best done west to east, starting from the easy western summit and progressing to the harder ground while still fresh.",
+            "category": "general"
+          },
+          {
+            "content": "The rock steps between the central summits are the crux; assess their condition from below before committing.",
+            "category": "safety"
+          },
+          {
+            "content": "Plan your descent from the eastern end carefully; the descent to the Ayas valley is long and complex.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, and slings for the rock steps between summits."
+          },
+          {
+            "itemName": "50m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For short-roping on the ridge and protecting the technical sections."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the rock sections and to protect against ice debris from cornices."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A completely different mountain from the normal route",
+            "body": "If you think the Breithorn is just a snow plod, do the full traverse. It is a proper alpine outing with real climbing, real exposure, and real cornices. The rock steps between the central summits required careful climbing and the ridge walking was never boring. We took 7 hours for the full traverse and descended to the Ayas valley. Superb.",
+            "conditions": "Dry rock steps, well-frozen cornices, cold conditions. Late July."
+          }
+        ]
+      },
+      {
+        "name": "Young Ridge",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Young Ridge is the north ridge of the Breithorn, named after Geoffrey Winthrop Young. This is a serious mixed alpine route ascending the prominent north-facing ridge with sustained ice and rock climbing. The route features ice slopes of 50-55 degrees, rock steps up to UIAA IV, and significant exposure throughout. This is a completely different proposition from the gentle normal route, offering high-quality mixed climbing on a major Alpine peak. The route is committing with few escape options.",
+        "summary": "A serious north ridge route on the Breithorn with sustained mixed climbing on ice and rock up to UIAA IV.",
+        "distance": 10,
+        "elevationGain": 1000,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"steep ice\",\"mixed climbing\",\"rockfall\",\"exposure\",\"route-finding\"]",
+        "safetyNotes": "This is a genuine D-grade alpine route that demands competent mixed climbing at altitude. The ice sections can be very hard in poor conditions. Rock quality varies and helmet use is mandatory. Start very early to climb the lower ice sections while they are still well-frozen. Descend via the normal route to the west.",
+        "basecamp": "Gandegghut (3030m)",
+        "commitment": "IV",
+        "technicalGrade": "UIAA IV, AI3+, 55 degrees",
+        "tips": [
+          {
+            "content": "The ice conditions on the lower ridge determine the difficulty; check with the Gandegghut guardian for current conditions.",
+            "category": "general"
+          },
+          {
+            "content": "An alpine start at 2am or earlier is recommended to climb the lower ice slopes in the coldest conditions.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry enough ice screws for the sustained ice sections; the protection opportunities on rock are limited.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical tools required for the sustained steep ice pitches."
+          },
+          {
+            "itemName": "Ice screws (8-10)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full rack of screws for the long ice sections."
+          },
+          {
+            "itemName": "Mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, and slings for the rock steps and mixed terrain."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The serious side of the Breithorn",
+            "body": "This route reveals a completely different face of the Breithorn. The sustained mixed climbing on the Young Ridge is excellent, with a perfect combination of steep ice and solid rock. We found the ice in great condition after a cold period and the rock steps provided engaging climbing. Descending the normal route to the cable car felt surreal after the intensity of the ridge. Highly recommended for mixed climbers.",
+            "conditions": "Good ice conditions, cold weather, dry rock steps. Early August."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Castor",
+    "routes": [
+      {
+        "name": "Normal Route (Southeast Ridge)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on Castor ascends the southeast ridge from the Felikjoch col, offering a fine snow and ice ridge climb with moderate technical demands but genuine high-altitude atmosphere. The route traverses crevassed glacier terrain to reach the Felikjoch before ascending the ridge with slopes up to 40 degrees. The summit provides outstanding views across the Monte Rosa group. Often climbed in combination with Pollux, the twin peak across the col.",
+        "summary": "A fine snow ridge climb to Castor from the Felikjoch with glacier travel and moderate slopes.",
+        "distance": 10,
+        "elevationGain": 900,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"steep snow slopes\",\"altitude\",\"cornice on summit ridge\"]",
+        "safetyNotes": "The glacier approach to the Felikjoch has significant crevasse zones. The upper ridge has a cornice on the north side that must be respected. The altitude of 4223m combined with the climbing demands good acclimatization. An early start ensures frozen snow on the upper slopes.",
+        "basecamp": "Quintino Sella Hut (Rifugio Quintino Sella, 3585m)",
+        "commitment": "II",
+        "technicalGrade": "snow/ice 35-40 degrees",
+        "tips": [
+          {
+            "content": "Combine Castor with an ascent of neighboring Pollux for a satisfying two-peak day from the Quintino Sella Hut.",
+            "category": "general"
+          },
+          {
+            "content": "The glacier between the hut and the Felikjoch is heavily crevassed; rope up and follow established tracks carefully.",
+            "category": "safety"
+          },
+          {
+            "content": "Mid-week ascents offer a much better experience as the route can be crowded on weekends.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steel crampons with anti-balling plates for the snow and ice ridge."
+          },
+          {
+            "itemName": "Glacier rope and rescue kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "40-50m rope with crevasse rescue pulleys and prusiks."
+          },
+          {
+            "itemName": "UV lip balm and high SPF sunscreen",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Intense high-altitude UV reflection from snow demands maximum sun protection."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Excellent 4000m peak in the Monte Rosa group",
+            "body": "Castor is a fine objective with a satisfying snow ridge climb. We climbed it together with Pollux, starting from the Quintino Sella Hut at 4am. The glacier navigation was the most demanding part, with some large open crevasses. The summit ridge is elegant and the panorama from the top is superb, with the full Monte Rosa wall spread out before you.",
+            "conditions": "Firm neve, well-tracked glacier, clear skies. Mid-August."
+          }
+        ]
+      },
+      {
+        "name": "East Face",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The East Face of Castor offers a more direct and challenging line to the summit via a sustained ice face with slopes of 45-50 degrees. The route ascends the prominent east-facing wall directly above the upper glacier, providing an alpine ice climbing experience at high altitude. The face is relatively sheltered from wind but receives morning sun early, making timing important for safe conditions. This is an excellent objective for climbers seeking a step up from the normal route.",
+        "summary": "A sustained high-altitude ice face route on Castor with slopes of 45-50 degrees.",
+        "distance": 9,
+        "elevationGain": 850,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"ice fall\",\"steep sustained ice\",\"crevasses at base\",\"afternoon softening\"]",
+        "safetyNotes": "The face must be climbed in cold conditions before the sun softens the ice and increases the risk of ice fall. The bergschrund at the base can be problematic later in the season. Carry sufficient ice screws for the sustained steepness and be prepared for variable ice quality.",
+        "basecamp": "Quintino Sella Hut (Rifugio Quintino Sella, 3585m)",
+        "commitment": "III",
+        "technicalGrade": "AI3, 50 degrees sustained",
+        "tips": [
+          {
+            "content": "Climb the face in the pre-dawn hours to ensure well-frozen ice and minimize ice fall danger.",
+            "category": "timing"
+          },
+          {
+            "content": "The bergschrund crossing varies through the season; scout it from the approach glacier the evening before if possible.",
+            "category": "general"
+          },
+          {
+            "content": "Descend via the normal route southeast ridge for the easiest and safest way down.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two ice tools for the sustained steep ice; at least one should be a technical tool."
+          },
+          {
+            "itemName": "Ice screws (6-8)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Medium and long screws for protecting the sustained ice pitches."
+          },
+          {
+            "itemName": "Headlamp with spare batteries",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for the pre-dawn start required to climb the face in frozen conditions."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Great high altitude ice climbing",
+            "body": "The east face provides excellent ice climbing at over 4000m. We started at 2am and had the face to ourselves, climbing in perfect conditions with rock-hard ice. The sustained angle is fun and the altitude adds spice. Topped out at sunrise with incredible views. Descended the normal route. A fine step up from the standard snow plods in the area.",
+            "conditions": "Well-frozen ice, cold pre-dawn temperatures, clear skies. Late July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Schreckhorn",
+    "routes": [
+      {
+        "name": "Southwest Ridge (Normal Route)",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Southwest Ridge is the normal route on the Schreckhorn, the highest peak in the Bernese Alps that requires genuine rock climbing ability to summit. The route ascends from the Schreckhorn Hut over glacier terrain before climbing the southwest ridge with sustained rock climbing up to UIAA III on generally good but sometimes loose gneiss. The summit block requires careful climbing and the position is outstanding, overlooking the entire Bernese Oberland. This is considered one of the harder normal routes on any major Swiss 4000m peak.",
+        "summary": "The standard but challenging route up the Schreckhorn with sustained UIAA III rock climbing on the southwest ridge.",
+        "distance": 12,
+        "elevationGain": 1300,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"loose rock\",\"exposed climbing\",\"glacier crevasses\",\"altitude\"]",
+        "safetyNotes": "The Schreckhorn is one of the more demanding normal routes on Swiss 4000m peaks. The rock is often loose and helmets are mandatory. The summit block requires careful, exposed climbing. Start early and move efficiently as the route is long. The descent involves downclimbing the same route which demands concentration when tired.",
+        "basecamp": "Schreckhorn Hut (Schreckhornhut, 2530m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, glacier travel",
+        "tips": [
+          {
+            "content": "The approach to the Schreckhorn Hut from the Gleckstein Hut or Grindelwald is demanding; arrive early enough for a proper rest.",
+            "category": "logistics"
+          },
+          {
+            "content": "The summit block is the crux; study it from below and identify the line before committing to the final pitches.",
+            "category": "general"
+          },
+          {
+            "content": "Late June to early August offers the best rock conditions before late-season snow makes the route more difficult.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams and nuts for protecting the UIAA III rock pitches on the ridge."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Absolutely mandatory; the Schreckhorn has significant loose rock throughout."
+          },
+          {
+            "itemName": "Glacier equipment",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full glacier kit for the approach including rope, crampons, and crevasse rescue gear."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A proper mountaineering challenge",
+            "body": "The Schreckhorn demands real climbing ability, unlike many 4000m normal routes. The sustained UIAA III terrain on the ridge is engaging and the summit block requires a cool head. We found the rock mostly good but with some looser sections that required care. The views from the summit across the Bernese Alps are among the finest I have seen. Not to be underestimated.",
+            "conditions": "Dry rock, some ice in gullies, clear weather. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Anderson Ridge",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Anderson Ridge is the southeast ridge of the Schreckhorn, named after the first ascensionists. This historic route offers sustained mixed climbing with rock up to UIAA IV and mixed terrain on a long and committing ridge. The climbing is varied and the position along the ridge crest is spectacular, with views into the deep glacial valleys of the Bernese Oberland. The route is longer and more demanding than the normal route, requiring confident climbing on variable terrain.",
+        "summary": "The historic southeast ridge with sustained mixed climbing and rock up to UIAA IV on a long committing ridge.",
+        "distance": 14,
+        "elevationGain": 1500,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"mixed terrain\",\"exposure\",\"route-finding\",\"long commitment\"]",
+        "safetyNotes": "The Anderson Ridge is a serious undertaking with limited escape options once committed to the upper ridge. The rock quality is variable and requires careful assessment of each placement. The route-finding can be tricky in poor visibility. A generous weather window and early start are essential.",
+        "basecamp": "Schreckhorn Hut (Schreckhornhut, 2530m)",
+        "commitment": "IV",
+        "technicalGrade": "UIAA IV, mixed",
+        "tips": [
+          {
+            "content": "The initial mixed sections set the tone for the day; if these feel difficult, the upper ridge will be significantly harder.",
+            "category": "general"
+          },
+          {
+            "content": "Carry a small bivy kit as the route is long enough that delays could result in an unplanned night out.",
+            "category": "safety"
+          },
+          {
+            "content": "The ridge is best attempted in a period of settled weather with at least two clear days in the forecast.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams, nuts, slings, ice screws, and pitons for the varied terrain."
+          },
+          {
+            "itemName": "50m half ropes (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Half ropes for the wandering line and potential rappels on descent."
+          },
+          {
+            "itemName": "Bivy sack",
+            "category": "camping",
+            "isEssential": false,
+            "notes": "Emergency bivy gear recommended for the long and committing route."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Historic and serious ridge climbing",
+            "body": "The Anderson Ridge is a magnificent undertaking. The mixed climbing is sustained and the route-finding keeps you engaged throughout. We found reasonable rock on the crest with some looser sections on the flanks. The length of the route is the real challenge; you need to be fit and efficient. Descended the normal route. A truly memorable day in the Bernese Alps.",
+            "conditions": "Mixed conditions, mostly dry rock, some ice on mixed sections. Early August."
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "TD",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The North Face of the Schreckhorn is a major ice and mixed face rising over 800 meters above the Oberer Grindelwald glacier. The route ascends steep ice couloirs and mixed terrain with sustained gradients of 50-55 degrees and short rock bands. This is one of the more serious north face climbs in the Bernese Alps, demanding excellent ice technique, route-finding ability, and the fitness to sustain effort on steep terrain at altitude. The face is subject to stonefall in warm conditions and must be climbed in cold, stable weather.",
+        "summary": "A major north face climb with over 800m of steep ice and mixed terrain on one of the Bernese Alps' great walls.",
+        "distance": 13,
+        "elevationGain": 1400,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"stonefall\",\"steep ice\",\"mixed terrain\",\"avalanche\",\"route-finding in complex terrain\"]",
+        "safetyNotes": "This face requires cold, stable conditions and a firm overnight freeze. Stonefall increases dramatically in warm weather and the face should not be attempted in anything other than cold conditions. The mixed terrain between ice bands demands confident climbing. Start in the early hours and aim to be off the face before the sun hits it.",
+        "basecamp": "Schreckhorn Hut (Schreckhornhut, 2530m)",
+        "commitment": "V",
+        "technicalGrade": "AI4, UIAA III+, 55 degrees",
+        "tips": [
+          {
+            "content": "Wait for a sustained cold spell with freezing levels well below the face; conditions are everything on this route.",
+            "category": "timing"
+          },
+          {
+            "content": "The couloir system in the lower face provides the best line; identify the entry point from the glacier the evening before.",
+            "category": "general"
+          },
+          {
+            "content": "Climb with minimal gear and move fast to minimize time in the stonefall zones.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Two technical ice tools for the sustained steep ice climbing."
+          },
+          {
+            "itemName": "Ice screws (8-10)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full selection of screws for the long ice pitches."
+          },
+          {
+            "itemName": "Lightweight helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Critical protection against stonefall which is the primary objective hazard."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A formidable and rewarding north face",
+            "body": "We climbed this after three days of cold weather and found the face in superb condition. The ice was thick and reliable, and the mixed sections were well-bonded. The sustained steepness over 800 meters is demanding but the quality of the ice climbing is excellent. We were off the face by mid-morning and descended the normal route. A serious route that rewards patience in waiting for the right conditions.",
+            "conditions": "Cold conditions, thick ice, frozen mixed sections, calm. Late July after cold spell."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Monch",
+    "routes": [
+      {
+        "name": "Normal Route (Southeast Ridge from Jungfraujoch)",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route on the Monch ascends the southeast ridge directly from the Jungfraujoch railway station, making it one of the most accessible significant alpine climbs in the Alps. The route begins with a short glacier approach before climbing the increasingly steep southeast ridge with snow and ice slopes reaching 45 degrees near the summit. Despite the easy approach, the upper ridge is genuinely steep and exposed, requiring solid crampon technique and a head for heights. The descent follows the same route.",
+        "summary": "The standard route from Jungfraujoch ascending the steep southeast ridge with snow slopes up to 45 degrees.",
+        "distance": 6,
+        "elevationGain": 650,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"steep ice near summit\",\"crevasses on approach\",\"altitude sickness\",\"cornices\"]",
+        "safetyNotes": "The upper slopes are steeper than they appear from below and can be icy, making a slip potentially fatal. The rapid altitude gain from the railway to the summit affects many climbers. Cornice formation on the summit ridge requires attention. Despite the convenience of the rail approach, this is genuine mountaineering and should be treated as such.",
+        "basecamp": "Monchsjoch Hut (3650m) or Jungfraujoch",
+        "commitment": "II",
+        "technicalGrade": "snow/ice 40-45 degrees",
+        "tips": [
+          {
+            "content": "Stay at the Monchsjoch Hut for better acclimatization and an earlier start than the first train allows.",
+            "category": "safety"
+          },
+          {
+            "content": "The upper ridge is much steeper than it looks from the Jungfraujoch; do not underestimate the final section.",
+            "category": "general"
+          },
+          {
+            "content": "The Monch pairs well with the Jungfrau for a two-day program from the Monchsjoch Hut.",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rigid steel crampons essential; the upper slopes can be very hard ice."
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard mountaineering axe; consider a second tool for the steepest section near the summit."
+          },
+          {
+            "itemName": "Rope (30-40m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier approach and belaying on the steep upper ridge."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Steeper than expected but hugely rewarding",
+            "body": "The Monch is often seen as the easy neighbor of the Jungfrau but the upper ridge is genuinely steep and committing. We climbed from the Monchsjoch Hut and found hard ice on the final 200m which made it feel like solid PD. The summit views are spectacular. A great alpine day that should not be dismissed because of the easy approach.",
+            "conditions": "Hard ice on upper ridge, clear weather, cold wind at summit. Early August."
+          }
+        ]
+      },
+      {
+        "name": "South Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The South Ridge of the Monch provides a more challenging and aesthetic alternative to the normal route, ascending the prominent ridge from the south. The route features mixed climbing with rock steps up to UIAA III and sustained snow and ice aretes. The ridge offers excellent position and views but is significantly longer and more committing than the normal route. The climbing is varied and engaging, making this one of the finer ridge routes in the Jungfrau region.",
+        "summary": "A fine mixed ridge route on the Monch with rock up to UIAA III and sustained exposed climbing.",
+        "distance": 10,
+        "elevationGain": 1000,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"mixed terrain\",\"rockfall on rock steps\",\"exposure\",\"cornices\",\"altitude\"]",
+        "safetyNotes": "The south ridge is a real alpine route requiring competent mixed climbing. The rock steps can be loose and the snow aretes are corniced on the west side. The route is more committing than the normal route with fewer escape options. An early start and efficient movement are essential.",
+        "basecamp": "Monchsjoch Hut (3650m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, snow/ice 40 degrees",
+        "tips": [
+          {
+            "content": "Descend via the normal route southeast ridge for the most straightforward return to the Monchsjoch Hut.",
+            "category": "logistics"
+          },
+          {
+            "content": "The rock steps are best in mid-summer when they are free of verglas; early season conditions make them significantly harder.",
+            "category": "timing"
+          },
+          {
+            "content": "A light rack is sufficient; most protection comes from natural features and slings over blocks.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, and long slings for the rock steps and natural protection."
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the snow and ice sections of the ridge."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Required for the rock sections where loose blocks are present."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A hidden gem of a ridge route",
+            "body": "The south ridge of the Monch deserves to be better known. The climbing is varied and the position on the ridge is superb. We found good rock on the main steps and firm snow on the connecting aretes. The descent via the normal route was straightforward. This is a great step up from the normal route and a proper alpine outing.",
+            "conditions": "Dry rock steps, firm snow aretes, good visibility. Mid-July."
+          }
+        ]
+      },
+      {
+        "name": "Northwest Face",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "ice",
+        "description": "The Northwest Face of the Monch presents a striking ice face visible from the Jungfraujoch. The route ascends steep ice and neve at sustained angles of 50-55 degrees with the face rising approximately 600 meters from the Guggigletscher. The climbing is sustained and the altitude adds significantly to the difficulty. This is a serious ice route that provides an entirely different experience from the normal route and rewards climbers with excellent steep ice climbing skills at altitude.",
+        "summary": "A sustained steep ice face route on the Monch with 600m of climbing at 50-55 degrees.",
+        "distance": 8,
+        "elevationGain": 900,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"ice fall\",\"steep sustained ice\",\"serac hazard\",\"altitude\",\"weather changes\"]",
+        "safetyNotes": "The face must be in well-frozen condition with good ice quality for a safe ascent. Start very early to ensure cold conditions and be off the face before the sun reaches it. The serac bands in the upper face present objective danger. Full competence on sustained steep ice at altitude is a prerequisite for this route.",
+        "basecamp": "Monchsjoch Hut (3650m)",
+        "commitment": "IV",
+        "technicalGrade": "AI3+, 55 degrees sustained",
+        "tips": [
+          {
+            "content": "The face is visible from the Monchsjoch Hut; use the evening before to assess conditions and plan your line.",
+            "category": "general"
+          },
+          {
+            "content": "Start at 1-2am to be well established on the face before any solar warming begins.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry enough screws for the full face; there are few opportunities for natural protection.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical tools for the sustained steep ice; ensure picks are sharp."
+          },
+          {
+            "itemName": "Ice screws (8-10)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full rack for the 600m of sustained ice."
+          },
+          {
+            "itemName": "Crampons with aggressive front points",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mono-point or dual-point technical crampons for the steep ice."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Excellent steep ice at altitude",
+            "body": "The northwest face is a fine ice climb with sustained steepness from bottom to top. We climbed in cold conditions and found thick, reliable ice throughout. The altitude makes the sustained front-pointing more demanding than equivalent routes lower down. A great route visible from the Jungfraujoch which gives it a theatrical quality. Descended the normal route.",
+            "conditions": "Cold, thick ice, well-frozen conditions, clear skies. Late July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Blanc de Cheilon",
+    "routes": [
+      {
+        "name": "Normal Route from Dix Hut",
+        "difficulty": "PD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The Normal Route from the Cabane de Dix ascends the Cheillon glacier and climbs the northwest ridge of Mont Blanc de Cheilon. The route crosses the crevassed glacier before ascending moderately steep snow slopes to the summit ridge. While not technically demanding, the glacier travel requires proper equipment and the altitude of nearly 3900m can catch people off guard. The Dix Hut is spectacularly situated above the Lac des Dix and provides an excellent base for this and other peaks in the Arolla region.",
+        "summary": "The standard glacier route to Mont Blanc de Cheilon from the beautifully situated Dix Hut.",
+        "distance": 10,
+        "elevationGain": 1000,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"whiteout on glacier\",\"altitude\",\"afternoon thunderstorms\"]",
+        "safetyNotes": "The Cheillon glacier has significant crevasse zones that change through the season. Navigation on the featureless glacier can be impossible in whiteout conditions. Despite being under 4000m, the mountain demands respect and proper mountaineering equipment. Afternoon weather is often unstable in this area.",
+        "basecamp": "Dix Hut (Cabane de Dix, 2928m)",
+        "commitment": "II",
+        "technicalGrade": "snow 30-35 degrees, glacier travel",
+        "tips": [
+          {
+            "content": "The Dix Hut is a popular base for multiple peaks; consider combining Mont Blanc de Cheilon with Pigne d'Arolla for a productive stay.",
+            "category": "logistics"
+          },
+          {
+            "content": "The approach to the Dix Hut via the Pas de Chevres involves ladders and chains; check they are in place before planning this access route.",
+            "category": "general"
+          },
+          {
+            "content": "Start early enough to complete the glacier crossing before the sun softens the snow bridges over crevasses.",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard mountaineering equipment for the glacier and summit slopes."
+          },
+          {
+            "itemName": "Rope and crevasse rescue kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "40m minimum rope with full crevasse rescue setup for glacier travel."
+          },
+          {
+            "itemName": "Map and compass",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Swisstopo map 1:25000 essential for glacier navigation, especially in poor visibility."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Fine peak with a beautiful hut base",
+            "body": "Mont Blanc de Cheilon is a satisfying objective from the wonderfully situated Dix Hut. The glacier approach is genuine mountaineering and the summit views across the Pennine Alps are excellent. We had good conditions and found the route well-tracked. The Dix Hut itself is a highlight with its dramatic position above the reservoir. A great introduction to glacier mountaineering.",
+            "conditions": "Well-tracked glacier, firm morning snow, clear skies. Early August."
+          }
+        ]
+      },
+      {
+        "name": "South Face",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "alpine",
+        "description": "The South Face of Mont Blanc de Cheilon provides a more direct and challenging route to the summit via the prominent south-facing wall. The route ascends mixed terrain with rock steps up to UIAA III interspersed with ice and snow gullies. The south-facing aspect means the face catches sun early but the mixed nature of the terrain provides interest throughout. This is a fine objective for climbers looking for something more challenging than the standard glacier route in the Arolla region.",
+        "summary": "A mixed face route on Mont Blanc de Cheilon with rock steps and ice gullies on the south-facing wall.",
+        "distance": 10,
+        "elevationGain": 1050,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"mixed terrain\",\"stonefall in gullies\",\"route-finding\"]",
+        "safetyNotes": "The south-facing aspect means the face warms quickly; start early to climb the gullies in frozen conditions. Stonefall in the gullies increases dramatically once the sun hits the face. The rock is of variable quality and helmets are essential. Descend via the normal route for the safest return.",
+        "basecamp": "Dix Hut (Cabane de Dix, 2928m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, AI2, mixed",
+        "tips": [
+          {
+            "content": "The gullies on the south face must be climbed before the sun reaches them; plan for a midnight start to be safe.",
+            "category": "timing"
+          },
+          {
+            "content": "Route-finding is key; study the face from the Dix Hut and identify the main gully systems before your attempt.",
+            "category": "general"
+          },
+          {
+            "content": "The rock steps provide the best climbing and protection; aim for the rock ribs between the gullies where possible.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Small cams, nuts, ice screws, and slings for the mixed terrain."
+          },
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mandatory for the stonefall-prone gullies and loose rock sections."
+          },
+          {
+            "itemName": "Two ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "One mountaineering axe and one technical tool for the mixed and ice sections."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Engaging mixed climbing in the Arolla region",
+            "body": "A surprisingly good route that provides real mixed climbing on what is often considered a straightforward peak. The gullies were well-frozen at our early start and the rock steps offered interesting climbing. We descended the normal route and were back at the hut for a late breakfast. Good value in a region often overlooked in favor of the bigger peaks to the south.",
+            "conditions": "Frozen gullies, dry rock steps, cold start. Mid-July."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Triglav",
+    "routes": [
+      {
+        "name": "Normal Route from Kredarica Hut",
+        "difficulty": "F",
+        "gradeSystem": "french",
+        "activityType": "scramble",
+        "description": "The Normal Route from the Kredarica Hut is the standard ascent of Triglav, Slovenia's highest peak and national symbol. The route ascends the rocky south side with the aid of via ferrata steel cables, metal pegs, and ladders. While not technically difficult when the fixed protection is in place, the terrain is exposed and the rock can be slippery when wet. The summit views encompass the Julian Alps, the Adriatic Sea, and the Austrian Alps. Climbing Triglav is considered a rite of passage for every Slovenian.",
+        "summary": "The standard protected route up Slovenia's highest peak and national symbol from the Kredarica Hut.",
+        "distance": 4,
+        "elevationGain": 500,
+        "estimatedTime": 3,
+        "season": "summer",
+        "hazards": "[\"exposed scrambling\",\"slippery rock when wet\",\"lightning\",\"overcrowding\"]",
+        "safetyNotes": "The via ferrata protection makes the route manageable but the underlying terrain is exposed. The rock becomes treacherous when wet and the summit is extremely dangerous in thunderstorms. The route can be very crowded on summer weekends, creating bottlenecks at the protected sections. A via ferrata set provides additional security.",
+        "basecamp": "Kredarica Hut (Dom Valentina Stanica, 2515m)",
+        "commitment": "I",
+        "technicalGrade": "via ferrata A/B, scramble grade 2",
+        "tips": [
+          {
+            "content": "Visit on a weekday in September to avoid the intense summer crowds that can create dangerous bottlenecks on the exposed sections.",
+            "category": "timing"
+          },
+          {
+            "content": "The Kredarica Hut is the highest hut in Slovenia; book well in advance during the busy summer months.",
+            "category": "logistics"
+          },
+          {
+            "content": "Triglav has immense cultural significance for Slovenians; every citizen is expected to climb it at least once.",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Via ferrata set",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Recommended for additional security on the exposed cable-protected sections."
+          },
+          {
+            "itemName": "Sturdy hiking boots",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Good grip essential for the rocky terrain which can be very slippery when wet."
+          },
+          {
+            "itemName": "Waterproof jacket",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Afternoon thunderstorms are common and the summit is fully exposed."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Slovenia's national treasure",
+            "body": "Climbing Triglav is more than mountaineering; it is a cultural experience. The route from Kredarica is well-protected and achievable for fit hikers, though the exposure is real. We had the summit to ourselves on an early September morning with views stretching to the sea. The hut system in the Julian Alps is excellent. A must-do when visiting Slovenia.",
+            "conditions": "Dry rock, clear skies, cool temperatures. Early September."
+          }
+        ]
+      },
+      {
+        "name": "North Face",
+        "difficulty": "D",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The North Face of Triglav is the largest rock wall in the Julian Alps, rising 1500 meters above the Vrata valley. The classic route on the face follows a system of ledges, gullies, and rock steps with climbing up to UIAA V on limestone of variable quality. The face has a complex structure and route-finding is a significant challenge. Despite the relatively modest altitude, the scale and commitment of this wall make it one of the most serious mountaineering objectives in the Eastern Alps. Multiple variants exist, each with their own character.",
+        "summary": "The massive 1500m north face of Triglav, the largest wall in the Julian Alps with sustained rock climbing.",
+        "distance": 10,
+        "elevationGain": 1500,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"route-finding complexity\",\"loose rock\",\"sudden weather changes\",\"length and commitment\"]",
+        "safetyNotes": "The north face is a very serious undertaking. The scale of the wall means retreat is difficult and time-consuming. The limestone can be loose and wet, particularly in the gullies. Thunderstorms develop rapidly in the Julian Alps and the face is fully exposed. Multiple parties each year require rescue from the face. Only attempt with extensive experience on big Alpine walls.",
+        "basecamp": "Aljazev Dom (1015m) in the Vrata Valley",
+        "commitment": "V",
+        "technicalGrade": "UIAA V, limestone",
+        "tips": [
+          {
+            "content": "Study the face carefully from the Vrata valley floor and identify the major features; route-finding on the wall is the key challenge.",
+            "category": "general"
+          },
+          {
+            "content": "The Julian Alps have notoriously unstable weather; monitor forecasts obsessively and do not commit in marginal conditions.",
+            "category": "timing"
+          },
+          {
+            "content": "Carry a full set of pitons as the limestone sometimes offers poor cam placements in the horizontal cracks.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full trad rack with pitons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams, nuts, pitons, and a hammer for the variable limestone protection."
+          },
+          {
+            "itemName": "60m ropes (double or twin)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Long ropes essential for the big wall pitches and potential retreat rappels."
+          },
+          {
+            "itemName": "Headlamp and bivvy equipment",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Planned or unplanned bivouacs on the face are common; carry a lightweight bivy kit."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A monumental wall in the Eastern Alps",
+            "body": "The north face of Triglav is overwhelming in scale. Fourteen hundred meters of limestone demands respect and delivers an unforgettable experience. The route-finding was challenging even with good research. The rock varies from excellent to questionable. We bivied at the Bivak pod Steno and summited the next morning. A truly serious route that rivals the big north faces of the Western Alps in commitment if not altitude.",
+            "conditions": "Mostly dry limestone, some damp sections in gullies, stable weather window. Late August."
+          }
+        ]
+      },
+      {
+        "name": "Bamberg Route",
+        "difficulty": "AD",
+        "gradeSystem": "french",
+        "activityType": "rock",
+        "description": "The Bamberg Route, or Bambergova Pot, is a classic route on the west face of Triglav that offers a more challenging alternative to the normal route without the extreme commitment of the north face. The route follows a system of ledges and chimneys on the west side of the mountain with climbing up to UIAA III on generally good limestone. Some sections are protected with cables while others require free climbing on natural rock. This is an excellent intermediate route that gives a taste of Triglav's rock climbing character.",
+        "summary": "A classic west face route with limestone climbing up to UIAA III, offering a challenging alternative to the normal route.",
+        "distance": 8,
+        "elevationGain": 900,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"exposed climbing\",\"route-finding\",\"wet rock hazard\"]",
+        "safetyNotes": "The route mixes protected and unprotected sections. The unprotected climbing is exposed and demands confidence on rock. The limestone can be slippery when wet and the route should be avoided in rain. Rockfall from above is possible, particularly in the chimney sections. Helmets are essential.",
+        "basecamp": "Vodnikov Dom (1817m) or Kredarica Hut (2515m)",
+        "commitment": "III",
+        "technicalGrade": "UIAA III, via ferrata B",
+        "tips": [
+          {
+            "content": "The Bamberg route can be combined with the normal route for a circular trip, ascending the Bamberg and descending the standard way.",
+            "category": "logistics"
+          },
+          {
+            "content": "The chimney sections are the most enjoyable climbing; take time to enjoy them rather than rushing through.",
+            "category": "general"
+          },
+          {
+            "content": "Dry conditions are important; the limestone becomes extremely slippery when wet and the unprotected sections become dangerous.",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the chimney sections and to protect against rockfall from parties above."
+          },
+          {
+            "itemName": "Via ferrata set",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Needed for the protected sections; provides security on the exposed cable-assisted passages."
+          },
+          {
+            "itemName": "30m rope",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Useful for the unprotected UIAA III sections if not confident climbing unroped."
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The perfect middle ground on Triglav",
+            "body": "The Bamberg route is an excellent way to experience Triglav beyond the crowded normal route. The climbing is engaging, particularly the chimney sections, and the exposure gives a real mountain feel. We ascended the Bamberg and descended the normal route for a satisfying loop. The Julian Alps limestone is a joy to climb when dry. Recommended for those wanting a step up from the via ferrata.",
+            "conditions": "Dry limestone, warm temperatures, good visibility. Mid-August."
+          }
+        ]
+      }
+    ]
+  }
+]

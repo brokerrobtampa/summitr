@@ -1,0 +1,1630 @@
+[
+  {
+    "peakName": "Mount Williamson",
+    "routes": [
+      {
+        "name": "West Side Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The West Side Route is the most popular approach to Mount Williamson, the second highest peak in California. The route ascends from Shepherd Pass and traverses a complex series of ledges and gullies on the western flanks. Navigation skills are essential as the route is not well-marked and involves significant talus hopping and Class 3 scrambling near the summit.",
+        "summary": "The standard approach via Shepherd Pass with Class 3 scrambling to the summit.",
+        "distance": 30.6,
+        "elevationGain": 2440,
+        "estimatedTime": 16,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"route finding difficulty\",\"altitude sickness\",\"lightning\"]",
+        "safetyNotes": "Start early to avoid afternoon thunderstorms. The approach is long and navigation is complex. GPS and topo maps are essential. Acclimatize before attempting the summit.",
+        "tips": [
+          {"content": "Camp at Shepherd Pass to break the route into two days and aid acclimatization.", "category": "logistics"},
+          {"content": "Carry at least 4 liters of water per person as sources are limited on the upper mountain.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Route finding is notoriously difficult on this peak"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock is prevalent on the upper mountain"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long talus-filled approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A worthy challenge for peak baggers", "body": "This is a serious undertaking. The approach is long but the scrambling near the top is excellent. Navigation was the crux. Bring a GPS.", "conditions": "Clear skies, some snow patches in late June"}
+        ]
+      },
+      {
+        "name": "Shepherd Creek Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Shepherd Creek Route approaches Mount Williamson from the east via Shepherd Creek drainage. This route is shorter than the West Side but steeper and more direct. It involves sustained Class 3 scrambling through a series of chutes and ribs on the eastern aspect of the peak.",
+        "summary": "A direct eastern approach via Shepherd Creek with sustained Class 3 terrain.",
+        "distance": 24.1,
+        "elevationGain": 2530,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"rockfall\",\"steep terrain\",\"altitude sickness\",\"dehydration\"]",
+        "safetyNotes": "The east side heats up quickly in summer. Start before dawn. Rockfall danger increases as the day warms. A wilderness permit is required.",
+        "tips": [
+          {"content": "Start by 3 AM to avoid heat and rockfall on the east-facing slopes.", "category": "timing"},
+          {"content": "Cache water at the base of the steep section for the return trip.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall is common in the chutes"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": true, "notes": "Sticky rubber helps on Class 3 rock"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Rugged and remote", "body": "This route is a grind but rewarding. Very few people attempt it. The rock quality varies from solid granite to loose rubble. Not a beginner route.", "conditions": "Hot and dry, mid-July"}
+        ]
+      },
+      {
+        "name": "George Creek Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The George Creek Route is the least traveled approach to Mount Williamson, following George Creek on the north side. The route traverses remote and rugged terrain with limited trail markers. It offers solitude and wilderness experience but demands strong navigation and scrambling skills throughout.",
+        "summary": "A remote and seldom-traveled northern approach via George Creek drainage.",
+        "distance": 27.4,
+        "elevationGain": 2380,
+        "estimatedTime": 15,
+        "season": "summer",
+        "hazards": "[\"remote location\",\"route finding difficulty\",\"loose rock\",\"stream crossings\"]",
+        "safetyNotes": "This is an extremely remote route with no cell service. File a trip plan with someone. Early season creek crossings can be dangerous during snowmelt.",
+        "tips": [
+          {"content": "Plan for a multi-day trip as the approach is long and the terrain demanding.", "category": "logistics"},
+          {"content": "Bring a satellite communicator for emergencies given the remote setting.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "No cell service anywhere on this route"},
+          {"itemName": "Topographic map", "category": "navigation", "isEssential": true, "notes": "Essential for navigation in trailless terrain"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "True wilderness solitude", "body": "Did not see another soul for three days. The route is challenging to follow but the solitude is unmatched. Bring extra food in case navigation slows you down.", "conditions": "Late August, dry conditions"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Half Dome",
+    "routes": [
+      {
+        "name": "Cables Route (Normal)",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Cables Route is the standard way to summit Half Dome in Yosemite National Park. The route follows well-maintained trails from the valley floor through Little Yosemite Valley, then ascends the subdome before climbing the iconic steel cables on the final granite slope. Cables are installed seasonally and a permit is required.",
+        "summary": "The iconic permitted route using steel cables to ascend Half Dome's smooth granite back.",
+        "distance": 22.5,
+        "elevationGain": 1463,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"slippery granite when wet\",\"lightning exposure\",\"crowding on cables\",\"fatigue\"]",
+        "safetyNotes": "Do not attempt the cables when wet or during thunderstorms. Obtain a permit through the NPS lottery well in advance. Bring gloves for gripping the cables.",
+        "tips": [
+          {"content": "Apply for permits in the preseason lottery in March for best chances.", "category": "logistics"},
+          {"content": "Bring sturdy leather or rubber gloves for the cable section to prevent blisters.", "category": "general"},
+          {"content": "Start before dawn to summit by mid-morning and avoid afternoon storms.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Leather gloves", "category": "climbing", "isEssential": true, "notes": "Essential for gripping the metal cables"},
+          {"itemName": "Headlamp", "category": "navigation", "isEssential": true, "notes": "Required for the pre-dawn start"},
+          {"itemName": "Water filter", "category": "camping", "isEssential": false, "notes": "Refill from Merced River to reduce carried water weight"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Bucket list hike delivered", "body": "An incredible experience from start to finish. The cables are intimidating but manageable with gloves. Views from the top are otherworldly. Start very early.", "conditions": "Clear and sunny, cables dry"}
+        ]
+      },
+      {
+        "name": "Regular Northwest Face",
+        "difficulty": "5.12a",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Regular Northwest Face is one of the most famous big wall climbs in the world, ascending 2000 feet of sheer granite on Half Dome's northwest face. First climbed by Royal Robbins in 1957, the route involves sustained aid and free climbing over 23 pitches. Most parties take two to three days on the wall with a portaledge bivy.",
+        "summary": "A legendary 23-pitch big wall route on Half Dome's iconic northwest face.",
+        "distance": 3.2,
+        "elevationGain": 610,
+        "estimatedTime": 48,
+        "season": "summer",
+        "hazards": "[\"big wall exposure\",\"rockfall\",\"weather changes\",\"dehydration on wall\"]",
+        "safetyNotes": "This is an expert-only big wall route. Extensive aid climbing and big wall experience is mandatory. Haul sufficient water for the entire climb. Weather can change rapidly.",
+        "tips": [
+          {"content": "Haul at least 8 liters of water per person per day as there is no water on the wall.", "category": "safety"},
+          {"content": "Practice hauling and big wall systems on shorter routes like Washington Column first.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Portaledge", "category": "camping", "isEssential": true, "notes": "Required for the multi-day ascent"},
+          {"itemName": "Haul bag", "category": "climbing", "isEssential": true, "notes": "Needed to haul water, food, and gear"},
+          {"itemName": "Full aid rack", "category": "climbing", "isEssential": true, "notes": "Cams, pitons, hooks, and aiders required"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The climb of a lifetime", "body": "Three days on the wall and every pitch was memorable. The exposure is unreal. Make sure your systems are dialed before attempting this route.", "conditions": "Warm and dry, light wind"}
+        ]
+      },
+      {
+        "name": "Snake Dike",
+        "difficulty": "5.7",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "Snake Dike is one of the most sought-after moderate rock routes in Yosemite, following a distinctive dike of knobby rock up Half Dome's southwest face. The route covers 8 pitches of friction slab climbing on impeccable granite with breathtaking exposure. It offers a more accessible way for experienced rock climbers to summit Half Dome via a technical route.",
+        "summary": "A classic 8-pitch friction slab climb following a prominent dike on Half Dome's southwest face.",
+        "distance": 19.3,
+        "elevationGain": 1400,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"runout slab climbing\",\"exposure\",\"lightning\",\"long approach\"]",
+        "safetyNotes": "Protection is sparse on several pitches with significant runout. Falls on slab can result in sliding injuries. Retreat is difficult once committed to the upper pitches.",
+        "tips": [
+          {"content": "Bring extra long slings to reduce rope drag on the wandering pitches.", "category": "general"},
+          {"content": "Approach via the Mist Trail and branch off toward the base; allow 3 hours for the approach.", "category": "logistics"},
+          {"content": "Descent is via the cables or subdome trail; bring cable gloves.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Climbing shoes", "category": "climbing", "isEssential": true, "notes": "Sticky rubber essential for friction slab climbing"},
+          {"itemName": "Long slings", "category": "climbing", "isEssential": true, "notes": "Needed to reduce rope drag on wandering pitches"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "Useful for the long approach hike"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Best moderate route in Yosemite", "body": "The position on this climb is absolutely stunning. The friction climbing is unique and the knobs on the dike make it feel secure despite the exposure. A must-do.", "conditions": "Warm granite, dry conditions"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "El Capitan",
+    "routes": [
+      {
+        "name": "The Nose",
+        "difficulty": "5.14a",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Nose is the most iconic rock climb on Earth, ascending 31 pitches up the prow of El Capitan. First climbed by Warren Harding in 1958 over 47 days, the route features varied climbing from wide cracks to thin face moves. Most parties aid climb the route over 3 to 5 days, while elite free climbers tackle it at 5.14a.",
+        "summary": "The most famous big wall route in the world, ascending El Capitan's central prow.",
+        "distance": 2.4,
+        "elevationGain": 900,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"massive exposure\",\"rockfall\",\"dehydration\",\"weather changes\",\"hauling hazards\"]",
+        "safetyNotes": "This is a committing multi-day big wall. Parties must be self-sufficient. Rockfall from parties above is a real danger. Retreat from the upper wall is extremely difficult.",
+        "tips": [
+          {"content": "The King Swing on pitch 26 is a famous pendulum; practice pendulum technique beforehand.", "category": "general"},
+          {"content": "Plan for at least 4 days on the wall for a first ascent of the route.", "category": "logistics"},
+          {"content": "Haul at minimum 6 liters of water per person per day.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Portaledge", "category": "camping", "isEssential": true, "notes": "Essential for multi-day bivy on the wall"},
+          {"itemName": "Double rope set", "category": "climbing", "isEssential": true, "notes": "Lead line and haul/jug line required"},
+          {"itemName": "Comprehensive aid rack", "category": "climbing", "isEssential": true, "notes": "Full set of cams, nuts, pitons, copperheads, and aiders"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Nothing compares to The Nose", "body": "Five days on the wall and absolutely transcendent. The Great Roof and Changing Corners are pitches you will never forget. Prepare thoroughly and this climb will change your life.", "conditions": "Mild temps, no rain, moderate wind on upper pitches"}
+        ]
+      },
+      {
+        "name": "Salathe Wall",
+        "difficulty": "5.13b",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Salathe Wall takes a stunning line up El Capitan's southwest face, widely considered one of the finest big wall routes anywhere. The 35-pitch route features incredible crack systems and headwall climbing. Named after legendary climber John Salathe, the route is prized for its sustained quality and the famous Headwall pitches near the top.",
+        "summary": "One of the finest big wall routes in the world, ascending El Capitan's southwest face.",
+        "distance": 2.4,
+        "elevationGain": 900,
+        "estimatedTime": 72,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"difficult retreat\",\"dehydration\",\"weather\"]",
+        "safetyNotes": "Slightly less trafficked than The Nose but equally committing. The Headwall section requires confident leading at the grade. No easy retreat from the upper wall.",
+        "tips": [
+          {"content": "The Headwall free pitches are among the best granite pitches in the world; savor them.", "category": "general"},
+          {"content": "El Cap Meadow has limited camping; arrive early or consider staying in the Valley.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Wide crack protection", "category": "climbing", "isEssential": true, "notes": "Number 4 and 5 cams needed for off-width sections"},
+          {"itemName": "Haul bag", "category": "climbing", "isEssential": true, "notes": "Required for hauling multi-day supplies"},
+          {"itemName": "Headlamp", "category": "navigation", "isEssential": true, "notes": "For early starts and potential night climbing"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The finest line on El Cap", "body": "The Headwall pitches are some of the best rock climbing I have ever done. The route as a whole is more sustained and aesthetic than The Nose. A true masterpiece.", "conditions": "Dry and warm, October"}
+        ]
+      },
+      {
+        "name": "Freerider",
+        "difficulty": "5.13a",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "Freerider shares much of its line with the Salathe Wall but diverges to find more free-climbable terrain. Made world-famous by Alex Honnold's 2017 free solo, the route is considered the most popular free climbing line on El Capitan. The 30-pitch route features varied climbing with the crux Boulder Problem pitch demanding precise footwork and finger strength.",
+        "summary": "The most popular free climbing route on El Capitan, made famous by the first free solo ascent.",
+        "distance": 2.4,
+        "elevationGain": 900,
+        "estimatedTime": 60,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"sustained difficulty\",\"rockfall\",\"weather changes\"]",
+        "safetyNotes": "Even with aid, this is a multi-day commitment. The Boulder Problem pitch at 5.13a stops many parties. Solid big wall and trad climbing experience required.",
+        "tips": [
+          {"content": "The crux Boulder Problem pitch can be aided at C1 if you cannot free it.", "category": "general"},
+          {"content": "September and October offer the best conditions with cooler temps and lower crowds.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Finger-sized cams", "category": "climbing", "isEssential": true, "notes": "Doubles of 0.5 to 2 cams recommended for splitter pitches"},
+          {"itemName": "Portaledge", "category": "camping", "isEssential": true, "notes": "Multi-day ascent requires wall camping"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "For the descent via East Ledges"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The ultimate free climbing objective", "body": "Freed the route over four days. The Boulder Problem pitch took me five attempts but finally sending it was euphoric. Incredible variety of climbing from fingercracks to chimneys.", "conditions": "Cool October temps, perfect friction"}
+        ]
+      },
+      {
+        "name": "East Buttress",
+        "difficulty": "5.10b",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The East Buttress is the most accessible technical route on El Capitan, offering 11 pitches of excellent granite climbing at a moderate grade. The route ascends the right side of El Capitan and can be completed in a single long day by a competent party. It provides a taste of El Capitan climbing without the multi-day big wall commitment.",
+        "summary": "The most accessible technical route on El Capitan, completable in a single day.",
+        "distance": 4.8,
+        "elevationGain": 750,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"exposure\",\"route finding on upper pitches\",\"afternoon heat\",\"rockfall\"]",
+        "safetyNotes": "While moderate by El Cap standards, this is still a serious multi-pitch route. The descent via East Ledges requires careful navigation. Start early to avoid afternoon heat on the south-facing wall.",
+        "tips": [
+          {"content": "The approach gully is loose and brushy; allow extra time and wear a helmet.", "category": "safety"},
+          {"content": "Start at first light to complete the route before the wall bakes in afternoon sun.", "category": "timing"},
+          {"content": "The East Ledges descent requires two rappels; bring extra cord for anchors.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Standard trad rack", "category": "climbing", "isEssential": true, "notes": "Cams from 0.3 to 3, set of nuts"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall danger from the approach gully and other parties"},
+          {"itemName": "Rappel cord", "category": "climbing", "isEssential": false, "notes": "For reinforcing East Ledges descent anchors"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great introduction to El Cap climbing", "body": "Completed in 8 hours car to car. The climbing is excellent and varied. A great way to say you have climbed on El Cap without the multi-day commitment.", "conditions": "Dry granite, warm but not hot"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Shuksan",
+    "routes": [
+      {
+        "name": "Fisher Chimneys (Normal Route)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Fisher Chimneys route is the standard non-glaciated approach to Mount Shuksan, following a series of rock chimneys and gullies on the mountain's south side. The route involves Class 4 scrambling through the chimney section, glacier travel on the upper Sulphide Glacier, and a final summit pyramid scramble. A Northwest Forest Pass and backcountry permit are required.",
+        "summary": "The standard route via Class 4 rock chimneys and upper glacier travel to the summit.",
+        "distance": 19.3,
+        "elevationGain": 1830,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"Class 4 rock\",\"glacier crevasses\",\"rockfall in chimneys\",\"weather changes\"]",
+        "safetyNotes": "The chimneys can be wet and slippery. Glacier travel requires rope team and crevasse rescue skills. Conditions change rapidly in the North Cascades; be prepared to turn back.",
+        "tips": [
+          {"content": "Camp at Lake Ann basin for a shorter summit day.", "category": "logistics"},
+          {"content": "The chimneys are easier to navigate in dry conditions; check recent trip reports.", "category": "timing"},
+          {"content": "Bring rock shoes or sticky-soled approach shoes for the chimney section.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "Required for upper Sulphide Glacier travel"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": true, "notes": "Needed for glacier travel and self-arrest"},
+          {"itemName": "Crevasse rescue kit", "category": "climbing", "isEssential": true, "notes": "Glacier travel demands full rescue setup"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Classic North Cascades alpine route", "body": "Everything you want in an alpine climb: rock scrambling, glacier travel, and stunning views. The chimneys are the crux and can be intimidating when wet. Well worth the effort.", "conditions": "Dry rock, firm snow on glacier, August"}
+        ]
+      },
+      {
+        "name": "Sulphide Glacier",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Sulphide Glacier route ascends Mount Shuksan via its large southern glacier, providing the most straightforward glaciated route to the summit. After approaching through forest and meadows, the route ascends the moderate glacier before reaching the summit pyramid. The final scramble to the true summit involves exposed Class 3 rock.",
+        "summary": "The most direct glacier route ascending Shuksan's large southern ice field to the summit pyramid.",
+        "distance": 18.5,
+        "elevationGain": 1770,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"crevasses\",\"whiteout conditions\",\"rockfall on summit pyramid\",\"afternoon softening snow\"]",
+        "safetyNotes": "Rope up for all glacier travel. The glacier has significant crevasse fields in late season. Start early to reach the summit pyramid before afternoon warming loosens rocks.",
+        "tips": [
+          {"content": "Shannon Ridge provides an excellent high camp location with views.", "category": "logistics"},
+          {"content": "Travel the glacier in the early morning when snow bridges are firmest.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Rope (30m minimum)", "category": "climbing", "isEssential": true, "notes": "Essential for roped glacier travel"},
+          {"itemName": "Snow pickets", "category": "climbing", "isEssential": true, "notes": "For glacier anchors and protection"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rockfall on the summit pyramid"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Beautiful glacier approach", "body": "The Sulphide Glacier is a gorgeous and moderate climb. Crevasses were manageable in July. The summit pyramid scramble adds excitement. Excellent intro to Cascades alpine climbing.", "conditions": "Firm morning snow, clearing clouds"}
+        ]
+      },
+      {
+        "name": "North Face (Price Glacier)",
+        "difficulty": "5.6",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The North Face via Price Glacier is the most serious route on Mount Shuksan, ascending the steep and heavily crevassed northern glacier. This committing alpine route involves steep ice, complex crevasse navigation, and technical mixed climbing near the summit. It is considered one of the finest alpine routes in the Cascade Range.",
+        "summary": "A serious alpine route ascending the steep and crevassed Price Glacier on Shuksan's north face.",
+        "distance": 16.1,
+        "elevationGain": 1830,
+        "estimatedTime": 16,
+        "season": "summer",
+        "hazards": "[\"steep ice\",\"large crevasses\",\"serac fall\",\"avalanche\",\"rockfall\"]",
+        "safetyNotes": "This route has serious objective hazards including serac collapse and avalanche. Climb quickly through exposed sections. Only attempt in stable conditions with a strong, experienced team.",
+        "tips": [
+          {"content": "Start the glacier section by midnight to move through avalanche-prone terrain while frozen.", "category": "timing"},
+          {"content": "Study the crevasse patterns from the approach; they change annually.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Technical ice tools", "category": "climbing", "isEssential": true, "notes": "Two tools each for steep ice sections"},
+          {"itemName": "Ice screws (6+)", "category": "climbing", "isEssential": true, "notes": "Needed for protection and anchors on steep ice"},
+          {"itemName": "Lightweight bivy gear", "category": "camping", "isEssential": false, "notes": "In case of unexpected delays requiring a night out"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Premier Cascades alpine route", "body": "The Price Glacier is a world-class alpine route. Steep ice, huge crevasses, and incredible exposure. We moved fast through the danger zones and topped out at sunrise. Unforgettable.", "conditions": "Cold and clear, firm ice, late July"}
+        ]
+      },
+      {
+        "name": "Nooksack Tower Traverse",
+        "difficulty": "5.5",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Nooksack Tower Traverse is a spectacular alpine route that traverses the dramatic Nooksack Tower on the way to Shuksan's summit. The route combines moderate rock climbing on the tower with glacier travel. The exposed traverse and the airy summit of Nooksack Tower make this one of the most aesthetic routes on the mountain.",
+        "summary": "An aesthetic alpine traverse over the dramatic Nooksack Tower en route to Shuksan's summit.",
+        "distance": 20.9,
+        "elevationGain": 1950,
+        "estimatedTime": 15,
+        "season": "summer",
+        "hazards": "[\"exposed traverse\",\"loose rock\",\"glacier crevasses\",\"route finding\"]",
+        "safetyNotes": "The tower traverse is exposed and the rock can be loose. Rope up for the traverse and glacier sections. Route finding can be tricky in poor visibility.",
+        "tips": [
+          {"content": "The traverse is best done early before sun loosens rock on the tower.", "category": "timing"},
+          {"content": "Carry a light rack with a few cams and slings for protection on the traverse.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Light alpine rack", "category": "climbing", "isEssential": true, "notes": "Small cams and slings for tower traverse protection"},
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "For glacier sections of the route"},
+          {"itemName": "Cordelette", "category": "climbing", "isEssential": false, "notes": "Useful for building anchors on the traverse"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most scenic route on Shuksan", "body": "Traversing Nooksack Tower with Shuksan's summit pyramid ahead is one of the most dramatic views in the Cascades. The climbing is moderate but very exposed. A magical alpine day.", "conditions": "Clear skies, dry rock, mid-August"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Olympus (Washington)",
+    "routes": [
+      {
+        "name": "Blue Glacier Route (Normal)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Blue Glacier Route is the standard way to climb Mount Olympus, the highest peak in the Olympic Mountains. The route requires a long approach up the Hoh River valley through temperate rainforest before ascending the Blue Glacier to the summit. The final summit block involves Class 4 rock scrambling. This is a multi-day expedition typically done in 3 to 4 days.",
+        "summary": "The standard multi-day route through rainforest and up the Blue Glacier to the summit.",
+        "distance": 58.0,
+        "elevationGain": 2130,
+        "estimatedTime": 36,
+        "season": "summer",
+        "hazards": "[\"glacier crevasses\",\"rain and fog\",\"river crossings\",\"Class 4 summit rock\"]",
+        "safetyNotes": "The Olympic Mountains receive enormous precipitation. Be prepared for rain at any time. The Blue Glacier requires full crevasse rescue skills. The summit block is exposed and often wet.",
+        "tips": [
+          {"content": "Glacier Meadows is the standard high camp location at 1400m elevation.", "category": "logistics"},
+          {"content": "Bring extra dry layers; the Hoh valley is one of the wettest places in the continental US.", "category": "general"},
+          {"content": "Get an Olympic National Park wilderness permit well in advance for summer.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Full rain gear", "category": "camping", "isEssential": true, "notes": "Olympic Mountains are extremely wet; waterproof everything"},
+          {"itemName": "Crampons and ice axe", "category": "climbing", "isEssential": true, "notes": "Required for Blue Glacier travel"},
+          {"itemName": "Crevasse rescue kit", "category": "climbing", "isEssential": true, "notes": "The Blue Glacier has significant crevasses"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Wilderness adventure like no other", "body": "The Hoh River approach through ancient rainforest is magical. The glacier is moderate but requires real skills. We got rained on every day but the summit views were worth it.", "conditions": "Mixed rain and sun, moderate crevasses in August"}
+        ]
+      },
+      {
+        "name": "Hoh River Approach",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Hoh River approach is the most common access corridor to Mount Olympus, beginning at the Hoh Rain Forest Visitor Center and following the Hoh River Trail for 17 miles to Glacier Meadows. While the approach itself is a moderate trail hike, the full route to the summit combines this approach with the Blue Glacier ascent. This variation emphasizes the extended wilderness approach.",
+        "summary": "The extended wilderness approach via the Hoh River Trail to Glacier Meadows and the summit.",
+        "distance": 60.4,
+        "elevationGain": 2130,
+        "estimatedTime": 40,
+        "season": "summer",
+        "hazards": "[\"river crossings\",\"rain\",\"glacier crevasses\",\"wildlife encounters\"]",
+        "safetyNotes": "The Hoh River can be difficult to cross during high water. Black bears are active throughout the valley; carry a bear canister. Allow extra time for weather delays.",
+        "tips": [
+          {"content": "Break the approach into two hiking days with a camp at Lewis Meadow.", "category": "logistics"},
+          {"content": "Bear canisters are required in Olympic National Park backcountry.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Bear canister", "category": "camping", "isEssential": true, "notes": "Required by park regulations for food storage"},
+          {"itemName": "Gaiters", "category": "camping", "isEssential": false, "notes": "Trail is often muddy and overgrown in sections"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the long flat approach and river crossings"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The approach is half the adventure", "body": "The 17-mile hike through the Hoh Rain Forest is one of the most beautiful trails I have ever walked. Massive old growth trees, elk, and lush green everywhere. The mountain itself is the cherry on top.", "conditions": "Rainy approach, clearing on summit day"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Glacier Peak",
+    "routes": [
+      {
+        "name": "Sitkum Glacier Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Sitkum Glacier Route is a popular approach to Glacier Peak from the south, ascending through old-growth forest and alpine meadows before reaching the Sitkum Glacier. The glacier travel is moderate with some crevasse hazard, and the final push to the summit involves Class 3 scrambling on volcanic rock. The remote approach adds significant distance.",
+        "summary": "A southern glacier approach through remote wilderness to the summit of Glacier Peak.",
+        "distance": 35.4,
+        "elevationGain": 2740,
+        "estimatedTime": 20,
+        "season": "summer",
+        "hazards": "[\"glacier crevasses\",\"remote location\",\"volcanic loose rock\",\"river crossings\"]",
+        "safetyNotes": "Glacier Peak is the most remote major volcano in the Cascades. Cell service is nonexistent. Register your trip and carry emergency communication. The volcanic rock near the summit is loose and crumbly.",
+        "tips": [
+          {"content": "Camp at Kennedy Hot Springs for a memorable first night on the approach.", "category": "logistics"},
+          {"content": "The glacier is best attempted in mid to late July when crevasses are visible but bridges are still solid.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "Required for glacier travel"},
+          {"itemName": "Ice axe", "category": "climbing", "isEssential": true, "notes": "For self-arrest on snow and ice"},
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "No cell service on the entire route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Remote and rewarding", "body": "The approach is long but absolutely beautiful. The glacier is moderate and straightforward. Summit views include Baker, Rainier, and the entire North Cascades. A true wilderness experience.", "conditions": "Clear weather, moderate crevasses, late July"}
+        ]
+      },
+      {
+        "name": "Disappointment Peak Cleaver",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The Disappointment Peak Cleaver route approaches Glacier Peak from the north via the Suiattle River trail. The route ascends a prominent rock cleaver between glaciers to reach the upper slopes. It is one of the less traveled routes and offers a more technical challenge than the standard glacier approaches with exposed scrambling on the cleaver.",
+        "summary": "A northern approach ascending a rock cleaver between glaciers to Glacier Peak's upper slopes.",
+        "distance": 38.6,
+        "elevationGain": 2800,
+        "estimatedTime": 22,
+        "season": "summer",
+        "hazards": "[\"exposed scrambling\",\"glacier travel\",\"remote wilderness\",\"loose volcanic rock\"]",
+        "safetyNotes": "The cleaver is exposed and the rock is volcanic and sometimes loose. The northern approach is even more remote than the south. Glacier travel skills and good weather are essential.",
+        "tips": [
+          {"content": "This route sees very few parties; do not count on anyone for assistance.", "category": "safety"},
+          {"content": "High camp on the cleaver provides dramatic views but limited flat ground.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Essential for loose volcanic rock on the cleaver"},
+          {"itemName": "Glacier travel gear", "category": "climbing", "isEssential": true, "notes": "Rope, crampons, ice axe, and crevasse rescue kit"},
+          {"itemName": "Bivouac shelter", "category": "camping", "isEssential": false, "notes": "Emergency shelter for this remote and committing route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Solitude on a Cascade volcano", "body": "Did not see a single other party over four days. The cleaver scrambling is engaging and the views are phenomenal. The approach is a slog but worth every step.", "conditions": "Stable weather, dry rock on cleaver, early August"}
+        ]
+      },
+      {
+        "name": "White Chuck Route",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The White Chuck Route was historically the most popular approach to Glacier Peak before the White Chuck River road was washed out. The rebuilt trail now requires a longer approach but still provides access to the upper White Chuck Glacier. The route is the least technical standard route on the mountain, following moderate glacier slopes to the summit.",
+        "summary": "The least technical glacier route on Glacier Peak via the rebuilt White Chuck River trail.",
+        "distance": 40.2,
+        "elevationGain": 2650,
+        "estimatedTime": 22,
+        "season": "summer",
+        "hazards": "[\"long approach\",\"glacier crevasses\",\"river crossings\",\"weather changes\"]",
+        "safetyNotes": "The extended approach adds fatigue. Glacier travel still requires full rope team. River crossings on the lower trail can be difficult in early season high water.",
+        "tips": [
+          {"content": "The road washout adds approximately 10 extra km to the original approach.", "category": "logistics"},
+          {"content": "Plan for a 3-day minimum trip to manage the long distances.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Crampons", "category": "climbing", "isEssential": true, "notes": "For glacier travel on the White Chuck Glacier"},
+          {"itemName": "Backpacking tent", "category": "camping", "isEssential": true, "notes": "Multi-day trip requires overnight shelter"},
+          {"itemName": "Water purification", "category": "camping", "isEssential": true, "notes": "Multiple water sources but all require treatment"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Long but straightforward", "body": "The road washout makes this approach a real commitment. The glacier climbing itself is moderate and enjoyable. Wish the road access was still intact. Still a worthy objective.", "conditions": "Partly cloudy, firm morning snow on glacier"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Mitchell",
+    "routes": [
+      {
+        "name": "Mount Mitchell Trail from Black Mountain Campground",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Mount Mitchell Trail from Black Mountain Campground is the most rewarding hiking route to the highest point east of the Mississippi. The trail climbs steadily through dense hardwood and spruce-fir forest, gaining significant elevation over its course. The summit features an observation tower with panoramic views of the Blue Ridge Mountains and surrounding Appalachian peaks.",
+        "summary": "The classic hiking trail from Black Mountain Campground to the highest peak in eastern North America.",
+        "distance": 9.0,
+        "elevationGain": 1067,
+        "estimatedTime": 5,
+        "season": "year-round",
+        "hazards": "[\"icy trail in winter\",\"fog and low visibility\",\"sudden temperature drops\",\"black bears\"]",
+        "safetyNotes": "The summit can be 15 degrees colder than the base. Fog and clouds can reduce visibility to near zero. Winter conditions include ice-covered trails that require traction devices.",
+        "tips": [
+          {"content": "The summit can also be reached by car via the Blue Ridge Parkway for those wanting a shorter walk.", "category": "logistics"},
+          {"content": "Peak fall foliage is typically mid-October and draws large crowds.", "category": "timing"},
+          {"content": "Layer up; temperatures at the summit are dramatically cooler than lower elevations.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Microspikes", "category": "climbing", "isEssential": false, "notes": "Recommended for winter and early spring when trails are icy"},
+          {"itemName": "Rain jacket", "category": "camping", "isEssential": true, "notes": "Summit weather changes rapidly and rain is common"},
+          {"itemName": "Warm layers", "category": "camping", "isEssential": true, "notes": "Summit temperatures can be dramatically colder than base"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Highest point east of the Mississippi", "body": "A rewarding hike through beautiful forest. The trail is well maintained and the observation tower provides amazing views. Come on a clear day if possible. Expect wind at the top.", "conditions": "Clear skies, breezy summit, fall colors beginning"}
+        ]
+      },
+      {
+        "name": "Old Mitchell Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Old Mitchell Trail follows the original path blazed to the summit of Mount Mitchell in the 19th century. This historic route is steeper and less maintained than the main trail, passing through atmospheric old-growth spruce-fir forest that gives the trail a moody character. It connects with the main summit trail near the top for the final approach.",
+        "summary": "The historic original trail to Mount Mitchell through atmospheric old-growth forest.",
+        "distance": 6.4,
+        "elevationGain": 1036,
+        "estimatedTime": 4,
+        "season": "year-round",
+        "hazards": "[\"steep and rough trail\",\"fallen trees\",\"wet roots and rocks\",\"limited signage\"]",
+        "safetyNotes": "The trail is rougher and less maintained than the main route. Wet roots and rocks are slippery. Navigation can be tricky at junctions; carry a trail map.",
+        "tips": [
+          {"content": "Combine with the main Mount Mitchell Trail for a loop hike.", "category": "logistics"},
+          {"content": "The old-growth forest section is particularly atmospheric in light fog.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Trail map", "category": "navigation", "isEssential": true, "notes": "Signage is limited and junctions can be confusing"},
+          {"itemName": "Hiking boots", "category": "climbing", "isEssential": true, "notes": "Ankle support recommended for rough, root-covered terrain"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The quieter path to the summit", "body": "Far fewer people than the main trail and much more character. The old-growth forest feels primeval. The trail is rough in places but very rewarding. Good option for a loop.", "conditions": "Misty morning, clearing by summit time"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Katahdin",
+    "routes": [
+      {
+        "name": "Knife Edge to Baxter Peak",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Knife Edge is one of the most famous ridgeline traverses in the eastern United States, connecting Pamola Peak to Baxter Peak along a narrow and exposed arête. The traverse involves Class 3 scrambling with significant exposure on both sides. Most hikers ascend via Helon Taylor Trail to Pamola and then traverse the Knife Edge to the summit of Katahdin at Baxter Peak.",
+        "summary": "A dramatic exposed ridgeline traverse connecting Pamola Peak to Baxter Peak along a narrow arête.",
+        "distance": 16.9,
+        "elevationGain": 1280,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"extreme exposure\",\"high winds\",\"Class 3 scrambling\",\"lightning\",\"weather changes\"]",
+        "safetyNotes": "Do not attempt in high winds, rain, or thunderstorms. The Knife Edge is exposed to weather from all directions. Retreat options are limited once committed to the traverse. Baxter State Park closes the Knife Edge trail in dangerous conditions.",
+        "tips": [
+          {"content": "Check with Baxter State Park rangers for current trail conditions before attempting.", "category": "safety"},
+          {"content": "Reserve a campsite at Chimney Pond for the closest access to the Knife Edge.", "category": "logistics"},
+          {"content": "Start early; the traverse takes most parties 3 to 4 hours and afternoon storms are common.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for the exposed scrambling sections"},
+          {"itemName": "Wind shell", "category": "camping", "isEssential": true, "notes": "Ridge is extremely exposed to wind"},
+          {"itemName": "Hiking boots with good grip", "category": "climbing", "isEssential": true, "notes": "Firm ankle support needed for Class 3 terrain"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Most thrilling hike in the Northeast", "body": "The Knife Edge is absolutely exhilarating. Narrow, exposed, and dramatic the entire way. Not for those afraid of heights. Pick a clear day and you will have the hike of a lifetime.", "conditions": "Clear and calm, perfect visibility"}
+        ]
+      },
+      {
+        "name": "Hunt Trail (AT Terminus)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Hunt Trail is the final stretch of the Appalachian Trail and the most popular route to Katahdin's summit at Baxter Peak. The trail ascends steeply through forest and then above treeline over exposed granite slabs marked with blue blazes. The famous AT terminus sign at the summit is an emotional landmark for thru-hikers and day hikers alike.",
+        "summary": "The classic Appalachian Trail terminus route ascending Katahdin via Hunt Spur to Baxter Peak.",
+        "distance": 16.1,
+        "elevationGain": 1280,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"exposed above-treeline travel\",\"steep granite slabs\",\"weather changes\",\"crowding\"]",
+        "safetyNotes": "The upper mountain is fully exposed to weather. Granite slabs can be dangerously slippery when wet. Baxter State Park has strict rules including no hiking after certain hours. Reserve parking and campsites well in advance.",
+        "tips": [
+          {"content": "Baxter State Park gate opens at 6 AM and fills quickly; arrive early.", "category": "timing"},
+          {"content": "The AT terminus sign at the summit makes for an iconic photo; be patient for your turn.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "camping", "isEssential": true, "notes": "Above treeline exposure demands waterproof layers"},
+          {"itemName": "Headlamp", "category": "navigation", "isEssential": true, "notes": "For the early start and potential late return"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the steep and rocky descent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A fitting end to the Appalachian Trail", "body": "Even as a day hiker this trail is incredible. The above-treeline section is dramatic and the summit views are endless. Understanding the significance of the AT terminus adds emotional weight.", "conditions": "Partly cloudy, moderate wind, dry slabs"}
+        ]
+      },
+      {
+        "name": "Cathedral Trail",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Cathedral Trail is the steepest and most direct route to Baxter Peak from Chimney Pond. The trail ascends through a series of dramatic granite cathedrals requiring Class 3 scrambling with some hand-over-hand sections. It is the shortest but most strenuous route and rewards strong hikers with dramatic rock formations and expansive views.",
+        "summary": "The steepest and most direct route from Chimney Pond via dramatic granite cathedral formations.",
+        "distance": 5.3,
+        "elevationGain": 700,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"steep Class 3 rock\",\"slippery when wet\",\"exposure\",\"falling rocks\"]",
+        "safetyNotes": "Not recommended in wet conditions as the granite becomes extremely slippery. The route is relentlessly steep with limited flat resting areas. Descend via Saddle Trail for easier footing.",
+        "tips": [
+          {"content": "Use this as an ascent route and descend the easier Saddle Trail for a loop.", "category": "logistics"},
+          {"content": "The granite cathedrals are among the most dramatic rock formations in the Northeast.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Sticky-soled hiking boots", "category": "climbing", "isEssential": true, "notes": "Good traction critical on steep granite"},
+          {"itemName": "Gloves", "category": "climbing", "isEssential": false, "notes": "Helpful for hand-over-hand scrambling sections"},
+          {"itemName": "Daypack only", "category": "camping", "isEssential": false, "notes": "Leave heavy packs at Chimney Pond camp for the summit push"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Thrilling scramble to the summit", "body": "Steep, rugged, and incredibly fun. The granite formations are impressive and the scrambling is engaging without being too dangerous in good conditions. Do not attempt this route in rain.", "conditions": "Dry granite, clear skies, calm wind"}
+        ]
+      },
+      {
+        "name": "Chimney Pond / Dudley Trail",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Dudley Trail ascends from Chimney Pond to Pamola Peak and provides access to the Knife Edge traverse or a direct summit via the connecting trails. Starting from the scenic Chimney Pond campsite, the trail climbs steeply through scrub and onto the exposed upper mountain. It is the primary connector between the basin camps and the eastern summit approaches.",
+        "summary": "The main connector trail from Chimney Pond basin to Pamola Peak and the upper mountain.",
+        "distance": 5.8,
+        "elevationGain": 710,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"steep terrain\",\"above-treeline exposure\",\"wind\",\"slippery rock\"]",
+        "safetyNotes": "The upper sections are fully exposed. Wind speeds on Pamola can be extreme. This trail is the gateway to the Knife Edge; assess conditions at Pamola before committing to the traverse.",
+        "tips": [
+          {"content": "Chimney Pond lean-tos and tent sites book out months in advance; plan early.", "category": "logistics"},
+          {"content": "Assess weather conditions at Pamola Peak before deciding whether to continue on the Knife Edge.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Wind protection layers", "category": "camping", "isEssential": true, "notes": "Pamola Peak is notoriously windy"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Useful for the steep and rocky sections"},
+          {"itemName": "Trail map", "category": "navigation", "isEssential": true, "notes": "Multiple trail junctions in the Chimney Pond area"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Gateway to the best of Katahdin", "body": "The Dudley Trail is steep but it gets you to Pamola efficiently. Chimney Pond is one of the most beautiful campsites in the Northeast. From Pamola you can assess conditions before committing to the Knife Edge.", "conditions": "Cool morning, clearing clouds, moderate wind at Pamola"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mauna Kea",
+    "routes": [
+      {
+        "name": "Summit Road/Visitor Center Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Summit Road trail follows the access road from the Visitor Information Station at 2800m to the summit observatories at 4207m. This is the most straightforward route to the summit but the extreme altitude presents a serious physiological challenge. The trail passes through a stark volcanic landscape with views extending across the Pacific Ocean to neighboring islands.",
+        "summary": "The direct route following the summit access road from the Visitor Center to the observatory summit.",
+        "distance": 12.9,
+        "elevationGain": 1400,
+        "estimatedTime": 7,
+        "season": "year-round",
+        "hazards": "[\"altitude sickness\",\"extreme sun exposure\",\"dehydration\",\"cold summit temperatures\"]",
+        "safetyNotes": "Altitude is the primary hazard. Spend at least 30 minutes acclimatizing at the Visitor Center before ascending. Do not attempt if you have heart or respiratory conditions. The summit temperature can be below freezing even in summer.",
+        "tips": [
+          {"content": "Spend at least 30 minutes at the Visitor Information Station at 2800m to begin acclimatizing.", "category": "safety"},
+          {"content": "Sunset from the summit is spectacular; bring a headlamp for the descent.", "category": "timing"},
+          {"content": "Check road conditions as the summit road may be closed due to weather or ice.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Sun protection", "category": "camping", "isEssential": true, "notes": "UV radiation is extreme at this altitude above the clouds"},
+          {"itemName": "Warm jacket", "category": "camping", "isEssential": true, "notes": "Summit temperatures can be below freezing with wind chill"},
+          {"itemName": "Headlamp", "category": "navigation", "isEssential": false, "notes": "Essential if staying for sunset"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Above the clouds in Hawaii", "body": "A surreal experience hiking above the cloud layer in Hawaii. The altitude hits hard. Take it slow and drink plenty of water. The sunset views are beyond description.", "conditions": "Clear above clouds, windy and cold at summit, 2C at top"}
+        ]
+      },
+      {
+        "name": "Humu'ula Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Humu'ula Trail is the longer hiking route to Mauna Kea's summit, starting from a lower trailhead and passing through unique alpine desert and volcanic terrain. The trail provides better acclimatization due to the gradual elevation gain. It passes Lake Waiau, one of the highest lakes in the Pacific, before reaching the summit plateau and observatory complex.",
+        "summary": "A longer trail providing gradual acclimatization through alpine desert to Mauna Kea's summit.",
+        "distance": 19.3,
+        "elevationGain": 1700,
+        "estimatedTime": 10,
+        "season": "year-round",
+        "hazards": "[\"altitude sickness\",\"extreme UV radiation\",\"dehydration\",\"disorientation in fog\"]",
+        "safetyNotes": "This longer route provides better acclimatization but still requires altitude awareness. Carry abundant water as there are no reliable sources. Fog can roll in quickly and disorient hikers on the open terrain.",
+        "tips": [
+          {"content": "This trail provides better acclimatization than the road route due to gradual elevation gain.", "category": "safety"},
+          {"content": "Carry at least 3 liters of water; there are no water sources on the trail.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Open terrain with few landmarks makes navigation challenging in fog"},
+          {"itemName": "Sunscreen SPF 50+", "category": "camping", "isEssential": true, "notes": "UV radiation at altitude is extreme and intensified by reflection"},
+          {"itemName": "Wide-brim hat", "category": "camping", "isEssential": true, "notes": "No shade on the entire trail"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The hiking approach to Mauna Kea", "body": "Much more satisfying than driving up the road. The landscape feels like another planet. Altitude effects were manageable with the gradual gain. Lake Waiau is a surprising find.", "conditions": "Sunny morning, clouds moved in by afternoon, cold wind"}
+        ]
+      },
+      {
+        "name": "Lake Waiau Approach",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This variation focuses on reaching Lake Waiau, one of the highest lakes in the Pacific Basin at 3970m, before continuing to the summit. The route branches from the main summit approach to visit this sacred and geologically unique alpine lake sitting in a cinder cone depression. It adds modest distance but provides a culturally significant side trip.",
+        "summary": "A summit route variation visiting sacred Lake Waiau, one of the highest lakes in the Pacific.",
+        "distance": 15.3,
+        "elevationGain": 1500,
+        "estimatedTime": 8,
+        "season": "year-round",
+        "hazards": "[\"altitude sickness\",\"cultural sensitivity\",\"cold temperatures\",\"high winds\"]",
+        "safetyNotes": "Lake Waiau is a sacred site in Hawaiian culture. Treat the area with respect and do not disturb the water or leave any trace. The same altitude precautions as all Mauna Kea routes apply.",
+        "tips": [
+          {"content": "Lake Waiau is sacred to Native Hawaiians; observe from a respectful distance and leave no trace.", "category": "general"},
+          {"content": "The lake detour adds about 1.5 km but is well worth the visit for the unique geology.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Warm base layers", "category": "camping", "isEssential": true, "notes": "The lake sits in a cold depression that funnels wind"},
+          {"itemName": "Camera with UV filter", "category": "camping", "isEssential": false, "notes": "The lake and surrounding landscape are extremely photogenic"},
+          {"itemName": "Water bottles (3L minimum)", "category": "camping", "isEssential": true, "notes": "No drinkable water sources on the mountain"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A sacred alpine lake in the tropics", "body": "Visiting Lake Waiau was the highlight of the hike. A small turquoise lake sitting in a volcanic crater at nearly 4000 meters in Hawaii is surreal. The summit push from there is straightforward.", "conditions": "Clear morning, cloud inversion below, light wind"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mauna Loa",
+    "routes": [
+      {
+        "name": "Mauna Loa Observatory Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Observatory Trail begins near the Mauna Loa NOAA Atmospheric Observatory at 3400m and traverses barren volcanic terrain to the summit caldera. The route follows a well-marked trail across lava flows of varying ages to reach the massive Mokuaweoweo Caldera at the summit. The trail offers a shorter approach than the Ainapo Trail but starts at higher elevation with immediate altitude challenges.",
+        "summary": "The shorter high-elevation route from the NOAA Observatory across lava flows to the summit caldera.",
+        "distance": 25.7,
+        "elevationGain": 830,
+        "estimatedTime": 10,
+        "season": "year-round",
+        "hazards": "[\"altitude sickness\",\"volcanic fumes\",\"dehydration\",\"disorientation on lava\",\"extreme sun\"]",
+        "safetyNotes": "Mauna Loa is an active volcano. Check volcanic activity status with USGS before departing. The lava terrain is disorienting; follow trail markers carefully. Carry all water as there are no sources.",
+        "tips": [
+          {"content": "Check USGS Hawaiian Volcano Observatory for current volcanic activity before your trip.", "category": "safety"},
+          {"content": "The summit cabin provides basic shelter but bring a sleeping bag rated to 0C.", "category": "logistics"},
+          {"content": "Trail markers are ahu (rock cairns); do not build new ones as it confuses navigation.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Water (4L minimum)", "category": "camping", "isEssential": true, "notes": "Zero water sources on the entire route"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Lava terrain is disorienting and fog is common"},
+          {"itemName": "Warm sleeping bag", "category": "camping", "isEssential": true, "notes": "Summit cabin is unheated and temperatures drop below freezing"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Walking on another planet", "body": "The lava landscape is utterly alien and mesmerizing. Different ages of lava create an incredible palette. The caldera at the summit is enormous. Altitude was manageable with slow pace.", "conditions": "Clear and dry, cold night at summit cabin"}
+        ]
+      },
+      {
+        "name": "Ainapo Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Ainapo Trail is the historic southern approach to Mauna Loa, ascending from lower elevations through diverse ecological zones from tropical forest to barren volcanic summit. This ancient Hawaiian trail covers much more distance and elevation than the Observatory Trail but provides better acclimatization and a richer ecological experience. It is less frequently used and more remote.",
+        "summary": "The historic southern approach ascending through multiple ecological zones to the summit.",
+        "distance": 41.8,
+        "elevationGain": 2500,
+        "estimatedTime": 20,
+        "season": "year-round",
+        "hazards": "[\"remote trail\",\"altitude sickness\",\"dehydration\",\"volcanic activity\",\"weather changes\"]",
+        "safetyNotes": "This is a very remote multi-day route. Carry a satellite communicator. The lower sections can have thick vegetation that obscures the trail. Monitor volcanic activity throughout your trip.",
+        "tips": [
+          {"content": "Allow 3 days minimum for this route to manage the distance and elevation gain safely.", "category": "logistics"},
+          {"content": "The lower forest sections are home to unique Hawaiian birds; bring binoculars.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "No cell service on the remote southern slopes"},
+          {"itemName": "Multi-day backpacking gear", "category": "camping", "isEssential": true, "notes": "3-day minimum trip requires full camping setup"},
+          {"itemName": "Water purification", "category": "camping", "isEssential": true, "notes": "Some water catchments exist but are unreliable"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The historic way up Mauna Loa", "body": "Three days of incredible scenery from tropical forest to barren lava fields. The ecological transitions are fascinating. Very few people use this trail so solitude is guaranteed. The distance is no joke.", "conditions": "Rain in forest, clear above tree line, cold summit"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Wheeler Peak",
+    "routes": [
+      {
+        "name": "Williams Lake Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Williams Lake Trail is a popular hiking route in the Sangre de Cristo Mountains that leads to the beautiful alpine Williams Lake. From the lake, a steep but non-technical use trail continues to Wheeler Peak's summit ridge. The combination provides a scenic and accessible approach to the highest point in New Mexico.",
+        "summary": "A scenic trail via alpine Williams Lake with a steep use trail continuing to the summit.",
+        "distance": 12.9,
+        "elevationGain": 945,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"altitude sickness\",\"lightning\",\"steep loose trail above lake\",\"afternoon storms\"]",
+        "safetyNotes": "The summit ridge is above treeline and fully exposed to lightning. Plan to be off the summit by noon. The use trail above Williams Lake is steep and loose; take care on descent.",
+        "tips": [
+          {"content": "Williams Lake itself is a worthy destination if you decide not to summit.", "category": "general"},
+          {"content": "Start early to summit by noon before afternoon thunderstorms develop.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Very helpful on the steep loose trail above the lake"},
+          {"itemName": "Rain gear", "category": "camping", "isEssential": true, "notes": "Afternoon storms are common and can be severe"},
+          {"itemName": "Sun protection", "category": "camping", "isEssential": true, "notes": "High altitude desert sun is intense"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Beautiful approach to Wheeler", "body": "Williams Lake is stunning and the trail to it is well maintained. The use trail to the summit is steep and scrambly but nothing technical. Great views of the Sangre de Cristos from the top.", "conditions": "Clear morning, clouds building by noon"}
+        ]
+      },
+      {
+        "name": "Wheeler Peak Trail from Taos Ski Valley",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Wheeler Peak Trail from Taos Ski Valley is the most popular and well-marked route to the summit of New Mexico's highest peak. The trail ascends steadily from the ski area through alpine meadows and along a long ridge to the summit. The route is well-established and straightforward though the distance and altitude make it a full-day endeavor.",
+        "summary": "The standard well-marked trail from Taos Ski Valley along the ridge to Wheeler Peak's summit.",
+        "distance": 14.5,
+        "elevationGain": 1036,
+        "estimatedTime": 8,
+        "season": "summer",
+        "hazards": "[\"altitude\",\"lightning above treeline\",\"afternoon storms\",\"sun exposure\"]",
+        "safetyNotes": "The ridge is exposed above treeline for an extended stretch. Turn back if thunderstorms approach. Altitude effects are common for visitors not acclimatized to the high desert.",
+        "tips": [
+          {"content": "The Bull of the Woods loop can be combined for a longer and more varied hike.", "category": "logistics"},
+          {"content": "Parking at Taos Ski Valley fills early in summer; arrive by 6 AM.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Warm layers", "category": "camping", "isEssential": true, "notes": "Ridge can be windy and cold even in summer"},
+          {"itemName": "Sun hat and sunscreen", "category": "camping", "isEssential": true, "notes": "Extended above-treeline exposure"},
+          {"itemName": "Plenty of water", "category": "camping", "isEssential": true, "notes": "Dry climate and altitude increase water needs"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Highest point in the Land of Enchantment", "body": "A long but rewarding ridge walk with great views. Trail is well marked and easy to follow. The altitude was the main challenge. New Mexico from above is gorgeous.", "conditions": "Sunny, light wind, clear visibility to Colorado"}
+        ]
+      },
+      {
+        "name": "Bull of the Woods Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Bull of the Woods Trail provides an alternative approach to Wheeler Peak that passes through more varied terrain including dense forest, alpine meadows, and past the historic Bull of the Woods pasture. The trail intersects with the main Wheeler Peak Trail near the summit ridge, allowing for a loop hike. It is longer but less crowded than the standard route.",
+        "summary": "A longer alternative approach through varied terrain connecting to the Wheeler Peak Trail.",
+        "distance": 16.1,
+        "elevationGain": 1067,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"route length\",\"altitude\",\"thunderstorms\",\"limited water\"]",
+        "safetyNotes": "The longer distance means more time above treeline. Start very early. The trail is less traveled so you may be alone if something goes wrong. Carry a map for the trail junctions.",
+        "tips": [
+          {"content": "Combine with the Wheeler Peak Trail for an excellent loop hike.", "category": "logistics"},
+          {"content": "The meadows along this route are exceptional for wildflowers in mid-July.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Trail map", "category": "navigation", "isEssential": true, "notes": "Several junctions require navigation decisions"},
+          {"itemName": "Insulating layer", "category": "camping", "isEssential": true, "notes": "Temperature swings are significant on this longer route"},
+          {"itemName": "Water purification", "category": "camping", "isEssential": false, "notes": "A few seasonal streams may provide water in early summer"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "The scenic alternative to Wheeler", "body": "Longer and less direct but the wildflower meadows were spectacular. Fewer people than the main trail. The trail junctions can be a bit confusing so pay attention to your map.", "conditions": "Warm and sunny, wildflowers in bloom, dry trail"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Humphreys Peak",
+    "routes": [
+      {
+        "name": "Humphreys Trail from Snowbowl",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Humphreys Trail from Arizona Snowbowl is the standard and most popular route to the highest point in Arizona. The trail climbs through ponderosa pine and spruce-fir forest before emerging above treeline onto the exposed summit ridge. The route is well-maintained and straightforward but the altitude and exposure on the upper ridge present real challenges.",
+        "summary": "The standard well-maintained trail from Snowbowl ski area to Arizona's highest summit.",
+        "distance": 14.5,
+        "elevationGain": 1067,
+        "estimatedTime": 7,
+        "season": "summer",
+        "hazards": "[\"altitude sickness\",\"lightning above treeline\",\"afternoon thunderstorms\",\"wind exposure\"]",
+        "safetyNotes": "The upper ridge is above treeline and fully exposed to weather. Afternoon thunderstorms are common and dangerous. Plan to summit by noon. The altitude can affect visitors from lower elevations.",
+        "tips": [
+          {"content": "The Kachina Peaks Wilderness is sacred to Native American tribes; stay on the trail.", "category": "general"},
+          {"content": "Start by 6 AM to be off the summit before afternoon storms build.", "category": "timing"},
+          {"content": "Fall colors in the aspen groves below are spectacular in late September.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "camping", "isEssential": true, "notes": "Afternoon thunderstorms are common and can be severe"},
+          {"itemName": "Warm layers", "category": "camping", "isEssential": true, "notes": "Summit can be 20 degrees colder than the trailhead"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful on the steep and rocky upper sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Top of Arizona", "body": "A well-maintained and scenic trail with big views. The altitude was harder than expected coming from Phoenix. The summit ridge is beautiful and exposed. Start early to avoid storms.", "conditions": "Clear morning, thunderstorms building by 11 AM"}
+        ]
+      },
+      {
+        "name": "Weatherford Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Weatherford Trail follows an old road grade built in the 1920s and provides a longer, more gradual approach to Humphreys Peak. The trail traverses through beautiful mixed conifer forest and extensive alpine meadows before connecting with the Humphreys Trail near the summit ridge. It is a quieter alternative with gentler grades.",
+        "summary": "A longer and more gradual historic trail connecting to the Humphreys Trail near the summit.",
+        "distance": 20.9,
+        "elevationGain": 1100,
+        "estimatedTime": 10,
+        "season": "summer",
+        "hazards": "[\"long distance\",\"altitude\",\"thunderstorms\",\"trail junctions\"]",
+        "safetyNotes": "The greater distance means more time commitment and more exposure to weather changes. Carry extra food and water for the longer day. Trail junctions can be confusing.",
+        "tips": [
+          {"content": "The Weatherford Trail makes an excellent loop when combined with the Humphreys Trail.", "category": "logistics"},
+          {"content": "The gentle grade makes this a better option for those struggling with altitude.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Extra water and food", "category": "camping", "isEssential": true, "notes": "Longer route requires more supplies than the standard trail"},
+          {"itemName": "Trail map", "category": "navigation", "isEssential": true, "notes": "Multiple junctions with other trails"},
+          {"itemName": "Gaiters", "category": "camping", "isEssential": false, "notes": "Loose volcanic cinder gets into boots on the upper trail"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "The quieter approach", "body": "Much fewer people than the Humphreys Trail. The gentle grade was easier on my knees. The forest is beautiful and the meadows are full of wildflowers. It is long though, so bring plenty of water.", "conditions": "Sunny and warm in forest, cool and windy on ridge"}
+        ]
+      },
+      {
+        "name": "Inner Basin Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Inner Basin Trail accesses the caldera-like interior of the San Francisco Peaks, an ancient volcanic remnant. While this trail does not summit Humphreys Peak directly, it provides access to the alpine basin from which strong hikers can connect to the summit via steep use trails. The Inner Basin is noted for its spectacular fall aspen color displays.",
+        "summary": "An approach through the scenic Inner Basin caldera with connections to the summit via use trails.",
+        "distance": 12.9,
+        "elevationGain": 850,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"route finding above basin\",\"loose volcanic scree\",\"altitude\",\"afternoon storms\"]",
+        "safetyNotes": "The use trails above the Inner Basin are not officially maintained and can be difficult to follow. The volcanic scree above the basin is loose and tiring. Stay on established trails to protect fragile alpine vegetation.",
+        "tips": [
+          {"content": "Visit in late September for one of the best aspen displays in Arizona.", "category": "timing"},
+          {"content": "The basin itself is a beautiful destination even without summiting.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Use trails above the basin are not well-marked"},
+          {"itemName": "Gaiters", "category": "camping", "isEssential": false, "notes": "Volcanic cinder and scree above the basin"},
+          {"itemName": "Camera", "category": "camping", "isEssential": false, "notes": "The fall colors and basin scenery are spectacular"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Hidden gem of the San Francisco Peaks", "body": "The Inner Basin feels like a secret garden surrounded by peaks. The aspen forest was glowing gold when we visited. The route to the summit from here is rough but the basin alone is worth the trip.", "conditions": "Fall colors, clear skies, cool temps"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Borah Peak",
+    "routes": [
+      {
+        "name": "Southwest Ridge (Chickenout Ridge)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Southwest Ridge, famously known as the Chickenout Ridge route, is the standard way to climb Idaho's highest peak. The route ascends through forest and then follows an increasingly exposed ridge with a notorious knife-edge section called Chickenout Ridge. The Class 4 scrambling on the exposed ridge turns back many climbers and gives the route its memorable name.",
+        "summary": "The standard route featuring the notorious Chickenout Ridge knife-edge scramble to Idaho's highest point.",
+        "distance": 11.3,
+        "elevationGain": 1707,
+        "estimatedTime": 9,
+        "season": "summer",
+        "hazards": "[\"extreme exposure on knife edge\",\"loose rock\",\"altitude\",\"afternoon storms\"]",
+        "safetyNotes": "Chickenout Ridge is a true knife-edge with significant exposure on both sides. Do not attempt in wet, icy, or windy conditions. Many experienced hikers turn back at the ridge. There is real fall potential on the exposed sections.",
+        "tips": [
+          {"content": "If the knife edge makes you uncomfortable, there is no shame in turning back; it earns its name.", "category": "safety"},
+          {"content": "Start very early to have calm conditions on the exposed ridge.", "category": "timing"},
+          {"content": "Bring a helmet; rock quality on the ridge is variable.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Rock quality varies and loose rock is common on the ridge"},
+          {"itemName": "Hiking boots with good ankle support", "category": "climbing", "isEssential": true, "notes": "Firm support needed for Class 4 scrambling"},
+          {"itemName": "Wind shell", "category": "camping", "isEssential": true, "notes": "The ridge is fully exposed to wind"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Chickenout Ridge lives up to its name", "body": "The knife edge is genuinely thrilling and intimidating. Several people in our group turned back. Those who continued were rewarded with an incredible summit. Be honest about your comfort level.", "conditions": "Clear and calm early, wind building by afternoon"}
+        ]
+      },
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Northwest Ridge is an alternative route to Borah Peak that avoids Chickenout Ridge but presents its own challenges. The route ascends from the north side through steeper and more sustained terrain with Class 4 scrambling. It is less traveled and requires good route-finding skills. The ridge itself offers dramatic views into the deep valleys of the Lost River Range.",
+        "summary": "An alternative ridge route avoiding Chickenout Ridge but with sustained Class 4 scrambling.",
+        "distance": 12.9,
+        "elevationGain": 1830,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"sustained Class 4 terrain\",\"route finding\",\"loose rock\",\"remote setting\"]",
+        "safetyNotes": "This route is more sustained in difficulty than the standard route. Route finding is critical as the ridge has multiple false lines. Carry navigation tools and be prepared for a long day.",
+        "tips": [
+          {"content": "Study the route carefully on maps before attempting; several wrong turns are common.", "category": "safety"},
+          {"content": "This route is a good alternative if you want to avoid the crowds on the standard route.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "GPS with preloaded track", "category": "navigation", "isEssential": true, "notes": "Multiple false ridgelines make navigation tricky"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock throughout the route"},
+          {"itemName": "Extra food and water", "category": "camping", "isEssential": true, "notes": "Longer and more demanding than the standard route"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The road less traveled on Borah", "body": "Chose this route to avoid the Chickenout Ridge crowds and was not disappointed. The scrambling is fun and sustained. Had the ridge entirely to ourselves. Navigation was the main challenge.", "conditions": "Dry rock, clear visibility, no wind"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Kings Peak",
+    "routes": [
+      {
+        "name": "Henry's Fork Trail (Normal Route)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Henry's Fork Trail is the standard and most popular route to Kings Peak, the highest point in Utah. The trail follows the Henry's Fork drainage through beautiful alpine meadows and past several pristine lakes in the High Uintas Wilderness. The final push to the summit involves Class 2 boulder hopping across a talus field to the broad summit plateau.",
+        "summary": "The standard trail through alpine meadows and past mountain lakes with a boulder-hop summit finish.",
+        "distance": 28.2,
+        "elevationGain": 1220,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"long distance\",\"afternoon thunderstorms\",\"mosquitoes\",\"talus boulder field\"]",
+        "safetyNotes": "The distance makes this a long day hike or overnight trip. Afternoon thunderstorms are common and the summit is exposed. Mosquitoes can be brutal in July; bring repellent and head nets.",
+        "tips": [
+          {"content": "Camp at Dollar Lake or Henry's Fork Basin to split the route into a more enjoyable two-day trip.", "category": "logistics"},
+          {"content": "Mosquitoes are legendary in July; August is better. Bring a head net regardless.", "category": "timing"},
+          {"content": "The summit plateau is broad and featureless; note your descent route before topping out.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Insect repellent and head net", "category": "camping", "isEssential": true, "notes": "Mosquitoes are extremely aggressive in the High Uintas"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for river crossings and the long approach"},
+          {"itemName": "Bear canister or hang kit", "category": "camping", "isEssential": true, "notes": "Required for overnight trips in the wilderness area"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Utah's rooftop via a beautiful basin", "body": "The Henry's Fork Basin is gorgeous with pristine lakes and alpine meadows. The summit boulder field is tedious but not technical. We camped at Dollar Lake and had an amazing sunset. The mosquitoes were ferocious.", "conditions": "Clear weather, heavy mosquitoes, dry trail"}
+        ]
+      },
+      {
+        "name": "Gunsight Pass Approach",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Gunsight Pass approach reaches Kings Peak via a high alpine pass on the south side of the summit massif. The route crosses Gunsight Pass and traverses the upper Painter Basin before ascending the summit talus. It is slightly shorter than the Henry's Fork route but involves more elevation gain and loss over the pass. The basin scenery is spectacular.",
+        "summary": "An approach via scenic Gunsight Pass and Painter Basin to Kings Peak's summit.",
+        "distance": 25.7,
+        "elevationGain": 1370,
+        "estimatedTime": 13,
+        "season": "summer",
+        "hazards": "[\"exposed pass\",\"talus fields\",\"thunderstorms\",\"route finding above basin\"]",
+        "safetyNotes": "Gunsight Pass is exposed and can be windy. Snow lingers on the north side of the pass into July. The traverse across the upper basin requires some route-finding skills.",
+        "tips": [
+          {"content": "Painter Basin offers beautiful and less crowded camping compared to Henry's Fork.", "category": "logistics"},
+          {"content": "Check snow conditions on Gunsight Pass before attempting in early summer.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Warm layers for pass", "category": "camping", "isEssential": true, "notes": "Gunsight Pass funnels wind and is significantly colder"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "Route finding in the upper basin can be challenging"},
+          {"itemName": "Microspikes", "category": "climbing", "isEssential": false, "notes": "Snow may linger on the pass into July"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Scenic alternative to Henry's Fork", "body": "Gunsight Pass is dramatic and Painter Basin is beautiful. Fewer people than the Henry's Fork Trail. The pass crossing adds some spice to what is otherwise a straightforward hike. Recommended for a different perspective.", "conditions": "Some snow on pass in early July, clear skies"}
+        ]
+      },
+      {
+        "name": "Anderson Pass Route",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Anderson Pass Route is the least traveled approach to Kings Peak, entering the High Uintas from the south via Yellowstone Creek drainage. The route crosses Anderson Pass and descends into the upper Yellowstone drainage before ascending to the summit. It is the longest approach but offers the most solitude and passes through remote and pristine wilderness.",
+        "summary": "The longest and most remote approach via Anderson Pass and Yellowstone Creek drainage.",
+        "distance": 33.8,
+        "elevationGain": 1525,
+        "estimatedTime": 18,
+        "season": "summer",
+        "hazards": "[\"remote wilderness\",\"river crossings\",\"long distance\",\"route finding\"]",
+        "safetyNotes": "This is the most remote route to Kings Peak. Plan for a 3-day trip minimum. River crossings can be challenging during high water. Carry emergency communication equipment.",
+        "tips": [
+          {"content": "This route is best for those seeking solitude; expect to see very few other hikers.", "category": "general"},
+          {"content": "Plan for at least 3 days to enjoy the wilderness and manage the long distances.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Satellite communicator", "category": "navigation", "isEssential": true, "notes": "Very remote with no cell service"},
+          {"itemName": "Multi-day backpacking setup", "category": "camping", "isEssential": true, "notes": "3-day minimum trip requires full camping gear"},
+          {"itemName": "Water crossing shoes", "category": "climbing", "isEssential": false, "notes": "Several river crossings on the approach"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The wilderness route to Kings Peak", "body": "Three days of solitude through beautiful Uinta wilderness. Did not see anyone else until the summit plateau. The river crossings were knee-deep in July. A true backcountry adventure.", "conditions": "Warm days, cool nights, high water on crossings"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Granite Peak",
+    "routes": [
+      {
+        "name": "Southwest Ramp Route (Normal)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Southwest Ramp Route is the standard way to climb Granite Peak, Montana's highest and one of the most difficult state highpoints in the lower 48. The route involves a long approach through the Absaroka-Beartooth Wilderness, glacier travel, and sustained Class 4 scrambling on the summit block. The final pitch involves an exposed step across a gap with significant exposure.",
+        "summary": "The standard route to Montana's highest peak involving glacier travel and exposed Class 4 scrambling.",
+        "distance": 35.4,
+        "elevationGain": 2200,
+        "estimatedTime": 20,
+        "season": "summer",
+        "hazards": "[\"exposed Class 4 scrambling\",\"snow and ice\",\"rockfall\",\"long remote approach\",\"lightning\"]",
+        "safetyNotes": "Granite Peak is considered one of the hardest state highpoints. The summit block requires confident Class 4 skills with real exposure. Snow fields persist late into summer and may require ice axe and crampons. The approach is long and remote.",
+        "tips": [
+          {"content": "Most parties camp at Froze-to-Death Plateau or Tempest Mountain col for the summit push.", "category": "logistics"},
+          {"content": "A 50-foot rope is useful for belaying less confident members on the summit block.", "category": "safety"},
+          {"content": "August typically offers the best conditions with minimal snow on the approach.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock on the summit block is a serious hazard"},
+          {"itemName": "Short rope (15m)", "category": "climbing", "isEssential": false, "notes": "Useful for belaying the exposed summit moves"},
+          {"itemName": "Ice axe and crampons", "category": "climbing", "isEssential": true, "notes": "Snow fields persist on the approach well into summer"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The hardest state highpoint I have done", "body": "This mountain earns its reputation. The approach is a slog, the scrambling is serious, and the summit step is genuinely nerve-wracking. But the Beartooth Wilderness is gorgeous and the sense of accomplishment is immense.", "conditions": "Clear weather, some snow on approach, dry summit rock"}
+        ]
+      },
+      {
+        "name": "East Ridge",
+        "difficulty": "5.4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "The East Ridge provides an alternative approach to Granite Peak that follows the aesthetic east ridge to the summit. This route involves sustained technical climbing including several pitches of low 5th class rock. It is less traveled than the standard route and requires more technical skill. The ridge offers dramatic views throughout and a sense of alpine adventure.",
+        "summary": "A sustained technical ridge route with low 5th class climbing to Montana's highest summit.",
+        "distance": 33.8,
+        "elevationGain": 2200,
+        "estimatedTime": 22,
+        "season": "summer",
+        "hazards": "[\"technical rock climbing\",\"exposure\",\"loose rock\",\"remote location\",\"weather\"]",
+        "safetyNotes": "This is a technical alpine route requiring rope and rock protection. The ridge is exposed with limited retreat options. Only attempt with strong climbing skills and good weather forecast.",
+        "tips": [
+          {"content": "Bring a light alpine rack; several sections warrant protection.", "category": "general"},
+          {"content": "The ridge is best in August when snow has melted from the approach.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Light alpine rack", "category": "climbing", "isEssential": true, "notes": "Small cams and nuts for protection on 5th class sections"},
+          {"itemName": "60m rope", "category": "climbing", "isEssential": true, "notes": "Required for the technical pitches"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock throughout the ridge"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A true alpine ridge traverse", "body": "The East Ridge is a magnificent line. The climbing is engaging throughout and the exposure is thrilling. Much more adventurous than the standard route. Requires solid climbing skills.", "conditions": "Dry rock, mild wind, clear visibility"}
+        ]
+      },
+      {
+        "name": "Froze-to-Death Plateau Approach",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Froze-to-Death Plateau approach is the most common way to access Granite Peak, crossing the dramatic and aptly named high plateau before descending to the base of the summit routes. The plateau itself at over 3600m is a remarkable landscape of tundra, snowfields, and alpine lakes. This approach is combined with either the Southwest Ramp or East Ridge for the summit.",
+        "summary": "The primary access route crossing the dramatic Froze-to-Death Plateau to the base of Granite Peak.",
+        "distance": 28.2,
+        "elevationGain": 1830,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"exposed high plateau\",\"lightning\",\"whiteout conditions\",\"snowfields\",\"navigation difficulty\"]",
+        "safetyNotes": "The plateau is fully exposed and featureless in poor visibility. Lightning is a severe hazard on the open terrain. Navigation requires GPS skills as trails are faint. Snow lingers well into summer.",
+        "tips": [
+          {"content": "The plateau makes an excellent camp location with dramatic sunset views.", "category": "general"},
+          {"content": "Navigation across the plateau in fog is extremely difficult; preload GPS waypoints.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "GPS with waypoints", "category": "navigation", "isEssential": true, "notes": "The plateau is featureless in fog and easy to become disoriented"},
+          {"itemName": "4-season tent", "category": "camping", "isEssential": true, "notes": "Wind on the plateau can be fierce; standard tents may not survive"},
+          {"itemName": "Warm sleeping bag", "category": "camping", "isEssential": true, "notes": "Temperatures on the plateau drop well below freezing at night"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The approach is an adventure in itself", "body": "Froze-to-Death Plateau earns its name. The wind was relentless and the temperatures dropped fast after sunset. But the landscape is hauntingly beautiful and the stargazing at camp was incredible.", "conditions": "Windy, cold nights, clear days, some snow patches"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Cloud Peak",
+    "routes": [
+      {
+        "name": "Paint Rock Creek Trail",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The Paint Rock Creek Trail approaches Cloud Peak from the west side of the Bighorn Mountains via the Cloud Peak Wilderness. The trail passes through beautiful alpine meadows and past several mountain lakes before reaching the base of Cloud Peak's west face. The final summit push involves Class 3 scrambling on granite to the summit of Wyoming's highest point outside the Wind River Range.",
+        "summary": "The western approach via alpine lakes and meadows with Class 3 scrambling to the summit.",
+        "distance": 25.7,
+        "elevationGain": 1524,
+        "estimatedTime": 14,
+        "season": "summer",
+        "hazards": "[\"loose rock\",\"afternoon storms\",\"long approach\",\"altitude\"]",
+        "safetyNotes": "The Bighorn Mountains generate rapid afternoon thunderstorms. Plan to summit early. The scrambling near the top is on mixed quality rock. The approach is long enough to warrant an overnight camp.",
+        "tips": [
+          {"content": "Camp at Mistymoon Lake for a scenic high camp and shorter summit day.", "category": "logistics"},
+          {"content": "The granite near the summit is generally solid but test holds before committing.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Helmet", "category": "climbing", "isEssential": false, "notes": "Recommended for the scrambling sections near the summit"},
+          {"itemName": "Backpacking tent", "category": "camping", "isEssential": true, "notes": "Two-day trip is recommended for this approach"},
+          {"itemName": "Bear spray", "category": "camping", "isEssential": true, "notes": "Grizzly bears are present in the Cloud Peak Wilderness"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "A hidden gem in the Bighorns", "body": "Cloud Peak does not get the attention it deserves. The approach through alpine lakes is beautiful and the scrambling is fun. Mistymoon Lake is one of the prettiest camps I have ever had.", "conditions": "Clear morning, storms rolling in by 2 PM, dry rock"}
+        ]
+      },
+      {
+        "name": "West Tensleep Trailhead Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The West Tensleep Trailhead Route approaches Cloud Peak from the south and is the most commonly used access point. The trail follows West Tensleep Creek through conifer forest to the alpine basin below Cloud Peak. The final ascent follows a Class 3 scramble up the south face to the summit. This is the shortest standard approach to Cloud Peak.",
+        "summary": "The shortest standard approach from the south via West Tensleep Creek to the summit.",
+        "distance": 22.5,
+        "elevationGain": 1463,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"creek crossings\",\"afternoon storms\",\"Class 3 scrambling\",\"grizzly bears\"]",
+        "safetyNotes": "West Tensleep Creek crossings can be challenging during high water. Grizzly bears frequent the drainage. Make noise and carry bear spray. The summit scramble requires confidence on Class 3 terrain.",
+        "tips": [
+          {"content": "The trailhead parking area fills up on summer weekends; arrive early or camp nearby.", "category": "logistics"},
+          {"content": "Make noise on the trail; grizzly bear encounters have increased in recent years.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Bear spray", "category": "camping", "isEssential": true, "notes": "Grizzly bears are active in this drainage"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for creek crossings and the long approach"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "Sticky rubber helpful on the Class 3 summit scramble"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The most direct route to Cloud Peak", "body": "The approach is shorter than Paint Rock Creek but still a solid day. The scrambling is enjoyable and the views from the summit are expansive. We saw fresh bear tracks on the trail; carry your spray.", "conditions": "Dry conditions, warm, clear summit views"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Guadalupe Peak",
+    "routes": [
+      {
+        "name": "Guadalupe Peak Trail (Normal Route)",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Guadalupe Peak Trail is the only maintained route to the highest point in Texas. The well-marked trail switchbacks steeply through Chihuahuan Desert scrub and pine forest before emerging onto the exposed summit ridge. A stainless steel pyramid monument marks the summit. Despite being a hiking trail, the elevation gain and desert heat make this a challenging day hike.",
+        "summary": "The only maintained trail to the highest point in Texas through desert and pine forest.",
+        "distance": 13.7,
+        "elevationGain": 945,
+        "estimatedTime": 7,
+        "season": "year-round",
+        "hazards": "[\"extreme heat\",\"high winds\",\"dehydration\",\"sun exposure\",\"rattlesnakes\"]",
+        "safetyNotes": "Carry abundant water; there are no sources on the trail. Summer temperatures at the base can exceed 38C. The summit ridge is extremely exposed to wind; gusts over 80 km/h are common. Rattlesnakes are present on the lower trail.",
+        "tips": [
+          {"content": "Start before dawn in summer to avoid the worst heat on the exposed lower trail.", "category": "timing"},
+          {"content": "Wind is the biggest hazard; check the forecast and be prepared to turn back if gusts are dangerous.", "category": "safety"},
+          {"content": "The campground at the trailhead is first-come first-served and is worth staying at the night before.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Water (3L minimum)", "category": "camping", "isEssential": true, "notes": "No water on the trail; dehydration is the primary risk"},
+          {"itemName": "Wind protection", "category": "camping", "isEssential": true, "notes": "Summit winds can be extreme and sustained"},
+          {"itemName": "Sun hat and sunscreen", "category": "camping", "isEssential": true, "notes": "Exposed desert terrain with intense UV"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Top of Texas with a view", "body": "A surprisingly challenging hike for Texas. The heat and wind are the real adversaries. The summit monument and vast views over the Chihuahuan Desert are worth every step. Bring more water than you think you need.", "conditions": "Hot and windy, clear visibility, 35C at base"}
+        ]
+      },
+      {
+        "name": "El Capitan Connection",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This route connects the dramatic El Capitan peak with Guadalupe Peak via a ridge traverse in Guadalupe Mountains National Park. The route ascends El Capitan's imposing limestone cliff from the Salt Basin Overlook trail and then follows the connecting ridge to Guadalupe Peak. It is a much longer and more demanding alternative that showcases the park's dramatic geology.",
+        "summary": "An extended ridge traverse connecting dramatic El Capitan with Guadalupe Peak's summit.",
+        "distance": 19.3,
+        "elevationGain": 1220,
+        "estimatedTime": 10,
+        "season": "fall",
+        "hazards": "[\"extreme heat\",\"no water\",\"exposed ridgeline\",\"route finding\",\"wind\"]",
+        "safetyNotes": "This is a long exposed route with no water and no shade for much of the distance. Only attempt in cool weather. The ridge between the two peaks involves some Class 2 scrambling on loose limestone. Route finding can be challenging.",
+        "tips": [
+          {"content": "Attempt this route in fall or winter when temperatures are moderate.", "category": "timing"},
+          {"content": "Cache water at the ridge junction if doing this as a day trip.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Water (4L minimum)", "category": "camping", "isEssential": true, "notes": "No water sources on the entire ridge traverse"},
+          {"itemName": "GPS device", "category": "navigation", "isEssential": true, "notes": "The ridge traverse is not on a maintained trail"},
+          {"itemName": "Sturdy boots", "category": "climbing", "isEssential": true, "notes": "Loose limestone and rough terrain throughout"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The grand tour of Guadalupe Mountains", "body": "Combining El Capitan with Guadalupe Peak makes for an epic day. The limestone formations are dramatic and the views into the desert are endless. Carry way more water than you think. Not a summer route.", "conditions": "Cool November day, light wind, clear skies"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Marcy",
+    "routes": [
+      {
+        "name": "Van Hoevenberg Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Van Hoevenberg Trail is the most popular route to Mount Marcy, the highest peak in New York State. Starting from the Adirondak Loj, the trail follows well-marked paths through northern hardwood and boreal forest, past Marcy Dam and Indian Falls, to the alpine summit. The trail is long but well-maintained, and the open summit provides panoramic views of the Adirondack High Peaks.",
+        "summary": "The standard well-marked trail from Adirondak Loj through boreal forest to New York's highest summit.",
+        "distance": 23.3,
+        "elevationGain": 1067,
+        "estimatedTime": 10,
+        "season": "year-round",
+        "hazards": "[\"long distance\",\"wet and muddy trail\",\"ice in winter\",\"above-treeline exposure\"]",
+        "safetyNotes": "The trail is long and can be very muddy. Stay on trail and step on rocks to protect fragile alpine vegetation above treeline. Winter requires full mountaineering gear including crampons and snowshoes.",
+        "tips": [
+          {"content": "Arrive early for parking at Adirondak Loj; the lot fills by 7 AM on summer weekends.", "category": "timing"},
+          {"content": "Stay on the marked trail above treeline to protect the fragile alpine vegetation.", "category": "general"},
+          {"content": "Carry microspikes even in early fall as the summit can ice over quickly.", "category": "safety"}
+        ],
+        "gear": [
+          {"itemName": "Waterproof hiking boots", "category": "climbing", "isEssential": true, "notes": "The trail is notoriously muddy and wet in many sections"},
+          {"itemName": "Extra layers", "category": "camping", "isEssential": true, "notes": "Summit can be 10-15 degrees colder than the trailhead"},
+          {"itemName": "Trekking poles", "category": "climbing", "isEssential": false, "notes": "Helpful for the muddy and rocky sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The crown of the Adirondacks", "body": "A long but rewarding hike to New York's highpoint. The trail is well marked but very muddy in spots. The open summit with views of the High Peaks is spectacular. Start early for parking.", "conditions": "Partly cloudy, muddy trail, clear summit views"}
+        ]
+      },
+      {
+        "name": "Elk Lake/Panther Gorge",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Elk Lake approach to Mount Marcy via Panther Gorge offers a more remote and rugged alternative to the standard Van Hoevenberg route. The trail passes through wild and scenic Panther Gorge, a dramatic notch between Mount Marcy and Mount Haystack. The route is longer but far less crowded and provides a genuine wilderness experience in the heart of the Adirondack High Peaks.",
+        "summary": "A remote approach through dramatic Panther Gorge offering wilderness solitude to the summit.",
+        "distance": 28.2,
+        "elevationGain": 1220,
+        "estimatedTime": 12,
+        "season": "summer",
+        "hazards": "[\"remote trail\",\"wet and rough conditions\",\"difficult navigation in gorge\",\"long distance\"]",
+        "safetyNotes": "This is a less-maintained and more remote approach. The gorge can be wet and slippery. Allow extra time for the rough terrain. Fewer hikers means less chance of help if something goes wrong.",
+        "tips": [
+          {"content": "The Elk Lake trailhead requires driving on a private road; check access information in advance.", "category": "logistics"},
+          {"content": "Panther Gorge is one of the wildest places in the Adirondacks and worth exploring.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Waterproof boots", "category": "climbing", "isEssential": true, "notes": "The gorge is perpetually wet with stream crossings"},
+          {"itemName": "Map and compass", "category": "navigation", "isEssential": true, "notes": "Trail markings are less frequent than the standard route"},
+          {"itemName": "Gaiters", "category": "camping", "isEssential": false, "notes": "Helpful for the wet and muddy gorge sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The wild side of Marcy", "body": "A completely different experience from the Van Hoevenberg trail. The gorge is dramatic and we had it mostly to ourselves. The trail is rougher but the solitude is worth the extra effort.", "conditions": "Wet gorge, clear summit, cool and breezy"}
+        ]
+      },
+      {
+        "name": "Lake Colden Approach",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Lake Colden approach routes through one of the most scenic areas of the Adirondack backcountry, passing the beautiful Lake Colden before ascending to Mount Marcy's summit. This route can be combined with overnight stays at the Lake Colden lean-tos for a more relaxed multi-day trip. The approach offers views of some of the most dramatic cliffs in the High Peaks including Colden's trap dike.",
+        "summary": "A scenic approach via Lake Colden with optional backcountry camping for a relaxed summit trip.",
+        "distance": 25.7,
+        "elevationGain": 1130,
+        "estimatedTime": 11,
+        "season": "summer",
+        "hazards": "[\"long distance\",\"muddy trails\",\"bear activity\",\"weather changes\"]",
+        "safetyNotes": "Black bears are very active around Lake Colden. Use bear canisters for all food storage. The trails can be extremely muddy. The lake area can be buggy in early summer.",
+        "tips": [
+          {"content": "Bear canisters are required for overnight stays in the Eastern High Peaks zone.", "category": "safety"},
+          {"content": "The Lake Colden lean-tos provide a beautiful base camp; reserve through the DEC.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Bear canister", "category": "camping", "isEssential": true, "notes": "Required in the Eastern High Peaks Wilderness for food storage"},
+          {"itemName": "Insect repellent", "category": "camping", "isEssential": true, "notes": "Black flies and mosquitoes are intense in June and July"},
+          {"itemName": "Waterproof boots", "category": "climbing", "isEssential": true, "notes": "Trails are perpetually muddy in many sections"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The scenic route to Marcy", "body": "Lake Colden is stunning and makes a wonderful base camp. The trail up to Marcy from the lake is steep but manageable. Saw a bear near the lean-tos; glad we had our canister. A great two-day trip.", "conditions": "Warm and humid, some mud, clear summit day"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Clingmans Dome",
+    "routes": [
+      {
+        "name": "Clingmans Dome Trail (Paved)",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "The Clingmans Dome Trail is a short but steep paved path from the parking area to the iconic observation tower at the highest point in Great Smoky Mountains National Park and in Tennessee. The concrete observation tower provides 360-degree views when conditions are clear. Despite its short length, the steep grade challenges many visitors and the high elevation creates cool conditions year-round.",
+        "summary": "A short steep paved trail to the iconic observation tower at the highest point in Tennessee.",
+        "distance": 1.6,
+        "elevationGain": 100,
+        "estimatedTime": 0.5,
+        "season": "spring",
+        "hazards": "[\"crowding\",\"slippery pavement when wet\",\"fog and low visibility\",\"cold summit temps\"]",
+        "safetyNotes": "The paved trail can be slippery when wet. The summit is frequently in clouds with near-zero visibility. Road to the trailhead is closed December through March. The observation tower can be icy in cool weather.",
+        "tips": [
+          {"content": "Visit at sunrise for the best chance of clear views and fewer crowds.", "category": "timing"},
+          {"content": "The road to the parking area closes in winter; check NPS website for seasonal status.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Warm jacket", "category": "camping", "isEssential": true, "notes": "Summit is frequently in clouds and can be 10 degrees cooler than Gatlinburg"},
+          {"itemName": "Non-slip shoes", "category": "climbing", "isEssential": true, "notes": "Paved trail is steep and slippery when wet"}
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Quick walk to a great viewpoint", "body": "The trail itself is very short and paved. The observation tower is unique and the views on a clear day are phenomenal. We visited in fog and could barely see anything. Check the weather first.", "conditions": "Foggy and cool, limited visibility"}
+        ]
+      },
+      {
+        "name": "Appalachian Trail Approach from Newfound Gap",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hike",
+        "description": "This approach follows the Appalachian Trail from Newfound Gap to Clingmans Dome, traversing the high ridgeline of the Great Smoky Mountains. The route passes through spruce-fir forest along the Tennessee-North Carolina border and provides a much more rewarding hiking experience than the short paved trail. It is a genuine Appalachian Trail experience with beautiful forest walking.",
+        "summary": "A rewarding AT section hike along the Smoky Mountain ridgeline from Newfound Gap to the summit.",
+        "distance": 16.1,
+        "elevationGain": 550,
+        "estimatedTime": 6,
+        "season": "spring",
+        "hazards": "[\"wet trail conditions\",\"fog\",\"black bears\",\"trail crowding near summit\"]",
+        "safetyNotes": "The trail is often wet and rooty. Black bears are common in the Smokies; make noise and store food properly. Fog can reduce visibility on the ridgeline. This is a point-to-point hike requiring a car shuttle or out-and-back.",
+        "tips": [
+          {"content": "Arrange a car shuttle or plan for an out-and-back hike of 16 km.", "category": "logistics"},
+          {"content": "Spring wildflower season in late April and May is spectacular along this section.", "category": "timing"},
+          {"content": "This section of the AT is beautiful; take your time and enjoy the forest.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Rain gear", "category": "camping", "isEssential": true, "notes": "The Smokies are one of the rainiest mountain ranges in eastern North America"},
+          {"itemName": "Hiking boots", "category": "climbing", "isEssential": true, "notes": "Trail is frequently muddy and root-covered"},
+          {"itemName": "Bear awareness supplies", "category": "camping", "isEssential": true, "notes": "Bears are common; carry bear spray and store food properly"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The real way to experience Clingmans Dome", "body": "Walking the AT to Clingmans Dome is infinitely more rewarding than the paved trail. The forest is enchanting and the ridgeline walking is classic Appalachian Trail. We saw a black bear from a safe distance. A wonderful day.", "conditions": "Mild and misty, clearing in the afternoon, wildflowers blooming"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Devils Tower",
+    "routes": [
+      {
+        "name": "Durrance Route (Normal)",
+        "difficulty": "5.7",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Durrance Route is the most popular climbing route on Devils Tower, first ascended by Jack Durrance in 1938. The 6-pitch route follows a crack system on the southeast face with sustained crack climbing at a moderate grade. The climb finishes on the remarkable flat summit of the tower, covered with grass and prickly pear cactus. A voluntary climbing closure is observed each June to respect Native American cultural practices.",
+        "summary": "The classic 6-pitch crack climbing route up Devils Tower's southeast face.",
+        "distance": 1.6,
+        "elevationGain": 265,
+        "estimatedTime": 6,
+        "season": "summer",
+        "hazards": "[\"sustained crack climbing\",\"exposure\",\"crowding on route\",\"loose rock on Leaning Column\"]",
+        "safetyNotes": "Respect the voluntary June climbing closure for Native American ceremonies. The Leaning Column pitch has loose blocks; test holds carefully. Multiple rappels are required for the descent. The route can be crowded; be prepared to wait at belay stations.",
+        "tips": [
+          {"content": "Respect the voluntary climbing closure in June to honor the cultural significance to Native American tribes.", "category": "general"},
+          {"content": "The Meadows pitch at 5.7 is the crux and involves an off-width section; bring a number 4 cam.", "category": "general"},
+          {"content": "Register at the climbing register at the ranger station before and after your climb.", "category": "logistics"}
+        ],
+        "gear": [
+          {"itemName": "Crack climbing gloves", "category": "climbing", "isEssential": false, "notes": "The columnar cracks are abrasive and hand taping is recommended"},
+          {"itemName": "Wide cams", "category": "climbing", "isEssential": true, "notes": "Number 3 and 4 cams needed for the off-width sections"},
+          {"itemName": "Rappel gear", "category": "climbing", "isEssential": true, "notes": "Multiple rappels required for the descent"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Iconic American rock climbing", "body": "Climbing Devils Tower is a surreal experience. The columnar basalt is unique and the summit is otherworldly with grass and cactus growing on top. The crack climbing is excellent. A must-do for any trad climber.", "conditions": "Warm and dry, light wind, clear skies"}
+        ]
+      },
+      {
+        "name": "El Matador",
+        "difficulty": "5.10d",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "El Matador is one of the finest free climbing routes on Devils Tower, ascending the west face via a series of splitter cracks in the distinctive columnar basalt. The route features 4 pitches of sustained and varied crack climbing with the crux on a thin finger crack. It is considered one of the best moderate to hard crack climbs in the region.",
+        "summary": "A premier 4-pitch free climbing line up splitter cracks on Devils Tower's west face.",
+        "distance": 1.6,
+        "elevationGain": 265,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"sustained crack climbing\",\"finger crack crux\",\"exposure\",\"afternoon heat on west face\"]",
+        "safetyNotes": "The west face bakes in afternoon sun. Start early for cooler rock temperatures and better friction. The finger crack crux demands solid technique and adequate small cam protection.",
+        "tips": [
+          {"content": "Start early; the west face gets direct afternoon sun and the rock becomes uncomfortably hot.", "category": "timing"},
+          {"content": "Bring doubles of finger-sized cams for the sustained thin crack sections.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Finger-sized cams (doubles)", "category": "climbing", "isEssential": true, "notes": "Sustained finger cracks require doubles of 0.4 to 1 cams"},
+          {"itemName": "Crack climbing tape", "category": "climbing", "isEssential": true, "notes": "The basalt columns are abrasive on hands"},
+          {"itemName": "Approach shoes", "category": "climbing", "isEssential": false, "notes": "For the talus approach to the base"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "World-class crack climbing", "body": "El Matador is everything you want in a crack climb: splitter lines in stunning rock in an incredible setting. The finger crack pitch is the crux and it is beautiful. Tape your hands well.", "conditions": "Cool morning start, dry rock, light breeze"}
+        ]
+      },
+      {
+        "name": "Soler",
+        "difficulty": "5.9",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "Soler is a popular 5-pitch route on the south face of Devils Tower, offering varied crack climbing at a moderate grade. The route follows a logical line through the columnar basalt with pitches ranging from hand cracks to chimneys. It is less crowded than the Durrance Route and provides excellent climbing in a spectacular setting.",
+        "summary": "A varied 5-pitch crack climb on the south face with hand cracks and chimneys.",
+        "distance": 1.6,
+        "elevationGain": 265,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"chimney climbing\",\"exposure\",\"route finding between columns\",\"rappel descent\"]",
+        "safetyNotes": "The chimney pitches can be claustrophobic and require good body positioning. The columns create parallel crack systems that can lead to route-finding confusion. Double-check your descent rappels carefully.",
+        "tips": [
+          {"content": "The chimney pitch is wider than it looks from below; larger cams are useful.", "category": "general"},
+          {"content": "This route is a good step up from the Durrance for those looking for slightly harder climbing.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Full range of cams", "category": "climbing", "isEssential": true, "notes": "Crack sizes vary widely from fingers to chimney width"},
+          {"itemName": "Helmet", "category": "climbing", "isEssential": true, "notes": "Loose rock and gear can be knocked off by parties above"},
+          {"itemName": "Knee pads", "category": "climbing", "isEssential": false, "notes": "Helpful for the chimney pitches"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great alternative to the Durrance", "body": "Less crowded than the Durrance and equally enjoyable climbing. The chimney pitch is a fun change of pace. The south face gets good morning sun. Excellent moderate tower climb.", "conditions": "Sunny and warm, dry rock, calm wind"}
+        ]
+      },
+      {
+        "name": "Walt Bailey Memorial Route",
+        "difficulty": "5.10a",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Walt Bailey Memorial Route ascends the north face of Devils Tower via a challenging series of cracks and face moves. Named in memory of climber Walt Bailey, the route offers 5 pitches of engaging climbing with a mix of crack techniques. The north face stays cool and shady, making it an excellent choice for hot summer days.",
+        "summary": "A 5-pitch north face route offering cool shade and varied crack climbing at 5.10a.",
+        "distance": 1.6,
+        "elevationGain": 265,
+        "estimatedTime": 5,
+        "season": "summer",
+        "hazards": "[\"shade keeps rock cold and damp\",\"sustained difficulty\",\"exposure\",\"limited retreat\"]",
+        "safetyNotes": "The north face stays cold and damp longer than other aspects. Check that the rock is dry before committing. The sustained grade means little rest between hard moves. Retreat from the upper pitches is committing.",
+        "tips": [
+          {"content": "Save this route for hot days; the north face stays shady and cool.", "category": "timing"},
+          {"content": "Wait until mid-morning for the rock to warm and dry on the north face.", "category": "timing"}
+        ],
+        "gear": [
+          {"itemName": "Medium cams (doubles)", "category": "climbing", "isEssential": true, "notes": "Hand-sized cracks predominate; doubles of 1 to 3 cams recommended"},
+          {"itemName": "Warm belay jacket", "category": "climbing", "isEssential": true, "notes": "The north face is shady and belays can be cold even in summer"},
+          {"itemName": "Chalk bag", "category": "climbing", "isEssential": true, "notes": "The shady rock can be cold and damp on hands"}
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Great shade climb on hot days", "body": "Chose this route on a scorching July day and the north face was pleasantly cool. The climbing is sustained but never desperate at the grade. Good protection throughout. A worthy tick on the Tower.", "conditions": "Hot day, shady north face, cool and dry rock"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Shiprock",
+    "routes": [
+      {
+        "name": "Standard Route",
+        "difficulty": "5.7",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Standard Route on Shiprock is a historic climb that ascends this dramatic volcanic neck rising 482 meters above the New Mexico desert. First climbed in 1939, the route involves technical rock climbing through multiple volcanic dikes and chimneys. IMPORTANT: Shiprock is located on the Navajo Nation and climbing has been banned since 1970. The peak holds deep cultural and spiritual significance to the Navajo people. This entry is included for historical documentation only.",
+        "summary": "A historic route on this sacred Navajo landmark; climbing has been prohibited since 1970.",
+        "distance": 3.2,
+        "elevationGain": 482,
+        "estimatedTime": 12,
+        "season": "spring",
+        "hazards": "[\"climbing prohibited since 1970\",\"volcanic rock quality\",\"extreme exposure\",\"remote desert location\"]",
+        "safetyNotes": "CLIMBING IS PROHIBITED. Shiprock is located on the Navajo Nation and climbing has been banned since 1970 out of respect for its cultural and spiritual significance. Trespassing is a violation of Navajo law. This route information is included for historical reference only.",
+        "tips": [
+          {"content": "Climbing Shiprock is prohibited. Respect the Navajo Nation's closure and admire the peak from a distance.", "category": "general"},
+          {"content": "Shiprock can be viewed and photographed from the surrounding roads on the Navajo Nation.", "category": "logistics"},
+          {"content": "The peak is a sacred site in Navajo tradition; please approach the area with respect.", "category": "general"}
+        ],
+        "gear": [
+          {"itemName": "Binoculars", "category": "navigation", "isEssential": false, "notes": "For viewing the dramatic formation from a respectful distance"},
+          {"itemName": "Camera with telephoto lens", "category": "navigation", "isEssential": false, "notes": "For photographing the peak from the surrounding roads"},
+          {"itemName": "Respect for Navajo culture", "category": "navigation", "isEssential": true, "notes": "The peak is deeply sacred; honor the climbing ban and cultural significance"}
+        ],
+        "reviews": [
+          {"rating": 5, "title": "A stunning formation to admire from afar", "body": "Shiprock is one of the most dramatic geological formations in North America. While climbing is rightfully closed to honor Navajo cultural significance, viewing this volcanic neck rising from the desert floor is an unforgettable experience. Please respect the closure.", "conditions": "Viewed from road, clear desert day"}
+        ]
+      }
+    ]
+  }
+]
