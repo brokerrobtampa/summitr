@@ -45,11 +45,47 @@ export function CreateRoutePage() {
     }
   };
 
+  const addDrawLayers = (map: maplibregl.Map, points: [number, number][]) => {
+    if (map.getSource('draw-route')) return; // already added
+
+    map.addSource('draw-route', {
+      type: 'geojson',
+      data: {
+        type: 'Feature',
+        properties: {},
+        geometry: { type: 'LineString', coordinates: points },
+      },
+    });
+
+    // White glow for satellite visibility
+    map.addLayer({
+      id: 'draw-route-glow',
+      type: 'line',
+      source: 'draw-route',
+      layout: { 'line-join': 'round', 'line-cap': 'round' },
+      paint: { 'line-color': '#ffffff', 'line-width': 7, 'line-opacity': 0.6 },
+    });
+
+    // Main route line
+    map.addLayer({
+      id: 'draw-route-line',
+      type: 'line',
+      source: 'draw-route',
+      layout: { 'line-join': 'round', 'line-cap': 'round' },
+      paint: { 'line-color': '#ef4444', 'line-width': 4 },
+    });
+  };
+
   const handleMapReady = (map: maplibregl.Map) => {
     if (selectedPeak) {
       map.setCenter([selectedPeak.longitude, selectedPeak.latitude]);
       map.setZoom(12);
     }
+
+    // Re-add draw layers after style changes (layer toggle)
+    map.on('style.load', () => {
+      addDrawLayers(map, routePoints);
+    });
 
     map.on('click', (e) => {
       setRoutePoints((prev) => {
@@ -64,20 +100,7 @@ export function CreateRoutePage() {
             geometry: { type: 'LineString', coordinates: newPoints },
           });
         } else {
-          map.addSource('draw-route', {
-            type: 'geojson',
-            data: {
-              type: 'Feature',
-              properties: {},
-              geometry: { type: 'LineString', coordinates: newPoints },
-            },
-          });
-          map.addLayer({
-            id: 'draw-route-line',
-            type: 'line',
-            source: 'draw-route',
-            paint: { 'line-color': '#ef4444', 'line-width': 3 },
-          });
+          addDrawLayers(map, newPoints);
         }
 
         return newPoints;

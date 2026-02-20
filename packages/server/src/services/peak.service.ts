@@ -11,10 +11,16 @@ export async function listPeaks(query: unknown) {
 
   const where: Prisma.PeakWhereInput = {};
   if (country) where.country = country;
-  if (range) where.range = { contains: range };
+  if (range) where.range = { contains: range, mode: 'insensitive' };
   if (minElevation !== undefined) where.elevation = { ...((where.elevation as object) || {}), gte: minElevation };
   if (maxElevation !== undefined) where.elevation = { ...((where.elevation as object) || {}), lte: maxElevation };
-  if (q) where.name = { contains: q };
+  if (q) {
+    where.OR = [
+      { name: { contains: q, mode: 'insensitive' } },
+      { country: { contains: q, mode: 'insensitive' } },
+      { range: { contains: q, mode: 'insensitive' } },
+    ];
+  }
 
   const orderBy: Prisma.PeakOrderByWithRelationInput = (() => {
     switch (sort) {
@@ -172,7 +178,7 @@ export async function getNearbyPeaks(query: unknown) {
 
   const { lat, lng, radiusKm, limit } = parsed.data;
 
-  // Haversine approximation using SQLite — rough bounding box first, then precise filter
+  // Haversine distance query for PostgreSQL
   const latDelta = radiusKm / 111.0;
   const lngDelta = radiusKm / (111.0 * Math.cos((lat * Math.PI) / 180));
 
@@ -188,18 +194,20 @@ export async function getNearbyPeaks(query: unknown) {
       distance_km: number;
     }>
   >(
-    `SELECT id, name, latitude, longitude, elevation, country, "range",
-       (6371 * acos(
-         cos(radians(?)) * cos(radians(latitude)) *
-         cos(radians(longitude) - radians(?)) +
-         sin(radians(?)) * sin(radians(latitude))
-       )) AS distance_km
-     FROM Peak
-     WHERE latitude BETWEEN ? AND ?
-       AND longitude BETWEEN ? AND ?
-     HAVING distance_km <= ?
+    `SELECT * FROM (
+       SELECT id, name, latitude, longitude, elevation, country, "range",
+         (6371 * acos(
+           LEAST(1.0, cos(radians($1)) * cos(radians(latitude)) *
+           cos(radians(longitude) - radians($2)) +
+           sin(radians($3)) * sin(radians(latitude)))
+         )) AS distance_km
+       FROM "Peak"
+       WHERE latitude BETWEEN $4 AND $5
+         AND longitude BETWEEN $6 AND $7
+     ) AS nearby
+     WHERE distance_km <= $8
      ORDER BY distance_km ASC
-     LIMIT ?`,
+     LIMIT $9`,
     lat, lng, lat,
     lat - latDelta, lat + latDelta,
     lng - lngDelta, lng + lngDelta,

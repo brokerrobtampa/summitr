@@ -32,7 +32,7 @@ export function LogClimbModal({ onClose, onSaved }: LogClimbModalProps) {
       return;
     }
     const timeout = setTimeout(() => {
-      api.get<any>(`/peaks?search=${encodeURIComponent(peakSearch)}&limit=10`)
+      api.get<any>(`/peaks?q=${encodeURIComponent(peakSearch)}&limit=10`)
         .then((res) => setPeaks(res.data || []))
         .catch(() => {});
     }, 300);

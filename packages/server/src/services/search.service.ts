@@ -1,8 +1,6 @@
 import { prisma } from '../lib/prisma.js';
 
 export async function globalSearch(q: string, type: string = 'all', page = 1, limit = 20) {
-  const searchTerm = `%${q}%`;
-
   const results: { peaks: unknown[]; routes: unknown[]; reviews: unknown[]; users: unknown[] } = {
     peaks: [],
     routes: [],
@@ -14,10 +12,11 @@ export async function globalSearch(q: string, type: string = 'all', page = 1, li
     results.peaks = await prisma.peak.findMany({
       where: {
         OR: [
-          { name: { contains: q } },
-          { country: { contains: q } },
-          { range: { contains: q } },
-          { region: { contains: q } },
+          { name: { contains: q, mode: 'insensitive' } },
+          { country: { contains: q, mode: 'insensitive' } },
+          { range: { contains: q, mode: 'insensitive' } },
+          { region: { contains: q, mode: 'insensitive' } },
+          { alternateNames: { contains: q, mode: 'insensitive' } },
         ],
       },
       take: limit,
@@ -42,8 +41,8 @@ export async function globalSearch(q: string, type: string = 'all', page = 1, li
       where: {
         isPublic: true,
         OR: [
-          { name: { contains: q } },
-          { description: { contains: q } },
+          { name: { contains: q, mode: 'insensitive' } },
+          { description: { contains: q, mode: 'insensitive' } },
         ],
       },
       take: limit,
@@ -74,8 +73,8 @@ export async function globalSearch(q: string, type: string = 'all', page = 1, li
     results.reviews = await prisma.review.findMany({
       where: {
         OR: [
-          { body: { contains: q } },
-          { title: { contains: q } },
+          { body: { contains: q, mode: 'insensitive' } },
+          { title: { contains: q, mode: 'insensitive' } },
         ],
       },
       take: limit,
@@ -102,8 +101,8 @@ export async function globalSearch(q: string, type: string = 'all', page = 1, li
     results.users = await prisma.user.findMany({
       where: {
         OR: [
-          { username: { contains: q } },
-          { displayName: { contains: q } },
+          { username: { contains: q, mode: 'insensitive' } },
+          { displayName: { contains: q, mode: 'insensitive' } },
         ],
       },
       take: limit,
@@ -137,28 +136,67 @@ export async function globalSearch(q: string, type: string = 'all', page = 1, li
 }
 
 export async function autocomplete(q: string, limit = 10) {
-  const [peaks, routes] = await Promise.all([
+  // Get prefix matches first (more relevant), then substring matches
+  const [prefixPeaks, prefixRoutes] = await Promise.all([
     prisma.peak.findMany({
-      where: { name: { contains: q } },
+      where: { name: { startsWith: q, mode: 'insensitive' } },
       take: Math.ceil(limit / 2),
       orderBy: { elevation: 'desc' },
       select: { id: true, name: true, country: true, elevation: true },
     }),
     prisma.route.findMany({
-      where: { isPublic: true, name: { contains: q } },
+      where: { isPublic: true, name: { startsWith: q, mode: 'insensitive' } },
       take: Math.floor(limit / 2),
       include: { peak: { select: { name: true } } },
     }),
   ]);
 
+  const prefixPeakIds = new Set(prefixPeaks.map((p) => p.id));
+  const prefixRouteIds = new Set(prefixRoutes.map((r) => r.id));
+
+  // Fill remaining slots with substring matches
+  const remainingPeakSlots = Math.ceil(limit / 2) - prefixPeaks.length;
+  const remainingRouteSlots = Math.floor(limit / 2) - prefixRoutes.length;
+
+  const [substringPeaks, substringRoutes] = await Promise.all([
+    remainingPeakSlots > 0
+      ? prisma.peak.findMany({
+          where: {
+            id: { notIn: [...prefixPeakIds] },
+            OR: [
+              { name: { contains: q, mode: 'insensitive' } },
+              { alternateNames: { contains: q, mode: 'insensitive' } },
+            ],
+          },
+          take: remainingPeakSlots,
+          orderBy: { elevation: 'desc' },
+          select: { id: true, name: true, country: true, elevation: true },
+        })
+      : Promise.resolve([]),
+    remainingRouteSlots > 0
+      ? prisma.route.findMany({
+          where: {
+            isPublic: true,
+            id: { notIn: [...prefixRouteIds] },
+            name: { contains: q, mode: 'insensitive' },
+          },
+          take: remainingRouteSlots,
+          include: { peak: { select: { name: true } } },
+        })
+      : Promise.resolve([]),
+  ]);
+
+  const allPeaks = [...prefixPeaks, ...substringPeaks];
+  const allRoutes = [...prefixRoutes, ...substringRoutes];
+
   return [
-    ...peaks.map((p) => ({
+    ...allPeaks.map((p) => ({
       type: 'peak' as const,
       id: p.id,
       name: p.name,
       subtitle: `${p.elevation}m — ${p.country ?? 'Unknown'}`,
     })),
-    ...routes.map((r) => ({
+    ...allRoutes.map((r) => ({
       type: 'route' as const,
       id: r.id,
       name: r.name,
