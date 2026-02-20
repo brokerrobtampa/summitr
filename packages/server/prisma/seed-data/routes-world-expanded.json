@@ -1,0 +1,1298 @@
+[
+  {
+    "peakName": "Aconcagua",
+    "routes": [
+      {
+        "name": "Polish Glacier Direct",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A more direct and technical route via the Polish Glacier on the east face. First climbed by a Polish team in 1934. Involves sustained steep snow and ice climbing reaching 45 degrees. A more rewarding climbing experience than the Normal Route scree slog.",
+        "distance": 60.0,
+        "elevationGain": 2862,
+        "estimatedTime": 1380,
+        "season": "summer",
+        "hazards": "[\"Steep sustained ice\",\"Altitude\",\"Wind exposure\",\"Crevasses on glacier\"]",
+        "summary": "A technical glacier route on Aconcagua's east face involving sustained 45-degree ice climbing, offering a genuine mountaineering alternative to the standard scree-laden Normal Route.",
+        "imageUrl": null,
+        "technicalGrade": "AI2 / 45-degree sustained ice",
+        "commitment": "III",
+        "approachTime": 48,
+        "descentTime": 12,
+        "basecamp": "Plaza Argentina (4,200m)",
+        "permitRequired": true,
+        "permitInfo": "Aconcagua Provincial Park permit required; approximately $800 USD in high season (Dec-Feb), $600 in low season; obtained from Mendoza permit office or online at aconcagua.mendoza.gov.ar",
+        "closestAirport": "Governor Francisco Gabrielli International Airport, Mendoza (MDZ)",
+        "safetyNotes": "Sustained steep ice requires solid crampon and ice axe technique; falls on the glacier can be fatal. Altitude is a major factor with the route spending extended time above 5,500m. Weather windows are critical and storms can pin climbers down for days. Carry a satellite communicator as rescue from the east face is difficult and slow.",
+        "tips": [
+          {"content": "The Polish Glacier offers actual climbing rather than the scree trudge of the Normal Route", "category": "general"},
+          {"content": "Ice axe and crampon skills are essential for the 45-degree glacier", "category": "general"},
+          {"content": "Camp at Plaza Argentina base camp for this route", "category": "logistics"}
+        ],
+        "gear": [
+          {
+            "itemName": "Technical crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep glacier ice to 45 degrees",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Lynx Crampons", "url": "https://www.rei.com/product/151400/petzl-lynx-crampons", "price": 275},
+              {"retailer": "Backcountry", "productName": "Petzl Lynx Crampons", "url": "https://www.backcountry.com/petzl-lynx-crampon", "price": 275},
+              {"retailer": "Moosejaw", "productName": "Petzl Lynx Crampons", "url": "https://www.moosejaw.com/product/petzl-lynx-crampons_10543210", "price": 270}
+            ]
+          },
+          {
+            "itemName": "Ice axe (walking length)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the sustained glacier climbing",
+            "weight": "450g",
+            "priceRange": "$150-$250",
+            "specificProduct": "Petzl Summit EVO",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.rei.com/product/177843/petzl-summit-evo-ice-axe", "price": 170},
+              {"retailer": "Backcountry", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe", "price": 170},
+              {"retailer": "Amazon", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.amazon.com/dp/B09KGWX7RJ", "price": 165}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Real climbing on Aconcagua", "body": "The Polish Glacier transforms Aconcagua from a high-altitude hike into a proper mountaineering objective. The sustained ice climbing is engaging and the line is aesthetic. Far more satisfying than suffering up the Canaleta scree. Highly recommended for climbers.", "conditions": "Good ice, firm snow, clear weather window"}
+        ]
+      },
+      {
+        "name": "South Face (French Route)",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A serious face route on the massive south face first climbed by a French expedition in 1954. The face is over 2700m high with steep ice fields and rock bands. One of the great south faces of the Andes. Far more committing and dangerous than the standard routes.",
+        "distance": 45.0,
+        "elevationGain": 2700,
+        "estimatedTime": 1560,
+        "season": "summer",
+        "hazards": "[\"2700m face\",\"Avalanche risk\",\"Rockfall\",\"Storm exposure\",\"Altitude on sustained face\"]",
+        "summary": "A serious and committing face route ascending Aconcagua's massive 2,700m south face through steep ice fields and rock bands, representing one of the great alpine challenges in the Andes.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 / M4 / 55-degree ice sections",
+        "commitment": "V",
+        "approachTime": 36,
+        "descentTime": 18,
+        "basecamp": "Plaza de Mulas (4,370m)",
+        "permitRequired": true,
+        "permitInfo": "Aconcagua Provincial Park permit required; approximately $800 USD in high season (Dec-Feb), $600 in low season; obtained from Mendoza permit office or online at aconcagua.mendoza.gov.ar",
+        "closestAirport": "Governor Francisco Gabrielli International Airport, Mendoza (MDZ)",
+        "safetyNotes": "The south face is one of the most committing routes in the Andes with objective dangers including avalanche and rockfall throughout. Retreat from the face is extremely difficult once committed above the initial ice fields. A stable multi-day weather window is essential as storms on the face are life-threatening. Only attempt with a strong, experienced alpine partnership and excellent fitness.",
+        "tips": [
+          {"content": "The south face is a serious undertaking orders of magnitude harder than the Normal Route", "category": "safety"},
+          {"content": "Alpine style is preferred given the objective dangers on the face", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep ice and mixed terrain on the face",
+            "weight": "1.2kg (pair)",
+            "priceRange": "$400-$650",
+            "specificProduct": "Petzl Nomic",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Nomic Ice Tool", "url": "https://www.rei.com/product/151401/petzl-nomic-ice-tool", "price": 325},
+              {"retailer": "Backcountry", "productName": "Petzl Nomic Ice Tool", "url": "https://www.backcountry.com/petzl-nomic-ice-tool", "price": 325},
+              {"retailer": "Moosejaw", "productName": "Petzl Nomic Ice Tool", "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool_10543215", "price": 320}
+            ]
+          },
+          {
+            "itemName": "Bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Multi-day commitment on the face",
+            "weight": "2.5kg",
+            "priceRange": "$300-$500",
+            "specificProduct": "Outdoor Research Alpine Bivy",
+            "links": [
+              {"retailer": "REI", "productName": "Outdoor Research Alpine Bivy", "url": "https://www.rei.com/product/148793/outdoor-research-alpine-bivy", "price": 260},
+              {"retailer": "Backcountry", "productName": "Outdoor Research Alpine Bivy", "url": "https://www.backcountry.com/outdoor-research-alpine-bivy", "price": 260},
+              {"retailer": "Amazon", "productName": "Outdoor Research Alpine Bivy", "url": "https://www.amazon.com/dp/B07T5QKM8L", "price": 245}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The real Aconcagua", "body": "The south face of Aconcagua is a completely different mountain from the Normal Route. 2700m of sustained climbing on ice and rock with serious objective hazards. The French route line is logical but committing. For experienced alpinists only.", "conditions": "Mixed conditions on face, stable weather window needed, cold"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kilimanjaro",
+    "routes": [
+      {
+        "name": "Marangu Route (Coca-Cola Route)",
+        "difficulty": "F",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "The oldest and most established route on Kilimanjaro. The only route with dormitory-style hut accommodation instead of tents. A 5-day standard itinerary though 6 days is recommended. Named the Coca-Cola route due to the availability of soft drinks at the huts.",
+        "distance": 64.0,
+        "elevationGain": 4230,
+        "estimatedTime": 1200,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Lower summit success rate (5-day)\",\"Crowded huts\",\"Rain in forest\"]",
+        "summary": "The oldest and most comfortable route on Kilimanjaro featuring hut accommodation, ascending through five ecological zones from rainforest to arctic summit over 5-6 days.",
+        "imageUrl": null,
+        "technicalGrade": "Non-technical trekking",
+        "commitment": "II",
+        "approachTime": 0.5,
+        "descentTime": 8,
+        "basecamp": "Marangu Gate (1,860m)",
+        "permitRequired": true,
+        "permitInfo": "Kilimanjaro National Park entry fees required; approximately $70 USD per day for international visitors, plus camping/hut fees; arranged through registered tour operators",
+        "closestAirport": "Kilimanjaro International Airport (JRO)",
+        "safetyNotes": "Altitude sickness is the primary risk and the 5-day itinerary has a significantly lower summit success rate than the 6-day option. Descend immediately if symptoms of HACE or HAPE develop. The forest zone can be slippery in rain; gaiters are recommended. Carry enough warm layers for the summit night when temperatures drop well below freezing.",
+        "tips": [
+          {"content": "Take the 6-day option with an extra acclimatization day at Horombo for better success rate", "category": "general"},
+          {"content": "Hut accommodation means less gear to carry but less flexibility on sleeping arrangements", "category": "logistics"},
+          {"content": "January to March and June to October are the driest months", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Warm sleeping bag",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Huts provide mattresses but not sleeping bags",
+            "weight": "1.4kg",
+            "priceRange": "$250-$450",
+            "specificProduct": "Mountain Hardwear Lamina 15F",
+            "links": [
+              {"retailer": "REI", "productName": "Mountain Hardwear Lamina 15F Sleeping Bag", "url": "https://www.rei.com/product/196453/mountain-hardwear-lamina-15f-sleeping-bag", "price": 230},
+              {"retailer": "Backcountry", "productName": "Mountain Hardwear Lamina 15F", "url": "https://www.backcountry.com/mountain-hardwear-lamina-15-sleeping-bag", "price": 230},
+              {"retailer": "Amazon", "productName": "Mountain Hardwear Lamina 15F Sleeping Bag", "url": "https://www.amazon.com/dp/B09KLTW3X1", "price": 219}
+            ]
+          },
+          {
+            "itemName": "Rain gear",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Forest zone is often wet",
+            "weight": "350g",
+            "priceRange": "$100-$300",
+            "specificProduct": "Marmot PreCip Eco Jacket",
+            "links": [
+              {"retailer": "REI", "productName": "Marmot PreCip Eco Jacket", "url": "https://www.rei.com/product/137551/marmot-precip-eco-jacket-mens", "price": 110},
+              {"retailer": "Backcountry", "productName": "Marmot PreCip Eco Jacket", "url": "https://www.backcountry.com/marmot-precip-eco-jacket-mens", "price": 110},
+              {"retailer": "Amazon", "productName": "Marmot PreCip Eco Jacket", "url": "https://www.amazon.com/dp/B07L5QPFG7", "price": 99}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 3, "title": "The most comfortable route", "body": "Marangu is the only route with huts which is nice for comfort. However the 5-day schedule has poor acclimatization and lower summit success. The scenery is less varied than Machame or Lemosho. Take the 6-day option if you choose this route.", "conditions": "Rain in forest, clear above, cold summit night"}
+        ]
+      },
+      {
+        "name": "Rongai Route",
+        "difficulty": "F",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "The only route approaching Kilimanjaro from the north near the Kenyan border. A quieter and drier route through unique scenery. The north side receives less rainfall making this a good option during the wetter months. A 6-7 day itinerary with moderate acclimatization.",
+        "distance": 65.0,
+        "elevationGain": 4200,
+        "estimatedTime": 1320,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Remote north side\",\"Less dramatic scenery than southern routes\"]",
+        "summary": "The driest and quietest route on Kilimanjaro, approaching from the remote northern side near the Kenyan border through unique forest scenery before joining the summit circuit.",
+        "imageUrl": null,
+        "technicalGrade": "Non-technical trekking",
+        "commitment": "II",
+        "approachTime": 2,
+        "descentTime": 8,
+        "basecamp": "Rongai Gate (1,950m)",
+        "permitRequired": true,
+        "permitInfo": "Kilimanjaro National Park entry fees required; approximately $70 USD per day for international visitors, plus camping fees; arranged through registered tour operators",
+        "closestAirport": "Kilimanjaro International Airport (JRO)",
+        "safetyNotes": "The north side is more remote with less traffic so rescue response times may be longer. Altitude sickness remains the primary concern; take the 7-day option for better acclimatization. The descent via Marangu is straightforward but can be slippery. Carry sufficient water as sources on the north side are less frequent.",
+        "tips": [
+          {"content": "The Rongai is the driest route, good for the shoulder seasons", "category": "timing"},
+          {"content": "The north side approach through the forest is unique and rarely crowded", "category": "general"},
+          {"content": "Descends via the Marangu route for variety", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Standard trekking gear",
+            "category": "hiking",
+            "isEssential": true,
+            "notes": "Trekking poles, layers, rain gear",
+            "weight": "800g",
+            "priceRange": "$80-$180",
+            "specificProduct": "Black Diamond Trail Trekking Poles",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Trail Trekking Poles", "url": "https://www.rei.com/product/111763/black-diamond-trail-trekking-poles-pair", "price": 90},
+              {"retailer": "Backcountry", "productName": "Black Diamond Trail Trekking Poles", "url": "https://www.backcountry.com/black-diamond-trail-trekking-pole-pair", "price": 90},
+              {"retailer": "Amazon", "productName": "Black Diamond Trail Trekking Poles", "url": "https://www.amazon.com/dp/B078HX4JV5", "price": 80}
+            ]
+          },
+          {
+            "itemName": "Warm summit layers",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Summit night temperatures well below freezing",
+            "weight": "650g",
+            "priceRange": "$200-$400",
+            "specificProduct": "Arc'teryx Cerium Hoody",
+            "links": [
+              {"retailer": "REI", "productName": "Arc'teryx Cerium Hoody", "url": "https://www.rei.com/product/185567/arcteryx-cerium-hoody-mens", "price": 380},
+              {"retailer": "Backcountry", "productName": "Arc'teryx Cerium Hoody", "url": "https://www.backcountry.com/arcteryx-cerium-hoody-mens", "price": 380},
+              {"retailer": "Moosejaw", "productName": "Arc'teryx Cerium Hoody", "url": "https://www.moosejaw.com/product/arcteryx-cerium-hoody-mens_10575832", "price": 375}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The quiet side of Kilimanjaro", "body": "Rongai is the route for those who want solitude. The north side approach through the forest was peaceful and we barely saw other trekkers. The scenery is different from the southern routes with views into Kenya. Descended via Marangu for the complete experience.", "conditions": "Dry and clear throughout, cold summit night"}
+        ]
+      },
+      {
+        "name": "Umbwe Route",
+        "difficulty": "F+",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "The steepest and most direct route on Kilimanjaro approaching from the south. Known for its steep forest trail and rapid altitude gain. The shortest but most demanding route with the worst acclimatization profile. Recommended only for strong hikers with altitude experience.",
+        "distance": 53.0,
+        "elevationGain": 4230,
+        "estimatedTime": 1080,
+        "season": "summer",
+        "hazards": "[\"Poor acclimatization due to rapid gain\",\"Steep muddy trail in forest\",\"Altitude sickness risk higher\"]",
+        "summary": "The steepest and most direct route on Kilimanjaro with the worst acclimatization profile, recommended only for experienced high-altitude hikers seeking the most challenging standard ascent.",
+        "imageUrl": null,
+        "technicalGrade": "Non-technical but steep trekking",
+        "commitment": "II",
+        "approachTime": 0.5,
+        "descentTime": 6,
+        "basecamp": "Umbwe Gate (1,630m)",
+        "permitRequired": true,
+        "permitInfo": "Kilimanjaro National Park entry fees required; approximately $70 USD per day for international visitors, plus camping fees; arranged through registered tour operators",
+        "closestAirport": "Kilimanjaro International Airport (JRO)",
+        "safetyNotes": "The rapid altitude gain makes this the route with the highest rate of altitude sickness on Kilimanjaro. Consider taking Diamox prophylactically and monitor for symptoms of HACE and HAPE carefully. The steep forest section is extremely muddy after rain and root-covered; ankle injuries are common. Ensure your operator has emergency oxygen and a clear evacuation plan.",
+        "tips": [
+          {"content": "Umbwe has the lowest summit success rate due to the rapid altitude gain", "category": "safety"},
+          {"content": "Only recommended for hikers with previous high altitude experience", "category": "general"},
+          {"content": "The forest section is steep and can be very muddy after rain", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Gaiters",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "The steep muddy forest trail is notorious",
+            "weight": "280g",
+            "priceRange": "$30-$70",
+            "specificProduct": "Outdoor Research Rocky Mountain Low Gaiters",
+            "links": [
+              {"retailer": "REI", "productName": "Outdoor Research Rocky Mountain Low Gaiters", "url": "https://www.rei.com/product/768927/outdoor-research-rocky-mountain-low-gaiters", "price": 39},
+              {"retailer": "Backcountry", "productName": "Outdoor Research Rocky Mountain Low Gaiters", "url": "https://www.backcountry.com/outdoor-research-rocky-mountain-low-gaiter", "price": 39},
+              {"retailer": "Amazon", "productName": "Outdoor Research Rocky Mountain Low Gaiters", "url": "https://www.amazon.com/dp/B001M0LU8Y", "price": 35}
+            ]
+          },
+          {
+            "itemName": "Diamox",
+            "category": "safety",
+            "isEssential": false,
+            "notes": "Consider preventative altitude medication given the rapid gain",
+            "weight": "20g",
+            "priceRange": "$10-$30",
+            "specificProduct": "Acetazolamide 250mg (prescription required)",
+            "links": [
+              {"retailer": "Amazon", "productName": "Altitude Sickness Prevention Kit", "url": "https://www.amazon.com/dp/B08JQ8WLVR", "price": 25},
+              {"retailer": "REI", "productName": "Adventure Medical Kits Altitude Relief", "url": "https://www.rei.com/product/150932/adventure-medical-kits-altitude-relief", "price": 15}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "The hardest way up Kili", "body": "Umbwe is not for casual trekkers. The forest section is steep and slippery. The altitude gain is brutal and our group suffered. But the route is direct and uncrowded. If you have altitude experience and want the most challenging standard route, Umbwe delivers.", "conditions": "Muddy forest, clear above, rapid altitude gain noticeable"}
+        ]
+      },
+      {
+        "name": "Western Breach Route",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "scramble",
+        "description": "The most direct route to the crater rim via the Western Breach wall. Involves Class 2-3 scrambling on volcanic rock and scree with some rockfall danger. Approaches the summit directly rather than circling to Stella Point. The most adventurous route on Kilimanjaro.",
+        "distance": 55.0,
+        "elevationGain": 4300,
+        "estimatedTime": 1200,
+        "season": "summer",
+        "hazards": "[\"Rockfall on breach wall\",\"Scrambling on loose volcanic rock\",\"Altitude\",\"Route occasionally closed\"]",
+        "summary": "The most adventurous and technically demanding route on Kilimanjaro, ascending directly through the Western Breach wall via Class 2-3 scrambling on loose volcanic rock to the crater rim.",
+        "imageUrl": null,
+        "technicalGrade": "Class 2-3 scramble / YDS",
+        "commitment": "II",
+        "approachTime": 0.5,
+        "descentTime": 8,
+        "basecamp": "Machame Gate (1,800m) via Arrow Glacier Camp (4,870m)",
+        "permitRequired": true,
+        "permitInfo": "Kilimanjaro National Park entry fees required; approximately $70 USD per day for international visitors, plus camping fees; the Western Breach may require additional authorization and is sometimes closed; check with KINAPA before departure",
+        "closestAirport": "Kilimanjaro International Airport (JRO)",
+        "safetyNotes": "The Western Breach wall has active rockfall danger, particularly in early morning when ice melts; a helmet is essential. The route was closed after a rockfall fatality in 2006 and periodically closes again. The loose volcanic rock requires careful foot placement. Start the breach wall early when rock is frozen in place to minimize rockfall risk.",
+        "tips": [
+          {"content": "The Western Breach was closed after a rockfall fatality in 2006 but has since reopened", "category": "safety"},
+          {"content": "The breach wall scramble is the only technically challenging section on any Kili route", "category": "general"},
+          {"content": "Camp in the crater after summiting for a unique Kilimanjaro experience", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall on the breach wall is a real danger",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Half Dome Helmet",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Half Dome Helmet", "url": "https://www.rei.com/product/129865/black-diamond-half-dome-climbing-helmet", "price": 60},
+              {"retailer": "Backcountry", "productName": "Black Diamond Half Dome Helmet", "url": "https://www.backcountry.com/black-diamond-half-dome-helmet", "price": 60},
+              {"retailer": "Amazon", "productName": "Black Diamond Half Dome Helmet", "url": "https://www.amazon.com/dp/B078HX1WZ9", "price": 55}
+            ]
+          },
+          {
+            "itemName": "Gloves for scrambling",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sharp volcanic rock on the breach wall",
+            "weight": "120g",
+            "priceRange": "$25-$55",
+            "specificProduct": "Black Diamond Crag Half-Finger Gloves",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Crag Half-Finger Gloves", "url": "https://www.rei.com/product/103061/black-diamond-crag-half-finger-gloves", "price": 32},
+              {"retailer": "Backcountry", "productName": "Black Diamond Crag Half-Finger Gloves", "url": "https://www.backcountry.com/black-diamond-crag-half-finger-glove", "price": 32},
+              {"retailer": "Amazon", "productName": "Black Diamond Crag Half-Finger Gloves", "url": "https://www.amazon.com/dp/B019NULQXU", "price": 28}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most exciting route on Kilimanjaro", "body": "The Western Breach adds genuine mountaineering excitement to what is otherwise a hiking mountain. The breach wall scramble is engaging and slightly intimidating with loose rock. Camping in the crater near the glaciers was magical. This route makes Kilimanjaro feel like a real climb.", "conditions": "Dry breach wall, some rockfall, clear summit morning"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Elbrus",
+    "routes": [
+      {
+        "name": "North Route",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The route from the north side via the Aul camp and North Shelter. Less developed than the south with no cable car infrastructure. A more genuine mountaineering experience requiring more self-sufficiency. The approach through the Malka Valley is beautiful.",
+        "distance": 22.0,
+        "elevationGain": 2300,
+        "estimatedTime": 660,
+        "season": "summer",
+        "hazards": "[\"Less infrastructure\",\"Whiteout navigation\",\"Crevasses\",\"Altitude\",\"Remote\"]",
+        "summary": "A self-sufficient mountaineering route on Elbrus's remote north side through the beautiful Malka Valley, offering a more authentic alpine experience without the cable car infrastructure of the standard south side.",
+        "imageUrl": null,
+        "technicalGrade": "PD- / 30-degree snow slopes",
+        "commitment": "II",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": "North Base Camp (2,500m) via North Shelter (3,800m)",
+        "permitRequired": false,
+        "permitInfo": "No formal climbing permit required; a border zone permit may be needed for the north side as it is closer to the Georgian border; obtain through a local agency in Mineralnye Vody or Pyatigorsk",
+        "closestAirport": "Mineralnye Vody Airport (MRV)",
+        "safetyNotes": "The north side has no cable car, Ratrak, or hut infrastructure so full self-sufficiency is required. Whiteout navigation on the featureless upper slopes is the leading cause of fatalities on Elbrus; pre-load GPS waypoints. Crevasses are present on the upper glacier and roped travel is recommended. Weather can change extremely rapidly with temperatures dropping to minus 30C in storms.",
+        "tips": [
+          {"content": "The north route has no cable cars or Ratrak services, be fully self-sufficient", "category": "logistics"},
+          {"content": "The north side is quieter and provides a more authentic mountain experience", "category": "general"},
+          {"content": "Navigation in whiteout is equally dangerous on the north side", "category": "safety"}
+        ],
+        "gear": [
+          {
+            "itemName": "GPS with waypoints",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Navigation is critical on the featureless upper slopes",
+            "weight": "230g",
+            "priceRange": "$300-$500",
+            "specificProduct": "Garmin GPSMAP 67",
+            "links": [
+              {"retailer": "REI", "productName": "Garmin GPSMAP 67 GPS", "url": "https://www.rei.com/product/214972/garmin-gpsmap-67", "price": 450},
+              {"retailer": "Backcountry", "productName": "Garmin GPSMAP 67", "url": "https://www.backcountry.com/garmin-gpsmap-67", "price": 450},
+              {"retailer": "Amazon", "productName": "Garmin GPSMAP 67", "url": "https://www.amazon.com/dp/B0BXQM12VZ", "price": 430}
+            ]
+          },
+          {
+            "itemName": "4-season tent",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "No hut infrastructure, must camp",
+            "weight": "3.2kg",
+            "priceRange": "$500-$800",
+            "specificProduct": "Hilleberg Jannu",
+            "links": [
+              {"retailer": "REI", "productName": "Hilleberg Jannu 2-Person Tent", "url": "https://www.rei.com/product/185921/hilleberg-jannu-2-person-tent", "price": 795},
+              {"retailer": "Backcountry", "productName": "Hilleberg Jannu 2P Tent", "url": "https://www.backcountry.com/hilleberg-jannu-2-person-tent", "price": 795},
+              {"retailer": "Moosejaw", "productName": "Hilleberg Jannu 2P Tent", "url": "https://www.moosejaw.com/product/hilleberg-jannu-2-person-tent_10543220", "price": 790}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The real Elbrus experience", "body": "The north route is how Elbrus should be climbed. No cable cars, no snowcats, just you and the mountain. The approach is beautiful and the climbing feels more earned. Navigation is still critical on the upper slopes. A much more satisfying way to climb Europe's highest peak.", "conditions": "Clear weather, firm snow, light wind"}
+        ]
+      },
+      {
+        "name": "Cross Traverse",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A traverse of both summits of Elbrus, ascending one side and descending the other. Requires climbing both the East Summit (5621m) and West Summit (5642m). A logical and complete way to experience the entire mountain. Requires coordinating transport on both sides.",
+        "distance": 30.0,
+        "elevationGain": 2500,
+        "estimatedTime": 780,
+        "season": "summer",
+        "hazards": "[\"Saddle between summits exposed to wind\",\"Navigation\",\"Logistics of two-sided approach\",\"Altitude\"]",
+        "summary": "A complete traverse of both Elbrus summits ascending one side and descending the other, requiring coordination of logistics on both the north and south flanks of Europe's highest peak.",
+        "imageUrl": null,
+        "technicalGrade": "PD / 35-degree snow slopes with crevasse navigation",
+        "commitment": "III",
+        "approachTime": 6,
+        "descentTime": 8,
+        "basecamp": "Barrels Hut (3,800m) on south side or North Base Camp (2,500m) on north side",
+        "permitRequired": false,
+        "permitInfo": "No formal climbing permit required; a border zone permit may be needed for the north side; coordinate transport logistics on both sides in advance through a local operator",
+        "closestAirport": "Mineralnye Vody Airport (MRV)",
+        "safetyNotes": "The traverse is significantly more committing than a single-side ascent as retreat options change once you cross the saddle. The saddle between the summits is extremely exposed to wind and whiteout conditions make navigation treacherous. Ensure both north and south transport are pre-arranged as you cannot retreat the way you came easily. Carry full bivouac gear in case you are forced to shelter on the saddle.",
+        "tips": [
+          {"content": "Coordinate transport on both the north and south sides before starting", "category": "logistics"},
+          {"content": "The saddle between the summits can be extremely windy", "category": "safety"},
+          {"content": "Most parties ascend from the south using the cable car and descend the north for a wilder finish", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Full self-sufficiency kit",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Must be equipped for either side of the mountain",
+            "weight": "5.0kg",
+            "priceRange": "$400-$800",
+            "specificProduct": "Mountain Hardwear Phantom 0F Sleeping Bag + Bivy",
+            "links": [
+              {"retailer": "REI", "productName": "Mountain Hardwear Phantom 0F Sleeping Bag", "url": "https://www.rei.com/product/177842/mountain-hardwear-phantom-0-sleeping-bag", "price": 580},
+              {"retailer": "Backcountry", "productName": "Mountain Hardwear Phantom 0F", "url": "https://www.backcountry.com/mountain-hardwear-phantom-0-sleeping-bag", "price": 580},
+              {"retailer": "Moosejaw", "productName": "Mountain Hardwear Phantom 0F", "url": "https://www.moosejaw.com/product/mountain-hardwear-phantom-0-sleeping-bag_10543230", "price": 575}
+            ]
+          },
+          {
+            "itemName": "GPS device",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Critical for the traverse between summits",
+            "weight": "230g",
+            "priceRange": "$300-$500",
+            "specificProduct": "Garmin inReach Mini 2",
+            "links": [
+              {"retailer": "REI", "productName": "Garmin inReach Mini 2", "url": "https://www.rei.com/product/205aborig/garmin-inreach-mini-2", "price": 400},
+              {"retailer": "Backcountry", "productName": "Garmin inReach Mini 2", "url": "https://www.backcountry.com/garmin-inreach-mini-2", "price": 400},
+              {"retailer": "Amazon", "productName": "Garmin inReach Mini 2", "url": "https://www.amazon.com/dp/B09X4JQLHF", "price": 380}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The complete Elbrus", "body": "Traversing both summits gives you the complete Elbrus experience. Ascending from the south with its infrastructure and descending the wild north side is the best of both worlds. The saddle between the summits is exposed and adds commitment. The definitive way to climb this mountain.", "conditions": "Clear for the traverse, wind in the saddle, good snow conditions"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Ama Dablam",
+    "routes": [
+      {
+        "name": "Southwest Ridge (Normal Route)",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on what is often called the most beautiful mountain in the world. The southwest ridge involves technical mixed climbing with the famous Dablam (hanging glacier) serac barrier as the crux. Fixed ropes on the upper sections. A serious expedition peak requiring technical skills.",
+        "distance": 20.0,
+        "elevationGain": 2213,
+        "estimatedTime": 960,
+        "season": "autumn",
+        "hazards": "[\"Dablam serac barrier\",\"Technical mixed climbing\",\"Fixed rope congestion\",\"Altitude\",\"Rockfall\"]",
+        "summary": "The classic route on what many consider the world's most beautiful mountain, featuring technical mixed climbing along the southwest ridge through the famous Dablam hanging glacier serac barrier.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 / M4 / 5.7 rock sections",
+        "commitment": "IV",
+        "approachTime": 48,
+        "descentTime": 10,
+        "basecamp": "Ama Dablam Base Camp (ABC) (4,600m)",
+        "permitRequired": true,
+        "permitInfo": "Nepal Mountaineering Association (NMA) climbing permit required; approximately $2,500 USD per person for autumn season; Sagarmatha National Park entry fee additional $30 USD; TIMS card required for trekking approach; liaison officer required",
+        "closestAirport": "Tenzing-Hillary Airport, Lukla (LUA)",
+        "safetyNotes": "The Dablam serac barrier is the primary objective hazard and has collapsed in the past, destroying Camp 2. Minimize time spent beneath the serac and move through the danger zone quickly. Fixed rope congestion can cause dangerous delays on summit day; start early. The altitude combined with technical climbing demands excellent acclimatization. Rescue from the upper mountain is extremely difficult and expensive.",
+        "tips": [
+          {"content": "The Dablam is a massive hanging glacier that must be climbed through or around", "category": "general"},
+          {"content": "Autumn season October to November is standard for Ama Dablam", "category": "timing"},
+          {"content": "Camp 2 at the foot of the Dablam has been destroyed by serac fall in the past", "category": "safety"},
+          {"content": "Ama Dablam requires genuine technical climbing skills unlike many trekking peaks", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed climbing on the ridge and through the Dablam",
+            "weight": "1.2kg (pair)",
+            "priceRange": "$400-$650",
+            "specificProduct": "Petzl Nomic",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Nomic Ice Tool", "url": "https://www.rei.com/product/151401/petzl-nomic-ice-tool", "price": 325},
+              {"retailer": "Backcountry", "productName": "Petzl Nomic Ice Tool", "url": "https://www.backcountry.com/petzl-nomic-ice-tool", "price": 325},
+              {"retailer": "Moosejaw", "productName": "Petzl Nomic Ice Tool", "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool_10543240", "price": 320}
+            ]
+          },
+          {
+            "itemName": "Jumar ascender",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the fixed rope headwall",
+            "weight": "280g",
+            "priceRange": "$80-$130",
+            "specificProduct": "Petzl Ascension",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Ascension Ascender", "url": "https://www.rei.com/product/103340/petzl-ascension-ascender", "price": 100},
+              {"retailer": "Backcountry", "productName": "Petzl Ascension Ascender", "url": "https://www.backcountry.com/petzl-ascension-ascender", "price": 100},
+              {"retailer": "Amazon", "productName": "Petzl Ascension Ascender", "url": "https://www.amazon.com/dp/B000BQ2KN4", "price": 95}
+            ]
+          },
+          {
+            "itemName": "Rock climbing gear",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical rock sections on the ridge",
+            "weight": "2.0kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "Black Diamond Camalot C4 Rack (0.5-3)",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Camalot C4 Set", "url": "https://www.rei.com/product/188476/black-diamond-camalot-c4-set", "price": 350},
+              {"retailer": "Backcountry", "productName": "Black Diamond Camalot C4 Rack", "url": "https://www.backcountry.com/black-diamond-camalot-c4-rack", "price": 350},
+              {"retailer": "Moosejaw", "productName": "Black Diamond Camalot C4 Set", "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-set_10543245", "price": 345}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most beautiful mountain on Earth", "body": "Ama Dablam is a stunning peak and the southwest ridge is a world-class mountaineering route. The climbing is technical and varied, far beyond a trekking peak. The Dablam serac barrier is intimidating and must be respected. Standing on the summit with Everest towering behind is an unforgettable moment.", "conditions": "Clear autumn weather, good ice on Dablam, moderate wind"}
+        ]
+      },
+      {
+        "name": "North Ridge",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A more technical and less traveled route on the north side. Involves sustained mixed climbing with less fixed rope infrastructure. A more committing and serious undertaking than the standard route, attempted only by experienced expeditions.",
+        "distance": 18.0,
+        "elevationGain": 2100,
+        "estimatedTime": 1080,
+        "season": "autumn",
+        "hazards": "[\"Sustained technical mixed climbing\",\"Less infrastructure\",\"Isolation\",\"Altitude\"]",
+        "summary": "A rarely attempted and highly technical route on Ama Dablam's north side featuring sustained mixed climbing with minimal fixed rope infrastructure, reserved for experienced alpine expeditions.",
+        "imageUrl": null,
+        "technicalGrade": "AI4 / M5 / 5.8 rock sections",
+        "commitment": "V",
+        "approachTime": 48,
+        "descentTime": 12,
+        "basecamp": "North Side Base Camp (4,500m)",
+        "permitRequired": true,
+        "permitInfo": "Nepal Mountaineering Association (NMA) climbing permit required; approximately $2,500 USD per person for autumn season; Sagarmatha National Park entry fee additional $30 USD; TIMS card required; liaison officer required",
+        "closestAirport": "Tenzing-Hillary Airport, Lukla (LUA)",
+        "safetyNotes": "The north ridge has essentially no fixed rope infrastructure so teams must be fully self-sufficient with all protection gear. Rescue from this side of the mountain is extremely difficult with very few other teams in the area. The sustained mixed terrain requires a high level of technical competence at altitude. Retreat from the upper ridge is complicated by the technical terrain.",
+        "tips": [
+          {"content": "The north ridge is significantly more serious than the standard route with less infrastructure", "category": "general"},
+          {"content": "Must be fully self-sufficient as there are few other teams on this side", "category": "logistics"}
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Must bring all protection as there are minimal fixed ropes",
+            "weight": "4.5kg",
+            "priceRange": "$600-$1200",
+            "specificProduct": "Black Diamond Mixed Rack with ice screws, cams, and pitons",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Express Ice Screws (4-pack)", "url": "https://www.rei.com/product/188477/black-diamond-express-ice-screw-set", "price": 260},
+              {"retailer": "Backcountry", "productName": "Black Diamond Camalot C4 Full Rack", "url": "https://www.backcountry.com/black-diamond-camalot-c4-full-rack", "price": 500},
+              {"retailer": "Moosejaw", "productName": "Black Diamond Mixed Climbing Rack", "url": "https://www.moosejaw.com/product/black-diamond-mixed-rack_10543250", "price": 480}
+            ]
+          },
+          {
+            "itemName": "Expedition bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Self-sufficient camps on the ridge",
+            "weight": "3.5kg",
+            "priceRange": "$500-$900",
+            "specificProduct": "Mountain Hardwear Trango 2 Tent",
+            "links": [
+              {"retailer": "REI", "productName": "Mountain Hardwear Trango 2 Tent", "url": "https://www.rei.com/product/196452/mountain-hardwear-trango-2-tent", "price": 700},
+              {"retailer": "Backcountry", "productName": "Mountain Hardwear Trango 2 Tent", "url": "https://www.backcountry.com/mountain-hardwear-trango-2-tent", "price": 700},
+              {"retailer": "Amazon", "productName": "Mountain Hardwear Trango 2 Tent", "url": "https://www.amazon.com/dp/B09KLNX3WY", "price": 680}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Ama Dablam the hard way", "body": "The north ridge is a completely different experience from the crowded southwest ridge. No fixed ropes, no other teams, just pure alpine climbing. The mixed terrain is sustained and committing. A far more rewarding way to climb this beautiful peak.", "conditions": "Variable conditions, mixed rock and ice, cold"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Cotopaxi",
+    "routes": [
+      {
+        "name": "Normal Route (North Face)",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Ecuador's most popular high-altitude climbing objective. A moderate glacier climb from the Jose Rivas Refuge at 4800m. The route navigates crevasse fields to reach the summit crater at 5897m. An excellent introduction to high altitude mountaineering.",
+        "distance": 10.0,
+        "elevationGain": 1097,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Crevasses\",\"Altitude sickness\",\"Volcanic activity\",\"Whiteout conditions\",\"Wind\"]",
+        "summary": "Ecuador's most popular high-altitude glacier climb, ascending from the Jose Ribas Refuge through crevasse fields to the active volcanic summit crater at 5,897m in a single alpine-start push.",
+        "imageUrl": null,
+        "technicalGrade": "PD- / 35-degree snow and ice",
+        "commitment": "I",
+        "approachTime": 1,
+        "descentTime": 3,
+        "basecamp": "Jose Ribas Refuge (4,800m)",
+        "permitRequired": true,
+        "permitInfo": "Cotopaxi National Park entry fee of $5 USD for foreigners; guide is mandatory for glacier travel; the park periodically closes due to volcanic activity; check current status with Ecuador's Servicio Nacional de Gestion de Riesgos",
+        "closestAirport": "Mariscal Sucre International Airport, Quito (UIO)",
+        "safetyNotes": "Cotopaxi is an active volcano and has erupted recently; always check the current volcanic alert level before climbing. Crevasses on the glacier are large and some are hidden by snow bridges; roped travel is mandatory. Start by midnight from the refuge to summit before afternoon cloud and softening snow. Acclimatize properly in Quito and on smaller peaks like Illiniza Norte before attempting.",
+        "tips": [
+          {"content": "Start from the refuge at midnight for a sunrise summit and better snow conditions", "category": "timing"},
+          {"content": "Acclimatize by climbing Illiniza Norte or Rucu Pichincha first", "category": "general"},
+          {"content": "Check volcanic activity status before climbing, Cotopaxi is an active volcano", "category": "safety"},
+          {"content": "December to January and July to August are the driest months", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the glacier travel",
+            "weight": "850g",
+            "priceRange": "$150-$250",
+            "specificProduct": "Petzl Vasak",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Vasak Crampons", "url": "https://www.rei.com/product/151399/petzl-vasak-crampons", "price": 175},
+              {"retailer": "Backcountry", "productName": "Petzl Vasak Crampons", "url": "https://www.backcountry.com/petzl-vasak-crampon", "price": 175},
+              {"retailer": "Amazon", "productName": "Petzl Vasak Crampons", "url": "https://www.amazon.com/dp/B09KGVN8HP", "price": 165}
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard walking axe sufficient",
+            "weight": "420g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.rei.com/product/177843/petzl-summit-evo-ice-axe", "price": 170},
+              {"retailer": "Backcountry", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe", "price": 170},
+              {"retailer": "Amazon", "productName": "Petzl Summit EVO Ice Axe", "url": "https://www.amazon.com/dp/B09KGWX7RJ", "price": 165}
+            ]
+          },
+          {
+            "itemName": "Rope (30m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For roped glacier travel",
+            "weight": "1.8kg",
+            "priceRange": "$150-$250",
+            "specificProduct": "Mammut Crag Dry 9.5mm x 30m",
+            "links": [
+              {"retailer": "REI", "productName": "Mammut Crag Dry 9.5mm Rope", "url": "https://www.rei.com/product/190345/mammut-crag-dry-95mm-x-30m-rope", "price": 160},
+              {"retailer": "Backcountry", "productName": "Mammut Crag Dry 9.5mm", "url": "https://www.backcountry.com/mammut-crag-dry-9.5mm-rope", "price": 160},
+              {"retailer": "Amazon", "productName": "Mammut Crag Dry 9.5mm x 30m", "url": "https://www.amazon.com/dp/B08KFTQP3R", "price": 150}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Perfect introduction to glaciated peaks", "body": "Cotopaxi is an ideal first high altitude glacier climb. The route from the refuge is straightforward with the main challenge being the altitude. The summit crater with fumaroles steaming is surreal. Sunrise from the top with views of Chimborazo and the Andes was magical.", "conditions": "Clear night, firm snow, some crevasse navigation"}
+        ]
+      },
+      {
+        "name": "Yanasacha Route",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A more technical alternative on the south face via the prominent Yanasacha rock buttress. Involves mixed rock and ice climbing around the buttress before joining the upper glacier. Steeper and more engaging than the normal route with fewer climbers.",
+        "distance": 12.0,
+        "elevationGain": 1200,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Mixed rock and ice terrain\",\"Rockfall near Yanasacha\",\"Crevasses\",\"Altitude\"]",
+        "summary": "A technical alternative route on Cotopaxi's south face, navigating around the Yanasacha rock buttress through mixed rock and ice terrain before joining the upper glacier.",
+        "imageUrl": null,
+        "technicalGrade": "AD / AI2 / 40-degree ice with mixed rock",
+        "commitment": "II",
+        "approachTime": 1.5,
+        "descentTime": 4,
+        "basecamp": "Jose Ribas Refuge (4,800m)",
+        "permitRequired": true,
+        "permitInfo": "Cotopaxi National Park entry fee of $5 USD for foreigners; guide is mandatory for glacier travel; check volcanic activity status before climbing",
+        "closestAirport": "Mariscal Sucre International Airport, Quito (UIO)",
+        "safetyNotes": "Rockfall around the Yanasacha buttress is a serious hazard, particularly as temperatures rise; climb through this section in the cold early hours. The mixed terrain requires more technical skill than the normal route including comfort on both rock and ice. A helmet is essential throughout the buttress area. Route-finding can be tricky in darkness or whiteout near the buttress.",
+        "tips": [
+          {"content": "The Yanasacha buttress adds genuine technical interest to a Cotopaxi climb", "category": "general"},
+          {"content": "Navigate around the rock buttress on mixed terrain before reaching the upper glacier", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain around the buttress",
+            "weight": "1.1kg (pair)",
+            "priceRange": "$300-$550",
+            "specificProduct": "Black Diamond Viper",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Viper Ice Tool", "url": "https://www.rei.com/product/187654/black-diamond-viper-ice-tool", "price": 250},
+              {"retailer": "Backcountry", "productName": "Black Diamond Viper Ice Tool", "url": "https://www.backcountry.com/black-diamond-viper-ice-tool", "price": 250},
+              {"retailer": "Amazon", "productName": "Black Diamond Viper Ice Tool", "url": "https://www.amazon.com/dp/B09KLWV3JX", "price": 240}
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall near the Yanasacha buttress",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Meteor Helmet",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Meteor Helmet", "url": "https://www.rei.com/product/151402/petzl-meteor-helmet", "price": 110},
+              {"retailer": "Backcountry", "productName": "Petzl Meteor Helmet", "url": "https://www.backcountry.com/petzl-meteor-helmet", "price": 110},
+              {"retailer": "Moosejaw", "productName": "Petzl Meteor Helmet", "url": "https://www.moosejaw.com/product/petzl-meteor-helmet_10543260", "price": 105}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The interesting way up Cotopaxi", "body": "The Yanasacha route transforms Cotopaxi from a straightforward snow slog into a proper alpine climb. The mixed terrain around the buttress is engaging and the route-finding keeps you on your toes. Much more satisfying than the normal route for experienced climbers.", "conditions": "Good mixed conditions, firm snow above, clear night"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Island Peak",
+    "routes": [
+      {
+        "name": "Normal Route (Southwest Ridge)",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Nepal's most popular trekking peak. A moderate glacier and ridge climb from high camp. The final summit ridge is narrow with steep drops on both sides and a short section of fixed rope on the headwall. Often climbed as part of an Everest Base Camp trek.",
+        "distance": 12.0,
+        "elevationGain": 820,
+        "estimatedTime": 420,
+        "season": "autumn",
+        "hazards": "[\"Exposed summit ridge\",\"Crevasses\",\"Fixed rope headwall\",\"Altitude at 6189m\",\"Crowding\"]",
+        "summary": "Nepal's most popular trekking peak featuring a moderate glacier climb to an exposed summit ridge with a fixed-rope headwall, often combined with an Everest Base Camp trek for the complete Khumbu experience.",
+        "imageUrl": null,
+        "technicalGrade": "PD / 45-degree headwall / Grade 2 scramble",
+        "commitment": "II",
+        "approachTime": 72,
+        "descentTime": 4,
+        "basecamp": "Island Peak Base Camp (5,087m)",
+        "permitRequired": true,
+        "permitInfo": "Nepal Mountaineering Association (NMA) trekking peak permit required; approximately $250 USD per person for autumn season; Sagarmatha National Park entry fee additional $30 USD; TIMS card required for trekking approach",
+        "closestAirport": "Tenzing-Hillary Airport, Lukla (LUA)",
+        "safetyNotes": "The summit ridge is narrow and exposed with steep drops on both sides; take particular care in wind. The headwall is steep but well-equipped with fixed ropes; ensure you are competent with a jumar ascender. Crevasses on the glacier require roped travel and basic crevasse rescue skills. Altitude at 6,189m is significant and proper acclimatization through the EBC trek is essential.",
+        "tips": [
+          {"content": "Island Peak is the perfect introduction to Himalayan climbing", "category": "general"},
+          {"content": "The headwall is steep but short with fixed ropes in place", "category": "general"},
+          {"content": "Combine with an Everest Base Camp trek for the complete Nepal experience", "category": "logistics"},
+          {"content": "October to November offers the clearest weather and best conditions", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the glacier and summit ridge",
+            "weight": "850g",
+            "priceRange": "$150-$250",
+            "specificProduct": "Petzl Vasak",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Vasak Crampons", "url": "https://www.rei.com/product/151399/petzl-vasak-crampons", "price": 175},
+              {"retailer": "Backcountry", "productName": "Petzl Vasak Crampons", "url": "https://www.backcountry.com/petzl-vasak-crampon", "price": 175},
+              {"retailer": "Amazon", "productName": "Petzl Vasak Crampons", "url": "https://www.amazon.com/dp/B09KGVN8HP", "price": 165}
+            ]
+          },
+          {
+            "itemName": "Jumar ascender",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the fixed rope headwall",
+            "weight": "280g",
+            "priceRange": "$80-$130",
+            "specificProduct": "Petzl Ascension",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Ascension Ascender", "url": "https://www.rei.com/product/103340/petzl-ascension-ascender", "price": 100},
+              {"retailer": "Backcountry", "productName": "Petzl Ascension Ascender", "url": "https://www.backcountry.com/petzl-ascension-ascender", "price": 100},
+              {"retailer": "Amazon", "productName": "Petzl Ascension Ascender", "url": "https://www.amazon.com/dp/B000BQ2KN4", "price": 95}
+            ]
+          },
+          {
+            "itemName": "Harness",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the fixed ropes and glacier travel",
+            "weight": "400g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Momentum Harness",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Momentum Harness", "url": "https://www.rei.com/product/129880/black-diamond-momentum-harness-mens", "price": 70},
+              {"retailer": "Backcountry", "productName": "Black Diamond Momentum Harness", "url": "https://www.backcountry.com/black-diamond-momentum-harness-mens", "price": 70},
+              {"retailer": "Amazon", "productName": "Black Diamond Momentum Harness", "url": "https://www.amazon.com/dp/B078GYBCQR", "price": 65}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Gateway to Himalayan climbing", "body": "Island Peak is the perfect first Himalayan peak. The trek to base camp through the Khumbu is incredible. The climb itself has just enough technical challenge to feel like a real mountaineering achievement. The summit ridge with Lhotse and Nuptse towering above is breathtaking.", "conditions": "Clear autumn weather, firm snow, good fixed ropes"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Pico de Orizaba",
+    "routes": [
+      {
+        "name": "Jamapa Glacier (Normal Route)",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Mexico's highest peak and the third highest in North America. A glacier climb from the Piedra Grande hut at 4260m. The Jamapa Glacier has been shrinking but still provides a moderate ice climbing experience. An excellent high altitude acclimatization peak.",
+        "distance": 10.0,
+        "elevationGain": 1400,
+        "estimatedTime": 420,
+        "season": "winter",
+        "hazards": "[\"Altitude sickness\",\"Glacial ice\",\"Volcanic fumes\",\"Lightning\",\"Sun exposure\"]",
+        "summary": "The standard glacier route on Mexico's highest peak and third highest in North America, ascending the shrinking but still substantial Jamapa Glacier from the Piedra Grande hut to the 5,636m volcanic summit.",
+        "imageUrl": null,
+        "technicalGrade": "PD- / 35-degree glacier ice",
+        "commitment": "I",
+        "approachTime": 3,
+        "descentTime": 3,
+        "basecamp": "Piedra Grande Hut (4,260m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Hermanos Serdan International Airport, Puebla (PBC) or Mexico City International Airport (MEX)",
+        "safetyNotes": "Altitude sickness is common as many climbers arrive from lower elevations without adequate acclimatization; spend at least one night in Puebla or Tlachichuca. Lightning is a serious risk in the afternoons, especially during the shoulder season; summit by mid-morning and descend quickly. The Jamapa Glacier has crevasses that require careful navigation. UV radiation at this altitude near the tropics is extreme; full sun protection is essential.",
+        "tips": [
+          {"content": "November to March is the climbing season with the driest and clearest conditions", "category": "timing"},
+          {"content": "The glacier has been shrinking and the route may require more rock scrambling in future", "category": "general"},
+          {"content": "Acclimatize in Puebla or Tlachichuca before attempting the summit", "category": "general"},
+          {"content": "Start from the hut at midnight for a sunrise summit", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the glacier ice",
+            "weight": "850g",
+            "priceRange": "$120-$200",
+            "specificProduct": "Black Diamond Contact Strap Crampons",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Contact Strap Crampons", "url": "https://www.rei.com/product/187650/black-diamond-contact-strap-crampons", "price": 140},
+              {"retailer": "Backcountry", "productName": "Black Diamond Contact Strap Crampons", "url": "https://www.backcountry.com/black-diamond-contact-strap-crampon", "price": 140},
+              {"retailer": "Amazon", "productName": "Black Diamond Contact Strap Crampons", "url": "https://www.amazon.com/dp/B09KLQVB8X", "price": 130}
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the steep glacier sections",
+            "weight": "420g",
+            "priceRange": "$100-$180",
+            "specificProduct": "Black Diamond Raven Ice Axe",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Raven Ice Axe", "url": "https://www.rei.com/product/187653/black-diamond-raven-ice-axe", "price": 110},
+              {"retailer": "Backcountry", "productName": "Black Diamond Raven Ice Axe", "url": "https://www.backcountry.com/black-diamond-raven-ice-axe", "price": 110},
+              {"retailer": "Amazon", "productName": "Black Diamond Raven Ice Axe", "url": "https://www.amazon.com/dp/B09KLHQ8M1", "price": 100}
+            ]
+          },
+          {
+            "itemName": "Sun protection",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Intense UV at 5600m near the equator",
+            "weight": "150g",
+            "priceRange": "$25-$50",
+            "specificProduct": "Julbo Explorer 2.0 Glacier Glasses",
+            "links": [
+              {"retailer": "REI", "productName": "Julbo Explorer 2.0 Sunglasses", "url": "https://www.rei.com/product/127450/julbo-explorer-20-sunglasses", "price": 100},
+              {"retailer": "Backcountry", "productName": "Julbo Explorer 2.0 Glacier Glasses", "url": "https://www.backcountry.com/julbo-explorer-2.0-sunglasses", "price": 100},
+              {"retailer": "Amazon", "productName": "Julbo Explorer 2.0 Glacier Glasses", "url": "https://www.amazon.com/dp/B01LZMNR5Q", "price": 90}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Mexico's glaciated giant", "body": "Pico de Orizaba is a fantastic high altitude climbing objective. The drive to the hut is an adventure in itself on rough 4WD roads. The glacier climbing is moderate and the summit views across the Mexican volcanic belt are spectacular. Great preparation for bigger objectives.", "conditions": "Clear dry season weather, firm glacier, cold start"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Ben Nevis",
+    "routes": [
+      {
+        "name": "Mountain Track (Tourist Path)",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The standard hiking route up Britain's highest peak from Glen Nevis. A well-built path that zig-zags up the western flank. Despite being a straightforward hike the summit plateau is featureless and navigation in cloud (which is frequent) can be dangerous.",
+        "distance": 16.0,
+        "elevationGain": 1345,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Cloud and poor visibility\",\"Navigation on summit plateau\",\"Snow cornices into gullies\",\"Hypothermia in poor weather\"]",
+        "summary": "The standard hiking path up Britain's highest peak, a well-built trail that belies the serious navigation challenge posed by the featureless summit plateau which is in cloud approximately 300 days per year.",
+        "imageUrl": null,
+        "technicalGrade": "Class 1 / Non-technical hill walk",
+        "commitment": "I",
+        "approachTime": 0.25,
+        "descentTime": 2.5,
+        "basecamp": "Glen Nevis Visitor Centre / Achintee (20m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Glasgow Airport (GLA) or Edinburgh Airport (EDI)",
+        "safetyNotes": "The summit plateau is featureless and navigation in cloud requires competent use of map and compass; GPS is recommended as a backup. Dangerous snow cornices overhang the north face gullies well into June and walkers have fallen to their deaths by straying too close to the edge. Conditions on the summit can be winter-like at any time of year with wind chill well below freezing. Carry full waterproofs and warm layers even on seemingly fine days.",
+        "tips": [
+          {"content": "The summit is in cloud around 300 days a year, carry map and compass", "category": "safety"},
+          {"content": "Dangerous snow cornices overhang the north face gullies well into summer", "category": "safety"},
+          {"content": "The path is well-built but the summit plateau requires careful navigation in cloud", "category": "general"},
+          {"content": "The nearby Ben Nevis Inn in Achintee is the traditional starting point", "category": "logistics"}
+        ],
+        "gear": [
+          {
+            "itemName": "Waterproof jacket and trousers",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Scotland's weather is notoriously wet and windy",
+            "weight": "550g",
+            "priceRange": "$100-$350",
+            "specificProduct": "Rab Downpour Eco Jacket",
+            "links": [
+              {"retailer": "REI", "productName": "Rab Downpour Eco Waterproof Jacket", "url": "https://www.rei.com/product/196450/rab-downpour-eco-jacket-mens", "price": 130},
+              {"retailer": "Backcountry", "productName": "Rab Downpour Eco Jacket", "url": "https://www.backcountry.com/rab-downpour-eco-jacket-mens", "price": 130},
+              {"retailer": "Amazon", "productName": "Rab Downpour Eco Jacket", "url": "https://www.amazon.com/dp/B09WQ8J3RN", "price": 120}
+            ]
+          },
+          {
+            "itemName": "Map and compass",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Essential for the featureless summit plateau in cloud",
+            "weight": "150g",
+            "priceRange": "$15-$40",
+            "specificProduct": "OS Explorer Map 392 (Ben Nevis) + Silva Ranger compass",
+            "links": [
+              {"retailer": "Amazon", "productName": "Silva Ranger 2.0 Compass", "url": "https://www.amazon.com/dp/B09KLRW6VN", "price": 35},
+              {"retailer": "REI", "productName": "Suunto A-10 NH Compass", "url": "https://www.rei.com/product/845526/suunto-a-10-nh-compass", "price": 30},
+              {"retailer": "Amazon", "productName": "OS Explorer Map 392 Ben Nevis", "url": "https://www.amazon.com/dp/0319242943", "price": 15}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 3, "title": "Britain's highest in typical Scottish conditions", "body": "Hiked the Mountain Track on a typical Scottish day - started in drizzle, spent the entire summit in thick cloud, and got soaked on the descent. The path is good but the summit plateau is genuinely dangerous in poor visibility. Would love to return for a clear day someday.", "conditions": "Cloudy, wet, limited visibility, 8C at summit in July"}
+        ]
+      },
+      {
+        "name": "Tower Ridge",
+        "difficulty": "D-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The longest ridge climb in Britain following the prominent northeast ridge of Ben Nevis. A serious mountaineering route in winter conditions involving mixed climbing, tower traverses, and exposed ridge walking. One of the great winter climbing routes in Scotland.",
+        "distance": 8.0,
+        "elevationGain": 900,
+        "estimatedTime": 480,
+        "season": "winter",
+        "hazards": "[\"Scottish winter conditions\",\"Mixed climbing\",\"Exposure\",\"Avalanche risk in gullies\",\"Cornice danger\"]",
+        "summary": "The longest ridge climb in Britain and one of Scotland's greatest winter mountaineering routes, following the prominent northeast ridge through mixed climbing, tower traverses, and exposed ridge walking.",
+        "imageUrl": null,
+        "technicalGrade": "IV,3 (Scottish winter grade)",
+        "commitment": "III",
+        "approachTime": 1.5,
+        "descentTime": 2.5,
+        "basecamp": "CIC Hut (680m) or North Face Car Park, Torlundy",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Glasgow Airport (GLA) or Edinburgh Airport (EDI)",
+        "safetyNotes": "Tower Ridge in winter is a serious mountaineering route requiring competent Scottish winter climbing skills including mixed climbing, crampon technique, and route-finding in poor visibility. The Tower Gap requires a short abseil and reclimb which adds significant complexity, especially in icy conditions. Avalanche risk in the adjacent gullies should be assessed before committing to the route. Cornices on the summit plateau are a danger on the final exit; use a bearing to navigate safely away from the edge.",
+        "tips": [
+          {"content": "Tower Ridge in winter conditions is a genuine alpine route requiring winter climbing skills", "category": "general"},
+          {"content": "January to March offers the most reliable winter conditions", "category": "timing"},
+          {"content": "The Tower Gap requires a short abseil and reclimb that adds complexity", "category": "general"},
+          {"content": "Approach from the CIC Hut below the north face", "category": "logistics"}
+        ],
+        "gear": [
+          {
+            "itemName": "Winter ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed climbing throughout in winter conditions",
+            "weight": "1.1kg (pair)",
+            "priceRange": "$300-$550",
+            "specificProduct": "Petzl Gully",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Gully Ice Tool", "url": "https://www.rei.com/product/196455/petzl-gully-ice-tool", "price": 190},
+              {"retailer": "Backcountry", "productName": "Petzl Gully Ice Tool", "url": "https://www.backcountry.com/petzl-gully-ice-tool", "price": 190},
+              {"retailer": "Amazon", "productName": "Petzl Gully Ice Tool", "url": "https://www.amazon.com/dp/B09KLPN7RQ", "price": 180}
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for Scottish winter climbing",
+            "weight": "900g",
+            "priceRange": "$150-$250",
+            "specificProduct": "Grivel G12 Crampons",
+            "links": [
+              {"retailer": "REI", "productName": "Grivel G12 Crampons", "url": "https://www.rei.com/product/187660/grivel-g12-crampons", "price": 185},
+              {"retailer": "Backcountry", "productName": "Grivel G12 Crampons", "url": "https://www.backcountry.com/grivel-g12-crampon", "price": 185},
+              {"retailer": "Moosejaw", "productName": "Grivel G12 Crampons", "url": "https://www.moosejaw.com/product/grivel-g12-crampons_10543270", "price": 180}
+            ]
+          },
+          {
+            "itemName": "Full rope and rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belaying the technical sections and Tower Gap",
+            "weight": "4.0kg",
+            "priceRange": "$250-$500",
+            "specificProduct": "Beal Joker 9.1mm Dry Cover 60m + Slings and Screws",
+            "links": [
+              {"retailer": "REI", "productName": "Beal Joker 9.1mm Dry Cover Rope 60m", "url": "https://www.rei.com/product/190346/beal-joker-91mm-dry-cover-rope-60m", "price": 220},
+              {"retailer": "Backcountry", "productName": "Beal Joker 9.1mm Dry Cover 60m", "url": "https://www.backcountry.com/beal-joker-9.1mm-dry-cover-rope", "price": 220},
+              {"retailer": "Amazon", "productName": "Beal Joker 9.1mm Dry Cover 60m", "url": "https://www.amazon.com/dp/B08KFV9WL3", "price": 210}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Scotland's greatest winter route", "body": "Tower Ridge in full winter conditions is world class climbing. The mixed terrain is varied and engaging, the exposure is thrilling, and the Tower Gap requires a cool head. Scottish winter climbing at its finest. Who needs the Alps when you have Ben Nevis.", "conditions": "Good winter conditions, firm snow, rime ice on rock, clear summit"}
+        ]
+      },
+      {
+        "name": "CMD Arete",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The Carn Mor Dearg Arete is an exposed and aesthetic ridge connecting Carn Mor Dearg to Ben Nevis. A stunning approach to the summit via a narrow rocky arete with incredible views of the north face. Combines the two peaks in a satisfying traverse.",
+        "distance": 18.0,
+        "elevationGain": 1500,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Exposed arete\",\"Navigation in cloud\",\"Scrambling on loose rock\",\"Weather changes\"]",
+        "summary": "A stunning exposed ridge traverse connecting Carn Mor Dearg to Ben Nevis via a narrow rocky arete, widely regarded as the finest approach to Britain's highest peak with spectacular north face views.",
+        "imageUrl": null,
+        "technicalGrade": "Class 2-3 scramble / Grade 1 scramble (UK)",
+        "commitment": "II",
+        "approachTime": 0.5,
+        "descentTime": 3,
+        "basecamp": "North Face Car Park, Torlundy (50m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Glasgow Airport (GLA) or Edinburgh Airport (EDI)",
+        "safetyNotes": "The CMD Arete is an exposed ridge with steep drops on both sides requiring confident scrambling ability and a head for heights. In wet conditions the rock becomes slippery and the scrambling more serious. Navigation in cloud is critical both on the arete itself and on the summit plateau afterward. In winter conditions the arete becomes a full alpine route requiring winter mountaineering equipment and skills.",
+        "tips": [
+          {"content": "The CMD Arete is the finest approach to Ben Nevis with stunning north face views", "category": "general"},
+          {"content": "The arete is exposed Class 2-3 scrambling with big drops either side", "category": "general"},
+          {"content": "In winter the arete becomes a genuine alpine route", "category": "general"}
+        ],
+        "gear": [
+          {
+            "itemName": "Scrambling footwear",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "Good grip needed for the rocky arete",
+            "weight": "900g (pair)",
+            "priceRange": "$150-$250",
+            "specificProduct": "La Sportiva TX4 Approach Shoes",
+            "links": [
+              {"retailer": "REI", "productName": "La Sportiva TX4 Approach Shoes", "url": "https://www.rei.com/product/148790/la-sportiva-tx4-approach-shoes-mens", "price": 165},
+              {"retailer": "Backcountry", "productName": "La Sportiva TX4 Approach Shoes", "url": "https://www.backcountry.com/la-sportiva-tx4-approach-shoe-mens", "price": 165},
+              {"retailer": "Amazon", "productName": "La Sportiva TX4 Approach Shoes", "url": "https://www.amazon.com/dp/B07H42WRXZ", "price": 155}
+            ]
+          },
+          {
+            "itemName": "Waterproofs",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Scottish weather can change in minutes",
+            "weight": "400g",
+            "priceRange": "$100-$300",
+            "specificProduct": "Rab Downpour Eco Jacket",
+            "links": [
+              {"retailer": "REI", "productName": "Rab Downpour Eco Jacket", "url": "https://www.rei.com/product/196450/rab-downpour-eco-jacket-mens", "price": 130},
+              {"retailer": "Backcountry", "productName": "Rab Downpour Eco Jacket", "url": "https://www.backcountry.com/rab-downpour-eco-jacket-mens", "price": 130},
+              {"retailer": "Amazon", "productName": "Rab Downpour Eco Jacket", "url": "https://www.amazon.com/dp/B09WQ8J3RN", "price": 120}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "The most beautiful way up Ben Nevis", "body": "The CMD Arete transforms a Ben Nevis ascent from a trudge into an adventure. The views of the north face from the arete are staggering. The scrambling is engaging and the position is incredible. On a clear day this is one of the finest mountain days in Britain.", "conditions": "Clear day (rare!), dry rock, light wind on arete"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Toubkal",
+    "routes": [
+      {
+        "name": "South Cirque (Normal Route)",
+        "difficulty": "F",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "The standard route on North Africa's highest peak from the village of Imlil via the Toubkal Refuge. A straightforward trek through the dramatic Atlas Mountains with a final scree scramble to the summit. The route passes through Berber villages adding cultural richness to the climb.",
+        "distance": 20.0,
+        "elevationGain": 1840,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Altitude for those coming from sea level\",\"Scree on summit approach\",\"Sun exposure\",\"Snow in winter\"]",
+        "summary": "The standard trekking route on North Africa's highest peak, passing through Berber villages and the dramatic Atlas Mountains from Imlil to the Toubkal Refuge before a final scree scramble to the 4,167m summit.",
+        "imageUrl": null,
+        "technicalGrade": "Non-technical trek / Grade T3 (SAC)",
+        "commitment": "I",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Toubkal Refuge (3,207m) via Imlil (1,740m)",
+        "permitRequired": false,
+        "permitInfo": "No climbing permit required; Toubkal National Park has no entry fee; hiring a local guide from Imlil is recommended but not mandatory; mule hire available for gear transport to the refuge",
+        "closestAirport": "Marrakech Menara Airport (RAK)",
+        "safetyNotes": "Sun exposure in the Atlas Mountains is intense and dehydration is a real risk; carry at least 2 liters of water and sun protection. The scree section below the summit is tiring and unstable; take care with footing especially on the descent. In winter months the upper route can be snow-covered requiring crampons and an ice axe. Altitude can affect those arriving directly from sea level; spending a night in Imlil before the refuge helps.",
+        "tips": [
+          {"content": "Stay at the Toubkal Refuge the night before for the summit day", "category": "logistics"},
+          {"content": "Hire a local guide from Imlil for the cultural experience and route-finding", "category": "general"},
+          {"content": "April to June and September to November offer the best conditions", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Sun protection",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Morocco sun is intense at altitude",
+            "weight": "150g",
+            "priceRange": "$20-$50",
+            "specificProduct": "Sunday Afternoons Ultra Adventure Hat",
+            "links": [
+              {"retailer": "REI", "productName": "Sunday Afternoons Ultra Adventure Hat", "url": "https://www.rei.com/product/870795/sunday-afternoons-ultra-adventure-hat", "price": 44},
+              {"retailer": "Amazon", "productName": "Sunday Afternoons Ultra Adventure Hat", "url": "https://www.amazon.com/dp/B003MXU5NM", "price": 40},
+              {"retailer": "Backcountry", "productName": "Sunday Afternoons Ultra Adventure Hat", "url": "https://www.backcountry.com/sunday-afternoons-ultra-adventure-hat", "price": 44}
+            ]
+          },
+          {
+            "itemName": "Trekking poles",
+            "category": "hiking",
+            "isEssential": false,
+            "notes": "Helpful on the scree sections",
+            "weight": "500g (pair)",
+            "priceRange": "$50-$150",
+            "specificProduct": "Black Diamond Distance Carbon Z Trekking Poles",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Distance Carbon Z Poles", "url": "https://www.rei.com/product/141319/black-diamond-distance-carbon-z-trekking-poles", "price": 150},
+              {"retailer": "Backcountry", "productName": "Black Diamond Distance Carbon Z Poles", "url": "https://www.backcountry.com/black-diamond-distance-carbon-z-trekking-pole", "price": 150},
+              {"retailer": "Amazon", "productName": "Black Diamond Distance Carbon Z Poles", "url": "https://www.amazon.com/dp/B078GYQ1X5", "price": 140}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 4, "title": "Highest in North Africa", "body": "Toubkal is a wonderful trek through the Atlas Mountains. The Berber villages add incredible cultural depth. The summit scree slog is tiring but the panoramic views from the top across Morocco and the Sahara are stunning. A great quick summit for those visiting Marrakech.", "conditions": "Hot and sunny, clear views to the Sahara, no snow in summer"}
+        ]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kinabalu",
+    "routes": [
+      {
+        "name": "Summit Trail (Via Timpohon Gate)",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The standard route on Southeast Asia's highest peak in Borneo. A two-day trek starting from Timpohon Gate through tropical montane forest to Laban Rata rest house, then a pre-dawn summit push on the granite plateau. Fixed ropes assist on the exposed upper granite slabs. A mandatory guide is required.",
+        "distance": 17.0,
+        "elevationGain": 2229,
+        "estimatedTime": 600,
+        "season": "spring",
+        "hazards": "[\"Exposed granite slabs\",\"Altitude sickness\",\"Cold summit temperatures\",\"Rain and cloud\"]",
+        "summary": "A two-day guided trek up Southeast Asia's highest peak in Borneo, ascending through tropical montane forest to Laban Rata rest house before a pre-dawn summit push across the spectacular granite plateau to Low's Peak.",
+        "imageUrl": null,
+        "technicalGrade": "Class 2 / Fixed-rope assisted granite slabs",
+        "commitment": "I",
+        "approachTime": 0.5,
+        "descentTime": 5,
+        "basecamp": "Timpohon Gate (1,866m) via Laban Rata Rest House (3,273m)",
+        "permitRequired": true,
+        "permitInfo": "Kinabalu Park climbing permit required; approximately 200 MYR (~$43 USD) for international climbers including park entry fee, climbing permit, and insurance; guide fee approximately 230 MYR (~$50 USD) per group; Laban Rata accommodation must be booked in advance and is limited; total package typically $150-250 USD through Sutera Sanctuary Lodges",
+        "closestAirport": "Kota Kinabalu International Airport (BKI)",
+        "safetyNotes": "A licensed guide is mandatory and the number of climbers per day is strictly limited; book well in advance, especially during peak season. The upper granite slabs are slippery when wet and the fixed ropes are essential for safety; wear gloves for grip. Altitude sickness can affect some climbers at 4,095m, particularly those arriving from sea level. The summit push starts at 2am in cold and dark conditions; bring adequate warm layers and a reliable headlamp.",
+        "tips": [
+          {"content": "A licensed guide is mandatory for all Mount Kinabalu climbers", "category": "logistics"},
+          {"content": "Book the Laban Rata rest house well in advance as permits are limited", "category": "logistics"},
+          {"content": "The summit push starts at 2am for sunrise on the granite plateau", "category": "timing"},
+          {"content": "March to May offers the driest conditions on the mountain", "category": "timing"}
+        ],
+        "gear": [
+          {
+            "itemName": "Headlamp",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "For the 2am summit start in darkness",
+            "weight": "80g",
+            "priceRange": "$30-$80",
+            "specificProduct": "Petzl Actik Core Headlamp",
+            "links": [
+              {"retailer": "REI", "productName": "Petzl Actik Core Headlamp", "url": "https://www.rei.com/product/151398/petzl-actik-core-headlamp", "price": 70},
+              {"retailer": "Backcountry", "productName": "Petzl Actik Core Headlamp", "url": "https://www.backcountry.com/petzl-actik-core-headlamp", "price": 70},
+              {"retailer": "Amazon", "productName": "Petzl Actik Core Headlamp", "url": "https://www.amazon.com/dp/B09KGX7MN2", "price": 65}
+            ]
+          },
+          {
+            "itemName": "Rain jacket",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Borneo rainforest climate means rain is always possible",
+            "weight": "300g",
+            "priceRange": "$80-$250",
+            "specificProduct": "Outdoor Research Helium Rain Jacket",
+            "links": [
+              {"retailer": "REI", "productName": "Outdoor Research Helium Rain Jacket", "url": "https://www.rei.com/product/196451/outdoor-research-helium-rain-jacket-mens", "price": 165},
+              {"retailer": "Backcountry", "productName": "Outdoor Research Helium Rain Jacket", "url": "https://www.backcountry.com/outdoor-research-helium-rain-jacket-mens", "price": 165},
+              {"retailer": "Amazon", "productName": "Outdoor Research Helium Rain Jacket", "url": "https://www.amazon.com/dp/B09WQ7KL3N", "price": 155}
+            ]
+          },
+          {
+            "itemName": "Gloves",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "For the cold granite and fixed ropes on the summit push",
+            "weight": "80g",
+            "priceRange": "$20-$50",
+            "specificProduct": "Black Diamond Lightweight Fleece Gloves",
+            "links": [
+              {"retailer": "REI", "productName": "Black Diamond Lightweight Fleece Gloves", "url": "https://www.rei.com/product/187655/black-diamond-lightweight-fleece-gloves", "price": 28},
+              {"retailer": "Backcountry", "productName": "Black Diamond Lightweight Fleece Gloves", "url": "https://www.backcountry.com/black-diamond-lightweight-fleece-glove", "price": 28},
+              {"retailer": "Amazon", "productName": "Black Diamond Lightweight Fleece Gloves", "url": "https://www.amazon.com/dp/B09KLWP5GQ", "price": 25}
+            ]
+          }
+        ],
+        "reviews": [
+          {"rating": 5, "title": "Borneo's spectacular granite giant", "body": "Mount Kinabalu is an unforgettable experience. The trek through the cloud forest is magical with incredible biodiversity. The pre-dawn summit push on the granite plateau by headlamp is surreal. Sunrise from Low's Peak with views across Borneo is one of the great mountain sunrises. Highly recommended.", "conditions": "Clear summit morning, tropical rain on day one, cold at the top"}
+        ]
+      }
+    ]
+  }
+]

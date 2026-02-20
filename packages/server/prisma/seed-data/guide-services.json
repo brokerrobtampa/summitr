@@ -1,0 +1,533 @@
+[
+  {
+    "peakName": "Mount Everest",
+    "guides": [
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Founded by Guy Cotter, Adventure Consultants is a world-renowned expedition company with decades of experience on Everest and other 8000m peaks. They emphasize safety, acclimatization, and summit success through meticulous planning.",
+        "priceRange": "$45,000 - $65,000",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Everest", "8000m peaks", "guided expeditions", "high-altitude mountaineering"]
+      },
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Based in Seattle, Alpine Ascents has guided climbers on Everest since the 1990s. Known for their experienced Western guides and strong Sherpa teams, they offer comprehensive expedition support.",
+        "priceRange": "$47,000 - $65,000",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Everest", "8000m peaks", "expedition mountaineering", "high-altitude training"]
+      },
+      {
+        "name": "International Mountain Guides",
+        "website": "https://www.mountainguides.com",
+        "description": "IMG is one of the most experienced Everest outfitters in the world, having led expeditions to the peak since 1991. They are known for their robust logistics and experienced leadership team.",
+        "priceRange": "$46,000 - $62,000",
+        "contactEmail": "info@mountainguides.com",
+        "location": "Ashford, Washington, USA",
+        "specialties": ["Everest", "guided expeditions", "8000m peaks", "expedition logistics"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Led by Adrian Ballinger, Alpenglow Expeditions is known for their rapid ascent protocol and innovative approach to high-altitude climbing. They focus on smaller team sizes and personalized guiding.",
+        "priceRange": "$50,000 - $70,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Everest", "rapid ascent", "8000m peaks", "single-carry style"]
+      }
+    ]
+  },
+  {
+    "peakName": "K2",
+    "guides": [
+      {
+        "name": "Madison Mountaineering",
+        "website": "https://www.madisonmountaineering.com",
+        "description": "Founded by Garrett Madison, this company specializes in the world's most challenging peaks. They have a strong track record on K2 with experienced high-altitude guides and comprehensive expedition support.",
+        "priceRange": "$55,000 - $75,000",
+        "contactEmail": "info@madisonmountaineering.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["K2", "8000m peaks", "technical mountaineering", "expedition leadership"]
+      },
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents brings their decades of high-altitude experience to K2 expeditions. Their teams are supported by seasoned Western guides and strong high-altitude porter teams.",
+        "priceRange": "$52,000 - $70,000",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["K2", "8000m peaks", "expedition mountaineering", "Pakistan expeditions"]
+      },
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants offers guided K2 expeditions with their hallmark emphasis on safety and thorough acclimatization. Their experienced leadership has guided clients on the world's most demanding mountains.",
+        "priceRange": "$50,000 - $72,000",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["K2", "8000m peaks", "guided expeditions", "Karakoram"]
+      }
+    ]
+  },
+  {
+    "peakName": "Denali",
+    "guides": [
+      {
+        "name": "Alaska Mountaineering School",
+        "website": "https://www.climbalaska.org",
+        "description": "Based in Talkeetna, Alaska Mountaineering School has been guiding on Denali for decades. They are deeply rooted in the local climbing community and provide expert instruction alongside guiding services.",
+        "priceRange": "$8,000 - $10,500",
+        "contactEmail": "info@climbalaska.org",
+        "location": "Talkeetna, Alaska, USA",
+        "specialties": ["Denali", "Alaska Range", "mountaineering instruction", "glacier travel"]
+      },
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents offers well-organized Denali expeditions with experienced guides and a strong emphasis on client preparedness and acclimatization on North America's highest peak.",
+        "priceRange": "$8,500 - $10,000",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Denali", "expedition mountaineering", "Alaska Range", "high-altitude training"]
+      },
+      {
+        "name": "Mountain Trip",
+        "website": "https://www.mountaintrip.com",
+        "description": "Mountain Trip has been guiding Denali expeditions since 1973, making them one of the longest-operating guide services on the peak. They are known for their low guide-to-client ratios and thorough expedition planning.",
+        "priceRange": "$8,200 - $9,800",
+        "contactEmail": "info@mountaintrip.com",
+        "location": "Ophir, Colorado, USA",
+        "specialties": ["Denali", "expedition mountaineering", "Alaska Range", "guided expeditions"]
+      },
+      {
+        "name": "NOLS",
+        "website": "https://www.nols.edu",
+        "description": "NOLS offers Denali mountaineering courses that combine expedition climbing with wilderness education. Their programs focus on building leadership, teamwork, and technical mountaineering skills.",
+        "priceRange": "$8,500 - $11,000",
+        "contactEmail": "admissions@nols.edu",
+        "location": "Lander, Wyoming, USA",
+        "specialties": ["Denali", "wilderness education", "leadership training", "expedition skills"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Rainier",
+    "guides": [
+      {
+        "name": "Rainier Mountaineering Inc",
+        "website": "https://www.rmiguides.com",
+        "description": "RMI is the oldest and most well-known guide service on Mount Rainier, operating since 1969. They offer a range of programs from introductory mountaineering seminars to summit climbs on multiple routes.",
+        "priceRange": "$1,200 - $2,500",
+        "contactEmail": "info@rmiguides.com",
+        "location": "Ashford, Washington, USA",
+        "specialties": ["Mount Rainier", "mountaineering courses", "summit climbs", "crevasse rescue"]
+      },
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents offers Mount Rainier climbs that serve as both standalone adventures and training for higher peaks. Their programs include comprehensive glacier travel and crevasse rescue instruction.",
+        "priceRange": "$1,300 - $2,400",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Mount Rainier", "glacier mountaineering", "summit climbs", "mountaineering training"]
+      },
+      {
+        "name": "International Mountain Guides",
+        "website": "https://www.mountainguides.com",
+        "description": "IMG has been guiding on Mount Rainier for decades, offering programs on various routes including the Disappointment Cleaver, Emmons Glacier, and Kautz Glacier. They are highly regarded for their guide training program.",
+        "priceRange": "$1,200 - $2,300",
+        "contactEmail": "info@mountainguides.com",
+        "location": "Ashford, Washington, USA",
+        "specialties": ["Mount Rainier", "multi-route programs", "mountaineering instruction", "guide training"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mont Blanc",
+    "guides": [
+      {
+        "name": "Compagnie des Guides de Chamonix",
+        "website": "https://www.chamonix-guides.com",
+        "description": "Founded in 1821, the Compagnie des Guides de Chamonix is the oldest guide company in the world. Their certified mountain guides offer unparalleled expertise on Mont Blanc and the surrounding Alps.",
+        "priceRange": "$1,500 - $3,000",
+        "contactEmail": "info@chamonix-guides.com",
+        "location": "Chamonix, France",
+        "specialties": ["Mont Blanc", "Alpine mountaineering", "ski touring", "rock climbing"]
+      },
+      {
+        "name": "Mountain Tracks",
+        "website": "https://www.mountaintracks.co.uk",
+        "description": "Mountain Tracks specializes in guided Alpine climbing and offers well-structured Mont Blanc ascent programs. They provide thorough preparation climbs and acclimatization schedules for summit success.",
+        "priceRange": "$2,000 - $3,500",
+        "contactEmail": "info@mountaintracks.co.uk",
+        "location": "London, United Kingdom",
+        "specialties": ["Mont Blanc", "Alpine peaks", "guided mountaineering", "acclimatization programs"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow offers Mont Blanc expeditions with their signature emphasis on personalized guiding and small group sizes. Their programs include preparatory climbs in the Chamonix valley.",
+        "priceRange": "$3,500 - $5,500",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Mont Blanc", "Alpine climbing", "European peaks", "small group expeditions"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kilimanjaro",
+    "guides": [
+      {
+        "name": "Ultimate Kilimanjaro",
+        "website": "https://www.ultimatekilimanjaro.com",
+        "description": "Ultimate Kilimanjaro is a leading operator focused exclusively on Kilimanjaro climbs. They offer all major routes and maintain high summit success rates through careful acclimatization protocols.",
+        "priceRange": "$2,000 - $4,500",
+        "contactEmail": "info@ultimatekilimanjaro.com",
+        "location": "Moshi, Tanzania",
+        "specialties": ["Kilimanjaro", "trekking", "all routes", "altitude acclimatization"]
+      },
+      {
+        "name": "Thomson Safaris",
+        "website": "https://www.thomsonsafaris.com",
+        "description": "Thomson Safaris combines Kilimanjaro climbs with East African safari experiences. Their Kilimanjaro programs emphasize responsible tourism and strong support teams for climbers.",
+        "priceRange": "$3,500 - $6,000",
+        "contactEmail": "info@thomsonsafaris.com",
+        "location": "Watertown, Massachusetts, USA",
+        "specialties": ["Kilimanjaro", "safari experiences", "responsible tourism", "trekking"]
+      },
+      {
+        "name": "Climbing Kilimanjaro",
+        "website": "https://www.climbingkilimanjaro.com",
+        "description": "Climbing Kilimanjaro is a dedicated operator offering guided treks on all major Kilimanjaro routes. They provide experienced local guides and comprehensive logistical support for climbers of all experience levels.",
+        "priceRange": "$1,800 - $4,000",
+        "contactEmail": "info@climbingkilimanjaro.com",
+        "location": "Moshi, Tanzania",
+        "specialties": ["Kilimanjaro", "trekking", "multiple routes", "group expeditions"]
+      }
+    ]
+  },
+  {
+    "peakName": "Aconcagua",
+    "guides": [
+      {
+        "name": "Inka Expediciones",
+        "website": "https://www.inkaexpediciones.com",
+        "description": "Inka Expediciones is a top Argentine outfitter specializing in Aconcagua expeditions. Based in Mendoza, they offer deep local expertise and strong logistical support on both the Normal Route and Polish Glacier.",
+        "priceRange": "$4,500 - $7,000",
+        "contactEmail": "info@inkaexpediciones.com",
+        "location": "Mendoza, Argentina",
+        "specialties": ["Aconcagua", "Andes expeditions", "high-altitude trekking", "Argentine mountains"]
+      },
+      {
+        "name": "Acomara",
+        "website": "https://www.acomara.com",
+        "description": "Acomara is a Mendoza-based operator with extensive experience guiding Aconcagua expeditions. They offer programs on multiple routes with strong local guide teams and well-provisioned camps.",
+        "priceRange": "$4,000 - $6,500",
+        "contactEmail": "info@acomara.com",
+        "location": "Mendoza, Argentina",
+        "specialties": ["Aconcagua", "Andes mountaineering", "guided expeditions", "altitude training"]
+      },
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents brings their international expedition expertise to Aconcagua, offering well-structured programs with thorough acclimatization schedules and experienced Western guide teams.",
+        "priceRange": "$5,500 - $7,500",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Aconcagua", "high-altitude mountaineering", "expedition planning", "Seven Summits"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Elbrus",
+    "guides": [
+      {
+        "name": "Elbrus Guides",
+        "website": "https://www.elbrusguides.com",
+        "description": "Elbrus Guides specializes exclusively in Mount Elbrus expeditions, offering both the south and north routes. Their local team provides deep knowledge of weather patterns and route conditions on Europe's highest peak.",
+        "priceRange": "$1,500 - $3,000",
+        "contactEmail": "info@elbrusguides.com",
+        "location": "Terskol, Russia",
+        "specialties": ["Elbrus", "Caucasus mountains", "south and north routes", "acclimatization programs"]
+      },
+      {
+        "name": "Mountain Tracks",
+        "website": "https://www.mountaintracks.co.uk",
+        "description": "Mountain Tracks offers guided Elbrus expeditions with comprehensive acclimatization programs in the Caucasus. Their itineraries include preparatory hikes and well-organized summit attempts.",
+        "priceRange": "$2,500 - $4,000",
+        "contactEmail": "info@mountaintracks.co.uk",
+        "location": "London, United Kingdom",
+        "specialties": ["Elbrus", "European peaks", "guided mountaineering", "Caucasus expeditions"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow offers Elbrus climbs as part of their global expedition portfolio. Their programs feature small groups, experienced guides, and a focus on acclimatization and summit success.",
+        "priceRange": "$3,000 - $5,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Elbrus", "Seven Summits", "guided expeditions", "small group climbing"]
+      }
+    ]
+  },
+  {
+    "peakName": "Matterhorn",
+    "guides": [
+      {
+        "name": "Zermatters",
+        "website": "https://www.zermatters.ch",
+        "description": "Zermatters is Zermatt's premier mountaineering company, offering guided Matterhorn ascents via the Hornli Ridge and other routes. Their certified Swiss mountain guides bring unrivaled local expertise.",
+        "priceRange": "$1,500 - $3,500",
+        "contactEmail": "info@zermatters.ch",
+        "location": "Zermatt, Switzerland",
+        "specialties": ["Matterhorn", "Swiss Alps", "technical alpine climbing", "guided ascents"]
+      },
+      {
+        "name": "Compagnie des Guides de Chamonix",
+        "website": "https://www.chamonix-guides.com",
+        "description": "The Compagnie des Guides de Chamonix offers Matterhorn ascents via the Italian Ridge from Cervinia. Their UIAGM-certified guides bring centuries of collective Alpine experience.",
+        "priceRange": "$1,800 - $3,500",
+        "contactEmail": "info@chamonix-guides.com",
+        "location": "Chamonix, France",
+        "specialties": ["Matterhorn", "Alpine mountaineering", "Italian Ridge", "technical climbing"]
+      }
+    ]
+  },
+  {
+    "peakName": "Cho Oyu",
+    "guides": [
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents guides Cho Oyu expeditions with experienced high-altitude leaders. Cho Oyu is often recommended as an ideal first 8000m peak, and their program emphasizes thorough acclimatization.",
+        "priceRange": "$28,000 - $40,000",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Cho Oyu", "8000m peaks", "first 8000m expeditions", "high-altitude mountaineering"]
+      },
+      {
+        "name": "Madison Mountaineering",
+        "website": "https://www.madisonmountaineering.com",
+        "description": "Madison Mountaineering offers Cho Oyu expeditions led by experienced high-altitude guides. Their programs provide a solid stepping stone for climbers aspiring to Everest or other 8000m peaks.",
+        "priceRange": "$30,000 - $42,000",
+        "contactEmail": "info@madisonmountaineering.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Cho Oyu", "8000m peaks", "expedition mountaineering", "Himalayan climbing"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow brings their rapid ascent approach to Cho Oyu, offering a streamlined expedition with smaller teams. Their innovative protocol reduces time at altitude while maintaining safety.",
+        "priceRange": "$32,000 - $45,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Cho Oyu", "rapid ascent", "8000m peaks", "innovative climbing protocols"]
+      }
+    ]
+  },
+  {
+    "peakName": "Manaslu",
+    "guides": [
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow has established Manaslu as a key expedition in their 8000m portfolio. Their rapid ascent protocol and small team approach have achieved strong results on this increasingly popular peak.",
+        "priceRange": "$30,000 - $42,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Manaslu", "8000m peaks", "rapid ascent", "Himalayan expeditions"]
+      },
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants offers guided Manaslu expeditions with their hallmark focus on safety and client support. Their experienced team manages the technical challenges of the peak's varied terrain.",
+        "priceRange": "$28,000 - $40,000",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Manaslu", "8000m peaks", "guided expeditions", "Himalayan climbing"]
+      },
+      {
+        "name": "Furtenbach Adventures",
+        "website": "https://www.furtenbachadventures.com",
+        "description": "Furtenbach Adventures is an Austrian operator known for premium high-altitude expeditions. Their Manaslu program features supplemental oxygen, strong Sherpa support, and meticulous safety protocols.",
+        "priceRange": "$32,000 - $48,000",
+        "contactEmail": "info@furtenbachadventures.com",
+        "location": "Innsbruck, Austria",
+        "specialties": ["Manaslu", "8000m peaks", "premium expeditions", "safety-focused climbing"]
+      }
+    ]
+  },
+  {
+    "peakName": "Ama Dablam",
+    "guides": [
+      {
+        "name": "Alpine Ascents International",
+        "website": "https://www.alpineascents.com",
+        "description": "Alpine Ascents offers guided Ama Dablam expeditions, one of the most visually stunning climbs in the Himalaya. Their program includes acclimatization trekking and expert technical guidance on the Southwest Ridge.",
+        "priceRange": "$12,000 - $18,000",
+        "contactEmail": "info@alpineascents.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Ama Dablam", "technical Himalayan climbing", "expedition mountaineering", "Nepal peaks"]
+      },
+      {
+        "name": "International Mountain Guides",
+        "website": "https://www.mountainguides.com",
+        "description": "IMG guides Ama Dablam with their deep experience in the Khumbu region. Their expeditions are well-supported with fixed ropes, established camps, and experienced Sherpa teams.",
+        "priceRange": "$11,000 - $17,000",
+        "contactEmail": "info@mountainguides.com",
+        "location": "Ashford, Washington, USA",
+        "specialties": ["Ama Dablam", "technical climbing", "Khumbu region", "Himalayan expeditions"]
+      },
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants runs Ama Dablam expeditions with a strong focus on the technical aspects of the climb. Their program is popular with climbers looking to develop high-altitude technical skills.",
+        "priceRange": "$12,000 - $16,500",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Ama Dablam", "technical mountaineering", "Nepal expeditions", "guided climbing"]
+      }
+    ]
+  },
+  {
+    "peakName": "Island Peak",
+    "guides": [
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants offers Island Peak as an accessible Himalayan climbing experience, often combined with Everest Base Camp trekking. The program provides excellent preparation for higher Himalayan objectives.",
+        "priceRange": "$5,000 - $7,500",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Island Peak", "Nepal trekking peaks", "Himalayan introduction", "Everest Base Camp"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow offers Island Peak expeditions as an ideal introduction to Himalayan mountaineering. Their programs feature experienced guides and well-planned acclimatization through the Khumbu valley.",
+        "priceRange": "$5,500 - $8,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Island Peak", "trekking peaks", "introductory Himalayan climbing", "Khumbu region"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Vinson",
+    "guides": [
+      {
+        "name": "Antarctic Logistics & Expeditions",
+        "website": "https://www.ale.com.ar",
+        "description": "ALE is the primary logistics provider for climbing expeditions in Antarctica, including Mount Vinson. They operate the only private air link to the Antarctic interior and provide full expedition support.",
+        "priceRange": "$40,000 - $55,000",
+        "contactEmail": "info@ale.com.ar",
+        "location": "Punta Arenas, Chile",
+        "specialties": ["Mount Vinson", "Antarctic expeditions", "South Pole", "Antarctic logistics"]
+      },
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants offers guided Mount Vinson expeditions in partnership with Antarctic logistics providers. Their program includes experienced polar guides and comprehensive cold-weather expedition support.",
+        "priceRange": "$42,000 - $58,000",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Mount Vinson", "Seven Summits", "Antarctic climbing", "polar expeditions"]
+      }
+    ]
+  },
+  {
+    "peakName": "Cotopaxi",
+    "guides": [
+      {
+        "name": "Sierra Nevada Expeditions",
+        "website": "https://www.sierranevadaexpeditions.com",
+        "description": "Sierra Nevada Expeditions is an Ecuadorian operator specializing in guided climbs of Cotopaxi and other Ecuadorian volcanoes. They offer personalized programs with certified local guides who know the mountain intimately.",
+        "priceRange": "$400 - $1,200",
+        "contactEmail": "info@sierranevadaexpeditions.com",
+        "location": "Quito, Ecuador",
+        "specialties": ["Cotopaxi", "Ecuadorian volcanoes", "altitude acclimatization", "guided climbs"]
+      },
+      {
+        "name": "Andean Face",
+        "website": "https://www.andeanface.com",
+        "description": "Andean Face is a Quito-based adventure company offering Cotopaxi climbs and multi-volcano programs in Ecuador. They provide acclimatization hikes and glacier climbing instruction as part of their packages.",
+        "priceRange": "$500 - $1,500",
+        "contactEmail": "info@andeanface.com",
+        "location": "Quito, Ecuador",
+        "specialties": ["Cotopaxi", "Ecuadorian Andes", "volcano climbing", "adventure travel"]
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kenya",
+    "guides": [
+      {
+        "name": "Mountain Rock Kenya",
+        "website": "https://www.mountainrockkenya.com",
+        "description": "Mountain Rock Kenya is one of the most experienced operators on Mount Kenya, offering treks and technical climbs on all major routes. They are a locally owned company with certified Kenyan guides.",
+        "priceRange": "$800 - $2,000",
+        "contactEmail": "info@mountainrockkenya.com",
+        "location": "Naro Moru, Kenya",
+        "specialties": ["Mount Kenya", "trekking", "technical routes", "East African mountains"]
+      },
+      {
+        "name": "Savage Wilderness",
+        "website": "https://www.savagewilderness.org",
+        "description": "Savage Wilderness is a Kenyan adventure company offering guided Mount Kenya climbs along with other outdoor activities. They are known for their community involvement and experienced local guides.",
+        "priceRange": "$700 - $1,800",
+        "contactEmail": "info@savagewilderness.org",
+        "location": "Naro Moru, Kenya",
+        "specialties": ["Mount Kenya", "adventure trekking", "rock climbing", "community tourism"]
+      }
+    ]
+  },
+  {
+    "peakName": "Lhotse",
+    "guides": [
+      {
+        "name": "Madison Mountaineering",
+        "website": "https://www.madisonmountaineering.com",
+        "description": "Madison Mountaineering offers Lhotse expeditions often combined with Everest logistics, as the two peaks share a base camp and much of the route. Their experienced guides manage the technical Lhotse Face and summit push.",
+        "priceRange": "$45,000 - $65,000",
+        "contactEmail": "info@madisonmountaineering.com",
+        "location": "Seattle, Washington, USA",
+        "specialties": ["Lhotse", "8000m peaks", "Everest-Lhotse combinations", "technical high-altitude climbing"]
+      },
+      {
+        "name": "Furtenbach Adventures",
+        "website": "https://www.furtenbachadventures.com",
+        "description": "Furtenbach Adventures offers premium Lhotse expeditions with comprehensive oxygen systems and strong Sherpa support. Their safety-first approach has made them a leader in guided 8000m climbing.",
+        "priceRange": "$48,000 - $68,000",
+        "contactEmail": "info@furtenbachadventures.com",
+        "location": "Innsbruck, Austria",
+        "specialties": ["Lhotse", "8000m peaks", "premium expeditions", "high-altitude safety"]
+      }
+    ]
+  },
+  {
+    "peakName": "Makalu",
+    "guides": [
+      {
+        "name": "Adventure Consultants",
+        "website": "https://www.adventureconsultants.com",
+        "description": "Adventure Consultants guides Makalu expeditions for experienced mountaineers seeking one of the most challenging 8000m peaks. Their program features thorough acclimatization and expert route management.",
+        "priceRange": "$38,000 - $55,000",
+        "contactEmail": "info@adventureconsultants.com",
+        "location": "Wanaka, New Zealand",
+        "specialties": ["Makalu", "8000m peaks", "technical expedition climbing", "Himalayan mountaineering"]
+      },
+      {
+        "name": "Alpenglow Expeditions",
+        "website": "https://www.alpenglowexpeditions.com",
+        "description": "Alpenglow offers Makalu as part of their portfolio of 8000m expeditions. Their small team approach and experienced leadership provide strong support on this remote and demanding peak.",
+        "priceRange": "$40,000 - $58,000",
+        "contactEmail": "info@alpenglowexpeditions.com",
+        "location": "Squaw Valley, California, USA",
+        "specialties": ["Makalu", "8000m peaks", "remote expeditions", "small group climbing"]
+      }
+    ]
+  }
+]

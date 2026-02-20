@@ -1,0 +1,2965 @@
+[
+  {
+    "peakName": "Mount Everest",
+    "routes": [
+      {
+        "name": "South Col Route (Normal Route)",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route from Nepal via the Khumbu Icefall, Western Cwm, and South Col. Pioneered by Hillary and Tenzing in 1953. Requires establishing multiple high camps and navigating the notorious Hillary Step. Most commercially guided route on the mountain.",
+        "distance": 63,
+        "elevationGain": 3848,
+        "estimatedTime": 1440,
+        "season": "spring",
+        "hazards": "[\"Khumbu Icefall seracs\",\"Altitude sickness\",\"Extreme cold\",\"High winds at South Col\",\"Crowding on summit day\",\"Avalanche risk in Western Cwm\"]",
+        "tips": [
+          {
+            "content": "Acclimatize thoroughly at Namche Bazaar and Gorak Shep before attempting higher camps",
+            "category": "safety"
+          },
+          {
+            "content": "Use supplemental oxygen above Camp 3 at 7300m",
+            "category": "general"
+          },
+          {
+            "content": "Summit window is typically mid to late May when the jet stream lifts",
+            "category": "timing"
+          },
+          {
+            "content": "Start summit bid from Camp 4 at South Col around 9-10pm for sunrise summit",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Down suit rated to -40C",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "One-piece expedition suit essential above Camp 3",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Supplemental oxygen system",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "4L bottles with mask and regulator, minimum 5 bottles for summit bid",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Double insulated mountaineering boots",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "8000m rated boots like La Sportiva Olympus Mons or Scarpa Phantom 8000",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Jumar ascender",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For fixed rope sections throughout the route",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Life-changing expedition",
+            "body": "Summited on May 22nd after 52 days on the mountain. The South Col route is well-established but never easy. The Khumbu Icefall crossing at 2am under headlamp was the most terrifying part. Standing on the summit at sunrise made every hardship worth it.",
+            "conditions": "Clear skies on summit day, light winds at 15mph"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD+ route on Mount Everest.",
+        "technicalGrade": "AD+",
+        "commitment": "II",
+        "approachTime": 12,
+        "descentTime": 8,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "North Ridge Route",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The route from Tibet via the Rongbuk Glacier and North Col. First attempted by British expeditions in the 1920s. Less technical than the South Col but exposed to severe wind and extreme cold on the upper ridge. The Second and Third Steps are the crux sections above 8500m.",
+        "distance": 56,
+        "elevationGain": 3648,
+        "estimatedTime": 1320,
+        "season": "spring",
+        "hazards": "[\"Extreme wind exposure on north ridge\",\"The Second Step at 8610m\",\"Frostbite risk\",\"Altitude sickness\",\"Rockfall above North Col\"]",
+        "tips": [
+          {
+            "content": "The Chinese ladder on the Second Step makes the crux manageable but expect a queue",
+            "category": "general"
+          },
+          {
+            "content": "North side is generally colder and windier than the south, plan accordingly",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Windproof shell layer",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "The north ridge funnels extreme winds, a bomber shell is critical",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Full face balaclava",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Frostbite protection for the exposed ridge",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Quieter than the south side",
+            "body": "Chose the north route to avoid Khumbu Icefall. The ridge is long and exposed but the route felt more remote and authentic. The Second Step with the ladder is still committing at that altitude.",
+            "conditions": "Strong winds above 8000m, clear visibility"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD route on Mount Everest.",
+        "technicalGrade": "AD",
+        "commitment": "II",
+        "approachTime": 11,
+        "descentTime": 8,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "K2",
+    "routes": [
+      {
+        "name": "Abruzzi Spur",
+        "difficulty": "D+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on K2 via the southeast ridge. Named after the Duke of Abruzzi who attempted it in 1909. Features House's Chimney, the Black Pyramid, and the Bottleneck couloir beneath the massive serac barrier. One of the most dangerous routes on any 8000m peak.",
+        "distance": 42,
+        "elevationGain": 3611,
+        "estimatedTime": 1200,
+        "season": "summer",
+        "hazards": "[\"Bottleneck serac collapse\",\"Rockfall in Black Pyramid\",\"Extreme altitude\",\"Unpredictable weather windows\",\"Technical mixed climbing at extreme altitude\"]",
+        "tips": [
+          {
+            "content": "The Bottleneck traverse should be done as quickly as possible due to hanging serac threat",
+            "category": "safety"
+          },
+          {
+            "content": "Weather windows on K2 are rare and short, be ready to move fast when they appear",
+            "category": "timing"
+          },
+          {
+            "content": "Expect UIAA III-IV rock climbing through the Black Pyramid at 7000-7300m",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice screws (minimum 6)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the Bottleneck couloir and mixed sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep ice in the Bottleneck requires aggressive picks",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          },
+          {
+            "itemName": "Rock protection rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Cams and nuts for the Black Pyramid",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The ultimate mountaineering challenge",
+            "body": "Spent 65 days on K2 before a summit window opened. The Abruzzi Spur demands everything - technical rock, steep ice, extreme altitude. The Bottleneck crossing under the serac was the most exposed I have ever felt. The Savage Mountain earns its name.",
+            "conditions": "Brief clear window, deep snow on upper mountain"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The classic route on K2 following the southeast ridge—technically demanding at extreme altitude.",
+        "technicalGrade": "AI3, 5.8, M4",
+        "commitment": "VI",
+        "approachTime": 168,
+        "descentTime": 72,
+        "basecamp": "K2 Base Camp (5,135m)",
+        "permitRequired": true,
+        "permitInfo": "Pakistan government climbing permit required (~$7,200 per person). Must arrange through licensed operator. Minimum 2-3 month lead time.",
+        "closestAirport": "Islamabad International Airport (ISB)",
+        "safetyNotes": "K2 is the most dangerous 8,000m peak with a historically high fatality rate. The Bottleneck and traverse below the seracs is the crux danger zone. Rockfall on House's Chimney is frequent. Weather windows are extremely narrow."
+      }
+    ]
+  },
+  {
+    "peakName": "Mont Blanc",
+    "routes": [
+      {
+        "name": "Gouter Route (Normal Route)",
+        "difficulty": "PD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The most popular route up Mont Blanc starting from Saint-Gervais. Ascends via the Gouter Hut at 3817m and the Dome du Gouter before reaching the summit ridge. The Grand Couloir crossing below the Gouter Hut is notoriously dangerous due to constant rockfall.",
+        "distance": 22,
+        "elevationGain": 2808,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Grand Couloir rockfall\",\"Altitude sickness\",\"Crevasses on Dome du Gouter\",\"Sudden weather changes\",\"Crowding on summit day\"]",
+        "tips": [
+          {
+            "content": "Cross the Grand Couloir as early as possible, before sunrise when rockfall increases with warming",
+            "category": "safety"
+          },
+          {
+            "content": "Book the Gouter Hut well in advance, it fills up months ahead for July and August",
+            "category": "logistics"
+          },
+          {
+            "content": "An acclimatization night at Tete Rousse hut before the Gouter Hut greatly increases success rate",
+            "category": "general"
+          },
+          {
+            "content": "Start the summit bid from Gouter Hut around 2-3am to summit by mid-morning",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steel crampons for glacier travel and icy sections",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard length walking axe sufficient",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Absolutely critical for Grand Couloir crossing",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          },
+          {
+            "itemName": "Rope (30m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier travel roped up above the Gouter Hut",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Classic alpine objective",
+            "body": "Did the Gouter route in mid-July. The Grand Couloir was nerve-wracking with rocks whistling past. Once above the Gouter Hut the glacier travel is straightforward but long. Summit views across the Alps were spectacular.",
+            "conditions": "Clear skies, some wind on the summit ridge, well-frozen snow"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD+ route on Mont Blanc.",
+        "technicalGrade": "PD+",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "Three Monts Route",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A more aesthetic and technical alternative starting from the Aiguille du Midi cable car. Traverses Mont Blanc du Tacul, Mont Maudit, and Mont Blanc. Involves steep snow and ice climbing on the north face of Mont Maudit. Considered a finer mountaineering experience than the Gouter route.",
+        "distance": 16,
+        "elevationGain": 1800,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Crevasse fields on Tacul\",\"Steep ice on Mont Maudit\",\"Serac danger\",\"Exposure on Maudit traverse\",\"Rapid weather changes\"]",
+        "tips": [
+          {
+            "content": "Take the first Aiguille du Midi lift at 6am or bivouac at the Cosmiques Hut the night before",
+            "category": "logistics"
+          },
+          {
+            "content": "The north face of Mont Maudit can reach 50 degrees, be comfortable on steep snow and ice",
+            "category": "general"
+          },
+          {
+            "content": "Conditions vary hugely by season - July often has best snow bridges over crevasses",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Second ice tool",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Useful for the steeper sections on Mont Maudit",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Snow pickets",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "For belay anchors on the steep snow faces",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest way up Mont Blanc",
+            "body": "Far superior to the crowded Gouter route. The traverse over three summits feels like a real alpine journey. The steep face of Mont Maudit is the crux and demands respect. Finished on the summit of Mont Blanc with a huge sense of accomplishment.",
+            "conditions": "Firm neve, clear skies, light wind"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "Classic traverse of Mont Blanc du Tacul, Mont Maudit, and Mont Blanc via the Cosmiques ridge.",
+        "technicalGrade": "AD (AI2)",
+        "commitment": "II",
+        "approachTime": 1,
+        "descentTime": 5,
+        "basecamp": "Cosmiques Hut (3,613m)",
+        "permitRequired": false,
+        "permitInfo": "Cosmiques Hut reservation required, book 2-3 months in advance via refuges.chamonix.com",
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Exposed ridge traverse with significant crevasse danger. The Mur de la Côte is steep and icy. Afternoon storms are common—start by 2am. The Tacul triangle can avalanche in warm conditions."
+      }
+    ]
+  },
+  {
+    "peakName": "Denali",
+    "routes": [
+      {
+        "name": "West Buttress",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on North America's highest peak. A long expedition-style climb requiring 17-21 days. Involves glacier travel, fixed lines on the headwall, and the exposed summit ridge. The 14,200ft camp is one of the most iconic high camps in mountaineering.",
+        "distance": 52,
+        "elevationGain": 4000,
+        "estimatedTime": 1680,
+        "season": "spring",
+        "hazards": "[\"Extreme cold (-40F possible)\",\"Crevasse fields on Kahiltna Glacier\",\"Whiteout conditions\",\"High altitude pulmonary edema\",\"Windy Pass exposure\"]",
+        "tips": [
+          {
+            "content": "Double carry loads between camps for better acclimatization - cache at the next camp, return to sleep low",
+            "category": "general"
+          },
+          {
+            "content": "The Autobahn traverse between 16200ft and 17200ft camp is exposed to avalanche danger, move quickly",
+            "category": "safety"
+          },
+          {
+            "content": "Register with the National Park Service at Talkeetna ranger station and pay the climbing fee",
+            "category": "logistics"
+          },
+          {
+            "content": "Mid-May to mid-June offers the best weather windows and longest daylight",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Expedition sled",
+            "category": "logistics",
+            "isEssential": true,
+            "notes": "Essential for hauling gear on the lower glacier",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Vapor barrier liners",
+            "category": "clothing",
+            "isEssential": false,
+            "notes": "Prevents moisture buildup in sleeping bag during the cold nights",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "-40F sleeping bag",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Temperatures at high camp regularly drop below -30F",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "White gas stove",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Canister stoves fail in extreme cold, use a liquid fuel stove",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The great Alaskan expedition",
+            "body": "18 days on the mountain with a summit on day 15. The glacier approach is stunning and the views from the 14200 camp are unreal. Summit day was brutal - 16 hours round trip from high camp in fierce cold. Denali demands expedition fitness and patience.",
+            "conditions": "Summit day was -25F with 20mph winds, mostly clear"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on North America's highest peak—a classic expedition requiring 2-3 weeks.",
+        "technicalGrade": "AI2, 5.4",
+        "commitment": "IV",
+        "approachTime": 48,
+        "descentTime": 24,
+        "basecamp": "14,200ft Camp (4,328m)",
+        "permitRequired": true,
+        "permitInfo": "NPS climbing permit required ($415 per person). Register 60+ days in advance via recreation.gov. Mandatory orientation at Talkeetna ranger station.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "Extreme cold and high winds are the primary hazards—temperatures can drop below -40°C. Altitude sickness is common due to the mountain's high latitude. Crevasse danger throughout. The Headwall above 14 camp is steep and exposed."
+      }
+    ]
+  },
+  {
+    "peakName": "Matterhorn",
+    "routes": [
+      {
+        "name": "Hornli Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The classic northeast ridge route first climbed by Edward Whymper in 1865. A long mixed climb on rock and snow following the iconic profile visible from Zermatt. Fixed ropes on the upper sections. The route is technically moderate but serious due to length, exposure, and rockfall.",
+        "distance": 7,
+        "elevationGain": 1220,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Rockfall from parties above\",\"Exposure on upper ridge\",\"Crowding and route-finding issues\",\"Sudden storms\",\"Fixed rope congestion\"]",
+        "tips": [
+          {
+            "content": "Stay at the Hornli Hut the night before and start at 4am to be ahead of crowds",
+            "category": "timing"
+          },
+          {
+            "content": "Hire a Zermatt guide if you lack alpine rock experience - the route is serious despite the moderate grade",
+            "category": "safety"
+          },
+          {
+            "content": "Move fast through the couloir section where rockfall from above is most dangerous",
+            "category": "safety"
+          },
+          {
+            "content": "Conditions are best from mid-July to mid-September when rock is driest",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Non-negotiable due to constant rockfall risk from other climbers",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          },
+          {
+            "itemName": "50m half rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For short-roping and occasional belayed pitches",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Light crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the snow and ice sections on the upper mountain",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Rock shoes approach hybrid",
+            "category": "footwear",
+            "isEssential": false,
+            "notes": "Some climbers use approach shoes for the lower rock sections for better grip",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most beautiful mountain in the Alps",
+            "body": "What a climb. The Hornli Ridge is long and committing with incredible exposure. The rock quality varies from excellent to loose rubble. Started at 4am and topped out at 10:30am. The descent takes nearly as long as the ascent. A mountain that demands respect.",
+            "conditions": "Dry rock, light wind, excellent visibility"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD route on Matterhorn.",
+        "technicalGrade": "AD",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Rainier",
+    "routes": [
+      {
+        "name": "Disappointment Cleaver",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The most popular route on Mount Rainier via Camp Muir and the Disappointment Cleaver rock rib. A straightforward glacier climb that serves as an excellent training ground for higher objectives. The route navigates between the Ingraham and Emmons Glaciers.",
+        "distance": 26,
+        "elevationGain": 2780,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Crevasse falls\",\"Icefall above Ingraham Flats\",\"Rockfall on Disappointment Cleaver\",\"Altitude sickness\",\"Whiteout conditions\"]",
+        "tips": [
+          {
+            "content": "Get a climbing permit from recreation.gov well in advance, they sell out fast",
+            "category": "logistics"
+          },
+          {
+            "content": "Do a conditioning hike to Camp Muir before your summit attempt to check fitness",
+            "category": "general"
+          },
+          {
+            "content": "Start from Camp Muir at midnight to cross the Ingraham Glacier while bridges are frozen",
+            "category": "timing"
+          },
+          {
+            "content": "June and July offer the most stable weather and best snow bridges",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steel crampons required for glacier travel",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For self-arrest practice and glacier travel",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Pulleys, prussiks, and anchors for glacier travel",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Gaiters",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Deep snow travel on the Muir Snowfield",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Perfect intro to mountaineering",
+            "body": "Did this as my first real glaciated peak. The climb from Camp Muir is straightforward but physically demanding. The Cleaver scramble at 2am by headlamp was exciting. Summited at sunrise with views of the entire Cascade Range. Great preparation for bigger objectives.",
+            "conditions": "Clear skies, firm snow, moderate wind on summit"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The most popular route on Mount Rainier via Camp Muir and the Disappointment Cleaver rock rib.",
+        "technicalGrade": "AI1, 5.3",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": "Camp Muir (3,072m)",
+        "permitRequired": true,
+        "permitInfo": "NPS climbing permit required ($52 per person). Register at recreation.gov. Solo climbing prohibited.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "Crevasse danger is significant on the Ingraham Glacier. Icefall from the Ingraham headwall threatens the route. Weather deteriorates rapidly. Altitude sickness affects many climbers above Camp Muir."
+      },
+      {
+        "name": "Emmons Glacier Route",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The second most popular route ascending the largest glacier in the contiguous US. Starts from the White River Campground via the Inter Glacier to Camp Schurman at Steamboat Prow. Less crowded than Disappointment Cleaver with a more remote feel.",
+        "distance": 28,
+        "elevationGain": 2900,
+        "estimatedTime": 660,
+        "season": "summer",
+        "hazards": "[\"Large crevasse fields\",\"Rockfall at Steamboat Prow\",\"Whiteout navigation\",\"Altitude sickness\"]",
+        "tips": [
+          {
+            "content": "The Emmons Glacier is massive and route-finding in whiteout is serious - carry GPS waypoints",
+            "category": "safety"
+          },
+          {
+            "content": "Camp Schurman has a ranger station and basic shelter, a great staging point",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "GPS device",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "The Emmons is vast and featureless in whiteout, GPS is critical for navigation",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "More adventurous alternative to DC",
+            "body": "Much quieter than Disappointment Cleaver. The Emmons Glacier is enormous and the crevasse navigation was engaging. Camp Schurman at Steamboat Prow is an incredible setting. Highly recommended for climbers wanting a wilder Rainier experience.",
+            "conditions": "Good visibility, some afternoon clouds, cold overnight"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD route on Mount Rainier.",
+        "technicalGrade": "PD",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Whitney",
+    "routes": [
+      {
+        "name": "Mount Whitney Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The standard trail to the highest peak in the contiguous United States. A well-maintained 22-mile round trip trail from Whitney Portal. Passes through alpine meadows, the famous 97 switchbacks, Trail Crest, and the exposed summit ridge.",
+        "distance": 35.4,
+        "elevationGain": 1890,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Lightning storms\",\"Exposure on summit ridge\",\"Snow on trail in early season\"]",
+        "tips": [
+          {
+            "content": "Start at 2-3am to summit before afternoon thunderstorms develop",
+            "category": "timing"
+          },
+          {
+            "content": "Day-use permits are required and distributed by lottery through recreation.gov",
+            "category": "logistics"
+          },
+          {
+            "content": "Acclimate by spending a night at Whitney Portal campground at 8300ft",
+            "category": "general"
+          },
+          {
+            "content": "Pack WAG bags for human waste as required on the trail",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Trekking poles",
+            "category": "hiking",
+            "isEssential": false,
+            "notes": "Extremely helpful on the 97 switchbacks and the long descent",
+            "weight": "500g",
+            "priceRange": "$80-$180",
+            "specificProduct": "Black Diamond Distance Carbon Z",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Distance Carbon Z Poles",
+                "url": "https://www.rei.com/product/141291/black-diamond-distance-carbon-z-poles",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "BD Distance Carbon Z Trekking Poles",
+                "url": "https://www.backcountry.com/black-diamond-distance-carbon-z-poles",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Headlamp",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Essential for the pre-dawn start",
+            "weight": "90g",
+            "priceRange": "$40-$100",
+            "specificProduct": "Petzl Actik Core",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Actik Core Headlamp",
+                "url": "https://www.rei.com/product/189893/petzl-actik-core-headlamp",
+                "price": 79.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Actik Core Headlamp",
+                "url": "https://www.backcountry.com/petzl-actik-core-headlamp",
+                "price": 79.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl ACTIK CORE Rechargeable Headlamp",
+                "url": "https://www.amazon.com/dp/B0B8B3GZ6Y",
+                "price": 74.95
+              }
+            ]
+          },
+          {
+            "itemName": "Microspikes",
+            "category": "hiking",
+            "isEssential": false,
+            "notes": "Useful in June and early July when snow lingers on the trail",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Highest point in the Lower 48",
+            "body": "Started at 2am and summited by 10am. The 97 switchbacks are a grind but the views from Trail Crest are stunning. The final ridge walk to the summit is exposed but incredible. Bring plenty of water and food for this long day.",
+            "conditions": "Clear and cool morning, clouds building by noon"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard hiking trail to the highest point in the contiguous United States.",
+        "technicalGrade": "Class 1 (hiking)",
+        "commitment": "I",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": "Whitney Portal (2,550m)",
+        "permitRequired": true,
+        "permitInfo": "Day-use permit required ($15) via recreation.gov lottery. Extremely competitive—apply in February for summer permits.",
+        "closestAirport": "Los Angeles International Airport (LAX)",
+        "safetyNotes": "Altitude sickness is the primary concern at 4,421m. Lightning strikes on the exposed summit plateau are a serious hazard. Start before dawn to avoid afternoon thunderstorms. The 99 switchbacks are exhausting but not technical."
+      },
+      {
+        "name": "Mountaineers Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A direct route up the east face via a prominent couloir. Much shorter but steeper than the trail. Involves Class 3 scrambling on loose rock and a steep snow couloir in spring conditions. A more adventurous alternative to the standard trail.",
+        "distance": 16,
+        "elevationGain": 1890,
+        "estimatedTime": 540,
+        "season": "spring",
+        "hazards": "[\"Rockfall in the couloir\",\"Steep snow\",\"Route-finding difficulties\",\"Altitude sickness\"]",
+        "tips": [
+          {
+            "content": "Best done in May-June when snow fills the couloir and covers loose rock",
+            "category": "timing"
+          },
+          {
+            "content": "An ice axe and crampons are essential when the couloir is snow-filled",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For self-arrest on the steep snow couloir",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The couloir can be hard ice in early morning",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall is a real danger in the couloir",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Much more engaging than the trail",
+            "body": "Did this in late May with perfect snow conditions. The couloir was steep but the snow was consolidated. The Class 3 scrambling above is exposed but fun. Skip this if you are not comfortable with steep snow travel.",
+            "conditions": "Consolidated snow in couloir, clear weather, cold start"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A challenging couloir route on Whitney's east face, the classic mountaineering alternative to the trail.",
+        "technicalGrade": "Class 3 (AI1 when snowy)",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Whitney Portal (2,550m)",
+        "permitRequired": true,
+        "permitInfo": "Same permit requirements as Whitney Trail. Day-use or overnight permit via recreation.gov lottery.",
+        "closestAirport": "Los Angeles International Airport (LAX)",
+        "safetyNotes": "Loose rock in the couloir creates constant rockfall hazard. Early season snow adds avalanche risk. The notch at the top is exposed class 3 scrambling. Self-arrest skills required when snow is present."
+      }
+    ]
+  },
+  {
+    "peakName": "Aconcagua",
+    "routes": [
+      {
+        "name": "Normal Route (Northwest Ridge)",
+        "difficulty": "F+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the highest peak in the Southern Hemisphere. A non-technical high altitude trek requiring 18-20 days. The main challenges are altitude, cold, and the notorious Viento Blanco storms. Camps at Plaza de Mulas, Camp 1 Canada, Camp 2 Nido de Condores, and Camp 3 Berlin.",
+        "distance": 70,
+        "elevationGain": 2862,
+        "estimatedTime": 1440,
+        "season": "summer",
+        "hazards": "[\"Extreme altitude\",\"Viento Blanco storms\",\"Severe cold\",\"Dehydration\",\"Sun exposure\"]",
+        "tips": [
+          {
+            "content": "Hire mules for the approach to Plaza de Mulas base camp to save energy",
+            "category": "logistics"
+          },
+          {
+            "content": "The Canaleta scree gully near the summit is exhausting at altitude, take it slow",
+            "category": "general"
+          },
+          {
+            "content": "January offers the warmest conditions and most stable weather",
+            "category": "timing"
+          },
+          {
+            "content": "Obtain your climbing permit in Mendoza before heading to the park",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "-30C sleeping bag",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "High camps are bitterly cold, especially at Camp Berlin (5950m)",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Double plastic boots",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "Essential for the cold at high camps and summit day",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "4-season tent",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Must withstand extreme winds at exposed high camps",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "High altitude trekking peak",
+            "body": "Not technically difficult but the altitude is real. Lost 3 days to a Viento Blanco storm at Camp 2. The Canaleta near the summit is a horrible scree grind. But standing on top of the Americas at 6962m was unforgettable. Give yourself at least 20 days.",
+            "conditions": "Storm days mid-trip, summit day was clear with moderate wind"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard non-technical route on the highest peak in the Southern Hemisphere.",
+        "technicalGrade": "F (hiking/scramble)",
+        "commitment": "III",
+        "approachTime": 48,
+        "descentTime": 12,
+        "basecamp": "Plaza de Mulas (4,370m)",
+        "permitRequired": true,
+        "permitInfo": "Mendoza provincial government permit required ($800-$950 high season, $450 low season). Book online at aconcagua.mendoza.gov.ar.",
+        "closestAirport": "Mendoza Airport (MDZ)",
+        "safetyNotes": "Extreme altitude (6,962m) without supplemental oxygen is the main challenge. Viento Blanco (white wind) storms can be deadly. Proper acclimatization schedule is critical. Hypothermia and frostbite risk even on clear days."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Kilimanjaro",
+    "routes": [
+      {
+        "name": "Machame Route (Whiskey Route)",
+        "difficulty": "F",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "The most scenic route on Kilimanjaro traversing through rainforest, moorland, alpine desert, and glaciers. A 6-7 day trek with excellent acclimatization profile using the climb high sleep low approach via Barranco Wall. The most popular non-Marangu route.",
+        "distance": 62,
+        "elevationGain": 4230,
+        "estimatedTime": 1440,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Cold summit night\",\"Barranco Wall scramble\",\"Rain in forest zone\"]",
+        "tips": [
+          {
+            "content": "Take the 7-day option instead of 6 for better acclimatization and higher summit success rate",
+            "category": "general"
+          },
+          {
+            "content": "Drink at least 3-4 liters of water per day to aid acclimatization",
+            "category": "safety"
+          },
+          {
+            "content": "Summit night starts around midnight from Barafu Camp, dress warmly in all your layers",
+            "category": "timing"
+          },
+          {
+            "content": "January to March and June to October are the driest months",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Warm sleeping bag rated to -10C",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Summit camp at 4600m gets well below freezing",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Diamox (acetazolamide)",
+            "category": "safety",
+            "isEssential": false,
+            "notes": "Consult your doctor, but many trekkers use it preventatively for altitude",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Layering system",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Temperatures range from 30C in rainforest to -15C on summit night",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Incredible journey through climate zones",
+            "body": "The Machame route is stunning in its diversity. Walking through rainforest on day one and arctic conditions on summit night. The Barranco Wall scramble was a highlight. Summited at sunrise with views of the glaciers. Pole pole as the guides say.",
+            "conditions": "Rain in forest, clear above, cold summit night around -12C"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A F route on Mount Kilimanjaro.",
+        "technicalGrade": "F",
+        "commitment": "II",
+        "approachTime": 12,
+        "descentTime": 8,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "Lemosho Route",
+        "difficulty": "F",
+        "gradeSystem": "alpine",
+        "activityType": "hiking",
+        "description": "Considered the most beautiful route on Kilimanjaro approaching from the west through pristine rainforest. Joins the Machame route at Lava Tower. An 8-day itinerary offers the best acclimatization profile and highest summit success rates of any standard route.",
+        "distance": 70,
+        "elevationGain": 4350,
+        "estimatedTime": 1680,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Remote approach\",\"Cold summit night\",\"Rain in lower zones\"]",
+        "tips": [
+          {
+            "content": "The 8-day Lemosho has the highest summit success rate of any Kilimanjaro route at over 90 percent",
+            "category": "general"
+          },
+          {
+            "content": "The first two days through the forest are quiet and uncrowded compared to Machame",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Gaiters",
+            "category": "clothing",
+            "isEssential": false,
+            "notes": "Useful for muddy forest sections and scree on summit night",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Best route on Kilimanjaro",
+            "body": "The Lemosho approach through the western forest is magical and we barely saw anyone for the first two days. The extra day of acclimatization made a huge difference. Everyone in our group summited. Worth the higher cost.",
+            "conditions": "Mixed weather in forest, beautiful clear days above, mild summit night"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A F route on Mount Kilimanjaro.",
+        "technicalGrade": "F",
+        "commitment": "II",
+        "approachTime": 14,
+        "descentTime": 10,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Elbrus",
+    "routes": [
+      {
+        "name": "South Route (Normal Route)",
+        "difficulty": "F+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Europe's highest peak from the south side using the cable car and chairlift system to Garabashi huts at 3800m. A straightforward glacier climb with the main challenges being altitude, weather, and navigation in whiteout conditions on the featureless upper slopes.",
+        "distance": 18,
+        "elevationGain": 1778,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Whiteout navigation\",\"Crevasses\",\"Altitude sickness\",\"Sudden storms\",\"Extreme cold and wind\"]",
+        "tips": [
+          {
+            "content": "Use the Ratrak snowcat service to the Pastukhov Rocks at 4700m to save energy on summit day",
+            "category": "logistics"
+          },
+          {
+            "content": "The traverse between the twin summits in whiteout has claimed many lives, use GPS waypoints",
+            "category": "safety"
+          },
+          {
+            "content": "Acclimatize with a climb to Pastukhov Rocks before your summit bid",
+            "category": "general"
+          },
+          {
+            "content": "July and August offer the warmest and most stable conditions",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "GPS device with waypoints",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "The upper mountain is featureless, navigation in whiteout is deadly without GPS",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Hard ice is common on the upper slopes",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ski goggles",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Essential for wind and whiteout protection",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Accessible high altitude mountaineering",
+            "body": "Great mountain for those stepping up to higher altitude. The infrastructure with cable cars and huts makes logistics easy. Summit day was long but straightforward. The saddle between the two summits was windy. Earned my Seven Summits badge.",
+            "conditions": "Partly cloudy, wind picking up in afternoon, good visibility on summit"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A F+ route on Mount Elbrus.",
+        "technicalGrade": "F+",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Fuji",
+    "routes": [
+      {
+        "name": "Yoshida Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The most popular route on Japan's iconic peak starting from the Subaru Line 5th Station. A well-maintained trail with mountain huts along the way. Most climbers hike through the night to catch sunrise (goraiko) from the summit. Over 100,000 climbers use this route each season.",
+        "distance": 14,
+        "elevationGain": 1405,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Crowding\",\"Rockfall above 8th station\",\"Lightning storms\",\"Hypothermia from wind and rain\"]",
+        "tips": [
+          {
+            "content": "Climb overnight to catch sunrise from the summit, start around 7-8pm from 5th Station",
+            "category": "timing"
+          },
+          {
+            "content": "Book a mountain hut reservation in advance during peak season in July and August",
+            "category": "logistics"
+          },
+          {
+            "content": "Official climbing season is July 1 to September 10, huts and facilities are only open then",
+            "category": "timing"
+          },
+          {
+            "content": "The descent uses a separate zig-zag trail, do not descend the way you came up",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Rain gear",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Weather changes rapidly, waterproof layers are essential",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Headlamp",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Required for the overnight ascent",
+            "weight": "90g",
+            "priceRange": "$40-$100",
+            "specificProduct": "Petzl Actik Core",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Actik Core Headlamp",
+                "url": "https://www.rei.com/product/189893/petzl-actik-core-headlamp",
+                "price": 79.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Actik Core Headlamp",
+                "url": "https://www.backcountry.com/petzl-actik-core-headlamp",
+                "price": 79.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl ACTIK CORE Rechargeable Headlamp",
+                "url": "https://www.amazon.com/dp/B0B8B3GZ6Y",
+                "price": 74.95
+              }
+            ]
+          },
+          {
+            "itemName": "100 yen coins",
+            "category": "logistics",
+            "isEssential": true,
+            "notes": "For the pay toilets at mountain huts along the trail",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A bucket list hike",
+            "body": "Started at 8pm and joined the headlamp procession up the mountain. The trail is steep loose volcanic scree above 8th station. Watching sunrise from the crater rim was magical. Very crowded but a uniquely Japanese mountaineering experience.",
+            "conditions": "Clear summit for sunrise, windy and cold at the top, 5C"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The most popular trail on Mount Fuji, starting from the fifth station on the north side.",
+        "technicalGrade": "Class 1 (hiking)",
+        "commitment": "I",
+        "approachTime": 6,
+        "descentTime": 3,
+        "basecamp": "Yoshida Fifth Station (2,305m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required but ¥1,000 (~$7) conservation fee requested. Mountain hut reservations essential during climbing season (July-August).",
+        "closestAirport": "Tokyo Narita International Airport (NRT)",
+        "safetyNotes": "Altitude sickness is common despite the moderate elevation. Rock slides occur on the loose volcanic terrain. Lightning storms develop quickly in summer afternoons. The climbing season is limited to July-August; conditions outside this window are dangerous."
+      }
+    ]
+  },
+  {
+    "peakName": "Pikes Peak",
+    "routes": [
+      {
+        "name": "Barr Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The classic hiking route up Pikes Peak and one of the most iconic trails in Colorado. A long 26-mile round trip from Manitou Springs gaining over 7400 feet of elevation. Passes through diverse ecosystems from montane forest to alpine tundra. Barr Camp at the halfway point offers overnight stays.",
+        "distance": 41.8,
+        "elevationGain": 2256,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Afternoon lightning storms\",\"Exposed alpine terrain\",\"Dehydration\",\"Long distance\"]",
+        "tips": [
+          {
+            "content": "Stay at Barr Camp overnight to split the hike into two days and aid acclimatization",
+            "category": "general"
+          },
+          {
+            "content": "Start very early if day-hiking to be below treeline before afternoon thunderstorms",
+            "category": "timing"
+          },
+          {
+            "content": "You can take the cog railway down if your legs are done after summiting",
+            "category": "logistics"
+          },
+          {
+            "content": "The A-Frame shelter at treeline is a good emergency rest stop",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Trekking poles",
+            "category": "hiking",
+            "isEssential": false,
+            "notes": "Huge help on the steep lower switchbacks and the long descent",
+            "weight": "500g",
+            "priceRange": "$80-$180",
+            "specificProduct": "Black Diamond Distance Carbon Z",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Distance Carbon Z Poles",
+                "url": "https://www.rei.com/product/141291/black-diamond-distance-carbon-z-poles",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "BD Distance Carbon Z Trekking Poles",
+                "url": "https://www.backcountry.com/black-diamond-distance-carbon-z-poles",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Sun protection",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Extended above-treeline exposure, UV is intense at 14000ft",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Americas Mountain done right",
+            "body": "Barr Trail is the way to earn the summit of Pikes Peak. Stayed at Barr Camp overnight which was charming. The above-treeline section is long and exposed but beautiful. Grabbed a donut at the summit house. Took the cog railway down because my knees were destroyed.",
+            "conditions": "Clear morning, thunderstorms built by 1pm as expected"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A long but well-maintained trail to the summit of iconic Pikes Peak in Colorado Springs.",
+        "technicalGrade": "Class 1 (hiking)",
+        "commitment": "I",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": "Barr Trail Trailhead (2,003m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required. Barr Camp (halfway shelter) reservations recommended for overnight trips.",
+        "closestAirport": "Colorado Springs Airport (COS)",
+        "safetyNotes": "Afternoon thunderstorms with lightning are very common—start early and plan to be below treeline by noon. The trail is 13 miles one way with 2,300m of gain. Altitude affects many visitors. Bring plenty of water as the trail is sun-exposed."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Hood",
+    "routes": [
+      {
+        "name": "South Side (Pearly Gates)",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Oregon's highest peak from Timberline Lodge via the Palmer Glacier, Hogsback formation, and through the Pearly Gates chute to the summit. A beautiful but serious glacier climb with significant objective hazards from fumaroles and falling ice. Best attempted in late spring.",
+        "distance": 13,
+        "elevationGain": 1570,
+        "estimatedTime": 480,
+        "season": "spring",
+        "hazards": "[\"Bergschrund crossing\",\"Icefall above Pearly Gates\",\"Fumarole holes\",\"Rockfall\",\"Rapid weather changes\"]",
+        "tips": [
+          {
+            "content": "Start from Timberline Lodge at midnight to top out by sunrise when conditions are firmest",
+            "category": "timing"
+          },
+          {
+            "content": "May and June offer the best balance of consolidated snow and reasonable bergschrund crossings",
+            "category": "timing"
+          },
+          {
+            "content": "The Old Chute is an alternative to Pearly Gates when the bergschrund is impassable",
+            "category": "general"
+          },
+          {
+            "content": "Check the climbing report at timberlinelodge.com before heading up",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steel crampons essential for the hard ice above the Hogsback",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For self-arrest and climbing the steep Pearly Gates chute",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall and icefall are constant hazards near the summit",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Pacific Northwest classic",
+            "body": "Started at midnight from Timberline in a crowd of headlamps. The Palmer Glacier was straightforward but the Pearly Gates chute was steep and icy. Topped out at 5:30am with views of Rainier, Adams, and Jefferson. The bergschrund crossing required some nerve.",
+            "conditions": "Clear and cold, firm snow, bergschrund passable with a step across"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD route on Mount Hood.",
+        "technicalGrade": "PD",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Grand Teton",
+    "routes": [
+      {
+        "name": "Owen-Spalding Route",
+        "difficulty": "5.4",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The easiest technical route to the summit of the Grand Teton in Wyoming. Follows the Upper Exum Ridge approach to the Owen-Spalding chimney and exposed traverse. Involves Class 4 and low 5th class rock climbing with significant exposure. Usually done as a two-day climb with a bivy at the Lower Saddle.",
+        "distance": 20.5,
+        "elevationGain": 2130,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Exposed rock climbing\",\"Rockfall\",\"Lightning storms\",\"Snow on approach in early season\",\"Crowding at crux sections\"]",
+        "tips": [
+          {
+            "content": "Bivy at the Lower Saddle the night before for an alpine start on summit day",
+            "category": "general"
+          },
+          {
+            "content": "The belly-crawl traverse is more exposed than difficult, stay calm",
+            "category": "general"
+          },
+          {
+            "content": "August offers the driest rock and most snow-free conditions",
+            "category": "timing"
+          },
+          {
+            "content": "Register at the Jenny Lake Ranger Station and check conditions",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "60m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belaying the 5.4 pitches and rappelling",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Trad rack (small to medium cams)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "A light rack of cams from 0.3 to 2 is sufficient",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Essential for rockfall protection on this popular route",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Crown jewel of the Tetons",
+            "body": "Bivy at the Lower Saddle then topped out by 9am. The Owen-Spalding is moderate climbing but the exposure is real. The summit of the Grand is small and airy with 360-degree views. The approach via Garnet Canyon is beautiful. A must-do for any American mountaineer.",
+            "conditions": "Dry rock, clear skies, afternoon clouds building"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard mountaineering route on the Grand Teton via the Upper Saddle and Owen chimney.",
+        "technicalGrade": "5.4",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Lower Saddle (3,776m)",
+        "permitRequired": true,
+        "permitInfo": "Free backcountry camping permit required from Jenny Lake Ranger Station. Apply in person or by fax.",
+        "closestAirport": "Jackson Hole Airport (JAC)",
+        "safetyNotes": "Exposed class 5 climbing near the summit requires roped climbing skills. Rockfall in the couloir approaches. Lightning risk on the exposed summit. The rappel off the Owen route can be tricky in descent."
+      }
+    ]
+  },
+  {
+    "peakName": "Longs Peak",
+    "routes": [
+      {
+        "name": "Keyhole Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Colorado's most iconic fourteener. A 15-mile round trip with four distinct sections above the Keyhole: the Ledges, the Trough, the Narrows, and the Homestretch. Each section has its own character and challenges. The route is marked with painted bullseyes.",
+        "distance": 24,
+        "elevationGain": 1490,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Lightning above treeline\",\"Exposed Class 3 scrambling\",\"Icy conditions in early season\",\"Rockfall in the Trough\",\"Hypothermia from wind\"]",
+        "tips": [
+          {
+            "content": "Start at 2-3am from the Longs Peak trailhead to be off the summit by noon before storms",
+            "category": "timing"
+          },
+          {
+            "content": "The Narrows is the most exposed section, stay focused and follow the bullseyes",
+            "category": "safety"
+          },
+          {
+            "content": "Bring helmet and microspikes if attempting before mid-July as snow lingers in the Trough",
+            "category": "general"
+          },
+          {
+            "content": "This is a serious mountain, turn around if weather deteriorates or you are behind schedule",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall in the Trough is common, especially with other parties above",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          },
+          {
+            "itemName": "Microspikes",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Essential in June and early July for snow in the Trough and on the Homestretch",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Colorado's most challenging standard fourteener",
+            "body": "Started at 2:30am and summited at 9am. The Keyhole route has it all - long approach, exposed scrambling, and a thrilling summit. The Narrows had me laser focused. The flat summit with views across Rocky Mountain National Park was the reward. Do not underestimate this mountain.",
+            "conditions": "Clear morning, wind at the Keyhole, dry rock on all sections"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A Class 3 route on Longs Peak.",
+        "technicalGrade": "Class 3",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Shasta",
+    "routes": [
+      {
+        "name": "Avalanche Gulch",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The most popular route on Northern California's massive stratovolcano. A long snow climb from Bunny Flat trailhead via Horse Camp and Lake Helen base camp. The route follows a broad gulch to the Red Banks and then the final summit plateau. A classic Pacific coast volcano climb.",
+        "distance": 18.5,
+        "elevationGain": 2280,
+        "estimatedTime": 540,
+        "season": "spring",
+        "hazards": "[\"Avalanche risk in gulch\",\"Rockfall from Red Banks\",\"Altitude sickness\",\"Sun exposure on open snow\",\"Whiteout conditions\"]",
+        "tips": [
+          {
+            "content": "Camp at Lake Helen at 10400ft for an alpine start, or go light and fast from Bunny Flat",
+            "category": "general"
+          },
+          {
+            "content": "May and June offer the best consolidated snow before the gulch melts out to loose rock",
+            "category": "timing"
+          },
+          {
+            "content": "Climb early to stay on firm snow and avoid afternoon wet slides and rockfall",
+            "category": "safety"
+          },
+          {
+            "content": "A summit pass is required, obtain from the ranger station in Mount Shasta City",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the steep snow slopes, practice self-arrest before attempting",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Hard morning snow requires crampons for secure travel",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Sunscreen SPF 50+",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The all-day sun exposure on open snow causes severe burns without protection",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Big mountain feel in California",
+            "body": "Shasta via Avalanche Gulch is a legitimate mountaineering objective. Camped at Lake Helen and started at 3am. The gulch is long and monotonous but the Red Banks add some spice. Summit views are incredible with Lassen to the south and the Trinity Alps to the west. Glissaded back to camp in 20 minutes.",
+            "conditions": "Firm spring snow, clear skies, light wind at summit"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The most popular route on Mount Shasta via Horse Camp and Avalanche Gulch snowfield.",
+        "technicalGrade": "AI1, Class 2",
+        "commitment": "I",
+        "approachTime": 5,
+        "descentTime": 3,
+        "basecamp": "Horse Camp (2,440m)",
+        "permitRequired": true,
+        "permitInfo": "Summit pass required ($25). Wilderness permit required (free, self-issue). Available at the ranger station in Mt Shasta city.",
+        "closestAirport": "Redding Municipal Airport (RDD)",
+        "safetyNotes": "Avalanche danger is significant, especially in spring. Icefall from the upper mountain threatens the gulch. Altitude sickness at 4,322m. Sun exposure is intense on the open snowfield—bring sun protection."
+      }
+    ]
+  },
+  {
+    "peakName": "Eiger",
+    "routes": [
+      {
+        "name": "West Ridge (Normal Route)",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the Eiger ascending the west flank and ridge from Kleine Scheidegg. Far less famous than the North Face but a serious alpine climb in its own right. Involves glacier travel, mixed terrain, and exposed ridge climbing with views directly down the infamous Nordwand.",
+        "distance": 12,
+        "elevationGain": 1570,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Rockfall\",\"Icy mixed terrain\",\"Crevasses on approach glacier\",\"Rapid weather changes\",\"Exposure on ridge\"]",
+        "tips": [
+          {
+            "content": "Stay at the Mittellegi Hut or bivouac at the base for an early start",
+            "category": "logistics"
+          },
+          {
+            "content": "Route conditions vary dramatically by season, check with Grindelwald guides",
+            "category": "general"
+          },
+          {
+            "content": "The train to Kleine Scheidegg makes the approach civilized",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the mixed sections on the upper ridge",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for glacier approach and icy ridge sections",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The Eiger without the death wall",
+            "body": "A fine alpine route overshadowed by the North Face. The west ridge gives a proper mountaineering day with mixed climbing and incredible exposure. Looking down the North Face from the summit ridge is vertigo-inducing. A worthy climb.",
+            "conditions": "Mixed conditions, some verglas on rock, clear summit views"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD- route on Eiger.",
+        "technicalGrade": "AD-",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Cook",
+    "routes": [
+      {
+        "name": "Zurbriggen Ridge (Normal Route)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on New Zealand's highest peak via the Linda Glacier and Zurbriggen Ridge. A serious alpine climb requiring glacier travel, steep ice, and exposed ridge climbing. The summit ice cap has been shrinking, making the final section increasingly rocky and unstable.",
+        "distance": 20,
+        "elevationGain": 2450,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Avalanche risk\",\"Unstable summit rocks\",\"Crevasses\",\"Rapid weather changes\",\"Icefall\"]",
+        "tips": [
+          {
+            "content": "Fly into Plateau Hut by ski plane to shorten the approach significantly",
+            "category": "logistics"
+          },
+          {
+            "content": "New Zealand alpine weather is notoriously fickle, be prepared to wait for a window",
+            "category": "timing"
+          },
+          {
+            "content": "The summit rock is loose argillite and has collapsed in recent years, be cautious near the top",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep ice on the Linda Glacier and summit slopes",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (4-6)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For protection on the steep ice sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "4-season tent",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Weather can pin you down for days",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "New Zealand alpine at its finest",
+            "body": "Flew into Plateau Hut and waited two days for weather. When the window came we moved fast up the Linda Glacier and Zurbriggen Ridge. The ice was steep and the summit ridge exposed. Views across the Southern Alps and Tasman Sea were stunning. A proper alpine adventure.",
+            "conditions": "Clear window after storm cycle, firm ice, light winds"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD route on Mount Cook.",
+        "technicalGrade": "AD",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Baker",
+    "routes": [
+      {
+        "name": "Coleman-Deming Route",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Washington's northernmost volcano via the Coleman and Deming Glaciers. A moderate glacier climb with crevasse navigation as the main challenge. The Roman Wall headwall is the steepest section. Popular as a training climb for larger objectives like Denali.",
+        "distance": 21,
+        "elevationGain": 2140,
+        "estimatedTime": 480,
+        "season": "spring",
+        "hazards": "[\"Large crevasses\",\"Whiteout conditions\",\"Icefall on Coleman Glacier\",\"Volcanic hazards\",\"Rapid weather changes\"]",
+        "tips": [
+          {
+            "content": "May and June offer the best snow bridges across the large crevasses",
+            "category": "timing"
+          },
+          {
+            "content": "The Roman Wall can be bypassed on the left if conditions are too icy",
+            "category": "general"
+          },
+          {
+            "content": "Camp at the base of the Roman Wall for the shortest summit day",
+            "category": "general"
+          },
+          {
+            "content": "Obtain a climbing permit from the Mount Baker Ranger District",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The Coleman Glacier has massive crevasses, rescue skills and gear are mandatory",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Wands or GPS",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Baker is famous for whiteouts, mark your route for the descent",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Perfect Cascades training climb",
+            "body": "Great introduction to glaciated peak climbing. The Coleman Glacier crevasse field was impressive and required careful navigation. The Roman Wall is a fun steep snow pitch. Summit crater with views of the North Cascades was beautiful. Used this as training for Rainier.",
+            "conditions": "Clear start, clouds moved in by noon, good snow bridges"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on Mount Baker via the Coleman Glacier—a classic Pacific Northwest glacier climb.",
+        "technicalGrade": "AI1, Class 2",
+        "commitment": "I",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Coleman Glacier Camp (1,800m)",
+        "permitRequired": true,
+        "permitInfo": "Free wilderness permit required (self-issue at trailhead). Northwest Forest Pass ($5/day) for parking.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "Large crevasses on the Coleman Glacier require careful navigation. The Roman Wall is steep and can be icy. Whiteout conditions are common. The summit crater has volcanic fumaroles—avoid breathing concentrated gases."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Blanc du Tacul",
+    "routes": [
+      {
+        "name": "Normal Route (North Face)",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A classic Chamonix alpine climb ascending the north face snow slopes from the Aiguille du Midi cable car. Often used as an acclimatization climb before the Three Monts traverse of Mont Blanc. The descent from the Midi station to the glacier is the crux for many parties.",
+        "distance": 6,
+        "elevationGain": 820,
+        "estimatedTime": 300,
+        "season": "summer",
+        "hazards": "[\"Crevasses\",\"Serac danger\",\"Steep descent from Midi station\",\"Altitude effects from rapid gain via cable car\"]",
+        "tips": [
+          {
+            "content": "Take the first lift up the Aiguille du Midi at 6am for the best conditions",
+            "category": "timing"
+          },
+          {
+            "content": "The ridge descent from the Midi station is narrow and exposed, take care",
+            "category": "safety"
+          },
+          {
+            "content": "Excellent acclimatization before attempting the Three Monts route to Mont Blanc",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the glacier and steep snow slopes",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Standard alpine ice axe for the ascent",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Great warm-up in Chamonix",
+            "body": "Perfect acclimatization day. The Midi arete descent is exciting and the north face of Tacul is a straightforward snow climb. Good introduction to Chamonix alpine terrain before bigger objectives.",
+            "conditions": "Good neve, crevasses well bridged in late June"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on Oceania's highest peak—technical rock climbing in a remote tropical jungle setting.",
+        "technicalGrade": "5.8 (UIAA V+)",
+        "commitment": "III",
+        "approachTime": 48,
+        "descentTime": 24,
+        "basecamp": "Base Camp (4,300m)",
+        "permitRequired": true,
+        "permitInfo": "Indonesian government climbing permit required (very expensive, $3,000-$5,000+). Freeport mine access or helicopter required. Must use authorized operator.",
+        "closestAirport": "Timika Airport (TIM)",
+        "safetyNotes": "The approach through dense tropical jungle is arduous and may require days. Political instability in the region is a concern. The rock climbing is at altitude on sometimes wet limestone. Fixed ropes on the summit wall."
+      }
+    ]
+  },
+  {
+    "peakName": "Huascaran",
+    "routes": [
+      {
+        "name": "Normal Route (Garganta Col)",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on Peru's highest peak and the highest point in the tropics. Ascends from Musho base camp through heavily crevassed glaciers to the Garganta col between the twin summits, then up to the South Summit (6768m). Known for its spectacular ice formations and serious serac hazards.",
+        "distance": 30,
+        "elevationGain": 3168,
+        "estimatedTime": 960,
+        "season": "summer",
+        "hazards": "[\"Massive serac barriers\",\"Deep crevasses\",\"Avalanche risk\",\"Altitude sickness\",\"Cornices on summit ridge\"]",
+        "tips": [
+          {
+            "content": "June to August is the dry season in the Cordillera Blanca, the only reasonable time to climb",
+            "category": "timing"
+          },
+          {
+            "content": "Acclimatize in Huaraz and climb a smaller peak like Ishinca or Urus before attempting Huascaran",
+            "category": "general"
+          },
+          {
+            "content": "The serac bands change yearly, get current route conditions from Casa de Guias in Huaraz",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Pickets and snow anchors",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belaying through the serac bands and steep snow sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Double boots",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "Essential for the high camps and summit day above 6000m",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Spectacular Andean giant",
+            "body": "The Cordillera Blanca is magical and Huascaran is its crown jewel. The glacier is heavily crevassed and the serac bands are intimidating. The Garganta col between the summits is otherworldly. Summit views extend to the Pacific coast on a clear day. A serious high altitude objective.",
+            "conditions": "Dry season, clear mornings, afternoon clouds, cold nights at high camp"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD route on Huascaran.",
+        "technicalGrade": "AD",
+        "commitment": "II",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Adams",
+    "routes": [
+      {
+        "name": "South Spur",
+        "difficulty": "Class 2",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The standard route on Washington's second highest peak. A long but non-technical snow climb from Cold Springs Campground. The route is essentially a steep slog up snowfields with the main challenge being the distance and altitude. The false summit adds psychological difficulty.",
+        "distance": 19,
+        "elevationGain": 2070,
+        "estimatedTime": 480,
+        "season": "spring",
+        "hazards": "[\"Altitude sickness\",\"Whiteout navigation\",\"Sun exposure on open snow\",\"Rockfall on Pikers Peak\",\"Sulfur fumes near summit\"]",
+        "tips": [
+          {
+            "content": "Glissade the entire descent for a quick and fun return to camp",
+            "category": "general"
+          },
+          {
+            "content": "May and June when snow covers the scree makes for the best climbing conditions",
+            "category": "timing"
+          },
+          {
+            "content": "The false summit at Pikers Peak is demoralizing but the true summit is only 30 more minutes",
+            "category": "general"
+          },
+          {
+            "content": "Cascade Volcanoes Climbing Permit required, free from recreation.gov",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for self-arrest on the steep snowfields",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Sunscreen and lip balm",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "All-day sun exposure on open snowfields causes severe burns",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "title": "The long slog",
+            "body": "Adams is a straightforward grind with great reward at the top. The south spur is just up up up on snow. Not technically interesting but the summit views of Rainier, Hood, and St. Helens are fantastic. The glissade descent is the highlight, dropped 5000 feet in 30 minutes.",
+            "conditions": "Clear spring day, consolidated snow, light wind"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A Class 2 route on Mount Adams.",
+        "technicalGrade": "Class 2",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Puncak Jaya",
+    "routes": [
+      {
+        "name": "Normal Route (North Face)",
+        "difficulty": "5.8",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The standard route on the highest peak in Oceania and a Seven Summits objective. A technical rock climb on sharp limestone with multiple pitches of roped climbing. The approach through Papua's jungle is often harder than the climb itself, requiring days of trekking through remote terrain.",
+        "distance": 8,
+        "elevationGain": 750,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Sharp limestone\",\"Tropical rain and thunderstorms\",\"Remote location\",\"Exposed ridge traverses\",\"Tyrolean traverse\"]",
+        "tips": [
+          {
+            "content": "The jungle approach takes 4-6 days and is extremely muddy, waterproof everything",
+            "category": "logistics"
+          },
+          {
+            "content": "A helicopter approach is available but weather-dependent and expensive",
+            "category": "logistics"
+          },
+          {
+            "content": "The rock is razor-sharp limestone, bring heavy-duty gloves for the fixed ropes",
+            "category": "general"
+          },
+          {
+            "content": "Permits require months of advance coordination with local agencies",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Climbing harness",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the fixed rope sections and Tyrolean traverse",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Heavy leather gloves",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The limestone is razor-sharp and will shred bare hands on the fixed ropes",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Via ferrata kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For clipping into the fixed cables on the traverse sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Most adventurous of the Seven Summits",
+            "body": "The approach through the Papua jungle was epic and exhausting. The climb itself is moderate technical rock but in an incredible setting. The summit ridge walk with clouds swirling below was unforgettable. Getting here is the real challenge, the climbing is secondary.",
+            "conditions": "Afternoon rain, morning windows for climbing, warm and humid"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on Oceania's highest peak—technical rock climbing in a remote tropical jungle setting.",
+        "technicalGrade": "5.8 (UIAA V+)",
+        "commitment": "III",
+        "approachTime": 48,
+        "descentTime": 24,
+        "basecamp": "Base Camp (4,300m)",
+        "permitRequired": true,
+        "permitInfo": "Indonesian government climbing permit required (very expensive, $3,000-$5,000+). Freeport mine access or helicopter required. Must use authorized operator.",
+        "closestAirport": "Timika Airport (TIM)",
+        "safetyNotes": "The approach through dense tropical jungle is arduous and may require days. Political instability in the region is a concern. The rock climbing is at altitude on sometimes wet limestone. Fixed ropes on the summit wall."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Vinson",
+    "routes": [
+      {
+        "name": "Normal Route (Branscomb Glacier)",
+        "difficulty": "PD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the highest peak in Antarctica. A remote expedition requiring logistics through Antarctic Logistics and Expeditions. The climbing is moderate but the extreme cold, isolation, and 24-hour sunlight create a unique experience. Camps are established on the Branscomb Glacier.",
+        "distance": 24,
+        "elevationGain": 1745,
+        "estimatedTime": 840,
+        "season": "summer",
+        "hazards": "[\"Extreme cold to -40C\",\"Whiteout conditions\",\"Complete isolation\",\"Crevasses\",\"Katabatic winds\"]",
+        "tips": [
+          {
+            "content": "December to January is the only climbing window when flights operate to Vinson Base Camp",
+            "category": "timing"
+          },
+          {
+            "content": "ALE (Antarctic Logistics and Expeditions) is essentially the only operator providing flights",
+            "category": "logistics"
+          },
+          {
+            "content": "The 24-hour sunlight is disorienting, maintain a sleep schedule",
+            "category": "general"
+          },
+          {
+            "content": "Double-check all gear, there is no resupply or rescue infrastructure",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Expedition down suit",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Temperatures regularly hit -35C, the coldest of the Seven Summits",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "-40C sleeping bag",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Two bags (synthetic inside down) recommended for redundancy",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Vapor barrier socks and gloves",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Prevents moisture buildup that causes frostbite in extreme cold",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Climbing at the bottom of the world",
+            "body": "The most surreal climbing experience of my life. Flying to Antarctica, then climbing in 24-hour sunlight surrounded by nothing but ice and mountains. The climb is straightforward but the cold is relentless. Standing on the summit of Antarctica completed my Seven Summits journey.",
+            "conditions": "Clear skies, -30C at high camp, light wind on summit day"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on Antarctica's highest peak—logistically complex but technically straightforward.",
+        "technicalGrade": "F+ (glacier hiking)",
+        "commitment": "III",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": "Vinson Base Camp (2,140m)",
+        "permitRequired": false,
+        "permitInfo": "No government permit required but extremely expensive logistics ($45,000-$55,000) through ALE (Antarctic Logistics and Expeditions) or similar operator. Flight from Punta Arenas to Union Glacier.",
+        "closestAirport": "Punta Arenas Airport (PUQ)",
+        "safetyNotes": "Extreme cold is the primary hazard—temperatures can drop below -40°C. Whiteout conditions on the featureless upper glacier. No rescue services available. Complete self-sufficiency required. Frostbite risk is very high."
+      }
+    ]
+  },
+  {
+    "peakName": "Cho Oyu",
+    "routes": [
+      {
+        "name": "Northwest Ridge",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the world's sixth highest peak, widely considered the easiest 8000m mountain. Approached from Tibet via the Nangpa La. The route follows moderate snow slopes with one section of steep ice. Popular as an 8000m stepping stone before Everest.",
+        "distance": 38,
+        "elevationGain": 3350,
+        "estimatedTime": 1200,
+        "season": "autumn",
+        "hazards": "[\"Altitude sickness\",\"Crevasses on glacier\",\"Wind at camp 2\",\"One steep ice band at 7400m\"]",
+        "tips": [
+          {
+            "content": "September to October is the prime climbing season from the Tibet side",
+            "category": "timing"
+          },
+          {
+            "content": "Excellent preparation for an Everest attempt the following spring",
+            "category": "general"
+          },
+          {
+            "content": "The ice band at 7400m is the crux, fixed ropes are usually in place",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Supplemental oxygen",
+            "category": "safety",
+            "isEssential": false,
+            "notes": "Many climbers summit without O2 but it is available for safety",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Down suit",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Required for summit day above 7500m",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The friendly 8000er",
+            "body": "Cho Oyu delivers 8000m altitude experience without the extreme technical challenges. The northwest ridge is moderate with good camps. The ice band at 7400m is the only real technical section. Summited without supplemental oxygen. Perfect preparation for bigger Himalayan objectives.",
+            "conditions": "Clear autumn weather, moderate winds, cold at high camp"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD- route on Cho Oyu.",
+        "technicalGrade": "AD-",
+        "commitment": "II",
+        "approachTime": 10,
+        "descentTime": 7,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Olympus",
+    "routes": [
+      {
+        "name": "Blue Glacier Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on the highest peak in Washington's Olympic Mountains. A multi-day approach through the Hoh Rainforest to Glacier Meadows, then glacier travel across the Blue Glacier to the summit block. The final summit scramble involves Class 3 rock. One of the most remote and scenic climbs in the Pacific Northwest.",
+        "distance": 36,
+        "elevationGain": 2150,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Crevasses on Blue Glacier\",\"Exposed summit scramble\",\"Whiteout navigation\",\"River crossings on approach\",\"Unpredictable weather\"]",
+        "tips": [
+          {
+            "content": "The Hoh Rainforest approach is 17 miles one way, plan for a 3-4 day trip minimum",
+            "category": "logistics"
+          },
+          {
+            "content": "July and August have the best weather windows and snow conditions on the glacier",
+            "category": "timing"
+          },
+          {
+            "content": "Obtain a wilderness permit from the Olympic National Park Wilderness Information Center",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The Blue Glacier is heavily crevassed",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Bear canister",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Required for food storage in the Hoh Rainforest approach",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Rainforest to summit",
+            "body": "This climb has everything - a magical rainforest approach, glacier travel, and an exposed summit scramble. The Blue Glacier is impressive and the views from the summit extend to the Pacific Ocean. The long approach keeps crowds away. One of my favorite climbs in the Northwest.",
+            "conditions": "Three clear days during our attempt, glacier in good condition"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A Class 3 route on Mount Olympus.",
+        "technicalGrade": "Class 3",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  }
+]

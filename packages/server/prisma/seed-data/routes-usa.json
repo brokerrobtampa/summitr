@@ -1,0 +1,3432 @@
+[
+  {
+    "peakName": "Denali",
+    "routes": [
+      {
+        "name": "Cassin Ridge",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "One of the 50 classic climbs of North America. First climbed by Riccardo Cassin in 1961. The route ascends the south face via a prominent rib with technical rock, ice, and mixed climbing. Involves the Japanese Couloir and sustained difficulties at extreme altitude. A defining route in North American mountaineering.",
+        "distance": 38,
+        "elevationGain": 3200,
+        "estimatedTime": 2400,
+        "season": "spring",
+        "hazards": "[\"Technical mixed climbing at altitude\",\"Extreme cold\",\"Storm exposure\",\"Committing with difficult retreat\",\"Altitude sickness\"]",
+        "tips": [
+          {
+            "content": "The Cassin requires alpine climbing skills far beyond the West Buttress",
+            "category": "general"
+          },
+          {
+            "content": "Most teams take 4-7 days on the route depending on conditions and style",
+            "category": "general"
+          },
+          {
+            "content": "The Japanese Couloir is steep and often icy, the crux of the lower route",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep mixed terrain throughout",
+            "weight": "1.1kg pair",
+            "priceRange": "$500-$700",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool",
+                "price": 350
+              }
+            ]
+          },
+          {
+            "itemName": "Rock and ice rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full mixed climbing protection",
+            "weight": "4.5kg",
+            "priceRange": "$800-$1,500",
+            "specificProduct": "Black Diamond Mixed Rack Bundle",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Ice Screw Express Set",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 65
+              },
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Stinger Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "itemName": "-40F sleeping bag",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Bivouacs at extreme altitude in Alaska cold",
+            "weight": "2.5kg",
+            "priceRange": "$700-$1,100",
+            "specificProduct": "Western Mountaineering Bison GWS -40F",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Western Mountaineering Bison GWS",
+                "url": "https://www.rei.com/product/183952/western-mountaineering-bison-gws-40-sleeping-bag",
+                "price": 1050
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Western Mountaineering Bison GWS",
+                "url": "https://www.backcountry.com/western-mountaineering-bison-gws-sleeping-bag",
+                "price": 1050
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Western Mountaineering Bison GWS",
+                "url": "https://www.moosejaw.com/product/western-mountaineering-bison-gws",
+                "price": 1050
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The greatest route in North America",
+            "body": "The Cassin Ridge is alpinism at its finest. Technical climbing at altitude in brutal cold. The Japanese Couloir, the rock headwall, the endless summit ridge. Four days of total commitment. Standing on top of Denali via the Cassin is a life achievement.",
+            "conditions": "Cold and clear, good ice in couloir, light wind on summit"
+          }
+        ],
+        "summary": "One of North America's most iconic alpine climbs, ascending Denali's south face via sustained technical mixed terrain at extreme altitude. A defining route of American mountaineering requiring expedition-level commitment and elite alpine skills.",
+        "imageUrl": null,
+        "technicalGrade": "5.8 AI5 M5",
+        "commitment": "V",
+        "approachTime": 48,
+        "descentTime": 24,
+        "basecamp": "14,200ft Camp (4,328m)",
+        "permitRequired": true,
+        "permitInfo": "$415 NPS mountaineering special use fee plus $15 recreation fee. Register at least 60 days in advance through pay.gov. Permits available starting January 1 for that year's season.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "The Cassin Ridge is extremely committing with very difficult retreat options once above the Japanese Couloir. Altitude sickness is a serious concern with rapid elevation gain on technical terrain. Temperatures routinely drop below -40F with wind chill. Teams should be fully self-sufficient and carry a satellite communicator for emergency evacuation."
+      },
+      {
+        "name": "West Rib",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A classic route between the West Buttress and the Cassin Ridge. Steeper and more technical than the West Buttress but less extreme than the Cassin. The route follows a prominent rib on the south face with sustained 50-degree snow and ice. Popular as a step up from the standard route.",
+        "distance": 42,
+        "elevationGain": 3400,
+        "estimatedTime": 1800,
+        "season": "spring",
+        "hazards": "[\"Steep sustained snow and ice\",\"Altitude\",\"Extreme cold\",\"Avalanche risk\",\"Crevassed approach\"]",
+        "tips": [
+          {
+            "content": "The West Rib is a natural progression from the West Buttress for strong teams",
+            "category": "general"
+          },
+          {
+            "content": "The rib provides excellent climbing with less commitment than the Cassin",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained steep snow and ice on the rib",
+            "weight": "1.0kg pair",
+            "priceRange": "$400-$600",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151448/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.backcountry.com/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.moosejaw.com/product/petzl-quark-ice-axe",
+                "price": 280
+              }
+            ]
+          },
+          {
+            "itemName": "Pickets",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For protection and anchors on the snow rib",
+            "weight": "1.2kg set of 4",
+            "priceRange": "$80-$150",
+            "specificProduct": "Black Diamond Snow Picket 24-inch",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Snow Picket",
+                "url": "https://www.rei.com/product/750177/black-diamond-snow-picket",
+                "price": 30
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Snow Picket",
+                "url": "https://www.backcountry.com/black-diamond-snow-picket",
+                "price": 30
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Snow Picket 24in",
+                "url": "https://www.amazon.com/dp/B001U00MH2",
+                "price": 28
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The perfect step up from the West Buttress",
+            "body": "The West Rib offers real alpine climbing on Denali without the extreme commitment of the Cassin. Sustained steep snow and ice with incredible exposure. The rib is aesthetic and logical. Highly recommended for strong teams looking for more.",
+            "conditions": "Firm snow on rib, cold but clear, moderate winds"
+          }
+        ],
+        "summary": "A classic Denali route offering sustained steep snow and ice climbing on the south face's prominent rib. More technical than the West Buttress but less extreme than the Cassin Ridge, making it an ideal progression for experienced mountaineers.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 55-degree snow/ice",
+        "commitment": "IV",
+        "approachTime": 48,
+        "descentTime": 18,
+        "basecamp": "14,200ft Camp (4,328m)",
+        "permitRequired": true,
+        "permitInfo": "$415 NPS mountaineering special use fee plus $15 recreation fee. Register at least 60 days in advance through pay.gov. Permits available starting January 1 for that year's season.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "The West Rib has sustained steep terrain above 14,000ft where altitude compounds every difficulty. Avalanche conditions must be carefully assessed on the rib, especially after new snowfall. The descent typically follows the West Buttress route, so familiarity with that path is important. Carry full expedition rescue and communication gear."
+      },
+      {
+        "name": "Muldrow Glacier",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The original route of the first ascent in 1913 via the Muldrow Glacier from Wonder Lake. A long expedition-style approach without the bush plane flight to base camp. The route traverses the entire Muldrow Glacier before ascending Karstens Ridge. A wilder and more remote experience than the West Buttress.",
+        "distance": 72,
+        "elevationGain": 4200,
+        "estimatedTime": 2160,
+        "season": "spring",
+        "hazards": "[\"Very long approach\",\"McKinley River crossing\",\"Heavily crevassed Muldrow Glacier\",\"Karstens Ridge exposure\",\"Extreme cold\"]",
+        "tips": [
+          {
+            "content": "The McKinley River crossing can be dangerous during high water, plan for early morning",
+            "category": "safety"
+          },
+          {
+            "content": "The Muldrow Glacier has massive crevasses requiring exceptional glacier skills",
+            "category": "general"
+          },
+          {
+            "content": "This route adds a week of approach compared to the West Buttress",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Pack raft or river crossing gear",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "McKinley River crossing is a serious obstacle",
+            "weight": "1.5kg",
+            "priceRange": "$250-$900",
+            "specificProduct": "Alpacka Raft Scout",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Alpacka Raft Scout",
+                "url": "https://www.rei.com/product/200123/alpacka-raft-scout-packraft",
+                "price": 750
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Alpacka Raft Scout",
+                "url": "https://www.backcountry.com/alpacka-raft-scout-packraft",
+                "price": 750
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Alpacka Raft Scout",
+                "url": "https://www.amazon.com/dp/B09PLACEHOLDER",
+                "price": 725
+              }
+            ]
+          },
+          {
+            "itemName": "Expedition sled",
+            "category": "logistics",
+            "isEssential": true,
+            "notes": "Long approach requires hauling heavy loads",
+            "weight": "3.5kg",
+            "priceRange": "$150-$300",
+            "specificProduct": "Paris Expedition Sled",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Paris Expedition Sled",
+                "url": "https://www.rei.com/product/618901/paris-expedition-sled",
+                "price": 85
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Paris Expedition Sled",
+                "url": "https://www.amazon.com/dp/B000GAROUK",
+                "price": 80
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Paris Expedition Sled",
+                "url": "https://www.backcountry.com/paris-expedition-sled",
+                "price": 85
+              }
+            ]
+          },
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The Muldrow is one of the most crevassed glaciers on the mountain",
+            "weight": "2.0kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/143671/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD System",
+                "url": "https://www.backcountry.com/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl RAD System",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Denali the old-fashioned way",
+            "body": "The Muldrow Glacier route is Denali at its most authentic. No bush plane, no base camp infrastructure. Walking in from Wonder Lake adds a week but makes the mountain feel truly wild. The Muldrow crevasse field is impressive. Karstens Ridge is a fine piece of alpine terrain.",
+            "conditions": "Good river crossing conditions, massive crevasses on glacier, clear weather"
+          }
+        ],
+        "summary": "The original 1913 first-ascent route approaching from Wonder Lake without bush plane support. An expedition-style wilderness journey across the heavily crevassed Muldrow Glacier and up Karstens Ridge.",
+        "imageUrl": null,
+        "technicalGrade": "AI2 40-degree snow/ice",
+        "commitment": "V",
+        "approachTime": 96,
+        "descentTime": 48,
+        "basecamp": "Wonder Lake (2,060ft / 628m)",
+        "permitRequired": true,
+        "permitInfo": "$415 NPS mountaineering special use fee plus $15 recreation fee. Register at least 60 days in advance through pay.gov. Also requires a backcountry permit for the Wonder Lake approach.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "The McKinley River crossing is a serious hazard with swift glacial water that can be waist-deep; plan crossings for early morning when water levels are lowest. The Muldrow Glacier has enormous crevasses requiring expert glacier travel skills and full rescue capability. This route's remoteness means evacuation is extremely difficult and slow. Teams must be prepared for 3-4 weeks of self-sufficient travel."
+      },
+      {
+        "name": "South Buttress Direct",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A direct line up the south buttress with sustained technical climbing at extreme altitude. More demanding than the West Rib with steeper ice and mixed sections. The buttress offers excellent climbing in a stunning position overlooking the Ruth Glacier.",
+        "distance": 36,
+        "elevationGain": 3000,
+        "estimatedTime": 2160,
+        "season": "spring",
+        "hazards": "[\"Sustained technical terrain\",\"Extreme cold\",\"Storm exposure\",\"Altitude\",\"Committing\"]",
+        "tips": [
+          {
+            "content": "The South Buttress Direct is a serious technical undertaking requiring strong alpine skills",
+            "category": "general"
+          },
+          {
+            "content": "Plan for 5-7 days on the route with bivouac gear",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical mixed terrain requires comprehensive protection",
+            "weight": "4.5kg",
+            "priceRange": "$900-$1,500",
+            "specificProduct": "Black Diamond Mixed Climbing Rack",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Ice Screw Express Set",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 65
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Laser Speed Light Ice Screw",
+                "url": "https://www.moosejaw.com/product/petzl-laser-speed-light-ice-screw",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "itemName": "Lightweight bivy equipment",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Multiple bivouacs on the buttress",
+            "weight": "1.8kg",
+            "priceRange": "$300-$600",
+            "specificProduct": "Outdoor Research Alpine Bivy",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Outdoor Research Alpine Bivy",
+                "url": "https://www.rei.com/product/197667/outdoor-research-alpine-bivy",
+                "price": 290
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Outdoor Research Alpine Bivy",
+                "url": "https://www.backcountry.com/outdoor-research-alpine-bivy",
+                "price": 290
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Outdoor Research Alpine Bivy",
+                "url": "https://www.amazon.com/dp/B09XPLACEHLD",
+                "price": 275
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Technical Denali at its best",
+            "body": "The South Buttress Direct is a sustained mixed climb at extreme altitude. Every pitch is engaging and the position is spectacular. Views down to the Ruth Glacier and across the Alaska Range are humbling. This is what Denali climbing should be.",
+            "conditions": "Cold and clear, good mixed conditions, light wind"
+          }
+        ],
+        "summary": "A direct technical line up Denali's south buttress featuring sustained mixed climbing at extreme altitude. Offers spectacular position overlooking the Ruth Glacier with serious commitment and multi-day bivouacs.",
+        "imageUrl": null,
+        "technicalGrade": "5.8 AI4 M4",
+        "commitment": "V",
+        "approachTime": 48,
+        "descentTime": 24,
+        "basecamp": "14,200ft Camp (4,328m)",
+        "permitRequired": true,
+        "permitInfo": "$415 NPS mountaineering special use fee plus $15 recreation fee. Register at least 60 days in advance through pay.gov. Permits available starting January 1 for that year's season.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "This is a highly committing route with limited retreat options once established on the buttress. Multiple bivouacs at altitude are required, demanding robust shelter and sleeping systems rated to -40F. Stonefall and spindrift avalanches are constant hazards on the south face. A satellite communicator and comprehensive first aid kit are essential given the isolation."
+      },
+      {
+        "name": "Northwest Buttress",
+        "difficulty": "D+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A route on the remote northwest side of Denali approached from the Peters Glacier. Rarely attempted due to the complex approach and serious objective hazards. The buttress offers varied terrain in a completely isolated setting. For experienced expeditions seeking true wilderness.",
+        "distance": 48,
+        "elevationGain": 3600,
+        "estimatedTime": 2400,
+        "season": "spring",
+        "hazards": "[\"Remote approach\",\"Serac danger\",\"Crevassed glacier\",\"Isolation\",\"Extreme cold\"]",
+        "tips": [
+          {
+            "content": "The northwest side of Denali is very remote with no other teams for support",
+            "category": "safety"
+          },
+          {
+            "content": "Satellite communication is essential given the isolation",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Satellite communicator",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "No other teams present, communication is critical",
+            "weight": "150g",
+            "priceRange": "$300-$500",
+            "specificProduct": "Garmin inReach Mini 2",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Garmin inReach Mini 2",
+                "url": "https://www.rei.com/product/199069/garmin-inreach-mini-2",
+                "price": 400
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Garmin inReach Mini 2",
+                "url": "https://www.backcountry.com/garmin-inreach-mini-2",
+                "price": 400
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Garmin inReach Mini 2",
+                "url": "https://www.amazon.com/dp/B09XPLACEH2",
+                "price": 380
+              }
+            ]
+          },
+          {
+            "itemName": "Expedition provisions (30 days)",
+            "category": "logistics",
+            "isEssential": true,
+            "notes": "Must be fully self-sufficient for the entire expedition",
+            "weight": "30kg",
+            "priceRange": "$500-$900",
+            "specificProduct": "Mountain House Pro-Pak Assortment",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Mountain House Classic Bucket",
+                "url": "https://www.rei.com/product/157944/mountain-house-classic-bucket",
+                "price": 90
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Mountain House Pro-Pak Assortment",
+                "url": "https://www.amazon.com/dp/B00PLACEHOLDER",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Mountain House Freeze-Dried Meals",
+                "url": "https://www.backcountry.com/mountain-house-freeze-dried-meals",
+                "price": 8
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "True wilderness mountaineering",
+            "body": "The northwest side of Denali feels like another planet. Complete isolation, no other teams, no fixed ropes. The buttress climbing is varied and engaging. This is expedition mountaineering in its purest form. Not for those who want any safety net.",
+            "conditions": "Variable weather, some storms endured, cold throughout"
+          }
+        ],
+        "summary": "A remote and rarely attempted route on Denali's northwest side approached via the Peters Glacier. True wilderness expedition mountaineering in complete isolation with no other teams or infrastructure.",
+        "imageUrl": null,
+        "technicalGrade": "AI3+ M4",
+        "commitment": "VI",
+        "approachTime": 72,
+        "descentTime": 36,
+        "basecamp": "Peters Glacier Base (5,500ft / 1,676m)",
+        "permitRequired": true,
+        "permitInfo": "$415 NPS mountaineering special use fee plus $15 recreation fee. Register at least 60 days in advance through pay.gov. Permits available starting January 1 for that year's season.",
+        "closestAirport": "Ted Stevens Anchorage International Airport (ANC)",
+        "safetyNotes": "The northwest side of Denali is the most remote aspect of the mountain with zero possibility of assistance from other teams. Serac danger is a serious objective hazard that cannot be fully mitigated. Satellite communication is absolutely critical for emergency coordination. Plan for a minimum 30-day expedition with full self-sufficiency and emergency provisions."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Rainier",
+    "routes": [
+      {
+        "name": "Liberty Ridge",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The most famous technical route on Rainier and one of the 50 classic climbs of North America. A steep and committing ice and mixed route on the north face. The Carbon Glacier approach, the narrow ridge, and the Liberty Cap Ice Cliff make this a serious and committing alpine climb.",
+        "distance": 24,
+        "elevationGain": 2900,
+        "estimatedTime": 720,
+        "season": "spring",
+        "hazards": "[\"Steep ice on ridge\",\"Carbon Glacier crevasses\",\"Liberty Cap icefall\",\"Rockfall\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "Liberty Ridge is the premier alpine route on Rainier, requires solid ice climbing skills",
+            "category": "general"
+          },
+          {
+            "content": "The Carbon Glacier approach has massive crevasses, navigate carefully",
+            "category": "safety"
+          },
+          {
+            "content": "May to early June offers the best conditions with consolidated snow",
+            "category": "timing"
+          },
+          {
+            "content": "Thumb Rock bivy site is the traditional high camp at 10760ft",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep ice on the ridge and Liberty Cap headwall",
+            "weight": "1.1kg pair",
+            "priceRange": "$500-$700",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool",
+                "price": 350
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the steep ice sections",
+            "weight": "1.6kg",
+            "priceRange": "$350-$550",
+            "specificProduct": "Black Diamond Express Ice Screw",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.moosejaw.com/product/black-diamond-express-ice-screw",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "itemName": "Pickets (4+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For snow anchors and camp protection",
+            "weight": "1.2kg",
+            "priceRange": "$100-$160",
+            "specificProduct": "Black Diamond Snow Picket 24-inch",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Snow Picket",
+                "url": "https://www.rei.com/product/750177/black-diamond-snow-picket",
+                "price": 30
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Snow Picket",
+                "url": "https://www.backcountry.com/black-diamond-snow-picket",
+                "price": 30
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Snow Picket",
+                "url": "https://www.amazon.com/dp/B001U00MH2",
+                "price": 28
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The classic Rainier alpine route",
+            "body": "Liberty Ridge is everything you want in alpine climbing. Steep ice, incredible exposure, and a summit of Rainier as the reward. The Carbon Glacier approach is wild and the ridge itself is sustained and beautiful. Topped out on Liberty Cap at sunrise. A must-do for Pacific Northwest climbers.",
+            "conditions": "Excellent ice, firm snow, clear weather window"
+          }
+        ],
+        "summary": "The premier alpine route on Mount Rainier and one of the 50 classic climbs of North America. A steep, committing ice and mixed route on the north face featuring the Carbon Glacier approach and Liberty Cap Ice Cliff.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 55-degree ice",
+        "commitment": "III",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": "Thumb Rock Bivy (10,760ft / 3,280m)",
+        "permitRequired": true,
+        "permitInfo": "$52 climbing permit (per person, per climb) plus $15 Tahoma National Park entrance fee. Permits available through recreation.gov up to 24 hours in advance. Walk-up permits may be available at ranger stations.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "The Carbon Glacier approach has massive crevasses that require careful navigation, particularly in late season. The Liberty Cap Ice Cliff presents serious serac fall danger with no way to fully mitigate the risk. Conditions on the ridge deteriorate rapidly in warm weather with increased rockfall and icefall. Carry a comprehensive crevasse rescue kit and practice self-rescue skills before attempting."
+      },
+      {
+        "name": "Kautz Glacier",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A route on the south side via the Kautz Glacier and Ice Cliff. More technical than Disappointment Cleaver with steeper ice and the impressive Kautz Ice Cliff headwall. A fine alternative to the standard routes offering more interesting glacier climbing.",
+        "distance": 22,
+        "elevationGain": 2780,
+        "estimatedTime": 600,
+        "season": "spring",
+        "hazards": "[\"Kautz Ice Cliff\",\"Crevasses\",\"Icefall\",\"Altitude\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The Kautz Ice Cliff is the crux and requires confident glacier climbing",
+            "category": "general"
+          },
+          {
+            "content": "Approach from Paradise via the Kautz Creek trail",
+            "category": "logistics"
+          },
+          {
+            "content": "Late May to June offers the best conditions for the ice cliff",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the Kautz Ice Cliff headwall",
+            "weight": "550g",
+            "priceRange": "$200-$350",
+            "specificProduct": "Petzl Summit Evo Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.rei.com/product/185432/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 190
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (6+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the ice cliff",
+            "weight": "1.2kg",
+            "priceRange": "$250-$400",
+            "specificProduct": "Black Diamond Express Ice Screw",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.amazon.com/dp/B004PLACEHOLDER",
+                "price": 50
+              }
+            ]
+          },
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Heavily crevassed glacier",
+            "weight": "2.0kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/143671/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD System",
+                "url": "https://www.backcountry.com/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl RAD System",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Better than the standard routes",
+            "body": "The Kautz Glacier offers more interesting climbing than DC or Emmons. The Ice Cliff is an exciting headwall of steep glacier ice. Fewer climbers and a more adventurous feel. A great intermediate step between the standard routes and Liberty Ridge.",
+            "conditions": "Good ice on cliff, crevasses navigable, clear weather"
+          }
+        ],
+        "summary": "A south-side route via the Kautz Glacier featuring the impressive Kautz Ice Cliff headwall. More technical than the standard Disappointment Cleaver route with engaging glacier climbing.",
+        "imageUrl": null,
+        "technicalGrade": "AI2+ 50-degree ice",
+        "commitment": "II",
+        "approachTime": 6,
+        "descentTime": 5,
+        "basecamp": "Camp Hazard (11,300ft / 3,444m)",
+        "permitRequired": true,
+        "permitInfo": "$52 climbing permit (per person, per climb) plus $15 Tahoma National Park entrance fee. Permits available through recreation.gov up to 24 hours in advance.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "The Kautz Ice Cliff is the crux and conditions change significantly throughout the season. Crevasse danger on the glacier is substantial and teams should be proficient in rescue techniques. Late-season conditions can make the ice cliff impassable due to icefall. Start early to be through the ice cliff before solar warming increases hazards."
+      },
+      {
+        "name": "Fuhrer Finger",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A couloir route on the south side named after guide Hans Fuhrer. The Finger is a prominent snow gully that provides a direct line to the upper Wilson Glacier. A classic Rainier couloir climb offering moderate steep snow in a dramatic setting.",
+        "distance": 21,
+        "elevationGain": 2780,
+        "estimatedTime": 600,
+        "season": "spring",
+        "hazards": "[\"Avalanche in couloir\",\"Rockfall\",\"Crevasses above and below\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The Finger is best climbed in spring when snow is consolidated",
+            "category": "timing"
+          },
+          {
+            "content": "Start early to be through the couloir before sun exposure increases avalanche risk",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the steep snow in the couloir",
+            "weight": "450g",
+            "priceRange": "$150-$280",
+            "specificProduct": "Petzl Summit Evo Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.rei.com/product/185432/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 190
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Firm snow and possible ice in the couloir",
+            "weight": "900g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Black Diamond Contact Strap Crampon",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Contact Strap Crampon",
+                "url": "https://www.rei.com/product/112345/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.backcountry.com/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.amazon.com/dp/B003PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A fun Rainier couloir",
+            "body": "Fuhrer Finger is a great moderate steep snow climb. The couloir is well-defined and the climbing is sustained but never desperate. A nice alternative to the crowded standard routes. The name always gets a chuckle.",
+            "conditions": "Consolidated spring snow, cold start, clear morning"
+          }
+        ],
+        "summary": "A classic south-side couloir route named after guide Hans Fuhrer, providing a direct line to the upper Wilson Glacier. Offers moderate steep snow climbing in a dramatic setting as an alternative to the standard routes.",
+        "imageUrl": null,
+        "technicalGrade": "AI1 40-45 degree snow",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Paradise (5,400ft / 1,646m)",
+        "permitRequired": true,
+        "permitInfo": "$52 climbing permit (per person, per climb) plus $15 Tahoma National Park entrance fee. Permits available through recreation.gov up to 24 hours in advance.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "Avalanche danger in the couloir is the primary concern, particularly during warming trends or after new snow. Rockfall increases significantly as the day warms, so an alpine start is critical. The bergschrund at the top of the couloir can be impassable in late season. Always check the Northwest Avalanche Center forecast before climbing."
+      },
+      {
+        "name": "Tahoma Glacier",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A remote and serious glacier route on the west side of Rainier. The Tahoma Glacier is heavily crevassed and the headwall requires steep ice climbing. Fewer climbers and a wilder feel than the south and east side routes. One of the more committing routes on the mountain.",
+        "distance": 26,
+        "elevationGain": 2900,
+        "estimatedTime": 720,
+        "season": "spring",
+        "hazards": "[\"Massive crevasses\",\"Icefall headwall\",\"Remote west side\",\"Whiteout navigation\",\"Avalanche\"]",
+        "tips": [
+          {
+            "content": "The Tahoma Glacier has some of the largest crevasses on Rainier",
+            "category": "safety"
+          },
+          {
+            "content": "The west side is remote and sees much less traffic than the south or east",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit (full)",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Massive crevasses require thorough rescue capability",
+            "weight": "2.5kg",
+            "priceRange": "$250-$450",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/143671/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD System",
+                "url": "https://www.backcountry.com/petzl-rad-system",
+                "price": 190
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl RAD System",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          },
+          {
+            "itemName": "Ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the headwall ice climbing",
+            "weight": "550g",
+            "priceRange": "$200-$350",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151448/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.backcountry.com/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.moosejaw.com/product/petzl-quark-ice-axe",
+                "price": 280
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Wild west side of Rainier",
+            "body": "The Tahoma Glacier is Rainier at its most remote and serious. The crevasses are enormous and the headwall is steep. We had the entire route to ourselves. For those who want a real mountaineering experience on Rainier, this is it.",
+            "conditions": "Large but navigable crevasses, good ice on headwall, clear"
+          }
+        ],
+        "summary": "A remote and serious glacier route on Rainier's west side with massive crevasses and a steep headwall. Offers a wilder, more committed mountaineering experience than the popular south and east routes.",
+        "imageUrl": null,
+        "technicalGrade": "AI2+ 50-degree ice",
+        "commitment": "III",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": "Tahoma Glacier Camp (9,000ft / 2,743m)",
+        "permitRequired": true,
+        "permitInfo": "$52 climbing permit (per person, per climb) plus $15 Tahoma National Park entrance fee. Permits available through recreation.gov up to 24 hours in advance.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "The Tahoma Glacier has some of the largest crevasses on the mountain, requiring exceptional glacier navigation skills. The west side is remote with minimal traffic, meaning rescue response times are significantly longer. The headwall has serious icefall hazard particularly during warm periods. Carry a satellite communicator as cell service is nonexistent on the west side."
+      },
+      {
+        "name": "Ptarmigan Ridge",
+        "difficulty": "D-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A technical ridge route on the northwest side approaching from the Mowich Face area. The ridge involves mixed climbing, steep ice, and exposed traverses. One of the more technical routes on Rainier offering sustained alpine climbing in a remote setting.",
+        "distance": 24,
+        "elevationGain": 2800,
+        "estimatedTime": 720,
+        "season": "spring",
+        "hazards": "[\"Mixed technical terrain\",\"Exposed traverses\",\"Icefall hazard\",\"Remote approach\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "Ptarmigan Ridge is one of the more technical routes on Rainier",
+            "category": "general"
+          },
+          {
+            "content": "The approach from Mowich Lake adds distance but accesses a wilder side of the mountain",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Mixed climbing rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rock and ice protection for the ridge",
+            "weight": "3.5kg",
+            "priceRange": "$600-$1,200",
+            "specificProduct": "Black Diamond Mixed Rack with Camalots and Screws",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Stopper Set",
+                "url": "https://www.moosejaw.com/product/black-diamond-stopper-set",
+                "price": 85
+              }
+            ]
+          },
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical mixed terrain on the ridge",
+            "weight": "1.1kg pair",
+            "priceRange": "$500-$700",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool",
+                "price": 350
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Technical Rainier climbing",
+            "body": "Ptarmigan Ridge is a step into real alpine terrain on Rainier. Mixed climbing, steep ice, and exposed ridge walking. The northwest side is quiet and beautiful. For teams ready to move beyond the standard glacier routes. A mini-Alaska experience in Washington.",
+            "conditions": "Good mixed conditions, some ice, light wind on ridge"
+          }
+        ],
+        "summary": "A technical ridge route on Rainier's northwest side involving mixed climbing, steep ice, and exposed traverses. One of the more technical routes on the mountain with a remote, wilderness character.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 M3 5.6",
+        "commitment": "III",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": "Mowich Lake Camp (4,929ft / 1,502m)",
+        "permitRequired": true,
+        "permitInfo": "$52 climbing permit (per person, per climb) plus $15 Tahoma National Park entrance fee. Permits available through recreation.gov up to 24 hours in advance.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "Ptarmigan Ridge involves sustained technical terrain at altitude with significant exposure on the traverses. The northwest side receives heavy precipitation and conditions can deteriorate rapidly. Icefall hazard from above is a constant concern on portions of the route. Teams should be proficient in mixed climbing and comfortable with exposed ridge travel."
+      }
+    ]
+  },
+  {
+    "peakName": "Grand Teton",
+    "routes": [
+      {
+        "name": "Exum Ridge (Complete)",
+        "difficulty": "5.7",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The most classic rock climb in the Tetons and one of the most famous alpine rock routes in North America. First climbed by Glenn Exum solo in 1931. The complete ridge from Wall Street to the summit involves sustained 5th class rock climbing on excellent Teton gneiss with incredible exposure.",
+        "distance": 20,
+        "elevationGain": 2130,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Exposed multi-pitch rock climbing\",\"Afternoon thunderstorms\",\"Rockfall\",\"Route-finding\",\"Snow on approach early season\"]",
+        "tips": [
+          {
+            "content": "The Wind Tunnel pitch at 5.7 is the crux with excellent exposure",
+            "category": "general"
+          },
+          {
+            "content": "Bivy at the Lower Saddle and start before dawn for the best conditions",
+            "category": "timing"
+          },
+          {
+            "content": "August offers the driest rock and most reliable conditions",
+            "category": "timing"
+          },
+          {
+            "content": "Can be combined with a descent via Owen-Spalding for a different experience",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "60m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Multi-pitch rock climbing with rappels on descent",
+            "weight": "3.8kg",
+            "priceRange": "$200-$350",
+            "specificProduct": "Sterling Velocity 9.8mm 60m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Sterling Velocity 9.8mm Dry Rope",
+                "url": "https://www.rei.com/product/177453/sterling-velocity-98mm-dry-rope-60m",
+                "price": 250
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Sterling Velocity 9.8mm",
+                "url": "https://www.backcountry.com/sterling-velocity-9.8mm-rope",
+                "price": 250
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Sterling Velocity 9.8mm 60m",
+                "url": "https://www.amazon.com/dp/B08PLACEHOLDER",
+                "price": 235
+              }
+            ]
+          },
+          {
+            "itemName": "Trad rack (0.3 to #3 cams)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Full trad rack for the sustained pitches",
+            "weight": "3.2kg",
+            "priceRange": "$400-$700",
+            "specificProduct": "Black Diamond Camalot C4 0.3-3 Set",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4-set",
+                "price": 450
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-set",
+                "price": 450
+              }
+            ]
+          },
+          {
+            "itemName": "Approach shoes or rock shoes",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "Good friction footwear essential for the Teton gneiss",
+            "weight": "750g pair",
+            "priceRange": "$100-$200",
+            "specificProduct": "La Sportiva TX4 Approach Shoe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "La Sportiva TX4 Approach Shoe",
+                "url": "https://www.rei.com/product/158340/la-sportiva-tx4-approach-shoes-mens",
+                "price": 165
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "La Sportiva TX4",
+                "url": "https://www.backcountry.com/la-sportiva-tx4-approach-shoe",
+                "price": 165
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "La Sportiva TX4",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 155
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest rock route in the Tetons",
+            "body": "The Exum Ridge is alpine rock climbing at its absolute best. Pitch after pitch of clean granite with exposure over thousands of feet of air. Glenn Exum soloing this in 1931 in cowboy boots was extraordinary. The summit of the Grand after the Exum is pure euphoria.",
+            "conditions": "Dry rock, clear morning, afternoon clouds building"
+          }
+        ],
+        "summary": "The most famous alpine rock route in the Tetons, first soloed by Glenn Exum in 1931. Sustained multi-pitch climbing on superb Teton gneiss with incredible exposure, culminating on the 13,775ft summit.",
+        "imageUrl": null,
+        "technicalGrade": "5.7",
+        "commitment": "III",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Lower Saddle (11,600ft / 3,536m)",
+        "permitRequired": true,
+        "permitInfo": "Free backcountry camping permit required. Available first-come, first-served at the Craig Thomas Discovery & Visitor Center in Moose, WY, or online at recreation.gov. Apply up to one day in advance for in-person; permits for the Lower Saddle go quickly in summer.",
+        "closestAirport": "Jackson Hole Airport (JAC)",
+        "safetyNotes": "Afternoon thunderstorms build rapidly in the Tetons and the summit is no place to be during lightning. An alpine start from the Lower Saddle is essential to be off the exposed upper mountain by early afternoon. The Owen-Spalding descent involves rappels on terrain that can be icy early season. Rockfall from parties above is a concern on busy summer weekends."
+      },
+      {
+        "name": "North Ridge",
+        "difficulty": "5.8",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "A long and serious ridge route approaching from the north via the Teton Glacier. More committing and remote than the standard routes with sustained technical climbing. The ridge offers varied rock climbing with a wild Alpine character.",
+        "distance": 22,
+        "elevationGain": 2200,
+        "estimatedTime": 780,
+        "season": "summer",
+        "hazards": "[\"Long committing route\",\"Technical rock climbing\",\"Glacier approach\",\"Weather exposure\",\"Route-finding\"]",
+        "tips": [
+          {
+            "content": "The North Ridge is more committing than Exum or Owen-Spalding with harder retreat options",
+            "category": "general"
+          },
+          {
+            "content": "Approach via the Teton Glacier adds glacier travel skills to the requirements",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full trad rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical rock climbing requires comprehensive protection",
+            "weight": "4.0kg",
+            "priceRange": "$500-$900",
+            "specificProduct": "Black Diamond Camalot C4 Complete Rack",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Stopper Set",
+                "url": "https://www.backcountry.com/black-diamond-stopper-set",
+                "price": 85
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-set",
+                "price": 450
+              }
+            ]
+          },
+          {
+            "itemName": "Glacier travel kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons and axe for the glacier approach",
+            "weight": "2.5kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Leopard LLF Crampon + Summit Evo Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Leopard LLF Crampon",
+                "url": "https://www.rei.com/product/131253/petzl-leopard-llf-crampon",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Leopard LLF",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 180
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The Grand from the wild side",
+            "body": "The North Ridge of the Grand Teton is a true alpine rock route. The glacier approach adds seriousness and the ridge climbing is sustained. Far less traffic than Exum or Owen-Spalding. A route that rewards alpine experience.",
+            "conditions": "Dry rock on ridge, glacier in good condition, clear weather"
+          }
+        ],
+        "summary": "A long and committing ridge route approaching from the north via the Teton Glacier. More serious and remote than the standard routes with sustained technical climbing and a wild alpine character.",
+        "imageUrl": null,
+        "technicalGrade": "5.8",
+        "commitment": "III",
+        "approachTime": 7,
+        "descentTime": 5,
+        "basecamp": "North Fork Camping Zone (9,200ft / 2,804m)",
+        "permitRequired": true,
+        "permitInfo": "Free backcountry camping permit required. Available first-come, first-served at the Craig Thomas Discovery & Visitor Center in Moose, WY, or online at recreation.gov.",
+        "closestAirport": "Jackson Hole Airport (JAC)",
+        "safetyNotes": "The North Ridge is more committing than the Exum with limited retreat options once established on the ridge. The Teton Glacier approach requires glacier travel skills and crevasse awareness. Route-finding is more complex than on the standard routes and can be time-consuming. Afternoon weather moves in quickly and the ridge is fully exposed to storms."
+      },
+      {
+        "name": "Black Ice Couloir",
+        "difficulty": "5.8 AI4",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "A steep ice and mixed route on the east face of the Grand Teton. The couloir offers sustained water ice and thin mixed climbing in an exposed setting. One of the most coveted ice climbs in the Tetons, formed by meltwater from the Teton Glacier.",
+        "distance": 18,
+        "elevationGain": 2000,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Steep water ice\",\"Rockfall\",\"Thin mixed climbing\",\"Approach glacier\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The couloir forms best in late July to August when meltwater creates the ice",
+            "category": "timing"
+          },
+          {
+            "content": "Early morning start essential as the couloir gets sun and ice deteriorates",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep sustained water ice climbing",
+            "weight": "1.1kg pair",
+            "priceRange": "$500-$700",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool",
+                "price": 350
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (10+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on sustained ice pitches",
+            "weight": "2.0kg",
+            "priceRange": "$450-$700",
+            "specificProduct": "Black Diamond Express Ice Screw",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Laser Speed Light",
+                "url": "https://www.backcountry.com/petzl-laser-speed-light-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.moosejaw.com/product/black-diamond-express-ice-screw",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "itemName": "Mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Thin mixed sections require rock and ice protection",
+            "weight": "3.0kg",
+            "priceRange": "$400-$800",
+            "specificProduct": "Black Diamond Mixed Rack with Cams and Screws",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Stopper Set",
+                "url": "https://www.backcountry.com/black-diamond-stopper-set",
+                "price": 85
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Camalot C4",
+                "url": "https://www.amazon.com/dp/B08PLACEHOLDER",
+                "price": 80
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Premier Teton ice climb",
+            "body": "Black Ice Couloir is an incredible ice climbing experience. Sustained steep ice in a dramatic couloir setting on the east face of the Grand. The ice quality was excellent and the pitches were engaging. Topped out on the summit after climbing ice all day. An unforgettable route.",
+            "conditions": "Good ice formation, cold start, clear skies"
+          }
+        ],
+        "summary": "A coveted steep ice and mixed route on the Grand Teton's east face, formed by meltwater from the Teton Glacier. Offers sustained water ice pitches in a dramatic alpine setting during a narrow seasonal window.",
+        "imageUrl": null,
+        "technicalGrade": "5.8 AI4 WI4",
+        "commitment": "III",
+        "approachTime": 6,
+        "descentTime": 5,
+        "basecamp": "Lower Saddle (11,600ft / 3,536m)",
+        "permitRequired": true,
+        "permitInfo": "Free backcountry camping permit required. Available first-come, first-served at the Craig Thomas Discovery & Visitor Center in Moose, WY, or online at recreation.gov.",
+        "closestAirport": "Jackson Hole Airport (JAC)",
+        "safetyNotes": "The couloir is subject to rockfall especially as the day warms and ice deteriorates. Ice conditions are highly variable and the route may not form adequately in dry years. The seasonal window is narrow, typically late July through August. An early start is critical to be through the couloir before direct sun hits the east face."
+      },
+      {
+        "name": "Direct South Buttress",
+        "difficulty": "5.8",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "A direct line up the south buttress offering sustained rock climbing on clean granite. The route follows crack systems and face climbing on the massive south face. One of the longer rock routes on the Grand with excellent rock quality throughout.",
+        "distance": 20,
+        "elevationGain": 2100,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Multi-pitch sustained climbing\",\"Route-finding\",\"Afternoon storms\",\"Exposure\"]",
+        "tips": [
+          {
+            "content": "The Direct South Buttress offers sustained moderate climbing on excellent rock",
+            "category": "general"
+          },
+          {
+            "content": "Plan for a full day with early start to avoid afternoon weather",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double rack of cams (0.3 to #3)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained crack climbing requires extra gear",
+            "weight": "5.0kg",
+            "priceRange": "$700-$1,100",
+            "specificProduct": "Black Diamond Camalot C4 Double Set",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4-set",
+                "price": 450
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-individual",
+                "price": 85
+              }
+            ]
+          },
+          {
+            "itemName": "60m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the multi-pitch climbing and rappels",
+            "weight": "3.8kg",
+            "priceRange": "$200-$350",
+            "specificProduct": "Sterling Velocity 9.8mm 60m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Sterling Velocity 9.8mm Dry Rope",
+                "url": "https://www.rei.com/product/177453/sterling-velocity-98mm-dry-rope-60m",
+                "price": 250
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Sterling Velocity 9.8mm",
+                "url": "https://www.backcountry.com/sterling-velocity-9.8mm-rope",
+                "price": 250
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Sterling Velocity 9.8mm 60m",
+                "url": "https://www.amazon.com/dp/B08PLACEHOLDER",
+                "price": 235
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Sustained Teton granite",
+            "body": "The Direct South Buttress is pitch after pitch of clean crack climbing. The rock quality is superb and the position is incredible. A longer and more sustained day than the Exum but equally rewarding. Teton climbing at its best.",
+            "conditions": "Perfect dry rock, clear morning, light afternoon clouds"
+          }
+        ],
+        "summary": "A sustained multi-pitch rock route following crack systems and face climbing on the Grand Teton's massive south face. One of the longer rock routes on the peak with excellent granite quality throughout.",
+        "imageUrl": null,
+        "technicalGrade": "5.8",
+        "commitment": "III",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Lower Saddle (11,600ft / 3,536m)",
+        "permitRequired": true,
+        "permitInfo": "Free backcountry camping permit required. Available first-come, first-served at the Craig Thomas Discovery & Visitor Center in Moose, WY, or online at recreation.gov.",
+        "closestAirport": "Jackson Hole Airport (JAC)",
+        "safetyNotes": "The sustained nature of the route means teams must move efficiently to avoid being caught by afternoon weather. Retreat from the upper buttress is complex and time-consuming. Rockfall from other parties is possible on busy days. Carry adequate water as there is none available on the route."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Hood",
+    "routes": [
+      {
+        "name": "Leuthold Couloir",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A classic couloir route on the west side of Hood accessed from the Illumination Saddle. The couloir offers moderate steep snow and ice climbing in a beautiful setting. Less crowded than the south side and considered by many to be a finer climbing experience.",
+        "distance": 15,
+        "elevationGain": 1600,
+        "estimatedTime": 480,
+        "season": "spring",
+        "hazards": "[\"Avalanche in couloir\",\"Rockfall\",\"Crevasses on Reid Glacier\",\"Bergschrund\"]",
+        "tips": [
+          {
+            "content": "Access via the Illumination Saddle from Timberline Lodge",
+            "category": "logistics"
+          },
+          {
+            "content": "The couloir is best in late spring when snow is consolidated",
+            "category": "timing"
+          },
+          {
+            "content": "Less crowded and more aesthetic than the standard South Side route",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the couloir steep snow",
+            "weight": "450g",
+            "priceRange": "$150-$280",
+            "specificProduct": "Petzl Summit Evo Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.rei.com/product/185432/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 190
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the couloir and glacier travel",
+            "weight": "900g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Black Diamond Contact Strap Crampon",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Contact Strap Crampon",
+                "url": "https://www.rei.com/product/112345/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.backcountry.com/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.amazon.com/dp/B003PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall in the couloir",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Vision Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.rei.com/product/157437/black-diamond-vision-climbing-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Vision",
+                "url": "https://www.backcountry.com/black-diamond-vision-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 90
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The best way up Hood",
+            "body": "Leuthold Couloir is a much better climb than the crowded South Side. The couloir is aesthetic and the climbing is engaging. The Reid Glacier approach adds adventure. A true Cascades classic that every PNW climber should do.",
+            "conditions": "Consolidated spring snow, clear morning, bergschrund passable"
+          }
+        ],
+        "summary": "A classic west-side couloir route accessed via Illumination Saddle, offering moderate steep snow and ice climbing. Less crowded and considered a finer climbing experience than the standard South Side route.",
+        "imageUrl": null,
+        "technicalGrade": "AI2 40-45 degree snow/ice",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Timberline Lodge (5,960ft / 1,817m)",
+        "permitRequired": true,
+        "permitInfo": "Free wilderness permit required year-round (self-issue at trailhead). A $5/day Sno-Park permit is required for parking at Timberline Lodge from November through April. Climber registration is mandatory.",
+        "closestAirport": "Portland International Airport (PDX)",
+        "safetyNotes": "Avalanche danger in the couloir increases significantly with solar warming, making an early start essential. The Reid Glacier approach has crevasses that become more exposed as the season progresses. The bergschrund at the top of the couloir can be impassable in late season. Check the Northwest Avalanche Center forecast before every climb."
+      },
+      {
+        "name": "Cooper Spur",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A route on the northeast side via the Cooper Spur ridge and upper Eliot Glacier headwall. Steeper and more serious than the south side with exposed ridge climbing and steep ice on the headwall. The northeast side offers stunning views of the Eliot Glacier.",
+        "distance": 13,
+        "elevationGain": 1650,
+        "estimatedTime": 540,
+        "season": "spring",
+        "hazards": "[\"Steep headwall ice\",\"Rockfall\",\"Exposed ridge\",\"Crevasses on Eliot Glacier\"]",
+        "tips": [
+          {
+            "content": "Cooper Spur is steeper and more committing than the standard route",
+            "category": "general"
+          },
+          {
+            "content": "The Eliot Glacier headwall can be very icy, strong crampon technique required",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The headwall can be steep hard ice",
+            "weight": "1.0kg pair",
+            "priceRange": "$400-$600",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151448/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.backcountry.com/petzl-quark-ice-axe",
+                "price": 280
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.moosejaw.com/product/petzl-quark-ice-axe",
+                "price": 280
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (4+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For protection on the headwall",
+            "weight": "800g",
+            "priceRange": "$180-$280",
+            "specificProduct": "Black Diamond Express Ice Screw",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.backcountry.com/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.amazon.com/dp/B004PLACEHOLDER",
+                "price": 50
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Hood from the north",
+            "body": "Cooper Spur offers a much more alpine experience than the tourist route from Timberline. The Eliot Glacier headwall was steep and icy and required actual ice climbing. The views from the spur over the glacier are stunning. A proper mountaineering route.",
+            "conditions": "Hard ice on headwall, clear weather, cold"
+          }
+        ],
+        "summary": "A northeast-side route via Cooper Spur ridge and the Eliot Glacier headwall. Steeper and more serious than the south side with exposed ridge climbing and potentially hard ice on the headwall.",
+        "imageUrl": null,
+        "technicalGrade": "AI2+ 45-50 degree ice",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Cloud Cap Inn (5,900ft / 1,798m)",
+        "permitRequired": true,
+        "permitInfo": "Free wilderness permit required year-round (self-issue at trailhead). Climber registration is mandatory. The road to Cloud Cap Inn is rough and may require high-clearance vehicle.",
+        "closestAirport": "Portland International Airport (PDX)",
+        "safetyNotes": "The Eliot Glacier headwall can be extremely icy, particularly in late season, requiring confident crampon technique. Rockfall from the unstable upper mountain is a serious hazard, especially in warm conditions. The northeast side sees less traffic so rescue response may be slower. Cooper Spur road access may be limited by snow until late spring."
+      },
+      {
+        "name": "Sandy Glacier Headwall",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steep and technical route on the west side climbing through the Sandy Glacier headwall. Involves sustained steep ice and mixed climbing with serious objective hazards. One of the more technical routes on Hood requiring strong ice climbing skills.",
+        "distance": 14,
+        "elevationGain": 1700,
+        "estimatedTime": 600,
+        "season": "spring",
+        "hazards": "[\"Steep sustained ice\",\"Rockfall\",\"Icefall hazard\",\"Crevasses\",\"Complex route-finding\"]",
+        "tips": [
+          {
+            "content": "The Sandy Glacier Headwall is one of the more serious routes on Hood",
+            "category": "general"
+          },
+          {
+            "content": "Conditions change rapidly, check with local guides before attempting",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained steep ice climbing",
+            "weight": "1.1kg pair",
+            "priceRange": "$500-$700",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 350
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.moosejaw.com/product/petzl-nomic-ice-tool",
+                "price": 350
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Multi-pitch ice requires adequate protection",
+            "weight": "1.6kg",
+            "priceRange": "$350-$550",
+            "specificProduct": "Black Diamond Express Ice Screw",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.rei.com/product/112363/black-diamond-express-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Laser Speed Light",
+                "url": "https://www.backcountry.com/petzl-laser-speed-light-ice-screw",
+                "price": 55
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Express Ice Screw",
+                "url": "https://www.moosejaw.com/product/black-diamond-express-ice-screw",
+                "price": 55
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Serious Hood ice climbing",
+            "body": "The Sandy Glacier Headwall is Hood at its most technical. Multiple pitches of steep ice through the headwall with rockfall threat. A far cry from the crowded South Side slog. For experienced ice climbers only.",
+            "conditions": "Good ice, early season conditions, cold and clear"
+          }
+        ],
+        "summary": "A steep and technical west-side route through the Sandy Glacier headwall involving sustained ice and mixed climbing. One of the more demanding routes on Hood requiring strong ice climbing skills.",
+        "imageUrl": null,
+        "technicalGrade": "AI3 WI3+ 50-60 degree ice",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 3,
+        "basecamp": "Top Spur Trailhead (3,800ft / 1,158m)",
+        "permitRequired": true,
+        "permitInfo": "Free wilderness permit required year-round (self-issue at trailhead). Climber registration is mandatory. A Northwest Forest Pass is required for trailhead parking.",
+        "closestAirport": "Portland International Airport (PDX)",
+        "safetyNotes": "Icefall hazard from the headwall is a serious and unpredictable danger. Conditions change rapidly and the route can go from climbable to dangerous within days. Route-finding through the headwall is complex and errors can lead to dead-end gullies. This route should only be attempted by experienced ice climbers with current conditions information from local guides."
+      }
+    ]
+  },
+  {
+    "peakName": "Longs Peak",
+    "routes": [
+      {
+        "name": "The Diamond (Casual Route)",
+        "difficulty": "5.10",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The Diamond is the sheer east face of Longs Peak, one of the most iconic big walls in American alpine climbing. The Casual Route at 5.10 is the most popular line on the Diamond offering 8 pitches of sustained crack climbing on the 300m vertical wall. A bucket list route for any American rock climber.",
+        "distance": 24,
+        "elevationGain": 1490,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Multi-pitch technical rock climbing\",\"Afternoon lightning\",\"Rockfall\",\"Altitude at 14000ft\",\"Long approach\"]",
+        "tips": [
+          {
+            "content": "Start the approach at midnight to be on the wall by first light",
+            "category": "timing"
+          },
+          {
+            "content": "The Diamond permit system requires registration with Rocky Mountain National Park",
+            "category": "logistics"
+          },
+          {
+            "content": "Be off the summit by noon to avoid afternoon thunderstorms",
+            "category": "safety"
+          },
+          {
+            "content": "The crux pitch has excellent finger cracks in clean granite",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Double rack of cams (0.3 to #4)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained crack climbing requires double cams",
+            "weight": "5.5kg",
+            "priceRange": "$800-$1,200",
+            "specificProduct": "Black Diamond Camalot C4 Double Set 0.3-4",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 #4",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4-4",
+                "price": 100
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4",
+                "price": 85
+              }
+            ]
+          },
+          {
+            "itemName": "60m rope (2 half ropes recommended)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the multi-pitch climbing and rappel descent",
+            "weight": "5.0kg pair",
+            "priceRange": "$350-$550",
+            "specificProduct": "Sterling Nano IX 9.0mm Half Rope (pair)",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Sterling Nano IX 9.0mm Half Rope",
+                "url": "https://www.rei.com/product/177456/sterling-nano-ix-90mm-half-rope-60m",
+                "price": 225
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Mammut 8.0 Phoenix Dry Half Rope",
+                "url": "https://www.backcountry.com/mammut-8.0-phoenix-dry-half-rope",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Sterling Nano IX Half Rope",
+                "url": "https://www.amazon.com/dp/B09PLACEHOLDER",
+                "price": 210
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall from above is a constant threat",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Vision Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.rei.com/product/157437/black-diamond-vision-climbing-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Vision",
+                "url": "https://www.backcountry.com/black-diamond-vision-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 90
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "American alpine rock at its finest",
+            "body": "The Diamond is a stunning piece of rock and the Casual Route is the perfect introduction. Eight pitches of sustained crack climbing on a vertical wall at 14000 feet. The exposure is incredible and the climbing is world class. There is nothing casual about the Casual Route.",
+            "conditions": "Dry rock, clear morning, afternoon clouds building"
+          }
+        ],
+        "summary": "The Diamond is the sheer 300-meter east face of Longs Peak, and the Casual Route at 5.10 is its most popular line. Eight pitches of sustained crack climbing on one of the most iconic big walls in American alpine rock climbing.",
+        "imageUrl": null,
+        "technicalGrade": "5.10a",
+        "commitment": "III",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Longs Peak Trailhead (9,405ft / 2,867m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required for day climbs. Overnight camping in Rocky Mountain National Park requires a wilderness camping permit ($30/group). The Diamond requires bivouac registration at the ranger station. Timed entry reservations may be required for the Bear Lake corridor in summer.",
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "Afternoon lightning on Longs Peak is extremely dangerous and has caused fatalities; plan to summit by noon. The 4-hour approach means a midnight start is typical, adding fatigue to the equation. Rockfall from above is a constant threat on the east face. Altitude at 14,000ft can impair performance on sustained technical climbing."
+      },
+      {
+        "name": "Loft Route",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A scramble route via The Loft, a broad couloir between Longs Peak and Mount Meeker. Involves Class 3 scrambling and a traverse across the Loft snowfield. Less exposed than the Keyhole Route but longer and more remote. A good alternative for experienced scramblers.",
+        "distance": 22,
+        "elevationGain": 1490,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Class 3 scrambling\",\"Snow in Loft Couloir\",\"Rockfall\",\"Route-finding\",\"Lightning\"]",
+        "tips": [
+          {
+            "content": "The Loft can hold snow well into summer, microspikes may be needed",
+            "category": "general"
+          },
+          {
+            "content": "Less traffic than the Keyhole but route-finding requires more attention",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Microspikes",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "For the Loft snowfield if snow is present",
+            "weight": "340g",
+            "priceRange": "$30-$50",
+            "specificProduct": "Kahtoola MICROspikes",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Kahtoola MICROspikes Traction System",
+                "url": "https://www.rei.com/product/890608/kahtoola-microspikes-traction-system",
+                "price": 40
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Kahtoola MICROspikes",
+                "url": "https://www.backcountry.com/kahtoola-microspikes-traction-system",
+                "price": 40
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Kahtoola MICROspikes",
+                "url": "https://www.amazon.com/dp/B003PLACEHOLDER",
+                "price": 36
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall risk in the couloir",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Half Dome Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Half Dome Helmet",
+                "url": "https://www.rei.com/product/128941/black-diamond-half-dome-climbing-helmet",
+                "price": 60
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Half Dome",
+                "url": "https://www.backcountry.com/black-diamond-half-dome-helmet",
+                "price": 60
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Half Dome",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 55
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Longs Peak without the Keyhole crowds",
+            "body": "The Loft Route is a fine alternative to the packed Keyhole Route. The scrambling is engaging and the traverse across the Loft snowfield is fun. Route-finding requires more attention but that keeps it interesting. A great option for those who know what they are doing.",
+            "conditions": "Some snow in Loft, dry rock on scramble, clear morning"
+          }
+        ],
+        "summary": "An alternative scramble route via The Loft between Longs Peak and Mount Meeker. Involves Class 3 scrambling and a traverse across the Loft snowfield with less exposure than the Keyhole Route.",
+        "imageUrl": null,
+        "technicalGrade": "Class 3",
+        "commitment": "I",
+        "approachTime": 3.5,
+        "descentTime": 3,
+        "basecamp": "Longs Peak Trailhead (9,405ft / 2,867m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required for day hikes. Timed entry reservations may be required for Rocky Mountain National Park in summer. Overnight camping requires a wilderness camping permit ($30/group).",
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "The Loft snowfield can hold hard snow well into summer, making microspikes or crampons necessary. Route-finding is more challenging than the Keyhole Route, particularly in poor visibility. Lightning risk above treeline is severe in afternoon hours. The scramble sections have loose rock and a slip on the wrong terrain could be fatal."
+      },
+      {
+        "name": "Kieners Route",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A route via Lambs Slide couloir and the Broadway ledge system on the east face below the Diamond. Involves steep snow climbing in Lambs Slide followed by a traverse across Broadway to the Notch Couloir finish. A varied and interesting route combining snow, scrambling, and alpine terrain.",
+        "distance": 24,
+        "elevationGain": 1490,
+        "estimatedTime": 660,
+        "season": "spring",
+        "hazards": "[\"Steep snow in Lambs Slide\",\"Exposure on Broadway\",\"Rockfall\",\"Altitude\",\"Lightning\"]",
+        "tips": [
+          {
+            "content": "Lambs Slide is steep and can be icy, an ice axe and crampons are essential",
+            "category": "general"
+          },
+          {
+            "content": "Best in late spring when Lambs Slide has consolidated snow",
+            "category": "timing"
+          },
+          {
+            "content": "The Broadway traverse below the Diamond is exposed and memorable",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for the steep Lambs Slide couloir",
+            "weight": "450g",
+            "priceRange": "$150-$280",
+            "specificProduct": "Petzl Summit Evo Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.rei.com/product/185432/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 190
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "The slide can be hard ice in early morning",
+            "weight": "900g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Black Diamond Contact Strap Crampon",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Contact Strap Crampon",
+                "url": "https://www.rei.com/product/112345/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.backcountry.com/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.amazon.com/dp/B003PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall from the Diamond above Broadway",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Vision Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.rei.com/product/157437/black-diamond-vision-climbing-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Vision",
+                "url": "https://www.backcountry.com/black-diamond-vision-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 90
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The complete Longs Peak experience",
+            "body": "Kieners Route has it all: steep snow climbing, an incredible traverse below the Diamond, and a summit finish. Lambs Slide in spring conditions was exhilarating. Walking across Broadway with the Diamond towering above is humbling. A fantastic way to climb Longs Peak.",
+            "conditions": "Good spring snow in Lambs Slide, dry Broadway traverse, clear weather"
+          }
+        ],
+        "summary": "A varied route combining steep snow climbing in Lambs Slide with an exposed traverse across Broadway beneath the Diamond. One of the finest mountaineering routes on Longs Peak blending snow, scrambling, and alpine terrain.",
+        "imageUrl": null,
+        "technicalGrade": "Class 4, steep snow to 50 degrees",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Longs Peak Trailhead (9,405ft / 2,867m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required for day climbs. Timed entry reservations may be required for Rocky Mountain National Park in summer. Overnight camping requires a wilderness camping permit ($30/group).",
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "Lambs Slide can be extremely icy in early morning and a fall without self-arrest skills would be catastrophic. Rockfall from the Diamond above Broadway is a constant hazard. The route is best in late spring when snow is consolidated but before summer melts expose loose rock. Afternoon lightning is a serious threat and the Broadway traverse offers no shelter."
+      },
+      {
+        "name": "Notch Couloir",
+        "difficulty": "Class 3-4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A direct couloir route to the summit via a prominent notch on the north face. The couloir involves steep snow and ice in winter/spring conditions or Class 3-4 rock scrambling when dry. A direct and aesthetic line that avoids the crowded Keyhole Route.",
+        "distance": 22,
+        "elevationGain": 1490,
+        "estimatedTime": 600,
+        "season": "spring",
+        "hazards": "[\"Steep snow or ice in couloir\",\"Rockfall\",\"Altitude\",\"Route-finding\"]",
+        "tips": [
+          {
+            "content": "In spring the couloir is a steep snow climb, in summer it becomes a loose rock scramble",
+            "category": "general"
+          },
+          {
+            "content": "Spring snow conditions make this route more enjoyable and safer than summer",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the steep snow couloir in spring",
+            "weight": "450g",
+            "priceRange": "$150-$280",
+            "specificProduct": "Petzl Summit Evo Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.rei.com/product/185432/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Summit Evo",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 190
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Hard snow and possible ice in the couloir",
+            "weight": "900g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Black Diamond Contact Strap Crampon",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Contact Strap Crampon",
+                "url": "https://www.rei.com/product/112345/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.backcountry.com/black-diamond-contact-strap-crampon",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Contact Strap",
+                "url": "https://www.amazon.com/dp/B003PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Direct line to the summit",
+            "body": "The Notch Couloir is a satisfyingly direct way up Longs Peak. In spring conditions the snow climbing is excellent and the couloir is well-defined. Emerged at the notch near the summit with a few easy moves to the top. Much more enjoyable than the Keyhole scrum.",
+            "conditions": "Consolidated spring snow, cold start, clear skies"
+          }
+        ],
+        "summary": "A direct couloir route to the summit via a prominent notch on the north face. In spring it offers excellent steep snow climbing; in summer it becomes a loose rock scramble best avoided.",
+        "imageUrl": null,
+        "technicalGrade": "Class 3-4, snow to 45 degrees",
+        "commitment": "II",
+        "approachTime": 3.5,
+        "descentTime": 3,
+        "basecamp": "Longs Peak Trailhead (9,405ft / 2,867m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required for day climbs. Timed entry reservations may be required for Rocky Mountain National Park in summer. Overnight camping requires a wilderness camping permit ($30/group).",
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "In spring conditions, avalanche assessment skills are critical as the couloir can slide after storms or warming. In summer the couloir becomes extremely loose and rockfall from above is nearly constant. A helmet is essential regardless of season. The couloir funnels debris and a party above you significantly increases objective hazard."
+      }
+    ]
+  },
+  {
+    "peakName": "Capitol Peak",
+    "routes": [
+      {
+        "name": "Northeast Ridge (Knife Edge)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Colorado's most difficult fourteener featuring the famous Knife Edge traverse. The route involves a long approach, Class 3 and 4 scrambling, and the exposed Knife Edge, a narrow rock fin with thousand-foot drops on both sides. The most feared fourteener route in Colorado.",
+        "distance": 27,
+        "elevationGain": 1580,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Extreme exposure on Knife Edge\",\"Rockfall\",\"Lightning\",\"Route-finding\",\"Long approach\"]",
+        "tips": [
+          {
+            "content": "The Knife Edge is the most exposed terrain on any Colorado fourteener standard route",
+            "category": "safety"
+          },
+          {
+            "content": "Camp at Capitol Lake to split the long approach into two days",
+            "category": "logistics"
+          },
+          {
+            "content": "Be comfortable with extreme exposure before attempting the Knife Edge",
+            "category": "general"
+          },
+          {
+            "content": "Start early to be off the summit before afternoon storms",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Loose rock throughout, essential protection",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Vision Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.rei.com/product/157437/black-diamond-vision-climbing-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Vision",
+                "url": "https://www.backcountry.com/black-diamond-vision-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 90
+              }
+            ]
+          },
+          {
+            "itemName": "30m rope",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "Some parties rope up for the Knife Edge",
+            "weight": "1.8kg",
+            "priceRange": "$100-$180",
+            "specificProduct": "Sterling Accessory Cord 7mm 30m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Sterling 7mm Accessory Cord",
+                "url": "https://www.rei.com/product/619123/sterling-7mm-accessory-cord-30m",
+                "price": 65
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Sterling 7mm Cord 30m",
+                "url": "https://www.backcountry.com/sterling-7mm-cord-30m",
+                "price": 65
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Sterling 7mm Cord",
+                "url": "https://www.amazon.com/dp/B00PLACEHOLDER",
+                "price": 60
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Colorado's most serious fourteener",
+            "body": "Capitol Peak is in a different league from other Colorado fourteeners. The Knife Edge is truly terrifying with drops of over a thousand feet on both sides. The scrambling is sustained and the route is long. Not for the faint of heart. You will remember the Knife Edge for the rest of your life.",
+            "conditions": "Dry rock, clear morning, calm wind on Knife Edge"
+          }
+        ],
+        "summary": "The standard route on Colorado's most difficult fourteener, featuring the infamous Knife Edge traverse with thousand-foot drops on both sides. The most feared and respected fourteener route in the state.",
+        "imageUrl": null,
+        "technicalGrade": "Class 4",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Capitol Lake (11,600ft / 3,536m)",
+        "permitRequired": true,
+        "permitInfo": "Free self-issue wilderness permit required from Maroon Bells-Snowmass Wilderness. No reservation needed but party size limited to 15. Capitol Creek Trailhead parking may require an early arrival in summer.",
+        "closestAirport": "Aspen/Pitkin County Airport (ASE)",
+        "safetyNotes": "The Knife Edge is the most exposed terrain on any standard fourteener route in Colorado and has caused multiple fatalities. There is no protection on the Knife Edge and a fall to either side would be fatal. Afternoon thunderstorms bring lightning to the exposed ridge; plan to be off the summit by noon. The approach is long and camping at Capitol Lake is strongly recommended to split the day."
+      }
+    ]
+  },
+  {
+    "peakName": "Maroon Peak",
+    "routes": [
+      {
+        "name": "South Ridge (Maroon Peak)",
+        "difficulty": "Class 4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route on Maroon Peak, the higher of the two Maroon Bells. Known as the Deadly Bells due to the extremely loose and rotten sedimentary rock. The route involves Class 3 and 4 scrambling on some of the worst rock quality of any major peak in Colorado.",
+        "distance": 18,
+        "elevationGain": 1530,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Extremely loose rock\",\"Rockfall danger\",\"Route-finding on loose terrain\",\"Lightning\",\"The Bells have claimed multiple lives\"]",
+        "tips": [
+          {
+            "content": "The Maroon Bells are known as the Deadly Bells for good reason, the rock is extremely dangerous",
+            "category": "safety"
+          },
+          {
+            "content": "Every handhold and foothold must be tested as the rock crumbles constantly",
+            "category": "safety"
+          },
+          {
+            "content": "Climb early when the rock is frozen for slightly better stability",
+            "category": "timing"
+          },
+          {
+            "content": "A helmet is absolutely essential on this peak",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Non-negotiable on the Deadly Bells, constant rockfall",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Vision Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.rei.com/product/157437/black-diamond-vision-climbing-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Vision",
+                "url": "https://www.backcountry.com/black-diamond-vision-helmet",
+                "price": 100
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Vision Helmet",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 90
+              }
+            ]
+          },
+          {
+            "itemName": "Gloves",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Sharp loose rock will tear up bare hands",
+            "weight": "120g",
+            "priceRange": "$25-$55",
+            "specificProduct": "Black Diamond Crag Gloves",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Crag Gloves",
+                "url": "https://www.rei.com/product/114070/black-diamond-crag-gloves",
+                "price": 30
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Crag Gloves",
+                "url": "https://www.backcountry.com/black-diamond-crag-gloves",
+                "price": 30
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Crag Gloves",
+                "url": "https://www.amazon.com/dp/B00PLACEHOLDER",
+                "price": 28
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Beautiful and deadly",
+            "body": "The Maroon Bells are the most photographed peaks in Colorado but climbing them is terrifying. Every hold crumbles. Rocks fall constantly. The route-finding on the loose south ridge requires experience. Despite all this the summit views are incredible. Approach with extreme caution.",
+            "conditions": "Dry but extremely loose, some early morning frost helping stability"
+          }
+        ],
+        "summary": "The standard route on the higher Maroon Bell, notorious as one of the Deadly Bells due to extremely loose, rotten sedimentary rock. Every handhold must be tested on what many consider the most dangerous rock on any Colorado fourteener.",
+        "imageUrl": null,
+        "technicalGrade": "Class 4 (extremely loose)",
+        "commitment": "II",
+        "approachTime": 3,
+        "descentTime": 3,
+        "basecamp": "Maroon Lake Trailhead (9,580ft / 2,920m)",
+        "permitRequired": true,
+        "permitInfo": "Free self-issue wilderness permit required from Maroon Bells-Snowmass Wilderness. Maroon Bells Scenic Area requires a paid shuttle bus or advance reservation for vehicle access ($10-$16) from mid-June through early October.",
+        "closestAirport": "Aspen/Pitkin County Airport (ASE)",
+        "safetyNotes": "The Maroon Bells have earned the name Deadly Bells due to multiple fatalities caused by the extremely friable rock. Every handhold and foothold must be carefully tested as even large features can break free without warning. Climbing when the rock is partially frozen at dawn provides slightly better stability. A helmet is absolutely non-negotiable and parties should maintain wide spacing to avoid rockfall from each other."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Elbert",
+    "routes": [
+      {
+        "name": "North Mt. Elbert Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The most popular route on Colorado's highest peak. A straightforward hiking trail gaining over 4400 feet through forest and alpine tundra. The trail is well-marked and maintained. The summit is the highest point in the Rocky Mountains and the second highest peak in the contiguous United States.",
+        "distance": 15,
+        "elevationGain": 1360,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Lightning above treeline\",\"Sudden weather changes\",\"Wind on summit\"]",
+        "tips": [
+          {
+            "content": "Start early to be above treeline before noon when thunderstorms build",
+            "category": "timing"
+          },
+          {
+            "content": "The trail is straightforward but the altitude catches many hikers off guard",
+            "category": "general"
+          },
+          {
+            "content": "Bring extra layers as the summit can be 30 degrees cooler than the trailhead",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Trekking poles",
+            "category": "hiking",
+            "isEssential": false,
+            "notes": "Helpful for the long descent",
+            "weight": "550g pair",
+            "priceRange": "$80-$200",
+            "specificProduct": "Black Diamond Trail Ergo Cork Trekking Poles",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Trail Ergo Cork Trekking Poles",
+                "url": "https://www.rei.com/product/160512/black-diamond-trail-ergo-cork-trekking-poles-pair",
+                "price": 110
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Trail Ergo Cork",
+                "url": "https://www.backcountry.com/black-diamond-trail-ergo-cork-trekking-poles",
+                "price": 110
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Trail Ergo Cork",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 100
+              }
+            ]
+          },
+          {
+            "itemName": "Extra warm layers",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Summit conditions can be harsh even in summer",
+            "weight": "600g",
+            "priceRange": "$100-$300",
+            "specificProduct": "Patagonia Nano Puff Jacket",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Patagonia Nano Puff Jacket",
+                "url": "https://www.rei.com/product/190003/patagonia-nano-puff-jacket-mens",
+                "price": 230
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Patagonia Nano Puff",
+                "url": "https://www.backcountry.com/patagonia-nano-puff-jacket",
+                "price": 230
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Patagonia Nano Puff Jacket",
+                "url": "https://www.amazon.com/dp/B09PLACEHOLDER",
+                "price": 220
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Colorado's highest point",
+            "body": "Mount Elbert is a straightforward hike to an incredible summit. The highest point in Colorado and the Rockies. The trail is well-maintained and the views from the top are expansive. Not technical but the altitude demands respect. A must-do fourteener.",
+            "conditions": "Clear morning, wind on summit, clouds building by noon"
+          }
+        ],
+        "summary": "The most popular route on Colorado's highest peak, following a well-maintained trail through forest and alpine tundra to the 14,439ft summit. A straightforward but strenuous hike requiring respect for altitude.",
+        "imageUrl": null,
+        "technicalGrade": "Class 1 (hiking trail)",
+        "commitment": "I",
+        "approachTime": 0,
+        "descentTime": 0,
+        "basecamp": "North Mt. Elbert Trailhead (10,040ft / 3,060m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "Altitude sickness is the primary concern as the trail climbs from 10,000ft to over 14,400ft. Lightning above treeline is extremely dangerous and is the leading cause of weather-related deaths in Colorado. Start by 6am at the latest to be below treeline before afternoon thunderstorms build. The trail is exposed above 12,000ft with no shelter from wind or weather."
+      },
+      {
+        "name": "South Mt. Elbert Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "An alternative trail from the south trailhead near Twin Lakes. Slightly longer than the north trail but with better views and fewer hikers. Passes through beautiful aspen groves in the lower section before emerging above treeline.",
+        "distance": 18,
+        "elevationGain": 1430,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Altitude sickness\",\"Lightning\",\"Longer distance\",\"Route-finding above treeline in fog\"]",
+        "tips": [
+          {
+            "content": "The south trail is longer but often less crowded than the north trail",
+            "category": "general"
+          },
+          {
+            "content": "The aspen groves on the lower trail are spectacular in September",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Extra water (3L+)",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Longer trail and high altitude require extra hydration",
+            "weight": "150g empty",
+            "priceRange": "$30-$50",
+            "specificProduct": "Hydrapak Shape-Shift 3L Reservoir",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Hydrapak Shape-Shift 3L Reservoir",
+                "url": "https://www.rei.com/product/171234/hydrapak-shape-shift-3l-reservoir",
+                "price": 40
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Hydrapak Shape-Shift 3L",
+                "url": "https://www.backcountry.com/hydrapak-shape-shift-3l",
+                "price": 40
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Hydrapak Shape-Shift 3L",
+                "url": "https://www.amazon.com/dp/B08PLACEHOLDER",
+                "price": 36
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The quieter side of Elbert",
+            "body": "The south trail is slightly longer but much less crowded. The aspen groves are beautiful and the views of Twin Lakes on the approach are lovely. Above treeline the terrain opens up and the summit seems to float above. A fine alternative to the busier north trail.",
+            "conditions": "Clear summer day, light wind, pleasant temperatures"
+          }
+        ],
+        "summary": "A slightly longer alternative from the south trailhead near Twin Lakes, passing through beautiful aspen groves before emerging above treeline. Often less crowded than the north trail with better views on the approach.",
+        "imageUrl": null,
+        "technicalGrade": "Class 1 (hiking trail)",
+        "commitment": "I",
+        "approachTime": 0,
+        "descentTime": 0,
+        "basecamp": "South Mt. Elbert Trailhead (9,600ft / 2,926m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Denver International Airport (DEN)",
+        "safetyNotes": "The longer distance means more time exposed above treeline, making early starts even more important. Altitude sickness affects many hikers unprepared for the 14,400ft summit. Bring extra water for the longer trail as dehydration at altitude compounds fatigue. Navigation above treeline can be difficult in fog or whiteout conditions."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Washington",
+    "routes": [
+      {
+        "name": "Tuckerman Ravine Trail",
+        "difficulty": "Class 1",
+        "gradeSystem": "yds",
+        "activityType": "hiking",
+        "description": "The classic hiking route via the famous Tuckerman Ravine. A well-maintained trail from Pinkham Notch to the summit of the highest peak in the Northeast. The mountain is famous for extreme weather including the former world record wind speed of 231 mph. The summit buildings house the Mount Washington Observatory.",
+        "distance": 13,
+        "elevationGain": 1270,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Extreme weather changes\",\"Above-treeline exposure\",\"High winds\",\"Hypothermia risk\",\"Poor visibility\"]",
+        "tips": [
+          {
+            "content": "Mount Washington has some of the worst weather in the world, check the summit forecast before going",
+            "category": "safety"
+          },
+          {
+            "content": "The weather can change from sunny to life-threatening in minutes above treeline",
+            "category": "safety"
+          },
+          {
+            "content": "Tuckerman Ravine is also a famous backcountry skiing destination in spring",
+            "category": "general"
+          },
+          {
+            "content": "The AMC Pinkham Notch Lodge is the standard starting point",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full rain gear and extra insulation",
+            "category": "clothing",
+            "isEssential": true,
+            "notes": "Mount Washington weather can be lethal even in summer",
+            "weight": "1.2kg",
+            "priceRange": "$250-$500",
+            "specificProduct": "Arc'teryx Beta LT Jacket + Patagonia Nano Puff",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Arc'teryx Beta LT Jacket",
+                "url": "https://www.rei.com/product/185600/arcteryx-beta-lt-jacket-mens",
+                "price": 400
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Arc'teryx Beta LT",
+                "url": "https://www.backcountry.com/arcteryx-beta-lt-jacket",
+                "price": 400
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Arc'teryx Beta LT Jacket",
+                "url": "https://www.moosejaw.com/product/arcteryx-beta-lt-jacket",
+                "price": 400
+              }
+            ]
+          },
+          {
+            "itemName": "Map and compass",
+            "category": "navigation",
+            "isEssential": true,
+            "notes": "Visibility can drop to zero on the summit cone",
+            "weight": "150g",
+            "priceRange": "$20-$50",
+            "specificProduct": "Suunto A-10 Compass + AMC White Mountains Map",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Suunto A-10 Compass",
+                "url": "https://www.rei.com/product/845526/suunto-a-10-compass",
+                "price": 30
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Suunto A-10 Compass",
+                "url": "https://www.amazon.com/dp/B000GAROUK",
+                "price": 26
+              },
+              {
+                "retailer": "REI",
+                "productName": "AMC White Mountains Trail Map",
+                "url": "https://www.rei.com/product/129876/amc-white-mountains-trail-map",
+                "price": 12
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The mountain with the worst weather",
+            "body": "Mount Washington may only be 6288 feet but it has weather that rivals much higher peaks. The hike through Tuckerman Ravine is beautiful and the above-treeline section is exhilarating. We got blasted by 60mph winds on the summit even in July. Respect this mountain.",
+            "conditions": "Calm start, strong winds on summit, temperatures dropping rapidly above treeline"
+          }
+        ],
+        "summary": "The classic hiking route to the highest peak in the Northeast via the famous Tuckerman Ravine. Despite its modest elevation, Mount Washington is renowned for some of the most extreme weather on Earth.",
+        "imageUrl": null,
+        "technicalGrade": "Class 1 (hiking trail)",
+        "commitment": "I",
+        "approachTime": 0,
+        "descentTime": 0,
+        "basecamp": "AMC Pinkham Notch Visitor Center (2,032ft / 619m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required. Parking at Pinkham Notch is free. The AMC Pinkham Notch Lodge offers lodging and meals. A USFS recreation pass is not required for hiking.",
+        "closestAirport": "Portland International Jetport (PWM)",
+        "safetyNotes": "Mount Washington has recorded some of the worst weather on Earth including the former world record wind speed of 231 mph. Weather can change from sunny to life-threatening in minutes above treeline. Hypothermia is a risk even in summer with temperatures dropping rapidly at the summit. Always check the Mount Washington Observatory higher summits forecast before ascending."
+      },
+      {
+        "name": "Huntington Ravine",
+        "difficulty": "Class 3-4",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "A steeper and more technical route via Huntington Ravine on the east side. Involves Class 3-4 scrambling up a steep headwall with several gully options. In winter this becomes a serious ice climbing venue. Less traveled than Tuckerman and more demanding.",
+        "distance": 13,
+        "elevationGain": 1270,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Steep scrambling\",\"Rockfall in ravine\",\"Extreme weather\",\"Route-finding\"]",
+        "tips": [
+          {
+            "content": "Huntington Ravine is significantly more technical than Tuckerman",
+            "category": "general"
+          },
+          {
+            "content": "In winter the ravine becomes a world-class ice climbing destination",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall in the ravine is a risk",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Half Dome Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Half Dome Helmet",
+                "url": "https://www.rei.com/product/128941/black-diamond-half-dome-climbing-helmet",
+                "price": 60
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Half Dome",
+                "url": "https://www.backcountry.com/black-diamond-half-dome-helmet",
+                "price": 60
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Half Dome",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "itemName": "Scrambling-appropriate footwear",
+            "category": "footwear",
+            "isEssential": true,
+            "notes": "Stiff-soled boots or approach shoes for the scramble",
+            "weight": "1.1kg pair",
+            "priceRange": "$130-$220",
+            "specificProduct": "La Sportiva TX4 Mid GTX",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "La Sportiva TX4 Mid GTX",
+                "url": "https://www.rei.com/product/158342/la-sportiva-tx4-mid-gtx-approach-shoes-mens",
+                "price": 200
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "La Sportiva TX4 Mid GTX",
+                "url": "https://www.backcountry.com/la-sportiva-tx4-mid-gtx",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "La Sportiva TX4 Mid GTX",
+                "url": "https://www.amazon.com/dp/B09PLACEHOLDER",
+                "price": 185
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The real way up Washington",
+            "body": "Huntington Ravine adds genuine technical scrambling to the Mount Washington experience. The headwall gullies are engaging and the views down into the ravine are impressive. Far more satisfying than just walking up the Tuckerman trail. The summit weather was still wild of course.",
+            "conditions": "Dry rock on headwall, moderate wind increasing toward summit"
+          }
+        ],
+        "summary": "A steeper and more technical route via Huntington Ravine on the east side, involving Class 3-4 scrambling up a steep headwall. In winter it transforms into a world-class ice climbing venue.",
+        "imageUrl": null,
+        "technicalGrade": "Class 3-4",
+        "commitment": "I",
+        "approachTime": 2,
+        "descentTime": 2,
+        "basecamp": "AMC Pinkham Notch Visitor Center (2,032ft / 619m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required. Parking at Pinkham Notch is free. Winter ice climbing in the ravine requires checking USFS and AMC advisories for conditions.",
+        "closestAirport": "Portland International Jetport (PWM)",
+        "safetyNotes": "Rockfall in the ravine is a significant hazard, especially during freeze-thaw cycles. The headwall gullies can hold ice and snow well into summer. Mount Washington weather can produce hurricane-force winds with minimal warning. The ravine funnels wind and precipitation creating localized severe conditions even when the base appears calm."
+      }
+    ]
+  },
+  {
+    "peakName": "Gannett Peak",
+    "routes": [
+      {
+        "name": "Glacier Trail (Normal Route)",
+        "difficulty": "Class 3",
+        "gradeSystem": "yds",
+        "activityType": "scramble",
+        "description": "The standard route to Wyoming's highest peak via the Dinwoody Glacier. A remote multi-day expedition involving a 30+ mile approach through the Wind River Range. The route crosses the glacier and involves Class 3 scrambling to the summit. One of the most remote state high points in the Lower 48.",
+        "distance": 65,
+        "elevationGain": 2200,
+        "estimatedTime": 1440,
+        "season": "summer",
+        "hazards": "[\"Remote 30+ mile approach\",\"Glacier travel\",\"Stream crossings\",\"Altitude\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "Plan for 4-5 days round trip due to the long approach",
+            "category": "logistics"
+          },
+          {
+            "content": "The Dinwoody Glacier is heavily crevassed, glacier skills are required",
+            "category": "general"
+          },
+          {
+            "content": "Stream crossings can be dangerous during snowmelt in early summer",
+            "category": "safety"
+          },
+          {
+            "content": "The Wind River Range is grizzly bear country, carry bear spray",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Glacier travel kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons, axe, rope for the Dinwoody Glacier",
+            "weight": "2.5kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Leopard LLF Crampon + Summit Evo Axe + 30m Rope",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Leopard LLF Crampon",
+                "url": "https://www.rei.com/product/131253/petzl-leopard-llf-crampon",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "REI",
+                "productName": "Sterling 8mm Glacier Rope 30m",
+                "url": "https://www.rei.com/product/619432/sterling-8mm-glacier-rope-30m",
+                "price": 100
+              }
+            ]
+          },
+          {
+            "itemName": "Bear spray",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Grizzly bears inhabit the Wind River Range",
+            "weight": "310g",
+            "priceRange": "$35-$55",
+            "specificProduct": "Counter Assault Bear Deterrent",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Counter Assault Bear Deterrent",
+                "url": "https://www.rei.com/product/110512/counter-assault-bear-deterrent-spray-81-oz",
+                "price": 50
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Counter Assault Bear Spray",
+                "url": "https://www.backcountry.com/counter-assault-bear-deterrent",
+                "price": 50
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Counter Assault Bear Spray",
+                "url": "https://www.amazon.com/dp/B002PLACEHOLDER",
+                "price": 45
+              }
+            ]
+          },
+          {
+            "itemName": "Multi-day backpacking gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "4-5 day trip requires full backpacking setup",
+            "weight": "8.0kg base",
+            "priceRange": "$1,500-$3,000",
+            "specificProduct": "Osprey Aether 65 Pack + MSR Hubba NX 2 Tent",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Osprey Aether 65 Pack",
+                "url": "https://www.rei.com/product/189234/osprey-aether-65-pack-mens",
+                "price": 310
+              },
+              {
+                "retailer": "REI",
+                "productName": "MSR Hubba Hubba NX 2 Tent",
+                "url": "https://www.rei.com/product/168423/msr-hubba-hubba-nx-2-person-tent",
+                "price": 480
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Osprey Aether 65",
+                "url": "https://www.backcountry.com/osprey-aether-65-pack",
+                "price": 310
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most remote state high point",
+            "body": "Gannett Peak is an expedition in the Lower 48. The 30-mile approach through the Wind Rivers is spectacular. The Dinwoody Glacier crossing adds real mountaineering challenge. The summit views across the range are extraordinary. Earning Wyoming's high point takes real effort.",
+            "conditions": "Good glacier conditions, clear weather, challenging stream crossings"
+          }
+        ],
+        "summary": "The standard route to Wyoming's highest peak via the Dinwoody Glacier, requiring a remote 30+ mile approach through the Wind River Range. One of the most remote and demanding state high points in the Lower 48.",
+        "imageUrl": null,
+        "technicalGrade": "Class 3 with glacier travel",
+        "commitment": "III",
+        "approachTime": 24,
+        "descentTime": 18,
+        "basecamp": "Glacier Trail Trailhead at Trail Lake (9,400ft / 2,865m)",
+        "permitRequired": false,
+        "permitInfo": "No permit required for the Fitzpatrick Wilderness approach. Bear-resistant food storage is required. The Wind River Indian Reservation requires a fishing/recreation permit ($250+/year) if approaching from the east side.",
+        "closestAirport": "Riverton Regional Airport (RIW) or Jackson Hole Airport (JAC)",
+        "safetyNotes": "The 30-mile approach through grizzly bear country requires bear spray and proper food storage at all times. The Dinwoody Glacier is heavily crevassed and full glacier travel skills with rope team procedures are mandatory. Stream crossings during peak snowmelt in June can be waist-deep and extremely dangerous. The remoteness means evacuation would take days, so the team must be medically self-sufficient."
+      }
+    ]
+  },
+  {
+    "peakName": "Mount Stuart",
+    "routes": [
+      {
+        "name": "West Ridge",
+        "difficulty": "5.6",
+        "gradeSystem": "yds",
+        "activityType": "rock",
+        "description": "The classic route on one of the most impressive peaks in the Cascades. The West Ridge is a long alpine rock route on clean granite with excellent climbing and incredible exposure. The approach via Ingalls Creek is long but beautiful. A Washington State alpine classic.",
+        "distance": 28,
+        "elevationGain": 1800,
+        "estimatedTime": 720,
+        "season": "summer",
+        "hazards": "[\"Long approach\",\"Multi-pitch rock climbing\",\"Route-finding\",\"Afternoon storms\",\"Complex descent\"]",
+        "tips": [
+          {
+            "content": "The West Ridge is one of the finest alpine rock routes in Washington",
+            "category": "general"
+          },
+          {
+            "content": "Plan for a very long day or bivy at the base of the route",
+            "category": "logistics"
+          },
+          {
+            "content": "The false summit plateau can be confusing in poor visibility",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Trad rack to #3 cams",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Multi-pitch rock climbing on clean granite",
+            "weight": "3.2kg",
+            "priceRange": "$400-$700",
+            "specificProduct": "Black Diamond Camalot C4 0.3-3 Set",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4-set",
+                "price": 450
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-set",
+                "price": 450
+              }
+            ]
+          },
+          {
+            "itemName": "60m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the climbing and rappel descent",
+            "weight": "3.8kg",
+            "priceRange": "$200-$350",
+            "specificProduct": "Sterling Velocity 9.8mm 60m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Sterling Velocity 9.8mm Dry Rope",
+                "url": "https://www.rei.com/product/177453/sterling-velocity-98mm-dry-rope-60m",
+                "price": 250
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Sterling Velocity 9.8mm",
+                "url": "https://www.backcountry.com/sterling-velocity-9.8mm-rope",
+                "price": 250
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Sterling Velocity 9.8mm 60m",
+                "url": "https://www.amazon.com/dp/B08PLACEHOLDER",
+                "price": 235
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Cascade alpine rock at its best",
+            "body": "The West Ridge of Stuart is everything alpine rock climbing should be. Clean granite, excellent position, and a summit that feels earned after the long approach. The Cascade Range views from the top are unmatched. A true Pacific Northwest classic.",
+            "conditions": "Dry granite, clear weather, long beautiful day"
+          }
+        ],
+        "summary": "The classic alpine rock route on one of the most impressive peaks in the Washington Cascades. A long approach leads to clean granite climbing with excellent position and incredible exposure.",
+        "imageUrl": null,
+        "technicalGrade": "5.6",
+        "commitment": "III",
+        "approachTime": 6,
+        "descentTime": 5,
+        "basecamp": "Ingalls Creek Trailhead (3,200ft / 975m)",
+        "permitRequired": true,
+        "permitInfo": "Free self-issue Alpine Lakes Wilderness permit required from June through October. A Northwest Forest Pass ($5/day or $30/year) is required for trailhead parking. Permits are available at the trailhead kiosk.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "The long approach means most parties bivy at the base, adding weight and commitment. The descent via Cascadian Couloir is complex and easy to lose in poor visibility. Afternoon thunderstorms, while less common than in Colorado, do occur and the summit plateau is fully exposed. Rattlesnakes are present on the lower Ingalls Creek approach in summer."
+      },
+      {
+        "name": "North Ridge (Sherpa Glacier)",
+        "difficulty": "5.9",
+        "gradeSystem": "yds",
+        "activityType": "alpine",
+        "description": "A more technical route via the north side and Sherpa Glacier. Combines glacier travel with technical rock climbing on the north ridge proper. More committing than the West Ridge with a wilder approach and fewer escape options.",
+        "distance": 26,
+        "elevationGain": 1900,
+        "estimatedTime": 780,
+        "season": "summer",
+        "hazards": "[\"Technical rock at altitude\",\"Glacier approach\",\"Route-finding\",\"Complex descent\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The north ridge is more technical and committing than the standard West Ridge",
+            "category": "general"
+          },
+          {
+            "content": "The Sherpa Glacier adds glacier travel skills to the requirements",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full trad rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical 5.9 climbing requires comprehensive protection",
+            "weight": "4.0kg",
+            "priceRange": "$500-$900",
+            "specificProduct": "Black Diamond Camalot C4 Complete Rack",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/189123/black-diamond-camalot-c4-rack-pack",
+                "price": 450
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Stopper Set",
+                "url": "https://www.backcountry.com/black-diamond-stopper-set",
+                "price": 85
+              },
+              {
+                "retailer": "Moosejaw",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.moosejaw.com/product/black-diamond-camalot-c4-set",
+                "price": 450
+              }
+            ]
+          },
+          {
+            "itemName": "Glacier kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons and axe for the Sherpa Glacier",
+            "weight": "2.5kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Leopard LLF Crampon + Summit Evo Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Leopard LLF Crampon",
+                "url": "https://www.rei.com/product/131253/petzl-leopard-llf-crampon",
+                "price": 190
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit Evo Ice Axe",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 200
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Leopard LLF",
+                "url": "https://www.amazon.com/dp/B07PLACEHOLDER",
+                "price": 180
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Stuart from the wild side",
+            "body": "The North Ridge is a complete alpine experience. Glacier travel, technical rock climbing, and a spectacular summit. More committing than the West Ridge but more rewarding. The combination of ice and rock is what Cascade climbing is all about.",
+            "conditions": "Glacier in good condition, dry rock on ridge, clear weather"
+          }
+        ],
+        "summary": "A more technical route combining glacier travel on the Sherpa Glacier with sustained 5.9 rock climbing on the north ridge. More committing than the West Ridge with a wilder approach and fewer teams.",
+        "imageUrl": null,
+        "technicalGrade": "5.9",
+        "commitment": "III",
+        "approachTime": 7,
+        "descentTime": 5,
+        "basecamp": "Ingalls Creek Trailhead (3,200ft / 975m)",
+        "permitRequired": true,
+        "permitInfo": "Free self-issue Alpine Lakes Wilderness permit required from June through October. A Northwest Forest Pass ($5/day or $30/year) is required for trailhead parking. Permits are available at the trailhead kiosk.",
+        "closestAirport": "Seattle-Tacoma International Airport (SEA)",
+        "safetyNotes": "The Sherpa Glacier approach adds crevasse hazard and requires proper glacier travel equipment and skills. The 5.9 crux pitches are committing at altitude with limited retreat options. Route-finding on the north ridge is more complex and errors can be costly. The descent is the same complex Cascadian Couloir used by West Ridge parties."
+      }
+    ]
+  }
+]

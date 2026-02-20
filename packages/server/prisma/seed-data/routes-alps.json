@@ -1,0 +1,2442 @@
+[
+  {
+    "peakName": "Mont Blanc",
+    "routes": [
+      {
+        "name": "Grands Mulets Route",
+        "difficulty": "PD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The historic route via the Grands Mulets hut on a rocky outcrop in the middle of the Bossons Glacier. Used for the first ascent in 1786. The route navigates through an icefall and crevasse field before joining the Gouter route on the upper mountain. Beautiful but objectively more dangerous than the Gouter.",
+        "distance": 20,
+        "elevationGain": 3800,
+        "estimatedTime": 780,
+        "season": "summer",
+        "hazards": "[\"Bossons Icefall seracs\",\"Crevasses\",\"Rockfall from Grands Mulets\",\"Avalanche on Petit Plateau\"]",
+        "tips": [
+          {
+            "content": "The Bossons Icefall changes constantly and route-finding through it is complex",
+            "category": "general"
+          },
+          {
+            "content": "The Grands Mulets hut is a spectacular setting perched on rock amid the glacier",
+            "category": "general"
+          },
+          {
+            "content": "This historic route is less crowded than the Gouter but more objectively dangerous",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The Bossons Glacier has massive crevasses",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier travel and icy sections",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Rope (50m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Essential for roped glacier travel",
+            "weight": "2.8kg",
+            "priceRange": "$180-$350",
+            "specificProduct": "Beal Joker 9.1mm x 50m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Beal Joker Unicore Dry Cover 9.1mm",
+                "url": "https://www.rei.com/product/177584/beal-joker-unicore-dry-cover",
+                "price": 219.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Beal Joker 9.1 Dry Cover Rope",
+                "url": "https://www.backcountry.com/beal-joker-dry-cover-rope",
+                "price": 219.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The historic way up Mont Blanc",
+            "body": "Following in the footsteps of Balmat and Paccard from 1786 adds a special dimension. The Grands Mulets hut is incredibly situated. The icefall navigation is engaging and the upper mountain is stunning. Less crowded than the Gouter route.",
+            "conditions": "Good glacier conditions, crevasses well bridged in late June"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "Historic 1786 first ascent route via the Bossons Glacier icefall and the Grands Mulets hut.",
+        "technicalGrade": "PD",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": "Grands Mulets Hut (3,051m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "The Bossons Icefall presents serious objective hazard from seracs and crevasses. Route conditions change rapidly throughout the season. Start early to minimize serac exposure and carry full crevasse rescue equipment."
+      },
+      {
+        "name": "Innominata Ridge",
+        "difficulty": "TD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A long and serious route on the Italian side of Mont Blanc via the Innominata Ridge and Brouillard Pillars. Involves sustained mixed climbing on rock, ice, and snow with significant altitude gain. Considered one of the great classic alpine routes requiring a very long day or bivouac.",
+        "distance": 18,
+        "elevationGain": 3200,
+        "estimatedTime": 960,
+        "season": "summer",
+        "hazards": "[\"Extreme length\",\"Complex route-finding\",\"Rockfall\",\"Storm exposure\",\"Altitude\"]",
+        "tips": [
+          {
+            "content": "Plan for a bivouac on the route as it is extremely long for a single day",
+            "category": "general"
+          },
+          {
+            "content": "Route-finding is complex, study the topo carefully and carry a detailed description",
+            "category": "general"
+          },
+          {
+            "content": "August offers the driest rock conditions on the Innominata side",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the rock pillars and mixed sections",
+            "weight": "2.0kg",
+            "priceRange": "$300-$500",
+            "specificProduct": "Black Diamond Camalot C4 Set (0.3-3)",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/188285/black-diamond-camalot-c4-rack-pack",
+                "price": 449.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4",
+                "price": 449.95
+              }
+            ]
+          },
+          {
+            "itemName": "Bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Long route likely requires a bivouac",
+            "weight": "1.8kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "SOL Escape Bivvy + Thermarest NeoAir",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "SOL Escape Pro Bivvy",
+                "url": "https://www.rei.com/product/129280/sol-escape-pro-bivvy",
+                "price": 59.95
+              },
+              {
+                "retailer": "REI",
+                "productName": "Therm-a-Rest NeoAir XLite NXT",
+                "url": "https://www.rei.com/product/200060/therm-a-rest-neoair-xlite-nxt",
+                "price": 219.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain on the upper route",
+            "weight": "1.1kg",
+            "priceRange": "$250-$500",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151163/petzl-quark-ice-axe",
+                "price": 279.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Adze Ice Tool",
+                "url": "https://www.backcountry.com/petzl-quark-ice-tool",
+                "price": 279.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Quark Technical Ice Axe",
+                "url": "https://www.amazon.com/dp/B07GZC5QRN",
+                "price": 269
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The grand tour of Mont Blanc",
+            "body": "The Innominata Ridge is a massive undertaking crossing terrain that most climbers never see. The Brouillard Pillars are magnificent and the climbing is varied. We bivouacked below the summit and topped out at dawn. One of the greatest alpine routes.",
+            "conditions": "Dry rock, good mixed conditions, long weather window needed"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "One of the great classic Alpine routes on Mont Blanc's Italian side via the Brouillard Pillars.",
+        "technicalGrade": "TD- (V, AI2)",
+        "commitment": "IV",
+        "approachTime": 6,
+        "descentTime": 8,
+        "basecamp": "Monzino Hut (2,590m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Extremely long route likely requiring a bivouac. Complex route-finding through the Brouillard Pillars demands experience. Rockfall risk increases after midday. A stable weather window of 2+ days is essential."
+      },
+      {
+        "name": "Brenva Spur",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A classic route on the east face of Mont Blanc first climbed in 1865. The Brenva Spur rises above the Brenva Glacier offering steep snow and ice climbing with incredible exposure over the glacier below. One of the finest ice routes in the Alps.",
+        "distance": 14,
+        "elevationGain": 2500,
+        "estimatedTime": 660,
+        "season": "summer",
+        "hazards": "[\"Serac danger from upper face\",\"Steep ice\",\"Crevassed glacier approach\",\"Exposure\"]",
+        "tips": [
+          {
+            "content": "Start very early from the Trident Hut or the Fourche bivouac to minimize serac exposure",
+            "category": "timing"
+          },
+          {
+            "content": "The spur itself is relatively safe from seracs but the approach is threatened",
+            "category": "safety"
+          },
+          {
+            "content": "Conditions are best early in the season when the snow is consolidated",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep sustained ice on the spur",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (6+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For protection on the steep ice pitches",
+            "weight": "900g",
+            "priceRange": "$200-$350",
+            "specificProduct": "Petzl Laser Speed Light Ice Screw Set",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Laser Speed Light Ice Screw",
+                "url": "https://www.rei.com/product/151164/petzl-laser-speed-light-ice-screw",
+                "price": 54.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Laser Speed Light Screw",
+                "url": "https://www.backcountry.com/petzl-laser-speed-light-screw",
+                "price": 54.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Icefall and rockfall risk on approach",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "One of the great Alpine ice routes",
+            "body": "The Brenva Spur is a magnificent line of steep ice rising above the glacier. The climbing is sustained and the exposure is exhilarating. Topped out on the summit of Mont Blanc feeling like a proper alpinist. The descent via the Gouter route was a long day but worth every step.",
+            "conditions": "Excellent ice, cold pre-dawn start, clear skies"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A magnificent steep ice route on Mont Blanc's east face, one of the finest ice climbs in the Alps.",
+        "technicalGrade": "D (AI3)",
+        "commitment": "III",
+        "approachTime": 4,
+        "descentTime": 6,
+        "basecamp": "Trident Hut (3,680m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "The approach crosses below active seracs on the Brenva face. Start extremely early (midnight) to minimize exposure. The spur itself is relatively safe but the glacier approach is threatened. Descent via the Gouter route is long."
+      },
+      {
+        "name": "Peuterey Integral Ridge",
+        "difficulty": "TD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The complete traverse of the Peuterey Ridge from the Aiguille Noire de Peuterey over the Aiguille Blanche to Mont Blanc. One of the longest and most committing routes in the Alps taking 2-3 days. Involves rock climbing to UIAA V, ice climbing, and high altitude traversing.",
+        "distance": 22,
+        "elevationGain": 4000,
+        "estimatedTime": 2400,
+        "season": "summer",
+        "hazards": "[\"Extreme length (2-3 days)\",\"No easy escape once committed\",\"Technical rock climbing\",\"Altitude\",\"Weather exposure\"]",
+        "tips": [
+          {
+            "content": "This is a 2-3 day commitment with no easy escape routes, prepare accordingly",
+            "category": "safety"
+          },
+          {
+            "content": "Rock climbing to UIAA V is required on the Aiguille Noire section",
+            "category": "general"
+          },
+          {
+            "content": "A stable weather window of at least 3 days is essential",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical rock climbing on the Aiguille Noire",
+            "weight": "3.5kg",
+            "priceRange": "$500-$800",
+            "specificProduct": "Black Diamond Camalot C4 Full Set + Nuts",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Full Rack",
+                "url": "https://www.rei.com/product/188285/black-diamond-camalot-c4-rack-pack",
+                "price": 449.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Stopper Set",
+                "url": "https://www.backcountry.com/black-diamond-stopper-set",
+                "price": 79.95
+              }
+            ]
+          },
+          {
+            "itemName": "Bivouac equipment",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "At least one planned bivouac, possibly two",
+            "weight": "1.8kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "SOL Escape Bivvy + Thermarest NeoAir",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "SOL Escape Pro Bivvy",
+                "url": "https://www.rei.com/product/129280/sol-escape-pro-bivvy",
+                "price": 59.95
+              },
+              {
+                "retailer": "REI",
+                "productName": "Therm-a-Rest NeoAir XLite NXT",
+                "url": "https://www.rei.com/product/200060/therm-a-rest-neoair-xlite-nxt",
+                "price": 219.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice tools and crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the ice sections on the Aiguille Blanche and upper ridge",
+            "weight": "2.2kg",
+            "priceRange": "$400-$600",
+            "specificProduct": "Petzl Quark + Petzl Lynx",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151163/petzl-quark-ice-axe",
+                "price": 279.95
+              },
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The ultimate Mont Blanc route",
+            "body": "The Peuterey Integral is the longest route in the Alps and it shows. Two days of varied climbing from pure rock to mixed to snow. Bivouacked on the ridge with the lights of Courmayeur below. Arriving on the summit of Mont Blanc after this journey felt like completing a pilgrimage.",
+            "conditions": "3-day weather window, dry rock on Noire, mixed conditions above"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The ultimate Mont Blanc route—a 2-3 day traverse of the complete Peuterey Ridge from Aiguille Noire to the summit.",
+        "technicalGrade": "TD+ (V+, AI3)",
+        "commitment": "V",
+        "approachTime": 5,
+        "descentTime": 8,
+        "basecamp": "Monzino Hut (2,590m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "One of the longest and most committing routes in the Alps with no easy escape once past the Aiguille Noire. Requires rock climbing to UIAA V+. A stable weather window of at least 3 days is absolutely essential. Multiple bivouacs required."
+      },
+      {
+        "name": "Miage Glacier Route (Aiguilles Grises)",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A less-traveled route from the Italian side via the Miage Glacier and Aiguilles Grises ridge. Also called the Royal Route. A beautiful and remote approach offering a quieter alternative to the French normal routes. The glacier approach is complex but the upper climbing is moderate.",
+        "distance": 24,
+        "elevationGain": 3400,
+        "estimatedTime": 840,
+        "season": "summer",
+        "hazards": "[\"Complex glacier navigation\",\"Crevasses\",\"Remote approach\",\"Rockfall near hut\"]",
+        "tips": [
+          {
+            "content": "The Gonella Hut at 3071m is the key staging point, book well in advance",
+            "category": "logistics"
+          },
+          {
+            "content": "The Miage Glacier approach is longer but far quieter than the French side",
+            "category": "general"
+          },
+          {
+            "content": "Route-finding on the lower glacier requires experience",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Complex glacier travel on the Miage",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "GPS device",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Helpful for glacier navigation in poor visibility",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Mont Blanc in solitude",
+            "body": "The Italian side of Mont Blanc is a different world from the crowded French routes. The Miage Glacier approach is spectacular and we barely saw another team. The Gonella Hut is charming. A highly recommended alternative for those who want a quieter mountain experience.",
+            "conditions": "Good glacier conditions, clear weather, uncrowded"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD- route on Mont Blanc.",
+        "technicalGrade": "AD-",
+        "commitment": "II",
+        "approachTime": 7,
+        "descentTime": 5,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Matterhorn",
+    "routes": [
+      {
+        "name": "Italian Ridge (Lion Ridge)",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The southwest ridge from Breuil-Cervinia in Italy. The first attempted route on the Matterhorn by Jean-Antoine Carrel. More sustained and technical than the Hornli Ridge with fixed ropes and ladders on the upper sections. The route passes through the Carrel Hut and traverses the Italian summit.",
+        "distance": 8,
+        "elevationGain": 1350,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Technical rock climbing\",\"Exposure\",\"Fixed rope congestion\",\"Rockfall\",\"Weather changes\"]",
+        "tips": [
+          {
+            "content": "The Italian Ridge is more technical than the Hornli and requires solid rock climbing skills",
+            "category": "general"
+          },
+          {
+            "content": "Stay at the Carrel Hut for the standard start, or the lower Jean-Antoine Carrel bivouac",
+            "category": "logistics"
+          },
+          {
+            "content": "The Tyndall and Pic Tyndall sections are the most exposed and committing",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Via ferrata kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Fixed cables on the upper sections require clipping in",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Rock shoes or stiff approach shoes",
+            "category": "footwear",
+            "isEssential": false,
+            "notes": "Better grip on the dry rock sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall from above is constant",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The original Matterhorn route attempt",
+            "body": "The Lion Ridge has more history and more character than the Hornli. The rock climbing is engaging and the fixed rope sections add interest. The traverse below the Italian summit is exposed and exciting. The views into both Switzerland and Italy are extraordinary.",
+            "conditions": "Dry rock, light wind, good visibility"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The historic Italian route up the Matterhorn's southwest ridge from Cervinia.",
+        "technicalGrade": "D (UIAA IV)",
+        "commitment": "III",
+        "approachTime": 3,
+        "descentTime": 5,
+        "basecamp": "Carrel Hut (3,830m)",
+        "permitRequired": false,
+        "permitInfo": "Carrel Hut reservation required. Italian Alpine Club membership may be needed.",
+        "closestAirport": "Milan Malpensa Airport (MXP)",
+        "safetyNotes": "Extensive fixed ropes and ladders on the ridge. The Great Tower requires careful climbing. Rockfall risk in the couloir sections. Weather exposure is significant on the upper ridge."
+      },
+      {
+        "name": "Zmutt Ridge",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The northwest ridge and one of the four great ridges of the Matterhorn. First climbed in 1879 by Albert Mummery. A long and serious mixed climb on rock and ice with the famous Zmutt Nose traverse. Less crowded than the Hornli with a more adventurous feel.",
+        "distance": 10,
+        "elevationGain": 1400,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Complex mixed terrain\",\"Exposure on Zmutt Nose\",\"Route-finding\",\"Rockfall\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The Zmutt Nose is the crux with exposed mixed climbing requiring concentration",
+            "category": "general"
+          },
+          {
+            "content": "Start from the Schonbiel Hut for the standard approach",
+            "category": "logistics"
+          },
+          {
+            "content": "Late July to August offers the best conditions when rock is driest",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Light rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the rock sections on the nose",
+            "weight": "2.0kg",
+            "priceRange": "$300-$500",
+            "specificProduct": "Black Diamond Camalot C4 Set (0.3-3)",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/188285/black-diamond-camalot-c4-rack-pack",
+                "price": 449.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4",
+                "price": 449.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain on the ridge",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "60m half rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belaying the technical sections and rappels",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest ridge on the Matterhorn",
+            "body": "The Zmutt Ridge is the mountaineer's route on the Matterhorn. Mixed climbing on a grand scale with the incredible Zmutt Nose providing a memorable crux. Far quieter than the Hornli circus. Mummery's first ascent in 1879 was visionary. A route that rewards experience.",
+            "conditions": "Dry rock on nose, some ice on upper ridge, clear weather"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A grand mixed route on the Matterhorn's northwest ridge, less crowded than the Hörnli.",
+        "technicalGrade": "D (UIAA IV, AI2)",
+        "commitment": "III",
+        "approachTime": 4,
+        "descentTime": 6,
+        "basecamp": "Schönbiel Hut (2,694m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Zurich Airport (ZRH)",
+        "safetyNotes": "Route-finding is complex on the lower ridge. The teeth section requires careful navigation. Descent usually via the Hörnli Ridge which adds significant time. Late season ice on the upper ridge can increase difficulty."
+      },
+      {
+        "name": "North Face (Schmid Route)",
+        "difficulty": "TD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "One of the three great north faces of the Alps first climbed by the Schmid brothers in 1931. A classic mixed face climb on the iconic north face visible from Zermatt. Involves steep ice, mixed terrain, and rock bands over 1100m of vertical gain. A defining route of Alpine climbing.",
+        "distance": 6,
+        "elevationGain": 1100,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Steep sustained mixed terrain\",\"Rockfall\",\"Ice conditions variable\",\"Storm exposure on face\",\"Rapid temperature changes\"]",
+        "tips": [
+          {
+            "content": "Conditions are critical on the north face, check local guide information in Zermatt",
+            "category": "general"
+          },
+          {
+            "content": "An early start from the Hornli Hut or a bivouac at the base is essential",
+            "category": "timing"
+          },
+          {
+            "content": "Descent via the Hornli Ridge adds significant time, plan for a very long day",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep mixed terrain throughout",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the ice pitches",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Rock protection",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the rock band sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "One of the three great north faces",
+            "body": "The north face of the Matterhorn is a test of alpine competence. The Schmid route weaves through ice fields and rock bands with increasing difficulty. The face is in shade all day keeping conditions cold. Topping out on the summit ridge as the sun hit us was an unforgettable moment.",
+            "conditions": "Good ice, cold face, dry rock bands, stable weather"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A TD+ route on Matterhorn.",
+        "technicalGrade": "TD+",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "East Face",
+        "difficulty": "D-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The east face above the Furgg Glacier offers a more direct line than the Hornli Ridge. A mixed route involving snow couloirs and rock steps. Less popular than the ridges but an interesting alternative with good climbing on varied terrain.",
+        "distance": 7,
+        "elevationGain": 1200,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Rockfall in couloirs\",\"Mixed terrain\",\"Route-finding\",\"Glacier approach\"]",
+        "tips": [
+          {
+            "content": "The couloirs funnel rockfall so early morning starts are essential",
+            "category": "timing"
+          },
+          {
+            "content": "Approach via the Furgg Glacier requires glacier travel skills",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the couloir and mixed sections",
+            "weight": "1.1kg",
+            "priceRange": "$250-$500",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151163/petzl-quark-ice-axe",
+                "price": 279.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Adze Ice Tool",
+                "url": "https://www.backcountry.com/petzl-quark-ice-tool",
+                "price": 279.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Quark Technical Ice Axe",
+                "url": "https://www.amazon.com/dp/B07GZC5QRN",
+                "price": 269
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Critical for rockfall protection in couloirs",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "A less-traveled face of the Matterhorn",
+            "body": "The east face is overlooked by most climbers focused on the ridges. The couloir climbing is engaging and the mixed terrain keeps you on your toes. A good option for experienced alpinists wanting a quieter alternative on this iconic mountain.",
+            "conditions": "Frozen couloirs early morning, some rockfall after sunrise"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A D- route on Matterhorn.",
+        "technicalGrade": "D-",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Eiger",
+    "routes": [
+      {
+        "name": "North Face (1938 Route / Heckmair Route)",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The legendary Eiger Nordwand first climbed in 1938 by Heckmair, Vorg, Harrer, and Kasparek. One of the most famous and feared routes in mountaineering history. The 1800m face involves ice fields, rock bands, the Hinterstoisser Traverse, the Death Bivouac, the White Spider, and the Exit Cracks. The face is notorious for rapid weather changes and rockfall.",
+        "distance": 8,
+        "elevationGain": 1800,
+        "estimatedTime": 960,
+        "season": "summer",
+        "hazards": "[\"Rockfall throughout\",\"Rapid weather changes\",\"The White Spider funnel\",\"Icy mixed terrain\",\"Retreat extremely difficult above Hinterstoisser\"]",
+        "tips": [
+          {
+            "content": "Study the history of the face before attempting, the mountain demands respect",
+            "category": "general"
+          },
+          {
+            "content": "Speed is your greatest safety asset on the Nordwand, minimize time on the face",
+            "category": "safety"
+          },
+          {
+            "content": "The Exit Cracks in poor conditions can turn back even strong teams",
+            "category": "general"
+          },
+          {
+            "content": "Late July to mid-August offers the most stable conditions",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed climbing throughout the face",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Ice screws (10+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the ice fields and mixed pitches",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Light rock rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the rock bands and Exit Cracks",
+            "weight": "2.0kg",
+            "priceRange": "$300-$500",
+            "specificProduct": "Black Diamond Camalot C4 Set (0.3-3)",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Camalot C4 Rack Pack",
+                "url": "https://www.rei.com/product/188285/black-diamond-camalot-c4-rack-pack",
+                "price": 449.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Camalot C4 Set",
+                "url": "https://www.backcountry.com/black-diamond-camalot-c4",
+                "price": 449.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Constant rockfall threat, non-negotiable",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most famous north face in the world",
+            "body": "Climbing the Eiger Nordwand is a rite of passage in alpinism. Every feature is steeped in history. The Hinterstoisser Traverse, the Death Bivouac, the White Spider, and finally the Exit Cracks. We climbed in a single 18-hour push. Standing on the summit knowing the history below your feet is an incomparable feeling.",
+            "conditions": "Good mixed conditions, some rockfall, stable weather window"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A ED1 route on Eiger.",
+        "technicalGrade": "ED1",
+        "commitment": "II",
+        "approachTime": 8,
+        "descentTime": 6,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "Mittellegi Ridge",
+        "difficulty": "D-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The elegant northeast ridge of the Eiger first climbed in 1921 with the aid of a fixed rope. A long and aesthetic ridge climb on generally good rock with a knife-edge arete section. The Mittellegi Hut perched on the ridge provides a dramatic bivouac point.",
+        "distance": 9,
+        "elevationGain": 1500,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Exposed knife-edge ridge\",\"Rockfall\",\"Lightning exposure\",\"Long descent via West Ridge\"]",
+        "tips": [
+          {
+            "content": "Book the Mittellegi Hut in advance, it is small and fills quickly",
+            "category": "logistics"
+          },
+          {
+            "content": "The knife-edge section requires solid scrambling skills and a head for exposure",
+            "category": "general"
+          },
+          {
+            "content": "Descent is via the West Ridge or by reversing, both are long",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "50m rope",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belaying the exposed sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Light rack (cams and nuts)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the steeper rock pitches",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Snow and ice on the upper sections",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The finest ridge on the Eiger",
+            "body": "The Mittellegi Ridge is pure aesthetic alpine climbing. The knife-edge arete is thrilling with enormous exposure on both sides. The hut perched on the ridge is one of the most dramatic in the Alps. A much more enjoyable route than the terrifying Nordwand.",
+            "conditions": "Dry rock, clear skies, light breeze on ridge"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The elegant northeast ridge of the Eiger, offering exposed mixed climbing with spectacular positions.",
+        "technicalGrade": "D (UIAA IV, AI2)",
+        "commitment": "III",
+        "approachTime": 3,
+        "descentTime": 4,
+        "basecamp": "Mittellegi Hut (3,355m)",
+        "permitRequired": false,
+        "permitInfo": "Mittellegi Hut reservation required, very limited capacity.",
+        "closestAirport": "Zurich Airport (ZRH)",
+        "safetyNotes": "Extremely exposed ridge with significant rockfall hazard. The knife-edge sections require careful climbing. Descent via the West Flank is complex. Fixed ropes on key sections."
+      },
+      {
+        "name": "South Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The south ridge from the Eigerjoch provides a less technical route to the summit. Moderate mixed climbing on the ridge with good views of the surrounding Bernese Oberland. A less demanding alternative to the other routes that still provides a satisfying summit day.",
+        "distance": 10,
+        "elevationGain": 1300,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Mixed terrain\",\"Cornices\",\"Crevassed approach\",\"Route-finding in poor visibility\"]",
+        "tips": [
+          {
+            "content": "Approach via the Jungfraujoch railway to the Eigerjoch saves significant altitude",
+            "category": "logistics"
+          },
+          {
+            "content": "The south ridge is the most moderate route on the Eiger",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Standard alpine kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons, axe, rope for moderate mixed terrain",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "GPS",
+            "category": "navigation",
+            "isEssential": false,
+            "notes": "Helpful for route-finding in cloud",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "title": "The easy way up the Eiger",
+            "body": "The south ridge lacks the drama of the other routes but still provides a summit of the Eiger. Moderate mixed climbing with good conditions. A good option for teams wanting to stand on the summit without the commitment of the Nordwand or Mittellegi.",
+            "conditions": "Mixed conditions, some cloud, moderate temperatures"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD route on Eiger.",
+        "technicalGrade": "AD",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Grandes Jorasses",
+    "routes": [
+      {
+        "name": "Walker Spur",
+        "difficulty": "ED1",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "One of the three great north faces of the Alps and arguably the finest mixed route in the range. First climbed in 1938 by Riccardo Cassin. The spur rises 1200m from the Leschaux Glacier in a series of rock and ice pitches to the Walker summit. A defining route of Alpine mountaineering.",
+        "distance": 6,
+        "elevationGain": 1200,
+        "estimatedTime": 960,
+        "season": "summer",
+        "hazards": "[\"1200m face\",\"Complex mixed climbing\",\"Rockfall\",\"Storm exposure\",\"Retreat difficult above halfway\"]",
+        "tips": [
+          {
+            "content": "The Walker Spur is one of the greatest mixed routes in the Alps, prepare thoroughly",
+            "category": "general"
+          },
+          {
+            "content": "Most teams bivouac at least once on the route, plan accordingly",
+            "category": "general"
+          },
+          {
+            "content": "A stable 2-day weather window is the minimum requirement",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Technical rock pitches to UIAA VI",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Mixed terrain throughout",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Bivouac gear",
+            "category": "camping",
+            "isEssential": true,
+            "notes": "Plan for at least one night on the face",
+            "weight": "1.8kg",
+            "priceRange": "$200-$400",
+            "specificProduct": "SOL Escape Bivvy + Thermarest NeoAir",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "SOL Escape Pro Bivvy",
+                "url": "https://www.rei.com/product/129280/sol-escape-pro-bivvy",
+                "price": 59.95
+              },
+              {
+                "retailer": "REI",
+                "productName": "Therm-a-Rest NeoAir XLite NXT",
+                "url": "https://www.rei.com/product/200060/therm-a-rest-neoair-xlite-nxt",
+                "price": 219.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The greatest mixed route in the Alps",
+            "body": "The Walker Spur is everything alpine climbing should be. Rock pitches giving way to ice fields, mixed gullies transitioning to granite walls. Cassin's line is intuitive and elegant. Bivouacking on the spur with the Leschaux Glacier 800m below was surreal. A masterpiece.",
+            "conditions": "Dry rock, good ice, 2-day stable window"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "One of the six great north faces and perhaps the finest rock route in the Alps—sustained climbing on the Grandes Jorasses.",
+        "technicalGrade": "ED2 (VI, A1)",
+        "commitment": "V",
+        "approachTime": 3,
+        "descentTime": 6,
+        "basecamp": "Leschaux Hut (2,431m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Extremely sustained route with 1,200m of climbing. Rockfall is a major hazard especially in warm conditions. The face is cold and north-facing—hypothermia risk is real. Weather changes can trap climbers on the wall for days."
+      },
+      {
+        "name": "Croz Spur",
+        "difficulty": "TD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A parallel line to the Walker Spur ending at the Pointe Croz. First climbed in 1935. The spur involves sustained mixed climbing with ice pitches and rock steps. Less famous than the Walker but an excellent route in its own right offering similar terrain.",
+        "distance": 5,
+        "elevationGain": 1100,
+        "estimatedTime": 840,
+        "season": "summer",
+        "hazards": "[\"Sustained mixed terrain\",\"Rockfall\",\"Storm exposure\",\"Icy conditions\"]",
+        "tips": [
+          {
+            "content": "The Croz Spur is a fine alternative to the Walker with less traffic",
+            "category": "general"
+          },
+          {
+            "content": "Can be combined with a traverse to the Walker summit for the complete experience",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Mixed alpine rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rock and ice protection needed throughout",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the ice pitches",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The Walker's quieter neighbor",
+            "body": "The Croz Spur gets overshadowed by the Walker but is a fantastic route in its own right. Similar mixed climbing on a slightly less sustained line. We had the entire spur to ourselves while a queue formed on the Walker. Highly recommended.",
+            "conditions": "Good mixed conditions, cold, some spindrift"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A classic mixed line on the north face of the Grandes Jorasses, often the first big north face route for aspiring alpinists.",
+        "technicalGrade": "ED1 (WI4, V)",
+        "commitment": "IV",
+        "approachTime": 3,
+        "descentTime": 6,
+        "basecamp": "Leschaux Hut (2,431m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Serious north face with sustained mixed climbing. The couloir approach is threatened by icefall. Start very early and move fast through the danger zones. Conditions must be cold and stable."
+      },
+      {
+        "name": "Normal Route (South Side)",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The easiest route to the summit via the south side and Rocher du Reposoir. While far less famous than the north face routes, the Normal Route offers a serious alpine climb with glacier travel, mixed terrain, and exposed scrambling to reach the Pointe Walker.",
+        "distance": 12,
+        "elevationGain": 1600,
+        "estimatedTime": 600,
+        "season": "summer",
+        "hazards": "[\"Crevassed glacier\",\"Mixed terrain\",\"Rockfall\",\"Route-finding\"]",
+        "tips": [
+          {
+            "content": "Approach from the Italian side via the Boccalatte Hut",
+            "category": "logistics"
+          },
+          {
+            "content": "A reasonable alpine climb that should not be underestimated despite being the easiest route",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Standard alpine kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons, axe, rope for glacier and mixed terrain",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Light rock protection",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the scrambling sections near the summit",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The back door to the Grandes Jorasses",
+            "body": "The Normal Route is the way to summit the Jorasses if you are not ready for the north face. Still a proper alpine climb with glacier travel and mixed terrain. The summit views down the north face to the Leschaux Glacier are dizzying.",
+            "conditions": "Good conditions on glacier, mixed terrain in good shape"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The standard route on Europe's highest peak via the Barrels Huts and the south face snowfields.",
+        "technicalGrade": "F (glacier hiking)",
+        "commitment": "I",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": "Barrels Huts (3,800m)",
+        "permitRequired": false,
+        "permitInfo": "No formal climbing permit required. National park fee of ~$5. Border zone permit may be required for non-Russian citizens.",
+        "closestAirport": "Mineralnye Vody Airport (MRV)",
+        "safetyNotes": "Severe weather and whiteout conditions are the main hazards. Many climbers have died in storms becoming disoriented on the featureless upper slopes. GPS navigation is essential. Altitude at 5,642m causes problems for unacclimatized climbers."
+      }
+    ]
+  },
+  {
+    "peakName": "Aiguille Verte",
+    "routes": [
+      {
+        "name": "Whymper Couloir",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The classic couloir on the north face first climbed by Edward Whymper in 1865. A sustained snow and ice couloir reaching 50 degrees in steepness. One of the most popular routes in the Chamonix valley and an essential tick for any aspiring alpinist.",
+        "distance": 8,
+        "elevationGain": 1100,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Rockfall from flanking rock walls\",\"Steep ice\",\"Crowding\",\"Serac danger above\"]",
+        "tips": [
+          {
+            "content": "Start from the Couvercle Hut for the standard approach via the Talefre Glacier",
+            "category": "logistics"
+          },
+          {
+            "content": "The couloir funnels rockfall, climb early when everything is frozen",
+            "category": "timing"
+          },
+          {
+            "content": "The exit onto the summit ridge is often the most technical section",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools (pair)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Sustained 45-50 degree ice in the couloir",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Ice screws (6+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection in the couloir",
+            "weight": "900g",
+            "priceRange": "$200-$350",
+            "specificProduct": "Petzl Laser Speed Light Ice Screw Set",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Laser Speed Light Ice Screw",
+                "url": "https://www.rei.com/product/151164/petzl-laser-speed-light-ice-screw",
+                "price": 54.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Laser Speed Light Screw",
+                "url": "https://www.backcountry.com/petzl-laser-speed-light-screw",
+                "price": 54.95
+              }
+            ]
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall risk from the couloir walls",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A Chamonix classic",
+            "body": "The Whymper Couloir is a rite of passage in Chamonix. Steep sustained ice in a dramatic setting with the Grandes Jorasses looming across the glacier. The exit onto the summit ridge is exposed and exciting. Everyone should climb this route at least once.",
+            "conditions": "Firm ice, cold start, excellent conditions"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "The classic and most popular route on the Aiguille Verte—a steep and beautiful couloir.",
+        "technicalGrade": "AD+ (AI3)",
+        "commitment": "II",
+        "approachTime": 2,
+        "descentTime": 3,
+        "basecamp": "Couvercle Hut (2,687m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "The couloir funnels rockfall from above—climb early when everything is frozen. The bergschrund at the base can be problematic late season. Steep sustained ice requires confident crampon technique."
+      },
+      {
+        "name": "Couturier Couloir",
+        "difficulty": "D-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steeper and more direct couloir to the left of the Whymper. First climbed in 1932. Reaches 55 degrees of sustained ice making it a step up in difficulty. Less crowded than the Whymper and considered a finer line by many alpinists.",
+        "distance": 7,
+        "elevationGain": 1100,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Steeper ice than Whymper\",\"Rockfall\",\"Narrow couloir\",\"Serac danger\"]",
+        "tips": [
+          {
+            "content": "The Couturier is steeper and more sustained than the Whymper, be confident on steep ice",
+            "category": "general"
+          },
+          {
+            "content": "Conditions can be very different between the two couloirs, check reports",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "55-degree ice requires aggressive tools",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "More sustained steep ice requires more protection",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The Whymper on steroids",
+            "body": "The Couturier is the better line on the north face. Steeper, more sustained, and less crowded. The ice was excellent and the 55-degree sections were engaging without being desperate. A perfect Chamonix ice route for those ready to step up from the Whymper.",
+            "conditions": "Perfect ice, cold early start, clear skies"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A striking direct line on the north face of the Aiguille Verte, steeper and more serious than the Whymper.",
+        "technicalGrade": "D (AI4)",
+        "commitment": "III",
+        "approachTime": 3,
+        "descentTime": 3,
+        "basecamp": "Argentière Hut (2,771m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Very steep ice couloir reaching 55 degrees. Must be climbed in cold, frozen conditions to avoid rockfall and ice collapse. Early season offers the best conditions. The bergschrund crossing can be very difficult."
+      },
+      {
+        "name": "Nant Blanc Face",
+        "difficulty": "TD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steep and serious face route on the southeast side. The Nant Blanc face rises directly above the Argentiere Glacier with steep mixed climbing on ice and rock. A modern classic that demands competence on sustained difficult terrain.",
+        "distance": 6,
+        "elevationGain": 1050,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Steep mixed terrain\",\"Rockfall\",\"Ice conditions variable\",\"Committing above halfway\"]",
+        "tips": [
+          {
+            "content": "The face is south-east facing and conditions deteriorate through the day as it warms",
+            "category": "timing"
+          },
+          {
+            "content": "Multiple possible lines exist on the face, study the topo carefully",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Full mixed rack",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Rock and ice protection for sustained mixed terrain",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep mixed face climbing",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "A modern Chamonix test piece",
+            "body": "The Nant Blanc face is serious alpine climbing. The mixed terrain is sustained and the line finding requires experience. A step up from the couloir routes and a true test of alpine ability. The views from the summit across the Mont Blanc massif are the reward.",
+            "conditions": "Good mixed conditions, frozen face, clear weather"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A TD route on Aiguille Verte.",
+        "technicalGrade": "TD",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Gran Paradiso",
+    "routes": [
+      {
+        "name": "Normal Route (West Face)",
+        "difficulty": "F+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard and most popular route on Italy's highest peak entirely within its borders. A straightforward glacier climb from the Vittorio Emanuele II Hut. The final section involves a short rock scramble to the summit Madonna statue. Often used as a first 4000m peak.",
+        "distance": 12,
+        "elevationGain": 1470,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Crevasses on glacier\",\"Summit rock scramble\",\"Altitude\",\"Weather changes\"]",
+        "tips": [
+          {
+            "content": "An excellent first 4000m peak, perfect for building alpine experience",
+            "category": "general"
+          },
+          {
+            "content": "The summit rock scramble to the Madonna statue is exposed and can be icy",
+            "category": "general"
+          },
+          {
+            "content": "Book the Vittorio Emanuele II Hut well in advance for summer weekends",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the glacier and summit approach",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Rope (30m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For roped glacier travel",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Harness",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For crevasse rescue readiness",
+            "weight": "350g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Black Diamond Momentum Harness",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Black Diamond Momentum Harness",
+                "url": "https://www.rei.com/product/189618/black-diamond-momentum-harness",
+                "price": 64.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Black Diamond Momentum Harness",
+                "url": "https://www.backcountry.com/black-diamond-momentum-harness",
+                "price": 64.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Black Diamond Momentum Climbing Harness",
+                "url": "https://www.amazon.com/dp/B08K2Y36QT",
+                "price": 59.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Perfect introduction to 4000m peaks",
+            "body": "Gran Paradiso is the ideal first alpine peak. The glacier is gentle, the views are fantastic, and the summit scramble adds excitement. The Vittorio Emanuele Hut is welcoming and the national park setting is beautiful. A great mountain to start your alpine career.",
+            "conditions": "Clear summer day, well-tracked glacier, firm snow"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A F+ route on Gran Paradiso.",
+        "technicalGrade": "F+",
+        "commitment": "II",
+        "approachTime": 3,
+        "descentTime": 2,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "East Face",
+        "difficulty": "PD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steeper alternative via the east face offering more interesting climbing than the normal route. The face involves moderate snow and ice climbing before joining the summit ridge. Less crowded and provides a more alpine experience.",
+        "distance": 10,
+        "elevationGain": 1400,
+        "estimatedTime": 400,
+        "season": "summer",
+        "hazards": "[\"Steeper glacier\",\"Crevasses\",\"Some ice climbing\",\"Route-finding\"]",
+        "tips": [
+          {
+            "content": "The east face provides more interesting climbing for experienced teams",
+            "category": "general"
+          },
+          {
+            "content": "Approach from the Chabod Hut for the east face",
+            "category": "logistics"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the steeper ice sections on the face",
+            "weight": "1.1kg",
+            "priceRange": "$250-$500",
+            "specificProduct": "Petzl Quark Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Quark Ice Axe",
+                "url": "https://www.rei.com/product/151163/petzl-quark-ice-axe",
+                "price": 279.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Quark Adze Ice Tool",
+                "url": "https://www.backcountry.com/petzl-quark-ice-tool",
+                "price": 279.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl Quark Technical Ice Axe",
+                "url": "https://www.amazon.com/dp/B07GZC5QRN",
+                "price": 269
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (4+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the steeper ice",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Gran Paradiso with more spice",
+            "body": "The east face adds technical interest to what is otherwise a straightforward glacier peak. The ice sections are engaging without being desperate. A good step up from the normal route for those building experience.",
+            "conditions": "Good ice, clear weather, uncrowded"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD+ route on Gran Paradiso.",
+        "technicalGrade": "PD+",
+        "commitment": "II",
+        "approachTime": 3,
+        "descentTime": 2,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Piz Bernina",
+    "routes": [
+      {
+        "name": "Biancograt (White Ridge)",
+        "difficulty": "AD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "One of the most beautiful and iconic ridges in the Alps. The Biancograt is a narrow snow and ice arete leading to the summit of the only 4000m peak in the Eastern Alps. The knife-edge ridge with cornices on one side and steep drops on the other is a stunning piece of alpine terrain.",
+        "distance": 10,
+        "elevationGain": 1200,
+        "estimatedTime": 480,
+        "season": "summer",
+        "hazards": "[\"Knife-edge cornice ridge\",\"Crevassed glacier approach\",\"Exposure\",\"Weather changes\"]",
+        "tips": [
+          {
+            "content": "The Biancograt is one of the most photogenic ridges in the Alps, conditions must be perfect",
+            "category": "general"
+          },
+          {
+            "content": "Start from the Tschierva Hut for the standard approach",
+            "category": "logistics"
+          },
+          {
+            "content": "The cornices can be enormous and the ridge requires careful assessment",
+            "category": "safety"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep snow and ice on the ridge",
+            "weight": "950g",
+            "priceRange": "$180-$300",
+            "specificProduct": "Petzl Lynx Crampons",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Lynx Leverlock Crampons",
+                "url": "https://www.rei.com/product/151161/petzl-lynx-leverlock-crampons",
+                "price": 249.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Lynx Crampons",
+                "url": "https://www.backcountry.com/petzl-lynx-crampon",
+                "price": 249.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl LYNX Crampons",
+                "url": "https://www.amazon.com/dp/B00DGTAZ5I",
+                "price": 239.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the arete climbing",
+            "weight": "450g",
+            "priceRange": "$100-$200",
+            "specificProduct": "Petzl Summit EVO Ice Axe",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Summit EVO Ice Axe",
+                "url": "https://www.rei.com/product/209425/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Summit EVO",
+                "url": "https://www.backcountry.com/petzl-summit-evo-ice-axe",
+                "price": 139.95
+              }
+            ]
+          },
+          {
+            "itemName": "Rope (50m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For roped climbing on the exposed ridge",
+            "weight": "2.8kg",
+            "priceRange": "$180-$350",
+            "specificProduct": "Beal Joker 9.1mm x 50m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Beal Joker Unicore Dry Cover 9.1mm",
+                "url": "https://www.rei.com/product/177584/beal-joker-unicore-dry-cover",
+                "price": 219.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Beal Joker 9.1 Dry Cover Rope",
+                "url": "https://www.backcountry.com/beal-joker-dry-cover-rope",
+                "price": 219.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most beautiful ridge in the Alps",
+            "body": "The Biancograt deserves its reputation as one of the finest ridges anywhere. The narrow snow arete with cornices is breathtaking. Climbing along the knife-edge with thousands of feet of exposure on each side is thrilling. The summit of the only Eastern Alps 4000er is the cherry on top.",
+            "conditions": "Perfect snow conditions, light wind, clear visibility"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD+ route on Piz Bernina.",
+        "technicalGrade": "AD+",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "Spallagrat (Normal Route)",
+        "difficulty": "PD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route via the south ridge from the Marco e Rosa Hut. A moderate mixed climb on rock and snow that is the most popular way to the summit. Involves a short section of exposed rock climbing near the top.",
+        "distance": 12,
+        "elevationGain": 1100,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Mixed terrain\",\"Exposed rock sections\",\"Glacier approach\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "The Marco e Rosa Hut is the standard starting point, book in advance",
+            "category": "logistics"
+          },
+          {
+            "content": "The rock section near the summit can be icy and requires care",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Standard alpine kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Crampons, axe, rope, helmet for mixed terrain",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Light rock protection",
+            "category": "climbing",
+            "isEssential": false,
+            "notes": "For the exposed rock step near the summit",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "The standard way up Bernina",
+            "body": "The Spallagrat is a fine mixed route that takes you to the summit of the Eastern Alps highest peak. The rock section near the top adds interest. Good conditions and it flows nicely. The perfect warm-up before attempting the Biancograt.",
+            "conditions": "Dry rock, good snow, moderate conditions"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD+ route on Piz Bernina.",
+        "technicalGrade": "PD+",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Grossglockner",
+    "routes": [
+      {
+        "name": "Normal Route (Studlgrat)",
+        "difficulty": "PD+",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The classic route on Austria's highest peak via the Studlgrat ridge. A mixed climb involving glacier travel, a rock ridge, and an exposed summit traverse. The route is well-equipped with fixed ropes on key sections. The Erzherzog-Johann Hut provides a dramatic high bivouac.",
+        "distance": 12,
+        "elevationGain": 1250,
+        "estimatedTime": 420,
+        "season": "summer",
+        "hazards": "[\"Exposed summit ridge\",\"Mixed terrain\",\"Rockfall\",\"Weather changes\",\"Glacier crevasses\"]",
+        "tips": [
+          {
+            "content": "Book the Erzherzog-Johann Hut for the standard two-day itinerary",
+            "category": "logistics"
+          },
+          {
+            "content": "The summit traverse between Kleinglockner and Grossglockner is very exposed",
+            "category": "general"
+          },
+          {
+            "content": "July to September offers the best conditions",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier and mixed sections",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Via ferrata kit",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For the fixed rope sections on the Studlgrat",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Helmet",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "Rockfall risk on the ridge",
+            "weight": "230g",
+            "priceRange": "$60-$120",
+            "specificProduct": "Petzl Sirocco Helmet",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Sirocco Climbing Helmet",
+                "url": "https://www.rei.com/product/115070/petzl-sirocco-climbing-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Sirocco Helmet",
+                "url": "https://www.backcountry.com/petzl-sirocco-helmet",
+                "price": 99.95
+              },
+              {
+                "retailer": "Amazon",
+                "productName": "Petzl SIROCCO Ultra-Lightweight Helmet",
+                "url": "https://www.amazon.com/dp/B016P0GBPI",
+                "price": 94.95
+              }
+            ]
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Austria's crown jewel",
+            "body": "The Grossglockner via the Studlgrat is a fine alpine climb. The rock ridge is engaging and the summit traverse is exposed and exciting. The Erzherzog-Johann Hut has incredible views. A must-do for anyone visiting the Austrian Alps.",
+            "conditions": "Dry rock, good snow on glacier, clear summit day"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A PD+ route on Grossglockner.",
+        "technicalGrade": "PD+",
+        "commitment": "II",
+        "approachTime": 4,
+        "descentTime": 3,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      },
+      {
+        "name": "Northwest Face (Pallavicini Couloir)",
+        "difficulty": "D",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "A steep and serious ice couloir on the northwest face first climbed in 1876. The couloir reaches 55 degrees and is one of the classic steep ice routes in the Eastern Alps. More demanding than the normal route with genuine alpine ice climbing.",
+        "distance": 8,
+        "elevationGain": 1000,
+        "estimatedTime": 360,
+        "season": "summer",
+        "hazards": "[\"Steep ice to 55 degrees\",\"Rockfall\",\"Narrow couloir\",\"Rapid condition changes\"]",
+        "tips": [
+          {
+            "content": "The Pallavicini is a serious ice climb, be comfortable on sustained 50-55 degree ice",
+            "category": "general"
+          },
+          {
+            "content": "Early morning start essential as the couloir receives sun and rockfall increases",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Technical ice tools",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Steep sustained ice requires aggressive tools",
+            "weight": "1.2kg",
+            "priceRange": "$350-$600",
+            "specificProduct": "Petzl Nomic Ice Tool",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.rei.com/product/151450/petzl-nomic-ice-tool",
+                "price": 349.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl Nomic Ice Tool",
+                "url": "https://www.backcountry.com/petzl-nomic-ice-tool",
+                "price": 349.95
+              }
+            ]
+          },
+          {
+            "itemName": "Ice screws (8+)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Protection on the sustained steep ice",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "Classic Eastern Alps ice",
+            "body": "The Pallavicini Couloir transforms the Grossglockner from a moderate peak to a genuine ice climbing objective. The sustained 55-degree ice is excellent and the couloir setting is dramatic. A much more rewarding climb than the standard route.",
+            "conditions": "Excellent ice, cold start, clear skies"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A D route on Grossglockner.",
+        "technicalGrade": "D",
+        "commitment": "II",
+        "approachTime": 3,
+        "descentTime": 2,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  },
+  {
+    "peakName": "Weisshorn",
+    "routes": [
+      {
+        "name": "East Ridge",
+        "difficulty": "AD",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on one of the most beautiful peaks in the Alps. A long and aesthetic snow and ice ridge with sustained exposure. The Weisshorn's perfect pyramid shape makes this one of the most satisfying summit climbs in the Valais.",
+        "distance": 14,
+        "elevationGain": 1650,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Long exposed ridge\",\"Cornices\",\"Altitude\",\"Crevassed glacier approach\",\"Weather\"]",
+        "tips": [
+          {
+            "content": "Start from the Weisshorn Hut for the standard approach",
+            "category": "logistics"
+          },
+          {
+            "content": "The ridge is long and exposed, an early start is essential",
+            "category": "timing"
+          },
+          {
+            "content": "The Weisshorn is considered one of the most beautiful mountains in the Alps",
+            "category": "general"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "Snow and ice ridge climbing",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          },
+          {
+            "itemName": "Rope (50m)",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For roped ridge climbing",
+            "weight": "2.8kg",
+            "priceRange": "$180-$350",
+            "specificProduct": "Beal Joker 9.1mm x 50m",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Beal Joker Unicore Dry Cover 9.1mm",
+                "url": "https://www.rei.com/product/177584/beal-joker-unicore-dry-cover",
+                "price": 219.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Beal Joker 9.1 Dry Cover Rope",
+                "url": "https://www.backcountry.com/beal-joker-dry-cover-rope",
+                "price": 219.95
+              }
+            ]
+          },
+          {
+            "itemName": "Snow anchors",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For belays on the snow ridge",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "title": "The most beautiful peak in the Alps",
+            "body": "The Weisshorn is a perfect pyramid and the East Ridge is the perfect way to climb it. The ridge goes on and on with stunning exposure. The summit is narrow and the views are extraordinary. This mountain should be on every alpinist's list.",
+            "conditions": "Firm snow on ridge, light wind, clear skies"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A classic long snow and ice ridge on one of the most beautiful peaks in the Alps.",
+        "technicalGrade": "AD (AI2)",
+        "commitment": "III",
+        "approachTime": 4,
+        "descentTime": 5,
+        "basecamp": "Weisshorn Hut (2,932m)",
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": "Geneva Airport (GVA)",
+        "safetyNotes": "Very long route with sustained exposure. The Grand Gendarme requires careful navigation. Cornices can overhang the south face. An early start is essential to complete the route before afternoon weather. Descent is long and tiring."
+      }
+    ]
+  },
+  {
+    "peakName": "Monte Rosa",
+    "routes": [
+      {
+        "name": "Normal Route (West Ridge)",
+        "difficulty": "AD-",
+        "gradeSystem": "alpine",
+        "activityType": "alpine",
+        "description": "The standard route on the highest peak in Switzerland via the Monte Rosa Hut and Grenz Glacier. A moderate glacier and mixed climb with a final rock scramble to the summit. The Monte Rosa Hut is a striking modern building designed to be energy self-sufficient.",
+        "distance": 16,
+        "elevationGain": 1800,
+        "estimatedTime": 540,
+        "season": "summer",
+        "hazards": "[\"Crevassed Grenz Glacier\",\"Mixed summit block\",\"Altitude\",\"Weather changes\"]",
+        "tips": [
+          {
+            "content": "The Monte Rosa Hut is a modern architectural marvel, enjoy the experience",
+            "category": "logistics"
+          },
+          {
+            "content": "The Grenz Glacier is heavily crevassed, rope up and bring rescue gear",
+            "category": "safety"
+          },
+          {
+            "content": "July to September offers the best conditions",
+            "category": "timing"
+          }
+        ],
+        "gear": [
+          {
+            "itemName": "Crevasse rescue kit",
+            "category": "safety",
+            "isEssential": true,
+            "notes": "The Grenz Glacier has large crevasses",
+            "weight": "1.5kg",
+            "priceRange": "$120-$200",
+            "specificProduct": "Petzl RAD System",
+            "links": [
+              {
+                "retailer": "REI",
+                "productName": "Petzl RAD System",
+                "url": "https://www.rei.com/product/151159/petzl-rad-system",
+                "price": 169.95
+              },
+              {
+                "retailer": "Backcountry",
+                "productName": "Petzl RAD Line Rescue Kit",
+                "url": "https://www.backcountry.com/petzl-rad-line-rescue-kit",
+                "price": 169.95
+              }
+            ]
+          },
+          {
+            "itemName": "Crampons and ice axe",
+            "category": "climbing",
+            "isEssential": true,
+            "notes": "For glacier travel and the mixed summit block",
+            "weight": null,
+            "priceRange": null,
+            "specificProduct": null,
+            "links": []
+          }
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "title": "Switzerland's highest summit",
+            "body": "The Dufourspitze via the normal route is a fine alpine climb. The Monte Rosa Hut is impressive and the Grenz Glacier approach is spectacular. The summit scramble is exposed but short. Standing on the roof of Switzerland is a proud moment.",
+            "conditions": "Good glacier conditions, dry rock on summit block, clear weather"
+          }
+        ],
+        "imageUrl": null,
+        "summary": "A AD- route on Monte Rosa.",
+        "technicalGrade": "AD-",
+        "commitment": "II",
+        "approachTime": 5,
+        "descentTime": 4,
+        "basecamp": null,
+        "permitRequired": false,
+        "permitInfo": null,
+        "closestAirport": null,
+        "safetyNotes": "Check current conditions before attempting this route. Carry appropriate safety equipment and be prepared for rapidly changing weather."
+      }
+    ]
+  }
+]

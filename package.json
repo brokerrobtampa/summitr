@@ -1,0 +1,20 @@
+{
+  "name": "summit-routes",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @summit/shared build && concurrently -n server,client -c blue,green \"pnpm --filter @summit/server dev\" \"pnpm --filter @summit/client dev\"",
+    "build": "pnpm -r build",
+    "build:prod": "pnpm --filter @summit/shared build && pnpm --filter @summit/client build && pnpm --filter @summit/server exec prisma generate && pnpm --filter @summit/server build",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "db:migrate": "pnpm --filter @summit/server prisma migrate dev",
+    "db:seed": "pnpm --filter @summit/server prisma db seed",
+    "db:studio": "pnpm --filter @summit/server prisma studio"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.0",
+    "typescript": "^5.7.0"
+  }
+}

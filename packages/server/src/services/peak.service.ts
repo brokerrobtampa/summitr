@@ -1,0 +1,210 @@
+import { peakQuerySchema, peakBoundsSchema, peakNearbySchema } from '@summit/shared';
+import { prisma } from '../lib/prisma.js';
+import { NotFoundError, ValidationError } from '../lib/errors.js';
+import type { Prisma } from '../generated/prisma/index.js';
+
+export async function listPeaks(query: unknown) {
+  const parsed = peakQuerySchema.safeParse(query);
+  if (!parsed.success) throw new ValidationError(parsed.error.issues[0].message);
+
+  const { page, limit, country, range, minElevation, maxElevation, q, sort } = parsed.data;
+
+  const where: Prisma.PeakWhereInput = {};
+  if (country) where.country = country;
+  if (range) where.range = { contains: range };
+  if (minElevation !== undefined) where.elevation = { ...((where.elevation as object) || {}), gte: minElevation };
+  if (maxElevation !== undefined) where.elevation = { ...((where.elevation as object) || {}), lte: maxElevation };
+  if (q) where.name = { contains: q };
+
+  const orderBy: Prisma.PeakOrderByWithRelationInput = (() => {
+    switch (sort) {
+      case 'elevation_desc': return { elevation: 'desc' };
+      case 'elevation_asc': return { elevation: 'asc' };
+      case 'name_desc': return { name: 'desc' };
+      case 'name_asc':
+      default: return { name: 'asc' };
+    }
+  })();
+
+  const [peaks, total] = await Promise.all([
+    prisma.peak.findMany({
+      where,
+      orderBy,
+      skip: (page - 1) * limit,
+      take: limit,
+      include: { _count: { select: { routes: true } } },
+    }),
+    prisma.peak.count({ where }),
+  ]);
+
+  return {
+    data: peaks.map((p) => ({
+      id: p.id,
+      name: p.name,
+      latitude: p.latitude,
+      longitude: p.longitude,
+      elevation: p.elevation,
+      country: p.country,
+      range: p.range,
+      routeCount: p._count.routes,
+      imageUrl: p.imageUrl,
+    })),
+    pagination: {
+      page,
+      limit,
+      total,
+      totalPages: Math.ceil(total / limit),
+    },
+  };
+}
+
+export async function getPeakById(id: number) {
+  const peak = await prisma.peak.findUnique({
+    where: { id },
+    include: {
+      _count: { select: { routes: true } },
+      routes: {
+        include: { reviews: { select: { rating: true } } },
+      },
+      guideServices: true,
+    },
+  });
+
+  if (!peak) throw new NotFoundError('Peak');
+
+  const allRatings = peak.routes.flatMap((r) => r.reviews.map((rev) => rev.rating));
+  const averageRating =
+    allRatings.length > 0 ? allRatings.reduce((a, b) => a + b, 0) / allRatings.length : null;
+
+  const { routes: _, _count, alternateNames, guideServices, ...rest } = peak;
+  return {
+    ...rest,
+    alternateNames: alternateNames ? JSON.parse(alternateNames) : null,
+    routeCount: _count.routes,
+    averageRating: averageRating ? Math.round(averageRating * 10) / 10 : null,
+    guideServices: guideServices.map((s) => ({
+      id: s.id,
+      name: s.name,
+      website: s.website,
+      description: s.description,
+      priceRange: s.priceRange,
+      contactEmail: s.contactEmail,
+      contactPhone: s.contactPhone,
+      location: s.location,
+      specialties: s.specialties ? JSON.parse(s.specialties) : [],
+      logoUrl: s.logoUrl,
+      rating: s.rating,
+    })),
+    hasGuideServices: guideServices.length > 0,
+  };
+}
+
+export async function getPeakRoutes(peakId: number, query: unknown) {
+  const peak = await prisma.peak.findUnique({ where: { id: peakId } });
+  if (!peak) throw new NotFoundError('Peak');
+
+  const routes = await prisma.route.findMany({
+    where: { peakId, isPublic: true },
+    include: {
+      author: { select: { username: true } },
+      _count: { select: { reviews: true } },
+      reviews: { select: { rating: true } },
+    },
+    orderBy: { createdAt: 'desc' },
+  });
+
+  return routes.map((r) => {
+    const avgRating =
+      r.reviews.length > 0
+        ? Math.round((r.reviews.reduce((a, rev) => a + rev.rating, 0) / r.reviews.length) * 10) / 10
+        : null;
+    return {
+      id: r.id,
+      name: r.name,
+      peakId: r.peakId,
+      peakName: peak.name,
+      difficulty: r.difficulty,
+      gradeSystem: r.gradeSystem,
+      activityType: r.activityType,
+      summary: r.summary,
+      imageUrl: r.imageUrl,
+      elevationGain: r.elevationGain,
+      estimatedTime: r.estimatedTime,
+      reviewCount: r._count.reviews,
+      averageRating: avgRating,
+      authorUsername: r.author.username,
+    };
+  });
+}
+
+export async function getPeaksByBounds(query: unknown) {
+  const parsed = peakBoundsSchema.safeParse(query);
+  if (!parsed.success) throw new ValidationError(parsed.error.issues[0].message);
+
+  const { north, south, east, west, limit } = parsed.data;
+
+  const peaks = await prisma.peak.findMany({
+    where: {
+      latitude: { gte: south, lte: north },
+      longitude: { gte: west, lte: east },
+    },
+    take: limit,
+    orderBy: { elevation: 'desc' },
+    include: { _count: { select: { routes: true } } },
+  });
+
+  return peaks.map((p) => ({
+    id: p.id,
+    name: p.name,
+    latitude: p.latitude,
+    longitude: p.longitude,
+    elevation: p.elevation,
+    country: p.country,
+    range: p.range,
+    routeCount: p._count.routes,
+    imageUrl: p.imageUrl,
+  }));
+}
+
+export async function getNearbyPeaks(query: unknown) {
+  const parsed = peakNearbySchema.safeParse(query);
+  if (!parsed.success) throw new ValidationError(parsed.error.issues[0].message);
+
+  const { lat, lng, radiusKm, limit } = parsed.data;
+
+  // Haversine approximation using SQLite — rough bounding box first, then precise filter
+  const latDelta = radiusKm / 111.0;
+  const lngDelta = radiusKm / (111.0 * Math.cos((lat * Math.PI) / 180));
+
+  const peaks = await prisma.$queryRawUnsafe<
+    Array<{
+      id: number;
+      name: string;
+      latitude: number;
+      longitude: number;
+      elevation: number;
+      country: string | null;
+      range: string | null;
+      distance_km: number;
+    }>
+  >(
+    `SELECT id, name, latitude, longitude, elevation, country, "range",
+       (6371 * acos(
+         cos(radians(?)) * cos(radians(latitude)) *
+         cos(radians(longitude) - radians(?)) +
+         sin(radians(?)) * sin(radians(latitude))
+       )) AS distance_km
+     FROM Peak
+     WHERE latitude BETWEEN ? AND ?
+       AND longitude BETWEEN ? AND ?
+     HAVING distance_km <= ?
+     ORDER BY distance_km ASC
+     LIMIT ?`,
+    lat, lng, lat,
+    lat - latDelta, lat + latDelta,
+    lng - lngDelta, lng + lngDelta,
+    radiusKm, limit,
+  );
+
+  return peaks;
+}

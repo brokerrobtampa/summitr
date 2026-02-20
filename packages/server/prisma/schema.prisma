@@ -1,0 +1,302 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  output        = "../src/generated/prisma"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+// ─── USERS ──────────────────────────────────────────────
+
+model User {
+  id              Int      @id @default(autoincrement())
+  email           String   @unique
+  username        String   @unique
+  passwordHash    String
+  displayName     String?
+  bio             String?
+  avatarUrl       String?
+  location        String?
+  experienceLevel String?  // beginner, intermediate, advanced, expert
+  climbingStyles  String?  // JSON array of preferred styles
+  socialLinks     String?  // JSON object with social media links
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  routes      Route[]
+  reviews     Review[]
+  tips        Tip[]
+  gearRecs    GearRecommendation[]
+  climbLogs   ClimbLog[]
+  savedRoutes SavedRoute[]
+  following   UserFollow[] @relation("following")
+  followers   UserFollow[] @relation("followers")
+  comments    Comment[]
+}
+
+// ─── PEAKS ──────────────────────────────────────────────
+
+model Peak {
+  id                    Int      @id @default(autoincrement())
+  name                  String
+  alternateNames        String?
+  latitude              Float
+  longitude             Float
+  elevation             Float
+  prominence            Float?
+  country               String?
+  region                String?
+  range                 String?
+  description           String?
+  imageUrl              String?  // Hero image URL
+  closestAirport        String?  // Airport name + IATA code
+  closestAirportDistance String?  // Distance description
+  permitRequired        Boolean  @default(false)
+  permitInfo            String?  // Permit details
+  bestMonths            String?  // Best months for climbing
+  osmId                 String?  @unique
+  source                String   @default("osm")
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  routes        Route[]
+  climbLogs     ClimbLog[]
+  guideServices GuideService[]
+
+  @@index([latitude, longitude])
+  @@index([elevation])
+  @@index([country])
+  @@index([name])
+}
+
+// ─── ROUTES ─────────────────────────────────────────────
+
+model Route {
+  id             Int      @id @default(autoincrement())
+  name           String
+  peakId         Int
+  peak           Peak     @relation(fields: [peakId], references: [id], onDelete: Cascade)
+  authorId       Int
+  author         User     @relation(fields: [authorId], references: [id])
+  difficulty     String?
+  gradeSystem    String?
+  activityType   String   @default("alpine")
+  description    String?
+  summary        String?  // Short 1-2 sentence overview for cards
+  imageUrl       String?  // Route photo URL
+  technicalGrade String?  // Specific technical grade (rock/ice)
+  commitment     String?  // Commitment level (I-VI)
+  distance       Float?
+  elevationGain  Float?
+  estimatedTime  Float?
+  approachTime   Float?   // Approach time in hours
+  descentTime    Float?   // Descent time in hours
+  basecamp       String?  // Basecamp name/description
+  season         String?
+  hazards        String?
+  safetyNotes    String?  // Dedicated safety section
+  permitRequired Boolean  @default(false)
+  permitInfo     String?  // Route-specific permit details
+  closestAirport String?  // Closest airport (may differ from peak)
+  geoJson        String?
+  isPublic       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  waypoints Waypoint[]
+  reviews   Review[]
+  tips      Tip[]
+  gearRecs  GearRecommendation[]
+  climbLogs ClimbLog[]
+  savedBy   SavedRoute[]
+
+  @@index([peakId])
+  @@index([authorId])
+  @@index([activityType])
+}
+
+// ─── WAYPOINTS ──────────────────────────────────────────
+
+model Waypoint {
+  id           Int    @id @default(autoincrement())
+  routeId      Int
+  route        Route  @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  orderIndex   Int
+  latitude     Float
+  longitude    Float
+  elevation    Float?
+  name         String?
+  description  String?
+  waypointType String @default("waypoint")
+
+  @@index([routeId])
+  @@unique([routeId, orderIndex])
+}
+
+// ─── REVIEWS ────────────────────────────────────────────
+
+model Review {
+  id         Int       @id @default(autoincrement())
+  routeId    Int
+  route      Route     @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  authorId   Int
+  author     User      @relation(fields: [authorId], references: [id])
+  rating     Int
+  title      String?
+  body       String
+  climbDate  DateTime?
+  conditions String?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@index([routeId])
+  @@index([authorId])
+}
+
+// ─── TIPS ───────────────────────────────────────────────
+
+model Tip {
+  id        Int      @id @default(autoincrement())
+  routeId   Int
+  route     Route    @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  authorId  Int
+  author    User     @relation(fields: [authorId], references: [id])
+  content   String
+  category  String   @default("general")
+  createdAt DateTime @default(now())
+
+  @@index([routeId])
+}
+
+// ─── GEAR RECOMMENDATIONS ───────────────────────────────
+
+model GearRecommendation {
+  id              Int      @id @default(autoincrement())
+  routeId         Int
+  route           Route    @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  authorId        Int
+  author          User     @relation(fields: [authorId], references: [id])
+  itemName        String
+  category        String   @default("general")
+  isEssential     Boolean  @default(false)
+  notes           String?
+  weight          String?  // Approximate weight (e.g., "450g", "1.2kg")
+  priceRange      String?  // Price range (e.g., "$50-$100")
+  specificProduct String?  // Recommended specific product name
+  createdAt       DateTime @default(now())
+
+  links GearLink[]
+
+  @@index([routeId])
+}
+
+// ─── GEAR PURCHASE LINKS ────────────────────────────────
+
+model GearLink {
+  id          Int                @id @default(autoincrement())
+  gearId      Int
+  gear        GearRecommendation @relation(fields: [gearId], references: [id], onDelete: Cascade)
+  retailer    String             // "REI", "Backcountry", "Amazon", "Moosejaw"
+  productName String
+  url         String
+  price       Float?
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@index([gearId])
+}
+
+// ─── CLIMB LOGS ─────────────────────────────────────────
+
+model ClimbLog {
+  id            Int      @id @default(autoincrement())
+  userId        Int
+  user          User     @relation(fields: [userId], references: [id])
+  peakId        Int
+  peak          Peak     @relation(fields: [peakId], references: [id])
+  routeId       Int?
+  route         Route?   @relation(fields: [routeId], references: [id])
+  date          DateTime
+  notes         String?
+  conditions    String?
+  success       Boolean  @default(true)
+  duration      Float?   // Actual climb duration in hours
+  photos        String?  // JSON array of photo URLs
+  rating        Int?     // Personal rating 1-5
+  isPublic      Boolean  @default(false)
+  elevationGain Float?   // Actual elevation gain
+  createdAt     DateTime @default(now())
+
+  comments  Comment[]
+
+  @@index([userId])
+  @@index([peakId])
+}
+
+// ─── SAVED ROUTES ───────────────────────────────────────
+
+model SavedRoute {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  routeId   Int
+  route     Route    @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, routeId])
+}
+
+// ─── GUIDE SERVICES ────────────────────────────────────
+
+model GuideService {
+  id           Int      @id @default(autoincrement())
+  peakId       Int
+  peak         Peak     @relation(fields: [peakId], references: [id], onDelete: Cascade)
+  name         String
+  website      String
+  description  String?
+  priceRange   String?  // e.g. "$6,000 - $9,000"
+  contactEmail String?
+  contactPhone String?
+  location     String?  // e.g. "Seattle, WA" or "Kathmandu, Nepal"
+  specialties  String?  // JSON array of specialties
+  logoUrl      String?
+  rating       Float?   // Optional editorial rating
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([peakId])
+}
+
+// ─── USER FOLLOWS ──────────────────────────────────────
+
+model UserFollow {
+  id          Int      @id @default(autoincrement())
+  followerId  Int
+  follower    User     @relation("following", fields: [followerId], references: [id], onDelete: Cascade)
+  followingId Int
+  following   User     @relation("followers", fields: [followingId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+
+  @@unique([followerId, followingId])
+  @@index([followerId])
+  @@index([followingId])
+}
+
+// ─── COMMENTS ──────────────────────────────────────────
+
+model Comment {
+  id         Int      @id @default(autoincrement())
+  climbLogId Int
+  climbLog   ClimbLog @relation(fields: [climbLogId], references: [id], onDelete: Cascade)
+  authorId   Int
+  author     User     @relation(fields: [authorId], references: [id])
+  body       String
+  createdAt  DateTime @default(now())
+
+  @@index([climbLogId])
+  @@index([authorId])
+}
