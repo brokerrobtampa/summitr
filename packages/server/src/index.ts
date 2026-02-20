@@ -6,7 +6,7 @@ async function main() {
 
   try {
     await app.listen({ port: config.port, host: config.host });
-    console.log(`Summit Line API running on http://localhost:${config.port}`);
+    console.log(`SummitR API running on http://localhost:${config.port}`);
   } catch (err) {
     app.log.error(err);
     process.exit(1);

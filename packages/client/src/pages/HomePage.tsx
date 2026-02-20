@@ -220,7 +220,7 @@ export function HomePage() {
       {!user && (
         <section className="bg-gray-900 text-white">
           <div className="max-w-4xl mx-auto px-4 py-16 text-center">
-            <h2 className="text-3xl font-bold mb-4">Join the Summit Line Community</h2>
+            <h2 className="text-3xl font-bold mb-4">Join the SummitR Community</h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto">
               Log your climbs, follow other mountaineers, share beta, and plan your next adventure.
               It's free and always will be.

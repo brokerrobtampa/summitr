@@ -152,7 +152,7 @@ async function main() {
   console.log(`Total peaks in database: ${await prisma.peak.count()}`);
 
   // ── 2. Create seed user ────────────────────────────────
-  const seedEmail = 'alpine.guide@summitline.app';
+  const seedEmail = 'alpine.guide@summitr.app';
   let seedUser = await prisma.user.findUnique({ where: { email: seedEmail } });
 
   if (!seedUser) {
@@ -160,7 +160,7 @@ async function main() {
       data: {
         email: seedEmail,
         username: 'alpine_guide',
-        passwordHash: await hashPassword('SummitLine2024!'),
+        passwordHash: await hashPassword('SummitR2024!'),
         displayName: 'Alpine Guide',
         bio: 'Curated route information from established mountaineering sources. Routes compiled from public guidebooks, trip reports, and community knowledge.',
         location: 'Worldwide',

@@ -19,14 +19,14 @@ export async function generateGPX(routeId: number): Promise<string> {
   } catch {}
 
   let gpx = `<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="Summit Line"
+<gpx version="1.1" creator="SummitR"
   xmlns="http://www.topografix.com/GPX/1/1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>${escapeXml(route.name)}</name>
     <desc>${escapeXml(route.description || `Route on ${route.peak.name}`)}</desc>
-    <author><name>Summit Line</name></author>
+    <author><name>SummitR</name></author>
     <time>${now}</time>
   </metadata>
 `;

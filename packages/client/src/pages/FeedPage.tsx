@@ -120,7 +120,7 @@ export function FeedPage() {
                       to="/register"
                       className="bg-peak-blue text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                     >
-                      Join Summit Line
+                      Join SummitR
                     </Link>
                   )}
                 </>
@@ -190,7 +190,7 @@ export function FeedPage() {
 
           {/* Stats */}
           <div className="bg-white border border-gray-200 rounded-xl p-5 mt-4">
-            <h3 className="font-semibold text-gray-900 mb-3 text-sm uppercase tracking-wide">Summit Line</h3>
+            <h3 className="font-semibold text-gray-900 mb-3 text-sm uppercase tracking-wide">SummitR</h3>
             <div className="grid grid-cols-2 gap-3 text-center">
               <div>
                 <div className="text-lg font-bold text-peak-blue">185</div>

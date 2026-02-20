@@ -13,7 +13,7 @@ export function Header() {
         <svg viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor">
           <polygon points="12,2 22,20 2,20" />
         </svg>
-        Summit Line
+        SummitR
       </Link>
 
       <nav className="hidden md:flex items-center gap-4 ml-4">
