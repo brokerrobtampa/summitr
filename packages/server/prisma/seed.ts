@@ -1,4 +1,4 @@
-import { PrismaClient } from '../src/generated/prisma/index.js';
+import { PrismaClient } from '@prisma/client';
 import { hashPassword } from '../src/lib/auth.js';
 import fs from 'node:fs';
 import path from 'node:path';

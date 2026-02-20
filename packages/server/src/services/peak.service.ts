@@ -1,7 +1,7 @@
 import { peakQuerySchema, peakBoundsSchema, peakNearbySchema } from '@summit/shared';
 import { prisma } from '../lib/prisma.js';
 import { NotFoundError, ValidationError } from '../lib/errors.js';
-import type { Prisma } from '../generated/prisma/index.js';
+import type { Prisma } from '@prisma/client';
 
 export async function listPeaks(query: unknown) {
   const parsed = peakQuerySchema.safeParse(query);
