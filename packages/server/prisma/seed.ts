@@ -173,6 +173,8 @@ async function main() {
   }
 
   // ── 3. Seed routes with tips, gear, and reviews ────────
+  // Batch approach: pre-load all peaks & existing routes into memory,
+  // then process each route file in a single transaction per file.
   const routeFiles = [
     'routes-world.json',
     'routes-himalaya.json',
@@ -187,235 +189,148 @@ async function main() {
     'routes-world-remaining.json',
   ];
 
-  const rawRoutes: SeedPeakRoutes[] = [];
-  for (const file of routeFiles) {
-    const filePath = path.join(__dirname, 'seed-data', file);
-    if (fs.existsSync(filePath)) {
-      const data: SeedPeakRoutes[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      rawRoutes.push(...data);
-      console.log(`  Loaded ${data.length} peak entries from ${file}`);
-    } else {
-      console.log(`  Skipping ${file} (not found)`);
-    }
-  }
+  // Pre-load all peaks into a name→peak map (single query)
+  const allPeaks = await prisma.peak.findMany();
+  const peakMap = new Map<string, typeof allPeaks[0]>();
+  for (const p of allPeaks) peakMap.set(p.name, p);
+
+  // Pre-load all existing routes into a "peakId-routeName" → route map (single query)
+  const allExistingRoutes = await prisma.route.findMany({ select: { id: true, name: true, peakId: true } });
+  const existingRouteMap = new Map<string, number>();
+  for (const r of allExistingRoutes) existingRouteMap.set(`${r.peakId}-${r.name}`, r.id);
 
   let routesCreated = 0;
-  let routesUpdated = 0;
-  let tipsCreated = 0;
-  let gearCreated = 0;
-  let gearLinksCreated = 0;
-  let reviewsCreated = 0;
+  let routesSkipped = 0;
 
-  for (const peakEntry of rawRoutes) {
-    const peak = await prisma.peak.findFirst({
-      where: { name: peakEntry.peakName },
-    });
-
-    if (!peak) {
-      console.log(`  WARNING: Peak "${peakEntry.peakName}" not found, skipping routes`);
+  for (const file of routeFiles) {
+    const filePath = path.join(__dirname, 'seed-data', file);
+    if (!fs.existsSync(filePath)) {
+      console.log(`  Skipping ${file} (not found)`);
       continue;
     }
 
-    for (const routeData of peakEntry.routes) {
-      const existingRoute = await prisma.route.findFirst({
-        where: { name: routeData.name, peakId: peak.id },
-      });
+    const data: SeedPeakRoutes[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    let fileRouteCount = 0;
 
-      if (existingRoute) {
-        // Update existing route with enrichment data
-        await prisma.route.update({
-          where: { id: existingRoute.id },
-          data: {
-            summary: routeData.summary ?? existingRoute.summary,
-            imageUrl: routeData.imageUrl ?? existingRoute.imageUrl,
-            technicalGrade: routeData.technicalGrade ?? existingRoute.technicalGrade,
-            commitment: routeData.commitment ?? existingRoute.commitment,
-            approachTime: routeData.approachTime ?? existingRoute.approachTime,
-            descentTime: routeData.descentTime ?? existingRoute.descentTime,
-            basecamp: routeData.basecamp ?? existingRoute.basecamp,
-            safetyNotes: routeData.safetyNotes ?? existingRoute.safetyNotes,
-            permitRequired: routeData.permitRequired ?? existingRoute.permitRequired,
-            permitInfo: routeData.permitInfo ?? existingRoute.permitInfo,
-            closestAirport: routeData.closestAirport ?? existingRoute.closestAirport,
-            description: routeData.description ?? existingRoute.description,
-          },
-        });
-        routesUpdated++;
+    for (const peakEntry of data) {
+      const peak = peakMap.get(peakEntry.peakName);
+      if (!peak) {
+        console.log(`  WARNING: Peak "${peakEntry.peakName}" not found, skipping`);
+        continue;
+      }
 
-        // Update gear with new fields and links
-        for (const gear of routeData.gear || []) {
-          const existingGear = await prisma.gearRecommendation.findFirst({
-            where: { routeId: existingRoute.id, itemName: gear.itemName },
-          });
-          if (existingGear) {
-            await prisma.gearRecommendation.update({
-              where: { id: existingGear.id },
+      // Filter to only NEW routes (not already in DB)
+      const newRoutes = peakEntry.routes.filter(
+        (r) => !existingRouteMap.has(`${peak.id}-${r.name}`)
+      );
+      routesSkipped += peakEntry.routes.length - newRoutes.length;
+
+      if (newRoutes.length === 0) continue;
+
+      // Process each new route inside a transaction (batches the inserts)
+      for (const routeData of newRoutes) {
+        try {
+          await prisma.$transaction(async (tx) => {
+            const route = await tx.route.create({
               data: {
-                weight: gear.weight ?? existingGear.weight,
-                priceRange: gear.priceRange ?? existingGear.priceRange,
-                specificProduct: gear.specificProduct ?? existingGear.specificProduct,
-                notes: gear.notes ?? existingGear.notes,
-              },
-            });
-            // Create gear links if they don't exist
-            if (gear.links) {
-              const existingLinks = await prisma.gearLink.count({ where: { gearId: existingGear.id } });
-              if (existingLinks === 0) {
-                for (const link of gear.links) {
-                  await prisma.gearLink.create({
-                    data: {
-                      gearId: existingGear.id,
-                      retailer: link.retailer,
-                      productName: link.productName,
-                      url: link.url,
-                      price: link.price,
-                    },
-                  });
-                  gearLinksCreated++;
-                }
-              }
-            }
-          } else {
-            // Create new gear item
-            const newGear = await prisma.gearRecommendation.create({
-              data: {
-                routeId: existingRoute.id,
+                name: routeData.name,
+                peakId: peak.id,
                 authorId: seedUser.id,
-                itemName: gear.itemName,
-                category: gear.category,
-                isEssential: gear.isEssential,
-                notes: gear.notes,
-                weight: gear.weight ?? null,
-                priceRange: gear.priceRange ?? null,
-                specificProduct: gear.specificProduct ?? null,
+                difficulty: routeData.difficulty,
+                gradeSystem: routeData.gradeSystem,
+                activityType: routeData.activityType,
+                description: routeData.description,
+                distance: routeData.distance,
+                elevationGain: routeData.elevationGain,
+                estimatedTime: routeData.estimatedTime,
+                season: routeData.season,
+                hazards: routeData.hazards,
+                isPublic: true,
+                summary: routeData.summary ?? null,
+                imageUrl: routeData.imageUrl ?? null,
+                technicalGrade: routeData.technicalGrade ?? null,
+                commitment: routeData.commitment ?? null,
+                approachTime: routeData.approachTime ?? null,
+                descentTime: routeData.descentTime ?? null,
+                basecamp: routeData.basecamp ?? null,
+                safetyNotes: routeData.safetyNotes ?? null,
+                permitRequired: routeData.permitRequired ?? false,
+                permitInfo: routeData.permitInfo ?? null,
+                closestAirport: routeData.closestAirport ?? null,
               },
             });
-            gearCreated++;
-            if (gear.links) {
-              for (const link of gear.links) {
-                await prisma.gearLink.create({
-                  data: {
-                    gearId: newGear.id,
+
+            // Batch create tips
+            if (routeData.tips?.length) {
+              await tx.tip.createMany({
+                data: routeData.tips.map((tip) => ({
+                  routeId: route.id,
+                  authorId: seedUser.id,
+                  content: tip.content,
+                  category: tip.category,
+                })),
+              });
+            }
+
+            // Create gear recommendations (need IDs back for gear links)
+            for (const gear of routeData.gear || []) {
+              const gearRec = await tx.gearRecommendation.create({
+                data: {
+                  routeId: route.id,
+                  authorId: seedUser.id,
+                  itemName: gear.itemName,
+                  category: gear.category,
+                  isEssential: gear.isEssential,
+                  notes: gear.notes,
+                  weight: gear.weight ?? null,
+                  priceRange: gear.priceRange ?? null,
+                  specificProduct: gear.specificProduct ?? null,
+                },
+              });
+
+              if (gear.links?.length) {
+                await tx.gearLink.createMany({
+                  data: gear.links.map((link) => ({
+                    gearId: gearRec.id,
                     retailer: link.retailer,
                     productName: link.productName,
                     url: link.url,
                     price: link.price,
-                  },
+                  })),
                 });
-                gearLinksCreated++;
               }
             }
-          }
+
+            // Batch create reviews
+            if (routeData.reviews?.length) {
+              await tx.review.createMany({
+                data: routeData.reviews.map((review) => ({
+                  routeId: route.id,
+                  authorId: seedUser.id,
+                  rating: review.rating,
+                  title: review.title,
+                  body: review.body,
+                  conditions: review.conditions,
+                })),
+              });
+            }
+          });
+
+          // Track in our map so duplicates across files are caught
+          existingRouteMap.set(`${peak.id}-${routeData.name}`, -1);
+          routesCreated++;
+          fileRouteCount++;
+        } catch (err) {
+          console.error(`  ERROR creating route "${routeData.name}" for "${peakEntry.peakName}":`, err);
         }
-
-        continue;
-      }
-
-      // Create new route
-      const route = await prisma.route.create({
-        data: {
-          name: routeData.name,
-          peakId: peak.id,
-          authorId: seedUser.id,
-          difficulty: routeData.difficulty,
-          gradeSystem: routeData.gradeSystem,
-          activityType: routeData.activityType,
-          description: routeData.description,
-          distance: routeData.distance,
-          elevationGain: routeData.elevationGain,
-          estimatedTime: routeData.estimatedTime,
-          season: routeData.season,
-          hazards: routeData.hazards,
-          isPublic: true,
-          summary: routeData.summary ?? null,
-          imageUrl: routeData.imageUrl ?? null,
-          technicalGrade: routeData.technicalGrade ?? null,
-          commitment: routeData.commitment ?? null,
-          approachTime: routeData.approachTime ?? null,
-          descentTime: routeData.descentTime ?? null,
-          basecamp: routeData.basecamp ?? null,
-          safetyNotes: routeData.safetyNotes ?? null,
-          permitRequired: routeData.permitRequired ?? false,
-          permitInfo: routeData.permitInfo ?? null,
-          closestAirport: routeData.closestAirport ?? null,
-        },
-      });
-      routesCreated++;
-
-      // Create tips
-      for (const tip of routeData.tips || []) {
-        await prisma.tip.create({
-          data: {
-            routeId: route.id,
-            authorId: seedUser.id,
-            content: tip.content,
-            category: tip.category,
-          },
-        });
-        tipsCreated++;
-      }
-
-      // Create gear recommendations with links
-      for (const gear of routeData.gear || []) {
-        const gearRec = await prisma.gearRecommendation.create({
-          data: {
-            routeId: route.id,
-            authorId: seedUser.id,
-            itemName: gear.itemName,
-            category: gear.category,
-            isEssential: gear.isEssential,
-            notes: gear.notes,
-            weight: gear.weight ?? null,
-            priceRange: gear.priceRange ?? null,
-            specificProduct: gear.specificProduct ?? null,
-          },
-        });
-        gearCreated++;
-
-        // Create gear links
-        if (gear.links) {
-          for (const link of gear.links) {
-            await prisma.gearLink.create({
-              data: {
-                gearId: gearRec.id,
-                retailer: link.retailer,
-                productName: link.productName,
-                url: link.url,
-                price: link.price,
-              },
-            });
-            gearLinksCreated++;
-          }
-        }
-      }
-
-      // Create reviews
-      for (const review of routeData.reviews || []) {
-        await prisma.review.create({
-          data: {
-            routeId: route.id,
-            authorId: seedUser.id,
-            rating: review.rating,
-            title: review.title,
-            body: review.body,
-            conditions: review.conditions,
-          },
-        });
-        reviewsCreated++;
       }
     }
+
+    console.log(`  ${file}: ${fileRouteCount} routes created`);
   }
 
-  console.log(`\nRoutes: ${routesCreated} created, ${routesUpdated} updated`);
-  console.log(`Tips: ${tipsCreated} created`);
-  console.log(`Gear recommendations: ${gearCreated} created`);
-  console.log(`Gear links: ${gearLinksCreated} created`);
-  console.log(`Reviews: ${reviewsCreated} created`);
-  console.log(`\nTotal routes in database: ${await prisma.route.count()}`);
-  console.log(`Total tips: ${await prisma.tip.count()}`);
-  console.log(`Total gear recs: ${await prisma.gearRecommendation.count()}`);
-  console.log(`Total gear links: ${await prisma.gearLink.count()}`);
-  console.log(`Total reviews: ${await prisma.review.count()}`);
+  console.log(`\nRoutes: ${routesCreated} created, ${routesSkipped} already existed`);
+  console.log(`Total routes in database: ${await prisma.route.count()}`);
 
   // ── 4. Seed guide services ─────────────────────────────
   const guidesPath = path.join(__dirname, 'seed-data', 'guide-services.json');
@@ -438,18 +353,19 @@ async function main() {
     let guidesCreated = 0;
     let guidesSkipped = 0;
 
+    // Pre-load existing guide services in one query
+    const existingGuides = await prisma.guideService.findMany({ select: { peakId: true, name: true } });
+    const guideSet = new Set(existingGuides.map((g) => `${g.peakId}-${g.name}`));
+
     for (const entry of rawGuides) {
-      const peak = await prisma.peak.findFirst({ where: { name: entry.peakName } });
+      const peak = peakMap.get(entry.peakName);
       if (!peak) {
         console.log(`  WARNING: Peak "${entry.peakName}" not found for guide services, skipping`);
         continue;
       }
 
       for (const guide of entry.guides) {
-        const existing = await prisma.guideService.findFirst({
-          where: { peakId: peak.id, name: guide.name },
-        });
-        if (existing) {
+        if (guideSet.has(`${peak.id}-${guide.name}`)) {
           guidesSkipped++;
           continue;
         }
@@ -467,6 +383,7 @@ async function main() {
           },
         });
         guidesCreated++;
+        guideSet.add(`${peak.id}-${guide.name}`);
       }
     }
 
