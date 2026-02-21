@@ -23,6 +23,9 @@ export function Header() {
         <Link to="/explore" className="text-gray-600 hover:text-gray-900 text-sm font-medium">
           Explore
         </Link>
+        <Link to="/forums" className="text-gray-600 hover:text-gray-900 text-sm font-medium">
+          Forums
+        </Link>
       </nav>
 
       <div className="flex-1 max-w-md mx-4">

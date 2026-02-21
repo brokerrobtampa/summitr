@@ -475,6 +475,25 @@ async function main() {
   } else {
     console.log('\nNo guide-services.json found, skipping guide services seeding');
   }
+
+  // ── 5. Seed forum categories ─────────────────────────
+  const forumCategories = [
+    { name: 'General Discussion', slug: 'general-discussion', description: 'Talk about anything mountaineering-related', sortOrder: 1 },
+    { name: 'Gear Talk', slug: 'gear-talk', description: 'Discuss gear, equipment reviews, and recommendations', sortOrder: 2 },
+    { name: 'Trip Reports', slug: 'trip-reports', description: 'Share your climbing trip reports and experiences', sortOrder: 3 },
+    { name: 'Safety & Weather', slug: 'safety-weather', description: 'Discuss safety practices, weather conditions, and route hazards', sortOrder: 4 },
+    { name: 'Training & Fitness', slug: 'training-fitness', description: 'Tips on training, conditioning, and preparation for climbs', sortOrder: 5 },
+  ];
+
+  let forumCatsCreated = 0;
+  for (const cat of forumCategories) {
+    const existing = await prisma.forumCategory.findUnique({ where: { slug: cat.slug } });
+    if (!existing) {
+      await prisma.forumCategory.create({ data: cat });
+      forumCatsCreated++;
+    }
+  }
+  console.log(`\nForum categories: ${forumCatsCreated} created (${forumCategories.length - forumCatsCreated} already existed)`);
 }
 
 main()

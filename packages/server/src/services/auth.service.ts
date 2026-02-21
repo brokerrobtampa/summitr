@@ -2,6 +2,7 @@ import { registerSchema, loginSchema } from '@summit/shared';
 import { prisma } from '../lib/prisma.js';
 import { hashPassword, verifyPassword } from '../lib/auth.js';
 import { ConflictError, UnauthorizedError, ValidationError } from '../lib/errors.js';
+import { sendWelcomeEmail } from './email.service.js';
 
 export async function registerUser(body: unknown) {
   const parsed = registerSchema.safeParse(body);
@@ -36,6 +37,9 @@ export async function registerUser(body: unknown) {
       updatedAt: true,
     },
   });
+
+  // Fire-and-forget welcome email
+  sendWelcomeEmail(email, user.displayName || user.username).catch(() => {});
 
   return user;
 }

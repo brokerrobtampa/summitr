@@ -35,11 +35,19 @@ model User {
   followers   UserFollow[] @relation("followers")
   comments    Comment[]
 
+  // Password reset
+  passwordResetToken          String?   @unique
+  passwordResetTokenExpiresAt DateTime?
+
   // CRM Phase 1
   notifications       Notification[] @relation("recipient")
   notificationsActed  Notification[] @relation("actor")
   conversationMembers ConversationParticipant[]
   messages            Message[]
+
+  // Forums
+  forumThreads  ForumThread[]
+  forumReplies  ForumReply[]
 }
 
 // ─── PEAKS ──────────────────────────────────────────────
@@ -67,9 +75,10 @@ model Peak {
   createdAt             DateTime @default(now())
   updatedAt             DateTime @updatedAt
 
-  routes        Route[]
-  climbLogs     ClimbLog[]
-  guideServices GuideService[]
+  routes          Route[]
+  climbLogs       ClimbLog[]
+  guideServices   GuideService[]
+  forumCategories ForumCategory[]
 
   @@index([latitude, longitude])
   @@index([elevation])
@@ -374,4 +383,65 @@ model Message {
 
   @@index([conversationId, createdAt])
   @@index([senderId])
+}
+
+// ─── FORUM CATEGORIES ────────────────────────────────
+
+model ForumCategory {
+  id          Int      @id @default(autoincrement())
+  name        String
+  slug        String   @unique
+  description String?
+  peakId      Int?
+  peak        Peak?    @relation(fields: [peakId], references: [id], onDelete: Cascade)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  threads ForumThread[]
+
+  @@index([peakId])
+}
+
+// ─── FORUM THREADS ───────────────────────────────────
+
+model ForumThread {
+  id             Int           @id @default(autoincrement())
+  categoryId     Int
+  category       ForumCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  authorId       Int
+  author         User          @relation(fields: [authorId], references: [id])
+  title          String
+  body           String
+  isPinned       Boolean       @default(false)
+  isLocked       Boolean       @default(false)
+  replyCount     Int           @default(0)
+  lastActivityAt DateTime      @default(now())
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  replies ForumReply[]
+
+  @@index([categoryId, isPinned, lastActivityAt])
+  @@index([authorId])
+}
+
+// ─── FORUM REPLIES ───────────────────────────────────
+
+model ForumReply {
+  id            Int          @id @default(autoincrement())
+  threadId      Int
+  thread        ForumThread  @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  authorId      Int
+  author        User         @relation(fields: [authorId], references: [id])
+  parentReplyId Int?
+  parentReply   ForumReply?  @relation("ReplyToReply", fields: [parentReplyId], references: [id], onDelete: SetNull)
+  childReplies  ForumReply[] @relation("ReplyToReply")
+  body          String
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@index([threadId, createdAt])
+  @@index([authorId])
+  @@index([parentReplyId])
 }

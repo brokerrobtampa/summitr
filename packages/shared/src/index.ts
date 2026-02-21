@@ -9,6 +9,7 @@ export type * from './types/guide.js';
 export type * from './types/social.js';
 export type * from './types/notification.js';
 export type * from './types/messaging.js';
+export type * from './types/forum.js';
 
 // Constants
 export * from './constants/difficulty.js';
@@ -24,3 +25,4 @@ export * from './validation/social.js';
 export * from './validation/guide.js';
 export * from './validation/notification.js';
 export * from './validation/messaging.js';
+export * from './validation/forum.js';

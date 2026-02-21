@@ -1,5 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { registerUser, loginUser, getUserById } from '../services/auth.service.js';
+import { requestPasswordReset, resetPassword } from '../services/password-reset.service.js';
 import { authenticate } from '../hooks/authenticate.js';
 import { AppError } from '../lib/errors.js';
 
@@ -46,5 +47,44 @@ export async function authRoutes(app: FastifyInstance) {
       });
     }
     return reply.send({ success: true, data: user });
+  });
+
+  // POST /auth/forgot-password
+  app.post('/auth/forgot-password', async (request, reply) => {
+    try {
+      await requestPasswordReset(request.body);
+      // Always return success to avoid email enumeration
+      return reply.send({
+        success: true,
+        data: { message: 'If an account with that email exists, a reset link has been sent.' },
+      });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({
+          success: false,
+          error: { code: err.code, message: err.message },
+        });
+      }
+      throw err;
+    }
+  });
+
+  // POST /auth/reset-password
+  app.post('/auth/reset-password', async (request, reply) => {
+    try {
+      await resetPassword(request.body);
+      return reply.send({
+        success: true,
+        data: { message: 'Password has been reset successfully.' },
+      });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({
+          success: false,
+          error: { code: err.code, message: err.message },
+        });
+      }
+      throw err;
+    }
   });
 }

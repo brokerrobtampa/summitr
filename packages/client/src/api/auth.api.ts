@@ -12,3 +12,11 @@ export function register(data: { email: string; username: string; password: stri
 export function getMe() {
   return api.get<ApiResponse<User>>('/auth/me');
 }
+
+export function forgotPassword(email: string) {
+  return api.post<ApiResponse<{ message: string }>>('/auth/forgot-password', { email });
+}
+
+export function resetPassword(token: string, password: string) {
+  return api.post<ApiResponse<{ message: string }>>('/auth/reset-password', { token, password });
+}

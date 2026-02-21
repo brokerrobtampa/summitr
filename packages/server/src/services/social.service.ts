@@ -1,5 +1,7 @@
 import { prisma } from '../lib/prisma.js';
 import { createNotification } from './notification.service.js';
+import { sendFollowNotificationEmail, sendCommentNotificationEmail } from './email.service.js';
+import { config } from '../config.js';
 
 export async function followUser(followerId: number, followingId: number) {
   if (followerId === followingId) throw new Error('Cannot follow yourself');
@@ -20,6 +22,21 @@ export async function followUser(followerId: number, followingId: number) {
     entityId: followerId,
     title: `${actorName} started following you`,
   }).catch(() => {}); // Don't fail the follow if notification fails
+
+  // Fire-and-forget follow email
+  const followedUser = await prisma.user.findUnique({
+    where: { id: followingId },
+    select: { email: true, displayName: true, username: true },
+  });
+  if (followedUser) {
+    const followerProfileUrl = `${config.appUrl}/users/${follow.follower.username}`;
+    sendFollowNotificationEmail(
+      followedUser.email,
+      followedUser.displayName || followedUser.username,
+      actorName,
+      followerProfileUrl,
+    ).catch(() => {});
+  }
 
   return follow;
 }
@@ -326,6 +343,21 @@ export async function addComment(climbLogId: number, authorId: number, body: str
       title: `${actorName} commented on your climb`,
       body: body.length > 100 ? body.slice(0, 100) + '...' : body,
     }).catch(() => {}); // Don't fail the comment if notification fails
+
+    // Fire-and-forget comment email
+    const climbOwner = await prisma.user.findUnique({
+      where: { id: climbLog.userId },
+      select: { email: true, displayName: true, username: true },
+    });
+    if (climbOwner) {
+      sendCommentNotificationEmail(
+        climbOwner.email,
+        climbOwner.displayName || climbOwner.username,
+        actorName,
+        body.length > 200 ? body.slice(0, 200) + '...' : body,
+        `${config.appUrl}/feed`,
+      ).catch(() => {});
+    }
   }
 
   return comment;

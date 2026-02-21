@@ -11,4 +11,6 @@ export const config = {
   databaseUrl: process.env.DATABASE_URL || 'file:./dev.db',
   nodeEnv: process.env.NODE_ENV || 'development',
   projectRoot: path.resolve(__dirname, '..'),
+  resendApiKey: process.env.RESEND_API_KEY || '',
+  appUrl: process.env.APP_URL || 'http://localhost:5173',
 };

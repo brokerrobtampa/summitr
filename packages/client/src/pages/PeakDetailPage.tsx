@@ -6,6 +6,7 @@ import { LoadingSpinner } from '../components/ui/LoadingSpinner.js';
 import { PermitInfo } from '../components/routes/PermitInfo.js';
 import { AirportInfo } from '../components/routes/AirportInfo.js';
 import { GuideServicesSection } from '../components/guides/GuideServicesSection.js';
+import { usePeakCategory } from '../hooks/useForums.js';
 import type { PeakDetail, RouteSummary } from '@summit/shared';
 import * as peaksApi from '../api/peaks.api.js';
 
@@ -14,6 +15,8 @@ export function PeakDetailPage() {
   const [peak, setPeak] = useState<PeakDetail | null>(null);
   const [routes, setRoutes] = useState<RouteSummary[]>([]);
   const [loading, setLoading] = useState(true);
+  const { data: peakCategoryData } = usePeakCategory(peak?.id ?? 0);
+  const peakCategory = peakCategoryData?.data;
 
   useEffect(() => {
     if (!id) return;
@@ -152,6 +155,32 @@ export function PeakDetailPage() {
               </p>
             )}
           </div>
+
+          {/* Discussions */}
+          {peakCategory && (
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-semibold text-gray-900">Discussions</h2>
+                <Link
+                  to={`/forums/${peakCategory.slug}`}
+                  className="text-peak-blue hover:underline text-sm font-medium"
+                >
+                  View All →
+                </Link>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <p className="text-gray-600 text-sm mb-2">
+                  Join the conversation about {peak.name}
+                </p>
+                <Link
+                  to={`/forums/${peakCategory.slug}`}
+                  className="inline-flex items-center gap-2 text-peak-blue hover:underline text-sm font-medium"
+                >
+                  💬 {peakCategory.threadCount} {peakCategory.threadCount === 1 ? 'thread' : 'threads'}
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Right panel — map */}

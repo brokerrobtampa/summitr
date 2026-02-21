@@ -14,6 +14,11 @@ import { ProfilePage } from './pages/ProfilePage.js';
 import { PublicProfilePage } from './pages/PublicProfilePage.js';
 import { FeedPage } from './pages/FeedPage.js';
 import { NotificationsPage } from './pages/NotificationsPage.js';
+import { ForgotPasswordPage } from './pages/ForgotPasswordPage.js';
+import { ResetPasswordPage } from './pages/ResetPasswordPage.js';
+import { ForumsPage } from './pages/ForumsPage.js';
+import { ForumCategoryPage } from './pages/ForumCategoryPage.js';
+import { ForumThreadPage } from './pages/ForumThreadPage.js';
 
 export default function App() {
   return (
@@ -33,6 +38,11 @@ export default function App() {
             <Route path="/search" element={<SearchResultsPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
+            <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+            <Route path="/reset-password" element={<ResetPasswordPage />} />
+            <Route path="/forums" element={<ForumsPage />} />
+            <Route path="/forums/threads/:threadId" element={<ForumThreadPage />} />
+            <Route path="/forums/:slug" element={<ForumCategoryPage />} />
             <Route path="/profile" element={
               <ProtectedRoute><ProfilePage /></ProtectedRoute>
             } />
