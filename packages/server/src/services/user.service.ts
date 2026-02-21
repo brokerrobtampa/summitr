@@ -35,12 +35,14 @@ export async function updateProfile(userId: number, body: unknown) {
   const parsed = updateProfileSchema.safeParse(body);
   if (!parsed.success) throw new ValidationError(parsed.error.issues.map((i) => i.message).join(', '));
 
-  const { climbingStyles, socialLinks, ...rest } = parsed.data;
+  const { climbingStyles, socialLinks, experienceLevel, avatarUrl, ...rest } = parsed.data;
 
   return prisma.user.update({
     where: { id: userId },
     data: {
       ...rest,
+      avatarUrl: avatarUrl === '' ? null : avatarUrl,
+      experienceLevel: experienceLevel === '' ? null : experienceLevel,
       climbingStyles: climbingStyles !== undefined ? JSON.stringify(climbingStyles) : undefined,
       socialLinks: socialLinks !== undefined ? JSON.stringify(socialLinks) : undefined,
     },

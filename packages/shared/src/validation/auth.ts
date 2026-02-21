@@ -20,10 +20,10 @@ export const updateProfileSchema = z.object({
   displayName: z.string().min(1).max(100).optional(),
   bio: z.string().max(1000).optional(),
   location: z.string().max(200).optional(),
-  avatarUrl: z.string().url().optional(),
-  experienceLevel: z.enum(['beginner', 'intermediate', 'advanced', 'expert']).optional(),
+  avatarUrl: z.union([z.string().url(), z.literal('')]).optional(),
+  experienceLevel: z.union([z.enum(['beginner', 'intermediate', 'advanced', 'expert']), z.literal('')]).optional(),
   climbingStyles: z.array(z.string().max(50)).optional(),
-  socialLinks: z.record(z.string(), z.string().url()).optional(),
+  socialLinks: z.record(z.string(), z.string().max(500)).optional(),
 });
 
 export const forgotPasswordSchema = z.object({
