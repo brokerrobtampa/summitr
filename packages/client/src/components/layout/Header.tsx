@@ -1,7 +1,7 @@
-import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext.js';
 import { SearchBar } from '../ui/SearchBar.js';
+import { NotificationBell } from '../notifications/NotificationBell.js';
 
 export function Header() {
   const { user, logout } = useAuth();
@@ -38,6 +38,7 @@ export function Header() {
             >
               + Add Route
             </Link>
+            <NotificationBell />
             <Link to="/profile" className="text-gray-600 hover:text-gray-900 text-sm font-medium">
               {user.displayName || user.username}
             </Link>

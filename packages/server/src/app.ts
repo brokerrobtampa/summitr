@@ -11,6 +11,9 @@ import { userRoutes } from './routes/users.routes.js';
 import { searchRoutes } from './routes/search.routes.js';
 import { guidesRoutes } from './routes/guides.routes.js';
 import { socialRoutes } from './routes/social.routes.js';
+import { notificationRoutes } from './routes/notifications.routes.js';
+import { conversationRoutes } from './routes/conversations.routes.js';
+import { websocketPlugin } from './plugins/websocket.plugin.js';
 import { config } from './config.js';
 
 export async function createApp() {
@@ -41,6 +44,9 @@ export async function createApp() {
       await api.register(searchRoutes);
       await api.register(guidesRoutes, { prefix: '/guides' });
       await api.register(socialRoutes);
+      await api.register(notificationRoutes);
+      await api.register(conversationRoutes);
+      await api.register(websocketPlugin);
     },
     { prefix: '/api/v1' },
   );

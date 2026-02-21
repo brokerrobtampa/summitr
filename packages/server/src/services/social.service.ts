@@ -1,10 +1,27 @@
 import { prisma } from '../lib/prisma.js';
+import { createNotification } from './notification.service.js';
 
 export async function followUser(followerId: number, followingId: number) {
   if (followerId === followingId) throw new Error('Cannot follow yourself');
-  return prisma.userFollow.create({
+  const follow = await prisma.userFollow.create({
     data: { followerId, followingId },
+    include: {
+      follower: { select: { username: true, displayName: true } },
+    },
   });
+
+  // Send notification to the followed user
+  const actorName = follow.follower.displayName || follow.follower.username;
+  await createNotification({
+    recipientId: followingId,
+    actorId: followerId,
+    type: 'follow',
+    entityType: 'user',
+    entityId: followerId,
+    title: `${actorName} started following you`,
+  }).catch(() => {}); // Don't fail the follow if notification fails
+
+  return follow;
 }
 
 export async function unfollowUser(followerId: number, followingId: number) {
@@ -285,12 +302,33 @@ export async function getDiscoverFeed(page = 1, limit = 20) {
 }
 
 export async function addComment(climbLogId: number, authorId: number, body: string) {
-  return prisma.comment.create({
+  const comment = await prisma.comment.create({
     data: { climbLogId, authorId, body },
     include: {
       author: { select: { id: true, username: true, displayName: true, avatarUrl: true } },
     },
   });
+
+  // Notify the climb log owner
+  const climbLog = await prisma.climbLog.findUnique({
+    where: { id: climbLogId },
+    select: { userId: true },
+  });
+
+  if (climbLog && climbLog.userId !== authorId) {
+    const actorName = comment.author.displayName || comment.author.username;
+    await createNotification({
+      recipientId: climbLog.userId,
+      actorId: authorId,
+      type: 'comment',
+      entityType: 'climbLog',
+      entityId: climbLogId,
+      title: `${actorName} commented on your climb`,
+      body: body.length > 100 ? body.slice(0, 100) + '...' : body,
+    }).catch(() => {}); // Don't fail the comment if notification fails
+  }
+
+  return comment;
 }
 
 export async function getComments(climbLogId: number, page = 1, limit = 20) {
