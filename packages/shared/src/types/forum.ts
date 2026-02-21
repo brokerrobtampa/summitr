@@ -11,16 +11,20 @@ export interface ForumCategory {
   slug: string;
   description: string | null;
   peakId: number | null;
+  parentId: number | null;
   sortOrder: number;
   threadCount: number;
+  childCount?: number;
   lastActivity: string | null;
   createdAt: string;
+  children?: ForumCategory[];
 }
 
 export interface ForumThreadSummary {
   id: number;
   categoryId: number;
   title: string;
+  imageUrl: string | null;
   author: ForumCategoryAuthor;
   replyCount: number;
   isPinned: boolean;
@@ -36,6 +40,7 @@ export interface ForumThread {
   author: ForumCategoryAuthor;
   title: string;
   body: string;
+  imageUrl: string | null;
   isPinned: boolean;
   isLocked: boolean;
   replyCount: number;
@@ -50,6 +55,7 @@ export interface ForumReply {
   author: ForumCategoryAuthor;
   parentReplyId: number | null;
   body: string;
+  imageUrl: string | null;
   createdAt: string;
   updatedAt: string;
 }

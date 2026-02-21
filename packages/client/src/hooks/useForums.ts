@@ -8,6 +8,13 @@ export function useForumCategories() {
   });
 }
 
+export function useContinentCategories() {
+  return useQuery({
+    queryKey: ['forums', 'continents'],
+    queryFn: () => forumsApi.getContinentCategories(),
+  });
+}
+
 export function usePeakCategory(peakId: number) {
   return useQuery({
     queryKey: ['forums', 'peak-category', peakId],
@@ -51,7 +58,7 @@ export function useForumReplies(threadId: number, page = 1) {
 export function useCreateThread(categoryId: number) {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: (data: { title: string; body: string }) => forumsApi.createThread(categoryId, data),
+    mutationFn: (data: { title: string; body: string; imageUrl?: string }) => forumsApi.createThread(categoryId, data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['forums', 'threads', categoryId] });
       queryClient.invalidateQueries({ queryKey: ['forums', 'categories'] });
@@ -62,7 +69,7 @@ export function useCreateThread(categoryId: number) {
 export function useCreateReply(threadId: number) {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: (data: { body: string; parentReplyId?: number }) => forumsApi.createReply(threadId, data),
+    mutationFn: (data: { body: string; parentReplyId?: number; imageUrl?: string }) => forumsApi.createReply(threadId, data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['forums', 'replies', threadId] });
       queryClient.invalidateQueries({ queryKey: ['forums', 'thread', threadId] });

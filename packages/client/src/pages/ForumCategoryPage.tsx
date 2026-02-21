@@ -15,13 +15,18 @@ export function ForumCategoryPage() {
   const { data: categoryData, isLoading: catLoading } = useCategoryBySlug(slug || '');
   const category = categoryData?.data;
 
-  const { data: threadsData, isLoading: threadsLoading } = useForumThreads(category?.id ?? 0, page);
+  const hasChildren = category?.children && category.children.length > 0;
+
+  const { data: threadsData, isLoading: threadsLoading } = useForumThreads(
+    hasChildren ? 0 : (category?.id ?? 0),
+    page,
+  );
   const threads = threadsData?.data ?? [];
   const pagination = threadsData?.pagination;
 
   const createThread = useCreateThread(category?.id ?? 0);
 
-  const handleCreateThread = async (data: { title: string; body: string }) => {
+  const handleCreateThread = async (data: { title: string; body: string; imageUrl?: string }) => {
     await createThread.mutateAsync(data);
     setShowCreateForm(false);
   };
@@ -42,6 +47,57 @@ export function ForumCategoryPage() {
     );
   }
 
+  // If category has children (it's a continent or section parent), show subcategories
+  if (hasChildren) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Breadcrumb */}
+        <div className="text-sm text-gray-500 mb-4">
+          <Link to="/forums" className="text-peak-blue hover:underline">Forums</Link>
+          <span className="mx-2">/</span>
+          <span>{category.name}</span>
+        </div>
+
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-gray-900">{category.name}</h1>
+          {category.description && (
+            <p className="text-gray-500 text-sm mt-1">{category.description}</p>
+          )}
+        </div>
+
+        <div className="space-y-2">
+          {category.children!.map((child) => (
+            <Link
+              key={child.id}
+              to={`/forums/${child.slug}`}
+              className="block bg-white rounded-lg border border-gray-200 p-4 hover:bg-gray-50 transition-colors"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-semibold text-gray-900">{child.name}</h3>
+                  {child.description && (
+                    <p className="text-sm text-gray-500 mt-0.5">{child.description}</p>
+                  )}
+                </div>
+                <div className="text-right ml-4 shrink-0">
+                  <div className="text-sm font-medium text-gray-900">
+                    {child.threadCount} {child.threadCount === 1 ? 'thread' : 'threads'}
+                  </div>
+                  {child.lastActivity && (
+                    <div className="text-xs text-gray-500 mt-0.5">
+                      Active {timeAgo(child.lastActivity)}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Leaf category — show threads
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       {/* Breadcrumb */}
@@ -126,6 +182,27 @@ export function ForumCategoryPage() {
           )}
         </>
       )}
+
+      {!user && (
+        <div className="mt-6 text-center py-4 bg-gray-50 rounded-lg text-sm">
+          <Link to="/login" className="text-peak-blue hover:underline">Sign in</Link>
+          {' '}to create a new thread.
+        </div>
+      )}
     </div>
   );
+}
+
+function timeAgo(dateStr: string): string {
+  const now = Date.now();
+  const then = new Date(dateStr).getTime();
+  const diff = now - then;
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 1) return 'just now';
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  if (days < 30) return `${days}d ago`;
+  return new Date(dateStr).toLocaleDateString();
 }

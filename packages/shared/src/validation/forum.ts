@@ -3,6 +3,7 @@ import { z } from 'zod';
 export const createThreadSchema = z.object({
   title: z.string().min(3, 'Title must be at least 3 characters').max(200, 'Title too long'),
   body: z.string().min(10, 'Body must be at least 10 characters').max(10000, 'Body too long'),
+  imageUrl: z.string().url('Must be a valid URL').max(2000, 'Image URL too long').optional(),
 });
 
 export type CreateThreadInput = z.infer<typeof createThreadSchema>;
@@ -10,6 +11,7 @@ export type CreateThreadInput = z.infer<typeof createThreadSchema>;
 export const createReplySchema = z.object({
   body: z.string().min(1, 'Reply cannot be empty').max(5000, 'Reply too long'),
   parentReplyId: z.number().int().positive().optional(),
+  imageUrl: z.string().url('Must be a valid URL').max(2000, 'Image URL too long').optional(),
 });
 
 export type CreateReplyInput = z.infer<typeof createReplySchema>;

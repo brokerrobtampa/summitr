@@ -5,60 +5,130 @@ import { sendForumReplyEmail } from './email.service.js';
 import { config } from '../config.js';
 import { ValidationError, NotFoundError, ForbiddenError } from '../lib/errors.js';
 
-// ─── CATEGORIES ─────────────────────────────────────
-
-export async function getCategories() {
-  const categories = await prisma.forumCategory.findMany({
-    where: { peakId: null },
-    orderBy: { sortOrder: 'asc' },
-    include: {
-      _count: { select: { threads: true } },
-      threads: {
-        orderBy: { lastActivityAt: 'desc' },
-        take: 1,
-        select: { lastActivityAt: true },
-      },
-    },
-  });
-
-  return categories.map((c) => ({
+// ─── Helper: format a category row ─────────────────────
+function formatCategory(c: any) {
+  return {
     id: c.id,
     name: c.name,
     slug: c.slug,
     description: c.description,
     peakId: c.peakId,
+    parentId: c.parentId,
     sortOrder: c.sortOrder,
-    threadCount: c._count.threads,
-    lastActivity: c.threads[0]?.lastActivityAt?.toISOString() ?? null,
+    threadCount: c._count?.threads ?? 0,
+    childCount: c._count?.children ?? undefined,
+    lastActivity: c.threads?.[0]?.lastActivityAt?.toISOString() ?? null,
     createdAt: c.createdAt.toISOString(),
-  }));
+    children: c.children?.map(formatCategory) ?? undefined,
+  };
+}
+
+// ─── CATEGORIES ─────────────────────────────────────
+
+/** Get top-level topic categories (parentId=null, peakId=null, no peak children) */
+export async function getCategories() {
+  const categories = await prisma.forumCategory.findMany({
+    where: {
+      parentId: null,
+      peakId: null,
+      // Exclude continent parents (those that have children with peakId)
+      NOT: { children: { some: { peakId: { not: null } } } },
+    },
+    orderBy: { sortOrder: 'asc' },
+    include: {
+      _count: { select: { threads: true, children: true } },
+      threads: {
+        orderBy: { lastActivityAt: 'desc' },
+        take: 1,
+        select: { lastActivityAt: true },
+      },
+      children: {
+        orderBy: { sortOrder: 'asc' },
+        include: {
+          _count: { select: { threads: true } },
+          threads: {
+            orderBy: { lastActivityAt: 'desc' },
+            take: 1,
+            select: { lastActivityAt: true },
+          },
+        },
+      },
+    },
+  });
+
+  return categories.map(formatCategory);
+}
+
+/** Get continent parent categories with their peak subcategories */
+export async function getContinentCategories() {
+  const continents = await prisma.forumCategory.findMany({
+    where: {
+      parentId: null,
+      peakId: null,
+      children: { some: { peakId: { not: null } } },
+    },
+    orderBy: { sortOrder: 'asc' },
+    include: {
+      _count: { select: { children: true } },
+      children: {
+        orderBy: { name: 'asc' },
+        include: {
+          _count: { select: { threads: true } },
+          threads: {
+            orderBy: { lastActivityAt: 'desc' },
+            take: 1,
+            select: { lastActivityAt: true },
+          },
+        },
+      },
+    },
+  });
+
+  return continents.map((c) => {
+    const totalThreads = c.children.reduce((sum, ch) => sum + ((ch as any)._count?.threads ?? 0), 0);
+    return {
+      id: c.id,
+      name: c.name,
+      slug: c.slug,
+      description: c.description,
+      peakId: c.peakId,
+      parentId: c.parentId,
+      sortOrder: c.sortOrder,
+      threadCount: totalThreads,
+      childCount: c._count.children,
+      lastActivity: null as string | null,
+      createdAt: c.createdAt.toISOString(),
+      children: c.children.map(formatCategory),
+    };
+  });
 }
 
 export async function getCategoryBySlug(slug: string) {
   const category = await prisma.forumCategory.findUnique({
     where: { slug },
     include: {
-      _count: { select: { threads: true } },
+      _count: { select: { threads: true, children: true } },
       threads: {
         orderBy: { lastActivityAt: 'desc' },
         take: 1,
         select: { lastActivityAt: true },
       },
+      children: {
+        orderBy: { name: 'asc' },
+        include: {
+          _count: { select: { threads: true } },
+          threads: {
+            orderBy: { lastActivityAt: 'desc' },
+            take: 1,
+            select: { lastActivityAt: true },
+          },
+        },
+      },
     },
   });
   if (!category) throw new NotFoundError('Forum category');
 
-  return {
-    id: category.id,
-    name: category.name,
-    slug: category.slug,
-    description: category.description,
-    peakId: category.peakId,
-    sortOrder: category.sortOrder,
-    threadCount: category._count.threads,
-    lastActivity: category.threads[0]?.lastActivityAt?.toISOString() ?? null,
-    createdAt: category.createdAt.toISOString(),
-  };
+  return formatCategory(category);
 }
 
 export async function getPeakCategory(peakId: number) {
@@ -68,7 +138,7 @@ export async function getPeakCategory(peakId: number) {
   let category = await prisma.forumCategory.findFirst({
     where: { peakId },
     include: {
-      _count: { select: { threads: true } },
+      _count: { select: { threads: true, children: true } },
       threads: {
         orderBy: { lastActivityAt: 'desc' },
         take: 1,
@@ -88,7 +158,7 @@ export async function getPeakCategory(peakId: number) {
         sortOrder: 0,
       },
       include: {
-        _count: { select: { threads: true } },
+        _count: { select: { threads: true, children: true } },
         threads: {
           orderBy: { lastActivityAt: 'desc' },
           take: 1,
@@ -99,17 +169,7 @@ export async function getPeakCategory(peakId: number) {
     category = created;
   }
 
-  return {
-    id: category.id,
-    name: category.name,
-    slug: category.slug,
-    description: category.description,
-    peakId: category.peakId,
-    sortOrder: category.sortOrder,
-    threadCount: category._count.threads,
-    lastActivity: category.threads[0]?.lastActivityAt?.toISOString() ?? null,
-    createdAt: category.createdAt.toISOString(),
-  };
+  return formatCategory(category);
 }
 
 // ─── THREADS ────────────────────────────────────────
@@ -137,6 +197,7 @@ export async function getThreads(categoryId: number, page = 1, limit = 20) {
       id: t.id,
       categoryId: t.categoryId,
       title: t.title,
+      imageUrl: t.imageUrl,
       author: t.author,
       replyCount: t.replyCount,
       isPinned: t.isPinned,
@@ -169,6 +230,7 @@ export async function getThread(threadId: number) {
     author: thread.author,
     title: thread.title,
     body: thread.body,
+    imageUrl: thread.imageUrl,
     isPinned: thread.isPinned,
     isLocked: thread.isLocked,
     replyCount: thread.replyCount,
@@ -193,6 +255,7 @@ export async function createThread(categoryId: number, authorId: number, body: u
       authorId,
       title: parsed.data.title,
       body: parsed.data.body,
+      imageUrl: parsed.data.imageUrl ?? null,
     },
     include: {
       author: {
@@ -211,6 +274,7 @@ export async function createThread(categoryId: number, authorId: number, body: u
     author: thread.author,
     title: thread.title,
     body: thread.body,
+    imageUrl: thread.imageUrl,
     isPinned: thread.isPinned,
     isLocked: thread.isLocked,
     replyCount: thread.replyCount,
@@ -247,6 +311,7 @@ export async function getReplies(threadId: number, page = 1, limit = 20) {
       author: r.author,
       parentReplyId: r.parentReplyId,
       body: r.body,
+      imageUrl: r.imageUrl,
       createdAt: r.createdAt.toISOString(),
       updatedAt: r.updatedAt.toISOString(),
     })),
@@ -284,6 +349,7 @@ export async function createReply(threadId: number, authorId: number, body: unkn
       authorId,
       body: parsed.data.body,
       parentReplyId: parsed.data.parentReplyId ?? null,
+      imageUrl: parsed.data.imageUrl ?? null,
     },
     include: {
       author: {
@@ -332,6 +398,7 @@ export async function createReply(threadId: number, authorId: number, body: unkn
     author: reply.author,
     parentReplyId: reply.parentReplyId,
     body: reply.body,
+    imageUrl: reply.imageUrl,
     createdAt: reply.createdAt.toISOString(),
     updatedAt: reply.updatedAt.toISOString(),
   };

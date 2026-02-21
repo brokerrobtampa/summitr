@@ -35,6 +35,16 @@ export function ReplyItem({ reply, onReply }: Props) {
             <span className="text-gray-500">{formatDate(reply.createdAt)}</span>
           </div>
           <div className="mt-2 text-gray-700 text-sm whitespace-pre-wrap">{reply.body}</div>
+          {reply.imageUrl && (
+            <div className="mt-3">
+              <img
+                src={reply.imageUrl}
+                alt="Reply image"
+                className="max-w-full max-h-[400px] rounded-lg border border-gray-200 object-contain"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+              />
+            </div>
+          )}
           {onReply && (
             <button
               onClick={onReply}

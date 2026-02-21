@@ -394,23 +394,96 @@ async function main() {
   }
 
   // ── 5. Seed forum categories ─────────────────────────
-  const forumCategories = [
+  // Delete old forum categories to rebuild with new structure
+  await prisma.forumCategory.deleteMany({});
+  console.log('\nCleared existing forum categories for rebuild');
+
+  // 5a. Topic categories (parentId=null, peakId=null)
+  const topicCategories = [
     { name: 'General Discussion', slug: 'general-discussion', description: 'Talk about anything mountaineering-related', sortOrder: 1 },
-    { name: 'Gear Talk', slug: 'gear-talk', description: 'Discuss gear, equipment reviews, and recommendations', sortOrder: 2 },
-    { name: 'Trip Reports', slug: 'trip-reports', description: 'Share your climbing trip reports and experiences', sortOrder: 3 },
-    { name: 'Safety & Weather', slug: 'safety-weather', description: 'Discuss safety practices, weather conditions, and route hazards', sortOrder: 4 },
-    { name: 'Training & Fitness', slug: 'training-fitness', description: 'Tips on training, conditioning, and preparation for climbs', sortOrder: 5 },
+    { name: 'Gear Strategy & Tips', slug: 'gear-strategy-tips', description: 'Discuss gear choices, equipment reviews, and packing strategies', sortOrder: 2 },
+    { name: 'Route Planning & Beta', slug: 'route-planning-beta', description: 'Share route conditions, beta, and planning advice', sortOrder: 3 },
+    { name: 'Guide Companies & Reviews', slug: 'guide-companies-reviews', description: 'Reviews and discussions about guiding services and outfitters', sortOrder: 4 },
+    { name: 'Trip Reports', slug: 'trip-reports', description: 'Share your climbing trip reports and experiences', sortOrder: 5 },
+    { name: 'Safety & Weather', slug: 'safety-weather', description: 'Discuss safety practices, weather patterns, and route hazards', sortOrder: 6 },
+    { name: 'Training & Fitness', slug: 'training-fitness', description: 'Tips on training, conditioning, and preparation for climbs', sortOrder: 7 },
+    { name: 'Photography & Media', slug: 'photography-media', description: 'Share your mountain photography, videos, and creative work', sortOrder: 8 },
   ];
 
-  let forumCatsCreated = 0;
-  for (const cat of forumCategories) {
-    const existing = await prisma.forumCategory.findUnique({ where: { slug: cat.slug } });
-    if (!existing) {
-      await prisma.forumCategory.create({ data: cat });
-      forumCatsCreated++;
+  for (const cat of topicCategories) {
+    await prisma.forumCategory.create({ data: cat });
+  }
+  console.log(`Topic categories: ${topicCategories.length} created`);
+
+  // 5b. Continent parent categories + peak subcategories
+  const countryToContinent: Record<string, string> = {
+    'Nepal': 'Asia', 'China': 'Asia', 'Nepal/China': 'Asia', 'Pakistan': 'Asia',
+    'Pakistan/China': 'Asia', 'Nepal/India': 'Asia', 'Japan': 'Asia', 'Iran': 'Asia',
+    'Malaysia': 'Asia', 'Georgia/Russia': 'Asia', 'Turkey': 'Asia', 'Indonesia': 'Asia',
+    'Kyrgyzstan': 'Asia', 'India': 'Asia',
+    'France': 'Europe', 'Italy': 'Europe', 'Switzerland': 'Europe', 'Austria': 'Europe',
+    'Germany/Austria': 'Europe', 'France/Italy': 'Europe', 'Switzerland/Italy': 'Europe',
+    'Greece': 'Europe', 'Slovenia': 'Europe', 'Spain': 'Europe',
+    'United Kingdom': 'Europe', 'Russia': 'Europe', 'Norway': 'Europe', 'Poland': 'Europe',
+    'United States': 'North America', 'Canada': 'North America',
+    'United States/Canada': 'North America', 'Mexico': 'North America',
+    'Argentina': 'South America', 'Peru': 'South America', 'Ecuador': 'South America',
+    'Bolivia': 'South America', 'Argentina/Chile': 'South America', 'Chile': 'South America',
+    'Colombia': 'South America', 'Venezuela': 'South America',
+    'Tanzania': 'Africa', 'Kenya': 'Africa',
+    'Democratic Republic of the Congo/Uganda': 'Africa', 'Morocco': 'Africa',
+    'Uganda': 'Africa', 'Ethiopia': 'Africa',
+    'Australia': 'Oceania', 'New Zealand': 'Oceania',
+    'Papua New Guinea': 'Oceania', 'Indonesia/Papua New Guinea': 'Oceania',
+    'Antarctica': 'Antarctica',
+  };
+
+  const continentDefs = [
+    { name: 'Asia', slug: 'continent-asia', description: 'Peaks in the Himalayas, Karakoram, and other Asian ranges', sortOrder: 10 },
+    { name: 'Europe', slug: 'continent-europe', description: 'Peaks in the Alps, Pyrenees, Caucasus, and other European ranges', sortOrder: 11 },
+    { name: 'North America', slug: 'continent-north-america', description: 'Peaks in the Rockies, Cascades, Alaska Range, Sierra Nevada, and more', sortOrder: 12 },
+    { name: 'South America', slug: 'continent-south-america', description: 'Peaks in the Andes and Patagonia', sortOrder: 13 },
+    { name: 'Africa', slug: 'continent-africa', description: 'Peaks including Kilimanjaro, Mount Kenya, and the Rwenzori', sortOrder: 14 },
+    { name: 'Oceania', slug: 'continent-oceania', description: 'Peaks in Australia, New Zealand, and the Pacific Islands', sortOrder: 15 },
+    { name: 'Antarctica', slug: 'continent-antarctica', description: 'Peaks on the frozen continent', sortOrder: 16 },
+  ];
+
+  // Create continent parent categories
+  const continentMap = new Map<string, number>();
+  for (const cont of continentDefs) {
+    const created = await prisma.forumCategory.create({ data: cont });
+    continentMap.set(cont.name, created.id);
+  }
+  console.log(`Continent categories: ${continentDefs.length} created`);
+
+  // Create peak subcategories under continents
+  let peakCatsCreated = 0;
+  for (const peak of allPeaks) {
+    const continent = countryToContinent[peak.country ?? ''];
+    const parentId = continent ? continentMap.get(continent) : undefined;
+    if (!parentId) {
+      // Skip peaks with unknown countries
+      continue;
+    }
+
+    const slug = `peak-${peak.id}-${peak.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '')}`;
+    try {
+      await prisma.forumCategory.create({
+        data: {
+          name: peak.name,
+          slug,
+          description: `Discussion about ${peak.name}`,
+          peakId: peak.id,
+          parentId,
+          sortOrder: 0,
+        },
+      });
+      peakCatsCreated++;
+    } catch (err) {
+      // Skip duplicates silently
     }
   }
-  console.log(`\nForum categories: ${forumCatsCreated} created (${forumCategories.length - forumCatsCreated} already existed)`);
+  console.log(`Peak subcategories: ${peakCatsCreated} created under continents`);
 }
 
 main()

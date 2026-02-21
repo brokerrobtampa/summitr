@@ -2,6 +2,7 @@ import type { FastifyInstance } from 'fastify';
 import {
   getCategories,
   getCategoryBySlug,
+  getContinentCategories,
   getPeakCategory,
   getThreads,
   getThread,
@@ -13,10 +14,23 @@ import { authenticate } from '../hooks/authenticate.js';
 import { AppError } from '../lib/errors.js';
 
 export async function forumRoutes(app: FastifyInstance) {
-  // GET /api/v1/forums/categories — list general categories
+  // GET /api/v1/forums/categories — list top-level topic categories
   app.get('/forums/categories', async (_request, reply) => {
     try {
       const data = await getCategories();
+      return reply.send({ success: true, data });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({ success: false, error: { code: err.code, message: err.message } });
+      }
+      throw err;
+    }
+  });
+
+  // GET /api/v1/forums/continents — list continent categories with peak subcategories
+  app.get('/forums/continents', async (_request, reply) => {
+    try {
+      const data = await getContinentCategories();
       return reply.send({ success: true, data });
     } catch (err) {
       if (err instanceof AppError) {

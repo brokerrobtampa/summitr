@@ -22,6 +22,10 @@ export function getCategories() {
   return api.get<ApiResponse<ForumCategory[]>>('/forums/categories');
 }
 
+export function getContinentCategories() {
+  return api.get<ApiResponse<ForumCategory[]>>('/forums/continents');
+}
+
 export function getCategoryBySlug(slug: string) {
   return api.get<ApiResponse<ForumCategory>>(`/forums/categories/${slug}`);
 }
@@ -40,7 +44,7 @@ export function getThread(threadId: number) {
   return api.get<ApiResponse<ForumThread>>(`/forums/threads/${threadId}`);
 }
 
-export function createThread(categoryId: number, data: { title: string; body: string }) {
+export function createThread(categoryId: number, data: { title: string; body: string; imageUrl?: string }) {
   return api.post<ApiResponse<ForumThread>>(`/forums/categories/${categoryId}/threads`, data);
 }
 
@@ -50,6 +54,6 @@ export function getReplies(threadId: number, page = 1, limit = 20) {
   );
 }
 
-export function createReply(threadId: number, data: { body: string; parentReplyId?: number }) {
+export function createReply(threadId: number, data: { body: string; parentReplyId?: number; imageUrl?: string }) {
   return api.post<ApiResponse<ForumReply>>(`/forums/threads/${threadId}/replies`, data);
 }

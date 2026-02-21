@@ -22,8 +22,8 @@ export function ForumThreadPage() {
 
   const createReply = useCreateReply(tid);
 
-  const handleReply = async (body: string, parentReplyId?: number) => {
-    await createReply.mutateAsync({ body, parentReplyId });
+  const handleReply = async (body: string, parentReplyId?: number, imageUrl?: string) => {
+    await createReply.mutateAsync({ body, parentReplyId, imageUrl });
     setReplyingTo(undefined);
   };
 
@@ -94,6 +94,16 @@ export function ForumThreadPage() {
               <span>{formatDate(thread.createdAt)}</span>
             </div>
             <div className="mt-4 text-gray-700 whitespace-pre-wrap">{thread.body}</div>
+            {thread.imageUrl && (
+              <div className="mt-4">
+                <img
+                  src={thread.imageUrl}
+                  alt="Thread image"
+                  className="max-w-full max-h-[500px] rounded-lg border border-gray-200 object-contain"
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -133,7 +143,7 @@ export function ForumThreadPage() {
               {replyingTo === reply.id && (
                 <div className="ml-8 mt-2">
                   <ReplyForm
-                    onSubmit={(body) => handleReply(body, reply.id)}
+                    onSubmit={(body, imageUrl) => handleReply(body, reply.id, imageUrl)}
                     onCancel={() => setReplyingTo(undefined)}
                     isLoading={createReply.isPending}
                     placeholder={`Reply to ${reply.author.displayName || reply.author.username}...`}
@@ -173,7 +183,7 @@ export function ForumThreadPage() {
         <div className="mt-6">
           <h3 className="text-sm font-medium text-gray-700 mb-2">Post a Reply</h3>
           <ReplyForm
-            onSubmit={(body) => handleReply(body)}
+            onSubmit={(body, imageUrl) => handleReply(body, undefined, imageUrl)}
             isLoading={createReply.isPending}
           />
         </div>

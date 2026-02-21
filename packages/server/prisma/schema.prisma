@@ -394,6 +394,9 @@ model ForumCategory {
   description String?
   peakId      Int?
   peak        Peak?    @relation(fields: [peakId], references: [id], onDelete: Cascade)
+  parentId    Int?
+  parent      ForumCategory?  @relation("CategoryToCategory", fields: [parentId], references: [id], onDelete: Cascade)
+  children    ForumCategory[] @relation("CategoryToCategory")
   sortOrder   Int      @default(0)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -401,6 +404,7 @@ model ForumCategory {
   threads ForumThread[]
 
   @@index([peakId])
+  @@index([parentId])
 }
 
 // ─── FORUM THREADS ───────────────────────────────────
@@ -413,6 +417,7 @@ model ForumThread {
   author         User          @relation(fields: [authorId], references: [id])
   title          String
   body           String
+  imageUrl       String?
   isPinned       Boolean       @default(false)
   isLocked       Boolean       @default(false)
   replyCount     Int           @default(0)
@@ -438,6 +443,7 @@ model ForumReply {
   parentReply   ForumReply?  @relation("ReplyToReply", fields: [parentReplyId], references: [id], onDelete: SetNull)
   childReplies  ForumReply[] @relation("ReplyToReply")
   body          String
+  imageUrl      String?
   createdAt     DateTime     @default(now())
   updatedAt     DateTime     @updatedAt
 
