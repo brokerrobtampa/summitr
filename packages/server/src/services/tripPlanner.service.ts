@@ -148,14 +148,14 @@ export async function searchTrips(query: unknown) {
   // Get guide service counts for the peaks in results
   const peakIds = [...new Set(routes.map((r) => r.peakId))];
   const guideServiceCounts = peakIds.length > 0
-    ? await prisma.guideService.groupBy({
+    ? await prisma.guideCompanyPeak.groupBy({
         by: ['peakId'],
         _count: { id: true },
         where: { peakId: { in: peakIds } },
       })
     : [];
 
-  const guideCountMap = new Map(guideServiceCounts.map((g) => [g.peakId, g._count.id]));
+  const guideCountMap = new Map(guideServiceCounts.map((g: any) => [g.peakId, g._count.id]));
 
   // Get filter counts for sidebar
   const [totalPeaks, totalRoutes, countriesRaw] = await Promise.all([

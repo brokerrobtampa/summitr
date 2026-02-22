@@ -11,6 +11,9 @@ import { RoutesPage } from './pages/RoutesPage.js';
 import { RouteDetailPage } from './pages/RouteDetailPage.js';
 import { CreateRoutePage } from './pages/CreateRoutePage.js';
 import { GuidedPeaksPage } from './pages/GuidedPeaksPage.js';
+import { GuideDirectoryPage } from './pages/GuideDirectoryPage.js';
+import { GuideProfilePage } from './pages/GuideProfilePage.js';
+import { GuideCompanyPage } from './pages/GuideCompanyPage.js';
 import { SearchResultsPage } from './pages/SearchResultsPage.js';
 import { LoginPage } from './pages/LoginPage.js';
 import { RegisterPage } from './pages/RegisterPage.js';
@@ -44,6 +47,9 @@ export default function App() {
               } />
               <Route path="/routes/:id" element={<RouteDetailPage />} />
               <Route path="/guided" element={<GuidedPeaksPage />} />
+              <Route path="/guides" element={<GuideDirectoryPage />} />
+              <Route path="/guides/:id" element={<GuideProfilePage />} />
+              <Route path="/guides/companies/:id" element={<GuideCompanyPage />} />
               <Route path="/trip-planner" element={<TripPlannerPage />} />
               <Route path="/search" element={<SearchResultsPage />} />
               <Route path="/login" element={<LoginPage />} />

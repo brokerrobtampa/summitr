@@ -72,7 +72,11 @@ export async function getPeakById(id: number) {
       routes: {
         include: { reviews: { select: { rating: true } } },
       },
-      guideServices: true,
+      guideCompanies: {
+        include: {
+          guideCompany: true,
+        },
+      },
     },
   });
 
@@ -82,26 +86,26 @@ export async function getPeakById(id: number) {
   const averageRating =
     allRatings.length > 0 ? allRatings.reduce((a, b) => a + b, 0) / allRatings.length : null;
 
-  const { routes: _, _count, alternateNames, guideServices, ...rest } = peak;
+  const { routes: _, _count, alternateNames, guideCompanies, ...rest } = peak;
   return {
     ...rest,
     alternateNames: alternateNames ? JSON.parse(alternateNames) : null,
     routeCount: _count.routes,
     averageRating: averageRating ? Math.round(averageRating * 10) / 10 : null,
-    guideServices: guideServices.map((s) => ({
-      id: s.id,
-      name: s.name,
-      website: s.website,
-      description: s.description,
-      priceRange: s.priceRange,
-      contactEmail: s.contactEmail,
-      contactPhone: s.contactPhone,
-      location: s.location,
-      specialties: s.specialties ? JSON.parse(s.specialties) : [],
-      logoUrl: s.logoUrl,
-      rating: s.rating,
+    guideServices: guideCompanies.map((gc) => ({
+      id: gc.guideCompany.id,
+      name: gc.guideCompany.name,
+      website: gc.guideCompany.website,
+      description: gc.guideCompany.description,
+      priceRange: gc.guideCompany.priceRange,
+      contactEmail: gc.guideCompany.contactEmail,
+      contactPhone: gc.guideCompany.contactPhone,
+      location: gc.guideCompany.location,
+      specialties: gc.guideCompany.specialties ? JSON.parse(gc.guideCompany.specialties) : [],
+      logoUrl: gc.guideCompany.logoUrl,
+      rating: gc.guideCompany.rating,
     })),
-    hasGuideServices: guideServices.length > 0,
+    hasGuideServices: guideCompanies.length > 0,
   };
 }
 

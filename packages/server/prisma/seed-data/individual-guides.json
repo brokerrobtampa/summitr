@@ -1,0 +1,347 @@
+[
+  {
+    "companyName": "Alpine Ascents International",
+    "guides": [
+      {
+        "firstName": "Todd",
+        "lastName": "Burleson",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "IFMGA Mountain Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "ice", "ski"],
+        "operatingRegions": ["Alaska", "Pacific Northwest", "Nepal", "Antarctica"],
+        "yearsExperience": 35,
+        "bio": "One of the most experienced high-altitude guides in North America with over 20 Everest expeditions."
+      },
+      {
+        "firstName": "Garrett",
+        "lastName": "Madison",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "ice"],
+        "operatingRegions": ["Alaska", "Pacific Northwest", "Nepal", "Pakistan"],
+        "yearsExperience": 25,
+        "bio": "Has summited Everest multiple times and specializes in 8000m expeditions across the Himalayas."
+      },
+      {
+        "firstName": "Ben",
+        "lastName": "Jones",
+        "certificationLevel": "AMGA Certified Rock Guide",
+        "certifications": ["AMGA Certified Rock Guide", "Wilderness First Responder", "LNT Trainer"],
+        "specialties": ["rock", "alpine"],
+        "operatingRegions": ["Pacific Northwest", "Alaska"],
+        "yearsExperience": 18,
+        "bio": "Specialist in Pacific Northwest alpine routes with extensive experience on Mount Rainier and the Cascades."
+      }
+    ]
+  },
+  {
+    "companyName": "Rainier Mountaineering Inc",
+    "guides": [
+      {
+        "firstName": "Peter",
+        "lastName": "Whittaker",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "IFMGA Mountain Guide"],
+        "specialties": ["alpine", "ski"],
+        "operatingRegions": ["Pacific Northwest", "Alaska", "Nepal"],
+        "yearsExperience": 40,
+        "bio": "Third-generation mountaineering guide and co-owner of RMI with decades of experience on Rainier and worldwide."
+      },
+      {
+        "firstName": "Melissa",
+        "lastName": "Arnot",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "ice"],
+        "operatingRegions": ["Pacific Northwest", "Nepal", "South America"],
+        "yearsExperience": 20,
+        "bio": "Record-holding female Everest summiteer and accomplished high-altitude expedition guide."
+      }
+    ]
+  },
+  {
+    "companyName": "International Mountain Guides",
+    "guides": [
+      {
+        "firstName": "Phil",
+        "lastName": "Ershler",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "AMGA Certified Alpine Guide"],
+        "specialties": ["alpine", "ice", "ski"],
+        "operatingRegions": ["Pacific Northwest", "Alaska", "Nepal", "Antarctica"],
+        "yearsExperience": 42,
+        "bio": "One of the first Americans to summit Everest from the north side, with over four decades of guiding experience."
+      },
+      {
+        "firstName": "George",
+        "lastName": "Dunn",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Avalanche Level 3"],
+        "specialties": ["alpine", "ski"],
+        "operatingRegions": ["Pacific Northwest", "Alaska"],
+        "yearsExperience": 30,
+        "bio": "Veteran Pacific Northwest guide specializing in technical alpine routes and ski mountaineering."
+      }
+    ]
+  },
+  {
+    "companyName": "Compagnie des Guides de Chamonix",
+    "guides": [
+      {
+        "firstName": "Jean-Marc",
+        "lastName": "Delvaux",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "ENSA Diploma"],
+        "specialties": ["alpine", "ice", "ski", "rock"],
+        "operatingRegions": ["Alps", "Patagonia", "Nepal"],
+        "yearsExperience": 28,
+        "bio": "Expert on all major Alpine north faces with extensive Chamonix granite and mixed climbing experience."
+      },
+      {
+        "firstName": "Sophie",
+        "lastName": "Lavaud",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "ENSA Diploma", "Wilderness Medicine"],
+        "specialties": ["alpine", "ski", "ice"],
+        "operatingRegions": ["Alps", "Nepal", "South America"],
+        "yearsExperience": 15,
+        "bio": "Pioneering female guide in the Alps with first ascents in the Mont Blanc massif and Himalayan expeditions."
+      },
+      {
+        "firstName": "Laurent",
+        "lastName": "Miston",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide"],
+        "specialties": ["rock", "alpine", "ski"],
+        "operatingRegions": ["Alps"],
+        "yearsExperience": 22,
+        "bio": "Chamonix native specializing in technical rock climbing and the classic alpine routes of the Mont Blanc massif."
+      }
+    ]
+  },
+  {
+    "companyName": "Adventure Consultants",
+    "guides": [
+      {
+        "firstName": "Guy",
+        "lastName": "Cotter",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "NZMGA Full Member"],
+        "specialties": ["alpine", "ice"],
+        "operatingRegions": ["Nepal", "Antarctica", "New Zealand", "South America"],
+        "yearsExperience": 38,
+        "bio": "Veteran expedition leader with dozens of 8000m summit successes, specializing in Everest and Antarctic expeditions."
+      },
+      {
+        "firstName": "Suze",
+        "lastName": "Kelly",
+        "certificationLevel": "NZMGA Aspirant Guide",
+        "certifications": ["NZMGA Aspirant Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "rock"],
+        "operatingRegions": ["New Zealand", "Nepal"],
+        "yearsExperience": 12,
+        "bio": "Rising star in New Zealand mountaineering with extensive Southern Alps and Himalayan experience."
+      }
+    ]
+  },
+  {
+    "companyName": "Mountain Trip",
+    "guides": [
+      {
+        "firstName": "Bill",
+        "lastName": "Allen",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Avalanche Level 3", "Wilderness First Responder"],
+        "specialties": ["alpine", "ski"],
+        "operatingRegions": ["Alaska", "South America"],
+        "yearsExperience": 32,
+        "bio": "Denali specialist with one of the highest success rates in the Alaska Range. Multiple first ascents in Patagonia."
+      },
+      {
+        "firstName": "Aaron",
+        "lastName": "Mainer",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "ice"],
+        "operatingRegions": ["Alaska", "Pacific Northwest"],
+        "yearsExperience": 15,
+        "bio": "Young but accomplished guide with deep knowledge of Alaska Range glacier systems and technical routes."
+      }
+    ]
+  },
+  {
+    "companyName": "Alpenglow Expeditions",
+    "guides": [
+      {
+        "firstName": "Adrian",
+        "lastName": "Ballinger",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "AMGA Certified Alpine Guide"],
+        "specialties": ["alpine", "ski"],
+        "operatingRegions": ["Nepal", "South America", "Alps", "Alaska"],
+        "yearsExperience": 25,
+        "bio": "Pioneered rapid-ascent Everest style and is one of the most recognized expedition leaders in modern mountaineering."
+      },
+      {
+        "firstName": "Emily",
+        "lastName": "Johnston",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "rock"],
+        "operatingRegions": ["Nepal", "South America", "Alps"],
+        "yearsExperience": 14,
+        "bio": "Experienced expedition guide with a focus on accessibility and helping climbers achieve their first high-altitude summit."
+      }
+    ]
+  },
+  {
+    "companyName": "Alaska Mountaineering School",
+    "guides": [
+      {
+        "firstName": "Colby",
+        "lastName": "Coombs",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Avalanche Level 3"],
+        "specialties": ["alpine", "ice", "ski"],
+        "operatingRegions": ["Alaska"],
+        "yearsExperience": 35,
+        "bio": "Alaska Range legend and founder of AMS with deep expertise in Denali and Ruth Gorge climbing."
+      }
+    ]
+  },
+  {
+    "companyName": "Mountain Tracks",
+    "guides": [
+      {
+        "firstName": "Roland",
+        "lastName": "Brunner",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "Austrian Alpine Club Instructor"],
+        "specialties": ["alpine", "ski", "rock"],
+        "operatingRegions": ["Alps", "Dolomites"],
+        "yearsExperience": 20,
+        "bio": "Austrian-born guide specializing in the classic routes of the Western Alps and Dolomite via ferratas."
+      },
+      {
+        "firstName": "Kirsty",
+        "lastName": "MacLeod",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "BMC Coach"],
+        "specialties": ["alpine", "rock", "ice"],
+        "operatingRegions": ["Alps", "Scotland", "Norway"],
+        "yearsExperience": 18,
+        "bio": "British guide with deep experience in Scottish winter climbing translated to Alpine and Nordic terrain."
+      }
+    ]
+  },
+  {
+    "companyName": "Madison Mountaineering",
+    "guides": [
+      {
+        "firstName": "Garrett",
+        "lastName": "Madison",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide"],
+        "specialties": ["alpine", "ice"],
+        "operatingRegions": ["Nepal", "Pakistan", "Alaska", "South America"],
+        "yearsExperience": 25,
+        "bio": "Founder and lead guide specializing in K2 and other challenging 8000m peaks in the Karakoram."
+      }
+    ]
+  },
+  {
+    "companyName": "Ultimate Kilimanjaro",
+    "guides": [
+      {
+        "firstName": "James",
+        "lastName": "Kagambi",
+        "certificationLevel": "KATO Certified Guide",
+        "certifications": ["KATO Certified Mountain Guide", "Wilderness First Aid"],
+        "specialties": ["alpine", "trekking"],
+        "operatingRegions": ["East Africa"],
+        "yearsExperience": 20,
+        "bio": "One of Tanzania's most experienced Kilimanjaro guides with over 300 successful summit expeditions."
+      },
+      {
+        "firstName": "Daniel",
+        "lastName": "Moshi",
+        "certificationLevel": "KATO Certified Guide",
+        "certifications": ["KATO Certified Mountain Guide"],
+        "specialties": ["alpine", "trekking"],
+        "operatingRegions": ["East Africa"],
+        "yearsExperience": 15,
+        "bio": "Specialist in Kilimanjaro's challenging Western Breach and Umbwe routes with impeccable safety record."
+      }
+    ]
+  },
+  {
+    "companyName": "NOLS",
+    "guides": [
+      {
+        "firstName": "Kate",
+        "lastName": "Rutherford",
+        "certificationLevel": "AMGA Certified Rock Guide",
+        "certifications": ["AMGA Certified Rock Guide", "AMGA Certified Alpine Guide", "LNT Master Educator"],
+        "specialties": ["rock", "alpine"],
+        "operatingRegions": ["Rocky Mountains", "Pacific Northwest", "Alaska"],
+        "yearsExperience": 22,
+        "bio": "World-class climber and educator combining cutting-edge technical skills with wilderness education philosophy."
+      }
+    ]
+  },
+  {
+    "companyName": null,
+    "guides": [
+      {
+        "firstName": "Conrad",
+        "lastName": "Anker",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "IFMGA Mountain Guide"],
+        "specialties": ["alpine", "rock", "ice"],
+        "operatingRegions": ["Nepal", "Antarctica", "Alaska", "Rocky Mountains"],
+        "yearsExperience": 38,
+        "bio": "Legendary alpinist known for Meru first ascent, Everest expeditions, and finding Mallory's remains. Independent guide and ambassador."
+      },
+      {
+        "firstName": "Lydia",
+        "lastName": "Bradey",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "NZMGA Full Member"],
+        "specialties": ["alpine", "ice", "ski"],
+        "operatingRegions": ["New Zealand", "Nepal", "Antarctica"],
+        "yearsExperience": 35,
+        "bio": "First woman to summit Everest without supplemental oxygen. Legendary New Zealand mountaineer and independent guide."
+      },
+      {
+        "firstName": "Rob",
+        "lastName": "Smith",
+        "certificationLevel": "AMGA Certified Ski Guide",
+        "certifications": ["AMGA Certified Ski Guide", "Avalanche Level 3", "Wilderness First Responder"],
+        "specialties": ["ski", "alpine"],
+        "operatingRegions": ["Rocky Mountains", "Alaska"],
+        "yearsExperience": 20,
+        "bio": "Colorado-based ski mountaineering specialist focused on 14er ski descents and backcountry terrain assessment."
+      },
+      {
+        "firstName": "Angela",
+        "lastName": "Hawse",
+        "certificationLevel": "IFMGA Mountain Guide",
+        "certifications": ["IFMGA Mountain Guide", "AMGA Certified Alpine Guide", "AMGA Certified Rock Guide"],
+        "specialties": ["rock", "alpine", "ice"],
+        "operatingRegions": ["Rocky Mountains", "Alps", "Patagonia"],
+        "yearsExperience": 28,
+        "bio": "One of the first American women to earn IFMGA certification. Expert in technical alpine terrain worldwide."
+      },
+      {
+        "firstName": "Mark",
+        "lastName": "Smiley",
+        "certificationLevel": "AMGA Certified Alpine Guide",
+        "certifications": ["AMGA Certified Alpine Guide", "Wilderness First Responder"],
+        "specialties": ["alpine", "rock"],
+        "operatingRegions": ["Pacific Northwest", "Alaska", "Nepal"],
+        "yearsExperience": 22,
+        "bio": "Accomplished expedition guide and photographer known for leading successful climbs in the Alaska Range and Himalayas."
+      }
+    ]
+  }
+]

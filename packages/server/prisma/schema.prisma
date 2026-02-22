@@ -82,7 +82,7 @@ model Peak {
 
   routes          Route[]
   climbLogs       ClimbLog[]
-  guideServices   GuideService[]
+  guideCompanies  GuideCompanyPeak[]
   forumCategories ForumCategory[]
 
   @@index([latitude, longitude])
@@ -122,19 +122,32 @@ model Route {
   closestAirport String?  // Closest airport (may differ from peak)
   geoJson        String?
   isPublic       Boolean  @default(true)
+  // OpenBeta integration fields
+  openbetaId     String?  @unique  // OpenBeta UUID for dedup
+  firstAscent    String?  // FA information
+  source         String   @default("user")  // "user" | "seed" | "openbeta"
+  pitches        Int?     // Number of pitches
+  lengthMeters   Int?     // Route length in meters
+  protection     String?  // Protection/gear description
+  gradeYds       String?  // YDS grade (e.g. "5.11a")
+  gradeFrench    String?  // French grade (e.g. "6b+")
+  gradeUiaa      String?  // UIAA grade (e.g. "VII")
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
-  waypoints Waypoint[]
-  reviews   Review[]
-  tips      Tip[]
-  gearRecs  GearRecommendation[]
-  climbLogs ClimbLog[]
-  savedBy   SavedRoute[]
+  waypoints        Waypoint[]
+  reviews          Review[]
+  tips             Tip[]
+  gearRecs         GearRecommendation[]
+  climbLogs        ClimbLog[]
+  savedBy          SavedRoute[]
+  guideSpecialties GuideRouteSpecialty[]
 
   @@index([peakId])
   @@index([authorId])
   @@index([activityType])
+  @@index([openbetaId])
+  @@index([source])
 }
 
 // ─── WAYPOINTS ──────────────────────────────────────────
@@ -268,26 +281,91 @@ model SavedRoute {
   @@unique([userId, routeId])
 }
 
-// ─── GUIDE SERVICES ────────────────────────────────────
+// ─── GUIDE COMPANIES ────────────────────────────────────
 
-model GuideService {
-  id           Int      @id @default(autoincrement())
-  peakId       Int
-  peak         Peak     @relation(fields: [peakId], references: [id], onDelete: Cascade)
-  name         String
-  website      String
-  description  String?
-  priceRange   String?  // e.g. "$6,000 - $9,000"
-  contactEmail String?
-  contactPhone String?
-  location     String?  // e.g. "Seattle, WA" or "Kathmandu, Nepal"
-  specialties  String?  // JSON array of specialties
-  logoUrl      String?
-  rating       Float?   // Optional editorial rating
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
+model GuideCompany {
+  id              Int      @id @default(autoincrement())
+  name            String
+  website         String
+  description     String?
+  priceRange      String?  // e.g. "$6,000 - $9,000"
+  contactEmail    String?
+  contactPhone    String?
+  location        String?  // e.g. "Seattle, WA" or "Kathmandu, Nepal"
+  specialties     String?  // JSON array of specialties
+  logoUrl         String?
+  rating          Float?   // Optional editorial rating
+  amgaAccredited  Boolean  @default(false)
+  foundedYear     Int?
+  teamSize        String?  // e.g. "15-20 guides"
+  insuranceInfo   String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
 
+  peaks  GuideCompanyPeak[]
+  guides Guide[]
+
+  @@index([name])
+}
+
+model GuideCompanyPeak {
+  id             Int          @id @default(autoincrement())
+  guideCompanyId Int
+  guideCompany   GuideCompany @relation(fields: [guideCompanyId], references: [id], onDelete: Cascade)
+  peakId         Int
+  peak           Peak         @relation(fields: [peakId], references: [id], onDelete: Cascade)
+
+  @@unique([guideCompanyId, peakId])
   @@index([peakId])
+  @@index([guideCompanyId])
+}
+
+// ─── INDIVIDUAL GUIDES ──────────────────────────────────
+
+model Guide {
+  id                  Int      @id @default(autoincrement())
+  firstName           String
+  lastName            String
+  email               String?
+  phone               String?
+  website             String?
+  photoUrl            String?
+  bio                 String?
+  certificationLevel  String?  // Primary cert: "IFMGA Mountain Guide", "AMGA Certified Alpine Guide", etc.
+  certifications      String?  // JSON array of all certs
+  amgaMemberId        String?  // AMGA directory reference
+  ifmgaLicenseNumber  String?  // IFMGA directory reference
+  specialties         String?  // JSON array: ["alpine", "rock", "ski", "ice"]
+  operatingRegions    String?  // JSON array: ["Alaska", "Pacific Northwest", "Nepal"]
+  yearsExperience     Int?
+  isActive            Boolean  @default(true)
+  source              String   @default("seed")  // "seed" | "amga" | "ifmga"
+  guideCompanyId      Int?
+  guideCompany        GuideCompany? @relation(fields: [guideCompanyId], references: [id], onDelete: SetNull)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  routeSpecialties GuideRouteSpecialty[]
+
+  @@index([guideCompanyId])
+  @@index([lastName])
+  @@index([certificationLevel])
+}
+
+// ─── GUIDE ROUTE SPECIALTIES ────────────────────────────
+
+model GuideRouteSpecialty {
+  id           Int    @id @default(autoincrement())
+  guideId      Int
+  guide        Guide  @relation(fields: [guideId], references: [id], onDelete: Cascade)
+  routeId      Int
+  route        Route  @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  yearsGuiding Int?
+  summitCount  Int?
+
+  @@unique([guideId, routeId])
+  @@index([guideId])
+  @@index([routeId])
 }
 
 // ─── USER FOLLOWS ──────────────────────────────────────

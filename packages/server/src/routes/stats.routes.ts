@@ -7,9 +7,9 @@ export async function statsRoutes(app: FastifyInstance) {
     const [peakCount, routeCount, guidedPeakCount] = await Promise.all([
       prisma.peak.count(),
       prisma.route.count(),
-      prisma.guideService.groupBy({
+      prisma.guideCompanyPeak.groupBy({
         by: ['peakId'],
-      }).then((groups) => groups.length),
+      }).then((groups: any[]) => groups.length),
     ]);
 
     return reply.send({

@@ -340,7 +340,7 @@ async function main() {
   console.log(`\nRoutes: ${routesCreated} created, ${routesSkipped} already existed`);
   console.log(`Total routes in database: ${await prisma.route.count()}`);
 
-  // ── 4. Seed guide services ─────────────────────────────
+  // ── 4. Seed guide companies (migrated from old GuideService) ─────
   const guidesPath = path.join(__dirname, 'seed-data', 'guide-services.json');
   if (fs.existsSync(guidesPath)) {
     interface SeedGuide {
@@ -358,47 +358,127 @@ async function main() {
     }
 
     const rawGuides: SeedGuidePeak[] = JSON.parse(fs.readFileSync(guidesPath, 'utf-8'));
-    let guidesCreated = 0;
-    let guidesSkipped = 0;
+    let companiesCreated = 0;
+    let companiesSkipped = 0;
+    let peakLinksCreated = 0;
 
-    // Pre-load existing guide services in one query
-    const existingGuides = await prisma.guideService.findMany({ select: { peakId: true, name: true } });
-    const guideSet = new Set(existingGuides.map((g) => `${g.peakId}-${g.name}`));
+    // Pre-load existing companies by name
+    const existingCompanies = await prisma.guideCompany.findMany({ select: { id: true, name: true } });
+    const companyMap = new Map(existingCompanies.map((c) => [c.name, c.id]));
+
+    // Pre-load existing peak links
+    const existingLinks = await prisma.guideCompanyPeak.findMany({ select: { guideCompanyId: true, peakId: true } });
+    const linkSet = new Set(existingLinks.map((l) => `${l.guideCompanyId}-${l.peakId}`));
 
     for (const entry of rawGuides) {
       const peak = peakMap.get(entry.peakName);
       if (!peak) {
-        console.log(`  WARNING: Peak "${entry.peakName}" not found for guide services, skipping`);
+        console.log(`  WARNING: Peak "${entry.peakName}" not found for guide companies, skipping`);
         continue;
       }
 
       for (const guide of entry.guides) {
-        if (guideSet.has(`${peak.id}-${guide.name}`)) {
-          guidesSkipped++;
-          continue;
+        // Create or find company
+        let companyId = companyMap.get(guide.name);
+        if (!companyId) {
+          const company = await prisma.guideCompany.create({
+            data: {
+              name: guide.name,
+              website: guide.website,
+              description: guide.description ?? null,
+              priceRange: guide.priceRange ?? null,
+              contactEmail: guide.contactEmail ?? null,
+              location: guide.location ?? null,
+              specialties: guide.specialties ? JSON.stringify(guide.specialties) : null,
+            },
+          });
+          companyId = company.id;
+          companyMap.set(guide.name, companyId);
+          companiesCreated++;
+        } else {
+          companiesSkipped++;
         }
 
-        await prisma.guideService.create({
-          data: {
-            peakId: peak.id,
-            name: guide.name,
-            website: guide.website,
-            description: guide.description ?? null,
-            priceRange: guide.priceRange ?? null,
-            contactEmail: guide.contactEmail ?? null,
-            location: guide.location ?? null,
-            specialties: guide.specialties ? JSON.stringify(guide.specialties) : null,
-          },
-        });
-        guidesCreated++;
-        guideSet.add(`${peak.id}-${guide.name}`);
+        // Link company to peak
+        const linkKey = `${companyId}-${peak.id}`;
+        if (!linkSet.has(linkKey)) {
+          await prisma.guideCompanyPeak.create({
+            data: { guideCompanyId: companyId, peakId: peak.id },
+          });
+          linkSet.add(linkKey);
+          peakLinksCreated++;
+        }
       }
     }
 
-    console.log(`\nGuide services: ${guidesCreated} created, ${guidesSkipped} already existed`);
-    console.log(`Total guide services: ${await prisma.guideService.count()}`);
+    console.log(`\nGuide companies: ${companiesCreated} created, ${companiesSkipped} already existed`);
+    console.log(`Company-peak links: ${peakLinksCreated} created`);
+    console.log(`Total guide companies: ${await prisma.guideCompany.count()}`);
   } else {
-    console.log('\nNo guide-services.json found, skipping guide services seeding');
+    console.log('\nNo guide-services.json found, skipping guide company seeding');
+  }
+
+  // ── 4b. Seed individual guides ───────────────────────────
+  const individualGuidesPath = path.join(__dirname, 'seed-data', 'individual-guides.json');
+  if (fs.existsSync(individualGuidesPath)) {
+    interface SeedIndividualGuide {
+      firstName: string;
+      lastName: string;
+      certificationLevel?: string;
+      certifications?: string[];
+      specialties?: string[];
+      operatingRegions?: string[];
+      yearsExperience?: number;
+      bio?: string;
+    }
+    interface SeedGuideGroup {
+      companyName: string | null;
+      guides: SeedIndividualGuide[];
+    }
+
+    const rawIndividualGuides: SeedGuideGroup[] = JSON.parse(fs.readFileSync(individualGuidesPath, 'utf-8'));
+    let indGuidesCreated = 0;
+    let indGuidesSkipped = 0;
+
+    // Re-fetch company map
+    const allCompanies = await prisma.guideCompany.findMany({ select: { id: true, name: true } });
+    const companyLookup = new Map(allCompanies.map((c) => [c.name, c.id]));
+
+    // Pre-load existing guides
+    const existingIndGuides = await prisma.guide.findMany({ select: { firstName: true, lastName: true } });
+    const indGuideSet = new Set(existingIndGuides.map((g) => `${g.firstName}-${g.lastName}`));
+
+    for (const group of rawIndividualGuides) {
+      const companyId = group.companyName ? companyLookup.get(group.companyName) ?? null : null;
+
+      for (const g of group.guides) {
+        const key = `${g.firstName}-${g.lastName}`;
+        if (indGuideSet.has(key)) {
+          indGuidesSkipped++;
+          continue;
+        }
+
+        await prisma.guide.create({
+          data: {
+            firstName: g.firstName,
+            lastName: g.lastName,
+            certificationLevel: g.certificationLevel ?? null,
+            certifications: g.certifications ? JSON.stringify(g.certifications) : null,
+            specialties: g.specialties ? JSON.stringify(g.specialties) : null,
+            operatingRegions: g.operatingRegions ? JSON.stringify(g.operatingRegions) : null,
+            yearsExperience: g.yearsExperience ?? null,
+            bio: g.bio ?? null,
+            guideCompanyId: companyId,
+            source: 'seed',
+          },
+        });
+        indGuidesCreated++;
+        indGuideSet.add(key);
+      }
+    }
+
+    console.log(`\nIndividual guides: ${indGuidesCreated} created, ${indGuidesSkipped} already existed`);
+    console.log(`Total guides: ${await prisma.guide.count()}`);
   }
 
   // ── 5. Seed forum categories ─────────────────────────

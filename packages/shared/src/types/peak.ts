@@ -37,6 +37,6 @@ export interface PeakSummary {
 export interface PeakDetail extends Peak {
   routeCount: number;
   averageRating: number | null;
-  guideServices: import('./guide.js').GuideService[];
+  guideServices: import('./guide.js').GuideCompanySummary[];
   hasGuideServices: boolean;
 }
