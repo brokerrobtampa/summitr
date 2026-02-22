@@ -209,124 +209,131 @@ async function main() {
       continue;
     }
 
-    const data: SeedPeakRoutes[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    let fileRouteCount = 0;
+    try {
+      console.log(`  Processing ${file}...`);
+      const data: SeedPeakRoutes[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      let fileRouteCount = 0;
 
-    for (const peakEntry of data) {
-      const peak = peakMap.get(peakEntry.peakName);
-      if (!peak) {
-        console.log(`  WARNING: Peak "${peakEntry.peakName}" not found, skipping`);
-        continue;
-      }
+      for (const peakEntry of data) {
+        const peak = peakMap.get(peakEntry.peakName);
+        if (!peak) {
+          console.log(`  WARNING: Peak "${peakEntry.peakName}" not found, skipping`);
+          continue;
+        }
 
-      // Filter to only NEW routes (not already in DB)
-      const newRoutes = peakEntry.routes.filter(
-        (r) => !existingRouteMap.has(`${peak.id}-${r.name}`)
-      );
-      routesSkipped += peakEntry.routes.length - newRoutes.length;
+        // Filter to only NEW routes (not already in DB)
+        const newRoutes = peakEntry.routes.filter(
+          (r) => !existingRouteMap.has(`${peak.id}-${r.name}`)
+        );
+        routesSkipped += peakEntry.routes.length - newRoutes.length;
 
-      if (newRoutes.length === 0) continue;
+        if (newRoutes.length === 0) continue;
 
-      // Process each new route inside a transaction (batches the inserts)
-      for (const routeData of newRoutes) {
-        try {
-          await prisma.$transaction(async (tx) => {
-            const route = await tx.route.create({
-              data: {
-                name: routeData.name,
-                peakId: peak.id,
-                authorId: seedUser.id,
-                difficulty: routeData.difficulty,
-                gradeSystem: routeData.gradeSystem,
-                activityType: routeData.activityType,
-                description: routeData.description,
-                distance: routeData.distance,
-                elevationGain: routeData.elevationGain,
-                estimatedTime: routeData.estimatedTime,
-                season: routeData.season,
-                hazards: routeData.hazards,
-                isPublic: true,
-                summary: routeData.summary ?? null,
-                imageUrl: routeData.imageUrl ?? null,
-                technicalGrade: routeData.technicalGrade ?? null,
-                commitment: routeData.commitment ?? null,
-                approachTime: routeData.approachTime ?? null,
-                descentTime: routeData.descentTime ?? null,
-                basecamp: routeData.basecamp ?? null,
-                safetyNotes: routeData.safetyNotes ?? null,
-                permitRequired: routeData.permitRequired ?? false,
-                permitInfo: routeData.permitInfo ?? null,
-                closestAirport: routeData.closestAirport ?? null,
-              },
-            });
-
-            // Batch create tips
-            if (routeData.tips?.length) {
-              await tx.tip.createMany({
-                data: routeData.tips.map((tip) => ({
-                  routeId: route.id,
-                  authorId: seedUser.id,
-                  content: tip.content,
-                  category: tip.category,
-                })),
-              });
-            }
-
-            // Create gear recommendations (need IDs back for gear links)
-            for (const gear of routeData.gear || []) {
-              const gearRec = await tx.gearRecommendation.create({
+        // Process each new route inside a transaction (batches the inserts)
+        for (const routeData of newRoutes) {
+          try {
+            await prisma.$transaction(async (tx) => {
+              const route = await tx.route.create({
                 data: {
-                  routeId: route.id,
+                  name: routeData.name,
+                  peakId: peak.id,
                   authorId: seedUser.id,
-                  itemName: gear.itemName,
-                  category: gear.category,
-                  isEssential: gear.isEssential,
-                  notes: gear.notes,
-                  weight: gear.weight ?? null,
-                  priceRange: gear.priceRange ?? null,
-                  specificProduct: gear.specificProduct ?? null,
+                  difficulty: routeData.difficulty,
+                  gradeSystem: routeData.gradeSystem,
+                  activityType: routeData.activityType,
+                  description: routeData.description,
+                  distance: routeData.distance,
+                  elevationGain: routeData.elevationGain,
+                  estimatedTime: routeData.estimatedTime,
+                  season: routeData.season,
+                  hazards: routeData.hazards,
+                  isPublic: true,
+                  summary: routeData.summary ?? null,
+                  imageUrl: routeData.imageUrl ?? null,
+                  technicalGrade: routeData.technicalGrade ?? null,
+                  commitment: routeData.commitment ?? null,
+                  approachTime: routeData.approachTime ?? null,
+                  descentTime: routeData.descentTime ?? null,
+                  basecamp: routeData.basecamp ?? null,
+                  safetyNotes: routeData.safetyNotes ?? null,
+                  permitRequired: routeData.permitRequired ?? false,
+                  permitInfo: routeData.permitInfo ?? null,
+                  closestAirport: routeData.closestAirport ?? null,
                 },
               });
 
-              if (gear.links?.length) {
-                await tx.gearLink.createMany({
-                  data: gear.links.map((link) => ({
-                    gearId: gearRec.id,
-                    retailer: link.retailer,
-                    productName: link.productName,
-                    url: link.url,
-                    price: link.price,
+              // Batch create tips
+              if (routeData.tips?.length) {
+                await tx.tip.createMany({
+                  data: routeData.tips.map((tip) => ({
+                    routeId: route.id,
+                    authorId: seedUser.id,
+                    content: tip.content,
+                    category: tip.category,
                   })),
                 });
               }
-            }
 
-            // Batch create reviews
-            if (routeData.reviews?.length) {
-              await tx.review.createMany({
-                data: routeData.reviews.map((review) => ({
-                  routeId: route.id,
-                  authorId: seedUser.id,
-                  rating: review.rating,
-                  title: review.title,
-                  body: review.body,
-                  conditions: review.conditions,
-                })),
-              });
-            }
-          });
+              // Create gear recommendations (need IDs back for gear links)
+              for (const gear of routeData.gear || []) {
+                const gearRec = await tx.gearRecommendation.create({
+                  data: {
+                    routeId: route.id,
+                    authorId: seedUser.id,
+                    itemName: gear.itemName,
+                    category: gear.category,
+                    isEssential: gear.isEssential,
+                    notes: gear.notes,
+                    weight: gear.weight ?? null,
+                    priceRange: gear.priceRange ?? null,
+                    specificProduct: gear.specificProduct ?? null,
+                  },
+                });
 
-          // Track in our map so duplicates across files are caught
-          existingRouteMap.set(`${peak.id}-${routeData.name}`, -1);
-          routesCreated++;
-          fileRouteCount++;
-        } catch (err) {
-          console.error(`  ERROR creating route "${routeData.name}" for "${peakEntry.peakName}":`, err);
+                if (gear.links?.length) {
+                  await tx.gearLink.createMany({
+                    data: gear.links.map((link) => ({
+                      gearId: gearRec.id,
+                      retailer: link.retailer,
+                      productName: link.productName,
+                      url: link.url,
+                      price: link.price,
+                    })),
+                  });
+                }
+              }
+
+              // Batch create reviews
+              if (routeData.reviews?.length) {
+                await tx.review.createMany({
+                  data: routeData.reviews.map((review) => ({
+                    routeId: route.id,
+                    authorId: seedUser.id,
+                    rating: review.rating,
+                    title: review.title,
+                    body: review.body,
+                    conditions: review.conditions,
+                  })),
+                });
+              }
+            });
+
+            // Track in our map so duplicates across files are caught
+            existingRouteMap.set(`${peak.id}-${routeData.name}`, -1);
+            routesCreated++;
+            fileRouteCount++;
+          } catch (err) {
+            console.error(`  ERROR creating route "${routeData.name}" for "${peakEntry.peakName}":`, err);
+          }
         }
       }
-    }
 
-    console.log(`  ${file}: ${fileRouteCount} routes created`);
+      console.log(`  ${file}: ${fileRouteCount} routes created`);
+    } catch (fileErr) {
+      console.error(`  FATAL ERROR processing file ${file}:`, fileErr);
+      // Continue with remaining files instead of crashing
+      continue;
+    }
   }
 
   console.log(`\nRoutes: ${routesCreated} created, ${routesSkipped} already existed`);
