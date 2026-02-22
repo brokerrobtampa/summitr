@@ -7,20 +7,26 @@ import { LoadingSpinner } from '../components/ui/LoadingSpinner.js';
 import type { PeakSummary, ActivityFeedItem } from '@summit/shared';
 import * as peaksApi from '../api/peaks.api.js';
 import * as socialApi from '../api/social.api.js';
+import { api } from '../api/client.js';
 
 export function HomePage() {
   const { user } = useAuth();
   const [featuredPeaks, setFeaturedPeaks] = useState<PeakSummary[]>([]);
   const [recentActivity, setRecentActivity] = useState<ActivityFeedItem[]>([]);
+  const [stats, setStats] = useState<{ peaks: number; routes: number; guidedPeaks: number; continents: number } | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     Promise.all([
       peaksApi.getPeaks({ sort: 'elevation_desc', limit: 8 }).catch(() => ({ data: [] })),
       socialApi.getDiscoverFeed(1, 5).catch(() => ({ data: [] })),
-    ]).then(([peaksRes, activityRes]) => {
+      api.get<{ success: boolean; data: { peaks: number; routes: number; guidedPeaks: number; continents: number } }>('/stats').catch(() => null),
+    ]).then(([peaksRes, activityRes, statsRes]) => {
       setFeaturedPeaks(peaksRes.data);
       setRecentActivity(activityRes.data || []);
+      if (statsRes && statsRes.data) {
+        setStats(statsRes.data);
+      }
     }).finally(() => setLoading(false));
   }, []);
 
@@ -61,19 +67,19 @@ export function HomePage() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-center gap-8 md:gap-16">
             <div className="text-center">
-              <div className="text-2xl font-bold text-peak-blue">185</div>
+              <div className="text-2xl font-bold text-peak-blue">{stats?.peaks ?? '—'}</div>
               <div className="text-xs text-gray-500 uppercase tracking-wide">Peaks</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-peak-blue">151</div>
+              <div className="text-2xl font-bold text-peak-blue">{stats?.routes ?? '—'}</div>
               <div className="text-xs text-gray-500 uppercase tracking-wide">Routes</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-green-600">18</div>
+              <div className="text-2xl font-bold text-green-600">{stats?.guidedPeaks ?? '—'}</div>
               <div className="text-xs text-gray-500 uppercase tracking-wide">Guided Peaks</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-600">7</div>
+              <div className="text-2xl font-bold text-purple-600">{stats?.continents ?? '—'}</div>
               <div className="text-xs text-gray-500 uppercase tracking-wide">Continents</div>
             </div>
           </div>

@@ -14,6 +14,7 @@ import { socialRoutes } from './routes/social.routes.js';
 import { notificationRoutes } from './routes/notifications.routes.js';
 import { conversationRoutes } from './routes/conversations.routes.js';
 import { forumRoutes } from './routes/forums.routes.js';
+import { statsRoutes } from './routes/stats.routes.js';
 import { websocketPlugin } from './plugins/websocket.plugin.js';
 import { config } from './config.js';
 
@@ -48,6 +49,7 @@ export async function createApp() {
       await api.register(notificationRoutes);
       await api.register(conversationRoutes);
       await api.register(forumRoutes);
+      await api.register(statsRoutes);
       await api.register(websocketPlugin);
     },
     { prefix: '/api/v1' },
