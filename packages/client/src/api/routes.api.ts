@@ -1,5 +1,5 @@
 import { api } from './client.js';
-import type { ApiResponse, PaginatedResponse, RouteSummary, RouteDetail, CreateRouteInput } from '@summit/shared';
+import type { ApiResponse, PaginatedResponse, RouteSummary, RouteDetail, CreateRouteInput, RouteGeo } from '@summit/shared';
 
 export function getRoutes(params: Record<string, string | number> = {}) {
   const query = new URLSearchParams();
@@ -29,4 +29,10 @@ export function saveRoute(id: number) {
 
 export function unsaveRoute(id: number) {
   return api.delete(`/routes/${id}/save`);
+}
+
+export function getRoutesByBounds(bounds: { north: number; south: number; east: number; west: number }) {
+  const query = new URLSearchParams();
+  Object.entries(bounds).forEach(([k, v]) => query.set(k, String(v)));
+  return api.get<ApiResponse<RouteGeo[]>>(`/routes/bounds?${query.toString()}`);
 }

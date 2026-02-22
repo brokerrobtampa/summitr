@@ -7,6 +7,7 @@ import {
   deleteRoute,
   saveRoute,
   unsaveRoute,
+  getRoutesByBounds,
 } from '../services/route.service.js';
 import { generateGPX } from '../services/gpx.service.js';
 import { authenticate, optionalAuth } from '../hooks/authenticate.js';
@@ -17,6 +18,21 @@ export async function routeRoutes(app: FastifyInstance) {
     try {
       const result = await listRoutes(request.query);
       return reply.send({ success: true, ...result });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({
+          success: false,
+          error: { code: err.code, message: err.message },
+        });
+      }
+      throw err;
+    }
+  });
+
+  app.get('/routes/bounds', async (request, reply) => {
+    try {
+      const data = await getRoutesByBounds(request.query as Record<string, unknown>);
+      return reply.send({ success: true, data });
     } catch (err) {
       if (err instanceof AppError) {
         return reply.status(err.statusCode).send({

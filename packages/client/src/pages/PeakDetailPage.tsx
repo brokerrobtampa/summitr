@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import maplibregl from 'maplibre-gl';
 import { MapContainer } from '../components/map/MapContainer.js';
 import { RouteCard } from '../components/routes/RouteCard.js';
 import { LoadingSpinner } from '../components/ui/LoadingSpinner.js';
@@ -7,31 +8,148 @@ import { PermitInfo } from '../components/routes/PermitInfo.js';
 import { AirportInfo } from '../components/routes/AirportInfo.js';
 import { GuideServicesSection } from '../components/guides/GuideServicesSection.js';
 import { usePeakCategory } from '../hooks/useForums.js';
-import type { PeakDetail, RouteSummary } from '@summit/shared';
+import type { PeakDetail, RouteSummary, RouteGeo, GeoJSONLineString } from '@summit/shared';
 import * as peaksApi from '../api/peaks.api.js';
+
+const ROUTE_COLORS = ['#ff4444', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899'];
 
 export function PeakDetailPage() {
   const { id } = useParams<{ id: string }>();
   const [peak, setPeak] = useState<PeakDetail | null>(null);
   const [routes, setRoutes] = useState<RouteSummary[]>([]);
+  const [routeGeos, setRouteGeos] = useState<RouteGeo[]>([]);
   const [loading, setLoading] = useState(true);
   const { data: peakCategoryData } = usePeakCategory(peak?.id ?? 0);
   const peakCategory = peakCategoryData?.data;
+  const mapInstanceRef = useRef<maplibregl.Map | null>(null);
 
   useEffect(() => {
     if (!id) return;
+    const peakId = parseInt(id, 10);
     setLoading(true);
     Promise.all([
-      peaksApi.getPeak(parseInt(id, 10)),
-      peaksApi.getPeakRoutes(parseInt(id, 10)),
+      peaksApi.getPeak(peakId),
+      peaksApi.getPeakRoutes(peakId),
+      peaksApi.getPeakRouteGeometries(peakId),
     ])
-      .then(([peakRes, routesRes]) => {
+      .then(([peakRes, routesRes, geoRes]) => {
         setPeak(peakRes.data);
         setRoutes(routesRes.data);
+        setRouteGeos(geoRes.data);
       })
       .catch(() => {})
       .finally(() => setLoading(false));
   }, [id]);
+
+  const addOverlays = useCallback(
+    (map: maplibregl.Map) => {
+      if (!peak) return;
+
+      // Add summit marker
+      const summitEl = document.createElement('div');
+      summitEl.style.cssText =
+        'width:20px;height:20px;background:#ef4444;border:3px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.5);cursor:pointer;';
+
+      new maplibregl.Marker({ element: summitEl })
+        .setLngLat([peak.longitude, peak.latitude])
+        .setPopup(
+          new maplibregl.Popup({ offset: 12, closeButton: false }).setHTML(
+            `<div style="font-size:13px;"><strong>${peak.name}</strong><br/><span style="color:#2563eb;font-weight:600;">${peak.elevation.toLocaleString()}m</span></div>`,
+          ),
+        )
+        .addTo(map);
+
+      // Add route lines
+      const bounds = new maplibregl.LngLatBounds();
+      bounds.extend([peak.longitude, peak.latitude]);
+
+      routeGeos.forEach((routeGeo, index) => {
+        if (!routeGeo.geoJson) return;
+
+        const geoJson: GeoJSONLineString =
+          typeof routeGeo.geoJson === 'string'
+            ? JSON.parse(routeGeo.geoJson as unknown as string)
+            : routeGeo.geoJson;
+
+        const color = ROUTE_COLORS[index % ROUTE_COLORS.length];
+        const sourceId = `route-${routeGeo.id}`;
+
+        // Extend bounds to include this route
+        for (const coord of geoJson.coordinates) {
+          bounds.extend([coord[0], coord[1]]);
+        }
+
+        map.addSource(sourceId, {
+          type: 'geojson',
+          data: {
+            type: 'Feature',
+            properties: {},
+            geometry: geoJson,
+          },
+        });
+
+        // White glow for visibility on satellite
+        map.addLayer({
+          id: `${sourceId}-glow`,
+          type: 'line',
+          source: sourceId,
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: { 'line-color': '#ffffff', 'line-width': 6, 'line-opacity': 0.5 },
+        });
+
+        // Colored route line
+        map.addLayer({
+          id: `${sourceId}-line`,
+          type: 'line',
+          source: sourceId,
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: { 'line-color': color, 'line-width': 3.5 },
+        });
+
+        // Click handler for route popup
+        map.on('click', `${sourceId}-line`, (e) => {
+          if (!e.lngLat) return;
+          new maplibregl.Popup({ closeButton: false })
+            .setLngLat(e.lngLat)
+            .setHTML(
+              `<div style="font-size:13px;">
+                <strong>${routeGeo.name}</strong>
+                ${routeGeo.difficulty ? `<br/><span style="color:#666;">${routeGeo.difficulty}</span>` : ''}
+                <br/><a href="/routes/${routeGeo.id}" style="color:#2563eb;font-size:12px;">View route →</a>
+              </div>`,
+            )
+            .addTo(map);
+        });
+
+        // Cursor change on hover
+        map.on('mouseenter', `${sourceId}-line`, () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', `${sourceId}-line`, () => {
+          map.getCanvas().style.cursor = '';
+        });
+      });
+
+      // Fit bounds to include all routes + peak
+      if (routeGeos.some((r) => r.geoJson)) {
+        map.fitBounds(bounds, { padding: 50, maxZoom: 14 });
+      }
+    },
+    [peak, routeGeos],
+  );
+
+  const handleMapReady = useCallback(
+    (map: maplibregl.Map) => {
+      mapInstanceRef.current = map;
+      addOverlays(map);
+
+      // Re-add overlays when style changes (layer toggle)
+      map.on('style.load', () => {
+        addOverlays(map);
+      });
+    },
+    [addOverlays],
+  );
 
   if (loading) return <LoadingSpinner size="lg" />;
   if (!peak) return <div className="p-8 text-center text-gray-500">Peak not found.</div>;
@@ -165,6 +283,25 @@ export function PeakDetailPage() {
             )}
           </div>
 
+          {/* Route Legend (if routes with geo exist) */}
+          {routeGeos.length > 0 && (
+            <div className="flex flex-wrap gap-3 text-xs">
+              {routeGeos.map((rg, i) => (
+                <Link
+                  key={rg.id}
+                  to={`/routes/${rg.id}`}
+                  className="flex items-center gap-1.5 hover:underline"
+                >
+                  <span
+                    className="w-3 h-3 rounded-full inline-block border border-white shadow-sm"
+                    style={{ backgroundColor: ROUTE_COLORS[i % ROUTE_COLORS.length] }}
+                  />
+                  <span className="text-gray-600">{rg.name}</span>
+                </Link>
+              ))}
+            </div>
+          )}
+
           {/* Discussions */}
           {peakCategory && (
             <div>
@@ -200,6 +337,8 @@ export function PeakDetailPage() {
                 center={[peak.longitude, peak.latitude]}
                 zoom={12}
                 terrain={true}
+                defaultLayer="satellite"
+                onMapReady={handleMapReady}
               />
             </div>
             <div className="text-xs text-gray-400 text-center">

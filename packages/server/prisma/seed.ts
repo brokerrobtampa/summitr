@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { hashPassword } from '../src/lib/auth.js';
+import { generateAllRouteGeo } from './generate-route-geo.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -491,6 +492,9 @@ async function main() {
     }
   }
   console.log(`Peak subcategories: ${peakCatsCreated} created under continents`);
+
+  // ── 6. Generate route coordinates ───────────────────────
+  await generateAllRouteGeo();
 }
 
 main()

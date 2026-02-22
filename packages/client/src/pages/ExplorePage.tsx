@@ -3,17 +3,139 @@ import { Link } from 'react-router-dom';
 import maplibregl from 'maplibre-gl';
 import { MapContainer } from '../components/map/MapContainer.js';
 import * as peaksApi from '../api/peaks.api.js';
-import type { PeakSummary } from '@summit/shared';
+import * as routesApi from '../api/routes.api.js';
+import type { PeakSummary, RouteGeo, GeoJSONLineString } from '@summit/shared';
+
+const ROUTE_ZOOM_THRESHOLD = 10;
 
 export function ExplorePage() {
   const mapRef = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<maplibregl.Marker[]>([]);
+  const routeSourceAdded = useRef(false);
   const [peaks, setPeaks] = useState<PeakSummary[]>([]);
   const [filters, setFilters] = useState({ minElevation: '', country: '' });
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
+  const updateRouteLines = useCallback(
+    async (bounds: { north: number; south: number; east: number; west: number }, zoom: number) => {
+      const map = mapRef.current;
+      if (!map) return;
+
+      // Only show routes when zoomed in enough
+      if (zoom < ROUTE_ZOOM_THRESHOLD) {
+        // Clear route lines if zoomed out
+        if (routeSourceAdded.current) {
+          try {
+            const src = map.getSource('explore-routes') as maplibregl.GeoJSONSource | undefined;
+            if (src) {
+              src.setData({ type: 'FeatureCollection', features: [] });
+            }
+          } catch {
+            // source may not exist after style change
+          }
+        }
+        return;
+      }
+
+      try {
+        const res = await routesApi.getRoutesByBounds(bounds);
+        const routeGeos: RouteGeo[] = res.data;
+
+        const features = routeGeos
+          .filter((rg) => rg.geoJson)
+          .map((rg) => {
+            const geoJson: GeoJSONLineString =
+              typeof rg.geoJson === 'string'
+                ? JSON.parse(rg.geoJson as unknown as string)
+                : rg.geoJson!;
+
+            return {
+              type: 'Feature' as const,
+              properties: {
+                id: rg.id,
+                name: rg.name,
+                difficulty: rg.difficulty || '',
+              },
+              geometry: geoJson,
+            };
+          });
+
+        const featureCollection = {
+          type: 'FeatureCollection' as const,
+          features,
+        };
+
+        // Add source + layers if not yet added
+        if (!routeSourceAdded.current || !map.getSource('explore-routes')) {
+          // Clean up any stale layers/source
+          try { map.removeLayer('explore-routes-glow'); } catch { /* noop */ }
+          try { map.removeLayer('explore-routes-line'); } catch { /* noop */ }
+          try { map.removeSource('explore-routes'); } catch { /* noop */ }
+
+          map.addSource('explore-routes', {
+            type: 'geojson',
+            data: featureCollection,
+          });
+
+          // White glow for visibility on satellite/dark backgrounds
+          map.addLayer({
+            id: 'explore-routes-glow',
+            type: 'line',
+            source: 'explore-routes',
+            layout: { 'line-join': 'round', 'line-cap': 'round' },
+            paint: { 'line-color': '#ffffff', 'line-width': 5, 'line-opacity': 0.4 },
+          });
+
+          // Route line
+          map.addLayer({
+            id: 'explore-routes-line',
+            type: 'line',
+            source: 'explore-routes',
+            layout: { 'line-join': 'round', 'line-cap': 'round' },
+            paint: { 'line-color': '#ff4444', 'line-width': 2.5 },
+          });
+
+          // Click handler for route popups
+          map.on('click', 'explore-routes-line', (e) => {
+            if (!e.features || !e.features[0] || !e.lngLat) return;
+            const props = e.features[0].properties;
+            new maplibregl.Popup({ closeButton: false })
+              .setLngLat(e.lngLat)
+              .setHTML(
+                `<div style="font-size:13px;">
+                  <strong>${props?.name || 'Route'}</strong>
+                  ${props?.difficulty ? `<br/><span style="color:#666;">${props.difficulty}</span>` : ''}
+                  <br/><a href="/routes/${props?.id}" style="color:#2563eb;font-size:12px;">View route →</a>
+                </div>`,
+              )
+              .addTo(map);
+          });
+
+          // Cursor change on hover
+          map.on('mouseenter', 'explore-routes-line', () => {
+            map.getCanvas().style.cursor = 'pointer';
+          });
+          map.on('mouseleave', 'explore-routes-line', () => {
+            map.getCanvas().style.cursor = '';
+          });
+
+          routeSourceAdded.current = true;
+        } else {
+          // Update existing source data
+          const src = map.getSource('explore-routes') as maplibregl.GeoJSONSource;
+          if (src) {
+            src.setData(featureCollection);
+          }
+        }
+      } catch {
+        // silent fail
+      }
+    },
+    [],
+  );
+
   const loadPeaks = useCallback(
-    async (bounds: { north: number; south: number; east: number; west: number }) => {
+    async (bounds: { north: number; south: number; east: number; west: number }, zoom?: number) => {
       try {
         const res = await peaksApi.getPeaksByBounds(bounds);
         setPeaks(res.data);
@@ -21,8 +143,10 @@ export function ExplorePage() {
       } catch {
         // silent fail
       }
+      // Also update route lines based on zoom level
+      updateRouteLines(bounds, zoom ?? 0);
     },
-    [],
+    [updateRouteLines],
   );
 
   const updateMarkers = (peakList: PeakSummary[]) => {
@@ -135,8 +259,13 @@ export function ExplorePage() {
           center={[10, 45]}
           zoom={4}
           terrain={true}
+          defaultLayer="street"
           onMapReady={(map) => {
             mapRef.current = map;
+            // Re-add route layers when style changes (layer toggle)
+            map.on('style.load', () => {
+              routeSourceAdded.current = false;
+            });
           }}
           onMoveEnd={loadPeaks}
         />

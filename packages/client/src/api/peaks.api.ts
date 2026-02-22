@@ -1,5 +1,5 @@
 import { api } from './client.js';
-import type { ApiResponse, PaginatedResponse, PeakSummary, PeakDetail, RouteSummary } from '@summit/shared';
+import type { ApiResponse, PaginatedResponse, PeakSummary, PeakDetail, RouteSummary, RouteGeo } from '@summit/shared';
 
 export function getPeaks(params: Record<string, string | number> = {}) {
   const query = new URLSearchParams();
@@ -19,4 +19,8 @@ export function getPeaksByBounds(bounds: { north: number; south: number; east: n
   const query = new URLSearchParams();
   Object.entries(bounds).forEach(([k, v]) => query.set(k, String(v)));
   return api.get<ApiResponse<PeakSummary[]>>(`/peaks/bounds?${query.toString()}`);
+}
+
+export function getPeakRouteGeometries(peakId: number) {
+  return api.get<ApiResponse<RouteGeo[]>>(`/peaks/${peakId}/routes/geo`);
 }

@@ -5,6 +5,7 @@ import {
   getPeakRoutes,
   getPeaksByBounds,
   getNearbyPeaks,
+  getPeakRouteGeometries,
 } from '../services/peak.service.js';
 import { AppError } from '../lib/errors.js';
 
@@ -58,6 +59,22 @@ export async function peakRoutes(app: FastifyInstance) {
     try {
       const { id } = request.params as { id: string };
       const data = await getPeakById(parseInt(id, 10));
+      return reply.send({ success: true, data });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({
+          success: false,
+          error: { code: err.code, message: err.message },
+        });
+      }
+      throw err;
+    }
+  });
+
+  app.get('/peaks/:id/routes/geo', async (request, reply) => {
+    try {
+      const { id } = request.params as { id: string };
+      const data = await getPeakRouteGeometries(parseInt(id, 10));
       return reply.send({ success: true, data });
     } catch (err) {
       if (err instanceof AppError) {

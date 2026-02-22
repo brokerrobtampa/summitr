@@ -205,7 +205,7 @@ export function CreateRoutePage() {
         <div className="space-y-4">
           <p className="text-sm text-gray-600">Click on the map to draw your route. Points are added in order.</p>
           <div className="h-[400px] rounded-lg overflow-hidden border">
-            <MapContainer terrain={true} onMapReady={handleMapReady} />
+            <MapContainer terrain={true} onMapReady={handleMapReady} defaultLayer="satellite" />
           </div>
           <div className="flex items-center justify-between">
             <span className="text-sm text-gray-500">{routePoints.length} points placed</span>

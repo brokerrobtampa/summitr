@@ -172,6 +172,23 @@ export async function getPeaksByBounds(query: unknown) {
   }));
 }
 
+export async function getPeakRouteGeometries(peakId: number) {
+  const peak = await prisma.peak.findUnique({ where: { id: peakId } });
+  if (!peak) throw new NotFoundError('Peak');
+
+  const routes = await prisma.route.findMany({
+    where: { peakId, isPublic: true, geoJson: { not: null } },
+    select: { id: true, name: true, difficulty: true, geoJson: true },
+  });
+
+  return routes.map((r) => ({
+    id: r.id,
+    name: r.name,
+    difficulty: r.difficulty,
+    geoJson: r.geoJson ? JSON.parse(r.geoJson) : null,
+  }));
+}
+
 export async function getNearbyPeaks(query: unknown) {
   const parsed = peakNearbySchema.safeParse(query);
   if (!parsed.success) throw new ValidationError(parsed.error.issues[0].message);

@@ -76,6 +76,13 @@ export interface GeoJSONLineString {
   coordinates: ([number, number] | [number, number, number])[];
 }
 
+export interface RouteGeo {
+  id: number;
+  name: string;
+  difficulty: string | null;
+  geoJson: GeoJSONLineString | null;
+}
+
 export interface CreateWaypointInput {
   orderIndex: number;
   latitude: number;

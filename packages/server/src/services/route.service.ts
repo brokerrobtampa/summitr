@@ -182,3 +182,35 @@ export async function saveRoute(routeId: number, userId: number) {
 export async function unsaveRoute(routeId: number, userId: number) {
   await prisma.savedRoute.deleteMany({ where: { userId, routeId } });
 }
+
+export async function getRoutesByBounds(query: Record<string, unknown>) {
+  const north = Number(query.north);
+  const south = Number(query.south);
+  const east = Number(query.east);
+  const west = Number(query.west);
+  const limit = Math.min(Number(query.limit) || 50, 100);
+
+  if ([north, south, east, west].some(isNaN)) {
+    throw new ValidationError('north, south, east, west are required numeric parameters');
+  }
+
+  const routes = await prisma.route.findMany({
+    where: {
+      isPublic: true,
+      geoJson: { not: null },
+      peak: {
+        latitude: { gte: south, lte: north },
+        longitude: { gte: west, lte: east },
+      },
+    },
+    select: { id: true, name: true, difficulty: true, geoJson: true },
+    take: limit,
+  });
+
+  return routes.map((r) => ({
+    id: r.id,
+    name: r.name,
+    difficulty: r.difficulty,
+    geoJson: r.geoJson ? JSON.parse(r.geoJson) : null,
+  }));
+}

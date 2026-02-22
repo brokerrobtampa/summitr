@@ -234,6 +234,7 @@ export function RouteMapPanel({ route, className = '' }: RouteMapPanelProps) {
           zoom={10}
           className="w-full h-full"
           onMapReady={handleMapReady}
+          defaultLayer="satellite"
         />
 
         {/* Controls overlay */}
