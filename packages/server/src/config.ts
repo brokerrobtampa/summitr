@@ -10,7 +10,7 @@ export const config = {
   jwtSecret: process.env.JWT_SECRET || 'dev-secret-change-me',
   databaseUrl: process.env.DATABASE_URL || 'file:./dev.db',
   nodeEnv: process.env.NODE_ENV || 'development',
-  projectRoot: path.resolve(__dirname, '..'),
+  projectRoot: path.resolve(__dirname, '../..'),
   resendApiKey: process.env.RESEND_API_KEY || '',
   appUrl: process.env.APP_URL || 'http://localhost:5173',
 
