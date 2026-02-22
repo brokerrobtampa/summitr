@@ -27,6 +27,7 @@ export function Footer() {
               <li><Link to="/routes" className="hover:text-white transition-colors">All Routes</Link></li>
               <li><Link to="/explore" className="hover:text-white transition-colors">Interactive Map</Link></li>
               <li><Link to="/guided" className="hover:text-white transition-colors">Guided Peaks</Link></li>
+              <li><Link to="/trip-planner" className="hover:text-white transition-colors">Trip Planner</Link></li>
             </ul>
           </div>
 

@@ -33,6 +33,9 @@ export function Header() {
           <Link to="/forums" className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">
             Forums
           </Link>
+          <Link to="/trip-planner" className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">
+            Trip Planner
+          </Link>
           <Link to="/feed" className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 px-3 py-1.5 rounded-md text-sm font-medium transition-colors">
             Feed
           </Link>
@@ -119,6 +122,9 @@ export function Header() {
             </Link>
             <Link to="/feed" onClick={() => setMobileOpen(false)} className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">
               Feed
+            </Link>
+            <Link to="/trip-planner" onClick={() => setMobileOpen(false)} className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">
+              Trip Planner
             </Link>
             <Link to="/guided" onClick={() => setMobileOpen(false)} className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium">
               Guided Peaks

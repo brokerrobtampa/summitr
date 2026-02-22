@@ -23,6 +23,7 @@ import { ResetPasswordPage } from './pages/ResetPasswordPage.js';
 import { ForumsPage } from './pages/ForumsPage.js';
 import { ForumCategoryPage } from './pages/ForumCategoryPage.js';
 import { ForumThreadPage } from './pages/ForumThreadPage.js';
+import { TripPlannerPage } from './pages/TripPlannerPage.js';
 
 export default function App() {
   return (
@@ -43,6 +44,7 @@ export default function App() {
               } />
               <Route path="/routes/:id" element={<RouteDetailPage />} />
               <Route path="/guided" element={<GuidedPeaksPage />} />
+              <Route path="/trip-planner" element={<TripPlannerPage />} />
               <Route path="/search" element={<SearchResultsPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />

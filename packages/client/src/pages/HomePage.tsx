@@ -226,6 +226,53 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Trip Planner CTA */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-12">
+          <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 bg-cyan-100 text-cyan-700 text-xs font-bold px-3 py-1 rounded-full mb-3">
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+                NEW FEATURE
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Plan Your Expedition</h2>
+              <p className="text-gray-500 max-w-lg">
+                Use our Trip Planner to find the perfect peak and route. Filter by elevation, difficulty,
+                activity type, season, permit requirements, and more.
+              </p>
+              <Link
+                to="/trip-planner"
+                className="inline-flex items-center gap-2 bg-peak-blue text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors mt-4"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+                Open Trip Planner
+              </Link>
+            </div>
+            <div className="hidden md:flex flex-col gap-2 text-sm text-gray-600">
+              <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+                <span className="text-base">{'\u26F0\uFE0F'}</span> Filter by peak elevation
+              </div>
+              <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+                <span className="text-base">{'\u2744\uFE0F'}</span> Ice climbing routes
+              </div>
+              <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+                <span className="text-base">{'\u{1F4CB}'}</span> Permit requirements
+              </div>
+              <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+                <span className="text-base">{'\u{1F4C5}'}</span> Best season planning
+              </div>
+              <div className="flex items-center gap-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+                <span className="text-base">{'\u{1F9D1}\u200D\u{1F3EB}'}</span> Guide availability
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Peaks */}
       <section className="max-w-7xl mx-auto px-4 py-12 w-full">
         <div className="flex items-center justify-between mb-6">
