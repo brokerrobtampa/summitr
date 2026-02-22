@@ -14,7 +14,7 @@ model User {
   id              Int      @id @default(autoincrement())
   email           String   @unique
   username        String   @unique
-  passwordHash    String
+  passwordHash    String?
   displayName     String?
   bio             String?
   avatarUrl       String?
@@ -34,6 +34,11 @@ model User {
   following   UserFollow[] @relation("following")
   followers   UserFollow[] @relation("followers")
   comments    Comment[]
+
+  // OAuth provider IDs
+  googleId    String?  @unique
+  facebookId  String?  @unique
+  appleId     String?  @unique
 
   // Password reset
   passwordResetToken          String?   @unique

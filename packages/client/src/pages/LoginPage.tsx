@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.js';
+import { SocialLoginButtons } from '../components/auth/SocialLoginButtons.js';
 
 export function LoginPage() {
   const { login } = useAuth();
@@ -28,10 +29,14 @@ export function LoginPage() {
     <div className="min-h-[calc(100vh-57px)] flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <h1 className="text-2xl font-bold text-center mb-6">Sign In</h1>
+
+        {error && (
+          <div className="bg-red-50 text-red-700 text-sm px-3 py-2 rounded mb-4">{error}</div>
+        )}
+
+        <SocialLoginButtons onError={(msg) => setError(msg)} />
+
         <form onSubmit={handleSubmit} className="space-y-4">
-          {error && (
-            <div className="bg-red-50 text-red-700 text-sm px-3 py-2 rounded">{error}</div>
-          )}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
             <input

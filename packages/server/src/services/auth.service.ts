@@ -55,6 +55,11 @@ export async function loginUser(body: unknown) {
   const user = await prisma.user.findUnique({ where: { email } });
   if (!user) throw new UnauthorizedError('Invalid email or password');
 
+  // OAuth-only users don't have a password
+  if (!user.passwordHash) {
+    throw new UnauthorizedError('This account uses social login. Please sign in with Google, Facebook, or Apple.');
+  }
+
   const valid = await verifyPassword(password, user.passwordHash);
   if (!valid) throw new UnauthorizedError('Invalid email or password');
 

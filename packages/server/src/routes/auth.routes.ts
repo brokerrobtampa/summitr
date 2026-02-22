@@ -1,6 +1,7 @@
 import type { FastifyInstance } from 'fastify';
 import { registerUser, loginUser, getUserById } from '../services/auth.service.js';
 import { requestPasswordReset, resetPassword } from '../services/password-reset.service.js';
+import { handleOAuthLogin } from '../services/oauth.service.js';
 import { authenticate } from '../hooks/authenticate.js';
 import { AppError } from '../lib/errors.js';
 
@@ -47,6 +48,30 @@ export async function authRoutes(app: FastifyInstance) {
       });
     }
     return reply.send({ success: true, data: user });
+  });
+
+  // POST /auth/oauth — Social login (Google, Facebook, Apple)
+  app.post('/auth/oauth', async (request, reply) => {
+    try {
+      const { provider, token } = request.body as { provider: string; token: string };
+      if (!provider || !token) {
+        return reply.status(400).send({
+          success: false,
+          error: { code: 'VALIDATION_ERROR', message: 'Provider and token are required' },
+        });
+      }
+      const user = await handleOAuthLogin(provider, token);
+      const jwt = app.jwt.sign({ id: user.id, username: user.username });
+      return reply.send({ success: true, data: { token: jwt, user } });
+    } catch (err) {
+      if (err instanceof AppError) {
+        return reply.status(err.statusCode).send({
+          success: false,
+          error: { code: err.code, message: err.message },
+        });
+      }
+      throw err;
+    }
   });
 
   // POST /auth/forgot-password

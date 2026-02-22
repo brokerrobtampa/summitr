@@ -9,6 +9,10 @@ export function register(data: { email: string; username: string; password: stri
   return api.post<ApiResponse<AuthResponse>>('/auth/register', data);
 }
 
+export function oauthLogin(provider: string, token: string) {
+  return api.post<ApiResponse<AuthResponse>>('/auth/oauth', { provider, token });
+}
+
 export function getMe() {
   return api.get<ApiResponse<User>>('/auth/me');
 }

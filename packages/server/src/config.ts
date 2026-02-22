@@ -13,4 +13,10 @@ export const config = {
   projectRoot: path.resolve(__dirname, '..'),
   resendApiKey: process.env.RESEND_API_KEY || '',
   appUrl: process.env.APP_URL || 'http://localhost:5173',
+
+  // OAuth
+  googleClientId: process.env.GOOGLE_CLIENT_ID || '',
+  facebookAppId: process.env.FACEBOOK_APP_ID || '',
+  facebookAppSecret: process.env.FACEBOOK_APP_SECRET || '',
+  appleClientId: process.env.APPLE_CLIENT_ID || '',
 };
