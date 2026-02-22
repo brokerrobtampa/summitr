@@ -73,27 +73,61 @@ interface OpenBetaClimb {
   };
 }
 
+// Max retries for transient API errors (502, 503, etc.)
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 3000;
+
+// Global timeout: 4 minutes to leave headroom in Railway's 5-min healthcheck
+const GLOBAL_TIMEOUT_MS = 4 * 60 * 1000;
+let syncStartTime = 0;
+
+function isTimedOut(): boolean {
+  return Date.now() - syncStartTime > GLOBAL_TIMEOUT_MS;
+}
+
 async function graphqlRequest<T>(query: string): Promise<T> {
-  const response = await fetch(OPENBETA_API, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'User-Agent': USER_AGENT,
-      Accept: 'application/json',
-    },
-    body: JSON.stringify({ query }),
-  });
+  let lastError: Error | null = null;
 
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`OpenBeta API error ${response.status}: ${text.slice(0, 200)}`);
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await fetch(OPENBETA_API, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'User-Agent': USER_AGENT,
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({ query }),
+      });
+
+      if (response.status >= 500 && attempt < MAX_RETRIES) {
+        console.warn(`    [WARN] API returned ${response.status}, retrying (${attempt}/${MAX_RETRIES})...`);
+        await sleep(RETRY_DELAY * attempt);
+        continue;
+      }
+
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error(`OpenBeta API error ${response.status}: ${text.slice(0, 200)}`);
+      }
+
+      const json = (await response.json()) as { data: T; errors?: Array<{ message: string }> };
+      if (json.errors?.length) {
+        throw new Error(`GraphQL errors: ${json.errors.map((e) => e.message).join(', ')}`);
+      }
+      return json.data;
+    } catch (err: any) {
+      lastError = err;
+      if (attempt < MAX_RETRIES && (err.message?.includes('502') || err.message?.includes('503') || err.message?.includes('ECONNRESET') || err.message?.includes('fetch failed'))) {
+        console.warn(`    [WARN] Request failed: ${err.message}, retrying (${attempt}/${MAX_RETRIES})...`);
+        await sleep(RETRY_DELAY * attempt);
+        continue;
+      }
+      throw err;
+    }
   }
 
-  const json = (await response.json()) as { data: T; errors?: Array<{ message: string }> };
-  if (json.errors?.length) {
-    throw new Error(`GraphQL errors: ${json.errors.map((e) => e.message).join(', ')}`);
-  }
-  return json.data;
+  throw lastError || new Error('GraphQL request failed after retries');
 }
 
 function sleep(ms: number): Promise<void> {
@@ -284,23 +318,43 @@ export async function syncOpenBetaRoutes(): Promise<void> {
 
   let totalImported = 0;
   let peaksWithRoutes = 0;
+  let consecutiveErrors = 0;
+
+  syncStartTime = Date.now();
 
   for (let i = 0; i < peaks.length; i++) {
+    // Check global timeout
+    if (isTimedOut()) {
+      console.log(`\n[TIMEOUT] Reached ${GLOBAL_TIMEOUT_MS / 1000}s limit after ${i} peaks. Stopping gracefully.`);
+      break;
+    }
+
     const peak = peaks[i];
     const progress = `[${i + 1}/${peaks.length}]`;
 
     process.stdout.write(`${progress} ${peak.name} (${peak.elevation}m)... `);
 
-    const imported = await syncPeak(peak, existingIds);
+    try {
+      const imported = await syncPeak(peak, existingIds);
 
-    if (imported > 0) {
-      console.log(`+${imported} routes`);
-      peaksWithRoutes++;
-    } else {
-      console.log('no new routes');
+      if (imported > 0) {
+        console.log(`+${imported} routes`);
+        peaksWithRoutes++;
+      } else {
+        console.log('no new routes');
+      }
+
+      totalImported += imported;
+      consecutiveErrors = 0;
+    } catch (err: any) {
+      console.error(`FAILED: ${err.message}`);
+      consecutiveErrors++;
+      // If we get 5 consecutive peak-level failures, API is probably down
+      if (consecutiveErrors >= 5) {
+        console.log(`\n[ABORT] ${consecutiveErrors} consecutive failures. OpenBeta API may be down. Stopping.`);
+        break;
+      }
     }
-
-    totalImported += imported;
 
     // Slightly longer delay between peaks
     await sleep(300);
@@ -312,14 +366,15 @@ export async function syncOpenBetaRoutes(): Promise<void> {
   console.log(`Total OpenBeta routes in DB: ${existingIds.size}`);
 }
 
-// Run directly
+// Run directly — always exit 0 so deploy continues even if sync has issues
 syncOpenBetaRoutes()
   .then(() => {
     console.log('\nDone!');
-    process.exit(0);
   })
   .catch((err) => {
-    console.error('Sync failed:', err);
-    process.exit(1);
+    console.error('Sync encountered an error (non-fatal):', err.message || err);
   })
-  .finally(() => prisma.$disconnect());
+  .finally(async () => {
+    await prisma.$disconnect();
+    process.exit(0);
+  });
