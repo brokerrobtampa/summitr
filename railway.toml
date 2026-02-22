@@ -2,7 +2,7 @@
 buildCommand = "DATABASE_URL=postgresql://placeholder pnpm install && pnpm run build:prod"
 
 [deploy]
-startCommand = "cd packages/server && npx prisma db push --skip-generate --accept-data-loss && node dist/prisma/generate-route-geo.js && node dist/prisma/sync-openbeta.js && node dist/index.js"
+startCommand = "cd packages/server && npx prisma db push --skip-generate --accept-data-loss && node dist/prisma/generate-route-geo.js && node dist/prisma/sync-openbeta.js && node dist/src/index.js"
 healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
