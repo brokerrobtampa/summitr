@@ -19,7 +19,9 @@ interface MapContainerProps {
 }
 
 function buildStyle(layer: LayerMode, terrain: boolean): maplibregl.StyleSpecification {
-  // Terrain source — Mapbox DEM if token available, else AWS Terrarium
+  // Terrain source — only use with Mapbox token (free AWS Terrarium tiles have CORS issues in browsers)
+  const hasTerrain = terrain && !!MAPBOX_TOKEN;
+
   const terrainSource: Record<string, any> = MAPBOX_TOKEN
     ? {
         terrainSource: {
@@ -31,18 +33,9 @@ function buildStyle(layer: LayerMode, terrain: boolean): maplibregl.StyleSpecifi
           maxzoom: 14,
         },
       }
-    : {
-        terrainSource: {
-          type: 'raster-dem',
-          tiles: [
-            'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png',
-          ],
-          tileSize: 256,
-          encoding: 'terrarium',
-        },
-      };
+    : {};
 
-  const terrainConfig = terrain
+  const terrainConfig = hasTerrain
     ? { source: 'terrainSource', exaggeration: 1.5 }
     : undefined;
 

@@ -72,7 +72,7 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
   // ─── Google ────────────────────────────────────────
   const handleGoogle = useCallback(async () => {
     if (!GOOGLE_CLIENT_ID) {
-      handleError('Google login is not configured');
+      handleError('Google login is not yet configured. Please use email login for now.');
       return;
     }
 
@@ -105,7 +105,7 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
   // ─── Facebook ──────────────────────────────────────
   const handleFacebook = useCallback(async () => {
     if (!FACEBOOK_APP_ID) {
-      handleError('Facebook login is not configured');
+      handleError('Facebook login is not yet configured. Please use email login for now.');
       return;
     }
 
@@ -163,7 +163,7 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
   // ─── Apple ─────────────────────────────────────────
   const handleApple = useCallback(async () => {
     if (!APPLE_CLIENT_ID) {
-      handleError('Apple login is not configured');
+      handleError('Apple login is not yet configured. Please use email login for now.');
       return;
     }
 
@@ -199,13 +199,8 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
       {/* Google */}
       <button
         onClick={handleGoogle}
-        disabled={loadingProvider !== null || !GOOGLE_CLIENT_ID}
-        className={`w-full flex items-center justify-center gap-3 bg-white border border-gray-300 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-700 transition-colors ${
-          GOOGLE_CLIENT_ID
-            ? 'hover:bg-gray-50 hover:border-gray-400 disabled:opacity-50 disabled:cursor-not-allowed'
-            : 'opacity-50 cursor-not-allowed'
-        }`}
-        title={!GOOGLE_CLIENT_ID ? 'Google login coming soon' : undefined}
+        disabled={loadingProvider !== null}
+        className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 rounded-lg px-4 py-2.5 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:border-gray-400 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {loadingProvider === 'google' ? (
           <Spinner />
@@ -223,13 +218,8 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
       {/* Facebook */}
       <button
         onClick={handleFacebook}
-        disabled={loadingProvider !== null || !FACEBOOK_APP_ID}
-        className={`w-full flex items-center justify-center gap-3 bg-[#1877F2] rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors ${
-          FACEBOOK_APP_ID
-            ? 'hover:bg-[#166FE5] disabled:opacity-50 disabled:cursor-not-allowed'
-            : 'opacity-50 cursor-not-allowed'
-        }`}
-        title={!FACEBOOK_APP_ID ? 'Facebook login coming soon' : undefined}
+        disabled={loadingProvider !== null}
+        className="w-full flex items-center justify-center gap-3 bg-[#1877F2] rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#166FE5] disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {loadingProvider === 'facebook' ? (
           <Spinner light />
@@ -244,13 +234,8 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
       {/* Apple */}
       <button
         onClick={handleApple}
-        disabled={loadingProvider !== null || !APPLE_CLIENT_ID}
-        className={`w-full flex items-center justify-center gap-3 bg-black rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors ${
-          APPLE_CLIENT_ID
-            ? 'hover:bg-gray-900 disabled:opacity-50 disabled:cursor-not-allowed'
-            : 'opacity-50 cursor-not-allowed'
-        }`}
-        title={!APPLE_CLIENT_ID ? 'Apple login coming soon' : undefined}
+        disabled={loadingProvider !== null}
+        className="w-full flex items-center justify-center gap-3 bg-black rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-900 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {loadingProvider === 'apple' ? (
           <Spinner light />
