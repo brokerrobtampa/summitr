@@ -32,12 +32,18 @@ export function HomePage() {
 
   return (
     <div className="flex flex-col">
-      {/* Hero with map background */}
+      {/* Hero with dark map background */}
       <section className="relative h-[420px] bg-gray-900">
         <div className="absolute inset-0 opacity-60">
-          <MapContainer center={[86.925, 28]} zoom={5} terrain={true} />
+          <MapContainer
+            center={[86.925, 28]}
+            zoom={5}
+            terrain={true}
+            defaultLayer="dark"
+            showLayerToggle={false}
+          />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center drop-shadow-lg">
             Plan Your Next Summit
@@ -53,35 +59,55 @@ export function HomePage() {
               Explore the Map
             </Link>
             <Link
-              to="/feed"
+              to="/peaks"
               className="bg-white/10 text-white border border-white/30 px-6 py-3 rounded-lg text-lg font-medium hover:bg-white/20 transition-colors backdrop-blur-sm"
             >
-              Activity Feed
+              Browse Peaks
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Stats Bar */}
+      {/* Stats Bar — all clickable */}
       <section className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-center gap-8 md:gap-16">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-peak-blue">{stats?.peaks ?? '—'}</div>
-              <div className="text-xs text-gray-500 uppercase tracking-wide">Peaks</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-peak-blue">{stats?.routes ?? '—'}</div>
-              <div className="text-xs text-gray-500 uppercase tracking-wide">Routes</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-green-600">{stats?.guidedPeaks ?? '—'}</div>
-              <div className="text-xs text-gray-500 uppercase tracking-wide">Guided Peaks</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-purple-600">{stats?.continents ?? '—'}</div>
-              <div className="text-xs text-gray-500 uppercase tracking-wide">Continents</div>
-            </div>
+        <div className="max-w-7xl mx-auto px-4 py-5">
+          <div className="flex items-center justify-center gap-6 md:gap-14">
+            <Link to="/peaks" className="text-center group cursor-pointer hover:scale-105 transition-transform">
+              <div className="flex items-center justify-center gap-1.5">
+                <svg className="w-5 h-5 text-peak-blue opacity-60" fill="currentColor" viewBox="0 0 24 24">
+                  <polygon points="12,2 22,20 2,20" />
+                </svg>
+                <span className="text-2xl font-bold text-peak-blue group-hover:text-blue-700">{stats?.peaks ?? '...'}</span>
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wide group-hover:text-gray-700">Peaks</div>
+            </Link>
+            <Link to="/routes" className="text-center group cursor-pointer hover:scale-105 transition-transform">
+              <div className="flex items-center justify-center gap-1.5">
+                <svg className="w-5 h-5 text-peak-blue opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+                <span className="text-2xl font-bold text-peak-blue group-hover:text-blue-700">{stats?.routes ?? '...'}</span>
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wide group-hover:text-gray-700">Routes</div>
+            </Link>
+            <Link to="/guided" className="text-center group cursor-pointer hover:scale-105 transition-transform">
+              <div className="flex items-center justify-center gap-1.5">
+                <svg className="w-5 h-5 text-green-600 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span className="text-2xl font-bold text-green-600 group-hover:text-green-700">{stats?.guidedPeaks ?? '...'}</span>
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wide group-hover:text-gray-700">Guided Peaks</div>
+            </Link>
+            <Link to="/forums" className="text-center group cursor-pointer hover:scale-105 transition-transform">
+              <div className="flex items-center justify-center gap-1.5">
+                <svg className="w-5 h-5 text-purple-600 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-2xl font-bold text-purple-600 group-hover:text-purple-700">{stats?.continents ?? '...'}</span>
+              </div>
+              <div className="text-xs text-gray-500 uppercase tracking-wide group-hover:text-gray-700">Continents</div>
+            </Link>
           </div>
         </div>
       </section>
@@ -121,7 +147,7 @@ export function HomePage() {
                         <span className={`text-xs font-bold uppercase px-1.5 py-0.5 rounded ${
                           item.climbLog.success ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'
                         }`}>
-                          {item.climbLog.success ? '⛰️ Summited' : '🏔️ Attempted'}
+                          {item.climbLog.success ? 'Summited' : 'Attempted'}
                         </span>
                       </div>
                       <Link to={`/peaks/${item.climbLog.peakId}`} className="font-semibold text-gray-900 hover:text-peak-blue text-sm">
@@ -186,12 +212,12 @@ export function HomePage() {
             <div className="text-white">
               <h2 className="text-2xl font-bold mb-2">Need a Guide?</h2>
               <p className="text-blue-100 max-w-lg">
-                We've partnered with top guide services for 18 of the world's most iconic peaks.
+                Professional guide services are available for the world's most iconic peaks.
                 From Everest to Denali, find experienced guides to help you reach the summit safely.
               </p>
             </div>
             <Link
-              to="/search?q=guided"
+              to="/guided"
               className="bg-white text-indigo-700 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors whitespace-nowrap"
             >
               Find Guide Services
@@ -207,7 +233,7 @@ export function HomePage() {
             <h2 className="text-2xl font-bold text-gray-900">World's Highest Peaks</h2>
             <p className="text-gray-500 text-sm mt-1">Explore routes, conditions, and guide services</p>
           </div>
-          <Link to="/explore" className="text-peak-blue hover:underline text-sm font-medium">
+          <Link to="/peaks" className="text-peak-blue hover:underline text-sm font-medium">
             View all →
           </Link>
         </div>

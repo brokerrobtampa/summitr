@@ -133,14 +133,14 @@ export function SearchResultsPage() {
           <h2 className="text-lg font-semibold mb-3">Reviews ({results.reviews.length})</h2>
           <div className="space-y-3">
             {results.reviews.map((r) => (
-              <div key={r.id} className="border rounded-lg p-4">
+              <Link key={r.id} to={`/routes/${r.routeId}`} className="block border rounded-lg p-4 hover:shadow-md transition-shadow hover:border-peak-blue/30">
                 <div className="flex items-center justify-between mb-1">
-                  <span className="font-medium">{r.routeName}</span>
+                  <span className="font-medium text-gray-900">{r.routeName}</span>
                   <span className="text-xs text-gray-400">{r.peakName}</span>
                 </div>
                 <p className="text-sm text-gray-600">{r.snippet}...</p>
                 <div className="text-xs text-gray-400 mt-1">by {r.authorUsername}</div>
-              </div>
+              </Link>
             ))}
           </div>
         </section>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { LoadingSpinner } from '../components/ui/LoadingSpinner.js';
 import { StarRating } from '../components/ui/StarRating.js';
 import { RouteHero } from '../components/routes/RouteHero.js';
@@ -76,6 +76,15 @@ export function RouteDetailPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
+      {/* Breadcrumb */}
+      <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+        <Link to="/" className="hover:text-peak-blue">Home</Link>
+        <span>/</span>
+        <Link to="/routes" className="hover:text-peak-blue">Routes</Link>
+        <span>/</span>
+        <span className="text-gray-900 font-medium truncate max-w-[200px]">{route.name}</span>
+      </nav>
+
       {/* Hero */}
       <RouteHero route={route} />
 
@@ -246,7 +255,7 @@ export function RouteDetailPage() {
             <RouteMapPanel route={route} />
 
             {/* Author Info */}
-            <div className="border rounded-lg p-4">
+            <Link to={`/users/${route.author.username}`} className="block border rounded-lg p-4 hover:shadow-md transition-shadow">
               <div className="flex items-center gap-3">
                 {route.author.avatarUrl ? (
                   <img
@@ -260,7 +269,7 @@ export function RouteDetailPage() {
                   </div>
                 )}
                 <div>
-                  <div className="font-medium text-gray-900">{route.author.displayName || route.author.username}</div>
+                  <div className="font-medium text-gray-900 hover:text-peak-blue transition-colors">{route.author.displayName || route.author.username}</div>
                   <div className="text-xs text-gray-500">@{route.author.username}</div>
                 </div>
               </div>
@@ -269,7 +278,7 @@ export function RouteDetailPage() {
                   {route.author.experienceLevel}
                 </span>
               )}
-            </div>
+            </Link>
           </div>
         </div>
       </div>

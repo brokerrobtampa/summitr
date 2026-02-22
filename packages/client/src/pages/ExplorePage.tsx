@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import maplibregl from 'maplibre-gl';
 import { MapContainer } from '../components/map/MapContainer.js';
-import { ACTIVITY_TYPES } from '@summit/shared';
 import * as peaksApi from '../api/peaks.api.js';
 import type { PeakSummary } from '@summit/shared';
 
@@ -101,14 +101,14 @@ export function ExplorePage() {
               </h3>
               <div className="space-y-2">
                 {peaks.slice(0, 20).map((p) => (
-                  <a
+                  <Link
                     key={p.id}
-                    href={`/peaks/${p.id}`}
-                    className="block text-sm hover:bg-gray-50 p-2 rounded"
+                    to={`/peaks/${p.id}`}
+                    className="block text-sm hover:bg-gray-50 p-2 rounded transition-colors"
                   >
                     <span className="font-medium">{p.name}</span>
                     <span className="text-peak-blue ml-1">{p.elevation.toLocaleString()}m</span>
-                  </a>
+                  </Link>
                 ))}
                 {peaks.length > 20 && (
                   <p className="text-xs text-gray-400 px-2">

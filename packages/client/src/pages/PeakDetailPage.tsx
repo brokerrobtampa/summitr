@@ -38,6 +38,15 @@ export function PeakDetailPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
+      {/* Breadcrumb */}
+      <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+        <Link to="/" className="hover:text-peak-blue">Home</Link>
+        <span>/</span>
+        <Link to="/peaks" className="hover:text-peak-blue">Peaks</Link>
+        <span>/</span>
+        <span className="text-gray-900 font-medium truncate max-w-[200px]">{peak.name}</span>
+      </nav>
+
       {/* Hero Image */}
       {peak.imageUrl && (
         <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6">

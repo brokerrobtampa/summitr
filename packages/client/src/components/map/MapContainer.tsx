@@ -4,7 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN as string | undefined;
 
-type LayerMode = 'satellite' | 'topo' | 'street';
+type LayerMode = 'satellite' | 'topo' | 'street' | 'dark';
 
 interface MapContainerProps {
   center?: [number, number];
@@ -14,6 +14,7 @@ interface MapContainerProps {
   onMoveEnd?: (bounds: { north: number; south: number; east: number; west: number }) => void;
   terrain?: boolean;
   showLayerToggle?: boolean;
+  defaultLayer?: LayerMode;
   children?: React.ReactNode;
 }
 
@@ -70,27 +71,27 @@ function buildStyle(layer: LayerMode, terrain: boolean): maplibregl.StyleSpecifi
     } as maplibregl.StyleSpecification;
   }
 
-  if (layer === 'topo') {
+  if (layer === 'dark') {
     return {
       version: 8,
       sources: {
-        opentopo: {
+        'carto-dark': {
           type: 'raster',
-          tiles: ['https://tile.opentopomap.org/{z}/{x}/{y}.png'],
+          tiles: ['https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'],
           tileSize: 256,
-          maxzoom: 17,
+          maxzoom: 20,
           attribution:
-            '&copy; OpenTopoMap &copy; OpenStreetMap contributors',
+            '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         },
         ...terrainSource,
       },
       layers: [
         {
-          id: 'topo-tiles',
+          id: 'dark-tiles',
           type: 'raster',
-          source: 'opentopo',
+          source: 'carto-dark',
           minzoom: 0,
-          maxzoom: 17,
+          maxzoom: 20,
         },
       ],
       terrain: terrain
@@ -99,25 +100,56 @@ function buildStyle(layer: LayerMode, terrain: boolean): maplibregl.StyleSpecifi
     } as maplibregl.StyleSpecification;
   }
 
-  // Default: street / OSM
+  if (layer === 'topo') {
+    return {
+      version: 8,
+      sources: {
+        'carto-light': {
+          type: 'raster',
+          tiles: ['https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png'],
+          tileSize: 256,
+          maxzoom: 20,
+          attribution:
+            '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        },
+        ...terrainSource,
+      },
+      layers: [
+        {
+          id: 'topo-tiles',
+          type: 'raster',
+          source: 'carto-light',
+          minzoom: 0,
+          maxzoom: 20,
+        },
+      ],
+      terrain: terrain
+        ? { source: 'terrainSource', exaggeration: 1.5 }
+        : undefined,
+    } as maplibregl.StyleSpecification;
+  }
+
+  // Default: street / Carto Voyager
   return {
     version: 8,
     sources: {
-      osm: {
+      'carto-voyager': {
         type: 'raster',
-        tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+        tiles: ['https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'],
         tileSize: 256,
-        attribution: '&copy; OpenStreetMap contributors',
+        maxzoom: 20,
+        attribution:
+          '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       },
       ...terrainSource,
     },
     layers: [
       {
-        id: 'osm-tiles',
+        id: 'street-tiles',
         type: 'raster',
-        source: 'osm',
+        source: 'carto-voyager',
         minzoom: 0,
-        maxzoom: 19,
+        maxzoom: 20,
       },
     ],
     terrain: terrain
@@ -130,6 +162,7 @@ const LAYER_LABELS: Record<LayerMode, string> = {
   satellite: 'Satellite',
   topo: 'Topo',
   street: 'Street',
+  dark: 'Dark',
 };
 
 export function MapContainer({
@@ -140,22 +173,23 @@ export function MapContainer({
   onMoveEnd,
   terrain = true,
   showLayerToggle = true,
+  defaultLayer,
 }: MapContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const [isReady, setIsReady] = useState(false);
-  const defaultLayer: LayerMode = MAPBOX_TOKEN ? 'satellite' : 'street';
-  const [activeLayer, setActiveLayer] = useState<LayerMode>(defaultLayer);
+  const initialLayer: LayerMode = defaultLayer ?? (MAPBOX_TOKEN ? 'satellite' : 'street');
+  const [activeLayer, setActiveLayer] = useState<LayerMode>(initialLayer);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: buildStyle(defaultLayer, terrain),
+      style: buildStyle(initialLayer, terrain),
       center,
       zoom,
-      maxZoom: MAPBOX_TOKEN ? 22 : 18,
+      maxZoom: MAPBOX_TOKEN ? 22 : 20,
       maxPitch: 85,
     });
 
@@ -196,8 +230,8 @@ export function MapContainer({
 
   // Available layers (satellite only shown when Mapbox token exists)
   const layers: LayerMode[] = MAPBOX_TOKEN
-    ? ['satellite', 'topo', 'street']
-    : ['street', 'topo'];
+    ? ['satellite', 'street', 'topo', 'dark']
+    : ['street', 'topo', 'dark'];
 
   return (
     <div className={`relative w-full h-full ${className}`}>

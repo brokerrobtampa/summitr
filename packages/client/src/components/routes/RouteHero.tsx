@@ -32,9 +32,9 @@ export function RouteHero({ route }: { route: RouteDetail }) {
                   <span className="text-white/80 text-xs">({route.reviewCount})</span>
                 </div>
               )}
-              <span className="text-white/70 text-sm">
+              <Link to={`/users/${route.author.username}`} className="text-white/70 hover:text-white text-sm transition-colors">
                 by {route.author.displayName || route.author.username}
-              </span>
+              </Link>
             </div>
           </div>
         </div>
@@ -55,9 +55,9 @@ export function RouteHero({ route }: { route: RouteDetail }) {
                 <span className="text-gray-500 text-xs">({route.reviewCount})</span>
               </div>
             )}
-            <span className="text-gray-500 text-sm">
+            <Link to={`/users/${route.author.username}`} className="text-gray-500 hover:text-peak-blue text-sm transition-colors">
               by {route.author.displayName || route.author.username}
-            </span>
+            </Link>
           </div>
         </div>
       )}
