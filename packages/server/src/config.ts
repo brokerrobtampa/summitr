@@ -18,5 +18,4 @@ export const config = {
   googleClientId: process.env.GOOGLE_CLIENT_ID || '',
   facebookAppId: process.env.FACEBOOK_APP_ID || '',
   facebookAppSecret: process.env.FACEBOOK_APP_SECRET || '',
-  appleClientId: process.env.APPLE_CLIENT_ID || '',
 };

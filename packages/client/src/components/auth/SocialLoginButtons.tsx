@@ -24,25 +24,12 @@ declare global {
       ) => void;
     };
     fbAsyncInit?: () => void;
-    AppleID?: {
-      auth: {
-        init: (config: {
-          clientId: string;
-          scope: string;
-          redirectURI: string;
-          usePopup: boolean;
-        }) => void;
-        signIn: () => Promise<{ authorization: { id_token: string } }>;
-      };
-    };
   }
 }
 
 // These are injected at build time from .env or set via server config
 const GOOGLE_CLIENT_ID = (import.meta as any).env?.VITE_GOOGLE_CLIENT_ID || '';
 const FACEBOOK_APP_ID = (import.meta as any).env?.VITE_FACEBOOK_APP_ID || '';
-const APPLE_CLIENT_ID = (import.meta as any).env?.VITE_APPLE_CLIENT_ID || '';
-
 function loadScript(src: string, id: string): Promise<void> {
   return new Promise((resolve, reject) => {
     if (document.getElementById(id)) {
@@ -160,40 +147,6 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
     }
   }, [loginWithOAuth, handleError]);
 
-  // ─── Apple ─────────────────────────────────────────
-  const handleApple = useCallback(async () => {
-    if (!APPLE_CLIENT_ID) {
-      handleError('Apple login is not yet configured. Please use email login for now.');
-      return;
-    }
-
-    setLoadingProvider('apple');
-    try {
-      await loadScript('https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js', 'apple-auth');
-
-      if (!window.AppleID) {
-        handleError('Failed to load Apple Sign-In');
-        return;
-      }
-
-      window.AppleID.auth.init({
-        clientId: APPLE_CLIENT_ID,
-        scope: 'name email',
-        redirectURI: window.location.origin,
-        usePopup: true,
-      });
-
-      const response = await window.AppleID.auth.signIn();
-      await loginWithOAuth('apple', response.authorization.id_token);
-    } catch (err: any) {
-      if (err.error === 'popup_closed_by_user') {
-        setLoadingProvider(null);
-        return;
-      }
-      handleError(err.message || 'Apple login failed');
-    }
-  }, [loginWithOAuth, handleError]);
-
   return (
     <div className="space-y-2.5">
       {/* Google */}
@@ -229,22 +182,6 @@ export function SocialLoginButtons({ onError }: { onError?: (msg: string) => voi
           </svg>
         )}
         Continue with Facebook
-      </button>
-
-      {/* Apple */}
-      <button
-        onClick={handleApple}
-        disabled={loadingProvider !== null}
-        className="w-full flex items-center justify-center gap-3 bg-black rounded-lg px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-900 disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        {loadingProvider === 'apple' ? (
-          <Spinner light />
-        ) : (
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-          </svg>
-        )}
-        Continue with Apple
       </button>
 
       {/* Divider */}
